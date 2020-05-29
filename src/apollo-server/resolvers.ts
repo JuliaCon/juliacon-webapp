@@ -1,4 +1,3 @@
-import { DataSources } from "./DataSources";
 import {
   QueryResolvers,
   SpeakerResolvers,
@@ -6,13 +5,7 @@ import {
 } from "./resolvers-types";
 import { asyncMap } from "../utils/async";
 import { isNonNull } from "../utils/null";
-
-interface ResolverContext {
-  dataSources: DataSources;
-}
-interface Resolvers<T = unknown> {
-  [field: string]: (root: T, args: object, ctx: ResolverContext) => unknown;
-}
+import { Resolvers } from "@apollo/client";
 
 const Query: QueryResolvers = {
   talks: (_root, _args, { dataSources }) => {
@@ -38,8 +31,10 @@ const Talk: TalkResolvers = {
   },
 };
 
-export const resolvers = {
+// Note: we do type assertion because graphql-codegen types are more strict
+// and don't match the very generic types of Apollo's Resolvers type
+export const resolvers: Resolvers = {
   Query,
   Speaker,
   Talk,
-};
+} as any;
