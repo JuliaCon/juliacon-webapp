@@ -5,11 +5,54 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "pre-commit": "lint-staged",
+    "codegen": "graphql-codegen --config codegen.yml",
+    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx --cache --max-warnings 0"
   },
   "dependencies": {
+    "@apollo/client": "^3.0.0-beta.50",
+    "@apollo/react-ssr": "^4.0.0-beta.1",
+    "apollo-datasource-rest": "^0.9.2",
+    "apollo-server-micro": "^2.14.1",
+    "graphql-anywhere": "^4.2.7",
     "next": "^9.3.3",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.15.0",
+    "@graphql-codegen/typescript": "1.15.0",
+    "@graphql-codegen/typescript-operations": "1.15.0",
+    "@graphql-codegen/typescript-react-apollo": "^1.15.0",
+    "@graphql-codegen/typescript-resolvers": "1.15.0",
+    "@types/node": "^14.0.5",
+    "@types/react": "^16.9.35",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-flowtype": "^4.7.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.6",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run pre-commit"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint --cache --fix --max-warnings 0",
+    "*.{js,jsx,ts,tsx,css,md,graphql}": "prettier --write"
   }
 }

@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from "next/head";
+import React from "react";
 
 const Home = () => (
   <div className="container">
@@ -40,9 +41,7 @@ const Home = () => (
           className="card"
         >
           <h3>Deploy &rarr;</h3>
-          <p>
-            Instantly deploy your Next.js site to a public URL with Vercel.
-          </p>
+          <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
         </a>
       </div>
     </main>
@@ -198,6 +197,6 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;
