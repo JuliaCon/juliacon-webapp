@@ -3,7 +3,7 @@ import { gql } from "apollo-server-micro";
 export const typeDefs = gql`
   type Query {
     talk(id: ID!): Talk
-    talks: [Talk!]!
+    talks(day: String, roomId: ID): [Talk!]!
 
     room(id: ID!): Room
     rooms: [Room!]!
@@ -14,6 +14,7 @@ export const typeDefs = gql`
     title: String!
     abstract: String
     description: String
+    day: String!
 
     speakers: [Speaker!]!
     room: Room
@@ -35,6 +36,13 @@ export const typeDefs = gql`
     name: String!
     description: String
 
-    talks: [Talk!]!
+    """
+    The talks scheduled to occur in this room.
+
+    ### Optional Arguments
+    * \`day\` - The conference day to fetch talks for.
+        Must be in format \`YYYY-MM-DD\`.
+    """
+    talks(day: String): [Talk!]!
   }
 `;

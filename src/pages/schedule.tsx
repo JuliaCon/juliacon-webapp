@@ -11,6 +11,7 @@ import { Page } from "../components/layout";
 import { UnstyledButton } from "../components/ui";
 
 import { useArrayChoice } from "../hooks/useArrayChoice";
+import { CONFERENCE_DAYS, ConferenceDay, isConferenceDay } from "../const";
 
 const Schedule: NextPage = () => {
   return (
@@ -22,15 +23,6 @@ const Schedule: NextPage = () => {
 };
 
 export default withApollo()(Schedule);
-
-const CONFERENCE_DAYS = [
-  `2019-07-21`,
-  `2019-07-22`,
-  `2019-07-23`,
-  `2019-07-24`,
-  `2019-07-25`,
-] as const;
-type ConferenceDay = typeof CONFERENCE_DAYS[number];
 
 const DatePicker = () => {
   const day = useArrayChoice(CONFERENCE_DAYS, () => {
@@ -79,8 +71,8 @@ function getClosestConferenceDay(): ConferenceDay {
   const now = new Date();
   const today = `${now.getFullYear()}-${now.getMonth()}-${now.getDate()}`;
 
-  if (CONFERENCE_DAYS.includes(today as ConferenceDay)) {
-    return today as ConferenceDay;
+  if (isConferenceDay(today)) {
+    return today;
   }
 
   if (today < CONFERENCE_DAYS[0]) {

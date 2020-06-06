@@ -1,6 +1,9 @@
-import { TalkResolvers } from "./__types__";
+import { format } from "date-fns";
+
 import { asyncMap } from "../../utils/async";
 import { isNonNull } from "../../utils/null";
+
+import { TalkResolvers } from "./__types__";
 
 export const Talk: TalkResolvers = {
   id: (root) => root.code,
@@ -14,5 +17,9 @@ export const Talk: TalkResolvers = {
     const roomName = root.slot.room["en"];
     if (!roomName) return null;
     return dataSources.pretalx.getRoomByName(roomName);
+  },
+  day: (root) => {
+    const date = new Date(root.slot.start);
+    return format(date, `yyyy-MM-dd`);
   },
 };

@@ -31,6 +31,11 @@ export type QueryTalkArgs = {
   id: Scalars["ID"];
 };
 
+export type QueryTalksArgs = {
+  day?: Maybe<Scalars["String"]>;
+  roomId?: Maybe<Scalars["ID"]>;
+};
+
 export type QueryRoomArgs = {
   id: Scalars["ID"];
 };
@@ -40,7 +45,18 @@ export type Room = {
   readonly id: Scalars["ID"];
   readonly name: Scalars["String"];
   readonly description?: Maybe<Scalars["String"]>;
+  /**
+   * The talks scheduled to occur in this room.
+   *
+   * ### Optional Arguments
+   * * `day` - The conference day to fetch talks for.
+   *     Must be in format `YYYY-MM-DD`.
+   */
   readonly talks: ReadonlyArray<Talk>;
+};
+
+export type RoomTalksArgs = {
+  day?: Maybe<Scalars["String"]>;
 };
 
 export type Speaker = {
@@ -58,6 +74,7 @@ export type Talk = {
   readonly title: Scalars["String"];
   readonly abstract?: Maybe<Scalars["String"]>;
   readonly description?: Maybe<Scalars["String"]>;
+  readonly day: Scalars["String"];
   readonly speakers: ReadonlyArray<Speaker>;
   readonly room?: Maybe<Room>;
 };
@@ -203,7 +220,8 @@ export type QueryResolvers<
   talks?: Resolver<
     ReadonlyArray<ResolversTypes["Talk"]>,
     ParentType,
-    ContextType
+    ContextType,
+    RequireFields<QueryTalksArgs, never>
   >;
   room?: Resolver<
     Maybe<ResolversTypes["Room"]>,
@@ -232,7 +250,8 @@ export type RoomResolvers<
   talks?: Resolver<
     ReadonlyArray<ResolversTypes["Talk"]>,
     ParentType,
-    ContextType
+    ContextType,
+    RequireFields<RoomTalksArgs, never>
   >;
   __isTypeOf?: isTypeOfResolverFn<ParentType>;
 };
@@ -264,6 +283,7 @@ export type TalkResolvers<
     ParentType,
     ContextType
   >;
+  day?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
   speakers?: Resolver<
     ReadonlyArray<ResolversTypes["Speaker"]>,
     ParentType,
