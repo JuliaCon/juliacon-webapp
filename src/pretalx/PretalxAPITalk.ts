@@ -1,14 +1,5 @@
 import { PretalxAPISpeaker } from "./PretalxAPISpeaker";
-
-/**
- * An object whose keys are locales and whose values are the text in that locale.
- *
- * @example
- *   {
- *     "en": "Lightning Talk"
- *   }
- */
-export type LocalizedText = Record<string, string>;
+import { LocalizedText } from "./PretalxAPICommon";
 
 export interface PretalxAPITalk {
   code: string;
@@ -24,7 +15,7 @@ export interface PretalxAPITalk {
   is_featured?: boolean;
   content_locale?: string;
   slot: {
-    room?: LocalizedText;
+    room: LocalizedText;
     start: string;
     end: string;
   };

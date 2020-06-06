@@ -1,5 +1,5 @@
 import { GraphQLResolveInfo } from "graphql";
-import { PretalxAPITalk, PretalxAPISpeaker } from "../pretalx";
+import { PretalxAPITalk, PretalxAPISpeaker, PretalxAPIRoom } from "../pretalx";
 import { ResolverContext } from "./ResolverContext";
 export type Maybe<T> = T | null | undefined;
 export type RequireFields<T, K extends keyof T> = {
@@ -19,10 +19,24 @@ export type Query = {
   readonly __typename?: "Query";
   readonly talk?: Maybe<Talk>;
   readonly talks: ReadonlyArray<Talk>;
+  readonly room?: Maybe<Room>;
+  readonly rooms: ReadonlyArray<Room>;
 };
 
 export type QueryTalkArgs = {
   id: Scalars["ID"];
+};
+
+export type QueryRoomArgs = {
+  id: Scalars["ID"];
+};
+
+export type Room = {
+  readonly __typename?: "Room";
+  readonly id: Scalars["ID"];
+  readonly name: Scalars["String"];
+  readonly description?: Maybe<Scalars["String"]>;
+  readonly talks: ReadonlyArray<Talk>;
 };
 
 export type Speaker = {
@@ -41,6 +55,7 @@ export type Talk = {
   readonly abstract?: Maybe<Scalars["String"]>;
   readonly description?: Maybe<Scalars["String"]>;
   readonly speakers: ReadonlyArray<Speaker>;
+  readonly room?: Maybe<Room>;
 };
 
 export type ResolverTypeWrapper<T> = Promise<T> | T;
@@ -156,6 +171,7 @@ export type ResolversTypes = {
   Talk: ResolverTypeWrapper<PretalxAPITalk>;
   String: ResolverTypeWrapper<Scalars["String"]>;
   Speaker: ResolverTypeWrapper<PretalxAPISpeaker>;
+  Room: ResolverTypeWrapper<PretalxAPIRoom>;
   Boolean: ResolverTypeWrapper<Scalars["Boolean"]>;
 };
 
@@ -166,6 +182,7 @@ export type ResolversParentTypes = {
   Talk: PretalxAPITalk;
   String: Scalars["String"];
   Speaker: PretalxAPISpeaker;
+  Room: PretalxAPIRoom;
   Boolean: Scalars["Boolean"];
 };
 
@@ -184,6 +201,36 @@ export type QueryResolvers<
     ParentType,
     ContextType
   >;
+  room?: Resolver<
+    Maybe<ResolversTypes["Room"]>,
+    ParentType,
+    ContextType,
+    RequireFields<QueryRoomArgs, "id">
+  >;
+  rooms?: Resolver<
+    ReadonlyArray<ResolversTypes["Room"]>,
+    ParentType,
+    ContextType
+  >;
+};
+
+export type RoomResolvers<
+  ContextType = ResolverContext,
+  ParentType extends ResolversParentTypes["Room"] = ResolversParentTypes["Room"]
+> = {
+  id?: Resolver<ResolversTypes["ID"], ParentType, ContextType>;
+  name?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
+  description?: Resolver<
+    Maybe<ResolversTypes["String"]>,
+    ParentType,
+    ContextType
+  >;
+  talks?: Resolver<
+    ReadonlyArray<ResolversTypes["Talk"]>,
+    ParentType,
+    ContextType
+  >;
+  __isTypeOf?: isTypeOfResolverFn<ParentType>;
 };
 
 export type SpeakerResolvers<
@@ -218,11 +265,13 @@ export type TalkResolvers<
     ParentType,
     ContextType
   >;
+  room?: Resolver<Maybe<ResolversTypes["Room"]>, ParentType, ContextType>;
   __isTypeOf?: isTypeOfResolverFn<ParentType>;
 };
 
 export type Resolvers<ContextType = ResolverContext> = {
   Query?: QueryResolvers<ContextType>;
+  Room?: RoomResolvers<ContextType>;
   Speaker?: SpeakerResolvers<ContextType>;
   Talk?: TalkResolvers<ContextType>;
 };

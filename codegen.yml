@@ -15,6 +15,7 @@ generates:
       mappers:
         Talk: "../pretalx#PretalxAPITalk"
         Speaker: "../pretalx#PretalxAPISpeaker"
+        Room: "../pretalx#PretalxAPIRoom"
 #  ./components/graphql.tsx:
 #    documents: "src/components/**/*.ts"
 #    plugins:

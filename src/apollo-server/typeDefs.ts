@@ -4,6 +4,9 @@ export const typeDefs = gql`
   type Query {
     talk(id: ID!): Talk
     talks: [Talk!]!
+
+    room(id: ID!): Room
+    rooms: [Room!]!
   }
 
   type Talk {
@@ -13,6 +16,7 @@ export const typeDefs = gql`
     description: String
 
     speakers: [Speaker!]!
+    room: Room
   }
 
   type Speaker {
@@ -24,5 +28,13 @@ export const typeDefs = gql`
     The URL of the user's upload avatar image.
     """
     avatar: String
+  }
+
+  type Room {
+    id: ID!
+    name: String!
+    description: String
+
+    talks: [Talk!]!
   }
 `;
