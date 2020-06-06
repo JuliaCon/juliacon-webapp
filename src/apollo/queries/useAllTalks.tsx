@@ -4,9 +4,11 @@ import { TalkFragment } from "./useTalk";
 const ALL_TALKS_QUERY = gql`
   query AllTalks {
     talks {
-      ${TalkFragment}
+      ...Talk
     }
   }
+
+  ${TalkFragment}
 `;
 
 interface AllTalksData {
