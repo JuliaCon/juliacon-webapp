@@ -1,7 +1,7 @@
 overwrite: true
 
 generates:
-  ./src/apollo-server/resolvers-types.ts:
+  ./src/apollo-server/resolvers/__types__.ts:
     schema:
       - "./src/apollo-server/typeDefs.ts":
           noRequire: true
@@ -9,13 +9,13 @@ generates:
       - "typescript"
       - "typescript-resolvers"
     config:
-      contextType: "./ResolverContext#ResolverContext"
+      contextType: "../ResolverContext#ResolverContext"
       immutableTypes: true
       maybeValue: T | null | undefined
       mappers:
-        Talk: "../pretalx#PretalxAPITalk"
-        Speaker: "../pretalx#PretalxAPISpeaker"
-        Room: "../pretalx#PretalxAPIRoom"
+        Talk: "../../pretalx#PretalxAPITalk"
+        Speaker: "../../pretalx#PretalxAPISpeaker"
+        Room: "../../pretalx#PretalxAPIRoom"
 #  ./components/graphql.tsx:
 #    documents: "src/components/**/*.ts"
 #    plugins:
