@@ -1,6 +1,6 @@
 import { useArrayChoice } from "../../hooks/useArrayChoice";
 import { CONFERENCE_DAYS, ConferenceDay, isConferenceDay } from "../../const";
-import { format } from "date-fns";
+import { format, parseISO } from "date-fns";
 import { css } from "emotion";
 import { UnstyledButton } from "../ui";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,7 +20,17 @@ export function useConferenceDayPickerState() {
 }
 
 export const ConferenceDayPicker = ({ state }: ConferenceDayPickerProps) => {
-  const dateFormatted = format(new Date(state.value), "EEEE, MMMM d, yyyy");
+  // This is somewhat fragile. We might want to just format dates on the server
+  // side and always UTC (otherwise, the format will respect the users timezone
+  // and dates might wrap: e.g., `new Date("2019-07-26")` is formatted as
+  // `Thursday, July 25, 2019` (for me, in Eastern time) because the `Date`
+  // is instantiated at midnight UTC, which is 8pm Eastern (on the previous
+  // day).
+  // The fix here is using parseISO, which will parse the date in the user's
+  // timezone, but that seems a bit fragile, especially because everything in
+  // Node land is done in UTC while everything in the frontend is done in the
+  // browser's timezone.
+  const dateFormatted = format(parseISO(state.value), "EEEE, MMMM d, yyyy");
 
   return (
     <div
