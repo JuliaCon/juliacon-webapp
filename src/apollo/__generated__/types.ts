@@ -23,6 +23,7 @@ export type QueryTalkArgs = {
 export type QueryTalksArgs = {
   day?: Maybe<Scalars["String"]>;
   roomId?: Maybe<Scalars["ID"]>;
+  talkType?: Maybe<TalkType>;
 };
 
 export type QueryRoomArgs = {
@@ -64,6 +65,19 @@ export type Talk = {
   abstract?: Maybe<Scalars["String"]>;
   description?: Maybe<Scalars["String"]>;
   day: Scalars["String"];
+  type: TalkType;
   speakers: Array<Speaker>;
   room?: Maybe<Room>;
 };
+
+export enum TalkType {
+  BirdsOfFeather = "BIRDS_OF_FEATHER",
+  Break = "BREAK",
+  Keynote = "KEYNOTE",
+  LightningTalk = "LIGHTNING_TALK",
+  Minisymposium = "MINISYMPOSIUM",
+  SponsorAddress = "SPONSOR_ADDRESS",
+  Talk = "TALK",
+  WorkshopFullDay = "WORKSHOP_FULL_DAY",
+  WorkshopHalfDay = "WORKSHOP_HALF_DAY",
+}

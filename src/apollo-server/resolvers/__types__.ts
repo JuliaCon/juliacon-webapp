@@ -34,6 +34,7 @@ export type QueryTalkArgs = {
 export type QueryTalksArgs = {
   day?: Maybe<Scalars["String"]>;
   roomId?: Maybe<Scalars["ID"]>;
+  talkType?: Maybe<TalkType>;
 };
 
 export type QueryRoomArgs = {
@@ -75,9 +76,22 @@ export type Talk = {
   readonly abstract?: Maybe<Scalars["String"]>;
   readonly description?: Maybe<Scalars["String"]>;
   readonly day: Scalars["String"];
+  readonly type: TalkType;
   readonly speakers: ReadonlyArray<Speaker>;
   readonly room?: Maybe<Room>;
 };
+
+export enum TalkType {
+  BirdsOfFeather = "BIRDS_OF_FEATHER",
+  Break = "BREAK",
+  Keynote = "KEYNOTE",
+  LightningTalk = "LIGHTNING_TALK",
+  Minisymposium = "MINISYMPOSIUM",
+  SponsorAddress = "SPONSOR_ADDRESS",
+  Talk = "TALK",
+  WorkshopFullDay = "WORKSHOP_FULL_DAY",
+  WorkshopHalfDay = "WORKSHOP_HALF_DAY",
+}
 
 export type ResolverTypeWrapper<T> = Promise<T> | T;
 
@@ -191,6 +205,7 @@ export type ResolversTypes = {
   ID: ResolverTypeWrapper<Scalars["ID"]>;
   Talk: ResolverTypeWrapper<PretalxAPITalk>;
   String: ResolverTypeWrapper<Scalars["String"]>;
+  TalkType: TalkType;
   Speaker: ResolverTypeWrapper<PretalxAPISpeaker>;
   Room: ResolverTypeWrapper<PretalxAPIRoom>;
   Boolean: ResolverTypeWrapper<Scalars["Boolean"]>;
@@ -202,6 +217,7 @@ export type ResolversParentTypes = {
   ID: Scalars["ID"];
   Talk: PretalxAPITalk;
   String: Scalars["String"];
+  TalkType: TalkType;
   Speaker: PretalxAPISpeaker;
   Room: PretalxAPIRoom;
   Boolean: Scalars["Boolean"];
@@ -284,6 +300,7 @@ export type TalkResolvers<
     ContextType
   >;
   day?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
+  type?: Resolver<ResolversTypes["TalkType"], ParentType, ContextType>;
   speakers?: Resolver<
     ReadonlyArray<ResolversTypes["Speaker"]>,
     ParentType,

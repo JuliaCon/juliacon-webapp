@@ -3,7 +3,7 @@ import { gql } from "apollo-server-micro";
 export const typeDefs = gql`
   type Query {
     talk(id: ID!): Talk
-    talks(day: String, roomId: ID): [Talk!]!
+    talks(day: String, roomId: ID, talkType: TalkType): [Talk!]!
 
     room(id: ID!): Room
     rooms: [Room!]!
@@ -15,6 +15,7 @@ export const typeDefs = gql`
     abstract: String
     description: String
     day: String!
+    type: TalkType!
 
     speakers: [Speaker!]!
     room: Room
@@ -44,5 +45,17 @@ export const typeDefs = gql`
         Must be in format \`YYYY-MM-DD\`.
     """
     talks(day: String): [Talk!]!
+  }
+
+  enum TalkType {
+    BIRDS_OF_FEATHER
+    BREAK
+    KEYNOTE
+    LIGHTNING_TALK
+    MINISYMPOSIUM
+    SPONSOR_ADDRESS
+    TALK
+    WORKSHOP_FULL_DAY
+    WORKSHOP_HALF_DAY
   }
 `;

@@ -1,13 +1,13 @@
 import { PretalxAPISpeaker } from "./PretalxAPISpeaker";
-import { LocalizedText } from "./PretalxAPICommon";
+import { getText, LocalizedText } from "./PretalxAPICommon";
 import { ConferenceDay } from "../const";
 import { filterCriteria } from "../utils/filter";
+import { isNonNull } from "../utils/null";
 
 export interface PretalxAPITalk {
   code: string;
   speakers: readonly PretalxAPISpeaker[];
   title: string;
-  submission_type: LocalizedText;
   track?: string | null;
   state?: "accepted" | "confirmed" | "rejected" | "submitted";
   abstract: string;
@@ -22,6 +22,10 @@ export interface PretalxAPITalk {
     end: string;
   };
   slot_count?: number;
+
+  // For some reason, the Pretalx API returns a plain string only for the
+  // "Talk" submisison type.
+  submission_type: LocalizedText | string;
 }
 
 export function sortTalksByTime(talks: readonly PretalxAPITalk[]) {
@@ -33,14 +37,17 @@ export function sortTalksByTime(talks: readonly PretalxAPITalk[]) {
 interface FilterTalksCriteria {
   day?: ConferenceDay | null | "";
   roomName?: string | null;
+  submissionType?: string | null;
 }
 export function filterTalks(
   talks: readonly PretalxAPITalk[],
   criteria: FilterTalksCriteria
 ) {
-  const { day, roomName } = criteria;
+  const { day, roomName, submissionType } = criteria;
   return filterCriteria(talks, [
     day && ((talk) => talk.slot.start.startsWith(day)),
     roomName && ((talk) => talk.slot.room["en"] === roomName),
+    isNonNull(submissionType) &&
+      ((talk) => getText(talk.submission_type) === submissionType),
   ]);
 }

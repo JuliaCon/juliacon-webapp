@@ -1,7 +1,9 @@
-import { QueryResolvers } from "./__types__";
+import { assertConferenceDay } from "../../const";
 import { filterTalks } from "../../pretalx";
 import { nullthrows } from "../../utils/invariant";
-import { assertConferenceDay } from "../../const";
+
+import { talkTypeToSubmissionType } from "../utils";
+import { QueryResolvers } from "./__types__";
 
 export const Query: QueryResolvers = {
   talks: async (_root, args, { dataSources }) => {
@@ -14,9 +16,11 @@ export const Query: QueryResolvers = {
       roomName = nullthrows(room.name["en"]);
     }
 
+    const { talkType } = args;
     return filterTalks(talks, {
       day: args.day ? assertConferenceDay(args.day) : undefined,
       roomName,
+      submissionType: talkType && talkTypeToSubmissionType(talkType),
     });
   },
 
