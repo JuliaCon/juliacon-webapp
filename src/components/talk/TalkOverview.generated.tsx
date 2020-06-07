@@ -10,38 +10,47 @@ export type TalkOverviewQueryVariables = {
 
 export type TalkOverviewQuery = { readonly __typename?: "Query" } & {
   readonly talk?: Types.Maybe<
-    { readonly __typename?: "Talk" } & Pick<
-      Types.Talk,
-      "title" | "abstract" | "type"
-    > & {
-        readonly room?: Types.Maybe<
-          { readonly __typename?: "Room" } & Pick<Types.Room, "name">
-        >;
-        readonly speakers: ReadonlyArray<
-          { readonly __typename?: "Speaker" } & Pick<
-            Types.Speaker,
-            "name" | "avatar"
-          >
-        >;
-      }
+    { readonly __typename?: "Talk" } & TalkOverviewFragment
   >;
 };
 
+export type TalkOverviewFragment = { readonly __typename?: "Talk" } & Pick<
+  Types.Talk,
+  "id" | "title" | "abstract" | "type"
+> & {
+    readonly room?: Types.Maybe<
+      { readonly __typename?: "Room" } & Pick<Types.Room, "name">
+    >;
+    readonly speakers: ReadonlyArray<
+      { readonly __typename?: "Speaker" } & Pick<
+        Types.Speaker,
+        "name" | "avatar"
+      >
+    >;
+  };
+
+export const TalkOverviewFragmentDoc = gql`
+  fragment TalkOverview on Talk {
+    id
+    title
+    abstract
+    type
+    room {
+      name
+    }
+    speakers {
+      name
+      avatar
+    }
+  }
+`;
 export const TalkOverviewDocument = gql`
   query TalkOverview($id: ID!) {
     talk(id: $id) {
-      title
-      abstract
-      type
-      room {
-        name
-      }
-      speakers {
-        name
-        avatar
-      }
+      ...TalkOverview
     }
   }
+  ${TalkOverviewFragmentDoc}
 `;
 
 /**

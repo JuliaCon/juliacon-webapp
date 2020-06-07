@@ -1,0 +1,5 @@
+query AgendaTalksList($conferenceDay: String!) {
+  talks(day: $conferenceDay) {
+    ...TalkOverview
+  }
+}

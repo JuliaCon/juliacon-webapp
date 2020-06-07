@@ -1,15 +1,19 @@
 query TalkOverview($id: ID!) {
   talk(id: $id) {
-    id
-    title
-    abstract
-    type
-    room {
-      name
-    }
-    speakers {
-      name
-      avatar
-    }
+    ...TalkOverview
+  }
+}
+
+fragment TalkOverview on Talk {
+  id
+  title
+  abstract
+  type
+  room {
+    name
+  }
+  speakers {
+    name
+    avatar
   }
 }
