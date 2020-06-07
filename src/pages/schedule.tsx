@@ -7,7 +7,7 @@ import { faCaretRight } from "@fortawesome/free-solid-svg-icons/faCaretRight";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { withApollo } from "../apollo";
-import { Page } from "../components/layout";
+import { Page } from "../components/site";
 import { UnstyledButton } from "../components/ui";
 
 import { useArrayChoice } from "../hooks/useArrayChoice";

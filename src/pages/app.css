@@ -1,0 +1,17 @@
+/* Theme variables */
+:root {
+  --julia-purple: #9558b2;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  cursor: pointer;
+}

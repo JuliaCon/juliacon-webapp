@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import React from "react";
 
 import { withApollo } from "../../apollo";
-import { Page } from "../../components/layout";
+import { Page } from "../../components/site";
 import { DiscordEmbed } from "../../components/discord";
 import { css } from "emotion";
 
