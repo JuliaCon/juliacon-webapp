@@ -7,7 +7,6 @@ import React from "react";
 export const TalkPage: NextPage = () => {
   const router = useRouter();
   const { id } = router.query;
-  console.log({ id });
   if (typeof id !== "string") {
     return <p>"Not Found"</p>;
   }

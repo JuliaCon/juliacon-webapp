@@ -19,7 +19,6 @@ export function useArrayChoice<T>(
 
   const incr = React.useCallback(
     (n: number) => {
-      console.log("incr", n);
       _setIndex((index) => truncateIndex(index + n));
     },
     [truncateIndex]

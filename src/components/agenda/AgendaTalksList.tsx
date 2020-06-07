@@ -21,7 +21,7 @@ export const AgendaTalksList: React.FC<AgendaTalksListProps> = ({
   return (
     <div>
       {talks.map((talk) => (
-        <TalkOverview id={talk.id} />
+        <TalkOverview id={talk.id} key={talk.id} />
       ))}
     </div>
   );
