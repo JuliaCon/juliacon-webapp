@@ -16,7 +16,7 @@ export type TalkOverviewQuery = { readonly __typename?: "Query" } & {
 
 export type TalkOverviewFragment = { readonly __typename?: "Talk" } & Pick<
   Types.Talk,
-  "id" | "title" | "abstract" | "type"
+  "id" | "title" | "abstract" | "type" | "startTime" | "endTime"
 > & {
     readonly room?: Types.Maybe<
       { readonly __typename?: "Room" } & Pick<Types.Room, "name">
@@ -35,6 +35,8 @@ export const TalkOverviewFragmentDoc = gql`
     title
     abstract
     type
+    startTime
+    endTime
     room {
       name
     }

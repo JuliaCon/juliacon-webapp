@@ -77,6 +77,10 @@ export type Talk = {
   readonly description?: Maybe<Scalars["String"]>;
   readonly day: Scalars["String"];
   readonly type: TalkType;
+  /** The start time of the talk (as an ISO 8601 formatted timestamp). */
+  readonly startTime: Scalars["String"];
+  /** The end time of the talk (as an ISO 8601 formatted timestamp). */
+  readonly endTime: Scalars["String"];
   readonly speakers: ReadonlyArray<Speaker>;
   readonly room?: Maybe<Room>;
 };
@@ -301,6 +305,8 @@ export type TalkResolvers<
   >;
   day?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
   type?: Resolver<ResolversTypes["TalkType"], ParentType, ContextType>;
+  startTime?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
+  endTime?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
   speakers?: Resolver<
     ReadonlyArray<ResolversTypes["Speaker"]>,
     ParentType,

@@ -9,6 +9,8 @@ import { TalkResolvers } from "./__types__";
 
 export const Talk: TalkResolvers = {
   id: (root) => root.code,
+  startTime: (root) => root.slot.start,
+  endTime: (root) => root.slot.end,
 
   speakers: async (root, _args, { dataSources }) => {
     const speakers = await asyncMap(root.speakers, (speaker) =>

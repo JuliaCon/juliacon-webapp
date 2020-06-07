@@ -9,6 +9,8 @@ fragment TalkOverview on Talk {
   title
   abstract
   type
+  startTime
+  endTime
   room {
     name
   }

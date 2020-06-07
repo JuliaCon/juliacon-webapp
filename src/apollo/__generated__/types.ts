@@ -66,6 +66,10 @@ export type Talk = {
   description?: Maybe<Scalars["String"]>;
   day: Scalars["String"];
   type: TalkType;
+  /** The start time of the talk (as an ISO 8601 formatted timestamp). */
+  startTime: Scalars["String"];
+  /** The end time of the talk (as an ISO 8601 formatted timestamp). */
+  endTime: Scalars["String"];
   speakers: Array<Speaker>;
   room?: Maybe<Room>;
 };

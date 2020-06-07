@@ -2,6 +2,7 @@ import React from "react";
 import { useTalkOverviewQuery } from "./TalkOverview.generated";
 import { VSpace } from "../layout";
 import { css } from "emotion";
+import { TimeRangeFormatted } from "../date";
 
 export interface TalkOverviewProps {
   children?: never;
@@ -17,7 +18,15 @@ export const TalkOverview: React.FC<TalkOverviewProps> = ({ id }) => {
     return <p>Oh no! We couldn't load this talk right now.</p>;
   }
 
-  const { title, abstract, room, type, speakers } = data.talk;
+  const {
+    title,
+    abstract,
+    room,
+    type,
+    speakers,
+    startTime,
+    endTime,
+  } = data.talk;
   return (
     <div
       className={css`
@@ -31,6 +40,9 @@ export const TalkOverview: React.FC<TalkOverviewProps> = ({ id }) => {
       >
         {title}
       </h4>
+      <p>
+        <TimeRangeFormatted start={startTime} end={endTime} />
+      </p>
       <VSpace />
       <p>{abstract}</p>
       <VSpace />

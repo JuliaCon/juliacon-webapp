@@ -17,6 +17,16 @@ export const typeDefs = gql`
     day: String!
     type: TalkType!
 
+    """
+    The start time of the talk (as an ISO 8601 formatted timestamp).
+    """
+    startTime: String!
+
+    """
+    The end time of the talk (as an ISO 8601 formatted timestamp).
+    """
+    endTime: String!
+
     speakers: [Speaker!]!
     room: Room
   }
