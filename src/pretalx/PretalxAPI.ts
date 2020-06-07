@@ -35,18 +35,21 @@ export class PretalxAPI extends RESTDataSource {
     return speakers.find((speaker) => speaker.code === id) || null;
   }
 
-  async getAllTalks() {
+  async getAllTalks(): Promise<readonly PretalxAPITalk[]> {
     // Preemptively fetch the list of speakers as well (since it's likely we'll
     // need access to that too in the near future)
     this.getAllSpeakers().then(() => void 0);
 
     interface Response {
-      results: readonly PretalxAPITalk[];
+      results: PretalxAPITalk[];
     }
     const response = await this.get<Response>("talks", {
       limit: 500,
     });
-    return response.results;
+    return response.results.sort(
+      (a, b) =>
+        new Date(a.slot.start).getTime() - new Date(b.slot.start).getTime()
+    );
   }
 
   async getTalk(id: string) {
