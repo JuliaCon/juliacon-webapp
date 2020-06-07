@@ -26,7 +26,6 @@ export function getApollo(ctx: NextPageContext): Apollo {
 }
 
 function getAPIHost(ctx: NextPageContext) {
-  console.log(`getAPIHost`);
   if (typeof window !== "undefined") {
     const { protocol, host } = window.location;
     return `${protocol}//${host}`;

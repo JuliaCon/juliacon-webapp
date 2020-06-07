@@ -1,10 +1,12 @@
 overwrite: true
 
+schema:
+  - "./src/apollo-server/typeDefs.ts":
+      noRequire: true
+
 generates:
+  # Generate types for the resolvers (for the backend)
   ./src/apollo-server/resolvers/__types__.ts:
-    schema:
-      - "./src/apollo-server/typeDefs.ts":
-          noRequire: true
     plugins:
       - "typescript"
       - "typescript-resolvers"
@@ -16,8 +18,30 @@ generates:
         Talk: "../../pretalx#PretalxAPITalk"
         Speaker: "../../pretalx#PretalxAPISpeaker"
         Room: "../../pretalx#PretalxAPIRoom"
-#  ./components/graphql.tsx:
-#    documents: "src/components/**/*.ts"
-#    plugins:
-#      - "typescript"
-#      - "typescript-operations"
+
+  # Generate types for the GraphQL objects for the frontend
+  ./src/apollo/__generated__/types.ts:
+    plugins:
+      - typescript
+
+  # Generate fully typed React hooks corresponding to the written operations
+  # (i.e., queries/mutations) for the frontend
+  ./src/:
+    documents: "./src/components/**/*.graphql"
+    preset: near-operation-file
+    presetConfig:
+      extension: ".generated.tsx"
+      baseTypesPath: "apollo/__generated__/types.ts"
+    plugins:
+      - typescript-operations
+      - typescript-react-apollo
+    config:
+      immutableTypes: true
+      reactApolloVersion: 3
+      withComponent: false
+      withHOC: false
+      withHooks: true
+
+hooks:
+  afterAllFileWrite:
+    - prettier --write

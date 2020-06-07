@@ -1,0 +1,10 @@
+query TalkOverview($id: ID!) {
+  talk(id: $id) {
+    title
+    abstract
+    speakers {
+      name
+      avatar
+    }
+  }
+}
