@@ -1,53 +1,53 @@
-import { PretalxAPISpeaker } from "./PretalxAPISpeaker";
-import { getText, LocalizedText } from "./PretalxAPICommon";
+import { getText } from "./PretalxAPICommon";
 import { ConferenceDay } from "../const";
 import { filterCriteria } from "../utils/filter";
 import { isNonNull } from "../utils/null";
 
-export interface PretalxAPITalk {
-  code: string;
-  speakers: readonly PretalxAPISpeaker[];
-  title: string;
-  track?: string | null;
-  state?: "accepted" | "confirmed" | "rejected" | "submitted";
-  abstract: string;
-  description: string;
-  duration?: string;
-  do_not_record?: boolean;
-  is_featured?: boolean;
-  content_locale?: string;
-  slot: {
-    room: LocalizedText;
-    start: string;
-    end: string;
-  };
-  slot_count?: number;
+import talksData from "../../data/talks.json";
+import { pick } from "../utils/pick";
+import { nullthrows } from "../utils/invariant";
+import { getRoomIdFromName } from "./PretalxAPIRoom";
 
-  // For some reason, the Pretalx API returns a plain string only for the
-  // "Talk" submisison type.
-  submission_type: LocalizedText | string;
-}
+export type PretalxAPITalk = typeof ALL_TALKS[number];
+
+export const ALL_TALKS = talksData.map((talk) => ({
+  ...pick(talk, ["abstract", "description", "duration", "title"]),
+  id: talk.code,
+  // Type assertion necessary here because TS gets tripped up
+  speakerIds: (talk.speakers as Array<{ code: string }>).map((s) => s.code),
+  startTime: talk.slot.start,
+  endTime: talk.slot.end,
+  roomId: nullthrows(
+    getRoomIdFromName(talk.slot.room["en"]),
+    `Failed to find matching room for talk`
+  ),
+  submissionType: getText(talk.submission_type),
+  isFeatured: talk.is_featured,
+}));
+ALL_TALKS.sort(
+  (a, b) => new Date(a.startTime).getTime() - new Date(b.startTime).getTime()
+);
 
 export function sortTalksByTime(talks: readonly PretalxAPITalk[]) {
   return [...talks].sort((a, b) => {
-    return new Date(a.slot.start).getTime() - new Date(b.slot.end).getTime();
+    return new Date(a.startTime).getTime() - new Date(b.endTime).getTime();
   });
 }
 
 interface FilterTalksCriteria {
   day?: ConferenceDay | null | "";
-  roomName?: string | null;
+  roomId?: string | null;
   submissionType?: string | null;
 }
 export function filterTalks(
   talks: readonly PretalxAPITalk[],
   criteria: FilterTalksCriteria
 ) {
-  const { day, roomName, submissionType } = criteria;
+  const { day, roomId, submissionType } = criteria;
   return filterCriteria(talks, [
-    day && ((talk) => talk.slot.start.startsWith(day)),
-    roomName && ((talk) => talk.slot.room["en"] === roomName),
+    day && ((talk) => talk.startTime.startsWith(day)),
+    roomId && ((talk) => talk.roomId === roomId),
     isNonNull(submissionType) &&
-      ((talk) => getText(talk.submission_type) === submissionType),
+      ((talk) => talk.submissionType === submissionType),
   ]);
 }

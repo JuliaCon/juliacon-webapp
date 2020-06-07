@@ -2,3 +2,5 @@ package-lock.json -diff
 *.generated.* -diff
 **/__generated__/** -diff
 __types__.ts -diff
+data/*.json -diff
+Manifest.toml -diff

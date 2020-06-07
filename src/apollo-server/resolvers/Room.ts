@@ -1,12 +1,9 @@
 import { RoomResolvers } from "./__types__";
-import { nullthrows } from "../../utils/invariant";
 import { filterTalks } from "../../pretalx";
 import { ConferenceDay, isConferenceDay } from "../../const";
 
 export const Room: RoomResolvers = {
   id: (root) => String(root.id),
-  name: (root) => nullthrows(root.name["en"], `Failed to load room name`),
-  description: (root) => root.description["en"],
   talks: async (root, { day }, { dataSources }) => {
     const talks = await dataSources.pretalx.getAllTalks();
 
@@ -15,7 +12,7 @@ export const Room: RoomResolvers = {
     }
 
     return filterTalks(talks, {
-      roomName: root.name["en"],
+      roomId: root.id,
       day: day as ConferenceDay | null,
     });
   },

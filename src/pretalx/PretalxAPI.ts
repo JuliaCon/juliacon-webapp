@@ -1,93 +1,40 @@
-import { RESTDataSource } from "apollo-datasource-rest";
+import { ALL_ROOMS } from "./PretalxAPIRoom";
+import { ALL_SPEAKERS } from "./PretalxAPISpeaker";
+import { ALL_TALKS } from "./PretalxAPITalk";
 
-import { PRETALX_API_URL } from "./pretalx";
-import { PretalxAPISpeaker } from "./PretalxAPISpeaker";
-import { PretalxAPITalk } from "./PretalxAPITalk";
-import { PretalxAPIRoom } from "./PretalxAPIRoom";
-
-const CACHE_TTL = 60 * 10;
-
-export class PretalxAPI extends RESTDataSource {
-  baseURL = PRETALX_API_URL;
-
-  get: RESTDataSource["get"] = async (path, params, options) => {
-    return super.get(path, params, {
-      ...options,
-      cacheOptions: {
-        ttl: CACHE_TTL,
-        ...options?.cacheOptions,
-      },
-    });
-  };
-
+export class PretalxAPI {
   async getAllSpeakers() {
-    interface Response {
-      results: readonly PretalxAPISpeaker[];
-    }
-    const response = await this.get<Response>("speakers", {
-      limit: 500,
-    });
-    return response.results;
+    return ALL_SPEAKERS;
   }
 
   async getSpeaker(id: string) {
-    const speakers = await this.getAllSpeakers();
-    return speakers.find((speaker) => speaker.code === id) || null;
+    return (
+      (await this.getAllSpeakers()).find((speaker) => speaker.id === id) || null
+    );
   }
 
-  async getAllTalks(): Promise<readonly PretalxAPITalk[]> {
+  async getAllTalks() {
     // Preemptively fetch the list of speakers as well (since it's likely we'll
     // need access to that too in the near future)
     this.getAllSpeakers().then(() => void 0);
 
-    interface Response {
-      results: PretalxAPITalk[];
-    }
-    const response = await this.get<Response>("talks", {
-      limit: 500,
-    });
-    return response.results.sort(
-      (a, b) =>
-        new Date(a.slot.start).getTime() - new Date(b.slot.start).getTime()
-    );
+    return ALL_TALKS;
   }
 
   async getTalk(id: string) {
     const allTalks = await this.getAllTalks();
-    return allTalks.find((talk) => talk.code === id);
+    return allTalks.find((talk) => talk.id === id);
   }
 
   async getAllRooms() {
     // Preemptively fetch the list of talks (we'll need those soon anyway)
     this.getAllTalks().then(() => void 0);
 
-    interface Response {
-      count: number;
-      results: readonly PretalxAPIRoom[];
-    }
-    const response = await this.get<Response>("rooms", {
-      limit: 500,
-    });
-    return response.results.map((room) => ({
-      ...room,
-      // Convert room id to string for consistency
-      id: String(room.id),
-    }));
+    return ALL_ROOMS;
   }
 
   async getRoom(id: string) {
     const rooms = await this.getAllRooms();
     return rooms.find((room) => room.id === id);
-  }
-
-  /**
-   * Find a given room given it's (English) name.
-   *
-   * This is necessary since the Pretalx API `talks` endpoint only includes the
-   * room's name (not it's id).
-   */
-  async getRoomByName(name: string) {
-    const allRooms = await this.getAllRooms();
-    return allRooms.find((room) => room.name["en"] === name);
   }
 }

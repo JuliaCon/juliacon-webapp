@@ -1,0 +1,110 @@
+[
+ {
+  "name": {
+   "en": "Elm A"
+  },
+  "id": 83,
+  "position": null,
+  "description": {},
+  "url": "/orga/event/juliacon2019/schedule/rooms/83/",
+  "capacity": 220
+ },
+ {
+  "name": {
+   "en": "Elm B"
+  },
+  "id": 84,
+  "position": null,
+  "description": {},
+  "url": "/orga/event/juliacon2019/schedule/rooms/84/",
+  "capacity": 120
+ },
+ {
+  "name": {
+   "en": "NS Room 130"
+  },
+  "id": 86,
+  "position": null,
+  "description": {
+   "en": "In the Nursing School"
+  },
+  "url": "/orga/event/juliacon2019/schedule/rooms/86/",
+  "capacity": 470
+ },
+ {
+  "name": {
+   "en": "Room 349"
+  },
+  "id": 85,
+  "position": null,
+  "description": {
+   "en": "Upstairs"
+  },
+  "url": "/orga/event/juliacon2019/schedule/rooms/85/",
+  "capacity": 224
+ },
+ {
+  "name": {
+   "en": "Other"
+  },
+  "id": 99,
+  "position": null,
+  "description": {
+   "en": "Everything else. See Descriptions for Locations"
+  },
+  "url": "/orga/event/juliacon2019/schedule/rooms/99/",
+  "capacity": 10000
+ },
+ {
+  "name": {
+   "en": "PH 103N"
+  },
+  "id": 88,
+  "position": null,
+  "description": {},
+  "url": "/orga/event/juliacon2019/schedule/rooms/88/",
+  "capacity": 200
+ },
+ {
+  "name": {
+   "en": "PH 111N"
+  },
+  "id": 89,
+  "position": null,
+  "description": {},
+  "url": "/orga/event/juliacon2019/schedule/rooms/89/",
+  "capacity": 81
+ },
+ {
+  "name": {
+   "en": "PH 203N"
+  },
+  "id": 90,
+  "position": null,
+  "description": {},
+  "url": "/orga/event/juliacon2019/schedule/rooms/90/",
+  "capacity": 200
+ },
+ {
+  "name": {
+   "en": "PH 211N"
+  },
+  "id": 91,
+  "position": null,
+  "description": {},
+  "url": "/orga/event/juliacon2019/schedule/rooms/91/",
+  "capacity": 74
+ },
+ {
+  "name": {
+   "en": "BoF: Room 353"
+  },
+  "id": 92,
+  "position": null,
+  "description": {
+   "en": "Birds of Feather"
+  },
+  "url": "/orga/event/juliacon2019/schedule/rooms/92/",
+  "capacity": 100
+ }
+]
