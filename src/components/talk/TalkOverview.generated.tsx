@@ -12,8 +12,11 @@ export type TalkOverviewQuery = { readonly __typename?: "Query" } & {
   readonly talk?: Types.Maybe<
     { readonly __typename?: "Talk" } & Pick<
       Types.Talk,
-      "title" | "abstract"
+      "title" | "abstract" | "type"
     > & {
+        readonly room?: Types.Maybe<
+          { readonly __typename?: "Room" } & Pick<Types.Room, "name">
+        >;
         readonly speakers: ReadonlyArray<
           { readonly __typename?: "Speaker" } & Pick<
             Types.Speaker,
@@ -29,6 +32,10 @@ export const TalkOverviewDocument = gql`
     talk(id: $id) {
       title
       abstract
+      type
+      room {
+        name
+      }
       speakers {
         name
         avatar
