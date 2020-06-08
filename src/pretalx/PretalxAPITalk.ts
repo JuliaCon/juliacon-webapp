@@ -28,6 +28,8 @@ ALL_TALKS.sort(
   (a, b) => new Date(a.startTime).getTime() - new Date(b.startTime).getTime()
 );
 
+console.log(`Have ${ALL_TALKS.length} talks`);
+
 export function sortTalksByTime(talks: readonly PretalxAPITalk[]) {
   return [...talks].sort((a, b) => {
     return new Date(a.startTime).getTime() - new Date(b.endTime).getTime();

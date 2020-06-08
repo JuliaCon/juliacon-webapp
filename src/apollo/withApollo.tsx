@@ -89,12 +89,14 @@ export const withApollo = ({ ssr = true } = {}) => (
         const { getDataFromTree } = await import("@apollo/react-ssr");
         const apolloClient = getApollo(ctx);
 
+        console.log("Getting data from React tree...");
         try {
           // We discard the result here since all we really care about is that
           // it populates the Apollo cache
           await getDataFromTree(
             <AppTree pageProps={{ ...initProps, apolloClient }} />
           );
+          console.log("Fetched all data for React tree!");
         } catch (error) {
           // An error in SSR shouldn't cause the page to return an error
           console.error("Error while running `getDataFromTree`", error);
