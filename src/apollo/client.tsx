@@ -1,5 +1,6 @@
 import {
   ApolloClient,
+  ApolloLink,
   HttpLink,
   InMemoryCache,
   NormalizedCacheObject,
@@ -20,15 +21,17 @@ export type Apollo = ApolloClient<NormalizedCacheObject>;
 interface CreateApolloClientArgs {
   data?: NormalizedCacheObject;
   ssrMode?: boolean;
-  host?: string;
+  link?: ApolloLink;
 }
 
 export function createApolloClient(args: CreateApolloClientArgs = {}): Apollo {
-  const { data, host, ssrMode } = args;
+  const { data, ssrMode = false } = args;
 
-  const link = new HttpLink({
-    uri: `${host || ""}/api/graphql`,
-  });
+  const link =
+    args.link ||
+    new HttpLink({
+      uri: `/api/graphql`,
+    });
 
   const cache = new InMemoryCache({
     typePolicies,

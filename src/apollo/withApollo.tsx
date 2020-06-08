@@ -5,6 +5,7 @@ import { NextPage, NextPageContext } from "next";
 import Head from "next/head";
 import React from "react";
 import { ApolloProvider, NormalizedCacheObject } from "@apollo/client";
+
 import { Apollo, createApolloClient } from "./client";
 
 declare module "next" {
@@ -15,25 +16,8 @@ declare module "next" {
 }
 
 export function getApollo(ctx: NextPageContext): Apollo {
-  if (ctx.apolloClient) {
-    return ctx.apolloClient;
-  }
-  const host = getAPIHost(ctx);
-  return (ctx.apolloClient = createApolloClient({
-    ssrMode: !!ctx.req,
-    host,
-  }));
-}
-
-function getAPIHost(ctx: NextPageContext) {
-  if (typeof window !== "undefined") {
-    const { protocol, host } = window.location;
-    return `${protocol}//${host}`;
-  }
-  if (ctx.req) {
-    return `http://localhost:${ctx.req.socket.localPort}`;
-  }
-  return "";
+  if (ctx.apolloClient) return ctx.apolloClient;
+  return (ctx.apolloClient = createApolloClient());
 }
 
 /**
@@ -83,20 +67,24 @@ export const withApollo = ({ ssr = true } = {}) => (
         return initProps;
       }
 
-      if (ssr && AppTree) {
+      if (__SERVER__ && ssr && AppTree) {
         // This is a dynamic import to avoid including the contents of the
         // library in the frontend bundle
         const { getDataFromTree } = await import("@apollo/react-ssr");
-        const apolloClient = getApollo(ctx);
+        const { createApolloSSRClient } = await import(
+          "../apollo-server/createApolloSSRClient"
+        );
 
-        console.log("Getting data from React tree...");
+        const apolloClient = ctx.apolloClient
+          ? ctx.apolloClient
+          : (ctx.apolloClient = await createApolloSSRClient());
+
         try {
           // We discard the result here since all we really care about is that
           // it populates the Apollo cache
           await getDataFromTree(
             <AppTree pageProps={{ ...initProps, apolloClient }} />
           );
-          console.log("Fetched all data for React tree!");
         } catch (error) {
           // An error in SSR shouldn't cause the page to return an error
           console.error("Error while running `getDataFromTree`", error);

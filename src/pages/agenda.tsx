@@ -9,10 +9,7 @@ import {
 } from "../components/date";
 import { Page } from "../components/site";
 
-console.log(__filename);
-
 const Agenda: NextPage = () => {
-  console.log("Agenda");
   const dayPickerState = useConferenceDayPickerState();
   return (
     <Page>
