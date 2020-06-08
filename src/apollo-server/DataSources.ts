@@ -1,8 +1,6 @@
 import { PretalxAPI } from "../pretalx";
 
-export interface DataSources {
-  pretalx: PretalxAPI;
-}
+export type DataSources = ReturnType<typeof dataSources>;
 
 export function dataSources() {
   return { pretalx: new PretalxAPI() };
