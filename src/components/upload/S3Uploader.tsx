@@ -144,7 +144,7 @@ export const S3Uploader = () => {
         <FormInput
           disabled={disabled}
           inputRef={talkNameInputRef}
-          label={"Talk Title"}
+          label={"Talk or Poster Title"}
           description={
             <>
               Please use the exact title that you used when submitting on{" "}
@@ -164,7 +164,7 @@ export const S3Uploader = () => {
         <FormInput
           disabled={disabled}
           inputRef={fileInputRef}
-          label={"Video File"}
+          label={"Video/Poster/Presentation File"}
           type={"file"}
         />
         <VSpace />
