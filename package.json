@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"npm:dev:*\"",
+    "dev:next": "next dev",
+    "dev:codegen": "npm run codegen -- --watch",
     "build": "next build",
     "start": "next start",
-    "pre-commit": "lint-staged",
+    "pre-commit": "npm run codegen && git add **/*.generated.* **/__generated__/** && lint-staged",
     "codegen": "graphql-codegen --config codegen.yml",
     "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx --cache --max-warnings 0"
   },
@@ -52,6 +54,7 @@
     "apollo-datasource": "^0.7.1",
     "babel-eslint": "^10.1.0",
     "babel-plugin-inline-react-svg": "^1.1.1",
+    "concurrently": "^5.2.0",
     "eslint": "^6.8.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-flowtype": "^4.7.0",
