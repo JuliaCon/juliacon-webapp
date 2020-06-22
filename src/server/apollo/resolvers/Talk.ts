@@ -1,7 +1,7 @@
 import { format } from "date-fns";
 
-import { asyncMap } from "../../utils/async";
-import { isNonNull } from "../../utils/null";
+import { asyncMap } from "../../../utils/async";
+import { isNonNull } from "../../../utils/null";
 
 import { submissionTypeToTalkType } from "../utils";
 import { TalkResolvers } from "./__types__";

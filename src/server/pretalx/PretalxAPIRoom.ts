@@ -1,4 +1,4 @@
-import roomsData from "../../data/rooms.json";
+import roomsData from "../../../data/rooms.json";
 
 export type PretalxAPIRoom = typeof ALL_ROOMS[number];
 

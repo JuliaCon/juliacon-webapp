@@ -1,4 +1,4 @@
-import { assertConferenceDay } from "../../const";
+import { assertConferenceDay } from "../../../const";
 import { filterTalks } from "../../pretalx";
 import { talkTypeToSubmissionType } from "../utils";
 import { QueryResolvers } from "./__types__";

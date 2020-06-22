@@ -77,9 +77,9 @@ Pages in `./src/pages/api` are serverless functions (so they act as REST/GraphQL
 
 Re-usable components are defined in `./src/components`. Some re-usable React hooks are defined in `./src/hooks`. Some utilities are defined in `./src/utils`.
 
-Additionally, `./src/apollo` contains the code for the Apollo GraphQL client in the frontend, and `./src/apollo-server` contains the code for the Apollo GraphQL server backend.
+Additionally, `./src/apollo` contains the code for the Apollo GraphQL client in the frontend.
 
-The `./src/pretalx` directory contains code that details with extracting data out of Pretalx. For performance reasons, we're extracting the responses from the Pretalx API into JSON files that are checked into the repository (since they're reasonably small).
+The `./src/server` directory contains code that is only meant to be run on the server.
 
 # What is the goal?
 

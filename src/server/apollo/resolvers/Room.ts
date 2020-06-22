@@ -1,6 +1,6 @@
 import { RoomResolvers } from "./__types__";
 import { filterTalks } from "../../pretalx";
-import { ConferenceDay, isConferenceDay } from "../../const";
+import { ConferenceDay, isConferenceDay } from "../../../const";
 
 export const Room: RoomResolvers = {
   id: (root) => String(root.id),

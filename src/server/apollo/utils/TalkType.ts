@@ -1,5 +1,5 @@
 import { TalkType } from "../resolvers/__types__";
-import { nullthrows } from "../../utils/invariant";
+import { nullthrows } from "../../../utils/invariant";
 
 export { TalkType };
 

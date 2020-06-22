@@ -1,4 +1,4 @@
-import { nullthrows } from "../utils/invariant";
+import { nullthrows } from "../../utils/invariant";
 
 /**
  * An object whose keys are locales and whose values are the text in that locale.

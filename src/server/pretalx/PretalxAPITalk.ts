@@ -1,11 +1,11 @@
 import { getText } from "./PretalxAPICommon";
-import { ConferenceDay } from "../const";
-import { filterCriteria } from "../utils/filter";
-import { isNonNull } from "../utils/null";
+import { ConferenceDay } from "../../const";
+import { filterCriteria } from "../../utils/filter";
+import { isNonNull } from "../../utils/null";
 
-import talksData from "../../data/talks.json";
-import { pick } from "../utils/pick";
-import { nullthrows } from "../utils/invariant";
+import talksData from "../../../data/talks.json";
+import { pick } from "../../utils/pick";
+import { nullthrows } from "../../utils/invariant";
 import { getRoomIdFromName } from "./PretalxAPIRoom";
 
 export type PretalxAPITalk = typeof ALL_TALKS[number];

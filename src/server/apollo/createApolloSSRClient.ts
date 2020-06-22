@@ -1,6 +1,6 @@
 import { SchemaLink } from "@apollo/link-schema";
 
-import { createApolloClient } from "../apollo";
+import { createApolloClient } from "../../apollo";
 import { apolloSchema } from "./server";
 import { ResolverContext } from "./ResolverContext";
 import { dataSources } from "./DataSources";

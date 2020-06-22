@@ -1,12 +1,14 @@
+# Configuration for graphql-code-generator
+
 overwrite: true
 
 schema:
-  - "./src/apollo-server/typeDefs.ts":
+  - "./src/server/apollo/typeDefs.ts":
       noRequire: true
 
 generates:
   # Generate types for the resolvers (for the backend)
-  ./src/apollo-server/resolvers/__types__.ts:
+  ./src/server/apollo/resolvers/__types__.ts:
     plugins:
       - "typescript"
       - "typescript-resolvers"

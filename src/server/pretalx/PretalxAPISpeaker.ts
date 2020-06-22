@@ -1,5 +1,5 @@
-import speakersData from "../../data/speakers.json";
-import { pick } from "../utils/pick";
+import speakersData from "../../../data/speakers.json";
+import { pick } from "../../utils/pick";
 
 /**
  * A Speaker that is associated with a Talk.

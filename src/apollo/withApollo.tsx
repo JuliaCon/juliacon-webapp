@@ -72,7 +72,7 @@ export const withApollo = ({ ssr = true } = {}) => (
         // library in the frontend bundle
         const { getDataFromTree } = await import("@apollo/react-ssr");
         const { createApolloSSRClient } = await import(
-          "../apollo-server/createApolloSSRClient"
+          "../server/apollo/createApolloSSRClient"
         );
 
         const apolloClient = ctx.apolloClient
