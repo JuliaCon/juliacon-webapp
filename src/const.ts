@@ -15,3 +15,5 @@ export function assertConferenceDay(x: string): ConferenceDay {
   if (isConferenceDay(x)) return x;
   throw new Error(`Expected ConferenceDay, got ${x}`);
 }
+
+export const DISCORD_COOKIE = "discord";
