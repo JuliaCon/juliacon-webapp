@@ -16,7 +16,7 @@
     "*.css"
   ],
   "dependencies": {
-    "@apollo/client": "3.0.0-rc.7",
+    "@apollo/client": "3.0.0-rc.8",
     "@apollo/link-schema": "2.0.0-beta.3",
     "@apollo/react-ssr": "4.0.0-beta.1",
     "@fortawesome/fontawesome-svg-core": "1.2.29",
