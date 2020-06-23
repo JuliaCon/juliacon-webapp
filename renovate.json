@@ -3,6 +3,19 @@
     "config:base",
     "packages:apollographql",
     "packages:linters",
-    "packages:test"
-  ]
+    "packages:test",
+    "group:recommended",
+    "group:allNonMajor"
+  ],
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "automerge": true
+    }
+  ],
+  "automergeType": "branch"
 }
