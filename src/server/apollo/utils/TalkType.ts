@@ -12,7 +12,7 @@ const mapping: Record<string, TalkType> = {
   "Break": TalkType.Break,
   "Keynote": TalkType.Keynote,
   "Lightning Talk": TalkType.LightningTalk,
-  "Minisymposia / Extended Presentation": TalkType.Minisymposium,
+  "Minisymposia": TalkType.Minisymposium,
   "Sponsor's Address": TalkType.SponsorAddress,
   "Talk": TalkType.Talk,
   "Workshop (full day)": TalkType.WorkshopFullDay,
