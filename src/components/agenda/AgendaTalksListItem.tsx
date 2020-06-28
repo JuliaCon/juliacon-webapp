@@ -1,10 +1,9 @@
 import * as React from "react";
-import { format, parseISO } from "date-fns";
 import { css } from "emotion";
 
+import { Time, TimeRangeFormatted } from "../date";
 import { VSpace } from "../layout";
 import { useAgendaTalksListItemQuery } from "./AgendaTalksListItem.generated";
-import { TimeRangeFormatted } from "../date";
 
 export const AgendaTalksListItem = ({
   talkId,
@@ -34,7 +33,9 @@ export const AgendaTalksListItem = ({
           padding: 1rem;
         `}
       >
-        <p>{format(parseISO(startTime), "HH:mm")}</p>
+        <p>
+          <Time time={startTime} />
+        </p>
       </div>
       <div
         className={css`
