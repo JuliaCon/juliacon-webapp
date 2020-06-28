@@ -1,0 +1,9 @@
+query SpeakerDetails($id: ID!) {
+  speaker(id: $id) {
+    ...SpeakerInfo
+    id
+    avatar
+    name
+    biography
+  }
+}

@@ -7,6 +7,7 @@ export const MainContentContainer: React.FC = ({ children }) => {
       className={css`
         margin: 0 auto;
         padding: 1rem;
+        width: 100%;
         max-width: 1000px;
       `}
     >
