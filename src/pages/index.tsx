@@ -22,7 +22,7 @@ IndexPage.getInitialProps = async ({ res }) => {
   // return an HTTP 302 to redirect them to the appropriate page (instead of
   // loading the page **then** getting a redirect, which negates the benefits
   // of SSR).
-  if (!res) return;
+  if (!res) return {};
   res.writeHead(
     302, // Found (non-permanent redirect),
     { Location: REDIRECT_LOCATION }

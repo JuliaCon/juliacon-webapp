@@ -5,6 +5,7 @@ import Logo from "../../assets/logo.svg";
 
 import { Nav } from "./Nav";
 import { HSpace } from "../layout";
+import { Link } from "../core";
 
 export const Header: React.FC = () => {
   return (
@@ -25,13 +26,21 @@ export const Header: React.FC = () => {
           margin: 0 auto;
         `}
       >
-        <Logo
+        <Link
+          href={"/"}
           className={css`
+            display: block;
             height: 100%;
-            width: auto;
-            padding: 0.5rem;
           `}
-        />
+        >
+          <Logo
+            className={css`
+              height: 100%;
+              width: auto;
+              padding: 0.5rem;
+            `}
+          />
+        </Link>
         <HSpace width={"2rem"} />
         <Nav />
       </div>
