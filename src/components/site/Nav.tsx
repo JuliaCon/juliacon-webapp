@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from "next/link";
 import React from "react";
 import { css } from "emotion";
@@ -14,8 +13,6 @@ export const Nav = () => {
       `}
     >
       <NavLink href={"/agenda"}>Agenda</NavLink>
-      <NavLink href={"/speakers"}>Speakers</NavLink>
-      <NavLink href={"/sponsors"}>Sponsors</NavLink>
     </nav>
   );
 };
@@ -23,11 +20,15 @@ export const Nav = () => {
 interface NavLinkProps {
   children: string;
   href: string;
+  as?: string;
 }
-const NavLink = ({ children, href }: NavLinkProps) => {
+const NavLink = ({ children, href, as }: NavLinkProps) => {
+  /* eslint-disable jsx-a11y/anchor-is-valid */
+  // NextJS does fancy™ stuff with links and it sets the href of the child <a />
+  // element itself.
   return (
-    <Link href={href}>
-      <div
+    <Link href={href} as={as}>
+      <a
         className={css`
           height: 100%;
           display: flex;
@@ -35,6 +36,7 @@ const NavLink = ({ children, href }: NavLinkProps) => {
           align-items: center;
           transition: background-color 0.3s;
           position: relative;
+          text-decoration: none;
 
           &:hover {
             background-color: rgba(0, 0, 0, 0.05);
@@ -56,15 +58,16 @@ const NavLink = ({ children, href }: NavLinkProps) => {
           }
         `}
       >
-        <a
+        <span
           className={css`
-            text-decoration: none;
+            display: block;
             padding: 0.5rem;
           `}
         >
           {children}
-        </a>
-      </div>
+        </span>
+      </a>
     </Link>
   );
+  /* eslint-enable */
 };
