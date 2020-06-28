@@ -4,3 +4,5 @@ package-lock.json -diff
 __types__.ts -diff
 data/*.json -diff
 Manifest.toml -diff
+
+*.svg -diff
