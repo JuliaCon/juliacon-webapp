@@ -1,15 +1,16 @@
-import { useArrayChoice } from "../../hooks/useArrayChoice";
-import { CONFERENCE_DAYS, ConferenceDay, isConferenceDay } from "../../const";
+import * as React from "react";
 import { format, parseISO } from "date-fns";
 import { css } from "emotion";
-import { UnstyledButton } from "../ui";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretLeft } from "@fortawesome/free-solid-svg-icons/faCaretLeft";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons/faCaretRight";
-import React from "react";
+
+import { CONFERENCE_DAYS, ConferenceDay, isConferenceDay } from "../../const";
+import { MouseoverAction, UnstyledLink } from "../core";
 
 interface ConferenceDayPickerProps {
-  state: ReturnType<typeof useConferenceDayPickerState>;
+  day: ConferenceDay;
+  linkHrefFn: (day: ConferenceDay) => { href: string; as?: string };
 
   /**
    * A callback that is invoked when the user expresses "intent" to navigate to
@@ -21,18 +22,12 @@ interface ConferenceDayPickerProps {
    *
    * This should be used to implement data pre-fetching.
    */
-  onNavIntent?: (day: ConferenceDay, event: React.MouseEvent) => void;
-}
-
-export function useConferenceDayPickerState() {
-  return useArrayChoice(CONFERENCE_DAYS, () => {
-    const day = getClosestConferenceDay();
-    return CONFERENCE_DAYS.indexOf(day);
-  });
+  onNavIntent?: (day: ConferenceDay) => void;
 }
 
 export const ConferenceDayPicker = ({
-  state,
+  day,
+  linkHrefFn,
   onNavIntent,
 }: ConferenceDayPickerProps) => {
   // This is somewhat fragile. We might want to just format dates on the server
@@ -45,33 +40,33 @@ export const ConferenceDayPicker = ({
   // timezone, but that seems a bit fragile, especially because everything in
   // Node land is done in UTC while everything in the frontend is done in the
   // browser's timezone.
-  const dateFormatted = format(parseISO(state.value), "EEEE, MMMM d, yyyy");
+  const dateFormatted = format(parseISO(day), "EEEE, MMMM d, yyyy");
 
   const arrowStyle = css`
     font-size: 1.5em;
 
-    &[disabled] {
+    &:not([href]) {
       opacity: 0.5;
+      cursor: not-allowed;
     }
   `;
 
-  const onPreviousMouseOver = React.useCallback(
-    (event: React.MouseEvent) => {
-      const previous = CONFERENCE_DAYS[state.index - 1];
-      if (!previous) return;
-      onNavIntent?.(previous, event);
-    },
-    [onNavIntent, state.index]
-  );
+  const index = CONFERENCE_DAYS.indexOf(day);
+  if (index === -1) {
+    throw new Error(`Got invalid ConferenceDay: ${day}`);
+  }
 
-  const onNextMouseOver = React.useCallback(
-    (event: React.MouseEvent) => {
-      const next = CONFERENCE_DAYS[state.index + 1];
-      if (!next) return;
-      onNavIntent?.(next, event);
-    },
-    [onNavIntent, state.index]
-  );
+  // We need the manual `| null` here because TypeScript's optimistic indexing
+  // assumes `CONFERENCES_DAYS[number]` always returns non-`undefined`
+  const prevDay = (CONFERENCE_DAYS[index - 1] || null) as ConferenceDay | null;
+  const nextDay = (CONFERENCE_DAYS[index + 1] || null) as ConferenceDay | null;
+
+  const onPrevMouseOver = React.useCallback(() => {
+    if (prevDay && onNavIntent) onNavIntent(prevDay);
+  }, [prevDay, onNavIntent]);
+  const onNextMouseOver = React.useCallback(() => {
+    if (nextDay && onNavIntent) onNavIntent(nextDay);
+  }, [nextDay, onNavIntent]);
 
   return (
     <div
@@ -81,14 +76,15 @@ export const ConferenceDayPicker = ({
         align-items: center;
       `}
     >
-      <UnstyledButton
-        onClick={state.previous}
-        disabled={!state.hasPrevious}
-        className={arrowStyle}
-        onMouseEnter={onPreviousMouseOver}
-      >
-        <FontAwesomeIcon icon={faCaretLeft} fixedWidth />
-      </UnstyledButton>
+      <MouseoverAction action={onPrevMouseOver}>
+        <UnstyledLink
+          href={undefined}
+          {...(prevDay && linkHrefFn(prevDay))}
+          className={arrowStyle}
+        >
+          <FontAwesomeIcon icon={faCaretLeft} fixedWidth />
+        </UnstyledLink>
+      </MouseoverAction>
       <div
         className={css`
           text-align: center;
@@ -97,19 +93,20 @@ export const ConferenceDayPicker = ({
       >
         <p>{dateFormatted}</p>
       </div>
-      <UnstyledButton
-        onClick={state.next}
-        disabled={!state.hasNext}
-        className={arrowStyle}
-        onMouseEnter={onNextMouseOver}
-      >
-        <FontAwesomeIcon icon={faCaretRight} fixedWidth />
-      </UnstyledButton>
+      <MouseoverAction action={onNextMouseOver}>
+        <UnstyledLink
+          href={undefined}
+          {...(nextDay && linkHrefFn(nextDay))}
+          className={arrowStyle}
+        >
+          <FontAwesomeIcon icon={faCaretRight} fixedWidth />
+        </UnstyledLink>
+      </MouseoverAction>
     </div>
   );
 };
 
-function getClosestConferenceDay(): ConferenceDay {
+export function getClosestConferenceDay(): ConferenceDay {
   const now = new Date();
   const today = format(now, `yyyy-MM-dd`);
 
