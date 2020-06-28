@@ -70,7 +70,7 @@ export const ConferenceDayPicker = ({ state }: ConferenceDayPickerProps) => {
 
 function getClosestConferenceDay(): ConferenceDay {
   const now = new Date();
-  const today = `${now.getFullYear()}-${now.getMonth()}-${now.getDate()}`;
+  const today = format(now, `yyyy-MM-dd`);
 
   if (isConferenceDay(today)) {
     return today;

@@ -1,7 +1,8 @@
 import React from "react";
 import { ConferenceDay } from "../../const";
-import { TalkOverview } from "../talk";
 import { useAgendaTalksListQuery } from "./AgendaTalksList.generated";
+import { AgendaTalksListItem } from "./AgendaTalksListItem";
+import { css } from "emotion";
 
 export interface AgendaTalksListProps {
   children?: never;
@@ -19,9 +20,18 @@ export const AgendaTalksList: React.FC<AgendaTalksListProps> = ({
   if (!talks) return <p>Failed to load talks!</p>;
 
   return (
-    <div>
-      {talks.map((talk) => (
-        <TalkOverview id={talk.id} key={talk.id} />
+    <div
+      className={css`
+        display: grid;
+        grid-template-columns: auto 1fr;
+      `}
+    >
+      {talks.map((talk, index) => (
+        <AgendaTalksListItem
+          talkId={talk.id}
+          key={talk.id}
+          noTopBorder={index === 0}
+        />
       ))}
     </div>
   );

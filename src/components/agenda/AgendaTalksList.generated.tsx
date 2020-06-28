@@ -1,8 +1,8 @@
 import * as Types from "../../apollo/__generated__/types";
 
-import { TalkOverviewFragment } from "../talk/TalkOverview.generated";
+import { AgendaTalksListItemFragment } from "./AgendaTalksListItem.generated";
 import gql from "graphql-tag";
-import { TalkOverviewFragmentDoc } from "../talk/TalkOverview.generated";
+import { AgendaTalksListItemFragmentDoc } from "./AgendaTalksListItem.generated";
 import * as ApolloReactCommon from "@apollo/client";
 import * as ApolloReactHooks from "@apollo/client";
 
@@ -12,17 +12,17 @@ export type AgendaTalksListQueryVariables = {
 
 export type AgendaTalksListQuery = { readonly __typename?: "Query" } & {
   readonly talks: ReadonlyArray<
-    { readonly __typename?: "Talk" } & TalkOverviewFragment
+    { readonly __typename?: "Talk" } & AgendaTalksListItemFragment
   >;
 };
 
 export const AgendaTalksListDocument = gql`
   query AgendaTalksList($conferenceDay: String!) {
     talks(day: $conferenceDay) {
-      ...TalkOverview
+      ...AgendaTalksListItem
     }
   }
-  ${TalkOverviewFragmentDoc}
+  ${AgendaTalksListItemFragmentDoc}
 `;
 
 /**

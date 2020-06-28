@@ -1,10 +1,10 @@
-query TalkOverview($id: ID!) {
+query AgendaTalksListItem($id: ID!) {
   talk(id: $id) {
-    ...TalkOverview
+    ...AgendaTalksListItem
   }
 }
 
-fragment TalkOverview on Talk {
+fragment AgendaTalksListItem on Talk {
   id
   title
   abstract

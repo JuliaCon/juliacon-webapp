@@ -8,12 +8,15 @@ import {
   useConferenceDayPickerState,
 } from "../components/date";
 import { Page } from "../components/site";
+import { Center } from "../components/layout";
 
 const Agenda: NextPage = () => {
   const dayPickerState = useConferenceDayPickerState();
   return (
     <Page>
-      <ConferenceDayPicker state={dayPickerState} />
+      <Center>
+        <ConferenceDayPicker state={dayPickerState} />
+      </Center>
       <AgendaTalksList conferenceDay={dayPickerState.value} />
     </Page>
   );
