@@ -6,6 +6,7 @@ import {
 } from "../../pretalx";
 import { ResolverContext } from "../ResolverContext";
 export type Maybe<T> = T | null | undefined;
+export type Exact<T extends { [key: string]: any }> = { [K in keyof T]: T[K] };
 export type RequireFields<T, K extends keyof T> = {
   [X in Exclude<keyof T, K>]?: T[X];
 } &
@@ -104,11 +105,18 @@ export enum TalkType {
 
 export type ResolverTypeWrapper<T> = Promise<T> | T;
 
-export type StitchingResolver<TResult, TParent, TContext, TArgs> = {
+export type LegacyStitchingResolver<TResult, TParent, TContext, TArgs> = {
   fragment: string;
   resolve: ResolverFn<TResult, TParent, TContext, TArgs>;
 };
 
+export type NewStitchingResolver<TResult, TParent, TContext, TArgs> = {
+  selectionSet: string;
+  resolve: ResolverFn<TResult, TParent, TContext, TArgs>;
+};
+export type StitchingResolver<TResult, TParent, TContext, TArgs> =
+  | LegacyStitchingResolver<TResult, TParent, TContext, TArgs>
+  | NewStitchingResolver<TResult, TParent, TContext, TArgs>;
 export type Resolver<TResult, TParent = {}, TContext = {}, TArgs = {}> =
   | ResolverFn<TResult, TParent, TContext, TArgs>
   | StitchingResolver<TResult, TParent, TContext, TArgs>;
@@ -188,7 +196,7 @@ export type TypeResolveFn<TTypes, TParent = {}, TContext = {}> = (
   info: GraphQLResolveInfo
 ) => Maybe<TTypes> | Promise<Maybe<TTypes>>;
 
-export type isTypeOfResolverFn<T = {}> = (
+export type IsTypeOfResolverFn<T = {}> = (
   obj: T,
   info: GraphQLResolveInfo
 ) => boolean | Promise<boolean>;
@@ -226,7 +234,6 @@ export type ResolversParentTypes = {
   ID: Scalars["ID"];
   Talk: PretalxAPITalk;
   String: Scalars["String"];
-  TalkType: TalkType;
   Speaker: PretalxAPISpeaker;
   Room: PretalxAPIRoom;
   Boolean: Scalars["Boolean"];
@@ -284,7 +291,7 @@ export type RoomResolvers<
     ContextType,
     RequireFields<RoomTalksArgs, never>
   >;
-  __isTypeOf?: isTypeOfResolverFn<ParentType>;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType>;
 };
 
 export type SpeakerResolvers<
@@ -299,7 +306,7 @@ export type SpeakerResolvers<
     ContextType
   >;
   avatar?: Resolver<Maybe<ResolversTypes["String"]>, ParentType, ContextType>;
-  __isTypeOf?: isTypeOfResolverFn<ParentType>;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType>;
 };
 
 export type TalkResolvers<
@@ -324,7 +331,7 @@ export type TalkResolvers<
     ContextType
   >;
   room?: Resolver<Maybe<ResolversTypes["Room"]>, ParentType, ContextType>;
-  __isTypeOf?: isTypeOfResolverFn<ParentType>;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType>;
 };
 
 export type Resolvers<ContextType = ResolverContext> = {
