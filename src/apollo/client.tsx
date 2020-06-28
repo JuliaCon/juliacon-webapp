@@ -1,10 +1,10 @@
 import {
   ApolloClient,
   ApolloLink,
-  HttpLink,
   InMemoryCache,
   NormalizedCacheObject,
 } from "@apollo/client";
+import { BatchHttpLink } from "@apollo/link-batch-http";
 import { typePolicies } from "./typePolicies";
 
 // Augment the type of ApolloClient so that we can add the toJSON method
@@ -29,7 +29,7 @@ export function createApolloClient(args: CreateApolloClientArgs = {}): Apollo {
 
   const link =
     args.link ||
-    new HttpLink({
+    new BatchHttpLink({
       uri: `/api/graphql`,
     });
 

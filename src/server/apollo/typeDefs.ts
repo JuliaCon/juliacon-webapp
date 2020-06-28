@@ -7,6 +7,8 @@ export const typeDefs = gql`
 
     room(id: ID!): Room
     rooms: [Room!]!
+
+    speaker(id: ID!): Speaker
   }
 
   type Talk {

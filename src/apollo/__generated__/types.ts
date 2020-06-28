@@ -1,4 +1,5 @@
 export type Maybe<T> = T | null;
+export type Exact<T extends { [key: string]: any }> = { [K in keyof T]: T[K] };
 /** All built-in and custom scalars, mapped to their actual values */
 export type Scalars = {
   ID: string;
@@ -14,6 +15,7 @@ export type Query = {
   talks: Array<Talk>;
   room?: Maybe<Room>;
   rooms: Array<Room>;
+  speaker?: Maybe<Speaker>;
 };
 
 export type QueryTalkArgs = {
@@ -27,6 +29,10 @@ export type QueryTalksArgs = {
 };
 
 export type QueryRoomArgs = {
+  id: Scalars["ID"];
+};
+
+export type QuerySpeakerArgs = {
   id: Scalars["ID"];
 };
 

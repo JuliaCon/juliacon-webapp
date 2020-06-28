@@ -26,4 +26,8 @@ export const Query: QueryResolvers = {
   room: async (_root, { id }, { dataSources }) => {
     return dataSources.pretalx.getRoom(id);
   },
+
+  speaker: async (_root, { id }, { dataSources }) => {
+    return dataSources.pretalx.getSpeaker(id);
+  },
 };

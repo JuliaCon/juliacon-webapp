@@ -1,0 +1,11 @@
+query SpeakerInfo($id: ID!) {
+  speaker(id: $id) {
+    ...SpeakerInfo
+  }
+}
+
+fragment SpeakerInfo on Speaker {
+  id
+  name
+  avatar
+}

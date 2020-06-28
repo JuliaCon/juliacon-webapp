@@ -1,12 +1,14 @@
 import * as Types from "../../apollo/__generated__/types";
 
+import { SpeakerInfoFragment } from "../speaker/SpeakerInfo.generated";
 import gql from "graphql-tag";
+import { SpeakerInfoFragmentDoc } from "../speaker/SpeakerInfo.generated";
 import * as ApolloReactCommon from "@apollo/client";
 import * as ApolloReactHooks from "@apollo/client";
 
-export type AgendaTalksListItemQueryVariables = {
+export type AgendaTalksListItemQueryVariables = Types.Exact<{
   id: Types.Scalars["ID"];
-};
+}>;
 
 export type AgendaTalksListItemQuery = { readonly __typename?: "Query" } & {
   readonly talk?: Types.Maybe<
@@ -24,10 +26,7 @@ export type AgendaTalksListItemFragment = {
       { readonly __typename?: "Room" } & Pick<Types.Room, "name">
     >;
     readonly speakers: ReadonlyArray<
-      { readonly __typename?: "Speaker" } & Pick<
-        Types.Speaker,
-        "name" | "avatar"
-      >
+      { readonly __typename?: "Speaker" } & SpeakerInfoFragment
     >;
   };
 
@@ -43,10 +42,10 @@ export const AgendaTalksListItemFragmentDoc = gql`
       name
     }
     speakers {
-      name
-      avatar
+      ...SpeakerInfo
     }
   }
+  ${SpeakerInfoFragmentDoc}
 `;
 export const AgendaTalksListItemDocument = gql`
   query AgendaTalksListItem($id: ID!) {

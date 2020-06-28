@@ -6,9 +6,9 @@ import { AgendaTalksListItemFragmentDoc } from "./AgendaTalksListItem.generated"
 import * as ApolloReactCommon from "@apollo/client";
 import * as ApolloReactHooks from "@apollo/client";
 
-export type AgendaTalksListQueryVariables = {
+export type AgendaTalksListQueryVariables = Types.Exact<{
   conferenceDay: Types.Scalars["String"];
-};
+}>;
 
 export type AgendaTalksListQuery = { readonly __typename?: "Query" } & {
   readonly talks: ReadonlyArray<

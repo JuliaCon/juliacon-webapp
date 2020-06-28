@@ -25,6 +25,7 @@ export type Query = {
   readonly talks: ReadonlyArray<Talk>;
   readonly room?: Maybe<Room>;
   readonly rooms: ReadonlyArray<Room>;
+  readonly speaker?: Maybe<Speaker>;
 };
 
 export type QueryTalkArgs = {
@@ -38,6 +39,10 @@ export type QueryTalksArgs = {
 };
 
 export type QueryRoomArgs = {
+  id: Scalars["ID"];
+};
+
+export type QuerySpeakerArgs = {
   id: Scalars["ID"];
 };
 
@@ -253,6 +258,12 @@ export type QueryResolvers<
     ReadonlyArray<ResolversTypes["Room"]>,
     ParentType,
     ContextType
+  >;
+  speaker?: Resolver<
+    Maybe<ResolversTypes["Speaker"]>,
+    ParentType,
+    ContextType,
+    RequireFields<QuerySpeakerArgs, "id">
   >;
 };
 
