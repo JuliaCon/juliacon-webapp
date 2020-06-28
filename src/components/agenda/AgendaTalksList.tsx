@@ -2,7 +2,6 @@ import React from "react";
 import { ConferenceDay } from "../../const";
 import { useAgendaTalksListQuery } from "./AgendaTalksList.generated";
 import { AgendaTalksListItem } from "./AgendaTalksListItem";
-import { css } from "emotion";
 
 export interface AgendaTalksListProps {
   children?: never;
@@ -20,12 +19,7 @@ export const AgendaTalksList: React.FC<AgendaTalksListProps> = ({
   if (!talks) return <p>Failed to load talks!</p>;
 
   return (
-    <div
-      className={css`
-        display: grid;
-        grid-template-columns: auto 1fr;
-      `}
-    >
+    <div>
       {talks.map((talk, index) => (
         <AgendaTalksListItem
           talkId={talk.id}

@@ -1,7 +1,8 @@
 import * as React from "react";
-import { css } from "emotion";
+import { css, cx } from "emotion";
 
 import { interleaveMap } from "../../utils/array";
+import { desktopOnly, mobileOnly } from "../../utils/css";
 import { arrayToFragment } from "../../utils/react";
 import { Link } from "../core";
 import { Time, TimeRangeFormatted } from "../date";
@@ -29,16 +30,36 @@ export const AgendaTalksListItem = ({
 
   const { title, abstract, startTime, endTime, speakers } = data.talk;
 
-  const commonStyle = !noTopBorder && `border-top: 1px solid #ccc;`;
+  const commonStyle =
+    !noTopBorder &&
+    desktopOnly(css`
+       {
+        border-top: 1px solid #ccc;
+      }
+    `);
 
   return (
-    <>
+    <div
+      className={css`
+        display: flex;
+        flex-direction: row;
+      `}
+    >
       <div
-        className={css`
-          ${commonStyle};
-          border-right: 1px solid #ccc;
-          padding: 1rem;
-        `}
+        className={cx(
+          css`
+            ${commonStyle};
+            padding: 1rem;
+            width: 8rem;
+            border-right: 1px solid #ccc;
+            text-align: right;
+          `,
+          mobileOnly(
+            css`
+              display: none;
+            `
+          )
+        )}
       >
         <p>
           <Time time={startTime} />
@@ -48,6 +69,8 @@ export const AgendaTalksListItem = ({
         className={css`
           ${commonStyle};
           padding: 1rem;
+          overflow: hidden;
+          flex: 1;
         `}
       >
         <h4
@@ -83,7 +106,7 @@ export const AgendaTalksListItem = ({
         <VSpace />
         <p>{abstract}</p>
       </div>
-    </>
+    </div>
   );
 };
 

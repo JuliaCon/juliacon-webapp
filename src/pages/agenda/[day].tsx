@@ -5,7 +5,7 @@ import { withApollo } from "../../apollo";
 import { AgendaTalksList } from "../../components/agenda";
 import { ConferenceDayPicker } from "../../components/date";
 import { Page } from "../../components/site";
-import { Center } from "../../components/layout";
+import { Center, VSpace } from "../../components/layout";
 import { useApolloClient } from "@apollo/client";
 import {
   AgendaTalksListDocument,
@@ -46,6 +46,7 @@ const Agenda: NextPage = () => {
           onNavIntent={onNavIntent}
         />
       </Center>
+      <VSpace />
       <AgendaTalksList conferenceDay={day} />
     </Page>
   );
