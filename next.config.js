@@ -1,10 +1,11 @@
 const webpack = require("webpack");
 
 module.exports = {
-  webpack: (config, { isServer }) => {
+  webpack: (config, { isServer, dev }) => {
     config.plugins.unshift(
       new webpack.DefinePlugin({
         __SERVER__: isServer,
+        __DEV__: dev,
       })
     );
 
