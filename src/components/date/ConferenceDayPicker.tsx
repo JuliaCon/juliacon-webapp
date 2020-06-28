@@ -10,6 +10,18 @@ import React from "react";
 
 interface ConferenceDayPickerProps {
   state: ReturnType<typeof useConferenceDayPickerState>;
+
+  /**
+   * A callback that is invoked when the user expresses "intent" to navigate to
+   * a previous/subsequent day (e.g., when the user mouses over the selector
+   * button).
+   *
+   * The first argument is the day that the user has expressed intent to
+   * navigate to.
+   *
+   * This should be used to implement data pre-fetching.
+   */
+  onNavIntent?: (day: ConferenceDay, event: React.MouseEvent) => void;
 }
 
 export function useConferenceDayPickerState() {
@@ -19,7 +31,10 @@ export function useConferenceDayPickerState() {
   });
 }
 
-export const ConferenceDayPicker = ({ state }: ConferenceDayPickerProps) => {
+export const ConferenceDayPicker = ({
+  state,
+  onNavIntent,
+}: ConferenceDayPickerProps) => {
   // This is somewhat fragile. We might want to just format dates on the server
   // side and always UTC (otherwise, the format will respect the users timezone
   // and dates might wrap: e.g., `new Date("2019-07-26")` is formatted as
@@ -32,6 +47,32 @@ export const ConferenceDayPicker = ({ state }: ConferenceDayPickerProps) => {
   // browser's timezone.
   const dateFormatted = format(parseISO(state.value), "EEEE, MMMM d, yyyy");
 
+  const arrowStyle = css`
+    font-size: 1.5em;
+
+    &[disabled] {
+      opacity: 0.5;
+    }
+  `;
+
+  const onPreviousMouseOver = React.useCallback(
+    (event: React.MouseEvent) => {
+      const previous = CONFERENCE_DAYS[state.index - 1];
+      if (!previous) return;
+      onNavIntent?.(previous, event);
+    },
+    [onNavIntent, state.index]
+  );
+
+  const onNextMouseOver = React.useCallback(
+    (event: React.MouseEvent) => {
+      const next = CONFERENCE_DAYS[state.index + 1];
+      if (!next) return;
+      onNavIntent?.(next, event);
+    },
+    [onNavIntent, state.index]
+  );
+
   return (
     <div
       className={css`
@@ -42,9 +83,9 @@ export const ConferenceDayPicker = ({ state }: ConferenceDayPickerProps) => {
     >
       <UnstyledButton
         onClick={state.previous}
-        className={css`
-          font-size: 1.5em;
-        `}
+        disabled={!state.hasPrevious}
+        className={arrowStyle}
+        onMouseEnter={onPreviousMouseOver}
       >
         <FontAwesomeIcon icon={faCaretLeft} fixedWidth />
       </UnstyledButton>
@@ -58,9 +99,9 @@ export const ConferenceDayPicker = ({ state }: ConferenceDayPickerProps) => {
       </div>
       <UnstyledButton
         onClick={state.next}
-        className={css`
-          font-size: 1.5em;
-        `}
+        disabled={!state.hasNext}
+        className={arrowStyle}
+        onMouseEnter={onNextMouseOver}
       >
         <FontAwesomeIcon icon={faCaretRight} fixedWidth />
       </UnstyledButton>

@@ -27,7 +27,9 @@ export function useArrayChoice<T>(
   return {
     index: truncateIndex(index),
     value: array[index],
+    hasNext: index < array.length - 1,
     next: React.useCallback(() => incr(1), [incr]),
+    hasPrevious: index > 0,
     previous: React.useCallback(() => incr(-1), [incr]),
   };
 }
