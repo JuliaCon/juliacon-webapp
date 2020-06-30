@@ -21,6 +21,8 @@ export const SpeakerDetails = ({ id }: { id: string }) => {
     return <p>Couldn't load this speaker...</p>;
   }
 
+  console.log(speaker);
+
   return (
     <div>
       <SpeakerDetailsHeading speaker={speaker} />
