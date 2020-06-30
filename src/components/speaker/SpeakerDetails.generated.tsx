@@ -15,8 +15,11 @@ export type SpeakerDetailsQuery = { readonly __typename?: "Query" } & {
     { readonly __typename?: "Speaker" } & Pick<
       Types.Speaker,
       "id" | "avatar" | "name" | "biography"
-    > &
-      SpeakerInfoFragment
+    > & {
+        readonly talks: ReadonlyArray<
+          { readonly __typename?: "Talk" } & Pick<Types.Talk, "id">
+        >;
+      } & SpeakerInfoFragment
   >;
 };
 
@@ -28,6 +31,9 @@ export const SpeakerDetailsDocument = gql`
       avatar
       name
       biography
+      talks {
+        id
+      }
     }
   }
   ${SpeakerInfoFragmentDoc}
