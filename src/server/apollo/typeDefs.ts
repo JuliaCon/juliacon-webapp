@@ -3,7 +3,7 @@ import { gql } from "apollo-server-micro";
 export const typeDefs = gql`
   type Query {
     talk(id: ID!): Talk
-    talks(day: String, roomId: ID, talkType: TalkType, speakerId: ID): [Talk!]!
+    talks(day: String, roomId: ID, talkType: TalkType): [Talk!]!
 
     room(id: ID!): Room
     rooms: [Room!]!
@@ -42,6 +42,7 @@ export const typeDefs = gql`
     The URL of the user's upload avatar image.
     """
     avatar: String
+    talks: [Talk!]!
   }
 
   type Room {

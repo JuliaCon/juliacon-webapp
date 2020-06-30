@@ -26,7 +26,6 @@ export type QueryTalksArgs = {
   day?: Maybe<Scalars["String"]>;
   roomId?: Maybe<Scalars["ID"]>;
   talkType?: Maybe<TalkType>;
-  speakerId?: Maybe<Scalars["ID"]>;
 };
 
 export type QueryRoomArgs = {
@@ -63,6 +62,7 @@ export type Speaker = {
   biography?: Maybe<Scalars["String"]>;
   /** The URL of the user's upload avatar image. */
   avatar?: Maybe<Scalars["String"]>;
+  talks: Array<Talk>;
 };
 
 export type Talk = {
