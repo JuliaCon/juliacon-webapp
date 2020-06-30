@@ -4,6 +4,9 @@ import { useRouter } from "next/router";
 import { TalkDetails } from "../../components/TalkDetails";
 import React from "react";
 
+/**
+ * The details about a specific talk.
+ */
 export const TalkPage: NextPage = () => {
   const router = useRouter();
   const { id } = router.query;
