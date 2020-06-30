@@ -13,6 +13,8 @@ export const Nav = () => {
       `}
     >
       <NavLink href={"/agenda"}>Agenda</NavLink>
+      <NavLink href={"/live"}>Live Schedule</NavLink>
+      <NavLink href={"/posters"}>Posters</NavLink>
     </nav>
   );
 };
@@ -61,7 +63,7 @@ const NavLink = ({ children, href, as }: NavLinkProps) => {
         <span
           className={css`
             display: block;
-            padding: 0.5rem;
+            padding: 1rem;
           `}
         >
           {children}
