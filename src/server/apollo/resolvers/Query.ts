@@ -7,11 +7,12 @@ export const Query: QueryResolvers = {
   talks: async (_root, args, { dataSources }) => {
     const talks = await dataSources.pretalx.getAllTalks();
 
-    const { roomId, talkType } = args;
+    const { roomId, talkType, speaker } = args;
     return filterTalks(talks, {
       day: args.day ? assertConferenceDay(args.day) : undefined,
       roomId,
       submissionType: talkType && talkTypeToSubmissionType(talkType),
+      speaker,
     });
   },
 

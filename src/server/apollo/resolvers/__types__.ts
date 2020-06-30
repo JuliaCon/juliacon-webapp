@@ -37,6 +37,7 @@ export type QueryTalksArgs = {
   day?: Maybe<Scalars["String"]>;
   roomId?: Maybe<Scalars["ID"]>;
   talkType?: Maybe<TalkType>;
+  speakerId?: Maybe<Scalars["ID"]>;
 };
 
 export type QueryRoomArgs = {
