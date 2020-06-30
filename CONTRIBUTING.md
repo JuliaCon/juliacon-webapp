@@ -38,8 +38,15 @@ See the [Julia Community Standards](https://julialang.org/community/standards/).
    Vercel will automatically generate a deployment preview link and add a comment with the URL.
    Please make sure everything works as expected.
 
-## PR Approval
+## Submitting your pull request
 
+Please prefer small (<= 100 lines) PR's.
+It's much better to have a series of small PR's than a single monster PR.
+
+Please also include a screenshot of your changes if applicable.
+Vercel will automatically generate a deploy link and people can go test out your application, but it's much easier if you just include a screenshot as well.
+
+### Guidelines for approval
 I don't want to be overly authoritarian about PR approval.
 I will be looking for a few basic things:
 
