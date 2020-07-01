@@ -8,7 +8,8 @@
           "fillOpacity": [
             {"test": "indexof(datum.talks, hoverID) > 0", "value": 1},
             {"value": 0.3}
-          ]
+          ],
+          "description": {"signal": "datum.text + ' has count ' + datum.count"}
         },
         "hover": {"fillOpacity": {"value": 1}},
         "enter": {

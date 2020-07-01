@@ -3,7 +3,6 @@
   "autosize": "pad",
   "padding": 5,
   "data": [
-    {"name": "paintbrush_store"},
     {"name": "talks"},
     {
       "name": "data_0",
@@ -21,33 +20,23 @@
         },
         {
           "type": "formula",
+          "as": "day_start",
+          "expr": "utcday(datum[\"start_datetime\"])"
+        },
+        {
+          "type": "formula",
           "as": "day_start_datetime",
-          "expr": "datetime(2006, 0, day(datum[\"start_datetime\"])+1, 0, 0, 0, 0)"
-        },
-        {"type": "identifier", "as": "_vgsid_"},
-        {
-          "type": "formula",
-          "as": "hoursminutes_end_datetime",
-          "expr": "datetime(0, 0, 1, hours(datum[\"end_datetime\"]), minutes(datum[\"end_datetime\"]), 0, 0)"
+          "expr": "datetime(0, 0, datum[\"day_start\"])"
         },
         {
           "type": "formula",
-          "as": "hoursminutes_start_datetime",
-          "expr": "datetime(0, 0, 1, hours(datum[\"start_datetime\"]), minutes(datum[\"start_datetime\"]), 0, 0)"
+          "as": "normalized_start_datetime",
+          "expr": "timeOffset('day', datum[\"start_datetime\"], -1 * datum[\"day_start\"])"
         },
         {
           "type": "formula",
-          "as": "yearmonthdatehoursminutes_start_datetime",
-          "expr": "datetime(year(datum[\"start_datetime\"]), month(datum[\"start_datetime\"]), date(datum[\"start_datetime\"]), hours(datum[\"start_datetime\"]), minutes(datum[\"start_datetime\"]), 0, 0)"
-        },
-        {
-          "type": "formula",
-          "as": "hoursminutes_end_datetime",
-          "expr": "datum[\"hoursminutes_end_datetime\"] < datum[\"hoursminutes_start_datetime\"] ? datetime(0, 0, 1, 23, 59, 0, 0) : datum[\"hoursminutes_end_datetime\"]"
-        },
-        {
-          "type": "filter",
-          "expr": "datum[\"hoursminutes_start_datetime\"] !== null && !isNaN(datum[\"hoursminutes_start_datetime\"])"
+          "as": "normalized_end_datetime",
+          "expr": "timeOffset('day', datum[\"end_datetime\"], -1 * datum[\"day_start\"])"
         }
       ]
     },
@@ -163,13 +152,14 @@
               "fill": {"scale": "color", "field": "duration"},
               "fillOpacity": {"signal": "indexof(hoverIDs, datum.index) >= 0 ? 1 : 0.4"},
               "tooltip": {
-                "signal": "{\"title\": ''+datum[\"title\"], \"Speaker\": ''+datum[\"speaker\"], \"Location\": ''+datum[\"location\"], \"Date & Time\": timeFormat(datum[\"yearmonthdatehoursminutes_start_datetime\"], '%b %d, %Y %H:%M'), \"Duration (min)\": format(datum[\"duration\"], \"\")}"
+                "signal": "{\"title\": ''+datum[\"title\"], \"Speaker\": ''+datum[\"speaker\"], \"Location\": ''+datum[\"location\"], \"Date & Time\": timeFormat(datum[\"start_datetime\"], '%b %d, %Y %H:%M %Z'), \"Duration (min)\": format(datum[\"duration\"], \"\")}"
               },
               "href": {"signal": "''+datum[\"url\"]"},
-              "x": {"scale": "x", "field": "hoursminutes_start_datetime"},
-              "x2": {"scale": "x", "field": "hoursminutes_end_datetime"},
+              "x": {"scale": "x", "field": "normalized_start_datetime"},
+              "x2": {"scale": "x", "field": "normalized_end_datetime"},
               "y": {"scale": "y", "field": "location"},
-              "height": {"scale": "y", "band": true}
+              "height": {"scale": "y", "band": true},
+              "description": {"signal": "datum.title + ' at ' + timeFormat(datum.start_datetime, '%b %d, %Y %H:%M %Z')"}
             },
             "hover": {
               "fillOpacity": 1.0
@@ -200,7 +190,7 @@
       "type": "time",
       "domain": {
         "data": "data_0",
-        "fields": ["hoursminutes_start_datetime", "hoursminutes_end_datetime"]
+        "fields": ["normalized_start_datetime", "normalized_end_datetime"]
       },
       "range": [0, {"signal": "child_width"}]
     },

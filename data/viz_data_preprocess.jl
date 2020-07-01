@@ -11,12 +11,16 @@ function viz_data_preprocess(data)
         end
     end
 
+    corpus = get_corpus(talks)
+
+    # remove text from talks before save
+    delete!.(talks, "text")
+
     # save json for schedule viz
     open("../src/assets/vega/sched_viz_data.json", "w") do io
         JSON.print(io, talks, 1)
     end
 
-    corpus = get_corpus(talks)
     # save json for word cloud viz
     open("../src/assets/vega/wordcloud_viz_data.json", "w") do io
         JSON.print(io, corpus, 1)
