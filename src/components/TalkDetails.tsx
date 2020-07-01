@@ -5,6 +5,7 @@ export const TalkDetailsFragment = gql`
   fragment TalkDetails on Talk {
     id
     title
+    abstract
     description
   }
 `;
