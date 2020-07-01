@@ -37,7 +37,10 @@
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "simple-oauth2": "4.1.0"
+    "simple-oauth2": "4.1.0",
+    "vega": "^5.13.0",
+    "vega-embed": "^6.9.0",
+    "vega-lite": "^4.13.1"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "1.15.4",

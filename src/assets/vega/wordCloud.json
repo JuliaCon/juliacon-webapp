@@ -1,0 +1,51 @@
+{
+  "height": 350,
+  "padding": 10,
+  "marks": [
+    {
+      "encode": {
+        "update": {
+          "fillOpacity": [
+            {"test": "indexof(datum.talks, hoverID) > 0", "value": 1},
+            {"value": 0.3}
+          ]
+        },
+        "hover": {"fillOpacity": {"value": 1}},
+        "enter": {
+          "text": {"field": "text"},
+          "baseline": {"value": "alphabetic"},
+          "fill": {"field": "count", "scale": "color"},
+          "align": {"value": "center"}
+        }
+      },
+      "from": {"data": "corpus"},
+      "type": "text",
+      "transform": [
+        {
+          "padding": 2,
+          "fontSizeRange": [12, 56],
+          "font": "Helvetica Neue, Arial",
+          "size": [{"signal": "width"}, {"signal": "height"}],
+          "text": {"field": "text"},
+          "type": "wordcloud",
+          "fontSize": {"field": "datum.count"}
+        }
+      ]
+    }
+  ],
+  "data": [
+    {
+      "name": "corpus"
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "range": {"scheme": "purpleblue"},
+      "domain": {"data": "corpus", "field": "count"},
+      "type": "log"
+    }
+  ],
+  "width": 900,
+  "signals": [{"name": "hoverID", "value": 0}]
+}
