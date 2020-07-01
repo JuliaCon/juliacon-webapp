@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { css } from "emotion";
+import { css, cx } from "emotion";
 import { mobileOnly } from "../../utils/css";
 
 export const Nav = () => {
@@ -17,10 +17,15 @@ export const Nav = () => {
       <NavLink href={"/live"}>Live Schedule</NavLink>
       <NavLink href={"/posters"}>Posters</NavLink>
       <div
-        className={mobileOnly(
+        className={cx(
           css`
-            display: none;
-          `
+            height: 100%;
+          `,
+          mobileOnly(
+            css`
+              display: none;
+            `
+          )
         )}
       >
         <NavLink href={"/viz"}>Explore Talks</NavLink>
