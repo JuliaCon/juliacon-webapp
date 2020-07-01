@@ -29,7 +29,7 @@ function parse_talk(d, index)
     parsed["index"] = index
     parsed["id"] = d["code"]
     parsed["title"] = d["title"]
-    parsed["url"] = "/talks/$(parsed["id"])"
+    parsed["url"] = "/talk/$(parsed["id"])"
     parsed["speaker"] = join(map(x -> x["name"], d["speakers"]), ", ")
     parsed["start_datetime"] = d["slot"]["start"]
     parsed["end_datetime"] = d["slot"]["end"]
@@ -46,8 +46,9 @@ function get_corpus(data)
     corpus = Corpus(sds)
 
     # clean up the data
-    remove_case!(corpus)
-    prepare!(corpus, strip_articles| strip_non_letters| strip_stopwords| strip_pronouns)
+    url_regex = r"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
+    remove_patterns!(corpus, url_regex)
+    prepare!(corpus, strip_case| strip_articles| strip_non_letters| strip_stopwords| strip_pronouns| strip_indefinite_articles| strip_definite_articles| strip_prepositions| strip_html_tags| strip_whitespace)
     remove_words!(corpus, ["julia", "jl", "talk", "using"]) # too common :(
 
     # set up the lexicon
@@ -111,8 +112,8 @@ function get_corpus(data)
 
     # combine ngrams and find most commone words and phrases
     tg_cut_off = 2
-    bg_cut_off = 4
-    ug_cut_off = 15
+    bg_cut_off = 3
+    ug_cut_off = 18
 
     new_tg = remove_ngrams(lexicon(tg_corpus), tg_cut_off)
     new_bg = remove_ngrams(lexicon(bg_corpus), new_tg, bg_cut_off)

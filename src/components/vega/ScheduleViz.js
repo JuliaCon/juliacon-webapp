@@ -18,18 +18,14 @@ export default class ScheduleViz extends Component {
       mode: "vega",
       actions: false,
       renderer: "svg",
-      loader: { target: "_blank" },
     }).then((res) => {
       try {
-        console.log(data);
-        console.log(res);
         res.view
           .insert("talks", data)
           .resize()
           .runAsync()
           .then((view) => {
             this.updateView(view);
-            console.log(view);
             // update the global state with the current mouseover
             view.addEventListener("mouseover", (name, value) => {
               if (value && value.datum.index) {

@@ -37,6 +37,10 @@ export default class WordCloudViz extends Component {
                 this.props.setHover([]);
               }
             });
+
+            view.addEventListener("mouseout", (name, value) => {
+              this.props.setHover([]);
+            });
           });
       } catch (error) {
         console.log("OH NO - The Word Cloud Viz Broke!");
