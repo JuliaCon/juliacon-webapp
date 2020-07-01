@@ -7,6 +7,11 @@ import { css } from "emotion";
 import Logo from "../assets/logo.svg";
 import { Center, VSpace } from "../components/layout";
 
+/**
+ * A page to allow presenters to upload their files. This is linked from the
+ * JuliaCon main site and just uploads files into an S3 bucket that the JuliaCon
+ * organizers have access to.
+ */
 const UploadPage: NextPage = () => {
   return (
     <div
