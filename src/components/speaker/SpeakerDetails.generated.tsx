@@ -1,8 +1,10 @@
 import * as Types from "../../apollo/__generated__/types";
 
 import { SpeakerInfoFragment } from "./SpeakerInfo.generated";
+import { AgendaTalksListItemFragment } from "../agenda/AgendaTalksListItem.generated";
 import gql from "graphql-tag";
 import { SpeakerInfoFragmentDoc } from "./SpeakerInfo.generated";
+import { AgendaTalksListItemFragmentDoc } from "../agenda/AgendaTalksListItem.generated";
 import * as ApolloReactCommon from "@apollo/client";
 import * as ApolloReactHooks from "@apollo/client";
 
@@ -17,7 +19,8 @@ export type SpeakerDetailsQuery = { readonly __typename?: "Query" } & {
       "id" | "avatar" | "name" | "biography"
     > & {
         readonly talks: ReadonlyArray<
-          { readonly __typename?: "Talk" } & Pick<Types.Talk, "id">
+          { readonly __typename?: "Talk" } & Pick<Types.Talk, "id"> &
+            AgendaTalksListItemFragment
         >;
       } & SpeakerInfoFragment
   >;
@@ -33,10 +36,12 @@ export const SpeakerDetailsDocument = gql`
       biography
       talks {
         id
+        ...AgendaTalksListItem
       }
     }
   }
   ${SpeakerInfoFragmentDoc}
+  ${AgendaTalksListItemFragmentDoc}
 `;
 
 /**
