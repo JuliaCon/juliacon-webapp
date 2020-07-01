@@ -1,0 +1,221 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "autosize": "pad",
+  "padding": 5,
+  "data": [
+    {"name": "paintbrush_store"},
+    {"name": "talks"},
+    {
+      "name": "data_0",
+      "source": "talks",
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "toDate(datum[\"start_datetime\"])",
+          "as": "start_datetime"
+        },
+        {
+          "type": "formula",
+          "expr": "toDate(datum[\"end_datetime\"])",
+          "as": "end_datetime"
+        },
+        {
+          "type": "formula",
+          "as": "day_start_datetime",
+          "expr": "datetime(2006, 0, day(datum[\"start_datetime\"])+1, 0, 0, 0, 0)"
+        },
+        {"type": "identifier", "as": "_vgsid_"},
+        {
+          "type": "formula",
+          "as": "hoursminutes_end_datetime",
+          "expr": "datetime(0, 0, 1, hours(datum[\"end_datetime\"]), minutes(datum[\"end_datetime\"]), 0, 0)"
+        },
+        {
+          "type": "formula",
+          "as": "hoursminutes_start_datetime",
+          "expr": "datetime(0, 0, 1, hours(datum[\"start_datetime\"]), minutes(datum[\"start_datetime\"]), 0, 0)"
+        },
+        {
+          "type": "formula",
+          "as": "yearmonthdatehoursminutes_start_datetime",
+          "expr": "datetime(year(datum[\"start_datetime\"]), month(datum[\"start_datetime\"]), date(datum[\"start_datetime\"]), hours(datum[\"start_datetime\"]), minutes(datum[\"start_datetime\"]), 0, 0)"
+        },
+        {
+          "type": "filter",
+          "expr": "datum[\"hoursminutes_start_datetime\"] !== null && !isNaN(datum[\"hoursminutes_start_datetime\"])"
+        }
+      ]
+    },
+    {
+      "name": "column_domain",
+      "source": "data_0",
+      "transform": [{"type": "aggregate", "groupby": ["day_start_datetime"]}]
+    }
+  ],
+  "signals": [
+    {"name": "child_width", "value": 300},
+    {"name": "child_height", "value": 150},
+    {"name": "hoverIDs", "value": []}
+  ],
+  "layout": {
+    "padding": 20,
+    "columns": {"signal": "length(data('column_domain'))"},
+    "bounds": "full",
+    "align": "all"
+  },
+  "marks": [
+    {
+      "name": "row_header",
+      "type": "group",
+      "role": "row-header",
+      "encode": {"update": {"height": {"signal": "child_height"}}},
+      "axes": [{"scale": "y", "orient": "left", "grid": false, "zindex": 1}]
+    },
+    {
+      "name": "column_header",
+      "type": "group",
+      "role": "column-header",
+      "from": {"data": "column_domain"},
+      "sort": {"field": "datum[\"day_start_datetime\"]", "order": "ascending"},
+      "title": {
+        "text": {"signal": "timeFormat(parent[\"day_start_datetime\"], '%A')"},
+        "style": "guide-label",
+        "frame": "group",
+        "fontSize": 15,
+        "offset": 10
+      },
+      "encode": {"update": {"width": {"signal": "child_width"}}}
+    },
+    {
+      "name": "column_footer",
+      "type": "group",
+      "role": "column-footer",
+      "from": {"data": "column_domain"},
+      "sort": {"field": "datum[\"day_start_datetime\"]", "order": "ascending"},
+      "encode": {"update": {"width": {"signal": "child_width"}}},
+      "axes": [
+        {
+          "scale": "x",
+          "orient": "bottom",
+          "grid": false,
+          "labelFlush": true,
+          "labelOverlap": true,
+          "tickCount": {"signal": "ceil(child_width/40)"},
+          "encode": {
+            "labels": {
+              "update": {"text": {"signal": "timeFormat(datum.value, '%H:%M')"}}
+            }
+          },
+          "zindex": 1
+        }
+      ]
+    },
+    {
+      "name": "cell",
+      "type": "group",
+      "style": "cell",
+      "from": {
+        "facet": {
+          "name": "facet",
+          "data": "data_0",
+          "groupby": ["day_start_datetime"]
+        }
+      },
+      "sort": {
+        "field": ["datum[\"day_start_datetime\"]"],
+        "order": ["ascending"]
+      },
+      "encode": {
+        "update": {
+          "width": {"signal": "child_width"},
+          "height": {"signal": "child_height"}
+        }
+      },
+      "signals": [
+        {
+          "name": "facet",
+          "value": {},
+          "on": [
+            {
+              "events": [{"source": "scope", "type": "mousemove"}],
+              "update": "isTuple(facet) ? facet : group(\"cell\").datum"
+            }
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "name": "child_marks",
+          "type": "rect",
+          "style": ["rect"],
+          "from": {"data": "facet"},
+          "encode": {
+            "update": {
+              "opacity": {"value": 1},
+              "stroke": {"value": "white"},
+              "strokeWidth": {"value": 1},
+              "cursor": {"value": "pointer"},
+              "fill": {"scale": "color", "field": "duration"},
+              "fillOpacity": [
+                {"test": "indexof(hoverIDs, datum.index) >= 0", "value": 1.0},
+                {"value": 0.4}
+              ],
+              "tooltip": {
+                "signal": "{\"title\": ''+datum[\"title\"], \"Speaker\": ''+datum[\"speaker\"], \"Location\": ''+datum[\"location\"], \"Date & Time\": timeFormat(datum[\"yearmonthdatehoursminutes_start_datetime\"], '%b %d, %Y %H:%M'), \"Duration (min)\": format(datum[\"duration\"], \"\")}"
+              },
+              "href": {"signal": "''+datum[\"url\"]"},
+              "x": {"scale": "x", "field": "hoursminutes_start_datetime"},
+              "x2": {"scale": "x", "field": "hoursminutes_end_datetime"},
+              "y": {"scale": "y", "field": "location"},
+              "height": {"scale": "y", "band": true}
+            }
+          }
+        }
+      ],
+      "axes": [
+        {
+          "scale": "x",
+          "orient": "bottom",
+          "gridScale": "y",
+          "grid": true,
+          "tickCount": {"signal": "ceil(child_width/40)"},
+          "domain": false,
+          "labels": false,
+          "maxExtent": 0,
+          "minExtent": 0,
+          "ticks": false,
+          "zindex": 0
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "time",
+      "domain": {
+        "data": "data_0",
+        "fields": ["hoursminutes_start_datetime", "hoursminutes_end_datetime"]
+      },
+      "range": [0, {"signal": "child_width"}]
+    },
+    {
+      "name": "y",
+      "type": "band",
+      "domain": {"data": "data_0", "field": "location", "sort": true},
+      "range": [0, {"signal": "child_height"}],
+      "paddingInner": 0.5,
+      "paddingOuter": 0.25
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "data_0", "field": "duration", "sort": true},
+      "range": "category"
+    }
+  ],
+  "config": {
+    "axis": {"labelFontSize": 12, "titleFontSize": 12, "gridOpacity": 0},
+    "style": {"cell": {"strokeOpacity": 0}}
+  }
+}
