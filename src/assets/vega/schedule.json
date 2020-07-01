@@ -156,10 +156,7 @@
               "strokeWidth": {"value": 1},
               "cursor": {"value": "pointer"},
               "fill": {"scale": "color", "field": "duration"},
-              "fillOpacity": [
-                {"test": "indexof(hoverIDs, datum.index) >= 0", "value": 1.0},
-                {"value": 0.4}
-              ],
+              "fillOpacity": {"signal": "indexof(hoverIDs, datum.index) >= 0 ? 1 : 0.4"},
               "tooltip": {
                 "signal": "{\"title\": ''+datum[\"title\"], \"Speaker\": ''+datum[\"speaker\"], \"Location\": ''+datum[\"location\"], \"Date & Time\": timeFormat(datum[\"yearmonthdatehoursminutes_start_datetime\"], '%b %d, %Y %H:%M'), \"Duration (min)\": format(datum[\"duration\"], \"\")}"
               },
@@ -168,6 +165,9 @@
               "x2": {"scale": "x", "field": "hoursminutes_end_datetime"},
               "y": {"scale": "y", "field": "location"},
               "height": {"scale": "y", "band": true}
+            },
+            "hover": {
+              "fillOpacity": 1.0
             }
           }
         }

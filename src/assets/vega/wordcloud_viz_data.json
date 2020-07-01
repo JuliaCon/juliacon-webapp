@@ -1,19 +1,5 @@
 [
  {
-  "text": "hardware",
-  "count": 14,
-  "talks": [
-   22,
-   24,
-   31,
-   64,
-   73,
-   86,
-   123,
-   141
-  ]
- },
- {
   "text": "action",
   "count": 4,
   "talks": [
@@ -235,13 +221,10 @@
   ]
  },
  {
-  "text": "months",
-  "count": 4,
+  "text": "thicknes estimation",
+  "count": 12,
   "talks": [
-   22,
-   44,
-   70,
-   118
+   15
   ]
  },
  {
@@ -254,10 +237,13 @@
   ]
  },
  {
-  "text": "thicknes estimation",
-  "count": 12,
+  "text": "months",
+  "count": 4,
   "talks": [
-   15
+   22,
+   44,
+   70,
+   118
   ]
  },
  {
@@ -400,33 +386,10 @@
   ]
  },
  {
-  "text": "juliagraph",
-  "count": 3,
-  "talks": [
-   9,
-   27
-  ]
- },
- {
   "text": "clasroom",
   "count": 5,
   "talks": [
    35
-  ]
- },
- {
-  "text": "continuable http",
-  "count": 12,
-  "talks": [
-   82
-  ]
- },
- {
-  "text": "package http",
-  "count": 12,
-  "talks": [
-   93,
-   139
   ]
  },
  {
@@ -596,7 +559,7 @@
  },
  {
   "text": "package",
-  "count": 259,
+  "count": 258,
   "talks": [
    1,
    2,
@@ -799,14 +762,6 @@
   ]
  },
  {
-  "text": "g",
-  "count": 3,
-  "talks": [
-   65,
-   117
-  ]
- },
- {
   "text": "linear",
   "count": 34,
   "talks": [
@@ -989,7 +944,7 @@
  },
  {
   "text": "turing",
-  "count": 8,
+  "count": 6,
   "talks": [
    40,
    122
@@ -1143,10 +1098,9 @@
  },
  {
   "text": "crown",
-  "count": 5,
+  "count": 4,
   "talks": [
-   18,
-   22
+   18
   ]
  },
  {
@@ -1243,21 +1197,21 @@
   ]
  },
  {
+  "text": "artifact",
+  "count": 10,
+  "talks": [
+   20,
+   48,
+   60,
+   110
+  ]
+ },
+ {
   "text": "background",
   "count": 3,
   "talks": [
    8,
    91,
-   110
-  ]
- },
- {
-  "text": "artifact",
-  "count": 12,
-  "talks": [
-   20,
-   48,
-   60,
    110
   ]
  },
@@ -1415,12 +1369,11 @@
  },
  {
   "text": "syntax tree",
-  "count": 24,
+  "count": 20,
   "talks": [
    94,
    112,
-   149,
-   152
+   149
   ]
  },
  {
@@ -1560,12 +1513,11 @@
  },
  {
   "text": "al",
-  "count": 6,
+  "count": 5,
   "talks": [
    6,
    69,
-   97,
-   119
+   97
   ]
  },
  {
@@ -1640,7 +1592,7 @@
  },
  {
   "text": "singularity",
-  "count": 7,
+  "count": 6,
   "talks": [
    22
   ]
@@ -1748,7 +1700,7 @@
  },
  {
   "text": "makie",
-  "count": 13,
+  "count": 11,
   "talks": [
    65,
    72,
@@ -1759,18 +1711,11 @@
  },
  {
   "text": "dashboard",
-  "count": 9,
+  "count": 8,
   "talks": [
    13,
    28,
    32
-  ]
- },
- {
-  "text": "manifold http",
-  "count": 12,
-  "talks": [
-   74
   ]
  },
  {
@@ -1779,6 +1724,13 @@
   "talks": [
    45,
    99
+  ]
+ },
+ {
+  "text": "fragmentation",
+  "count": 3,
+  "talks": [
+   18
   ]
  },
  {
@@ -1791,26 +1743,12 @@
   ]
  },
  {
-  "text": "fragmentation",
-  "count": 3,
-  "talks": [
-   18
-  ]
- },
- {
   "text": "data set",
   "count": 16,
   "talks": [
    26,
    43,
    94
-  ]
- },
- {
-  "text": "sparity",
-  "count": 4,
-  "talks": [
-   116
   ]
  },
  {
@@ -1863,14 +1801,6 @@
   "count": 4,
   "talks": [
    10
-  ]
- },
- {
-  "text": "perpectives",
-  "count": 3,
-  "talks": [
-   24,
-   91
   ]
  },
  {
@@ -1946,11 +1876,10 @@
  },
  {
   "text": "n",
-  "count": 7,
+  "count": 5,
   "talks": [
    65,
-   91,
-   99
+   91
   ]
  },
  {
@@ -2066,14 +1995,6 @@
    16,
    38,
    51
-  ]
- },
- {
-  "text": "com juliacon",
-  "count": 176,
-  "talks": [
-   65,
-   117
   ]
  },
  {
@@ -2253,7 +2174,7 @@
  },
  {
   "text": "nrel",
-  "count": 6,
+  "count": 4,
   "talks": [
    49,
    130
@@ -2261,7 +2182,7 @@
  },
  {
   "text": "code",
-  "count": 108,
+  "count": 107,
   "talks": [
    1,
    4,
@@ -2536,8 +2457,17 @@
   ]
  },
  {
+  "text": "combinators",
+  "count": 6,
+  "talks": [
+   57,
+   74,
+   94
+  ]
+ },
+ {
   "text": "team",
-  "count": 14,
+  "count": 8,
   "talks": [
    13,
    17,
@@ -2646,15 +2576,6 @@
    53,
    88,
    147
-  ]
- },
- {
-  "text": "wikipedia",
-  "count": 5,
-  "talks": [
-   68,
-   104,
-   152
   ]
  },
  {
@@ -3129,6 +3050,13 @@
   ]
  },
  {
+  "text": "sonums",
+  "count": 3,
+  "talks": [
+   24
+  ]
+ },
+ {
   "text": "internal",
   "count": 11,
   "talks": [
@@ -3177,13 +3105,6 @@
    52,
    75,
    93
-  ]
- },
- {
-  "text": "github io manifold",
-  "count": 36,
-  "talks": [
-   74
   ]
  },
  {
@@ -3236,15 +3157,6 @@
   "count": 12,
   "talks": [
    89
-  ]
- },
- {
-  "text": "jupyterhub",
-  "count": 3,
-  "talks": [
-   68,
-   100,
-   104
   ]
  },
  {
@@ -3411,6 +3323,21 @@
   ]
  },
  {
+  "text": "version",
+  "count": 13,
+  "talks": [
+   22,
+   36,
+   44,
+   72,
+   91,
+   100,
+   105,
+   135,
+   147
+  ]
+ },
+ {
   "text": "speedup",
   "count": 7,
   "talks": [
@@ -3419,13 +3346,6 @@
    92,
    106,
    113
-  ]
- },
- {
-  "text": "setfield",
-  "count": 4,
-  "talks": [
-   98
   ]
  },
  {
@@ -3547,13 +3467,6 @@
   "talks": [
    94,
    148
-  ]
- },
- {
-  "text": "parer combinator",
-  "count": 12,
-  "talks": [
-   57
   ]
  },
  {
@@ -3720,18 +3633,8 @@
   ]
  },
  {
-  "text": "univerity",
-  "count": 5,
-  "talks": [
-   24,
-   39,
-   113,
-   123
-  ]
- },
- {
   "text": "salsa",
-  "count": 18,
+  "count": 14,
   "talks": [
    99
   ]
@@ -3832,9 +3735,8 @@
  },
  {
   "text": "rf",
-  "count": 4,
+  "count": 3,
   "talks": [
-   65,
    78
   ]
  },
@@ -3940,14 +3842,6 @@
    142,
    146,
    151
-  ]
- },
- {
-  "text": "diverity inclusion",
-  "count": 24,
-  "talks": [
-   55,
-   126
   ]
  },
  {
@@ -4215,13 +4109,6 @@
   ]
  },
  {
-  "text": "diffequncertainty",
-  "count": 4,
-  "talks": [
-   87
-  ]
- },
- {
   "text": "nvidia",
   "count": 5,
   "talks": [
@@ -4460,7 +4347,7 @@
  },
  {
   "text": "juliaconnector",
-  "count": 10,
+  "count": 8,
   "talks": [
    93
   ]
@@ -4605,11 +4492,10 @@
   ]
  },
  {
-  "text": "k",
+  "text": "imaging",
   "count": 3,
   "talks": [
-   65,
-   112
+   119
   ]
  },
  {
@@ -4632,19 +4518,11 @@
  },
  {
   "text": "et al",
-  "count": 24,
+  "count": 20,
   "talks": [
    6,
    69,
-   97,
-   119
-  ]
- },
- {
-  "text": "imaging",
-  "count": 3,
-  "talks": [
-   119
+   97
   ]
  },
  {
@@ -4652,6 +4530,24 @@
   "count": 3,
   "talks": [
    61
+  ]
+ },
+ {
+  "text": "reverse mode",
+  "count": 16,
+  "talks": [
+   47,
+   137
+  ]
+ },
+ {
+  "text": "declarative",
+  "count": 6,
+  "talks": [
+   72,
+   94,
+   99,
+   136
   ]
  },
  {
@@ -4678,31 +4574,6 @@
   ]
  },
  {
-  "text": "declarative",
-  "count": 6,
-  "talks": [
-   72,
-   94,
-   99,
-   136
-  ]
- },
- {
-  "text": "random",
-  "count": 14,
-  "talks": [
-   21,
-   22,
-   36,
-   51,
-   74,
-   79,
-   101,
-   122,
-   125
-  ]
- },
- {
   "text": "impact",
   "count": 14,
   "talks": [
@@ -4725,11 +4596,35 @@
   ]
  },
  {
+  "text": "random",
+  "count": 14,
+  "talks": [
+   21,
+   22,
+   36,
+   51,
+   74,
+   79,
+   101,
+   122,
+   125
+  ]
+ },
+ {
   "text": "primarily",
   "count": 3,
   "talks": [
    66,
    147
+  ]
+ },
+ {
+  "text": "developing package",
+  "count": 12,
+  "talks": [
+   2,
+   54,
+   119
   ]
  },
  {
@@ -4743,28 +4638,12 @@
   ]
  },
  {
-  "text": "developing package",
-  "count": 12,
-  "talks": [
-   2,
-   54,
-   119
-  ]
- },
- {
   "text": "community driven",
   "count": 12,
   "talks": [
    20,
    68,
    104
-  ]
- },
- {
-  "text": "julianlsolver github io",
-  "count": 36,
-  "talks": [
-   74
   ]
  },
  {
@@ -4787,6 +4666,14 @@
    59,
    84,
    127
+  ]
+ },
+ {
+  "text": "queryverse",
+  "count": 5,
+  "talks": [
+   7,
+   63
   ]
  },
  {
@@ -4858,19 +4745,6 @@
   ]
  },
  {
-  "text": "julialang",
-  "count": 8,
-  "talks": [
-   3,
-   17,
-   20,
-   98,
-   110,
-   136,
-   144
-  ]
- },
- {
   "text": "front",
   "count": 4,
   "talks": [
@@ -4887,18 +4761,6 @@
    16,
    23,
    72
-  ]
- },
- {
-  "text": "io",
-  "count": 9,
-  "talks": [
-   68,
-   74,
-   76,
-   103,
-   104,
-   136
   ]
  },
  {
@@ -4953,7 +4815,7 @@
  },
  {
   "text": "generator",
-  "count": 13,
+  "count": 12,
   "talks": [
    35,
    36,
@@ -5174,20 +5036,17 @@
   ]
  },
  {
-  "text": "julialang org",
-  "count": 16,
-  "talks": [
-   20,
-   110,
-   136,
-   144
-  ]
- },
- {
   "text": "trade",
   "count": 3,
   "talks": [
    56
+  ]
+ },
+ {
+  "text": "parser combinators",
+  "count": 12,
+  "talks": [
+   57
   ]
  },
  {
@@ -5261,15 +5120,14 @@
  },
  {
   "text": "compilation",
-  "count": 11,
+  "count": 10,
   "talks": [
    94,
    99,
    110,
    112,
    121,
-   151,
-   152
+   151
   ]
  },
  {
@@ -5292,13 +5150,12 @@
  },
  {
   "text": "ml",
-  "count": 12,
+  "count": 11,
   "talks": [
    12,
    26,
    39,
    43,
-   65,
    78,
    99,
    124
@@ -5375,20 +5232,12 @@
   ]
  },
  {
-  "text": "introduction",
-  "count": 12,
+  "text": "reduction",
+  "count": 3,
   "talks": [
-   10,
-   25,
-   29,
-   46,
-   52,
-   63,
-   69,
-   90,
-   115,
-   137,
-   143
+   92,
+   97,
+   132
   ]
  },
  {
@@ -5452,20 +5301,28 @@
   ]
  },
  {
-  "text": "reduction",
-  "count": 3,
-  "talks": [
-   92,
-   97,
-   132
-  ]
- },
- {
   "text": "columns",
   "count": 5,
   "talks": [
    72,
    144
+  ]
+ },
+ {
+  "text": "introduction",
+  "count": 12,
+  "talks": [
+   10,
+   25,
+   29,
+   46,
+   52,
+   63,
+   69,
+   90,
+   115,
+   137,
+   143
   ]
  },
  {
@@ -5536,12 +5393,11 @@
  },
  {
   "text": "et",
-  "count": 6,
+  "count": 5,
   "talks": [
    6,
    69,
-   97,
-   119
+   97
   ]
  },
  {
@@ -5595,7 +5451,7 @@
  },
  {
   "text": "distribution",
-  "count": 31,
+  "count": 30,
   "talks": [
    29,
    38,
@@ -5646,6 +5502,16 @@
    25,
    93,
    99
+  ]
+ },
+ {
+  "text": "sparse",
+  "count": 7,
+  "talks": [
+   16,
+   59,
+   81,
+   139
   ]
  },
  {
@@ -5843,6 +5709,15 @@
   ]
  },
  {
+  "text": "reverse",
+  "count": 5,
+  "talks": [
+   47,
+   52,
+   137
+  ]
+ },
+ {
   "text": "contract",
   "count": 5,
   "talks": [
@@ -5860,63 +5735,27 @@
   ]
  },
  {
-  "text": "github",
-  "count": 90,
-  "talks": [
-   9,
-   10,
-   13,
-   15,
-   17,
-   19,
-   22,
-   23,
-   25,
-   35,
-   40,
-   42,
-   46,
-   48,
-   49,
-   51,
-   54,
-   65,
-   72,
-   74,
-   75,
-   76,
-   82,
-   84,
-   87,
-   90,
-   93,
-   94,
-   98,
-   99,
-   100,
-   105,
-   119,
-   122,
-   124,
-   128,
-   129,
-   133,
-   136,
-   138,
-   139,
-   141,
-   144,
-   150,
-   152
-  ]
- },
- {
   "text": "graphics",
   "count": 7,
   "talks": [
    7,
    72,
    135
+  ]
+ },
+ {
+  "text": "github",
+  "count": 12,
+  "talks": [
+   10,
+   15,
+   23,
+   48,
+   54,
+   65,
+   100,
+   129,
+   150
   ]
  },
  {
@@ -5977,13 +5816,6 @@
    150,
    151,
    152
-  ]
- },
- {
-  "text": "io manifold",
-  "count": 16,
-  "talks": [
-   74
   ]
  },
  {
@@ -6073,64 +5905,14 @@
  },
  {
   "text": "continuable",
-  "count": 8,
+  "count": 5,
   "talks": [
    82
   ]
  },
  {
-  "text": "github com",
-  "count": 292,
-  "talks": [
-   9,
-   13,
-   15,
-   17,
-   19,
-   22,
-   23,
-   25,
-   35,
-   40,
-   42,
-   46,
-   49,
-   51,
-   72,
-   75,
-   82,
-   84,
-   87,
-   90,
-   93,
-   94,
-   98,
-   99,
-   105,
-   119,
-   122,
-   124,
-   128,
-   133,
-   136,
-   138,
-   139,
-   141,
-   144,
-   152
-  ]
- },
- {
-  "text": "code generator",
-  "count": 12,
-  "talks": [
-   35,
-   117
-  ]
- },
- {
   "text": "api",
-  "count": 21,
+  "count": 20,
   "talks": [
    7,
    10,
@@ -6138,7 +5920,6 @@
    37,
    45,
    47,
-   49,
    54,
    57,
    78,
@@ -6151,7 +5932,7 @@
  },
  {
   "text": "jusdl",
-  "count": 6,
+  "count": 5,
   "talks": [
    51
   ]
@@ -6190,13 +5971,6 @@
   ]
  },
  {
-  "text": "openstreetmap org",
-  "count": 12,
-  "talks": [
-   9
-  ]
- },
- {
   "text": "generate",
   "count": 22,
   "talks": [
@@ -6216,13 +5990,6 @@
    120,
    128,
    152
-  ]
- },
- {
-  "text": "tensoroperation",
-  "count": 3,
-  "talks": [
-   139
   ]
  },
  {
@@ -6275,7 +6042,7 @@
  },
  {
   "text": "interface",
-  "count": 41,
+  "count": 40,
   "talks": [
    1,
    8,
@@ -6461,6 +6228,13 @@
   ]
  },
  {
+  "text": "universe",
+  "count": 6,
+  "talks": [
+   2
+  ]
+ },
+ {
   "text": "porosity",
   "count": 3,
   "talks": [
@@ -6478,6 +6252,14 @@
    105,
    110,
    149
+  ]
+ },
+ {
+  "text": "diversity inclusion",
+  "count": 24,
+  "talks": [
+   55,
+   126
   ]
  },
  {
@@ -6535,13 +6317,10 @@
   ]
  },
  {
-  "text": "recurive",
-  "count": 4,
+  "text": "undergraduate",
+  "count": 3,
   "talks": [
-   40,
-   57,
-   112,
-   149
+   61
   ]
  },
  {
@@ -6577,10 +6356,21 @@
   ]
  },
  {
-  "text": "undergraduate",
-  "count": 3,
+  "text": "developing",
+  "count": 14,
   "talks": [
-   61
+   2,
+   4,
+   31,
+   32,
+   54,
+   68,
+   84,
+   104,
+   115,
+   119,
+   147,
+   151
   ]
  },
  {
@@ -6612,28 +6402,20 @@
   ]
  },
  {
-  "text": "developing",
-  "count": 14,
-  "talks": [
-   2,
-   4,
-   31,
-   32,
-   54,
-   68,
-   84,
-   104,
-   115,
-   119,
-   147,
-   151
-  ]
- },
- {
   "text": "atmospheric",
   "count": 3,
   "talks": [
    95
+  ]
+ },
+ {
+  "text": "collaborators",
+  "count": 4,
+  "talks": [
+   54,
+   77,
+   100,
+   133
   ]
  },
  {
@@ -6834,15 +6616,6 @@
   ]
  },
  {
-  "text": "en wikipedia",
-  "count": 20,
-  "talks": [
-   68,
-   104,
-   152
-  ]
- },
- {
   "text": "detail",
   "count": 9,
   "talks": [
@@ -6857,35 +6630,12 @@
   ]
  },
  {
-  "text": "bus factor",
-  "count": 16,
-  "talks": [
-   68,
-   104
-  ]
- },
- {
   "text": "org",
-  "count": 34,
+  "count": 5,
   "talks": [
    9,
-   15,
-   20,
-   44,
-   46,
    68,
-   72,
-   74,
-   91,
-   98,
-   104,
-   110,
-   136,
-   139,
-   141,
-   144,
-   146,
-   152
+   104
   ]
  },
  {
@@ -6918,13 +6668,6 @@
   "count": 12,
   "talks": [
    143
-  ]
- },
- {
-  "text": "manifold http julianlsolver",
-  "count": 27,
-  "talks": [
-   74
   ]
  },
  {
@@ -7008,14 +6751,6 @@
   ]
  },
  {
-  "text": "com turinglang",
-  "count": 16,
-  "talks": [
-   40,
-   122
-  ]
- },
- {
   "text": "achieve",
   "count": 11,
   "talks": [
@@ -7037,18 +6772,6 @@
   "talks": [
    122,
    135
-  ]
- },
- {
-  "text": "diverity",
-  "count": 13,
-  "talks": [
-   51,
-   55,
-   91,
-   125,
-   126,
-   144
   ]
  },
  {
@@ -7200,15 +6923,6 @@
    34,
    39,
    99
-  ]
- },
- {
-  "text": "verions",
-  "count": 3,
-  "talks": [
-   91,
-   100,
-   147
   ]
  },
  {
@@ -7374,7 +7088,7 @@
  },
  {
   "text": "observable",
-  "count": 5,
+  "count": 4,
   "talks": [
    10,
    136
@@ -7641,7 +7355,7 @@
  },
  {
   "text": "cxxwrap",
-  "count": 5,
+  "count": 4,
   "talks": [
    25
   ]
@@ -7670,18 +7384,6 @@
    18,
    59,
    146
-  ]
- },
- {
-  "text": "programmer",
-  "count": 6,
-  "talks": [
-   99,
-   111,
-   114,
-   116,
-   137,
-   149
   ]
  },
  {
@@ -7725,48 +7427,6 @@
   "talks": [
    135,
    138,
-   152
-  ]
- },
- {
-  "text": "http github",
-  "count": 292,
-  "talks": [
-   9,
-   13,
-   15,
-   17,
-   19,
-   22,
-   23,
-   25,
-   35,
-   40,
-   42,
-   46,
-   49,
-   51,
-   72,
-   75,
-   82,
-   84,
-   87,
-   90,
-   93,
-   94,
-   98,
-   99,
-   105,
-   119,
-   122,
-   124,
-   128,
-   133,
-   136,
-   138,
-   139,
-   141,
-   144,
    152
   ]
  },
@@ -7821,20 +7481,6 @@
   ]
  },
  {
-  "text": "parer scratch",
-  "count": 12,
-  "talks": [
-   50
-  ]
- },
- {
-  "text": "continuable http github",
-  "count": 27,
-  "talks": [
-   82
-  ]
- },
- {
   "text": "autoregresive",
   "count": 3,
   "talks": [
@@ -7850,13 +7496,11 @@
  },
  {
   "text": "jupyter",
-  "count": 11,
+  "count": 9,
   "talks": [
    28,
    58,
-   68,
    100,
-   104,
    105,
    135
   ]
@@ -7867,13 +7511,6 @@
   "talks": [
    84,
    119
-  ]
- },
- {
-  "text": "sonum",
-  "count": 3,
-  "talks": [
-   24
   ]
  },
  {
@@ -8100,15 +7737,6 @@
   ]
  },
  {
-  "text": "peter",
-  "count": 3,
-  "talks": [
-   24,
-   65,
-   139
-  ]
- },
- {
   "text": "climate model",
   "count": 16,
   "talks": [
@@ -8251,13 +7879,6 @@
   ]
  },
  {
-  "text": "salsa http github",
-  "count": 27,
-  "talks": [
-   99
-  ]
- },
- {
   "text": "planned",
   "count": 3,
   "talks": [
@@ -8285,19 +7906,6 @@
    68,
    104,
    105
-  ]
- },
- {
-  "text": "undertanding",
-  "count": 9,
-  "talks": [
-   2,
-   22,
-   32,
-   33,
-   39,
-   87,
-   89
   ]
  },
  {
@@ -8346,14 +7954,6 @@
    83,
    88,
    117
-  ]
- },
- {
-  "text": "nameddim",
-  "count": 9,
-  "talks": [
-   75,
-   118
   ]
  },
  {
@@ -8457,7 +8057,7 @@
  },
  {
   "text": "intermediate",
-  "count": 4,
+  "count": 3,
   "talks": [
    40,
    152
@@ -8487,14 +8087,6 @@
    48,
    110,
    121
-  ]
- },
- {
-  "text": "pycall",
-  "count": 3,
-  "talks": [
-   9,
-   11
   ]
  },
  {
@@ -8739,13 +8331,6 @@
   ]
  },
  {
-  "text": "relationalai",
-  "count": 3,
-  "talks": [
-   99
-  ]
- },
- {
   "text": "form",
   "count": 7,
   "talks": [
@@ -8865,15 +8450,6 @@
   ]
  },
  {
-  "text": "e",
-  "count": 3,
-  "talks": [
-   15,
-   77,
-   117
-  ]
- },
- {
   "text": "matrices",
   "count": 6,
   "talks": [
@@ -8953,7 +8529,7 @@
  },
  {
   "text": "drwatson",
-  "count": 8,
+  "count": 7,
   "talks": [
    22,
    76
@@ -8969,7 +8545,7 @@
  },
  {
   "text": "zygote",
-  "count": 10,
+  "count": 9,
   "talks": [
    6,
    27,
@@ -9024,7 +8600,7 @@
  },
  {
   "text": "neurocore",
-  "count": 4,
+  "count": 3,
   "talks": [
    84
   ]
@@ -9102,14 +8678,13 @@
  },
  {
   "text": "base",
-  "count": 8,
+  "count": 7,
   "talks": [
    13,
    57,
    74,
    84,
    123,
-   136,
    137
   ]
  },
@@ -9132,15 +8707,14 @@
  },
  {
   "text": "tree",
-  "count": 13,
+  "count": 12,
   "talks": [
    26,
    94,
    112,
    115,
    117,
-   149,
-   152
+   149
   ]
  },
  {
@@ -9191,60 +8765,10 @@
  },
  {
   "text": "http",
-  "count": 169,
+  "count": 3,
   "talks": [
-   9,
    13,
-   15,
-   17,
-   19,
-   20,
-   22,
-   23,
-   25,
-   26,
-   35,
-   40,
-   42,
-   44,
-   45,
-   46,
-   49,
-   51,
-   65,
-   68,
-   69,
-   72,
-   74,
-   75,
-   76,
-   79,
-   82,
-   84,
-   87,
-   90,
-   91,
-   93,
-   94,
-   97,
-   98,
-   99,
-   104,
-   105,
-   110,
-   117,
-   119,
-   122,
-   124,
-   128,
-   133,
-   136,
-   138,
-   139,
-   141,
-   144,
-   146,
-   152
+   45
   ]
  },
  {
@@ -9416,13 +8940,6 @@
   ]
  },
  {
-  "text": "github com schlichtander",
-  "count": 27,
-  "talks": [
-   82
-  ]
- },
- {
   "text": "biology",
   "count": 8,
   "talks": [
@@ -9444,7 +8961,7 @@
  },
  {
   "text": "type",
-  "count": 76,
+  "count": 74,
   "talks": [
    10,
    19,
@@ -9547,13 +9064,6 @@
   ]
  },
  {
-  "text": "combinedparer",
-  "count": 6,
-  "talks": [
-   57
-  ]
- },
- {
   "text": "extended",
   "count": 4,
   "talks": [
@@ -9573,15 +9083,6 @@
   ]
  },
  {
-  "text": "productivity",
-  "count": 3,
-  "talks": [
-   15,
-   54,
-   109
-  ]
- },
- {
   "text": "moving",
   "count": 4,
   "talks": [
@@ -9589,6 +9090,15 @@
    89,
    124,
    126
+  ]
+ },
+ {
+  "text": "productivity",
+  "count": 3,
+  "talks": [
+   15,
+   54,
+   109
   ]
  },
  {
@@ -9641,45 +9151,12 @@
   ]
  },
  {
-  "text": "http github com",
-  "count": 657,
+  "text": "parsing",
+  "count": 12,
   "talks": [
-   9,
-   13,
-   15,
-   17,
-   19,
-   22,
-   23,
-   25,
-   35,
-   40,
-   42,
-   46,
-   49,
-   51,
-   72,
-   75,
-   82,
-   84,
-   87,
-   90,
-   93,
-   94,
-   98,
-   99,
-   105,
-   119,
-   122,
-   124,
-   128,
-   133,
-   136,
-   138,
-   139,
-   141,
-   144,
-   152
+   57,
+   78,
+   130
   ]
  },
  {
@@ -9860,14 +9337,6 @@
    1,
    121,
    151
-  ]
- },
- {
-  "text": "diverity inclusion community",
-  "count": 36,
-  "talks": [
-   55,
-   126
   ]
  },
  {
@@ -10199,6 +9668,14 @@
   ]
  },
  {
+  "text": "nameddims",
+  "count": 8,
+  "talks": [
+   75,
+   118
+  ]
+ },
+ {
   "text": "role",
   "count": 3,
   "talks": [
@@ -10289,20 +9766,6 @@
   ]
  },
  {
-  "text": "schlichtander",
-  "count": 3,
-  "talks": [
-   82
-  ]
- },
- {
-  "text": "code churn",
-  "count": 12,
-  "talks": [
-   54
-  ]
- },
- {
   "text": "friendly",
   "count": 7,
   "talks": [
@@ -10315,6 +9778,25 @@
   ]
  },
  {
+  "text": "code churn",
+  "count": 12,
+  "talks": [
+   54
+  ]
+ },
+ {
+  "text": "diversity",
+  "count": 13,
+  "talks": [
+   51,
+   55,
+   91,
+   125,
+   126,
+   144
+  ]
+ },
+ {
   "text": "relies",
   "count": 9,
   "talks": [
@@ -10324,6 +9806,18 @@
    84,
    123,
    131
+  ]
+ },
+ {
+  "text": "programmers",
+  "count": 6,
+  "talks": [
+   99,
+   111,
+   114,
+   116,
+   137,
+   149
   ]
  },
  {
@@ -10355,7 +9849,7 @@
  },
  {
   "text": "table",
-  "count": 6,
+  "count": 5,
   "talks": [
    14,
    59,
@@ -10490,13 +9984,6 @@
   ]
  },
  {
-  "text": "fplll",
-  "count": 3,
-  "talks": [
-   133
-  ]
- },
- {
   "text": "simulating",
   "count": 8,
   "talks": [
@@ -10524,16 +10011,6 @@
    131,
    142,
    151
-  ]
- },
- {
-  "text": "researcher",
-  "count": 5,
-  "talks": [
-   34,
-   43,
-   49,
-   130
   ]
  },
  {
@@ -10741,17 +10218,6 @@
   ]
  },
  {
-  "text": "coure",
-  "count": 11,
-  "talks": [
-   39,
-   82,
-   100,
-   113,
-   130
-  ]
- },
- {
   "text": "cost",
   "count": 19,
   "talks": [
@@ -10835,6 +10301,14 @@
    146,
    149,
    151
+  ]
+ },
+ {
+  "text": "inversion",
+  "count": 5,
+  "talks": [
+   15,
+   71
   ]
  },
  {
@@ -10934,28 +10408,6 @@
   ]
  },
  {
-  "text": "r",
-  "count": 3,
-  "talks": [
-   65,
-   99,
-   123
-  ]
- },
- {
-  "text": "stable",
-  "count": 9,
-  "talks": [
-   72,
-   74,
-   76,
-   88,
-   93,
-   124,
-   150
-  ]
- },
- {
   "text": "overview",
   "count": 31,
   "talks": [
@@ -10988,10 +10440,13 @@
   ]
  },
  {
-  "text": "circulation model",
-  "count": 12,
+  "text": "stable",
+  "count": 6,
   "talks": [
-   95
+   88,
+   93,
+   124,
+   150
   ]
  },
  {
@@ -11008,12 +10463,29 @@
   ]
  },
  {
+  "text": "circulation model",
+  "count": 12,
+  "talks": [
+   95
+  ]
+ },
+ {
   "text": "simplify",
   "count": 3,
   "talks": [
    19,
    50,
    120
+  ]
+ },
+ {
+  "text": "university",
+  "count": 5,
+  "talks": [
+   24,
+   39,
+   113,
+   123
   ]
  },
  {
@@ -11045,11 +10517,10 @@
   ]
  },
  {
-  "text": "br",
-  "count": 14,
+  "text": "reactive programming",
+  "count": 12,
   "talks": [
-   65,
-   143
+   10
   ]
  },
  {
@@ -11065,13 +10536,6 @@
    113,
    140,
    147
-  ]
- },
- {
-  "text": "reactive programming",
-  "count": 12,
-  "talks": [
-   10
   ]
  },
  {
@@ -11169,14 +10633,6 @@
   ]
  },
  {
-  "text": "queryvere",
-  "count": 5,
-  "talks": [
-   7,
-   63
-  ]
- },
- {
   "text": "inclusion community",
   "count": 16,
   "talks": [
@@ -11213,15 +10669,6 @@
   ]
  },
  {
-  "text": "org wiki",
-  "count": 20,
-  "talks": [
-   68,
-   104,
-   152
-  ]
- },
- {
   "text": "autonomy",
   "count": 3,
   "talks": [
@@ -11239,15 +10686,6 @@
    56,
    87,
    145
-  ]
- },
- {
-  "text": "wiki",
-  "count": 5,
-  "talks": [
-   68,
-   104,
-   152
   ]
  },
  {
@@ -11428,14 +10866,6 @@
   ]
  },
  {
-  "text": "bus",
-  "count": 4,
-  "talks": [
-   68,
-   104
-  ]
- },
- {
   "text": "age",
   "count": 3,
   "talks": [
@@ -11496,15 +10926,6 @@
   ]
  },
  {
-  "text": "combinator",
-  "count": 6,
-  "talks": [
-   57,
-   74,
-   94
-  ]
- },
- {
   "text": "graph",
   "count": 38,
   "talks": [
@@ -11552,7 +10973,7 @@
  },
  {
   "text": "community",
-  "count": 42,
+  "count": 41,
   "talks": [
    20,
    29,
@@ -11560,7 +10981,6 @@
    55,
    68,
    77,
-   79,
    86,
    91,
    104,
@@ -11725,17 +11145,12 @@
  },
  {
   "text": "html",
-  "count": 15,
+  "count": 10,
   "talks": [
    13,
-   15,
    28,
    57,
    58,
-   68,
-   72,
-   74,
-   104,
    105,
    150
   ]
@@ -11781,7 +11196,7 @@
  },
  {
   "text": "syntax",
-  "count": 21,
+  "count": 20,
   "talks": [
    1,
    17,
@@ -11793,8 +11208,7 @@
    99,
    112,
    122,
-   149,
-   152
+   149
   ]
  },
  {
@@ -11931,19 +11345,6 @@
   ]
  },
  {
-  "text": "undertand",
-  "count": 7,
-  "talks": [
-   33,
-   37,
-   99,
-   105,
-   130,
-   137,
-   152
-  ]
- },
- {
   "text": "variational",
   "count": 3,
   "talks": [
@@ -11960,6 +11361,16 @@
    30,
    77,
    151
+  ]
+ },
+ {
+  "text": "researchers",
+  "count": 5,
+  "talks": [
+   34,
+   43,
+   49,
+   130
   ]
  },
  {
@@ -12064,10 +11475,10 @@
   ]
  },
  {
-  "text": "tokenizer",
-  "count": 4,
+  "text": "parser scratch",
+  "count": 12,
   "talks": [
-   37
+   50
   ]
  },
  {
@@ -12233,18 +11644,8 @@
   ]
  },
  {
-  "text": "www",
-  "count": 5,
-  "talks": [
-   9,
-   69,
-   94,
-   133
-  ]
- },
- {
   "text": "flux",
-  "count": 20,
+  "count": 19,
   "talks": [
    12,
    27,
@@ -12288,16 +11689,6 @@
   ]
  },
  {
-  "text": "spare",
-  "count": 7,
-  "talks": [
-   16,
-   59,
-   81,
-   139
-  ]
- },
- {
   "text": "stochastic",
   "count": 17,
   "talks": [
@@ -12311,14 +11702,6 @@
    81,
    113,
    127
-  ]
- },
- {
-  "text": "pretalx com juliacon",
-  "count": 396,
-  "talks": [
-   65,
-   117
   ]
  },
  {
@@ -12408,7 +11791,7 @@
  },
  {
   "text": "openstreetmapx",
-  "count": 4,
+  "count": 3,
   "talks": [
    9
   ]
@@ -12547,6 +11930,19 @@
    93,
    112,
    149
+  ]
+ },
+ {
+  "text": "understand",
+  "count": 7,
+  "talks": [
+   33,
+   37,
+   99,
+   105,
+   130,
+   137,
+   152
   ]
  },
  {
@@ -12894,7 +12290,7 @@
  },
  {
   "text": "representation",
-  "count": 22,
+  "count": 21,
   "talks": [
    31,
    40,
@@ -12906,16 +12302,7 @@
    89,
    93,
    94,
-   144,
-   152
-  ]
- },
- {
-  "text": "http pretalx com",
-  "count": 396,
-  "talks": [
-   65,
-   117
+   144
   ]
  },
  {
@@ -12931,13 +12318,6 @@
   "talks": [
    72,
    134
-  ]
- },
- {
-  "text": "omeinsum",
-  "count": 3,
-  "talks": [
-   139
   ]
  },
  {
@@ -13076,15 +12456,6 @@
   ]
  },
  {
-  "text": "m",
-  "count": 3,
-  "talks": [
-   18,
-   65,
-   127
-  ]
- },
- {
   "text": "requiring",
   "count": 6,
   "talks": [
@@ -13146,13 +12517,6 @@
    22,
    59,
    78
-  ]
- },
- {
-  "text": "schlichtander continuable",
-  "count": 12,
-  "talks": [
-   82
   ]
  },
  {
@@ -13409,7 +12773,7 @@
  },
  {
   "text": "mybinder org",
-  "count": 32,
+  "count": 16,
   "talks": [
    68,
    104
@@ -13417,16 +12781,14 @@
  },
  {
   "text": "juliacon",
-  "count": 57,
+  "count": 12,
   "talks": [
    12,
    63,
-   65,
    66,
    97,
    102,
    105,
-   117,
    126,
    139
   ]
@@ -13471,20 +12833,6 @@
    72,
    90,
    105
-  ]
- },
- {
-  "text": "verion",
-  "count": 10,
-  "talks": [
-   22,
-   36,
-   44,
-   72,
-   100,
-   105,
-   135,
-   147
   ]
  },
  {
@@ -13560,14 +12908,6 @@
   ]
  },
  {
-  "text": "http pretalx",
-  "count": 176,
-  "talks": [
-   65,
-   117
-  ]
- },
- {
   "text": "ordinary",
   "count": 5,
   "talks": [
@@ -13576,8 +12916,16 @@
   ]
  },
  {
+  "text": "diversity inclusion community",
+  "count": 36,
+  "talks": [
+   55,
+   126
+  ]
+ },
+ {
   "text": "openstreetmap",
-  "count": 5,
+  "count": 3,
   "talks": [
    9
   ]
@@ -14015,14 +13363,6 @@
   ]
  },
  {
-  "text": "team http",
-  "count": 12,
-  "talks": [
-   68,
-   104
-  ]
- },
- {
   "text": "ice thicknes",
   "count": 20,
   "talks": [
@@ -14115,7 +13455,7 @@
  },
  {
   "text": "qml",
-  "count": 9,
+  "count": 8,
   "talks": [
    136
   ]
@@ -14221,7 +13561,7 @@
  },
  {
   "text": "reopt",
-  "count": 6,
+  "count": 4,
   "talks": [
    49
   ]
@@ -14282,14 +13622,13 @@
  },
  {
   "text": "manual",
-  "count": 7,
+  "count": 6,
   "talks": [
    69,
    89,
    91,
    97,
-   113,
-   144
+   113
   ]
  },
  {
@@ -14570,13 +13909,6 @@
   ]
  },
  {
-  "text": "juliageo",
-  "count": 3,
-  "talks": [
-   144
-  ]
- },
- {
   "text": "client build",
   "count": 12,
   "talks": [
@@ -14608,16 +13940,8 @@
   ]
  },
  {
-  "text": "inverion",
-  "count": 5,
-  "talks": [
-   15,
-   71
-  ]
- },
- {
   "text": "statsmodel",
-  "count": 5,
+  "count": 3,
   "talks": [
    138
   ]
@@ -14697,14 +14021,11 @@
   ]
  },
  {
-  "text": "visual",
-  "count": 6,
+  "text": "parser",
+  "count": 15,
   "talks": [
-   35,
-   65,
-   89,
-   101,
-   119
+   50,
+   57
   ]
  },
  {
@@ -14725,6 +14046,17 @@
    43,
    52,
    70,
+   119
+  ]
+ },
+ {
+  "text": "visual",
+  "count": 6,
+  "talks": [
+   35,
+   65,
+   89,
+   101,
    119
   ]
  },
@@ -14798,12 +14130,10 @@
  },
  {
   "text": "net",
-  "count": 5,
+  "count": 3,
   "talks": [
    12,
-   46,
-   90,
-   133
+   90
   ]
  },
  {
@@ -14891,13 +14221,6 @@
   ]
  },
  {
-  "text": "pas nameddimarray",
-  "count": 12,
-  "talks": [
-   75
-  ]
- },
- {
   "text": "poster",
   "count": 4,
   "talks": [
@@ -14970,6 +14293,13 @@
    27,
    61,
    115
+  ]
+ },
+ {
+  "text": "nameddimsarray",
+  "count": 3,
+  "talks": [
+   75
   ]
  },
  {
@@ -15201,50 +14531,10 @@
  },
  {
   "text": "com",
-  "count": 125,
+  "count": 4,
   "talks": [
-   9,
-   13,
-   15,
-   17,
-   19,
-   22,
-   23,
-   25,
-   35,
-   40,
-   42,
-   46,
-   49,
-   51,
    59,
-   61,
-   65,
-   69,
-   72,
-   75,
-   79,
-   82,
-   84,
-   87,
-   90,
-   93,
-   94,
-   98,
-   99,
-   105,
-   117,
-   119,
-   122,
-   124,
-   128,
-   133,
-   136,
-   138,
-   139,
-   141,
-   144,
-   152
+   61
   ]
  },
  {
@@ -15282,7 +14572,7 @@
  },
  {
   "text": "parametric",
-  "count": 7,
+  "count": 6,
   "talks": [
    19,
    36,
@@ -15653,7 +14943,7 @@
  },
  {
   "text": "augmentedgausianproceses",
-  "count": 4,
+  "count": 3,
   "talks": [
    19
   ]
@@ -15724,13 +15014,10 @@
   ]
  },
  {
-  "text": "http www",
-  "count": 20,
+  "text": "friend enemies",
+  "count": 16,
   "talks": [
-   9,
-   69,
-   94,
-   133
+   79
   ]
  },
  {
@@ -15744,10 +15031,10 @@
   ]
  },
  {
-  "text": "friend enemies",
-  "count": 16,
+  "text": "future value",
+  "count": 12,
   "talks": [
-   79
+   16
   ]
  },
  {
@@ -15756,20 +15043,6 @@
   "talks": [
    9,
    105
-  ]
- },
- {
-  "text": "julianlsolver github",
-  "count": 16,
-  "talks": [
-   74
-  ]
- },
- {
-  "text": "future value",
-  "count": 12,
-  "talks": [
-   16
   ]
  },
  {
@@ -15793,13 +15066,6 @@
   ]
  },
  {
-  "text": "neural architecture",
-  "count": 20,
-  "talks": [
-   18
-  ]
- },
- {
   "text": "dependency",
   "count": 8,
   "talks": [
@@ -15809,6 +15075,13 @@
    99,
    100,
    137
+  ]
+ },
+ {
+  "text": "neural architecture",
+  "count": 20,
+  "talks": [
+   18
   ]
  },
  {
@@ -15893,7 +15166,7 @@
  },
  {
   "text": "sos",
-  "count": 19,
+  "count": 17,
   "talks": [
    94
   ]
@@ -16060,7 +15333,7 @@
  },
  {
   "text": "abstract",
-  "count": 16,
+  "count": 15,
   "talks": [
    40,
    43,
@@ -16071,8 +15344,7 @@
    112,
    139,
    144,
-   149,
-   152
+   149
   ]
  },
  {
@@ -16127,7 +15399,7 @@
  },
  {
   "text": "hydropowermodel",
-  "count": 5,
+  "count": 3,
   "talks": [
    42
   ]
@@ -16185,7 +15457,7 @@
  },
  {
   "text": "dynamicppl",
-  "count": 12,
+  "count": 11,
   "talks": [
    122
   ]
@@ -16200,6 +15472,13 @@
   ]
  },
  {
+  "text": "combinedparser",
+  "count": 6,
+  "talks": [
+   57
+  ]
+ },
+ {
   "text": "manager",
   "count": 9,
   "talks": [
@@ -16208,17 +15487,6 @@
    48,
    73,
    127
-  ]
- },
- {
-  "text": "provide overview",
-  "count": 20,
-  "talks": [
-   14,
-   40,
-   77,
-   81,
-   102
   ]
  },
  {
@@ -16235,6 +15503,17 @@
    56,
    71,
    74
+  ]
+ },
+ {
+  "text": "provide overview",
+  "count": 20,
+  "talks": [
+   14,
+   40,
+   77,
+   81,
+   102
   ]
  },
  {
@@ -16304,26 +15583,10 @@
   ]
  },
  {
-  "text": "disperal",
-  "count": 3,
-  "talks": [
-   101
-  ]
- },
- {
   "text": "rng",
   "count": 3,
   "talks": [
    36
-  ]
- },
- {
-  "text": "http en",
-  "count": 20,
-  "talks": [
-   68,
-   104,
-   152
   ]
  },
  {
@@ -16588,17 +15851,14 @@
  },
  {
   "text": "v",
-  "count": 20,
+  "count": 17,
   "talks": [
    7,
    25,
-   65,
    102,
    110,
    112,
-   117,
    137,
-   144,
    147,
    150
   ]
@@ -16778,7 +16038,7 @@
  },
  {
   "text": "gridap",
-  "count": 6,
+  "count": 4,
   "talks": [
    23
   ]
@@ -16887,7 +16147,7 @@
  },
  {
   "text": "itensor",
-  "count": 6,
+  "count": 4,
   "talks": [
    120,
    139
@@ -17066,7 +16326,7 @@
  },
  {
   "text": "quantum",
-  "count": 14,
+  "count": 13,
   "talks": [
    109,
    117,
@@ -17101,13 +16361,10 @@
   ]
  },
  {
-  "text": "succes",
+  "text": "tokenizers",
   "count": 4,
   "talks": [
-   39,
-   127,
-   138,
-   144
+   37
   ]
  },
  {
@@ -17115,6 +16372,16 @@
   "count": 16,
   "talks": [
    108
+  ]
+ },
+ {
+  "text": "succes",
+  "count": 4,
+  "talks": [
+   39,
+   127,
+   138,
+   144
   ]
  },
  {
@@ -17151,10 +16418,11 @@
   ]
  },
  {
-  "text": "accuratearithmetic",
+  "text": "mybinder",
   "count": 4,
   "talks": [
-   141
+   68,
+   104
   ]
  },
  {
@@ -17169,7 +16437,7 @@
  },
  {
   "text": "time",
-  "count": 94,
+  "count": 93,
   "talks": [
    4,
    10,
@@ -17210,8 +16478,7 @@
    127,
    128,
    137,
-   151,
-   152
+   151
   ]
  },
  {
@@ -17249,14 +16516,6 @@
   ]
  },
  {
-  "text": "mybinder",
-  "count": 8,
-  "talks": [
-   68,
-   104
-  ]
- },
- {
   "text": "topic",
   "count": 17,
   "talks": [
@@ -17272,6 +16531,14 @@
   ]
  },
  {
+  "text": "system modeling",
+  "count": 16,
+  "talks": [
+   18,
+   130
+  ]
+ },
+ {
   "text": "explain",
   "count": 10,
   "talks": [
@@ -17283,14 +16550,6 @@
    56,
    64,
    112
-  ]
- },
- {
-  "text": "system modeling",
-  "count": 16,
-  "talks": [
-   18,
-   130
   ]
  },
  {
@@ -17318,7 +16577,7 @@
  },
  {
   "text": "forwarddiff",
-  "count": 5,
+  "count": 4,
   "talks": [
    56,
    137,
@@ -17396,7 +16655,7 @@
  },
  {
   "text": "factor",
-  "count": 10,
+  "count": 8,
   "talks": [
    10,
    52,
@@ -17513,9 +16772,8 @@
  },
  {
   "text": "python",
-  "count": 23,
+  "count": 22,
   "talks": [
-   9,
    11,
    12,
    19,
@@ -17533,13 +16791,6 @@
    119,
    125,
    151
-  ]
- },
- {
-  "text": "minutes br",
-  "count": 28,
-  "talks": [
-   143
   ]
  },
  {
@@ -17561,6 +16812,13 @@
   ]
  },
  {
+  "text": "dispersal",
+  "count": 3,
+  "talks": [
+   101
+  ]
+ },
+ {
   "text": "knowledge graph",
   "count": 24,
   "talks": [
@@ -17569,7 +16827,7 @@
  },
  {
   "text": "network",
-  "count": 49,
+  "count": 48,
   "talks": [
    1,
    6,
@@ -17584,8 +16842,7 @@
    93,
    103,
    106,
-   117,
-   136
+   117
   ]
  },
  {
@@ -17810,6 +17067,13 @@
   ]
  },
  {
+  "text": "gmse",
+  "count": 4,
+  "talks": [
+   127
+  ]
+ },
+ {
   "text": "method sharing",
   "count": 12,
   "talks": [
@@ -18004,15 +17268,6 @@
   ]
  },
  {
-  "text": "paring",
-  "count": 11,
-  "talks": [
-   57,
-   78,
-   130
-  ]
- },
- {
   "text": "simple",
   "count": 41,
   "talks": [
@@ -18052,11 +17307,10 @@
  },
  {
   "text": "procesor",
-  "count": 7,
+  "count": 5,
   "talks": [
    24,
-   92,
-   106
+   92
   ]
  },
  {
@@ -18326,14 +17580,6 @@
   ]
  },
  {
-  "text": "turinglang",
-  "count": 4,
-  "talks": [
-   40,
-   122
-  ]
- },
- {
   "text": "implicit",
   "count": 4,
   "talks": [
@@ -18362,14 +17608,6 @@
    120,
    122,
    138
-  ]
- },
- {
-  "text": "exam",
-  "count": 3,
-  "talks": [
-   61,
-   113
   ]
  },
  {
@@ -18425,15 +17663,6 @@
   "talks": [
    68,
    104
-  ]
- },
- {
-  "text": "http en wikipedia",
-  "count": 45,
-  "talks": [
-   68,
-   104,
-   152
   ]
  },
  {
@@ -18604,13 +17833,6 @@
   ]
  },
  {
-  "text": "com schlichtander continuable",
-  "count": 27,
-  "talks": [
-   82
-  ]
- },
- {
   "text": "tensor manipulation",
   "count": 12,
   "talks": [
@@ -18688,10 +17910,9 @@
  },
  {
   "text": "d",
-  "count": 6,
+  "count": 5,
   "talks": [
    39,
-   65,
    72,
    74
   ]
@@ -18739,12 +17960,11 @@
  },
  {
   "text": "abstract syntax",
-  "count": 24,
+  "count": 20,
   "talks": [
    94,
    112,
-   149,
-   152
+   149
   ]
  },
  {
@@ -18810,15 +18030,6 @@
   ]
  },
  {
-  "text": "en wikipedia org",
-  "count": 45,
-  "talks": [
-   68,
-   104,
-   152
-  ]
- },
- {
   "text": "machine learning package",
   "count": 27,
   "talks": [
@@ -18877,6 +18088,14 @@
   "talks": [
    43,
    59
+  ]
+ },
+ {
+  "text": "exams",
+  "count": 3,
+  "talks": [
+   61,
+   113
   ]
  },
  {
@@ -18939,7 +18158,7 @@
  },
  {
   "text": "manifold",
-  "count": 30,
+  "count": 26,
   "talks": [
    74
   ]
@@ -19022,7 +18241,7 @@
  },
  {
   "text": "dftk",
-  "count": 4,
+  "count": 3,
   "talks": [
    146
   ]
@@ -19056,13 +18275,6 @@
    2,
    34,
    125
-  ]
- },
- {
-  "text": "julianlsolver",
-  "count": 4,
-  "talks": [
-   74
   ]
  },
  {
@@ -19115,22 +18327,6 @@
   ]
  },
  {
-  "text": "revere mode",
-  "count": 16,
-  "talks": [
-   47,
-   137
-  ]
- },
- {
-  "text": "http mybinder",
-  "count": 16,
-  "talks": [
-   68,
-   104
-  ]
- },
- {
   "text": "simplification network",
   "count": 16,
   "talks": [
@@ -19160,14 +18356,6 @@
   ]
  },
  {
-  "text": "binder team",
-  "count": 12,
-  "talks": [
-   68,
-   104
-  ]
- },
- {
   "text": "various tool",
   "count": 12,
   "talks": [
@@ -19182,19 +18370,6 @@
    22,
    123,
    147
-  ]
- },
- {
-  "text": "perpective",
-  "count": 8,
-  "talks": [
-   14,
-   24,
-   38,
-   65,
-   106,
-   136,
-   140
   ]
  },
  {
@@ -19264,18 +18439,17 @@
   ]
  },
  {
-  "text": "quantum bof",
-  "count": 12,
+  "text": "perspective",
+  "count": 11,
   "talks": [
-   139
-  ]
- },
- {
-  "text": "ai",
-  "count": 3,
-  "talks": [
-   19,
-   112
+   14,
+   24,
+   38,
+   65,
+   91,
+   106,
+   136,
+   140
   ]
  },
  {
@@ -19476,8 +18650,18 @@
   ]
  },
  {
+  "text": "recursive",
+  "count": 4,
+  "talks": [
+   40,
+   57,
+   112,
+   149
+  ]
+ },
+ {
   "text": "bof",
-  "count": 11,
+  "count": 10,
   "talks": [
    29,
    34,
@@ -19675,29 +18859,6 @@
   ]
  },
  {
-  "text": "gme",
-  "count": 4,
-  "talks": [
-   127
-  ]
- },
- {
-  "text": "github io",
-  "count": 20,
-  "talks": [
-   74,
-   76
-  ]
- },
- {
-  "text": "juliastats",
-  "count": 3,
-  "talks": [
-   74,
-   138
-  ]
- },
- {
   "text": "data stream",
   "count": 16,
   "talks": [
@@ -19872,7 +19033,7 @@
  },
  {
   "text": "statsmakie",
-  "count": 6,
+  "count": 5,
   "talks": [
    72
   ]
@@ -19891,7 +19052,7 @@
  },
  {
   "text": "lightgraph",
-  "count": 6,
+  "count": 5,
   "talks": [
    1,
    9,
@@ -19915,10 +19076,12 @@
   ]
  },
  {
-  "text": "salsa http",
-  "count": 12,
+  "text": "specifically",
+  "count": 3,
   "talks": [
-   99
+   22,
+   40,
+   104
   ]
  },
  {
@@ -19929,12 +19092,10 @@
   ]
  },
  {
-  "text": "specifically",
-  "count": 3,
+  "text": "node j",
+  "count": 32,
   "talks": [
-   22,
-   40,
-   104
+   45
   ]
  },
  {
@@ -19973,15 +19134,8 @@
   ]
  },
  {
-  "text": "node j",
-  "count": 32,
-  "talks": [
-   45
-  ]
- },
- {
   "text": "convcnp",
-  "count": 7,
+  "count": 6,
   "talks": [
    46
   ]
@@ -20116,6 +19270,13 @@
    18,
    21,
    113
+  ]
+ },
+ {
+  "text": "sparsity",
+  "count": 4,
+  "talks": [
+   116
   ]
  },
  {
@@ -20281,14 +19442,6 @@
   ]
  },
  {
-  "text": "github com turinglang",
-  "count": 36,
-  "talks": [
-   40,
-   122
-  ]
- },
- {
   "text": "presentation",
   "count": 15,
   "talks": [
@@ -20337,14 +19490,6 @@
   "count": 16,
   "talks": [
    43
-  ]
- },
- {
-  "text": "package http github",
-  "count": 27,
-  "talks": [
-   93,
-   139
   ]
  },
  {
@@ -20412,13 +19557,6 @@
   "talks": [
    71,
    123
-  ]
- },
- {
-  "text": "gpflow",
-  "count": 3,
-  "talks": [
-   19
   ]
  },
  {
@@ -20534,7 +19672,7 @@
  },
  {
   "text": "gr",
-  "count": 12,
+  "count": 11,
   "talks": [
    9,
    135,
@@ -20557,14 +19695,6 @@
   "count": 3,
   "talks": [
    8
-  ]
- },
- {
-  "text": "http mybinder org",
-  "count": 36,
-  "talks": [
-   68,
-   104
   ]
  },
  {
@@ -20626,18 +19756,6 @@
   ]
  },
  {
-  "text": "en",
-  "count": 11,
-  "talks": [
-   68,
-   91,
-   104,
-   136,
-   144,
-   152
-  ]
- },
- {
   "text": "parallel solution",
   "count": 12,
   "talks": [
@@ -20662,16 +19780,6 @@
   ]
  },
  {
-  "text": "blog",
-  "count": 4,
-  "talks": [
-   20,
-   22,
-   86,
-   110
-  ]
- },
- {
   "text": "latency",
   "count": 6,
   "talks": [
@@ -20687,14 +19795,6 @@
   "talks": [
    33,
    141
-  ]
- },
- {
-  "text": "pretalx com",
-  "count": 176,
-  "talks": [
-   65,
-   117
   ]
  },
  {
@@ -20733,13 +19833,6 @@
    43,
    89,
    108
-  ]
- },
- {
-  "text": "http julianlsolver",
-  "count": 16,
-  "talks": [
-   74
   ]
  },
  {
@@ -20806,13 +19899,6 @@
   ]
  },
  {
-  "text": "univere",
-  "count": 6,
-  "talks": [
-   2
-  ]
- },
- {
   "text": "meet",
   "count": 6,
   "talks": [
@@ -20832,10 +19918,18 @@
   ]
  },
  {
-  "text": "http julianlsolver github",
-  "count": 36,
+  "text": "test",
+  "count": 11,
   "talks": [
-   74
+   20,
+   24,
+   57,
+   95,
+   106,
+   119,
+   129,
+   137,
+   151
   ]
  },
  {
@@ -20884,21 +19978,6 @@
   ]
  },
  {
-  "text": "test",
-  "count": 11,
-  "talks": [
-   20,
-   24,
-   57,
-   95,
-   106,
-   119,
-   129,
-   137,
-   151
-  ]
- },
- {
   "text": "dynamical system",
   "count": 32,
   "talks": [
@@ -20942,7 +20021,7 @@
  },
  {
   "text": "kernelfunction",
-  "count": 4,
+  "count": 3,
   "talks": [
    90
   ]
@@ -20964,7 +20043,7 @@
  },
  {
   "text": "visualization",
-  "count": 21,
+  "count": 20,
   "talks": [
    7,
    9,
@@ -20995,6 +20074,17 @@
    9,
    37,
    78,
+   130
+  ]
+ },
+ {
+  "text": "course",
+  "count": 11,
+  "talks": [
+   39,
+   82,
+   100,
+   113,
    130
   ]
  },
@@ -21123,18 +20213,8 @@
   ]
  },
  {
-  "text": "collaborator",
-  "count": 4,
-  "talks": [
-   54,
-   77,
-   100,
-   133
-  ]
- },
- {
   "text": "bayesian",
-  "count": 18,
+  "count": 17,
   "talks": [
    15,
    19,
@@ -21234,6 +20314,13 @@
   ]
  },
  {
+  "text": "pas nameddimsarray",
+  "count": 12,
+  "talks": [
+   75
+  ]
+ },
+ {
   "text": "renewable",
   "count": 5,
   "talks": [
@@ -21275,12 +20362,11 @@
  },
  {
   "text": "abstract syntax tree",
-  "count": 54,
+  "count": 45,
   "talks": [
    94,
    112,
-   149,
-   152
+   149
   ]
  },
  {
@@ -21307,14 +20393,6 @@
    77,
    125,
    142
-  ]
- },
- {
-  "text": "pretalx",
-  "count": 44,
-  "talks": [
-   65,
-   117
   ]
  },
  {
@@ -21379,13 +20457,6 @@
   "count": 3,
   "talks": [
    14
-  ]
- },
- {
-  "text": "nameddimarray",
-  "count": 3,
-  "talks": [
-   75
   ]
  },
  {
@@ -21490,15 +20561,6 @@
   ]
  },
  {
-  "text": "wikipedia org",
-  "count": 20,
-  "talks": [
-   68,
-   104,
-   152
-  ]
- },
- {
   "text": "customize",
   "count": 3,
   "talks": [
@@ -21509,7 +20571,7 @@
  },
  {
   "text": "studies",
-  "count": 8,
+  "count": 7,
   "talks": [
    15,
    18,
@@ -21651,7 +20713,7 @@
  },
  {
   "text": "binder",
-  "count": 21,
+  "count": 17,
   "talks": [
    68,
    104,
@@ -21699,13 +20761,6 @@
    61,
    75,
    93
-  ]
- },
- {
-  "text": "com schlichtander",
-  "count": 12,
-  "talks": [
-   82
   ]
  },
  {
@@ -21767,6 +20822,19 @@
    73,
    84,
    92
+  ]
+ },
+ {
+  "text": "understanding",
+  "count": 9,
+  "talks": [
+   2,
+   22,
+   32,
+   33,
+   39,
+   87,
+   89
   ]
  },
  {
@@ -21844,23 +20912,6 @@
   ]
  },
  {
-  "text": "parer",
-  "count": 15,
-  "talks": [
-   50,
-   57
-  ]
- },
- {
-  "text": "revere",
-  "count": 5,
-  "talks": [
-   47,
-   52,
-   137
-  ]
- },
- {
   "text": "obtained",
   "count": 3,
   "talks": [
@@ -21929,7 +20980,7 @@
  },
  {
   "text": "pluto",
-  "count": 12,
+  "count": 10,
   "talks": [
    105
   ]
@@ -22147,14 +21198,6 @@
   ]
  },
  {
-  "text": "masively",
-  "count": 4,
-  "talks": [
-   71,
-   123
-  ]
- },
- {
   "text": "additionally",
   "count": 4,
   "talks": [
@@ -22177,12 +21220,25 @@
   ]
  },
  {
-  "text": "wikipedia org wiki",
-  "count": 45,
+  "text": "hardware",
+  "count": 14,
   "talks": [
-   68,
-   104,
-   152
+   22,
+   24,
+   31,
+   64,
+   73,
+   86,
+   123,
+   141
+  ]
+ },
+ {
+  "text": "masively",
+  "count": 4,
+  "talks": [
+   71,
+   123
   ]
  }
 ]
