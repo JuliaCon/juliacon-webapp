@@ -41,6 +41,11 @@
           "expr": "datetime(year(datum[\"start_datetime\"]), month(datum[\"start_datetime\"]), date(datum[\"start_datetime\"]), hours(datum[\"start_datetime\"]), minutes(datum[\"start_datetime\"]), 0, 0)"
         },
         {
+          "type": "formula",
+          "as": "hoursminutes_end_datetime",
+          "expr": "datum[\"hoursminutes_end_datetime\"] < datum[\"hoursminutes_start_datetime\"] ? datetime(0, 0, 1, 23, 59, 0, 0) : datum[\"hoursminutes_end_datetime\"]"
+        },
+        {
           "type": "filter",
           "expr": "datum[\"hoursminutes_start_datetime\"] !== null && !isNaN(datum[\"hoursminutes_start_datetime\"])"
         }

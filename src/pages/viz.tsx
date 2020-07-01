@@ -35,13 +35,15 @@ const VizPage: NextPage = () => {
 
       <VSpace />
 
-      <div className="my5">
+      <Center>
         <ScheduleViz wcHover={wcHoverIDs} setHover={setSchedHoverID} />
-      </div>
-      <br />
-      <div className="my5">
+      </Center>
+
+      <VSpace />
+
+      <Center>
         <WordCloudViz schedHover={schedHoverID} setHover={setWcHoverIDs} />
-      </div>
+      </Center>
     </Page>
   );
 };

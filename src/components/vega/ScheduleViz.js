@@ -26,6 +26,7 @@ export default class ScheduleViz extends Component {
           .runAsync()
           .then((view) => {
             this.updateView(view);
+            console.log(view);
             // update the global state with the current mouseover
             view.addEventListener("mouseover", (name, value) => {
               if (value && value.datum.index) {
