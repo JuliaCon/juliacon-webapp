@@ -73,7 +73,7 @@ export const AgendaTalksListItem = ({
           flex: 1;
         `}
       >
-        <a href={"/talk/" + talkId}>
+        <Link href="/talk/[id]" as={`/talk/${talkId}`}>
           <h4
             className={css`
               font-weight: bold;
@@ -81,7 +81,7 @@ export const AgendaTalksListItem = ({
           >
             {title}
           </h4>
-        </a>
+        </Link>
         <VSpace height={"0.25em"} />
         <div
           className={css`

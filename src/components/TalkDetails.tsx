@@ -1,42 +1,20 @@
-import { gql, useQuery } from "@apollo/client";
 import React from "react";
 import { VSpace } from "./layout";
 import { AgendaTalksListItemSpeakers } from "./agenda/AgendaTalksListItem";
 import { css } from "emotion";
 
-export const TalkDetailsFragment = gql`
-  fragment TalkDetails on Talk {
-    id
-    title
-    abstract
-    description
-    speakers {
-      id
-      name
-    }
-  }
-`;
-export const TalkDetailsQuery = gql`
-  query TalkDetails($id: ID!) {
-    talk(id: $id) {
-      ...TalkDetails
-    }
-  }
-
-  ${TalkDetailsFragment}
-`;
+import { useAgendaTalksListItemQuery } from "./agenda/AgendaTalksListItem.generated";
 
 export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
-  const { data, loading, error } = useQuery(TalkDetailsQuery, {
-    variables: { id },
+  const { data, error, loading } = useAgendaTalksListItemQuery({
+    variables: { id: id },
   });
+
   if (error) throw error;
   if (loading) return <p>"Loading"</p>;
   if (!data) throw new Error(`Failed to load data`);
   const talk = data.talk;
   if (!talk) return <p>"Not Found"</p>;
-
-  console.log(data);
 
   return (
     <div>
