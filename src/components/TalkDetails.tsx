@@ -1,11 +1,19 @@
 import { gql, useQuery } from "@apollo/client";
 import React from "react";
+import { VSpace } from "./layout";
+import { AgendaTalksListItemSpeakers } from "./agenda/AgendaTalksListItem";
+import { css } from "emotion";
 
 export const TalkDetailsFragment = gql`
   fragment TalkDetails on Talk {
     id
     title
+    abstract
     description
+    speakers {
+      id
+      name
+    }
   }
 `;
 export const TalkDetailsQuery = gql`
@@ -28,9 +36,31 @@ export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
   const talk = data.talk;
   if (!talk) return <p>"Not Found"</p>;
 
+  console.log(data);
+
   return (
     <div>
-      <pre>{JSON.stringify(data, null, 1)}</pre>
+      <h2
+        className={css`
+          font-weight: bold;
+          font-size: 2rem;
+          padding-bottom: 10px;
+        `}
+      >
+        {talk.title}
+      </h2>
+      <AgendaTalksListItemSpeakers speakers={talk.speakers} />
+      <VSpace />
+      <p
+        className={css`
+          font-weight: bold;
+        `}
+      >
+        {talk.abstract}
+      </p>
+      <VSpace />
+      <p>{talk.description}</p>
+      <VSpace />
     </div>
   );
 };

@@ -2,6 +2,7 @@ import { NextPage } from "next";
 import { withApollo } from "../../apollo";
 import { useRouter } from "next/router";
 import { TalkDetails } from "../../components/TalkDetails";
+import { Page } from "../../components/site";
 import React from "react";
 
 /**
@@ -13,7 +14,11 @@ export const TalkPage: NextPage = () => {
   if (typeof id !== "string") {
     return <p>"Not Found"</p>;
   }
-  return <TalkDetails id={id} />;
+  return (
+    <Page>
+      <TalkDetails id={id} />
+    </Page>
+  );
 };
 
 export default withApollo()(TalkPage);

@@ -73,13 +73,15 @@ export const AgendaTalksListItem = ({
           flex: 1;
         `}
       >
-        <h4
-          className={css`
-            font-weight: bold;
-          `}
-        >
-          {title}
-        </h4>
+        <a href={"/talk/" + talkId}>
+          <h4
+            className={css`
+              font-weight: bold;
+            `}
+          >
+            {title}
+          </h4>
+        </a>
         <VSpace height={"0.25em"} />
         <div
           className={css`
@@ -112,7 +114,7 @@ export const AgendaTalksListItem = ({
 
 type TalkData = NonNullable<AgendaTalksListItemQuery["talk"]>;
 type TalkSpeakers = TalkData["speakers"];
-const AgendaTalksListItemSpeakers = ({
+export const AgendaTalksListItemSpeakers = ({
   speakers,
 }: {
   speakers: TalkSpeakers;
