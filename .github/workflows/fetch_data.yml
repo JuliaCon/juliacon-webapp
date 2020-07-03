@@ -14,7 +14,7 @@ jobs:
       - name: Update Data
         run: |
           cd data
-          julia --project fetch.jl
+          julia --project -e 'import Pkg; Pkg.instantiate(); include("fetch.jl");'
           cd ..
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
