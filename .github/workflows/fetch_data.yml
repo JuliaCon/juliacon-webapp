@@ -2,6 +2,10 @@ name: Update Data
 on:
   schedule:
     - cron:  '0 7 * * *'
+  push:
+    paths:
+     - ".github/workflows/fetch_data.yml"
+
 jobs:
   fetch_data:
     runs-on: ubuntu-latest
