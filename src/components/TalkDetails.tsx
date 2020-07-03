@@ -3,10 +3,10 @@ import { VSpace } from "./layout";
 import { AgendaTalksListItemSpeakers } from "./agenda/AgendaTalksListItem";
 import { css } from "emotion";
 
-import { useAgendaTalksListItemQuery } from "./agenda/AgendaTalksListItem.generated";
+import { useTalkDetailsQuery } from "./TalkDetails.generated";
 
 export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
-  const { data, error, loading } = useAgendaTalksListItemQuery({
+  const { data, error, loading } = useTalkDetailsQuery({
     variables: { id: id },
   });
 

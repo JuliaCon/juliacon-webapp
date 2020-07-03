@@ -1,0 +1,15 @@
+query TalkDetails($id: ID!) {
+  talk(id: $id) {
+    ...TalkDetails
+  }
+}
+
+fragment TalkDetails on Talk {
+  id
+  title
+  abstract
+  description
+  speakers {
+    ...SpeakerInfo
+  }
+}
