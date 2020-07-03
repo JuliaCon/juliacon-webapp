@@ -4,12 +4,13 @@ import spec from "../../assets/vega/wordCloud";
 import data from "../../assets/vega/wordcloud_viz_data";
 
 const WordCloudViz = (props) => {
+  const vizRef = React.createRef();
+
   const [view, setView] = useState(null);
-  const [rendered, setRendered] = useState(false);
 
   useLayoutEffect(() => {
-    if (!rendered) {
-      vegaEmbed("#wordcloud", spec, {
+    if (!view) {
+      vegaEmbed(vizRef.current, spec, {
         mode: "vega",
         actions: false,
         renderer: "svg",
@@ -34,20 +35,20 @@ const WordCloudViz = (props) => {
                 props.setHover([]);
               });
             });
+          return () => view.finalize();
         } catch (error) {
           console.log("OH NO - The Word Cloud Viz Broke!");
           console.log(error);
         }
       });
-      setRendered(true);
     }
-  }, [rendered, props]);
+  }, [view, props, vizRef]);
 
   useLayoutEffect(() => {
     view && view.signal("hoverID", props.schedHover).run();
   });
 
-  return <div id="wordcloud"></div>;
+  return <div ref={vizRef}></div>;
 };
 
 export default WordCloudViz;

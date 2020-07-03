@@ -4,12 +4,13 @@ import spec from "../../assets/vega/schedule";
 import data from "../../assets/vega/sched_viz_data";
 
 const ScheduleViz = (props) => {
+  const vizRef = React.createRef();
+
   const [view, setView] = useState(null);
-  const [rendered, setRendered] = useState(false);
 
   useLayoutEffect(() => {
-    if (!rendered) {
-      vegaEmbed("#schedule", spec, {
+    if (!view) {
+      vegaEmbed(vizRef.current, spec, {
         mode: "vega",
         actions: false,
         renderer: "svg",
@@ -21,7 +22,6 @@ const ScheduleViz = (props) => {
             .runAsync()
             .then((v) => {
               setView(v);
-              console.log(v);
               // update the global state with the current mouseover
               v.addEventListener("mouseover", (name, value) => {
                 if (value && value.datum.index) {
@@ -35,21 +35,21 @@ const ScheduleViz = (props) => {
                 props.setHover(null);
               });
             });
+          return () => view.finalize();
         } catch (error) {
           console.log("OH NO - The Schedule Viz Broke!");
           console.log(error);
         }
       });
-      setRendered(true);
     }
-  }, [rendered, props]);
+  }, [view, props, vizRef]);
 
   useLayoutEffect(() => {
     var update = props.wcHover ? props.wcHover : [];
     view && view.signal("hoverIDs", update).run();
   });
 
-  return <div id="schedule"></div>;
+  return <div ref={vizRef}></div>;
 };
 
 export default ScheduleViz;
