@@ -1,0 +1,21 @@
+name: Update Data
+on:
+  schedule:
+    - cron:  '0 7 * * *'
+jobs:
+  fetch_data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update Data
+        run: |
+          cd data
+          julia --project fetch.jl
+          cd ..
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v2
+        with:
+          commit-message: update pretalx data
+          title: Automated Updates to Pretalx Data
+          body: This is an auto-generated PR with website updates.
+          branch: data-updates
