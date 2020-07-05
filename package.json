@@ -37,6 +37,7 @@
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-dropdown": "^1.7.0",
     "simple-oauth2": "4.1.0",
     "vega": "^5.13.0",
     "vega-embed": "^6.9.0",

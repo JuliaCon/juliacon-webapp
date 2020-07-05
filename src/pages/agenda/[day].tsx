@@ -27,6 +27,7 @@ const Agenda: NextPage = () => {
         query: AgendaTalksListDocument,
         variables: {
           conferenceDay: day,
+          zoneOffset: 0,
         },
       });
     },
@@ -47,7 +48,7 @@ const Agenda: NextPage = () => {
         />
       </Center>
       <VSpace />
-      <AgendaTalksList conferenceDay={day} />
+      <AgendaTalksList conferenceDay={day} zoneOffset={zoneOffset} />
     </Page>
   );
 };
