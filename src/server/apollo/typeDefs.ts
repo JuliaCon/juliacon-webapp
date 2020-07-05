@@ -3,7 +3,12 @@ import { gql } from "apollo-server-micro";
 export const typeDefs = gql`
   type Query {
     talk(id: ID!): Talk
-    talks(day: String, roomId: ID, talkType: TalkType): [Talk!]!
+    talks(
+      day: String
+      roomId: ID
+      talkType: TalkType
+      zoneOffset: Int
+    ): [Talk!]!
 
     room(id: ID!): Room
     rooms: [Room!]!

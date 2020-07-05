@@ -2,13 +2,29 @@ import { assertConferenceDay } from "../../../const";
 import { filterTalks } from "../../pretalx";
 import { talkTypeToSubmissionType } from "../utils";
 import { QueryResolvers } from "./__types__";
+import { addMinutes } from "../../../utils/addMinutes";
 
 export const Query: QueryResolvers = {
   talks: async (_root, args, { dataSources }) => {
     const talks = await dataSources.pretalx.getAllTalks();
 
+    let newTalks = [];
+
+    for (var i = 0; i < talks.length; i++) {
+      newTalks.push({ ...talks[i] });
+    }
+
+    for (i = 0; i < newTalks.length; i++) {
+      newTalks[i].startTime = addMinutes(
+        newTalks[i].startTime,
+        args.zoneOffset
+      );
+      newTalks[i].endTime = addMinutes(newTalks[i].endTime, args.zoneOffset);
+    }
+
     const { roomId, talkType } = args;
-    return filterTalks(talks, {
+
+    return filterTalks(newTalks, {
       day: args.day ? assertConferenceDay(args.day) : undefined,
       roomId,
       submissionType: talkType && talkTypeToSubmissionType(talkType),

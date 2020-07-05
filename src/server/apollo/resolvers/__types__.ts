@@ -37,6 +37,7 @@ export type QueryTalksArgs = {
   day?: Maybe<Scalars["String"]>;
   roomId?: Maybe<Scalars["ID"]>;
   talkType?: Maybe<TalkType>;
+  zoneOffset?: Maybe<Scalars["Int"]>;
 };
 
 export type QueryRoomArgs = {
@@ -226,6 +227,7 @@ export type ResolversTypes = {
   TalkType: TalkType;
   Speaker: ResolverTypeWrapper<PretalxAPISpeaker>;
   Room: ResolverTypeWrapper<PretalxAPIRoom>;
+  Int: ResolverTypeWrapper<Scalars["Int"]>;
   Boolean: ResolverTypeWrapper<Scalars["Boolean"]>;
 };
 
@@ -237,6 +239,7 @@ export type ResolversParentTypes = {
   String: Scalars["String"];
   Speaker: PretalxAPISpeaker;
   Room: PretalxAPIRoom;
+  Int: Scalars["Int"];
   Boolean: Scalars["Boolean"];
 };
 
