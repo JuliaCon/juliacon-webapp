@@ -27,7 +27,7 @@ const options = [
 const Agenda: NextPage = () => {
   const router = useRouter();
   const { day } = router.query;
-  const [zoneOffset, setZoneOffset] = useState(0);
+  const [zoneOffsetOption, setZoneOffsetOption] = useState(options[0]);
   const apollo = useApolloClient();
   const onNavIntent = React.useCallback(
     (day: ConferenceDay) => {
@@ -46,10 +46,8 @@ const Agenda: NextPage = () => {
     return <Error statusCode={404} />;
   }
 
-  const defaultOption = options[0];
-
   function onChange(option) {
-    setZoneOffset(option.value);
+    setZoneOffsetOption(option);
   }
 
   return (
@@ -66,11 +64,14 @@ const Agenda: NextPage = () => {
       <Dropdown
         options={options}
         onChange={onChange}
-        value={defaultOption}
+        value={zoneOffsetOption}
         placeholder="Choose a timezone"
       />
       <VSpace />
-      <AgendaTalksList conferenceDay={day} zoneOffset={zoneOffset} />
+      <AgendaTalksList
+        conferenceDay={day}
+        zoneOffset={zoneOffsetOption.value}
+      />
     </Page>
   );
 };
