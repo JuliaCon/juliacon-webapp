@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NextPage } from "next";
 
 import { withApollo } from "../../apollo";
@@ -15,11 +15,19 @@ import {
 import { ConferenceDay, isConferenceDay } from "../../const";
 import { useRouter } from "next/router";
 import Error from "next/error";
+import Dropdown from "react-dropdown";
+
+const options = [
+  { value: 0, label: "UTC+0" },
+  { value: 60, label: "UTC+1" },
+  { value: 120, label: "UTC+2" },
+  { value: 180, label: "UTC+3" },
+];
 
 const Agenda: NextPage = () => {
   const router = useRouter();
   const { day } = router.query;
-  let zoneOffset = 0;
+  const [zoneOffset, setZoneOffset] = useState(0);
   const apollo = useApolloClient();
   const onNavIntent = React.useCallback(
     (day: ConferenceDay) => {
@@ -38,6 +46,12 @@ const Agenda: NextPage = () => {
     return <Error statusCode={404} />;
   }
 
+  const defaultOption = options[0];
+
+  function onChange(option) {
+    setZoneOffset(option.value);
+  }
+
   return (
     <Page>
       <Center>
@@ -47,6 +61,14 @@ const Agenda: NextPage = () => {
           onNavIntent={onNavIntent}
         />
       </Center>
+      <VSpace />
+      <Center>Choose your timezone</Center>
+      <Dropdown
+        options={options}
+        onChange={onChange}
+        value={defaultOption}
+        placeholder="Choose a timezone"
+      />
       <VSpace />
       <AgendaTalksList conferenceDay={day} zoneOffset={zoneOffset} />
     </Page>

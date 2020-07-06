@@ -10,10 +10,12 @@ export const Query: QueryResolvers = {
 
     let newTalks = [];
 
+    // Copy all the talks
     for (var i = 0; i < talks.length; i++) {
       newTalks.push({ ...talks[i] });
     }
 
+    // Offset their times by the passed zoneOffset
     for (i = 0; i < newTalks.length; i++) {
       newTalks[i].startTime = addMinutes(
         newTalks[i].startTime,

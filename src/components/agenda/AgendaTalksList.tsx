@@ -2,7 +2,6 @@ import React from "react";
 import { ConferenceDay } from "../../const";
 import { useAgendaTalksListQuery } from "./AgendaTalksList.generated";
 import { AgendaTalksListItem } from "./AgendaTalksListItem";
-import { Center, VSpace } from "../../components/layout";
 
 export interface AgendaTalksListProps {
   children?: never;
@@ -30,8 +29,6 @@ export const AgendaTalksList: React.FC<AgendaTalksListProps> = ({
 
   return (
     <div>
-      <Center>Choose your timezone</Center>
-      <VSpace />
       {talks.map((talk, index) => (
         <AgendaTalksListItem
           talkId={talk.id}
