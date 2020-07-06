@@ -42,7 +42,7 @@ const Agenda: NextPage = () => {
     return <Error statusCode={404} />;
   }
 
-  function onChange(option) {
+  function onChange(option: { value: number; label: string }) {
     setZoneOffsetOption(option);
   }
 
