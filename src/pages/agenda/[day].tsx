@@ -14,7 +14,7 @@ import {
 import { ConferenceDay, isConferenceDay, timezoneOptions } from "../../const";
 import { useRouter } from "next/router";
 import Error from "next/error";
-import Dropdown from "react-dropdown";
+import Select from "react-select";
 
 const Agenda: NextPage = () => {
   const router = useRouter();
@@ -42,7 +42,7 @@ const Agenda: NextPage = () => {
     return <Error statusCode={404} />;
   }
 
-  function onChange(option: { value: number; label: string }) {
+  function onChange(option: any) {
     setZoneOffsetOption(option);
   }
 
@@ -57,7 +57,7 @@ const Agenda: NextPage = () => {
       </Center>
       <VSpace />
       <Center>Choose your timezone</Center>
-      <Dropdown
+      <Select
         options={timezoneOptions}
         onChange={onChange}
         value={zoneOffsetOption}
