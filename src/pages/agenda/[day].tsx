@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { NextPage } from "next";
-
 import { withApollo } from "../../apollo";
 import { AgendaTalksList } from "../../components/agenda";
 import { ConferenceDayPicker } from "../../components/date";
@@ -12,23 +11,20 @@ import {
   AgendaTalksListQuery,
   AgendaTalksListQueryVariables,
 } from "../../components/agenda/AgendaTalksList.generated";
-import { ConferenceDay, isConferenceDay } from "../../const";
+import { ConferenceDay, isConferenceDay, timezoneOptions } from "../../const";
 import { useRouter } from "next/router";
 import Error from "next/error";
 import Dropdown from "react-dropdown";
 
-const options = [
-  { value: 0, label: "UTC+0" },
-  { value: 60, label: "UTC+1" },
-  { value: 120, label: "UTC+2" },
-  { value: 180, label: "UTC+3" },
-];
-
 const Agenda: NextPage = () => {
   const router = useRouter();
   const { day } = router.query;
-  const [zoneOffsetOption, setZoneOffsetOption] = useState(options[0]);
+  const [zoneOffsetOption, setZoneOffsetOption] = useState({
+    value: 0,
+    label: "UTC+00:00",
+  });
   const apollo = useApolloClient();
+
   const onNavIntent = React.useCallback(
     (day: ConferenceDay) => {
       apollo.query<AgendaTalksListQuery, AgendaTalksListQueryVariables>({
@@ -62,7 +58,7 @@ const Agenda: NextPage = () => {
       <VSpace />
       <Center>Choose your timezone</Center>
       <Dropdown
-        options={options}
+        options={timezoneOptions}
         onChange={onChange}
         value={zoneOffsetOption}
         placeholder="Choose a timezone"
