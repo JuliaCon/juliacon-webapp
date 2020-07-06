@@ -19,7 +19,7 @@ import Error from "next/error";
 const Agenda: NextPage = () => {
   const router = useRouter();
   const { day } = router.query;
-
+  let zoneOffset = 0;
   const apollo = useApolloClient();
   const onNavIntent = React.useCallback(
     (day: ConferenceDay) => {

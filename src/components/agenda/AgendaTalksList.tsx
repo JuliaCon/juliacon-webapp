@@ -1,16 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { ConferenceDay } from "../../const";
 import { useAgendaTalksListQuery } from "./AgendaTalksList.generated";
 import { AgendaTalksListItem } from "./AgendaTalksListItem";
 import { Center, VSpace } from "../../components/layout";
-import Dropdown from "react-dropdown";
-
-const options = [
-  { value: 0, label: "UTC+0" },
-  { value: 60, label: "UTC+1" },
-  { value: 120, label: "UTC+2" },
-  { value: 180, label: "UTC+3" },
-];
 
 export interface AgendaTalksListProps {
   children?: never;
@@ -25,34 +17,21 @@ export const AgendaTalksList: React.FC<AgendaTalksListProps> = ({
     variables: { conferenceDay, zoneOffset },
   });
 
-  useEffect(() => {
-    console.log("PropChanged");
-    console.log(zoneOffset);
-    console.log("PostChange");
-  });
-
   if (error) throw error;
   if (loading) return <p>Loading...</p>;
   const talks = data?.talks;
   if (!talks) return <p>Failed to load talks!</p>;
 
-  function onChange(option) {
-    zoneOffset = option.value;
-    refetch({ conferenceDay, zoneOffset });
-  }
-
-  const currentOption = options[0];
+  // Always refetch data whenever a property changes
+  // For some reason the list does not update when
+  // zoneOffset is set to one of its previous values
+  // if this line is not included
+  refetch();
 
   return (
     <div>
       <Center>Choose your timezone</Center>
       <VSpace />
-      <Dropdown
-        options={options}
-        onChange={onChange}
-        value={currentOption}
-        placeholder="Select an option"
-      />
       {talks.map((talk, index) => (
         <AgendaTalksListItem
           talkId={talk.id}
