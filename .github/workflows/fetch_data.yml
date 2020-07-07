@@ -1,7 +1,7 @@
 name: Fetch Data
 on:
   schedule:
-    - cron:  '0 7 * * *'
+    - cron:  '0 */6 * * *' # every 6 hours
   push:
     paths:
      - '.github/workflows/fetch_data.yml'
@@ -11,15 +11,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
       - name: Update Data
         run: |
           cd data
           julia --project -e 'import Pkg; Pkg.instantiate(); include("fetch.jl");'
           cd ..
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v2
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Fetch data" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
         with:
-          commit-message: update pretalx data
-          title: Automated Updates to Pretalx Data
-          body: This is an auto-generated PR with website updates.
-          branch: data-updates
+          github_token: ${{ secrets.GITHUB_TOKEN }}
