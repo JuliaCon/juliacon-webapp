@@ -30,4 +30,4 @@ jobs:
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Fetch data
+          commit_message: fetch data
