@@ -1,6 +1,6 @@
 import * as React from "react";
 import { css } from "emotion";
-
+import { AgendaTalksListItem } from "../agenda/AgendaTalksListItem";
 import {
   SpeakerDetailsQuery,
   useSpeakerDetailsQuery,
@@ -21,11 +21,23 @@ export const SpeakerDetails = ({ id }: { id: string }) => {
     return <p>Couldn't load this speaker...</p>;
   }
 
+  const talks = speaker.talks;
+
   return (
     <div>
       <SpeakerDetailsHeading speaker={speaker} />
       <VSpace />
       <p>{speaker.biography}</p>
+      <h3> Talks </h3>
+      <div>
+        {talks.map((talk, index) => (
+          <AgendaTalksListItem
+            talkId={talk.id}
+            key={talk.id}
+            noTopBorder={index === 0}
+          />
+        ))}
+      </div>
     </div>
   );
 };
