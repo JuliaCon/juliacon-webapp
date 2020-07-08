@@ -31,7 +31,6 @@ const Agenda: NextPage = () => {
         query: AgendaTalksListDocument,
         variables: {
           conferenceDay: day,
-          zoneOffset: 0,
         },
       });
     },
