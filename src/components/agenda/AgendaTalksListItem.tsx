@@ -7,6 +7,7 @@ import { arrayToFragment } from "../../utils/react";
 import { Link } from "../core";
 import { Time, TimeRangeFormatted } from "../date";
 import { VSpace } from "../layout";
+import { addMinutes } from "date-fns";
 
 import {
   AgendaTalksListItemQuery,
@@ -16,9 +17,11 @@ import {
 export const AgendaTalksListItem = ({
   talkId,
   noTopBorder,
+  zoneOffset,
 }: {
   talkId: string;
   noTopBorder?: boolean;
+  zoneOffset: number;
 }) => {
   const { data, error, loading } = useAgendaTalksListItemQuery({
     variables: { id: talkId },
@@ -29,6 +32,29 @@ export const AgendaTalksListItem = ({
   if (!data?.talk) return <p>Couldn't load this talk...</p>;
 
   const { title, abstract, startTime, endTime, speakers } = data.talk;
+
+  let startTimeDate = new Date(startTime);
+
+  let offsetedStartTime = addMinutes(new Date(startTime), zoneOffset);
+  let offsetedEndTime = addMinutes(new Date(endTime), zoneOffset);
+
+  function rolloverText() {
+    if (
+      zoneOffset > 0 &&
+      offsetedStartTime.getDay() !== startTimeDate.getDay()
+    ) {
+      return " The next day";
+    }
+
+    if (
+      zoneOffset < 0 &&
+      offsetedStartTime.getDay() !== startTimeDate.getDay()
+    ) {
+      return " The previous day";
+    }
+
+    return "";
+  }
 
   const commonStyle =
     !noTopBorder &&
@@ -62,7 +88,8 @@ export const AgendaTalksListItem = ({
         )}
       >
         <p>
-          <Time time={startTime} />
+          <Time time={offsetedStartTime} />
+          {rolloverText()}
         </p>
       </div>
       <div
@@ -91,7 +118,10 @@ export const AgendaTalksListItem = ({
           `}
         >
           <p>
-            <TimeRangeFormatted start={startTime} end={endTime} />
+            <TimeRangeFormatted
+              start={offsetedStartTime.toISOString()}
+              end={offsetedEndTime.toISOString()}
+            />
           </p>
           <span
             className={css`

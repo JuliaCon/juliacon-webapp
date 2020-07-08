@@ -13,7 +13,7 @@ export const AgendaTalksList: React.FC<AgendaTalksListProps> = ({
   zoneOffset,
 }) => {
   const { data, error, loading, refetch } = useAgendaTalksListQuery({
-    variables: { conferenceDay, zoneOffset },
+    variables: { conferenceDay, zoneOffset: 0 },
   });
 
   if (error) throw error;
@@ -34,6 +34,7 @@ export const AgendaTalksList: React.FC<AgendaTalksListProps> = ({
           talkId={talk.id}
           key={talk.id}
           noTopBorder={index === 0}
+          zoneOffset={zoneOffset}
         />
       ))}
     </div>
