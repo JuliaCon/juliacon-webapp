@@ -39,6 +39,7 @@ export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
       <VSpace />
       <p>{talk.description}</p>
       <VSpace />
+
     </div>
   );
 };
