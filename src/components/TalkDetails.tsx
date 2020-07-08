@@ -2,6 +2,7 @@ import React from "react";
 import { VSpace } from "./layout";
 import { AgendaTalksListItemSpeakers } from "./agenda/AgendaTalksListItem";
 import { css } from "emotion";
+import { StyledMarkdown } from "./core";
 
 import { useTalkDetailsQuery } from "./TalkDetails.generated";
 
@@ -29,15 +30,27 @@ export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
       </h2>
       <AgendaTalksListItemSpeakers speakers={talk.speakers} />
       <VSpace />
-      <p
+      <h4
         className={css`
           font-weight: bold;
+          font-size: 1rem;
+          padding-bottom: 10px;
         `}
       >
-        {talk.abstract}
-      </p>
+        Abstract:
+      </h4>
+      <StyledMarkdown source={talk.abstract} />
       <VSpace />
-      <p>{talk.description}</p>
+      <h4
+        className={css`
+          font-weight: bold;
+          font-size: 1rem;
+          padding-bottom: 10px;
+        `}
+      >
+        Description:
+      </h4>
+      <StyledMarkdown source={talk.description} />
       <VSpace />
     </div>
   );

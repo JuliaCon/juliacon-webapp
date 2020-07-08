@@ -10,6 +10,7 @@ import { SpeakerDetails } from "../../components/speaker";
 export const SpeakerDetailsPage: NextPage = () => {
   const router = useRouter();
   const { id } = router.query;
+
   if (!id || typeof id !== "string") {
     return null;
   }

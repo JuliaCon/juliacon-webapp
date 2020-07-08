@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { css } from "emotion";
+import { css, cx } from "emotion";
+import { mobileOnly } from "../../utils/css";
 
 export const Nav = () => {
   return (
@@ -15,6 +16,20 @@ export const Nav = () => {
       <NavLink href={"/agenda"}>Agenda</NavLink>
       <NavLink href={"/live"}>Live Schedule</NavLink>
       <NavLink href={"/posters"}>Posters</NavLink>
+      <div
+        className={cx(
+          css`
+            height: 100%;
+          `,
+          mobileOnly(
+            css`
+              display: none;
+            `
+          )
+        )}
+      >
+        <NavLink href={"/viz"}>Explore Talks</NavLink>
+      </div>
     </nav>
   );
 };

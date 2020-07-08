@@ -1,351 +1,5 @@
 [
  {
-  "avatar": null,
-  "name": "Dai ZJ",
-  "submissions": [
-   "3NWY7V"
-  ],
-  "code": "7T7WDF",
-  "biography": "Machine learning platform developer"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/bk_small.JPG",
-  "name": "Bogumił Kamiński",
-  "submissions": [
-   "8SFYHK",
-   "GX8QCX"
-  ],
-  "code": "DHRPEA",
-  "biography": "I am a researcher in the fields of operations research and computational social science.\r\nFor development work I mostly use the Julia language.\r\n\r\nYou can find more information about me and my work on my [personal website](http://bogumilkaminski.pl/about/) or [GitHub](https://github.com/bkamins)."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/github.jpg",
-  "name": "George Datseris",
-  "submissions": [
-   "L3FYJW",
-   "8RM33X"
-  ],
-  "code": "GB8WTV",
-  "biography": "By day I am a scientist and by night I am a software developer and a drummer.\r\nMy areas of research are: quantum transport, nonlinear dynamics and chaos, music timeseries analysis, climate physics."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/DSC05170.jpg",
-  "name": "Arnav Sood",
-  "submissions": [
-   "N9CXCT",
-   "87JCMX"
-  ],
-  "code": "BLMFSS",
-  "biography": "Arnav is a Predoctoral Researcher at the UBC Vancouver School of Economics, where he works primarily with Jesse Perla. He is also a team member at QuantEcon, contributing to Julia projects and lectures."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/download_X7vEu32.png",
-  "name": "Indranil Ghosh",
-  "submissions": [
-   "NX33Q8"
-  ],
-  "code": "DCJ8DG",
-  "biography": "Indranil Ghosh is a Post Graduate student in the Physics department from Jadavpur University Kolkata. He has been involved in research related to scientific computing and has presented in three international conferences held in India and has also  presented his work on designing simple python programs to study quantum game theory applicable to population evolution,  in SLAS,2019 International Conference and Exhibition held at Washington DC, USA, in February 2019. He has presented a talk on simulations of quantum game theoretic models in Scipy India, 2018, conference and a talk on application of scientific computing in SNBNCBS, Kolkata. He has also presented in ISI, Kolkata on a topic related to designing a Pygame program to study fractal patterns in Non-linear Dynamics. He has also been involved in writing the book “Computational Methods in Physics with Python” under the supervision of Dr. Debasish Lohar, present HOD of Physics Department, Jadavpur University, and this project is planned to be completed within the next semester."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/clippederik.jpg",
-  "name": "Erik Engheim",
-  "submissions": [
-   "CMRXD7",
-   "V9NX3C"
-  ],
-  "code": "HDAYK8",
-  "biography": "Erik has been programming in a variety of programming languages for the last two decades, primarily C/C++, Objective-C and Swift but has become a big fan of Julia and is currently doing Julia training videos and educational material.\r\n\r\nHe has spent many years in the Norwegian oil and gas sector working on 3D modeling software for reservoir modeling and simulation. Some of his interests include UX design, space exploration and colonization, micro controllers and green tech."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/me_9DMNKLb.jpg",
-  "name": "Saurabh Kumar",
-  "submissions": [
-   "ELXNUQ"
-  ],
-  "code": "X8ZTSA",
-  "biography": "I am a Ph.D. student with the Vision and Image Processing Group at the Indian Institute of Technology Bombay. My research interests are Computational Cameras and Machine Learning. Apart from my research, I work on side projects on Automation and Visualization."
- },
- {
-  "avatar": null,
-  "name": "Michael Herbst",
-  "submissions": [
-   "X8LY73"
-  ],
-  "code": "DZ7WHZ",
-  "biography": "By training a chemist, who got more and more twisted towards the \"dark side\" of numerical analysis. Now working as a PostDoc at [CERMICS](https://cermics-lab.enpc.fr/), the Applied Math lab of Ecole des Ponts, Paris, developing a Julia code for mathematical research in quantum chemistry ([DFTK](https://dftk.org))."
- },
- {
-  "avatar": null,
-  "name": "Yueh-Hua Tu",
-  "submissions": [
-   "9A8DCP"
-  ],
-  "code": "HAWZZR",
-  "biography": "I am doing my bioinformatics PhD project with machine learning/deep learning approach in Academia sinica, Taiwan. Host and founder of Julia Taiwan community."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/favicon.jpeg",
-  "name": "Roger Luo",
-  "submissions": [
-   "8NDYCT"
-  ],
-  "code": "VRCN8Y",
-  "biography": "github.com/Roger-luo"
- },
- {
-  "avatar": null,
-  "name": "Katharine Hyatt, Matthew Fishman",
-  "submissions": [
-   "8NDYCT"
-  ],
-  "code": "DMTTDJ",
-  "biography": null
- },
- {
-  "avatar": null,
-  "name": "Thibaut Lienart",
-  "submissions": [
-   "DMHZCC"
-  ],
-  "code": "DFDVWV",
-  "biography": "TBD"
- },
- {
-  "avatar": null,
-  "name": "JinGuo Liu",
-  "submissions": [
-   "8NDYCT",
-   "V9DQSA"
-  ],
-  "code": "QBUZQE",
-  "biography": "A quantum computing geek!\r\nMy recent work is: https://arxiv.org/abs/2003.04617\r\nI am going to QuEra (https://www.quera-computing.com/)."
- },
- {
-  "avatar": null,
-  "name": "Dmitry Bagaev",
-  "submissions": [
-   "VP3W33"
-  ],
-  "code": "RKNELB",
-  "biography": "Dmitry Bagaev received his MSc degree in computational mathematics and computer science from Moscow State University in 2019. Currently he works as a PhD student in the BIASlab group (http://biaslab.org) at the electrical engineering department at Eindhoven University of Technology (TU/e)."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/portrait2016_TDY3Lrk.jpeg",
-  "name": "Anthony Blaom",
-  "submissions": [
-   "DMHZCC"
-  ],
-  "code": "CK3MKJ",
-  "biography": "Dr. Anthony Blaom conducted his PhD at Caltech in Mathematics and has expertise in Differential Geometry, Dynamical Systems, Fluid Mechanics, Machine Learning and Applied Statistics.  An erstwhile academic, Anthony is now primarily involved in software development for machine learning."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/16793_866274106777693_5652454198993778802_n_Wb8GDvk.jpg",
-  "name": "Tiago Santos",
-  "submissions": [
-   "YDCSNX"
-  ],
-  "code": "NLUSQV",
-  "biography": "I'm currently a PhD Student from Lisbon, Portugal."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/davidhead_RbCgojq.png",
-  "name": "David Poole",
-  "submissions": [
-   "TKAXGF"
-  ],
-  "code": "3NCSMS",
-  "biography": "My name is David Poole, and I am a graduate research assistant in Dr. Mark S. Gordon's research group at Iowa State University. I perform research in developing and improving the popular General Atomic and Molecular Electronic Structure System (GAMESS) quantum chemistry software package. These developments include writing code to enable GAMESS to take advantage of Graphics Processing Units (GPUs), and enabling GAMESS to build and run on the most modern high-performance supercomputers. Additionally, I develop and maintain the JuliaChem.jl quantum chemistry software package, which aims to combine high performance with high programming productivity by taking advantage of Julia's features."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/avi_hstxXRX.JPG",
-  "name": "Rafael Schouten",
-  "submissions": [
-   "P8D3PF"
-  ],
-  "code": "LVYSRF",
-  "biography": "I'm an ecologist, spending a lot of my time building spatial ecological models of plant and insect growth and population dynamics, at cesar (Melbourne), UNSW, and the University of Melbourne."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/MT_Photo5_EIQdusZ.jpg",
-  "name": "Mohamed Tarek",
-  "submissions": [
-   "HWZ38H"
-  ],
-  "code": "PFTTSC",
-  "biography": "I am a PhD student at UNSW Canberra working on topology optimization. I have 2 seemingly unrelated interests that I hope to combine one day: topology optimization and Bayesian inference. This talk is all about the latter, so let's focus on that. I joined the TuringLang development team 1-2 years ago. Since then, my main goal has been to make Turing as fast as possible without sacrificing usability. In this talk, I share some of the work I have done towards that goal and give an overview of the present and future of Turing and DynamicPPL including features, short-term goals and bottlenecks.\r\n\r\nGitHub: https://github.com/mohamed82008"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/index.png",
-  "name": "Simon Danisch",
-  "submissions": [
-   "GFE3DB",
-   "7XARPV",
-   "ZRC8HA"
-  ],
-  "code": "JSJDXE",
-  "biography": "Simon has been working with Julia for around 7 years by now. Some of the packages he created include:\r\n\r\n* [GeometryTypes](https://github.com/JuliaGeometry/GeometryTypes.jl)\r\n* [GPUArrays](https://github.com/JuliaGPU/GPUArrays.jl)\r\n* [Makie](https://github.com/JuliaPlots/Makie.jl/)\r\n* [PackageCompiler](https://github.com/JuliaLang/PackageCompiler.jl/)\r\n* [JSServe](https://github.com/SimonDanisch/JSServe.jl)\r\n\r\nAnd lots of others! \r\nNoways, Simon works for Beacon-Biosignals on visualizing EEG data!"
- },
- {
-  "avatar": null,
-  "name": "Chris Peel",
-  "submissions": [
-   "N9RVPR"
-  ],
-  "code": "YXRYYS",
-  "biography": "Chris is the organizer of the SF [Bay Area Julia users group](https://www.meetup.com/Bay-Area-Julia-Users/)."
- },
- {
-  "avatar": null,
-  "name": "Phillip Alday",
-  "submissions": [
-   "8VUMUA"
-  ],
-  "code": "3EFERC",
-  "biography": "Phillip was a struggling mathematician, then a linguist and now a cognitive neuroscientist, but always a hacker."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/JosiahPohl_002_NrdSRGD.jpg",
-  "name": "Josiah Pohl",
-  "submissions": [
-   "S9BVBR"
-  ],
-  "code": "9ARXRF",
-  "biography": "Josiah is an optimization engineer in the Modeling and Analysis Group in the Integrated Applications Center. He has experience in engineering analysis, data-driven decision support, and applied operations research. Josiah performs techno-economic analysis with REopt, an optimization model focused on integration and distributed energy resources.\r\n\r\nJosiah is an advocate for furthering the usage of operations research techniques in engineering disciplines and is a member of the Institute of Operations Research and the Management Sciences (INFORMS)."
- },
- {
-  "avatar": null,
-  "name": "Eric Torkia",
-  "submissions": [
-   "NETNQZ",
-   "BP9HDJ"
-  ],
-  "code": "WGC3SZ",
-  "biography": "I am currently the executive partner and analytics practice lead at Technology Partnerz Ltd., a firm specialized in delivering analytics solutions focused on forecasting, simulation and optimization to organizations all over the world. As practice lead, I have advised senior leadership on analytics strategy and implementation, trained hundreds of business analysts on predictive analytics, lead or supported risk analysis initiatives in finance, operations as well as project cost and schedule risk."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Zekeriya_Sari_NBOEe9f.jpg",
-  "name": "Zekeriya SARI",
-  "submissions": [
-   "FW7W9D"
-  ],
-  "code": "HRFLPC",
-  "biography": "##### Educational Background\r\n* 2008–2013 Bachelor of Science, Dokuz Eylül University, Department of Electrical and Electronics Engineering,\r\nIzmir, Turkey.\r\nThesis: Attack on a chaos-based random number generator.\r\n* 2014–2016 Master of Science, Dokuz Eylül University, Graduate School of Natural and Applied Sciences, Izmir\r\nTurkey.\r\nThesis: Secure communication via partial synchronization of nonlinear systems.\r\n* 2016–\r\nDoctor of Philosophy, Dokuz Eylül University, Graduate School of Natural and Applied Sciences,\r\nIzmir, Turkey.\r\nThesis: Design and optimization of clustered synchronization systems.\r\n\r\n##### Research Activity and Interests\r\n* Dynamics of Coupled Systems\r\n* Synchronization in Complex Networks\r\n* Chaos Communications"
- },
- {
-  "avatar": null,
-  "name": "Mosè Giordano",
-  "submissions": [
-   "9WMAVU"
-  ],
-  "code": "ST7KZT",
-  "biography": "Research Software Developer at UCL during the day, binary builder during the night."
- },
- {
-  "avatar": null,
-  "name": "Janis Erdmanis",
-  "submissions": [
-   "XXUJ9Y",
-   "ENRJBB"
-  ],
-  "code": "BYKXMD",
-  "biography": "My name is Janis (Yanis), and I am currently a PhD candidate for theoretical physics at TU Delft.  I am a curious person and simplicity is what drives me. I am passionately seeking a frame of reference in which perceived complexity becomes simple, short and understandable. That gives me a kinda special feeling of going up to see more. And in the research, I get plenty of opportunities to do that although that is never easy. So I end up building my own stuff with Julia, now I am the founder of PeaceFounder's project."
- },
- {
-  "avatar": null,
-  "name": "Valeri Vasquez",
-  "submissions": [
-   "MR9QWA"
-  ],
-  "code": "QTQ3YB",
-  "biography": "Valeri is a PhD student in the Energy and Resources Group at the University of California, Berkeley and a Moore/Sloan Fellow at the Berkeley Institute for Data Science. She applies ordinary differential equations to study the dynamics of biological systems."
- },
- {
-  "avatar": null,
-  "name": "Jan Weidner",
-  "submissions": [
-   "ER3ZYC"
-  ],
-  "code": "RSTHFY",
-  "biography": "Mathematician and Julia enthusiast working in medical physics."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Profile_Pic_UPDuVS4.jpg",
-  "name": "Raj Dandekar",
-  "submissions": [
-   "RYFMY9"
-  ],
-  "code": "LWEMM8",
-  "biography": "PhD student, Massachusetts Institute of Technology, USA."
- },
- {
-  "avatar": null,
-  "name": "Dheepak Krishnamurthy",
-  "submissions": [
-   "SD8PSC",
-   "V3QDAM"
-  ],
-  "code": "ZWPRXJ",
-  "biography": "Dheepak is an energy system research engineer working at the National Renewable Energy Laboratory. He is interested in energy, optimization and high performance computing."
- },
- {
-  "avatar": null,
-  "name": "Tom Kwong",
-  "submissions": [
-   "G7XNXE",
-   "GZK8ML"
-  ],
-  "code": "ZVXXQA",
-  "biography": "Tom Kwong, CFA, is an experienced software engineer with over 25 years of industry programming experience. He has spent the majority of his career in the financial services industry. His expertise includes software architecture, design, and the development of trading/risk systems. \r\n\r\nSince 2017, he has uncovered the Julia language and has worked on several open source packages, including SASLib.jl. He is also the author of the book Design Patterns and Best Practices with Julia, published by Packt in January 2020.\r\n\r\nHe currently works at Western Asset Management Company, a prestigious asset management company that specializes in fixed income investment services. He holds an MS degree in computer science from the University of California, Santa Barbara (from 1993), and he holds the Chartered Financial Analyst® designation since 2009."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Screenshot_2020-02-24_at_09.31.36_A5gQ4RS.png",
-  "name": "Gregory Szep",
-  "submissions": [
-   "HJZXMX"
-  ],
-  "code": "ZBMJRN",
-  "biography": "Together with Station B at Microsoft Research Cambridge and the Randall Division of Cell and Molecular Biophysics at King's College London we aim to create tools that can make biochemical manufacturing more efficient, with efforts towards combating Eroom's law of drug discovery and addressing the reproducibility crisis in biotechnology. My current research focus is the development of novel parameter inference procedures for differential equation models where data had been obtained by flow cytometry or fluorescence microscopy."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/e9c228b5-711a-4886-a471-299169b33498_RK8NEz9.JPG",
-  "name": "Francesc Verdugo",
-  "submissions": [
-   "DVSD7Q"
-  ],
-  "code": "TJKSVY",
-  "biography": "Francesc Verdugo, PhD, is Assistant Research Professor at the International Center for Numerical Methods in Engineering (CIMNE), Barcelona, Spain, where he collaborates at the \"Large-Scale Scientific Computing\" group.  His main research interest is the development of advanced finite element techniques such as embedded finite element methods able to exploit the power of modern distributed-memory supercomputers."
- },
- {
-  "avatar": null,
-  "name": "Mathieu Besançon",
-  "submissions": [
-   "GQATHR",
-   "RMGYYX"
-  ],
-  "code": "DK9KDB",
-  "biography": "Mathieu is a PhD candidate in a double program between Polytechnique Montreal & INRIA Lille. His research focuses on mathematical optimization models and applications for power grids. Outside research, he also works on open-source projects around mathematical optimization, graphs and statistics."
- },
- {
-  "avatar": null,
-  "name": "James Fairbanks",
-  "submissions": [
-   "GQATHR",
-   "GALAX8"
-  ],
-  "code": "WPZLWJ",
-  "biography": "James is a Research Engineer at the Georgia Tech Research Institute in the High Performance Computing and Data Analytics Branch. His current research involves mathematical and computational formalisms in scientific computing. Where his lab applies techniques from Machine Learning, Numerical Methods, and Applied Category Theory to analyze scientific and engineering systems."
- },
- {
-  "avatar": null,
-  "name": "Matt Brzezinski",
-  "submissions": [
-   "3LUQVT"
-  ],
-  "code": "M99LZJ",
-  "biography": "Software Developer at Invenia Computing"
- },
- {
   "avatar": "https://pretalx.com/media/avatars/LinkedinPicture_MMQO08h.PNG",
   "name": "Egan Picken",
   "submissions": [
@@ -356,48 +10,22 @@
  },
  {
   "avatar": null,
-  "name": "Henki Ashadi",
+  "name": "Valentin Churavy",
   "submissions": [
-   "ZAGFAM"
+   "YCGSVY",
+   "9X7V3A"
   ],
-  "code": "ZLQHXW",
-  "biography": "Name          : Dr.-Ing. Henki Wibowo Ashadi\r\noccupation : Lecture at universitas indonesia\r\nborn            : 9 july, 1964\r\nAdress        : Civil Engineering Department, Faculty of Engineering,\r\n                       Universitas Indonesia\r\n                      Kampus UI Depok, Depok 16424, Indonesia\r\nEmail          : henki@eng.ui.ac.id; henki.wibowo@ui.ac.id; henki.ashadi@gmail.com"
+  "code": "3C7UBC",
+  "biography": "PhD Student at MIT"
  },
  {
   "avatar": null,
-  "name": "Jorge Alberto Vieyra Salas",
+  "name": "Phillip Alday",
   "submissions": [
-   "FHEGUA"
+   "8VUMUA"
   ],
-  "code": "QCZCDE",
-  "biography": "Born in Mexico City. Studied a Bachelors in Chemical Engineering at UNAM. M.Sc. on Materials Science and Engineering at MIT. Studied PhD at TU Eindhoven on Applied Physics.\r\nWorked for Philips Research 1 year.\r\nWorking at ASML for 7 years on algorithms."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/298918_10151387462991265_1657761683_n_PDDxM0k.jpg",
-  "name": "Minyoung Rho",
-  "submissions": [
-   "SNDBVR"
-  ],
-  "code": "PE7GUP",
-  "biography": "Postdoctoral Researcher in Economics at MOVE, Universitat Autònoma de Barcelona, and Barcelona GSE\r\nResearch Interests: Structural Microeconomics, Econometrics, and Mechanism Design \r\nReceived PhD in Economics from Carnegie Mellon University in 2019"
- },
- {
-  "avatar": null,
-  "name": "Simon Schoelly",
-  "submissions": [
-   "GQATHR"
-  ],
-  "code": "ZCWVXE",
-  "biography": "Simon is a software developer from Switzerland, he programs Java during the day and Julia at night.\r\n\r\nCurrently he is mainly involved with the JuliaGraphs organization."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/MAO_f2GqE8Y.JPG",
-  "name": "Mikel",
-  "submissions": [
-   "EZFAJE"
-  ],
-  "code": "UNYAWF",
-  "biography": "Bachelor of Computer Science (1992) and Doctorate (2017) at the UPV / EHU.  2011-2012, professor  in the Department of Computer Science and Artificial Intelligence.  Since 2017, professor of the School of Engineering of Gipuzkoa in the Department of Applied Mathematics.\r\n\r\nWithin the field of Computer Science, he has developed the following lines of research:  efficient implementation of numerical integration methods applied to the simulation of the solar system and orbit propagators for satellites"
+  "code": "3EFERC",
+  "biography": "Phillip was a struggling mathematician, then a linguist and now a cognitive neuroscientist, but always a hacker."
  },
  {
   "avatar": null,
@@ -410,6 +38,82 @@
  },
  {
   "avatar": null,
+  "name": "Viral B. Shah",
+  "submissions": [
+   "3YDDAE"
+  ],
+  "code": "3HK3M7",
+  "biography": null
+ },
+ {
+  "avatar": null,
+  "name": "Adrian Salceanu",
+  "submissions": [
+   "8SZSBE",
+   "DTLBM9"
+  ],
+  "code": "3MGMJN",
+  "biography": "IT professional working at the intersection between Web Development, Data Science, and Machine Learning. 20 years of experience leading agile teams in developing real-time, data-intensive, web and mobile products.\r\n\r\nPublic speaker and enthusiastic contributor to Open Source projects, with a focus on high-performance web development. Creator of Genie, the highly-productive Julia web framework. Author of \"Julia Programming Projects\" (Packt, 2018) and co-author of “Julia Programming Complete Reference Guide” (Packt, 2019).\r\n\r\nMSc. Advanced Computer Science. MSc. Computing. Certified ScrumMaster."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/davidhead_RbCgojq.png",
+  "name": "David Poole",
+  "submissions": [
+   "TKAXGF"
+  ],
+  "code": "3NCSMS",
+  "biography": "My name is David Poole, and I am a graduate research assistant in Dr. Mark S. Gordon's research group at Iowa State University. I perform research in developing and improving the popular General Atomic and Molecular Electronic Structure System (GAMESS) quantum chemistry software package. These developments include writing code to enable GAMESS to take advantage of Graphics Processing Units (GPUs), and enabling GAMESS to build and run on the most modern high-performance supercomputers. Additionally, I develop and maintain the JuliaChem.jl quantum chemistry software package, which aims to combine high performance with high programming productivity by taking advantage of Julia's features."
+ },
+ {
+  "avatar": null,
+  "name": "Felix Cremer",
+  "submissions": [
+   "GDCEYU"
+  ],
+  "code": "3YRKPG",
+  "biography": "received his diploma in mathematics\r\nfrom the University of Leipzig in 2014. He is a PhD student at the\r\nFriedrich-Schiller University Jena where he works on the analysis\r\nof hyper-temporal SAR time series from Sentinel-1"
+ },
+ {
+  "avatar": null,
+  "name": "Michael Lindner",
+  "submissions": [
+   "YVRWMA"
+  ],
+  "code": "3ZHWSX",
+  "biography": "Hi, my name is Michael Lindner. Currently, I am working on my PhD project on \"Exploring network dynamics with machine learning\". I am a member of the non-linear dynamics and control group at TU Berlin and of the complex energy networks (COEN) group at PIK."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/davidanthoffsmallsquare_Me2FZ2a.jpg",
+  "name": "David Anthoff",
+  "submissions": [
+   "HBTFT7",
+   "XBLMPG",
+   "8EPG3L"
+  ],
+  "code": "7JQFVF",
+  "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. He co-develops the integrated assessment model FUND that is used widely in academic research and in policy analysis. His research has appeared in Science, the Journal of Environmental Economics and Management, Environmental and Resource Economics, the Oxford Review of Economic Policy and other academic journals. He contributed a background research paper to the Stern Review and has advised numerous organizations (including US EPA and the Canadian National Round Table on the Environment and the Economy) on the economics of climate change.\r\n\r\nHe is an assistant professor in the Energy and Resources Group at the University of California, Berkeley. Previously he was an assistant professor in the School of Natural Resources and the Environment of the University of Michigan, a postdoc at the University of California, Berkeley and a postdoc at the Economic and Social Research Institute in Ireland. He also was a visiting research fellow at the Smith School of Enterprise and the Environment, University of Oxford.\r\n\r\nHe holds a PhD (Dr. rer. pol.) in economics from the University of Hamburg (Germany) and the International Max Planck Research School on Earth System Modelling, a MSc in Environmental Change and Management from the University of Oxford (UK) and a M.Phil. in philosophy, logic and philosophy of science from Ludwig-Maximilians-Universität München (Munich, Germany)."
+ },
+ {
+  "avatar": null,
+  "name": "Dai ZJ",
+  "submissions": [
+   "3NWY7V"
+  ],
+  "code": "7T7WDF",
+  "biography": "Machine learning platform developer"
+ },
+ {
+  "avatar": null,
+  "name": "Dhairya Gandhi",
+  "submissions": [
+   "RRNYRW",
+   "P7EQCK"
+  ],
+  "code": "83D8SQ",
+  "biography": "Dhairya is currently a Data Scientist at Julia Computing Inc. and maintains and develops Julia's ML stack with Flux and Zygote."
+ },
+ {
+  "avatar": null,
   "name": "Sarah Gibson",
   "submissions": [
    "QF8BC7",
@@ -417,6 +121,143 @@
   ],
   "code": "8BQNLY",
   "biography": "Sarah Gibson is a Research Software Engineer at the Alan Turing Institute. She is passionate about best software practices and reproducible research and helps the open source community reach these gold-standards by contributing to The Turing Way (https://github.com/alan-turing-institute/the-turing-way) and operating mybinder.org (https://jupyter.org/binder)"
+ },
+ {
+  "avatar": null,
+  "name": "Shuhei Kadowaki",
+  "submissions": [
+   "DWCJUK"
+  ],
+  "code": "8BZR7G",
+  "biography": "I just graduated from Kyoto University, Spring 2020 and got a liberal arts degree.\r\n\r\nMy current interest is especially in the design and paradigm of programming languages; I love languages that I can write without thinking deeply and just feel good instead.\r\n\r\nI also like cool developer tools, and as such I am a maintainer of Juno, a Julia IDE, and actively developing various packages around its ecosystem.\r\n\r\nGitHub: https://github.com/aviatesk"
+ },
+ {
+  "avatar": null,
+  "name": "Marc Fuentes",
+  "submissions": [
+   "D3RLQ7"
+  ],
+  "code": "8EXT8Q",
+  "biography": "After being graduated in applied mathematics (Ph.D. in the University of Toulouse in 2007), M. Fuentes integrated  the French National Institute for Research in Computer Science and Automation (INRIA) and becomes a Research Engineer. At INRIA,  his mission consists in\r\nimproving software quality trough better development practices. His main interests are\r\ncomputer langages for doing maths and linear algebra"
+ },
+ {
+  "avatar": null,
+  "name": "Sebastian Pfitzner",
+  "submissions": [
+   "DWCJUK"
+  ],
+  "code": "8GV8MU",
+  "biography": "Studied Physics in Berlin, has been involved with Julia since 2014. Main maintainer of Juno, a popular Julia IDE.\r\n\r\nCurrently working for JuliaComputing."
+ },
+ {
+  "avatar": null,
+  "name": "Matthew Fishman",
+  "submissions": [
+   "8NDYCT"
+  ],
+  "code": "8Q8AYS",
+  "biography": null
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/MaxTelegram_rzyLlbH.jpg",
+  "name": "Maxim Demenkov",
+  "submissions": [
+   "VP7LXS"
+  ],
+  "code": "97KZUT",
+  "biography": "Maxim Demenkov got his PhD in Automatic Control from De Montfort University (UK). He works now as Engineering Mathematician at the Institute of Control Sciences in Moscow, Russia."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/JosiahPohl_002_NrdSRGD.jpg",
+  "name": "Josiah Pohl",
+  "submissions": [
+   "S9BVBR"
+  ],
+  "code": "9ARXRF",
+  "biography": "Josiah is an optimization engineer in the Modeling and Analysis Group in the Integrated Applications Center. He has experience in engineering analysis, data-driven decision support, and applied operations research. Josiah performs techno-economic analysis with REopt, an optimization model focused on integration and distributed energy resources.\r\n\r\nJosiah is an advocate for furthering the usage of operations research techniques in engineering disciplines and is a member of the Institute of Operations Research and the Management Sciences (INFORMS)."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/0_i2Qu7gb.jpg",
+  "name": "Kerry Snyder",
+  "submissions": [
+   "38UTLX"
+  ],
+  "code": "9GSQX8",
+  "biography": "Co-founder at KEF Robotics. Formerly R&D at Astrobotic. B.S. in Computer Science and Robotics at Carnegie Mellon University."
+ },
+ {
+  "avatar": null,
+  "name": "Stefan Karpinski",
+  "submissions": [
+   "MASLPF",
+   "RXAN8F"
+  ],
+  "code": "9NNRE7",
+  "biography": "Stefan is a co-creator of Julia and a co-founder of Julia Computing. He has previously worked as a software engineer and data scientist at Etsy, Akamai and Citrix Online. In addition to running Julia Computing, he has a part-time appointment as a Research Engineer at New York University."
+ },
+ {
+  "avatar": null,
+  "name": "Ahan Sengupta",
+  "submissions": [
+   "YYWMPR"
+  ],
+  "code": "A3J7CA",
+  "biography": "I am a 14-year-old student, currently attending the City of London School. I have always had a deep interest in programming, first starting with Scratch when I was quite young, then moving onto Python, then finally, a few years ago, Julia. I have since presented at JuliaCon 2018 and 2019 and therefore have some experience with the language."
+ },
+ {
+  "avatar": null,
+  "name": "Chad Scherrer",
+  "submissions": [
+   "7ZJCPC",
+   "R7EPKS"
+  ],
+  "code": "A7PDM3",
+  "biography": "Chad Scherrer is a Senior Research Scientist at [RelationalAI](https://www.relational.ai/).\r\n\r\nChad's work in probabilistic programming began in 2010, leading to the development of [Passage](https://cscherrer.github.io/pdf/Scherrer%20-%202012%20-%20Passage%20A%20Parallel%20Sampler%20Generator%20for%20Hierarchical%20Bayesian%20Modeling.pdf), a Haskell-based language to generate parallel C/OpenMP code for Gibbs sampling. Following this, he served as technical lead for the language evaluation team for the DARPA program \"Probabilistic Programming for Advancing Machine Learning\"."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/download.jpg",
+  "name": "Swakkhar Shatabda",
+  "submissions": [
+   "EVJNMH"
+  ],
+  "code": "A9KWKS",
+  "biography": "Dr. Shatabda is Associate Professor and Undergraduate Program Co-ordinator of Computer Science and Engineering Department.\r\n\r\nHe achieved his Ph. D degree from the Institute for Integrated and Intelligent Systems (IIIS), Griffith University in 2014. His thesis is titled “Local Search Heuristics for Protein Structure Prediction”.  He completed his BSc. in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET) in 2007.\r\n\r\nResearch interest of Dr. Shatabda includes bioinformatics, optimization, search and meta-heuristics, data Mining, constraint programming, approximation Algorithms and graph theory. He has a number of quality publications in both national and international conferences and journals.\r\n\r\nHe has worked as Graduate Researcher in Queensland Research Laboratory, NICTA, Australia. Prior entering the teaching line he worked  as a Software Engineer in Vonair Inc, Bangladesh."
+ },
+ {
+  "avatar": null,
+  "name": "Milan Kloewer",
+  "submissions": [
+   "JPGZK3"
+  ],
+  "code": "A9SQSW",
+  "biography": "Sun is shining"
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/DSC_8311-schmal_mAO8138.jpg",
+  "name": "Gregor Kappler",
+  "submissions": [
+   "M8JLAF"
+  ],
+  "code": "ABRWNH",
+  "biography": "Gregor Kappler carries out psychometric research and data science consulting, and is founder of FilingForest, a julia-focused startup developing solutions for fast unbiased measurement in graph data.\r\n\r\nGregor was initially trained as a mathematician and psychologist, has implemented solutions for semantic text analytics for his PhD in 2007, and developed psychometric models for measuring with texts. \r\nHe has worked as a lecturer and researcher at the University of Vienna and the University of Jena and worked on a series of predictive analytic projects for software vendors and customers. \r\n\r\nGregor has switched to Julia from R in 2018, and is creator of the IterableParsers package which provides parser combinators for fast, recursive and type-save parsing in pure Julia."
+ },
+ {
+  "avatar": null,
+  "name": "Karen Willcox",
+  "submissions": [
+   "UCQCSN"
+  ],
+  "code": "AMHRDW",
+  "biography": "."
+ },
+ {
+  "avatar": null,
+  "name": "Curtis Vogt",
+  "submissions": [
+   "3AGJ3V"
+  ],
+  "code": "AQLMAC",
+  "biography": "Head of Development at Invenia Technical Computing\r\n\r\nHas been using Julia since 2015\r\n\r\nMain author of [TimeZones.jl](https://github.com/JuliaTime/TimeZones.jl) and [Mocking.jl](https://github.com/invenia/Mocking.jl)"
  },
  {
   "avatar": null,
@@ -431,388 +272,21 @@
  },
  {
   "avatar": null,
-  "name": "Michael Lindner",
+  "name": "Samuel Kapembe",
   "submissions": [
-   "YVRWMA"
+   "E98QKR"
   ],
-  "code": "3ZHWSX",
-  "biography": "Hi, my name is Michael Lindner. Currently, I am working on my PhD project on \"Exploring network dynamics with machine learning\". I am a member of the non-linear dynamics and control group at TU Berlin and of the complex energy networks (COEN) group at PIK."
+  "code": "AVK3DX",
+  "biography": "I am Samuel Stallin Kapembe. I am a Master of Science student at Namibia University of Science and Technology. I have done research in Virtual Learning Environments, Distributed Systems and Recommender Systems. I am have chosen to do my Master's research using Julia as the language is perfectly suited for the task."
  },
  {
   "avatar": null,
-  "name": "Anton Plietzsch",
+  "name": "Miroslav Kratochvíl",
   "submissions": [
-   "YVRWMA"
+   "UPHPAT"
   ],
-  "code": "BC8CK8",
-  "biography": "I studied Physics at Humboldt-University Berlin and I am currently doing my PhD at the Potsdam Institute for Climate Impact Research. My research is focussed on the modelling and analysis of power grids with fluctuating power infeed."
- },
- {
-  "avatar": null,
-  "name": "Matthew Fishman",
-  "submissions": [
-   "8NDYCT"
-  ],
-  "code": "8Q8AYS",
-  "biography": null
- },
- {
-  "avatar": null,
-  "name": "Clayton Barrows",
-  "submissions": [
-   "V3QDAM"
-  ],
-  "code": "KUWVG3",
-  "biography": null
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/stanford2_moreblurred_cut_github_E1Kahzs.jpg",
-  "name": "Carsten Bauer",
-  "submissions": [
-   "XU3FXB"
-  ],
-  "code": "R3SWQF",
-  "biography": "Carsten Bauer is a PhD candidate in the Computational Condensed Matter Physics group at the University of Cologne. He's a Julia enthusiast since 2016."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/huda_and_jane.jpg",
-  "name": "Jane Herriman",
-  "submissions": [
-   "XU3FXB"
-  ],
-  "code": "9KD7FC",
-  "biography": null
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/IIKX3711_oPDuW5k.jpg",
-  "name": "Rahma Latifa Dewi",
-  "submissions": [
-   "9JCCV8"
-  ],
-  "code": "VFSCTP",
-  "biography": "My name is Rahma Latifa Dewi. I was born on 14 August, 1997 in Jakarta, Indonesia. I'm the first child in a family of three. My father, Mr. Mugiyantoro is a teacher in senior high school. My mother, Mrs. Fidyastuti is a housewife.\r\n\r\nI went to University of Indonesia, where I did my under graduate degree in Civil Engineer in 2015 until 2019. Since childhood, I was interested in exact. Derived from my Father, I also like to share my knowledge. Some of teaching experiences I have done since high school until now.\r\n\r\nOne of my teaching experiences in 2020 is teaching using Julia programming language. Started from the thesis topic that I worked on in 2018 together with my lecturer, Mr. Henki W. Ashadi. The title is Steel Truss Design using Julia Programming Language. The results of the thesis that I made are, structural analysis calculations such as internal forces, deflection, to the determination of steel profiles, just by using packages that have been available in Julia and several function.\r\n\r\nMy thesis can be used for learning in civil engineering lectures, especially for the calculation of steel frame structures. Currently, as many as 38 students are designing various skeletal models using my thesis in Julia. And I'm proud, my work can be useful for others."
- },
- {
-  "avatar": null,
-  "name": "Marc Fuentes",
-  "submissions": [
-   "D3RLQ7"
-  ],
-  "code": "8EXT8Q",
-  "biography": "After being graduated in applied mathematics (Ph.D. in the University of Toulouse in 2007), M. Fuentes integrated  the French National Institute for Research in Computer Science and Automation (INRIA) and becomes a Research Engineer. At INRIA,  his mission consists in\r\nimproving software quality trough better development practices. His main interests are\r\ncomputer langages for doing maths and linear algebra"
- },
- {
-  "avatar": null,
-  "name": "Irene Ndindabahizi",
-  "submissions": [
-   "3LZQXH"
-  ],
-  "code": "GQ9VBT",
-  "biography": "Mrs Irene Ndindabahizi is a doctoral candidate at the Royal Military Academy in Belgium. She holds a masters degree in Aerospace engineering. Her research interests are in the field of Vulnerability and Lethality."
- },
- {
-  "avatar": null,
-  "name": "Aaron Christianson",
-  "submissions": [
-   "JYNERU",
-   "Y7ERM9"
-  ],
-  "code": "PHBURX",
-  "biography": "Aaron works at the Goethe University Library in Frankfurt on problems related writing systems of natural languages. Most of the work is in Python, but he enjoys sneaking in bits and bobs in Julia and OCaml when no one is looking. Outside of work, he has contributed to a refreshed C-calling interface for Julia 1.5 and answers way, way too many questions about Julia on Quora."
- },
- {
-  "avatar": null,
-  "name": "Tim Holy",
-  "submissions": [
-   "LSYN8F"
-  ],
-  "code": "J9BSUH",
-  "biography": "I am the Alan A. and Edith L. Wolff Professor of Neuroscience at Washington University in St. Louis.\r\nI contribute to Julia and its package ecosystem, particularly in developer tools and image processing."
- },
- {
-  "avatar": null,
-  "name": "David P. Sanders",
-  "submissions": [
-   "8K8P7R",
-   "QT3S9U"
-  ],
-  "code": "TJJRTG",
-  "biography": "Full professor in the Faculty of Sciences, Universidad Nacional Autónoma de México (UNAM) and visiting professor at MIT.\r\n\r\nJulia user, tutorial developer and package author since 2014. Co-creator of the JuliaIntervals suite of tools for interval arithmetic in Julia."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/20200226_165140_DmGtUVY.jpg",
-  "name": "Andrew Rosemberg",
-  "submissions": [
-   "ETWX8X"
-  ],
-  "code": "JATRBX",
-  "biography": "Andrew received a BSc in control engineering from PUC-RIO and a BSc in general engineering from École Centrale de Marseille. He also holds a master's in Electrical Engineering with an emphasis on Operation Research, focusing on Power Systems and Energy markets. Some of his previous projects revolve around energy economic dispatch analysis and simulation, financial data classification and portfolio optimization. His main interests are optimization, decisions under uncertainty and machine learning.\r\nCurrently, Andrew is part of the Research team at Invenia Labs."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Capture_Ek5JF1v.JPG",
-  "name": "Shiqi XIAO",
-  "submissions": [
-   "RBTYQR"
-  ],
-  "code": "UUX8FW",
-  "biography": "BSc Chinese University of Hong Kong\r\nMSc ETH Zurich"
- },
- {
-  "avatar": null,
-  "name": "Ludovic Räss",
-  "submissions": [
-   "YDSABY"
-  ],
-  "code": "ZTATFJ",
-  "biography": "Why to perform serial tasks while nature is mostly parallel? I am geoscientist with strong interest in high-performance computing (HPC), two-phase flow and ice dynamics. GPUs and supercomputers permit to investigate previously unsolvable problems at unprecedented resolutions."
- },
- {
-  "avatar": null,
-  "name": "Georg",
-  "submissions": [
-   "YDSABY"
-  ],
-  "code": "UXJCL8",
-  "biography": null
- },
- {
-  "avatar": null,
-  "name": "Théo Galy-Fajou",
-  "submissions": [
-   "YY9QEJ",
-   "CE7FZA"
-  ],
-  "code": "EWDVK7",
-  "biography": "PhD Student at TU Berlin with Pr. Opper. I am interested in Bayesian methods and more particularly in approximate inference and Gaussian Processes. I am developing [AugmentedGaussianProcesses.jl](https://github.com/theogf/AugmentedGaussianProcesses.jl) and [KernelFunctions.jl](https://github.com/theogf/KernelFunctions.jl)"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/cormullion-logo-450_AusjzID.png",
-  "name": "cormullion",
-  "submissions": [
-   "BYDSZK"
-  ],
-  "code": "RHJCGX",
-  "biography": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Ronny_Bergmann_355x473_S45sdo0.jpg",
-  "name": "Ronny Bergmann",
-  "submissions": [
-   "KCFCMQ"
-  ],
-  "code": "JTRCDU",
-  "biography": "I am an applied mathematician working on optimization on manifolds."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Headshot_4VYG0cP.JPG",
-  "name": "Logan Kilpatrick",
-  "submissions": [
-   "UTGXSH"
-  ],
-  "code": "UNR7XZ",
-  "biography": "Community Manager for the Julia Language. Harvard and Oxford class of 20'. CU Boulder Class of 23'. Future Software Engineer at Apple starting October of 2020."
- },
- {
-  "avatar": null,
-  "name": "Michiel Stock",
-  "submissions": [
-   "7MYVV3"
-  ],
-  "code": "T3ZCAP",
-  "biography": "Michiel Stock is a postdoctoral researcher, studying computational intelligence for synthetic biology and ecology."
- },
- {
-  "avatar": null,
-  "name": "Adam R. Gerlach",
-  "submissions": [
-   "KTDY7J"
-  ],
-  "code": "Z7P7KW",
-  "biography": "Adam Gerlach is a Research Aerospace Engineer in the Control Sciences Center of Excellence at the Air Force Research Laboratory (AFRL). His research interests are in intelligent systems, decision making under uncertainty, decentralized cooperative control.\r\n\r\nAdam received his Ph.D. in aerospace engineering from the University of Cincinnati in 2014 focused on Controls, Dynamics, and Intelligent Systems."
- },
- {
-  "avatar": null,
-  "name": "Ollin D. Langle-Chimal",
-  "submissions": [
-   "RGT8RF"
-  ],
-  "code": "DRF93A",
-  "biography": "PhD student at The University of Vermont's Complex Systems Center as part of the Neurobotics Lab.\r\nFormer Data Scientist at the Mexican Department of Social Development.\r\nInterested in complex networks, machine learning and statistics."
- },
- {
-  "avatar": null,
-  "name": "Felipe Noronha Tavares",
-  "submissions": [
-   "WGAHCK"
-  ],
-  "code": "YT79YK",
-  "biography": "Market Risk Manager at the Brazilian Development Bank."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/tyler-brough_19wOtDX.jpg",
-  "name": "Tyler Brough",
-  "submissions": [
-   "AWYKZL"
-  ],
-  "code": "QVSUAG",
-  "biography": "Dr. Tyler J. Brough is an Associate Professor of Finance in the Jon M. Huntsman School of Business at Utah State University. He earned a Ph.D. in Finance at the University of Arizona in 2010, an MS in Finance at the University of Illinois Urbana-Champaign in 2004, and a BS in Economics at Brigham Young University in 2000. He teaches business statistics in the Huntsman Scholars Program to undergraduates, and Derivatives Markets, Computational Financial Modeling, and Financial Econometrics to graduate students in the MSFE and MDATA programs. His scholarship is focused on computational finance and econometrics."
- },
- {
-  "avatar": null,
-  "name": "Bart Janssens",
-  "submissions": [
-   "3ZTCWX",
-   "XGHSWW",
-   "NNVQQF"
-  ],
-  "code": "H3TNC7",
-  "biography": "Bart Janssens is a military associate professor at the mechanics department of the [Royal Military Academy](https://www.rma.ac.be), with a passion for computer graphics, high performance computing and fluid mechanics. For performance reasons, he used C++ until being introduced to Julia. His current work focuses on making scientific C++ libraries such as Trilinos interoperate with Julia, with the ultimate objective of developing CFD code for Julia."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/przemyslaw_szufel_www_hkvkuIE.png",
-  "name": "Przemysław Szufel",
-  "submissions": [
-   "GX8QCX"
-  ],
-  "code": "HNA89P",
-  "biography": "Przemysław Szufel is an Assistant Professor in Decision Support and Analysis Unit at Warsaw School of Economics, an Adjunct Professor in The Cybersecurity Research Lab, Ryerson University, Toronto and a member of Computational Methods in Industrial Mathematics Lab in Fields Institute, Toronto. He is also a Management Committee member of the European Social Simulation Association.\r\n\r\nPrzemysław Szufel main research focus is in applying advanced analytics methods, and in particular, machine learning, simulation and optimization in modelling and automating decision business processes.  He is a co-author of \"Julia 1.0 Programming Cookbook: Over 100 Numerical and Distributed Computing Recipes for Your Daily Data Science Workflow\" that has recently been translated by O'Reilly to Japanese.    He is a co-author of over 30 publications, including handbooks and journal papers, in the area of applying advanced analytics, machine learning and simulation methods to making optimal business decisions. \r\nPrzemysław Szufel has delivered several workshops showing advanced analytics and simulation in Julia including Canada (University of Toronto, Ryerson University), Ireland (University College Dublin), Sweden (Stockholm University) and Central Bank of Poland and top consulting copmpanies. He is also a regular presenter for Julia hands-on-workshop at the Supercomputing Frontiers Europe conference. He also teaches Julia programming and advanced analytics PhD course in the Information Technology Department at Salerno University and he teaches several post graduate and PhD simulation and data science courses at Warsaw School of Economics, Poland.\r\nHe has also been working as an auditor for venture capital companies - he specializes in assessing technology of data-oriented startups. Dr Przemyław Szufel has been also co-managing SilverDecisions.pl project (that aims for representing and supporting business decisions and was part of a larger grant financed by the H2020 European Union grant), which has been elected by the European Commission to the Innovation Radar programme grouping the best European innovations financed by the EU funds."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Francis_Banville_1nGgYjS.jpg",
-  "name": "Francis Banville",
-  "submissions": [
-   "GPFUZR"
-  ],
-  "code": "YDHB3H",
-  "biography": "PhD student in biological sciences in the computational ecology lab of Timothée Poisot (University of Montreal) and the integrative ecology lab of Dominique Gravel (University of Sherbrooke)."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/633B8CAB-E497-486A-894F-FAD6F3E467BB_MHVqSur.jpeg",
-  "name": "Dewan Md. Farid",
-  "submissions": [
-   "EVJNMH"
-  ],
-  "code": "PDQSEA",
-  "biography": "Dr. Dewan Md. Farid is a Postdoctoral staff in the Decision and Information Systems for Production systems (DISP) Laboratory, IUT Lumière – Université Lyon 2, France, and Associate Professor (on leave), Department of Computer Science and Engineering, United International University, Bangladesh. He worked as a Postdoctoral Fellow at the following research groups: (1) Computational Modeling Lab (CoMo), Department of Computer Science, Vrije Universiteit Brussel, Belgium in 2015-2016, and (2) Computational Intelligence Group (CIG), Department of Computer Science and Digital Technology, University of Northumbria at Newcastle, UK in 2013. Dr. Farid was a Visiting Faculty at the Faculty of Engineering, University of Porto, Portugal in June 2016. He holds a PhD in Computer Science and Engineering from Jahangirnagar University, Bangladesh in 2012. Part of his PhD research has been done at ERIC Laboratory, University Lumière Lyon 2, France by Erasmus-Mundus ECW eLink PhD Exchange Program. He has published 84 peer-reviewed scientific articles, including 28 journal papers in the field of machine learning, data mining, and big data. Dr. Farid received the following awards: (1) JuliaCon 2019 Travel Award for attending Julia Conference at the University of Maryland, Baltimore, USA, and (2) United Group Research Award 2016 in the field of Science and Engineering. He received a2i Innovation Fund of Innov-A-Thon 2018 (Ideabank ID No.: 12502) from a2i-Access to Information Program – II, Information and Communication Technology (ICT) Division, Government of the People's Republic of Bangladesh. Dr. Farid received the following Erasmus Mundus scholarships: (1) LEADERS (Leading mobility between Europe and Asia in Developing Engineering Education and Research) in 2015, (2) cLink (Centre of excellence for Learning, Innovation, Networking and Knowledge) in 2013, and (3) eLink (east west Link for Innovation, Networking and Knowledge exchange) in 2009. Dr. Farid also received Senior Fellowship I, and II award by National Science & Information and Communication Technology (NSICT), Ministry of Science & Information and Communication Technology, Government of Bangladesh respectively in 2008 and 2011. He is a member of IEEE."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/download.jpg",
-  "name": "Swakkhar Shatabda",
-  "submissions": [
-   "EVJNMH"
-  ],
-  "code": "A9KWKS",
-  "biography": "Dr. Shatabda is Associate Professor and Undergraduate Program Co-ordinator of Computer Science and Engineering Department.\r\n\r\nHe achieved his Ph. D degree from the Institute for Integrated and Intelligent Systems (IIIS), Griffith University in 2014. His thesis is titled “Local Search Heuristics for Protein Structure Prediction”.  He completed his BSc. in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET) in 2007.\r\n\r\nResearch interest of Dr. Shatabda includes bioinformatics, optimization, search and meta-heuristics, data Mining, constraint programming, approximation Algorithms and graph theory. He has a number of quality publications in both national and international conferences and journals.\r\n\r\nHe has worked as Graduate Researcher in Queensland Research Laboratory, NICTA, Australia. Prior entering the teaching line he worked  as a Software Engineer in Vonair Inc, Bangladesh."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/MaximeMouchet_AQrR5J3.jpg",
-  "name": "Maxime Mouchet",
-  "submissions": [
-   "Q88P8U"
-  ],
-  "code": "QT7SE8",
-  "biography": "Maxime Mouchet is a PhD student at IMT Atlantique, France, from which he also holds a telecommunications engineering degree.  \r\nHis work focuses on detecting and locating faults on the Internet, as well as optimizing routing and quality-of-service measurements in large networks, using artificial intelligence methods.  \r\nHe is interested in practical implementations of his work, using Julia and Python."
- },
- {
-  "avatar": null,
-  "name": "Zachary P Christensen",
-  "submissions": [
-   "XEELRW"
-  ],
-  "code": "RZTTFH",
-  "biography": "I'm an MD/PhD candidate investigating predictive biomarkers for developmental psychopathology. I use magnetic resonance imaging, neurophysiology, and psychometrics to perform my research."
- },
- {
-  "avatar": null,
-  "name": "Karen Willcox",
-  "submissions": [
-   "UCQCSN"
-  ],
-  "code": "AMHRDW",
-  "biography": "."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Ayush_photo_sGdxAYY.png",
-  "name": "Ayush Kaushal",
-  "submissions": [
-   "Z8WWNV"
-  ],
-  "code": "QAS7GV",
-  "biography": "Undergraduate student majoring in Computer Science and Engineering at Indian Institute of Technology Kharagpur."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/LP_qLEtYM6.jpg",
-  "name": "Lucas Processi",
-  "submissions": [
-   "WGAHCK"
-  ],
-  "code": "CANQ7F",
-  "biography": "Computer Nerd"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/csm_OMLIN_samuel_3a2df39fc2_IJUK2tt.jpg",
-  "name": "Samuel Omlin",
-  "submissions": [
-   "YDSABY",
-   "M98VVM"
-  ],
-  "code": "QTKXPY",
-  "biography": "Computational Scientist at the Swiss National Supercomputing Centre (CSCS), ETH Zurich"
- },
- {
-  "avatar": null,
-  "name": "Chidubem Iddianozie",
-  "submissions": [
-   "RDMYLS"
-  ],
-  "code": "UPKRFZ",
-  "biography": "Chidubem is a Computer Science PhD student at the University College Dublin."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Pietro_Vertechi_HX8cGVP.jpg",
-  "name": "Pietro Vertechi",
-  "submissions": [
-   "BMNWLJ"
-  ],
-  "code": "RB8YD8",
-  "biography": "I am a PhD student in Neuroscience at the Champalimaud Foundation (Lisbon, Portugal). During my PhD, I have mostly worked on behavioral task design, and computational models of behavior of biological and artificial agents. I have been using julia for a few years for my research, and have contributed to several julia packages for data analysis and visualization."
- },
- {
-  "avatar": null,
-  "name": "Travis DePrato",
-  "submissions": [
-   "NPWSWB"
-  ],
-  "code": "CQME7G",
-  "biography": "Travis DePrato is an Experiential Learning Software Developer at the University of Michigan, working on developing new ways to teach courses in computer science, computational mathematics, and data science."
- },
- {
-  "avatar": null,
-  "name": "Guilherme Bodin",
-  "submissions": [
-   "AA8CQU"
-  ],
-  "code": "PCLZTQ",
-  "biography": "I am a Master's student at PUC-Rio in Rio de Janeiro, Brazil. I have contributed to some packages from the JuliaOpt and participated in GSOC'19 with the project Dualization.jl. I am also one of the developers of StateSpaceModels.jl."
- },
- {
-  "avatar": null,
-  "name": "Stefan Karpinski",
-  "submissions": [
-   "MASLPF",
-   "RXAN8F"
-  ],
-  "code": "9NNRE7",
-  "biography": "Stefan is a co-creator of Julia and a co-founder of Julia Computing. He has previously worked as a software engineer and data scientist at Etsy, Akamai and Citrix Online. In addition to running Julia Computing, he has a part-time appointment as a Research Engineer at New York University."
- },
- {
-  "avatar": null,
-  "name": "Raj Rao",
-  "submissions": [
-   "NPWSWB"
-  ],
-  "code": "BUFAQT",
-  "biography": "Professor of EECS at University of Michigan"
+  "code": "AVXQCK",
+  "biography": "PhD student at Charles university in Prague, Dept. of SW engineering. Assistant researcher at Institute of Organic Chemistry and Biochemistry in Prague. Working on various computationally intensive problems in bioinformatics and cheminformatics."
  },
  {
   "avatar": null,
@@ -826,22 +300,13 @@
   "biography": "Elliot Saba is a Senior Research Engineer at Julia Computing, where he develops new tools to bolster the Julia community's collective productivity.  From machine learning algorithms to web services, build environments to debugging tools, his greatest weapon against the impossible is patience."
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/jeff_bezanson.jpeg",
-  "name": "Jeff Bezanson",
-  "submissions": [
-   "MASLPF"
-  ],
-  "code": "JWDSCE",
-  "biography": null
- },
- {
   "avatar": null,
-  "name": "Mike Innes",
+  "name": "Anton Plietzsch",
   "submissions": [
-   "QHRQVF"
+   "YVRWMA"
   ],
-  "code": "M8VL8C",
-  "biography": "Mike is a software engineer at Julia Computing, where he works on Julia's machine learning stack."
+  "code": "BC8CK8",
+  "biography": "I studied Physics at Humboldt-University Berlin and I am currently doing my PhD at the Potsdam Institute for Climate Impact Research. My research is focussed on the modelling and analysis of power grids with fluctuating power infeed."
  },
  {
   "avatar": null,
@@ -853,49 +318,23 @@
   "biography": "Currently a PhD student in Mechanical Engineering at Stanford University, my research focuses on developing state-of-the-art algorithms for doing real-time motion planning for nonlinear robotic systems. I started using Julia a little under 2 years ago and am the primary developer of TrajectoryOptimization.jl."
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/profilepic_lT4pn3V.jpeg",
-  "name": "Tor Erlend Fjelde",
+  "avatar": "https://pretalx.com/media/avatars/DSC05170.jpg",
+  "name": "Arnav Sood",
   "submissions": [
-   "9RX99T"
+   "N9CXCT",
+   "87JCMX"
   ],
-  "code": "RQSHFH",
-  "biography": "Hey. My name is Tor, like the onion browser or the norse god. Neither are fitting; I'm not a man of many layers nor am I long-haired and muscular. I'm currently working as a research assistant in the Machine Learning group at University of Cambridge where I spend time doing research and working on Turing.jl and it's related packages, e.g Bijectors.jl. It's all related to probabilities, and it's all good fun.\r\n\r\nAnd like you, I of course loooove Julia!"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/mq_KkSobXj.jpg",
-  "name": "Marco Quartulli",
-  "submissions": [
-   "EM8ZK3"
-  ],
-  "code": "ZGQL3X",
-  "biography": "Marco Quartulli holds  a PhD in EE and CS from the\r\nUniversity of Siegen, Germany, in 2005. From 2000 to 2003, he was with\r\nthe German Aerospace Center (DLR) in Germany, working on machine\r\nlearning for image understanding and content-based image retrieval.\r\nFrom 1997 to 2010 he worked on remote sensing ground segment\r\nengineering, image analysis, archive search for Advanced Computer\r\nSystems, Italy. Since 2010, he has joined Vicomtech in Spain where he\r\nis working in the Data Intelligence for Energy and Industrial\r\nProcesses department on the development of ML- and AI-based predictive\r\nand prescriptive analysis methodologies for high-dimensional\r\nmultivariate time series."
+  "code": "BLMFSS",
+  "biography": "Arnav is a Predoctoral Researcher at the UBC Vancouver School of Economics, where he works primarily with Jesse Perla. He is also a team member at QuantEcon, contributing to Julia projects and lectures."
  },
  {
   "avatar": null,
-  "name": "Johan Van Kerckhoven",
+  "name": "Raj Rao",
   "submissions": [
-   "79FJUW"
+   "NPWSWB"
   ],
-  "code": "WBWK8K",
-  "biography": "JOHAN VAN KERCKHOVEN graduated from the Vrije Universiteit Brussel (VUB) in Brussels as a Master in Mathematics (Licentiaat in de Wiskunde), with specialisation in statistics, in 2002. He worked as a university researcher, specialising in variable selection methods in predictive modelling and robust statistics, and teaching assistant at various Belgian universities (2002-2012), obtaining his PhD in Applied Economics in 2008 at the Katholieke Universiteit Leuven. From 2012-2016 he worked as market risk modeller at KBC. He joined the department MWMW of the Royal Military Academy as a researcher in 2016, specialising in (discrete event) simulation, in particular using SimJulia."
- },
- {
-  "avatar": null,
-  "name": "Michael Kyesswa",
-  "submissions": [
-   "ZMHR9V"
-  ],
-  "code": "ZCE33M",
-  "biography": "Michael Kyesswa is a Ph.D student at Karlsruhe Institute of Technology. His main areas of research are computational methods for power system analysis, and parallel and real-time simulations."
- },
- {
-  "avatar": null,
-  "name": "Miroslav Kratochvíl",
-  "submissions": [
-   "UPHPAT"
-  ],
-  "code": "AVXQCK",
-  "biography": "PhD student at Charles university in Prague, Dept. of SW engineering. Assistant researcher at Institute of Organic Chemistry and Biochemistry in Prague. Working on various computationally intensive problems in bioinformatics and cheminformatics."
+  "code": "BUFAQT",
+  "biography": "Professor of EECS at University of Michigan"
  },
  {
   "avatar": null,
@@ -908,121 +347,40 @@
  },
  {
   "avatar": null,
-  "name": "Jarrett Revels",
+  "name": "Janis Erdmanis",
   "submissions": [
-   "L9LV3N"
+   "XXUJ9Y",
+   "ENRJBB"
   ],
-  "code": "VAVNMG",
-  "biography": "CTO @ Beacon Biosignals"
+  "code": "BYKXMD",
+  "biography": "My name is Janis (Yanis), and I am currently a PhD candidate for theoretical physics at TU Delft.  I am a curious person and simplicity is what drives me. I am passionately seeking a frame of reference in which perceived complexity becomes simple, short and understandable. That gives me a kinda special feeling of going up to see more. And in the research, I get plenty of opportunities to do that although that is never easy. So I end up building my own stuff with Julia, now I am the founder of PeaceFounder's project."
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/DK_web_o2rC492.jpg",
-  "name": "Daniel Karrasch",
+  "avatar": "https://pretalx.com/media/avatars/LP_qLEtYM6.jpg",
+  "name": "Lucas Processi",
   "submissions": [
-   "3JSMMG"
+   "WGAHCK"
   ],
-  "code": "FXFFZ8",
-  "biography": "Daniel Karrasch graduated in 2012 with a PhD in Mathematics from TU Dresden, Germany. After a postdoctoral fellowship at ETH Zurich, Switzerland, he now works as a postdoctoral researcher in the Scientific Computing group at TU Munich, Germany. His research interests are in applied and computational mathematics, with a focus on dynamical systems theoretical approaches to the study of fluid motion. He is an enthusiastic contributor to the Julia language, mostly in the area of linear algebra."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Screenshot_from_2020-03-06_13-02-11_a8llaQL.png",
-  "name": "Sam Buercklin",
-  "submissions": [
-   "9JFYBH"
-  ],
-  "code": "XPSFQS",
-  "biography": "Buercklin began working at LeafLabs after the conclusion of his graduate studies in electrical engineering working on computational physics. He enjoys uncovering insight into physical systems through simulations and utilizing optimization and machine learning techniques to find new solutions to problems. As a researcher, his prior experience was in solving optical inverse problems and optimizing controls for quantum computing experiments. Outside of work, he can be found enjoying live music or riding his bike around Boston. (B.S. ECE at University of Illinois at Urbana-Champaign '15, S.M. EECS at MIT '19)"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/portrait_MpPKJYM.jpeg",
-  "name": "Peter Bräuer",
-  "submissions": [
-   "3CEUF7"
-  ],
-  "code": "UTNWKL",
-  "biography": "I received my Ph.D. in 2015 in Meteorology on the auto-generation of chemical mechanisms for atmospheric sciences and continued with 2 postdoc positions on chemical mechanism developments at the University of East Anglia and University of York in the UK. Since 2019, I work as a scientific programmer developing Julia scripts and packages for applications in satellite data analysis and meteorology."
+  "code": "CANQ7F",
+  "biography": "Computer Nerd"
  },
  {
   "avatar": null,
-  "name": "Robert Rosati",
+  "name": "Johann-Tobias Schäg",
   "submissions": [
-   "LUSFK8",
-   "XKG7TT"
+   "TACZJT"
   ],
-  "code": "YKT39B",
-  "biography": "Physics PhD student at University of Texas at Austin\r\n\r\nhttps://github.com/rjrosati"
+  "code": "CCLRPG",
+  "biography": "Student of Technical Cybernetics and Systems Theory at TU Ilmenau, Germany."
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/micah_qPEs79W.jpeg",
-  "name": "Micah Halter",
+  "avatar": "https://pretalx.com/media/avatars/portrait2016_TDY3Lrk.jpeg",
+  "name": "Anthony Blaom",
   "submissions": [
-   "GALAX8"
+   "DMHZCC"
   ],
-  "code": "N7DDPD",
-  "biography": "Micah E. Halter is a research scientist at the Information and Communications Laboratory of the Georgia Tech Research Institute in Atlanta, GA. He has worked on several projects since he joined the Georgia Tech Research Institute in 2016, centered on using category theory, machine learning, databases to advance scientific and engineering applications. His research interests include high performance computing, database design and application, and category theoretic scientific knowledge representations."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/jeremie_profile_color_WQmWsev.png",
-  "name": "Jeremie Desgagne-Bouchard",
-  "submissions": [
-   "AKY8V7"
-  ],
-  "code": "NZXDX3",
-  "biography": "Jeremie is an actuary by trade (FCAS). He most recently joined the portfolio management firm Evovest as their Head of Science following his work as an applied research scientist at Element AI, where he expanded his deep learning acumen. He spent over 8 years at Intact in various R&D roles where he pushed the development of analytical solutions in various areas, including risk assessment, price optimization, and telematics."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/sans-titre_TORlX5n.jpeg",
-  "name": "Aicha Sekhari",
-  "submissions": [
-   "EVJNMH"
-  ],
-  "code": "NDCRAZ",
-  "biography": "A. SEKHARI Seklouli is currently member of DISP laboratory. Aicha Sekhari Seklouli is a co-leader of “System Lifecycle Modeling and Optimization” axis in DISP and a Head of the RTI knowledge Transfer and innovation pole.  Her research activities deal with Product and Production Sustainability, including Product Life cycle Management and Supply Chain Management. She co-advice PhDs AND Masters  Students in these fields.  Dr Sekhari Seklouli was technical manager of EASYIMP FP7 FoF ICT NMPB, working on the development of an MBSE method for smart Product. As a member of EcoSD (Eco Conception de système durable) research and industry association, She has many contribution in the field of Eco-PLM and Suitanaible product development. Dr. Sekhari Seklouli has been and currently coordinator/member of several international research and collaboration projects: FP7 ICT FI-PPP FITMAN, Erasmus mundus (eLink, cLink, eTourism, Fusion), Hubert Curien, ARC8, ... \r\n\r\nA. SEKHARI Seklouli teaches in the fields of Production Management , Methods and Tools for Quality Management and Norms for Postgraduat and undergrad degrees.\r\n\r\nA SEKHARI Seklouli was a head of Health, Safety and Environment (HSE) department. She received her Engineering Degree in Electronic in 1994 from Algerian University of Engineering Science in Setif. After three years of industrial experiences in Engineering maintenance, she joined INSA Lyon for her M. Sc. (DEA) degree in 1999. She obtained her Ph.D degree in Production System from University of Joseph Fourier of Clermond Ferrand in France in 2004. Dr. Sekhari Seklouli is currently collaborating on various EU and International teaching Projects (FSP; Transport II; ...)."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/6426D4A4-6B33-4123-952D-FE4EB9908BA2_4_5005_c_SANWL6Z.jpeg",
-  "name": "David W. Archer",
-  "submissions": [
-   "CT9SUU"
-  ],
-  "code": "F3KPDM",
-  "biography": "Dr. Archer is a Principal Scientist at Galois, Inc., with research interests in information security, and especially in advanced privacy-preserving technologies such as secure computation and zero knowledge techniques. Currently, Dr. Archer is Principal Investigator for projects in several DARPA, IARPA, and DHS research programs in these and other cyber security related areas. In current and past programs, his teams have contributed to fundamental and applied research in secure multi-party, garbled circuit, and homomorphic encryption based computation, secure hardware enclave computation, detection and localization of advanced persistent cyber threats, and programming languages for cyber warfare."
- },
- {
-  "avatar": null,
-  "name": "Juan Pablo Vielma",
-  "submissions": [
-   "7RL9UQ"
-  ],
-  "code": "PFCA7P",
-  "biography": "."
- },
- {
-  "avatar": null,
-  "name": "François Févotte",
-  "submissions": [
-   "LEADQ7"
-  ],
-  "code": "ZT3GSX",
-  "biography": "François Févotte is co-founder and Chief Scientist of TriScale innov, a start-up dedicated to technical and scientific computing. Prior to that, he graduated in 2008 with a PhD in applied mathematics from the CEA and spent more than ten years with a team dedicated to numerical analysis and modeling in the R&D division of EDF (France's main electric utility). François' approach aims at achieving high performance in scientific software by focusing the effort where it matters most. This includes using state-of-the art numerical techniques in combination with FP-aware algorithms and implementations targeting modern hardware architectures."
- },
- {
-  "avatar": null,
-  "name": "William Chen",
-  "submissions": [
-   "MCQHT3"
-  ],
-  "code": "LW9BUW",
-  "biography": "William Chen is a senior Research Analyst at the Federal Reserve Bank of New York (FRBNY) and works on the DSGE team of the Macroeconomics and Monetary Studies Function in the Research and Statistics Group. His research interest are in macroeconomics and financial theory. Chen is a graduate of Williams College with a B.A. in Economics and a B.A. in Mathematics."
- },
- {
-  "avatar": null,
-  "name": "Simon Byrne",
-  "submissions": [
-   "3NXGGJ"
-  ],
-  "code": "PKSECG",
-  "biography": "Dr Simon Byrne is the lead software engineer on the [CliMA project](https://clima.caltech.edu/), and has been using and contributing to Julia since 2012."
+  "code": "CK3MKJ",
+  "biography": "Dr. Anthony Blaom conducted his PhD at Caltech in Mathematics and has expertise in Differential Geometry, Dynamical Systems, Fluid Mechanics, Machine Learning and Applied Statistics.  An erstwhile academic, Anthony is now primarily involved in software development for machine learning."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/gcdprofile_4ompiAL.jpg",
@@ -1038,263 +396,86 @@
  },
  {
   "avatar": null,
-  "name": "Milan Kloewer",
+  "name": "Travis DePrato",
   "submissions": [
-   "JPGZK3"
+   "NPWSWB"
   ],
-  "code": "A9SQSW",
-  "biography": "Sun is shining"
+  "code": "CQME7G",
+  "biography": "Travis DePrato is an Experiential Learning Software Developer at the University of Michigan, working on developing new ways to teach courses in computer science, computational mathematics, and data science."
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/%C3%ADndice_yUuDMkO.jpeg",
-  "name": "Óscar Alvarado",
+  "avatar": "https://pretalx.com/media/avatars/werder_3C3WoW4.jpg",
+  "name": "Mauro Werder",
   "submissions": [
-   "HPR79A",
-   "ALMRKK"
+   "PTL7YB"
   ],
-  "code": "ZZTWND",
-  "biography": "Degree in physics. Currently studying data science and interested in AI, high-performance computing, and computational physics.\r\nStudying at the National Autonomous University of Mexico."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/27951151_Ie4gG6A.jpg",
-  "name": "Choi Ching Lam",
-  "submissions": [
-   "HJTZNE"
-  ],
-  "code": "QFHKYS",
-  "biography": "16 year old ML enthusiast, aspiring CV researcher, intern at NVIDIA's AI Tech Center"
+  "code": "CRJ7BV",
+  "biography": "Glaciologist at ETH Zurich, Switzerland"
  },
  {
   "avatar": null,
-  "name": "Nafiz",
+  "name": "Linda Petzold",
   "submissions": [
-   "SEGNUF"
+   "LG3GQP"
   ],
-  "code": "FA9CHZ",
-  "biography": "I am an university student from bangladesh"
- },
- {
-  "avatar": null,
-  "name": "Adrian Salceanu",
-  "submissions": [
-   "8SZSBE",
-   "DTLBM9"
-  ],
-  "code": "3MGMJN",
-  "biography": "IT professional working at the intersection between Web Development, Data Science, and Machine Learning. 20 years of experience leading agile teams in developing real-time, data-intensive, web and mobile products.\r\n\r\nPublic speaker and enthusiastic contributor to Open Source projects, with a focus on high-performance web development. Creator of Genie, the highly-productive Julia web framework. Author of \"Julia Programming Projects\" (Packt, 2018) and co-author of “Julia Programming Complete Reference Guide” (Packt, 2019).\r\n\r\nMSc. Advanced Computer Science. MSc. Computing. Certified ScrumMaster."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/36087372_10212016198824348_3346868688635559936_n_zvNoLVS.jpg",
-  "name": "Saiful Islam",
-  "submissions": [
-   "SEGNUF"
-  ],
-  "code": "PZUNH9",
-  "biography": "Currently working as a Lecturer, Dept. of Information and Communication Technology, Bangladesh University of Professionals."
- },
- {
-  "avatar": null,
-  "name": "Josef Heinen",
-  "submissions": [
-   "JHCWQA"
-  ],
-  "code": "UKMRMB",
-  "biography": "Josef Heinen is the head of the group \"Scientific IT–Systems\" at the Peter Grünberg Institute / Jülich Centre for Neutron Science, both institutes at Forschungszentrum Jülich, a leading research centre in Germany. The design and development of visualization systems have been an essential part of his activities over the last twenty years. Most recently his team is engaged with the further development of a universal framework for cross-platform visualization applications (GR Framework)."
- },
- {
-  "avatar": null,
-  "name": "Michel Schanen",
-  "submissions": [
-   "HVXXZD"
-  ],
-  "code": "DUUAYM",
-  "biography": "Michel Schanen is Computational Engineer at the Mathematics and Computer Science division at the Argonne National Laboratory. His background is automatic differentiation and large-scale numerical simulations. His group's research revolves around optimization algorithms for power systems."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/me_photo_CGEysBj.jpeg",
-  "name": "Will Tebbutt",
-  "submissions": [
-   "DSXCMZ"
-  ],
-  "code": "LQKANJ",
-  "biography": "Will is a PhD student in the Machine Learning Group at the University of Cambridge. His research focuses on the scalability of Gaussian processes, how software should be implemented to make using them a pleasant experience, and how they can be utilised in climate science."
- },
- {
-  "avatar": null,
-  "name": "tombsvj@ornl.gov",
-  "submissions": [
-   "PUHBMG"
-  ],
-  "code": "P3DS7F",
-  "biography": "Vandy Tombs is a Research Associate in Geographic Data Science group at Oak Ridge National Laboratory. She enjoys applying group theory to develop new machine learning architectures and utilizing differentiable programming to improve existing scientific algorithms."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Stefan_quadratisch_150kb_3mjX60X.jpg",
-  "name": "Stefan Lenz",
-  "submissions": [
-   "PHGCKB"
-  ],
-  "code": "FVK8GZ",
-  "biography": "Researcher on deep learning with medical data at the [Institute of Medical Biometry and Statistics](https://www.imbi.uni-freiburg.de/?set_language=en) at the University Medical Center in Freiburg im Breisgau (Germany). After studying mathematics, I have now worked for six years in the fields of medical informatics and statistics. My special interests are programming and software design."
- },
- {
-  "avatar": null,
-  "name": "Curtis Vogt",
-  "submissions": [
-   "3AGJ3V"
-  ],
-  "code": "AQLMAC",
-  "biography": "Head of Development at Invenia Technical Computing\r\n\r\nHas been using Julia since 2015\r\n\r\nMain author of [TimeZones.jl](https://github.com/JuliaTime/TimeZones.jl) and [Mocking.jl](https://github.com/invenia/Mocking.jl)"
- },
- {
-  "avatar": null,
-  "name": "Oscar A. Esquivel-Flores",
-  "submissions": [
-   "ALMRKK",
-   "HPR79A"
-  ],
-  "code": "GYDYSB",
-  "biography": "Oscar A.  Esquivel-Flores received his Bachelor's degree in Applied Mathematics and Computing from Universidad Nacional Autonoma de México (UNAM). M.S. degree in Computer Sciences from Universidad Autónoma Metropolitana, México and PhD degree in Computer Engineering from UNAM in 2013. He has working on parallel and high performance computing as part of a posdoctoral position at the Barcelona Supercomputing Center as an international agreement with National Council of Science and Technology of México. Actually, he is a researcher in Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas at Universidad Nacional Autónoma de México developing parallel algorithms regards matrix computations, machine learning and optimization."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/nic_OVWXhJe.jpg",
-  "name": "Nicholas Labelle St-Pierre",
-  "submissions": [
-   "LHBLF3"
-  ],
-  "code": "PXJ9SN",
-  "biography": "Nicholas Labelle St-Pierre is a Principal Economist in the Projection Division of the Canadian Economic Analysis Department at the Bank of Canada. His research interests include macroeconomics and computational economics. Nicholas holds an MSc in Economics from the University of Quebec in Montreal (UQAM)."
- },
- {
-  "avatar": null,
-  "name": "Boyan Bejanov",
-  "submissions": [
-   "LHBLF3"
-  ],
-  "code": "JXPEBU",
+  "code": "D9VK7X",
   "biography": null
  },
  {
-  "avatar": null,
-  "name": "Atai Akunov",
+  "avatar": "https://pretalx.com/media/avatars/download_X7vEu32.png",
+  "name": "Indranil Ghosh",
   "submissions": [
-   "LHBLF3"
+   "NX33Q8"
   ],
-  "code": "UJUFMU",
-  "biography": "I'm a Projection Analyst at the Bank of Canada."
+  "code": "DCJ8DG",
+  "biography": "Indranil Ghosh is a Post Graduate student in the Physics department from Jadavpur University Kolkata. He has been involved in research related to scientific computing and has presented in three international conferences held in India and has also  presented his work on designing simple python programs to study quantum game theory applicable to population evolution,  in SLAS,2019 International Conference and Exhibition held at Washington DC, USA, in February 2019. He has presented a talk on simulations of quantum game theoretic models in Scipy India, 2018, conference and a talk on application of scientific computing in SNBNCBS, Kolkata. He has also presented in ISI, Kolkata on a topic related to designing a Pygame program to study fractal patterns in Non-linear Dynamics. He has also been involved in writing the book “Computational Methods in Physics with Python” under the supervision of Dr. Debasish Lohar, present HOD of Physics Department, Jadavpur University, and this project is planned to be completed within the next semester."
  },
  {
   "avatar": null,
-  "name": "Samuel Kapembe",
+  "name": "Thibaut Lienart",
   "submissions": [
-   "E98QKR"
+   "DMHZCC"
   ],
-  "code": "AVK3DX",
-  "biography": "I am Samuel Stallin Kapembe. I am a Master of Science student at Namibia University of Science and Technology. I have done research in Virtual Learning Environments, Distributed Systems and Recommender Systems. I am have chosen to do my Master's research using Julia as the language is perfectly suited for the task."
+  "code": "DFDVWV",
+  "biography": "TBD"
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/bk_small.JPG",
+  "name": "Bogumił Kamiński",
+  "submissions": [
+   "8SFYHK",
+   "GX8QCX"
+  ],
+  "code": "DHRPEA",
+  "biography": "I am a researcher in the fields of operations research and computational social science.\r\nFor development work I mostly use the Julia language.\r\n\r\nYou can find more information about me and my work on my [personal website](http://bogumilkaminski.pl/about/) or [GitHub](https://github.com/bkamins)."
  },
  {
   "avatar": null,
-  "name": "Ahan Sengupta",
+  "name": "Mathieu Besançon",
   "submissions": [
-   "YYWMPR"
+   "GQATHR",
+   "RMGYYX"
   ],
-  "code": "A3J7CA",
-  "biography": "I am a 14-year-old student, currently attending the City of London School. I have always had a deep interest in programming, first starting with Scratch when I was quite young, then moving onto Python, then finally, a few years ago, Julia. I have since presented at JuliaCon 2018 and 2019 and therefore have some experience with the language."
+  "code": "DK9KDB",
+  "biography": "Mathieu is a PhD candidate in a double program between Polytechnique Montreal & INRIA Lille. His research focuses on mathematical optimization models and applications for power grids. Outside research, he also works on open-source projects around mathematical optimization, graphs and statistics."
  },
  {
   "avatar": null,
-  "name": "Johann-Tobias Schäg",
+  "name": "Martijn Visser",
   "submissions": [
-   "TACZJT"
+   "GR9TZH"
   ],
-  "code": "CCLRPG",
-  "biography": "Student of Technical Cybernetics and Systems Theory at TU Ilmenau, Germany."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/IMG_0014-Ferrall-Fairbanks_VbsGc51.jpg",
-  "name": "Meghan Ferrall-Fairbanks",
-  "submissions": [
-   "MMJXXC"
-  ],
-  "code": "VNADNL",
-  "biography": "Meghan Ferrall-Fairbanks received her B.S. in Mechanical Engineering with a Biomechanics minor at the University of Florida in 2012. She earned her PhD in Biomedical Engineering in 2017 from the joint Georgia Tech and Emory program under the guidance of Dr. Manu O. Platt. In her graduate dissertation work, Meghan focused on integrating wet-lab experimental and computational methods to tease apart complex enzyme-on-enzyme interactions in proteolytic networks up-regulated in tissue destructive diseases. In August 2017, she began her postdoctoral studies in the Department of Integrated Mathematical Oncology at Moffitt Cancer Center and Research Institute with Dr. Philipp M. Altrock. In her postdoctoral work, Meghan has focused on applying mathematical and computational methods to model cancer evolution in hematopoietic malignancies."
+  "code": "DL3SFL",
+  "biography": "Martijn Visser is a hydrologist working at the Deltares applied research institute in the Netherlands. He has been an active developer of the JuliaGeo community effort since the beginning, and wants to make Julia a great choice for geospatial workflows."
  },
  {
   "avatar": null,
-  "name": "Eric P. Hanson",
+  "name": "Katharine Hyatt, Matthew Fishman",
   "submissions": [
-   "PTZDCJ",
-   "LQLP9P"
+   "8NDYCT"
   ],
-  "code": "GBSYWE",
-  "biography": "PhD student studying quantum information theory at Cambridge University"
- },
- {
-  "avatar": null,
-  "name": "August Guang",
-  "submissions": [
-   "F7DKF8"
-  ],
-  "code": "PUQAK9",
-  "biography": "Genomics Data Scientist at Brown University, Providence, RI."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/PamelaBustamante_01FkdBT.png",
-  "name": "Pamela Alejandra Bustamante Faúndez",
-  "submissions": [
-   "VPUS7J"
-  ],
-  "code": "HSUYYR",
-  "biography": "Pamela Bustamante is a PhD student from Pontificia Universidad Católica de Chile. She has been using Julia since her undergraduate days at Universidad del Bío-Bío, Chile. Co-author of IntroAJulia.jl"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/0_i2Qu7gb.jpg",
-  "name": "Kerry Snyder",
-  "submissions": [
-   "38UTLX"
-  ],
-  "code": "9GSQX8",
-  "biography": "Co-founder at KEF Robotics. Formerly R&D at Astrobotic. B.S. in Computer Science and Robotics at Carnegie Mellon University."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/4173925_joT5hst.jpeg",
-  "name": "Christine Choirat",
-  "submissions": [
-   "UHLCJR"
-  ],
-  "code": "UTJBWX",
-  "biography": "Dr. Choirat is the Chief Innovation Officer of the Swiss Data Science Center (SDSC, https://datascience.ch/), an initiative to accelerate the use of data science and machine learning techniques within academic disciplines and the industrial sector, in Switzerland and internationally.  She was trained as a statistician (PhD, Paris Dauphine).  At SDSC, she provides leadership over the lifecycle of sponsored projects and partnerships in the domains of environmental science, health IT, health science and technology, personalized medicine, and open science.  She also fosters engagement with partners to facilitate the adoption of FAIR and reproducible data science with the Renku platform (https://renkulab.io/).\r\n\r\nhttps://scholar.harvard.edu/cchoirat"
- },
- {
-  "avatar": null,
-  "name": "Lyndon White (@oxinabox)",
-  "submissions": [
-   "UD7AGC",
-   "QABEK8"
-  ],
-  "code": "ECUZBT",
-  "biography": "I am a research software engineer at Invenia Labs (Cambridge, UK). I help researchers use machine learning, constrained optimization, and generally tools from the technical computing domain to optimize the power grid. I get to do all the best parts of being a software developer and all the best parts of being a researcher, its great. I am a long-term contributor to the open-source JuliaLang ecosystem. I am passionate about building the tools to do research better."
- },
- {
-  "avatar": null,
-  "name": "Chad Scherrer",
-  "submissions": [
-   "7ZJCPC",
-   "R7EPKS"
-  ],
-  "code": "A7PDM3",
-  "biography": "Chad Scherrer is a Senior Research Scientist at [RelationalAI](https://www.relational.ai/).\r\n\r\nChad's work in probabilistic programming began in 2010, leading to the development of [Passage](https://cscherrer.github.io/pdf/Scherrer%20-%202012%20-%20Passage%20A%20Parallel%20Sampler%20Generator%20for%20Hierarchical%20Bayesian%20Modeling.pdf), a Haskell-based language to generate parallel C/OpenMP code for Gibbs sampling. Following this, he served as technical lead for the language evaluation team for the DARPA program \"Probabilistic Programming for Advancing Machine Learning\"."
- },
- {
-  "avatar": null,
-  "name": "Chris Rackauckas",
-  "submissions": [
-   "B3VAGU",
-   "C9FGPP",
-   "YYKQCW"
-  ],
-  "code": "WUWQQ3",
-  "biography": "Christopher Rackauckas is an Applied Mathematics Instructor at the Massachusetts Institute of Technology and a Senior Research Analyst at University of Maryland, Baltimore, School of Pharmacy in the Center for Translational Medicine. Chris's research is focused on numerical differential equations and scientific machine learning with applications from climate to biological modeling. He is the developer of over many core numerical packages for the Julia programming language, including DifferentialEquations.jl for which he won the inaugural Julia community prize, and the Pumas.jl for pharmaceutical modeling and simulation."
+  "code": "DMTTDJ",
+  "biography": null
  },
  {
   "avatar": null,
@@ -1308,12 +489,76 @@
  },
  {
   "avatar": null,
-  "name": "Harrison Grodin",
+  "name": "Ollin D. Langle-Chimal",
   "submissions": [
-   "CHJ9ZK"
+   "RGT8RF"
   ],
-  "code": "YDWSNP",
-  "biography": "Student at Carnegie Mellon University School of Computer Science, with a focus in programming language theory. Author of Rewrite.jl, Simplify.jl and developer for ModelingToolkit.jl."
+  "code": "DRF93A",
+  "biography": "PhD student at The University of Vermont's Complex Systems Center as part of the Neurobotics Lab.\r\nFormer Data Scientist at the Mexican Department of Social Development.\r\nInterested in complex networks, machine learning and statistics."
+ },
+ {
+  "avatar": null,
+  "name": "Daniel Kool",
+  "submissions": [
+   "CXAYML"
+  ],
+  "code": "DRPANN",
+  "biography": "I am a PhD student at Iowa State University, working on evaluation of protein mutations and analysis of protein variants."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/11987148_1033252796708176_7337877265648954761_n_skDwE4U.jpg",
+  "name": "Maxime",
+  "submissions": [
+   "JFUJJ7"
+  ],
+  "code": "DRVRCN",
+  "biography": "Bio-engineer and PhD student at the bio-science engineering department of mathematical modeling and data-analysis of Ghent university."
+ },
+ {
+  "avatar": null,
+  "name": "Michel Schanen",
+  "submissions": [
+   "HVXXZD"
+  ],
+  "code": "DUUAYM",
+  "biography": "Michel Schanen is Computational Engineer at the Mathematics and Computer Science division at the Argonne National Laboratory. His background is automatic differentiation and large-scale numerical simulations. His group's research revolves around optimization algorithms for power systems."
+ },
+ {
+  "avatar": null,
+  "name": "Michael Herbst",
+  "submissions": [
+   "X8LY73"
+  ],
+  "code": "DZ7WHZ",
+  "biography": "By training a chemist, who got more and more twisted towards the \"dark side\" of numerical analysis. Now working as a PostDoc at [CERMICS](https://cermics-lab.enpc.fr/), the Applied Math lab of Ecole des Ponts, Paris, developing a Julia code for mathematical research in quantum chemistry ([DFTK](https://dftk.org))."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/headshot_-_Cropped_bmH40Nn.png",
+  "name": "Charlie Kawczynski",
+  "submissions": [
+   "DTAFMF"
+  ],
+  "code": "E77THB",
+  "biography": "Charles is a software engineer at Caltech, working on a new climate model, CLIMA, intended to learn from a diverse set of data. This climate model is implementing novel sub-grid scale models for resolving turbulence and cloud processes. The code, developed by a distributed team, will be made capable to run on CPU and GPU architectures.\r\n\r\nPreviously, during his Ph.D., Charles developed a liquid-metal magnetohydrodynamic (MHD) solver and framework for simulating liquid-metal MHD flows for fusion energy applications, in particular, for accident scenarios involving loss of plasma confinement, resulting in electromagnetic interactions between the plasma and liquid-metal breeding blanket.\r\n\r\nCharles has a passion for developing HPC software for simulating physical phenomena."
+ },
+ {
+  "avatar": null,
+  "name": "Fons van der Plas",
+  "submissions": [
+   "WNBYW8"
+  ],
+  "code": "ECC83Q",
+  "biography": "https://github.com/fonsp"
+ },
+ {
+  "avatar": null,
+  "name": "Lyndon White (@oxinabox)",
+  "submissions": [
+   "UD7AGC",
+   "QABEK8"
+  ],
+  "code": "ECUZBT",
+  "biography": "I am a research software engineer at Invenia Labs (Cambridge, UK). I help researchers use machine learning, constrained optimization, and generally tools from the technical computing domain to optimize the power grid. I get to do all the best parts of being a software developer and all the best parts of being a researcher, its great. I am a long-term contributor to the open-source JuliaLang ecosystem. I am passionate about building the tools to do research better."
  },
  {
   "avatar": null,
@@ -1327,33 +572,31 @@
  },
  {
   "avatar": null,
-  "name": "Jiahao Chen",
+  "name": "Sascha Mann",
   "submissions": [
-   "AQMLUC"
+   "Z3RDBQ"
   ],
-  "code": "GVE78J",
-  "biography": "Jiahao Chen is a senior Vice President and Research Lead at JPMorgan AI Research in New York, with research focusing on explainability and fairness in machine learning, as well as semantic knowledge management. He was previously a Senior Manager of Data Science at Capital One focusing on machine learning research for credit analytics and retail operations.\r\n\r\nWhen still in academia, Jiahao was a Research Scientist at MIT CSAIL where he co-founded and led the Julia Lab, focusing on applications of the Julia programming language to data science, scientific computing, and machine learning. Jiahao has organized JuliaCon, the Julia conference, for the years 2014-2016, as well as organized workshops at NeurIPS, SIAM CSE, and the American Chemical Society National Meetings. Jiahao has authored over 120 packages for numerical computation, data science and machine learning for the Julia programming language, in addition to numerous contributions to the base language itself."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/davidanthoffsmallsquare_Me2FZ2a.jpg",
-  "name": "David Anthoff",
-  "submissions": [
-   "HBTFT7",
-   "XBLMPG",
-   "8EPG3L"
-  ],
-  "code": "7JQFVF",
-  "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. He co-develops the integrated assessment model FUND that is used widely in academic research and in policy analysis. His research has appeared in Science, the Journal of Environmental Economics and Management, Environmental and Resource Economics, the Oxford Review of Economic Policy and other academic journals. He contributed a background research paper to the Stern Review and has advised numerous organizations (including US EPA and the Canadian National Round Table on the Environment and the Economy) on the economics of climate change.\r\n\r\nHe is an assistant professor in the Energy and Resources Group at the University of California, Berkeley. Previously he was an assistant professor in the School of Natural Resources and the Environment of the University of Michigan, a postdoc at the University of California, Berkeley and a postdoc at the Economic and Social Research Institute in Ireland. He also was a visiting research fellow at the Smith School of Enterprise and the Environment, University of Oxford.\r\n\r\nHe holds a PhD (Dr. rer. pol.) in economics from the University of Hamburg (Germany) and the International Max Planck Research School on Earth System Modelling, a MSc in Environmental Change and Management from the University of Oxford (UK) and a M.Phil. in philosophy, logic and philosophy of science from Ludwig-Maximilians-Universität München (Munich, Germany)."
+  "code": "EQ7JQA",
+  "biography": "Physics student from Cologne, Germany."
  },
  {
   "avatar": null,
-  "name": "Dhairya Gandhi",
+  "name": "Théo Galy-Fajou",
   "submissions": [
-   "RRNYRW",
-   "P7EQCK"
+   "YY9QEJ",
+   "CE7FZA"
   ],
-  "code": "83D8SQ",
-  "biography": "Dhairya is currently a Data Scientist at Julia Computing Inc. and maintains and develops Julia's ML stack with Flux and Zygote."
+  "code": "EWDVK7",
+  "biography": "PhD Student at TU Berlin with Pr. Opper. I am interested in Bayesian methods and more particularly in approximate inference and Gaussian Processes. I am developing [AugmentedGaussianProcesses.jl](https://github.com/theogf/AugmentedGaussianProcesses.jl) and [KernelFunctions.jl](https://github.com/theogf/KernelFunctions.jl)"
+ },
+ {
+  "avatar": null,
+  "name": "Nafiz",
+  "submissions": [
+   "SEGNUF"
+  ],
+  "code": "FA9CHZ",
+  "biography": "I am an university student from bangladesh"
  },
  {
   "avatar": "https://pretalx.com/media/avatars/profile-picture_AAW2MU2.jpg",
@@ -1363,96 +606,6 @@
   ],
   "code": "FL9ZYS",
   "biography": "- Student at Graz University of Technology\r\n- Member of [TuringLang](https://github.com/TuringLang)"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/werder_3C3WoW4.jpg",
-  "name": "Mauro Werder",
-  "submissions": [
-   "PTL7YB"
-  ],
-  "code": "CRJ7BV",
-  "biography": "Glaciologist at ETH Zurich, Switzerland"
- },
- {
-  "avatar": null,
-  "name": "Sebastian Pfitzner",
-  "submissions": [
-   "DWCJUK"
-  ],
-  "code": "8GV8MU",
-  "biography": "Studied Physics in Berlin, has been involved with Julia since 2014. Main maintainer of Juno, a popular Julia IDE.\r\n\r\nCurrently working for JuliaComputing."
- },
- {
-  "avatar": null,
-  "name": "Martijn Visser",
-  "submissions": [
-   "GR9TZH"
-  ],
-  "code": "DL3SFL",
-  "biography": "Martijn Visser is a hydrologist working at the Deltares applied research institute in the Netherlands. He has been an active developer of the JuliaGeo community effort since the beginning, and wants to make Julia a great choice for geospatial workflows."
- },
- {
-  "avatar": null,
-  "name": "Tamás Cserteg",
-  "submissions": [
-   "XQ9YQK"
-  ],
-  "code": "QWEUG7",
-  "biography": "Tamás Cserteg is a developer at SZTAKI EMI (Institute for Computer Science and Control, Research Laboratory on Engineering & Management Intelligence). He received his MSc in mechatronics engineering at BME (Hungary). During his studies, he was a demonstrator several times at different departments of the Faculty of Mechanical Engineering. He participated in numerous national competitions (organised for teams of engineering students), and he finished twice in the top five places. His main research interests are robotics - including human-robot collaboration - and digital shape reconstruction."
- },
- {
-  "avatar": null,
-  "name": "Katharine Hyatt",
-  "submissions": [
-   "GSXV8H"
-  ],
-  "code": "YYDPCZ",
-  "biography": "Katharine Hyatt is a postdoc, working in the Center for Computational Quantum Physics at the Flatiron Institute, a division of the Simons Foundation. Her research focuses on developing new numerical methods to understand 2D correlated electronic systems, and finding interesting applications in condensed matter physics for these methods."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/MaxTelegram_rzyLlbH.jpg",
-  "name": "Maxim Demenkov",
-  "submissions": [
-   "VP7LXS"
-  ],
-  "code": "97KZUT",
-  "biography": "Maxim Demenkov got his PhD in Automatic Control from De Montfort University (UK). He works now as Engineering Mathematician at the Institute of Control Sciences in Moscow, Russia."
- },
- {
-  "avatar": null,
-  "name": "Nathan Daly",
-  "submissions": [
-   "DBGWXK"
-  ],
-  "code": "JP9VJF",
-  "biography": "Nathan Daly is a Software Engineer at RelationalAI. He was first introduced to the idea of contributing to JuliaLang as one small way to help fight climate change by making scientific computing a little bit easier: http://worrydream.com/ClimateChange"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/headshot_-_Cropped_bmH40Nn.png",
-  "name": "Charlie Kawczynski",
-  "submissions": [
-   "DTAFMF"
-  ],
-  "code": "E77THB",
-  "biography": "Charles is a software engineer at Caltech, working on a new climate model, CLIMA, intended to learn from a diverse set of data. This climate model is implementing novel sub-grid scale models for resolving turbulence and cloud processes. The code, developed by a distributed team, will be made capable to run on CPU and GPU architectures.\r\n\r\nPreviously, during his Ph.D., Charles developed a liquid-metal magnetohydrodynamic (MHD) solver and framework for simulating liquid-metal MHD flows for fusion energy applications, in particular, for accident scenarios involving loss of plasma confinement, resulting in electromagnetic interactions between the plasma and liquid-metal breeding blanket.\r\n\r\nCharles has a passion for developing HPC software for simulating physical phenomena."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/nick-grey-2018_hPdYlm0.jpg",
-  "name": "Nick Robinson",
-  "submissions": [
-   "RVZNV3"
-  ],
-  "code": "QBN9K9",
-  "biography": "Research Engineer at Invenia Labs. I have a background in machine learning, and work on a research team using Julia in production."
- },
- {
-  "avatar": null,
-  "name": "Steffen Ridderbusch",
-  "submissions": [
-   "KCP9NT"
-  ],
-  "code": "YJZSDG",
-  "biography": "Steffen Ridderbusch is a doctoral student of the 2018 cohort of the Centre of Doctoral Training in Autonomous Intelligent Machines and Systems. Holding degrees in Mathematics and Engineering, he is now part of the Control Department."
  },
  {
   "avatar": null,
@@ -1465,22 +618,51 @@
   "biography": "I am a PhD student in computational material mechanics and use Julia both for research, procrastination and as a hobby. Long time contributor to Julia and various packages."
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/cut_VTunHTt.jpg",
-  "name": "Wessel Bruinsma",
+  "avatar": "https://pretalx.com/media/avatars/Stefan_quadratisch_150kb_3mjX60X.jpg",
+  "name": "Stefan Lenz",
   "submissions": [
-   "PARPJU"
+   "PHGCKB"
   ],
-  "code": "N7JBS7",
-  "biography": "Hello! I am a PhD student at the Machine Learning Group at the University of Cambridge, supervised by Dr Richard Turner."
+  "code": "FVK8GZ",
+  "biography": "Researcher on deep learning with medical data at the [Institute of Medical Biometry and Statistics](https://www.imbi.uni-freiburg.de/?set_language=en) at the University Medical Center in Freiburg im Breisgau (Germany). After studying mathematics, I have now worked for six years in the fields of medical informatics and statistics. My special interests are programming and software design."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/DK_web_o2rC492.jpg",
+  "name": "Daniel Karrasch",
+  "submissions": [
+   "3JSMMG"
+  ],
+  "code": "FXFFZ8",
+  "biography": "Daniel Karrasch graduated in 2012 with a PhD in Mathematics from TU Dresden, Germany. After a postdoctoral fellowship at ETH Zurich, Switzerland, he now works as a postdoctoral researcher in the Scientific Computing group at TU Munich, Germany. His research interests are in applied and computational mathematics, with a focus on dynamical systems theoretical approaches to the study of fluid motion. He is an enthusiastic contributor to the Julia language, mostly in the area of linear algebra."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/github.jpg",
+  "name": "George Datseris",
+  "submissions": [
+   "L3FYJW",
+   "8RM33X"
+  ],
+  "code": "GB8WTV",
+  "biography": "By day I am a scientist and by night I am a software developer and a drummer.\r\nMy areas of research are: quantum transport, nonlinear dynamics and chaos, music timeseries analysis, climate physics."
  },
  {
   "avatar": null,
-  "name": "Avik Sengupta",
+  "name": "Eric P. Hanson",
   "submissions": [
-   "YPT9CQ"
+   "PTZDCJ",
+   "LQLP9P"
   ],
-  "code": "JR9GPS",
-  "biography": "Avik Sengupta is VP Engineering and head of Julia Computing's European headquarters in London. Avik is the head of product development and software engineering at Julia Computing, contributor to open source Julia and maintainer of several Julia packages. Avik is the author of Julia High Performance, co-founder of two artificial intelligence startups in the financial services sector and creator of large complex trading systems for the world's leading investment banks. Prior to Julia Computing, Avik was co-founder and CTO at AlgoCircle and at Itellix, director at Lab49 and head of algorithmic solutions at Decimal Point Analytics. Avik earned his MS in Computational Finance at Carnegie Mellon and MBA Finance at the Indian Institute of Management in Bangalore."
+  "code": "GBSYWE",
+  "biography": "PhD student studying quantum information theory at Cambridge University"
+ },
+ {
+  "avatar": null,
+  "name": "Irene Ndindabahizi",
+  "submissions": [
+   "3LZQXH"
+  ],
+  "code": "GQ9VBT",
+  "biography": "Mrs Irene Ndindabahizi is a doctoral candidate at the Royal Military Academy in Belgium. She holds a masters degree in Aerospace engineering. Her research interests are in the field of Vulnerability and Lethality."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/SexyPizzaMan_lISERZJ.jpg",
@@ -1493,180 +675,97 @@
  },
  {
   "avatar": null,
-  "name": "Felix Cremer",
+  "name": "Jiahao Chen",
   "submissions": [
-   "GDCEYU"
+   "AQMLUC"
   ],
-  "code": "3YRKPG",
-  "biography": "received his diploma in mathematics\r\nfrom the University of Leipzig in 2014. He is a PhD student at the\r\nFriedrich-Schiller University Jena where he works on the analysis\r\nof hyper-temporal SAR time series from Sentinel-1"
+  "code": "GVE78J",
+  "biography": "Jiahao Chen is a senior Vice President and Research Lead at JPMorgan AI Research in New York, with research focusing on explainability and fairness in machine learning, as well as semantic knowledge management. He was previously a Senior Manager of Data Science at Capital One focusing on machine learning research for credit analytics and retail operations.\r\n\r\nWhen still in academia, Jiahao was a Research Scientist at MIT CSAIL where he co-founded and led the Julia Lab, focusing on applications of the Julia programming language to data science, scientific computing, and machine learning. Jiahao has organized JuliaCon, the Julia conference, for the years 2014-2016, as well as organized workshops at NeurIPS, SIAM CSE, and the American Chemical Society National Meetings. Jiahao has authored over 120 packages for numerical computation, data science and machine learning for the Julia programming language, in addition to numerous contributions to the base language itself."
  },
  {
   "avatar": null,
-  "name": "Don March",
+  "name": "Oscar A. Esquivel-Flores",
   "submissions": [
-   "ACJRET"
+   "ALMRKK",
+   "HPR79A"
   ],
-  "code": "TFAW3U",
-  "biography": "Don works at Oak Ridge National Lab on projects in artificial intelligence, high performance computing, remote sensing, and mathematics.  He started using Julia the day it was first publicly announced."
+  "code": "GYDYSB",
+  "biography": "Oscar A.  Esquivel-Flores received his Bachelor's degree in Applied Mathematics and Computing from Universidad Nacional Autonoma de México (UNAM). M.S. degree in Computer Sciences from Universidad Autónoma Metropolitana, México and PhD degree in Computer Engineering from UNAM in 2013. He has working on parallel and high performance computing as part of a posdoctoral position at the Barcelona Supercomputing Center as an international agreement with National Council of Science and Technology of México. Actually, he is a researcher in Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas at Universidad Nacional Autónoma de México developing parallel algorithms regards matrix computations, machine learning and optimization."
  },
  {
   "avatar": null,
-  "name": "Sascha Mann",
+  "name": "Bart Janssens",
   "submissions": [
-   "Z3RDBQ"
+   "3ZTCWX",
+   "XGHSWW",
+   "NNVQQF"
   ],
-  "code": "EQ7JQA",
-  "biography": "Physics student from Cologne, Germany."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/11987148_1033252796708176_7337877265648954761_n_skDwE4U.jpg",
-  "name": "Maxime",
-  "submissions": [
-   "JFUJJ7"
-  ],
-  "code": "DRVRCN",
-  "biography": "Bio-engineer and PhD student at the bio-science engineering department of mathematical modeling and data-analysis of Ghent university."
+  "code": "H3TNC7",
+  "biography": "Bart Janssens is a military associate professor at the mechanics department of the [Royal Military Academy](https://www.rma.ac.be), with a passion for computer graphics, high performance computing and fluid mechanics. For performance reasons, he used C++ until being introduced to Julia. His current work focuses on making scientific C++ libraries such as Trilinos interoperate with Julia, with the ultimate objective of developing CFD code for Julia."
  },
  {
   "avatar": null,
-  "name": "Stephan Sahm",
+  "name": "Yueh-Hua Tu",
   "submissions": [
-   "B3E8NM",
-   "LRKHWM"
+   "9A8DCP"
   ],
-  "code": "MJPZGQ",
-  "biography": "Stephan Sahm is senior consultant at Machine Learning Reply for Data Science and Data Engineering. As an outstanding\r\nmaster of cognitive science, master of stochastics, as well as a\r\npassionate professional programmer he strives towards bringing tomorrow’s Data Science into today’s business.\r\n\r\nHe launched and organizes the Julia User Group Munich, the main driver for establishing Julia within Munich's Data Science community."
+  "code": "HAWZZR",
+  "biography": "I am doing my bioinformatics PhD project with machine learning/deep learning approach in Academia sinica, Taiwan. Host and founder of Julia Taiwan community."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/clippederik.jpg",
+  "name": "Erik Engheim",
+  "submissions": [
+   "CMRXD7",
+   "V9NX3C"
+  ],
+  "code": "HDAYK8",
+  "biography": "Erik has been programming in a variety of programming languages for the last two decades, primarily C/C++, Objective-C and Swift but has become a big fan of Julia and is currently doing Julia training videos and educational material.\r\n\r\nHe has spent many years in the Norwegian oil and gas sector working on 3D modeling software for reservoir modeling and simulation. Some of his interests include UX design, space exploration and colonization, micro controllers and green tech."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/przemyslaw_szufel_www_hkvkuIE.png",
+  "name": "Przemysław Szufel",
+  "submissions": [
+   "GX8QCX"
+  ],
+  "code": "HNA89P",
+  "biography": "Przemysław Szufel is an Assistant Professor in Decision Support and Analysis Unit at Warsaw School of Economics, an Adjunct Professor in The Cybersecurity Research Lab, Ryerson University, Toronto and a member of Computational Methods in Industrial Mathematics Lab in Fields Institute, Toronto. He is also a Management Committee member of the European Social Simulation Association.\r\n\r\nPrzemysław Szufel main research focus is in applying advanced analytics methods, and in particular, machine learning, simulation and optimization in modelling and automating decision business processes.  He is a co-author of \"Julia 1.0 Programming Cookbook: Over 100 Numerical and Distributed Computing Recipes for Your Daily Data Science Workflow\" that has recently been translated by O'Reilly to Japanese.    He is a co-author of over 30 publications, including handbooks and journal papers, in the area of applying advanced analytics, machine learning and simulation methods to making optimal business decisions. \r\nPrzemysław Szufel has delivered several workshops showing advanced analytics and simulation in Julia including Canada (University of Toronto, Ryerson University), Ireland (University College Dublin), Sweden (Stockholm University) and Central Bank of Poland and top consulting copmpanies. He is also a regular presenter for Julia hands-on-workshop at the Supercomputing Frontiers Europe conference. He also teaches Julia programming and advanced analytics PhD course in the Information Technology Department at Salerno University and he teaches several post graduate and PhD simulation and data science courses at Warsaw School of Economics, Poland.\r\nHe has also been working as an auditor for venture capital companies - he specializes in assessing technology of data-oriented startups. Dr Przemyław Szufel has been also co-managing SilverDecisions.pl project (that aims for representing and supporting business decisions and was part of a larger grant financed by the H2020 European Union grant), which has been elected by the European Commission to the Innovation Radar programme grouping the best European innovations financed by the EU funds."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/Zekeriya_Sari_NBOEe9f.jpg",
+  "name": "Zekeriya SARI",
+  "submissions": [
+   "FW7W9D"
+  ],
+  "code": "HRFLPC",
+  "biography": "##### Educational Background\r\n* 2008–2013 Bachelor of Science, Dokuz Eylül University, Department of Electrical and Electronics Engineering,\r\nIzmir, Turkey.\r\nThesis: Attack on a chaos-based random number generator.\r\n* 2014–2016 Master of Science, Dokuz Eylül University, Graduate School of Natural and Applied Sciences, Izmir\r\nTurkey.\r\nThesis: Secure communication via partial synchronization of nonlinear systems.\r\n* 2016–\r\nDoctor of Philosophy, Dokuz Eylül University, Graduate School of Natural and Applied Sciences,\r\nIzmir, Turkey.\r\nThesis: Design and optimization of clustered synchronization systems.\r\n\r\n##### Research Activity and Interests\r\n* Dynamics of Coupled Systems\r\n* Synchronization in Complex Networks\r\n* Chaos Communications"
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/PamelaBustamante_01FkdBT.png",
+  "name": "Pamela Alejandra Bustamante Faúndez",
+  "submissions": [
+   "VPUS7J"
+  ],
+  "code": "HSUYYR",
+  "biography": "Pamela Bustamante is a PhD student from Pontificia Universidad Católica de Chile. She has been using Julia since her undergraduate days at Universidad del Bío-Bío, Chile. Co-author of IntroAJulia.jl"
  },
  {
   "avatar": null,
-  "name": "Huda Nassar",
+  "name": "Tim Holy",
   "submissions": [
-   "F7DKF8",
-   "7MALUA"
+   "LSYN8F"
   ],
-  "code": "UDMYCM",
-  "biography": "Huda Nassar is a postdoctoral fellow at Stanford University specializing in computational immunology. Her work is currently focused on early disease prediction and specifically building low-rank models for these problems. She is an enthusiastic Julia user and has built the MatrixNetworks.jl package which is a graph algorithms package that treats graphs as matrices and utilizes linear algebra concepts to solve many standard graph problems."
+  "code": "J9BSUH",
+  "biography": "I am the Alan A. and Edith L. Wolff Professor of Neuroscience at Washington University in St. Louis.\r\nI contribute to Julia and its package ecosystem, particularly in developer tools and image processing."
  },
  {
-  "avatar": null,
-  "name": "Daniel Kool",
+  "avatar": "https://pretalx.com/media/avatars/20200226_165140_DmGtUVY.jpg",
+  "name": "Andrew Rosemberg",
   "submissions": [
-   "CXAYML"
+   "ETWX8X"
   ],
-  "code": "DRPANN",
-  "biography": "I am a PhD student at Iowa State University, working on evaluation of protein mutations and analysis of protein variants."
- },
- {
-  "avatar": null,
-  "name": "Shuhei Kadowaki",
-  "submissions": [
-   "DWCJUK"
-  ],
-  "code": "8BZR7G",
-  "biography": "I just graduated from Kyoto University, Spring 2020 and got a liberal arts degree.\r\n\r\nMy current interest is especially in the design and paradigm of programming languages; I love languages that I can write without thinking deeply and just feel good instead.\r\n\r\nI also like cool developer tools, and as such I am a maintainer of Juno, a Julia IDE, and actively developing various packages around its ecosystem.\r\n\r\nGitHub: https://github.com/aviatesk"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/jf_yxJV1xe.jpeg",
-  "name": "Jürgen Fuhrmann",
-  "submissions": [
-   "MCFFUY"
-  ],
-  "code": "XR3TFU",
-  "biography": "Jürgen Fuhrmann was born in 1961 in Erfurt, Germany. He received his Diploma in mathematics from Moscow State University in 1984 and his Ph.D.\r\nfrom Technical University Chemnitz in 1995. He is with Weierstrass Institute for Applied Analysis and Stochastics resp. its predecessor institution since 1984. He is deputy head of the research group \"Numerical Mathematics and Scientific Computing\". His present research interests focus on discretization methods, algorithms and software development for drift-diffusion systems in electrochemistry and semiconductor physics."
- },
- {
-  "avatar": null,
-  "name": "Jacob Quinn",
-  "submissions": [
-   "Y3H7FG",
-   "CA3SET"
-  ],
-  "code": "MQ3SJP",
-  "biography": "A long-time Julia user, developer, and enthusiast, Jacob works at Domo on large data analytics tasks."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/headshot_qxyX4P2.jpg",
-  "name": "Dave Kleinschmidt",
-  "submissions": [
-   "ELQ8A8"
-  ],
-  "code": "SLNRF8",
-  "biography": "Like many before and after him, Dave started hacking on Julia to procrastinate finishing his dissertation. Despite his best efforts he finished his PhD in Brain and Cognitive Sciences in 2016. In his day job as an Assistant Professor of Psychology at Rutgers New Brunswick, he works on understanding how people understand spoken language with such apparent ease, combining behavioral, computational, and neural approaches. Otherwise he's committed to promoting open, reproducible science, and designing tools that empower researchers and lower the barrier to entry for data analysis and statistics."
- },
- {
-  "avatar": null,
-  "name": "Valentin Churavy",
-  "submissions": [
-   "YCGSVY",
-   "9X7V3A"
-  ],
-  "code": "3C7UBC",
-  "biography": "PhD Student at MIT"
- },
- {
-  "avatar": null,
-  "name": "Molham Aref",
-  "submissions": [
-   "JEWE93"
-  ],
-  "code": "SNBVBG",
-  "biography": "Molham Aref is the Chief Executive Officer of RelationalAI. He has more than 28 years of experience in leading organisations that develop and implement high value machine learning and artificial intelligence solutions across various industries. Prior to RelationalAI he was CEO of LogicBlox and Predictix (now Infor), Optimi (now Ericsson), and co-founder of Brickstream (now FLIR). Molham held senior leadership positions at HNC Software (now FICO) and Retek (now Oracle)."
- },
- {
-  "avatar": null,
-  "name": "Joris Kraak",
-  "submissions": [
-   "M8KTBL"
-  ],
-  "code": "VCBWCT",
-  "biography": "Joris is a software engineer with a background in signal processing and a passion for automation, clear and clean software and the infinite possibilities of the Internet."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/SKI_profile_eroR5sQ.jpg",
-  "name": "Konstantinos Samaras-Tsakiris",
-  "submissions": [
-   "NXKNRM"
-  ],
-  "code": "LTE8PA",
-  "biography": "Konstantinos is a cloud engineer at CERN on a sidequest to understand intelligence.\r\nAfter a software engineering internship and taking his Electrical and Computer Engineering degree, he's back at CERN designing web infrastructure on Kubernetes.\r\nBy night, he lets his curiosity loose on how our brains work, trying to apply his software skills to help further these questions."
- },
- {
-  "avatar": null,
-  "name": "Roberto Bernal-Jaquez",
-  "submissions": [
-   "XW9PNR"
-  ],
-  "code": "TWTFVU",
-  "biography": "Roberto Bernal received his Bachelor in Science in Physics from Universidad Nacional Autonoma de Mexico (UNAM), and his his PhD in Physics from Universidad Autonoma del Estado de Morelos-Nuclear Sciences Institute(UNAM) Mexico (2006). He was postdoc at the Departamento de Fisica of the UAEM (2006-2007) and in the Theoretical Chemistry Group - University of Turin in Italy from 2007- 2008. Actually he is full professor at the Departamento de Matematicas Aplicadas y Sistemas, of the UAM-Cuajimalpa in Mexico. \r\n\r\nHis research interests are mainly focus on algebraic methods in chemical-physics, mathematical-physics, nonlinear dynamics, and complex networks."
- },
- {
-  "avatar": null,
-  "name": "Kusti Skytén",
-  "submissions": [
-   "9R79WY",
-   "TTU9U8",
-   "K77ZJK"
-  ],
-  "code": "Z7JSAN",
-  "biography": "A PhD student at the Biostatistics department at the university of Oslo."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/DSC_8311-schmal_mAO8138.jpg",
-  "name": "Gregor Kappler",
-  "submissions": [
-   "M8JLAF"
-  ],
-  "code": "ABRWNH",
-  "biography": "Gregor Kappler carries out psychometric research and data science consulting, and is founder of FilingForest, a julia-focused startup developing solutions for fast unbiased measurement in graph data.\r\n\r\nGregor was initially trained as a mathematician and psychologist, has implemented solutions for semantic text analytics for his PhD in 2007, and developed psychometric models for measuring with texts. \r\nHe has worked as a lecturer and researcher at the University of Vienna and the University of Jena and worked on a series of predictive analytic projects for software vendors and customers. \r\n\r\nGregor has switched to Julia from R in 2018, and is creator of the IterableParsers package which provides parser combinators for fast, recursive and type-save parsing in pure Julia."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/vilim_ei6MvXV.jpg",
-  "name": "Vilim Štih",
-  "submissions": [
-   "CUMDLK"
-  ],
-  "code": "LCPDFA",
-  "biography": "I am a PhD student in systems neuroscience at the Portugues Lab at the Max Planck Institute of Neurobiology and Technical University of Munich studying sensorimotor control in larval zebrafish using VR and whole-brain imaging."
+  "code": "JATRBX",
+  "biography": "Andrew received a BSc in control engineering from PUC-RIO and a BSc in general engineering from École Centrale de Marseille. He also holds a master's in Electrical Engineering with an emphasis on Operation Research, focusing on Power Systems and Energy markets. Some of his previous projects revolve around energy economic dispatch analysis and simulation, financial data classification and portfolio optimization. His main interests are optimization, decisions under uncertainty and machine learning.\r\nCurrently, Andrew is part of the Research team at Invenia Labs."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/Profile_80ltq0U.jpg",
@@ -1679,57 +778,140 @@
  },
  {
   "avatar": null,
-  "name": "Fons van der Plas",
+  "name": "Nathan Daly",
   "submissions": [
-   "WNBYW8"
+   "DBGWXK"
   ],
-  "code": "ECC83Q",
-  "biography": "https://github.com/fonsp"
+  "code": "JP9VJF",
+  "biography": "Nathan Daly is a Software Engineer at RelationalAI. He was first introduced to the idea of contributing to JuliaLang as one small way to help fight climate change by making scientific computing a little bit easier: http://worrydream.com/ClimateChange"
  },
  {
   "avatar": null,
-  "name": "León Alday",
+  "name": "Avik Sengupta",
   "submissions": [
-   "XW9PNR"
+   "YPT9CQ"
   ],
-  "code": "VKWTH7",
-  "biography": "Chem grad student, interested in imperative and functional programming."
+  "code": "JR9GPS",
+  "biography": "Avik Sengupta is VP Engineering and head of Julia Computing's European headquarters in London. Avik is the head of product development and software engineering at Julia Computing, contributor to open source Julia and maintainer of several Julia packages. Avik is the author of Julia High Performance, co-founder of two artificial intelligence startups in the financial services sector and creator of large complex trading systems for the world's leading investment banks. Prior to Julia Computing, Avik was co-founder and CTO at AlgoCircle and at Itellix, director at Lab49 and head of algorithmic solutions at Decimal Point Analytics. Avik earned his MS in Computational Finance at Carnegie Mellon and MBA Finance at the Indian Institute of Management in Bangalore."
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/caroline-hughes-headshot_AEp8nuD.png",
-  "name": "Caroline Hughes",
+  "avatar": "https://pretalx.com/media/avatars/index.png",
+  "name": "Simon Danisch",
   "submissions": [
-   "UUECGJ"
+   "GFE3DB",
+   "7XARPV",
+   "ZRC8HA"
   ],
-  "code": "ZTSULB",
-  "biography": "Caroline Hughes is an Energy Data and Simulation Analyst at the U.S. National Renewable Energy Laboratory. Her research focuses on computational modeling and decision-making under uncertainty. A data scientist and user experience designer, she sees the terminal as an interface and has strong opinions about leveraging coding best-practices to write clever and user-friendly code."
+  "code": "JSJDXE",
+  "biography": "Simon has been working with Julia for around 7 years by now. Some of the packages he created include:\r\n\r\n* [GeometryTypes](https://github.com/JuliaGeometry/GeometryTypes.jl)\r\n* [GPUArrays](https://github.com/JuliaGPU/GPUArrays.jl)\r\n* [Makie](https://github.com/JuliaPlots/Makie.jl/)\r\n* [PackageCompiler](https://github.com/JuliaLang/PackageCompiler.jl/)\r\n* [JSServe](https://github.com/SimonDanisch/JSServe.jl)\r\n\r\nAnd lots of others! \r\nNoways, Simon works for Beacon-Biosignals on visualizing EEG data!"
  },
  {
-  "avatar": null,
-  "name": "Gabriel Dansereau",
+  "avatar": "https://pretalx.com/media/avatars/Ronny_Bergmann_355x473_S45sdo0.jpg",
+  "name": "Ronny Bergmann",
   "submissions": [
-   "7LEVXF"
+   "KCFCMQ"
   ],
-  "code": "W37LHD",
-  "biography": "M.Sc Student in Computational Ecology at Université de Montréal"
+  "code": "JTRCDU",
+  "biography": "I am an applied mathematician working on optimization on manifolds."
  },
  {
-  "avatar": null,
-  "name": "Linda Petzold",
+  "avatar": "https://pretalx.com/media/avatars/jeff_bezanson.jpeg",
+  "name": "Jeff Bezanson",
   "submissions": [
-   "LG3GQP"
+   "MASLPF"
   ],
-  "code": "D9VK7X",
+  "code": "JWDSCE",
   "biography": null
  },
  {
   "avatar": null,
-  "name": "Yacine Ouzrout",
+  "name": "Boyan Bejanov",
   "submissions": [
-   "EVJNMH"
+   "LHBLF3"
   ],
-  "code": "Z9FREG",
-  "biography": "N/A"
+  "code": "JXPEBU",
+  "biography": null
+ },
+ {
+  "avatar": null,
+  "name": "Clayton Barrows",
+  "submissions": [
+   "V3QDAM"
+  ],
+  "code": "KUWVG3",
+  "biography": null
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/vilim_ei6MvXV.jpg",
+  "name": "Vilim Štih",
+  "submissions": [
+   "CUMDLK"
+  ],
+  "code": "LCPDFA",
+  "biography": "I am a PhD student in systems neuroscience at the Portugues Lab at the Max Planck Institute of Neurobiology and Technical University of Munich studying sensorimotor control in larval zebrafish using VR and whole-brain imaging."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/me_photo_CGEysBj.jpeg",
+  "name": "Will Tebbutt",
+  "submissions": [
+   "DSXCMZ"
+  ],
+  "code": "LQKANJ",
+  "biography": "Will is a PhD student in the Machine Learning Group at the University of Cambridge. His research focuses on the scalability of Gaussian processes, how software should be implemented to make using them a pleasant experience, and how they can be utilised in climate science."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/SKI_profile_eroR5sQ.jpg",
+  "name": "Konstantinos Samaras-Tsakiris",
+  "submissions": [
+   "NXKNRM"
+  ],
+  "code": "LTE8PA",
+  "biography": "Konstantinos is a cloud engineer at CERN on a sidequest to understand intelligence.\r\nAfter a software engineering internship and taking his Electrical and Computer Engineering degree, he's back at CERN designing web infrastructure on Kubernetes.\r\nBy night, he lets his curiosity loose on how our brains work, trying to apply his software skills to help further these questions."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/avi_hstxXRX.JPG",
+  "name": "Rafael Schouten",
+  "submissions": [
+   "P8D3PF"
+  ],
+  "code": "LVYSRF",
+  "biography": "I'm an ecologist, spending a lot of my time building spatial ecological models of plant and insect growth and population dynamics, at cesar (Melbourne), UNSW, and the University of Melbourne."
+ },
+ {
+  "avatar": null,
+  "name": "William Chen",
+  "submissions": [
+   "MCQHT3"
+  ],
+  "code": "LW9BUW",
+  "biography": "William Chen is a senior Research Analyst at the Federal Reserve Bank of New York (FRBNY) and works on the DSGE team of the Macroeconomics and Monetary Studies Function in the Research and Statistics Group. His research interest are in macroeconomics and financial theory. Chen is a graduate of Williams College with a B.A. in Economics and a B.A. in Mathematics."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/Profile_Pic_UPDuVS4.jpg",
+  "name": "Raj Dandekar",
+  "submissions": [
+   "RYFMY9"
+  ],
+  "code": "LWEMM8",
+  "biography": "PhD student, Massachusetts Institute of Technology, USA."
+ },
+ {
+  "avatar": null,
+  "name": "Mike Innes",
+  "submissions": [
+   "QHRQVF"
+  ],
+  "code": "M8VL8C",
+  "biography": "Mike is a software engineer at Julia Computing, where he works on Julia's machine learning stack."
+ },
+ {
+  "avatar": null,
+  "name": "Matt Brzezinski",
+  "submissions": [
+   "3LUQVT"
+  ],
+  "code": "M99LZJ",
+  "biography": "Software Developer at Invenia Computing"
  },
  {
   "avatar": null,
@@ -1743,11 +925,802 @@
  },
  {
   "avatar": null,
-  "name": "Viral B. Shah",
+  "name": "Stephan Sahm",
   "submissions": [
-   "3YDDAE"
+   "B3E8NM",
+   "LRKHWM"
   ],
-  "code": "3HK3M7",
+  "code": "MJPZGQ",
+  "biography": "Stephan Sahm is senior consultant at Machine Learning Reply for Data Science and Data Engineering. As an outstanding\r\nmaster of cognitive science, master of stochastics, as well as a\r\npassionate professional programmer he strives towards bringing tomorrow’s Data Science into today’s business.\r\n\r\nHe launched and organizes the Julia User Group Munich, the main driver for establishing Julia within Munich's Data Science community."
+ },
+ {
+  "avatar": null,
+  "name": "Jacob Quinn",
+  "submissions": [
+   "Y3H7FG",
+   "CA3SET"
+  ],
+  "code": "MQ3SJP",
+  "biography": "A long-time Julia user, developer, and enthusiast, Jacob works at Domo on large data analytics tasks."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/micah_qPEs79W.jpeg",
+  "name": "Micah Halter",
+  "submissions": [
+   "GALAX8"
+  ],
+  "code": "N7DDPD",
+  "biography": "Micah E. Halter is a research scientist at the Information and Communications Laboratory of the Georgia Tech Research Institute in Atlanta, GA. He has worked on several projects since he joined the Georgia Tech Research Institute in 2016, centered on using category theory, machine learning, databases to advance scientific and engineering applications. His research interests include high performance computing, database design and application, and category theoretic scientific knowledge representations."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/cut_VTunHTt.jpg",
+  "name": "Wessel Bruinsma",
+  "submissions": [
+   "PARPJU"
+  ],
+  "code": "N7JBS7",
+  "biography": "Hello! I am a PhD student at the Machine Learning Group at the University of Cambridge, supervised by Dr Richard Turner."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/sans-titre_TORlX5n.jpeg",
+  "name": "Aicha Sekhari",
+  "submissions": [
+   "EVJNMH"
+  ],
+  "code": "NDCRAZ",
+  "biography": "A. SEKHARI Seklouli is currently member of DISP laboratory. Aicha Sekhari Seklouli is a co-leader of “System Lifecycle Modeling and Optimization” axis in DISP and a Head of the RTI knowledge Transfer and innovation pole.  Her research activities deal with Product and Production Sustainability, including Product Life cycle Management and Supply Chain Management. She co-advice PhDs AND Masters  Students in these fields.  Dr Sekhari Seklouli was technical manager of EASYIMP FP7 FoF ICT NMPB, working on the development of an MBSE method for smart Product. As a member of EcoSD (Eco Conception de système durable) research and industry association, She has many contribution in the field of Eco-PLM and Suitanaible product development. Dr. Sekhari Seklouli has been and currently coordinator/member of several international research and collaboration projects: FP7 ICT FI-PPP FITMAN, Erasmus mundus (eLink, cLink, eTourism, Fusion), Hubert Curien, ARC8, ... \r\n\r\nA. SEKHARI Seklouli teaches in the fields of Production Management , Methods and Tools for Quality Management and Norms for Postgraduat and undergrad degrees.\r\n\r\nA SEKHARI Seklouli was a head of Health, Safety and Environment (HSE) department. She received her Engineering Degree in Electronic in 1994 from Algerian University of Engineering Science in Setif. After three years of industrial experiences in Engineering maintenance, she joined INSA Lyon for her M. Sc. (DEA) degree in 1999. She obtained her Ph.D degree in Production System from University of Joseph Fourier of Clermond Ferrand in France in 2004. Dr. Sekhari Seklouli is currently collaborating on various EU and International teaching Projects (FSP; Transport II; ...)."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/16793_866274106777693_5652454198993778802_n_Wb8GDvk.jpg",
+  "name": "Tiago Santos",
+  "submissions": [
+   "YDCSNX"
+  ],
+  "code": "NLUSQV",
+  "biography": "I'm currently a PhD Student from Lisbon, Portugal."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/jeremie_profile_color_WQmWsev.png",
+  "name": "Jeremie Desgagne-Bouchard",
+  "submissions": [
+   "AKY8V7"
+  ],
+  "code": "NZXDX3",
+  "biography": "Jeremie is an actuary by trade (FCAS). He most recently joined the portfolio management firm Evovest as their Head of Science following his work as an applied research scientist at Element AI, where he expanded his deep learning acumen. He spent over 8 years at Intact in various R&D roles where he pushed the development of analytical solutions in various areas, including risk assessment, price optimization, and telematics."
+ },
+ {
+  "avatar": null,
+  "name": "tombsvj@ornl.gov",
+  "submissions": [
+   "PUHBMG"
+  ],
+  "code": "P3DS7F",
+  "biography": "Vandy Tombs is a Research Associate in Geographic Data Science group at Oak Ridge National Laboratory. She enjoys applying group theory to develop new machine learning architectures and utilizing differentiable programming to improve existing scientific algorithms."
+ },
+ {
+  "avatar": null,
+  "name": "Guilherme Bodin",
+  "submissions": [
+   "AA8CQU"
+  ],
+  "code": "PCLZTQ",
+  "biography": "I am a Master's student at PUC-Rio in Rio de Janeiro, Brazil. I have contributed to some packages from the JuliaOpt and participated in GSOC'19 with the project Dualization.jl. I am also one of the developers of StateSpaceModels.jl."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/633B8CAB-E497-486A-894F-FAD6F3E467BB_MHVqSur.jpeg",
+  "name": "Dewan Md. Farid",
+  "submissions": [
+   "EVJNMH"
+  ],
+  "code": "PDQSEA",
+  "biography": "Dr. Dewan Md. Farid is a Postdoctoral staff in the Decision and Information Systems for Production systems (DISP) Laboratory, IUT Lumière – Université Lyon 2, France, and Associate Professor (on leave), Department of Computer Science and Engineering, United International University, Bangladesh. He worked as a Postdoctoral Fellow at the following research groups: (1) Computational Modeling Lab (CoMo), Department of Computer Science, Vrije Universiteit Brussel, Belgium in 2015-2016, and (2) Computational Intelligence Group (CIG), Department of Computer Science and Digital Technology, University of Northumbria at Newcastle, UK in 2013. Dr. Farid was a Visiting Faculty at the Faculty of Engineering, University of Porto, Portugal in June 2016. He holds a PhD in Computer Science and Engineering from Jahangirnagar University, Bangladesh in 2012. Part of his PhD research has been done at ERIC Laboratory, University Lumière Lyon 2, France by Erasmus-Mundus ECW eLink PhD Exchange Program. He has published 84 peer-reviewed scientific articles, including 28 journal papers in the field of machine learning, data mining, and big data. Dr. Farid received the following awards: (1) JuliaCon 2019 Travel Award for attending Julia Conference at the University of Maryland, Baltimore, USA, and (2) United Group Research Award 2016 in the field of Science and Engineering. He received a2i Innovation Fund of Innov-A-Thon 2018 (Ideabank ID No.: 12502) from a2i-Access to Information Program – II, Information and Communication Technology (ICT) Division, Government of the People's Republic of Bangladesh. Dr. Farid received the following Erasmus Mundus scholarships: (1) LEADERS (Leading mobility between Europe and Asia in Developing Engineering Education and Research) in 2015, (2) cLink (Centre of excellence for Learning, Innovation, Networking and Knowledge) in 2013, and (3) eLink (east west Link for Innovation, Networking and Knowledge exchange) in 2009. Dr. Farid also received Senior Fellowship I, and II award by National Science & Information and Communication Technology (NSICT), Ministry of Science & Information and Communication Technology, Government of Bangladesh respectively in 2008 and 2011. He is a member of IEEE."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/298918_10151387462991265_1657761683_n_PDDxM0k.jpg",
+  "name": "Minyoung Rho",
+  "submissions": [
+   "SNDBVR"
+  ],
+  "code": "PE7GUP",
+  "biography": "Postdoctoral Researcher in Economics at MOVE, Universitat Autònoma de Barcelona, and Barcelona GSE\r\nResearch Interests: Structural Microeconomics, Econometrics, and Mechanism Design \r\nReceived PhD in Economics from Carnegie Mellon University in 2019"
+ },
+ {
+  "avatar": null,
+  "name": "Juan Pablo Vielma",
+  "submissions": [
+   "7RL9UQ"
+  ],
+  "code": "PFCA7P",
+  "biography": "."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/MT_Photo5_EIQdusZ.jpg",
+  "name": "Mohamed Tarek",
+  "submissions": [
+   "HWZ38H"
+  ],
+  "code": "PFTTSC",
+  "biography": "I am a PhD student at UNSW Canberra working on topology optimization. I have 2 seemingly unrelated interests that I hope to combine one day: topology optimization and Bayesian inference. This talk is all about the latter, so let's focus on that. I joined the TuringLang development team 1-2 years ago. Since then, my main goal has been to make Turing as fast as possible without sacrificing usability. In this talk, I share some of the work I have done towards that goal and give an overview of the present and future of Turing and DynamicPPL including features, short-term goals and bottlenecks.\r\n\r\nGitHub: https://github.com/mohamed82008"
+ },
+ {
+  "avatar": null,
+  "name": "Aaron Christianson",
+  "submissions": [
+   "JYNERU",
+   "Y7ERM9"
+  ],
+  "code": "PHBURX",
+  "biography": "Aaron works at the Goethe University Library in Frankfurt on problems related writing systems of natural languages. Most of the work is in Python, but he enjoys sneaking in bits and bobs in Julia and OCaml when no one is looking. Outside of work, he has contributed to a refreshed C-calling interface for Julia 1.5 and answers way, way too many questions about Julia on Quora."
+ },
+ {
+  "avatar": null,
+  "name": "Simon Byrne",
+  "submissions": [
+   "3NXGGJ"
+  ],
+  "code": "PKSECG",
+  "biography": "Dr Simon Byrne is the lead software engineer on the [CliMA project](https://clima.caltech.edu/), and has been using and contributing to Julia since 2012."
+ },
+ {
+  "avatar": null,
+  "name": "August Guang",
+  "submissions": [
+   "F7DKF8"
+  ],
+  "code": "PUQAK9",
+  "biography": "Genomics Data Scientist at Brown University, Providence, RI."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/nic_OVWXhJe.jpg",
+  "name": "Nicholas Labelle St-Pierre",
+  "submissions": [
+   "LHBLF3"
+  ],
+  "code": "PXJ9SN",
+  "biography": "Nicholas Labelle St-Pierre is a Principal Economist in the Projection Division of the Canadian Economic Analysis Department at the Bank of Canada. His research interests include macroeconomics and computational economics. Nicholas holds an MSc in Economics from the University of Quebec in Montreal (UQAM)."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/36087372_10212016198824348_3346868688635559936_n_zvNoLVS.jpg",
+  "name": "Saiful Islam",
+  "submissions": [
+   "SEGNUF"
+  ],
+  "code": "PZUNH9",
+  "biography": "Currently working as a Lecturer, Dept. of Information and Communication Technology, Bangladesh University of Professionals."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/Ayush_photo_sGdxAYY.png",
+  "name": "Ayush Kaushal",
+  "submissions": [
+   "Z8WWNV"
+  ],
+  "code": "QAS7GV",
+  "biography": "Undergraduate student majoring in Computer Science and Engineering at Indian Institute of Technology Kharagpur."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/nick-grey-2018_hPdYlm0.jpg",
+  "name": "Nick Robinson",
+  "submissions": [
+   "RVZNV3"
+  ],
+  "code": "QBN9K9",
+  "biography": "Research Engineer at Invenia Labs. I have a background in machine learning, and work on a research team using Julia in production."
+ },
+ {
+  "avatar": null,
+  "name": "JinGuo Liu",
+  "submissions": [
+   "8NDYCT",
+   "V9DQSA"
+  ],
+  "code": "QBUZQE",
+  "biography": "A quantum computing geek!\r\nMy recent work is: https://arxiv.org/abs/2003.04617\r\nI am going to QuEra (https://www.quera-computing.com/)."
+ },
+ {
+  "avatar": null,
+  "name": "Jorge Alberto Vieyra Salas",
+  "submissions": [
+   "FHEGUA"
+  ],
+  "code": "QCZCDE",
+  "biography": "Born in Mexico City. Studied a Bachelors in Chemical Engineering at UNAM. M.Sc. on Materials Science and Engineering at MIT. Studied PhD at TU Eindhoven on Applied Physics.\r\nWorked for Philips Research 1 year.\r\nWorking at ASML for 7 years on algorithms."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/27951151_Ie4gG6A.jpg",
+  "name": "Choi Ching Lam",
+  "submissions": [
+   "HJTZNE"
+  ],
+  "code": "QFHKYS",
+  "biography": "16 year old ML enthusiast, aspiring CV researcher, intern at NVIDIA's AI Tech Center"
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/MaximeMouchet_AQrR5J3.jpg",
+  "name": "Maxime Mouchet",
+  "submissions": [
+   "Q88P8U"
+  ],
+  "code": "QT7SE8",
+  "biography": "Maxime Mouchet is a PhD student at IMT Atlantique, France, from which he also holds a telecommunications engineering degree.  \r\nHis work focuses on detecting and locating faults on the Internet, as well as optimizing routing and quality-of-service measurements in large networks, using artificial intelligence methods.  \r\nHe is interested in practical implementations of his work, using Julia and Python."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/csm_OMLIN_samuel_3a2df39fc2_IJUK2tt.jpg",
+  "name": "Samuel Omlin",
+  "submissions": [
+   "YDSABY",
+   "M98VVM"
+  ],
+  "code": "QTKXPY",
+  "biography": "Computational Scientist at the Swiss National Supercomputing Centre (CSCS), ETH Zurich"
+ },
+ {
+  "avatar": null,
+  "name": "Valeri Vasquez",
+  "submissions": [
+   "MR9QWA"
+  ],
+  "code": "QTQ3YB",
+  "biography": "Valeri is a PhD student in the Energy and Resources Group at the University of California, Berkeley and a Moore/Sloan Fellow at the Berkeley Institute for Data Science. She applies ordinary differential equations to study the dynamics of biological systems."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/tyler-brough_19wOtDX.jpg",
+  "name": "Tyler Brough",
+  "submissions": [
+   "AWYKZL"
+  ],
+  "code": "QVSUAG",
+  "biography": "Dr. Tyler J. Brough is an Associate Professor of Finance in the Jon M. Huntsman School of Business at Utah State University. He earned a Ph.D. in Finance at the University of Arizona in 2010, an MS in Finance at the University of Illinois Urbana-Champaign in 2004, and a BS in Economics at Brigham Young University in 2000. He teaches business statistics in the Huntsman Scholars Program to undergraduates, and Derivatives Markets, Computational Financial Modeling, and Financial Econometrics to graduate students in the MSFE and MDATA programs. His scholarship is focused on computational finance and econometrics."
+ },
+ {
+  "avatar": null,
+  "name": "Tamás Cserteg",
+  "submissions": [
+   "XQ9YQK"
+  ],
+  "code": "QWEUG7",
+  "biography": "Tamás Cserteg is a developer at SZTAKI EMI (Institute for Computer Science and Control, Research Laboratory on Engineering & Management Intelligence). He received his MSc in mechatronics engineering at BME (Hungary). During his studies, he was a demonstrator several times at different departments of the Faculty of Mechanical Engineering. He participated in numerous national competitions (organised for teams of engineering students), and he finished twice in the top five places. His main research interests are robotics - including human-robot collaboration - and digital shape reconstruction."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/Pietro_Vertechi_HX8cGVP.jpg",
+  "name": "Pietro Vertechi",
+  "submissions": [
+   "BMNWLJ"
+  ],
+  "code": "RB8YD8",
+  "biography": "I am a PhD student in Neuroscience at the Champalimaud Foundation (Lisbon, Portugal). During my PhD, I have mostly worked on behavioral task design, and computational models of behavior of biological and artificial agents. I have been using julia for a few years for my research, and have contributed to several julia packages for data analysis and visualization."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/cormullion-logo-450_AusjzID.png",
+  "name": "cormullion",
+  "submissions": [
+   "BYDSZK"
+  ],
+  "code": "RHJCGX",
+  "biography": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+ },
+ {
+  "avatar": null,
+  "name": "Dmitry Bagaev",
+  "submissions": [
+   "VP3W33"
+  ],
+  "code": "RKNELB",
+  "biography": "Dmitry Bagaev received his MSc degree in computational mathematics and computer science from Moscow State University in 2019. Currently he works as a PhD student in the BIASlab group (http://biaslab.org) at the electrical engineering department at Eindhoven University of Technology (TU/e)."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/profilepic_lT4pn3V.jpeg",
+  "name": "Tor Erlend Fjelde",
+  "submissions": [
+   "9RX99T"
+  ],
+  "code": "RQSHFH",
+  "biography": "Hey. My name is Tor, like the onion browser or the norse god. Neither are fitting; I'm not a man of many layers nor am I long-haired and muscular. I'm currently working as a research assistant in the Machine Learning group at University of Cambridge where I spend time doing research and working on Turing.jl and it's related packages, e.g Bijectors.jl. It's all related to probabilities, and it's all good fun.\r\n\r\nAnd like you, I of course loooove Julia!"
+ },
+ {
+  "avatar": null,
+  "name": "Jan Weidner",
+  "submissions": [
+   "ER3ZYC"
+  ],
+  "code": "RSTHFY",
+  "biography": "Mathematician and Julia enthusiast working in medical physics."
+ },
+ {
+  "avatar": null,
+  "name": "Zachary P Christensen",
+  "submissions": [
+   "XEELRW"
+  ],
+  "code": "RZTTFH",
+  "biography": "I'm an MD/PhD candidate investigating predictive biomarkers for developmental psychopathology. I use magnetic resonance imaging, neurophysiology, and psychometrics to perform my research."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/headshot_qxyX4P2.jpg",
+  "name": "Dave Kleinschmidt",
+  "submissions": [
+   "ELQ8A8"
+  ],
+  "code": "SLNRF8",
+  "biography": "Like many before and after him, Dave started hacking on Julia to procrastinate finishing his dissertation. Despite his best efforts he finished his PhD in Brain and Cognitive Sciences in 2016. In his day job as an Assistant Professor of Psychology at Rutgers New Brunswick, he works on understanding how people understand spoken language with such apparent ease, combining behavioral, computational, and neural approaches. Otherwise he's committed to promoting open, reproducible science, and designing tools that empower researchers and lower the barrier to entry for data analysis and statistics."
+ },
+ {
+  "avatar": null,
+  "name": "Molham Aref",
+  "submissions": [
+   "JEWE93"
+  ],
+  "code": "SNBVBG",
+  "biography": "Molham Aref is the Chief Executive Officer of RelationalAI. He has more than 28 years of experience in leading organisations that develop and implement high value machine learning and artificial intelligence solutions across various industries. Prior to RelationalAI he was CEO of LogicBlox and Predictix (now Infor), Optimi (now Ericsson), and co-founder of Brickstream (now FLIR). Molham held senior leadership positions at HNC Software (now FICO) and Retek (now Oracle)."
+ },
+ {
+  "avatar": null,
+  "name": "Mosè Giordano",
+  "submissions": [
+   "9WMAVU"
+  ],
+  "code": "ST7KZT",
+  "biography": "Research Software Developer at UCL during the day, binary builder during the night."
+ },
+ {
+  "avatar": null,
+  "name": "Michiel Stock",
+  "submissions": [
+   "7MYVV3"
+  ],
+  "code": "T3ZCAP",
+  "biography": "Michiel Stock is a postdoctoral researcher, studying computational intelligence for synthetic biology and ecology."
+ },
+ {
+  "avatar": null,
+  "name": "Don March",
+  "submissions": [
+   "ACJRET"
+  ],
+  "code": "TFAW3U",
+  "biography": "Don works at Oak Ridge National Lab on projects in artificial intelligence, high performance computing, remote sensing, and mathematics.  He started using Julia the day it was first publicly announced."
+ },
+ {
+  "avatar": null,
+  "name": "David P. Sanders",
+  "submissions": [
+   "8K8P7R",
+   "QT3S9U",
+   "LSNEWV"
+  ],
+  "code": "TJJRTG",
+  "biography": "Full professor in the Faculty of Sciences, Universidad Nacional Autónoma de México (UNAM) and visiting professor at MIT.\r\n\r\nJulia user, tutorial developer and package author since 2014. Co-creator of the JuliaIntervals suite of tools for interval arithmetic in Julia."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/e9c228b5-711a-4886-a471-299169b33498_RK8NEz9.JPG",
+  "name": "Francesc Verdugo",
+  "submissions": [
+   "DVSD7Q"
+  ],
+  "code": "TJKSVY",
+  "biography": "Francesc Verdugo, PhD, is Assistant Research Professor at the International Center for Numerical Methods in Engineering (CIMNE), Barcelona, Spain, where he collaborates at the \"Large-Scale Scientific Computing\" group.  His main research interest is the development of advanced finite element techniques such as embedded finite element methods able to exploit the power of modern distributed-memory supercomputers."
+ },
+ {
+  "avatar": null,
+  "name": "Roberto Bernal-Jaquez",
+  "submissions": [
+   "XW9PNR"
+  ],
+  "code": "TWTFVU",
+  "biography": "Roberto Bernal received his Bachelor in Science in Physics from Universidad Nacional Autonoma de Mexico (UNAM), and his his PhD in Physics from Universidad Autonoma del Estado de Morelos-Nuclear Sciences Institute(UNAM) Mexico (2006). He was postdoc at the Departamento de Fisica of the UAEM (2006-2007) and in the Theoretical Chemistry Group - University of Turin in Italy from 2007- 2008. Actually he is full professor at the Departamento de Matematicas Aplicadas y Sistemas, of the UAM-Cuajimalpa in Mexico. \r\n\r\nHis research interests are mainly focus on algebraic methods in chemical-physics, mathematical-physics, nonlinear dynamics, and complex networks."
+ },
+ {
+  "avatar": null,
+  "name": "Huda Nassar",
+  "submissions": [
+   "F7DKF8",
+   "7MALUA"
+  ],
+  "code": "UDMYCM",
+  "biography": "Huda Nassar is a postdoctoral fellow at Stanford University specializing in computational immunology. Her work is currently focused on early disease prediction and specifically building low-rank models for these problems. She is an enthusiastic Julia user and has built the MatrixNetworks.jl package which is a graph algorithms package that treats graphs as matrices and utilizes linear algebra concepts to solve many standard graph problems."
+ },
+ {
+  "avatar": null,
+  "name": "Atai Akunov",
+  "submissions": [
+   "LHBLF3"
+  ],
+  "code": "UJUFMU",
+  "biography": "I'm a Projection Analyst at the Bank of Canada."
+ },
+ {
+  "avatar": null,
+  "name": "Josef Heinen",
+  "submissions": [
+   "JHCWQA"
+  ],
+  "code": "UKMRMB",
+  "biography": "Josef Heinen is the head of the group \"Scientific IT–Systems\" at the Peter Grünberg Institute / Jülich Centre for Neutron Science, both institutes at Forschungszentrum Jülich, a leading research centre in Germany. The design and development of visualization systems have been an essential part of his activities over the last twenty years. Most recently his team is engaged with the further development of a universal framework for cross-platform visualization applications (GR Framework)."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/Headshot_4VYG0cP.JPG",
+  "name": "Logan Kilpatrick",
+  "submissions": [
+   "UTGXSH"
+  ],
+  "code": "UNR7XZ",
+  "biography": "Community Manager for the Julia Language. Harvard and Oxford class of 20'. CU Boulder Class of 23'. Future Software Engineer at Apple starting October of 2020."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/MAO_f2GqE8Y.JPG",
+  "name": "Mikel",
+  "submissions": [
+   "EZFAJE"
+  ],
+  "code": "UNYAWF",
+  "biography": "Bachelor of Computer Science (1992) and Doctorate (2017) at the UPV / EHU.  2011-2012, professor  in the Department of Computer Science and Artificial Intelligence.  Since 2017, professor of the School of Engineering of Gipuzkoa in the Department of Applied Mathematics.\r\n\r\nWithin the field of Computer Science, he has developed the following lines of research:  efficient implementation of numerical integration methods applied to the simulation of the solar system and orbit propagators for satellites"
+ },
+ {
+  "avatar": null,
+  "name": "Chidubem Iddianozie",
+  "submissions": [
+   "RDMYLS"
+  ],
+  "code": "UPKRFZ",
+  "biography": "Chidubem is a Computer Science PhD student at the University College Dublin."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/4173925_joT5hst.jpeg",
+  "name": "Christine Choirat",
+  "submissions": [
+   "UHLCJR"
+  ],
+  "code": "UTJBWX",
+  "biography": "Dr. Choirat is the Chief Innovation Officer of the Swiss Data Science Center (SDSC, https://datascience.ch/), an initiative to accelerate the use of data science and machine learning techniques within academic disciplines and the industrial sector, in Switzerland and internationally.  She was trained as a statistician (PhD, Paris Dauphine).  At SDSC, she provides leadership over the lifecycle of sponsored projects and partnerships in the domains of environmental science, health IT, health science and technology, personalized medicine, and open science.  She also fosters engagement with partners to facilitate the adoption of FAIR and reproducible data science with the Renku platform (https://renkulab.io/).\r\n\r\nhttps://scholar.harvard.edu/cchoirat"
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/portrait_MpPKJYM.jpeg",
+  "name": "Peter Bräuer",
+  "submissions": [
+   "3CEUF7"
+  ],
+  "code": "UTNWKL",
+  "biography": "I received my Ph.D. in 2015 in Meteorology on the auto-generation of chemical mechanisms for atmospheric sciences and continued with 2 postdoc positions on chemical mechanism developments at the University of East Anglia and University of York in the UK. Since 2019, I work as a scientific programmer developing Julia scripts and packages for applications in satellite data analysis and meteorology."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/Capture_Ek5JF1v.JPG",
+  "name": "Shiqi XIAO",
+  "submissions": [
+   "RBTYQR"
+  ],
+  "code": "UUX8FW",
+  "biography": "BSc Chinese University of Hong Kong\r\nMSc ETH Zurich"
+ },
+ {
+  "avatar": null,
+  "name": "Georg",
+  "submissions": [
+   "YDSABY"
+  ],
+  "code": "UXJCL8",
   "biography": null
+ },
+ {
+  "avatar": null,
+  "name": "Jarrett Revels",
+  "submissions": [
+   "L9LV3N"
+  ],
+  "code": "VAVNMG",
+  "biography": "CTO @ Beacon Biosignals"
+ },
+ {
+  "avatar": null,
+  "name": "Joris Kraak",
+  "submissions": [
+   "M8KTBL"
+  ],
+  "code": "VCBWCT",
+  "biography": "Joris is a software engineer with a background in signal processing and a passion for automation, clear and clean software and the infinite possibilities of the Internet."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/IIKX3711_oPDuW5k.jpg",
+  "name": "Rahma Latifa Dewi",
+  "submissions": [
+   "9JCCV8"
+  ],
+  "code": "VFSCTP",
+  "biography": "My name is Rahma Latifa Dewi. I was born on 14 August, 1997 in Jakarta, Indonesia. I'm the first child in a family of three. My father, Mr. Mugiyantoro is a teacher in senior high school. My mother, Mrs. Fidyastuti is a housewife.\r\n\r\nI went to University of Indonesia, where I did my under graduate degree in Civil Engineer in 2015 until 2019. Since childhood, I was interested in exact. Derived from my Father, I also like to share my knowledge. Some of teaching experiences I have done since high school until now.\r\n\r\nOne of my teaching experiences in 2020 is teaching using Julia programming language. Started from the thesis topic that I worked on in 2018 together with my lecturer, Mr. Henki W. Ashadi. The title is Steel Truss Design using Julia Programming Language. The results of the thesis that I made are, structural analysis calculations such as internal forces, deflection, to the determination of steel profiles, just by using packages that have been available in Julia and several function.\r\n\r\nMy thesis can be used for learning in civil engineering lectures, especially for the calculation of steel frame structures. Currently, as many as 38 students are designing various skeletal models using my thesis in Julia. And I'm proud, my work can be useful for others."
+ },
+ {
+  "avatar": null,
+  "name": "León Alday",
+  "submissions": [
+   "XW9PNR"
+  ],
+  "code": "VKWTH7",
+  "biography": "Chem grad student, interested in imperative and functional programming."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/IMG_0014-Ferrall-Fairbanks_VbsGc51.jpg",
+  "name": "Meghan Ferrall-Fairbanks",
+  "submissions": [
+   "MMJXXC"
+  ],
+  "code": "VNADNL",
+  "biography": "Meghan Ferrall-Fairbanks received her B.S. in Mechanical Engineering with a Biomechanics minor at the University of Florida in 2012. She earned her PhD in Biomedical Engineering in 2017 from the joint Georgia Tech and Emory program under the guidance of Dr. Manu O. Platt. In her graduate dissertation work, Meghan focused on integrating wet-lab experimental and computational methods to tease apart complex enzyme-on-enzyme interactions in proteolytic networks up-regulated in tissue destructive diseases. In August 2017, she began her postdoctoral studies in the Department of Integrated Mathematical Oncology at Moffitt Cancer Center and Research Institute with Dr. Philipp M. Altrock. In her postdoctoral work, Meghan has focused on applying mathematical and computational methods to model cancer evolution in hematopoietic malignancies."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/favicon.jpeg",
+  "name": "Roger Luo",
+  "submissions": [
+   "8NDYCT"
+  ],
+  "code": "VRCN8Y",
+  "biography": "github.com/Roger-luo"
+ },
+ {
+  "avatar": null,
+  "name": "Gabriel Dansereau",
+  "submissions": [
+   "7LEVXF"
+  ],
+  "code": "W37LHD",
+  "biography": "M.Sc Student in Computational Ecology at Université de Montréal"
+ },
+ {
+  "avatar": null,
+  "name": "Johan Van Kerckhoven",
+  "submissions": [
+   "79FJUW"
+  ],
+  "code": "WBWK8K",
+  "biography": "JOHAN VAN KERCKHOVEN graduated from the Vrije Universiteit Brussel (VUB) in Brussels as a Master in Mathematics (Licentiaat in de Wiskunde), with specialisation in statistics, in 2002. He worked as a university researcher, specialising in variable selection methods in predictive modelling and robust statistics, and teaching assistant at various Belgian universities (2002-2012), obtaining his PhD in Applied Economics in 2008 at the Katholieke Universiteit Leuven. From 2012-2016 he worked as market risk modeller at KBC. He joined the department MWMW of the Royal Military Academy as a researcher in 2016, specialising in (discrete event) simulation, in particular using SimJulia."
+ },
+ {
+  "avatar": null,
+  "name": "Eric Torkia",
+  "submissions": [
+   "NETNQZ",
+   "BP9HDJ"
+  ],
+  "code": "WGC3SZ",
+  "biography": "I am currently the executive partner and analytics practice lead at Technology Partnerz Ltd., a firm specialized in delivering analytics solutions focused on forecasting, simulation and optimization to organizations all over the world. As practice lead, I have advised senior leadership on analytics strategy and implementation, trained hundreds of business analysts on predictive analytics, lead or supported risk analysis initiatives in finance, operations as well as project cost and schedule risk."
+ },
+ {
+  "avatar": null,
+  "name": "James Fairbanks",
+  "submissions": [
+   "GQATHR",
+   "GALAX8"
+  ],
+  "code": "WPZLWJ",
+  "biography": "James is a Research Engineer at the Georgia Tech Research Institute in the High Performance Computing and Data Analytics Branch. His current research involves mathematical and computational formalisms in scientific computing. Where his lab applies techniques from Machine Learning, Numerical Methods, and Applied Category Theory to analyze scientific and engineering systems."
+ },
+ {
+  "avatar": null,
+  "name": "Chris Rackauckas",
+  "submissions": [
+   "B3VAGU",
+   "C9FGPP",
+   "YYKQCW"
+  ],
+  "code": "WUWQQ3",
+  "biography": "Christopher Rackauckas is an Applied Mathematics Instructor at the Massachusetts Institute of Technology and a Senior Research Analyst at University of Maryland, Baltimore, School of Pharmacy in the Center for Translational Medicine. Chris's research is focused on numerical differential equations and scientific machine learning with applications from climate to biological modeling. He is the developer of over many core numerical packages for the Julia programming language, including DifferentialEquations.jl for which he won the inaugural Julia community prize, and the Pumas.jl for pharmaceutical modeling and simulation."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/me_9DMNKLb.jpg",
+  "name": "Saurabh Kumar",
+  "submissions": [
+   "ELXNUQ"
+  ],
+  "code": "X8ZTSA",
+  "biography": "I am a Ph.D. student with the Vision and Image Processing Group at the Indian Institute of Technology Bombay. My research interests are Computational Cameras and Machine Learning. Apart from my research, I work on side projects on Automation and Visualization."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/Screenshot_from_2020-03-06_13-02-11_a8llaQL.png",
+  "name": "Sam Buercklin",
+  "submissions": [
+   "9JFYBH"
+  ],
+  "code": "XPSFQS",
+  "biography": "Buercklin began working at LeafLabs after the conclusion of his graduate studies in electrical engineering working on computational physics. He enjoys uncovering insight into physical systems through simulations and utilizing optimization and machine learning techniques to find new solutions to problems. As a researcher, his prior experience was in solving optical inverse problems and optimizing controls for quantum computing experiments. Outside of work, he can be found enjoying live music or riding his bike around Boston. (B.S. ECE at University of Illinois at Urbana-Champaign '15, S.M. EECS at MIT '19)"
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/jf_yxJV1xe.jpeg",
+  "name": "Jürgen Fuhrmann",
+  "submissions": [
+   "MCFFUY"
+  ],
+  "code": "XR3TFU",
+  "biography": "Jürgen Fuhrmann was born in 1961 in Erfurt, Germany. He received his Diploma in mathematics from Moscow State University in 1984 and his Ph.D.\r\nfrom Technical University Chemnitz in 1995. He is with Weierstrass Institute for Applied Analysis and Stochastics resp. its predecessor institution since 1984. He is deputy head of the research group \"Numerical Mathematics and Scientific Computing\". His present research interests focus on discretization methods, algorithms and software development for drift-diffusion systems in electrochemistry and semiconductor physics."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/Francis_Banville_1nGgYjS.jpg",
+  "name": "Francis Banville",
+  "submissions": [
+   "GPFUZR"
+  ],
+  "code": "YDHB3H",
+  "biography": "PhD student in biological sciences in the computational ecology lab of Timothée Poisot (University of Montreal) and the integrative ecology lab of Dominique Gravel (University of Sherbrooke)."
+ },
+ {
+  "avatar": null,
+  "name": "Harrison Grodin",
+  "submissions": [
+   "CHJ9ZK"
+  ],
+  "code": "YDWSNP",
+  "biography": "Student at Carnegie Mellon University School of Computer Science, with a focus in programming language theory. Author of Rewrite.jl, Simplify.jl and developer for ModelingToolkit.jl."
+ },
+ {
+  "avatar": null,
+  "name": "Steffen Ridderbusch",
+  "submissions": [
+   "KCP9NT"
+  ],
+  "code": "YJZSDG",
+  "biography": "Steffen Ridderbusch is a doctoral student of the 2018 cohort of the Centre of Doctoral Training in Autonomous Intelligent Machines and Systems. Holding degrees in Mathematics and Engineering, he is now part of the Control Department."
+ },
+ {
+  "avatar": null,
+  "name": "Robert Rosati",
+  "submissions": [
+   "LUSFK8",
+   "XKG7TT"
+  ],
+  "code": "YKT39B",
+  "biography": "Physics PhD student at University of Texas at Austin\r\n\r\nhttps://github.com/rjrosati"
+ },
+ {
+  "avatar": null,
+  "name": "Felipe Noronha Tavares",
+  "submissions": [
+   "WGAHCK"
+  ],
+  "code": "YT79YK",
+  "biography": "Market Risk Manager at the Brazilian Development Bank."
+ },
+ {
+  "avatar": null,
+  "name": "Chris Peel",
+  "submissions": [
+   "N9RVPR"
+  ],
+  "code": "YXRYYS",
+  "biography": "Chris is the organizer of the SF [Bay Area Julia users group](https://www.meetup.com/Bay-Area-Julia-Users/)."
+ },
+ {
+  "avatar": null,
+  "name": "Katharine Hyatt",
+  "submissions": [
+   "GSXV8H"
+  ],
+  "code": "YYDPCZ",
+  "biography": "Katharine Hyatt is a postdoc, working in the Center for Computational Quantum Physics at the Flatiron Institute, a division of the Simons Foundation. Her research focuses on developing new numerical methods to understand 2D correlated electronic systems, and finding interesting applications in condensed matter physics for these methods."
+ },
+ {
+  "avatar": null,
+  "name": "Kusti Skytén",
+  "submissions": [
+   "TTU9U8",
+   "K77ZJK"
+  ],
+  "code": "Z7JSAN",
+  "biography": "A PhD student at the Biostatistics department at the university of Oslo."
+ },
+ {
+  "avatar": null,
+  "name": "Adam R. Gerlach",
+  "submissions": [
+   "KTDY7J"
+  ],
+  "code": "Z7P7KW",
+  "biography": "Adam Gerlach is a Research Aerospace Engineer in the Control Sciences Center of Excellence at the Air Force Research Laboratory (AFRL). His research interests are in intelligent systems, decision making under uncertainty, decentralized cooperative control.\r\n\r\nAdam received his Ph.D. in aerospace engineering from the University of Cincinnati in 2014 focused on Controls, Dynamics, and Intelligent Systems."
+ },
+ {
+  "avatar": null,
+  "name": "Yacine Ouzrout",
+  "submissions": [
+   "EVJNMH"
+  ],
+  "code": "Z9FREG",
+  "biography": "N/A"
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/Screenshot_2020-02-24_at_09.31.36_A5gQ4RS.png",
+  "name": "Gregory Szep",
+  "submissions": [
+   "HJZXMX"
+  ],
+  "code": "ZBMJRN",
+  "biography": "Together with Station B at Microsoft Research Cambridge and the Randall Division of Cell and Molecular Biophysics at King's College London we aim to create tools that can make biochemical manufacturing more efficient, with efforts towards combating Eroom's law of drug discovery and addressing the reproducibility crisis in biotechnology. My current research focus is the development of novel parameter inference procedures for differential equation models where data had been obtained by flow cytometry or fluorescence microscopy."
+ },
+ {
+  "avatar": null,
+  "name": "Michael Kyesswa",
+  "submissions": [
+   "ZMHR9V"
+  ],
+  "code": "ZCE33M",
+  "biography": "Michael Kyesswa is a Ph.D student at Karlsruhe Institute of Technology. His main areas of research are computational methods for power system analysis, and parallel and real-time simulations."
+ },
+ {
+  "avatar": null,
+  "name": "Simon Schoelly",
+  "submissions": [
+   "GQATHR"
+  ],
+  "code": "ZCWVXE",
+  "biography": "Simon is a software developer from Switzerland, he programs Java during the day and Julia at night.\r\n\r\nCurrently he is mainly involved with the JuliaGraphs organization."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/mq_KkSobXj.jpg",
+  "name": "Marco Quartulli",
+  "submissions": [
+   "EM8ZK3"
+  ],
+  "code": "ZGQL3X",
+  "biography": "Marco Quartulli holds  a PhD in EE and CS from the\r\nUniversity of Siegen, Germany, in 2005. From 2000 to 2003, he was with\r\nthe German Aerospace Center (DLR) in Germany, working on machine\r\nlearning for image understanding and content-based image retrieval.\r\nFrom 1997 to 2010 he worked on remote sensing ground segment\r\nengineering, image analysis, archive search for Advanced Computer\r\nSystems, Italy. Since 2010, he has joined Vicomtech in Spain where he\r\nis working in the Data Intelligence for Energy and Industrial\r\nProcesses department on the development of ML- and AI-based predictive\r\nand prescriptive analysis methodologies for high-dimensional\r\nmultivariate time series."
+ },
+ {
+  "avatar": null,
+  "name": "Henki Ashadi",
+  "submissions": [
+   "ZAGFAM"
+  ],
+  "code": "ZLQHXW",
+  "biography": "Name          : Dr.-Ing. Henki Wibowo Ashadi\r\noccupation : Lecture at universitas indonesia\r\nborn            : 9 july, 1964\r\nAdress        : Civil Engineering Department, Faculty of Engineering,\r\n                       Universitas Indonesia\r\n                      Kampus UI Depok, Depok 16424, Indonesia\r\nEmail          : henki@eng.ui.ac.id; henki.wibowo@ui.ac.id; henki.ashadi@gmail.com"
+ },
+ {
+  "avatar": null,
+  "name": "François Févotte",
+  "submissions": [
+   "LEADQ7"
+  ],
+  "code": "ZT3GSX",
+  "biography": "François Févotte is co-founder and Chief Scientist of TriScale innov, a start-up dedicated to technical and scientific computing. Prior to that, he graduated in 2008 with a PhD in applied mathematics from the CEA and spent more than ten years with a team dedicated to numerical analysis and modeling in the R&D division of EDF (France's main electric utility). François' approach aims at achieving high performance in scientific software by focusing the effort where it matters most. This includes using state-of-the art numerical techniques in combination with FP-aware algorithms and implementations targeting modern hardware architectures."
+ },
+ {
+  "avatar": null,
+  "name": "Ludovic Räss",
+  "submissions": [
+   "YDSABY"
+  ],
+  "code": "ZTATFJ",
+  "biography": "Why to perform serial tasks while nature is mostly parallel? I am geoscientist with strong interest in high-performance computing (HPC), two-phase flow and ice dynamics. GPUs and supercomputers permit to investigate previously unsolvable problems at unprecedented resolutions."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/caroline-hughes-headshot_AEp8nuD.png",
+  "name": "Caroline Hughes",
+  "submissions": [
+   "UUECGJ"
+  ],
+  "code": "ZTSULB",
+  "biography": "Caroline Hughes is an Energy Data and Simulation Analyst at the U.S. National Renewable Energy Laboratory. Her research focuses on computational modeling and decision-making under uncertainty. A data scientist and user experience designer, she sees the terminal as an interface and has strong opinions about leveraging coding best-practices to write clever and user-friendly code."
+ },
+ {
+  "avatar": null,
+  "name": "Tom Kwong",
+  "submissions": [
+   "G7XNXE",
+   "GZK8ML"
+  ],
+  "code": "ZVXXQA",
+  "biography": "Tom Kwong, CFA, is an experienced software engineer with over 25 years of industry programming experience. He has spent the majority of his career in the financial services industry. His expertise includes software architecture, design, and the development of trading/risk systems. \r\n\r\nSince 2017, he has uncovered the Julia language and has worked on several open source packages, including SASLib.jl. He is also the author of the book Design Patterns and Best Practices with Julia, published by Packt in January 2020.\r\n\r\nHe currently works at Western Asset Management Company, a prestigious asset management company that specializes in fixed income investment services. He holds an MS degree in computer science from the University of California, Santa Barbara (from 1993), and he holds the Chartered Financial Analyst® designation since 2009."
+ },
+ {
+  "avatar": null,
+  "name": "Dheepak Krishnamurthy",
+  "submissions": [
+   "SD8PSC",
+   "V3QDAM"
+  ],
+  "code": "ZWPRXJ",
+  "biography": "Dheepak is an energy system research engineer working at the National Renewable Energy Laboratory. He is interested in energy, optimization and high performance computing."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/%C3%ADndice_yUuDMkO.jpeg",
+  "name": "Óscar Alvarado",
+  "submissions": [
+   "HPR79A",
+   "ALMRKK"
+  ],
+  "code": "ZZTWND",
+  "biography": "Degree in physics. Currently studying data science and interested in AI, high-performance computing, and computational physics.\r\nStudying at the National Autonomous University of Mexico."
  }
 ]

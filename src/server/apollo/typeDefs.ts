@@ -42,6 +42,7 @@ export const typeDefs = gql`
     The URL of the user's upload avatar image.
     """
     avatar: String
+    talks: [Talk!]!
   }
 
   type Room {

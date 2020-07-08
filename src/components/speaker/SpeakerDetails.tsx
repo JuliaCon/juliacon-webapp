@@ -1,11 +1,12 @@
 import * as React from "react";
 import { css } from "emotion";
-
+import { AgendaTalksListItem } from "../agenda/AgendaTalksListItem";
 import {
   SpeakerDetailsQuery,
   useSpeakerDetailsQuery,
 } from "./SpeakerDetails.generated";
 import { HSpace, VSpace } from "../layout";
+import { StyledMarkdown } from "../core";
 
 type SpeakerData = NonNullable<SpeakerDetailsQuery["speaker"]>;
 
@@ -21,11 +22,33 @@ export const SpeakerDetails = ({ id }: { id: string }) => {
     return <p>Couldn't load this speaker...</p>;
   }
 
+  const biography = speaker.biography;
+  const talks = speaker.talks;
+
   return (
     <div>
       <SpeakerDetailsHeading speaker={speaker} />
       <VSpace />
-      <p>{speaker.biography}</p>
+      {biography && <StyledMarkdown source={biography} />}
+      <VSpace />
+      <h4
+        className={css`
+          font-weight: bold;
+          font-size: 1rem;
+          padding-bottom: 10px;
+        `}
+      >
+        Talks:
+      </h4>
+      <div>
+        {talks.map((talk, index) => (
+          <AgendaTalksListItem
+            talkId={talk.id}
+            key={talk.id}
+            noTopBorder={index === 0}
+          />
+        ))}
+      </div>
     </div>
   );
 };

@@ -73,6 +73,7 @@ export type Speaker = {
   readonly biography?: Maybe<Scalars["String"]>;
   /** The URL of the user's upload avatar image. */
   readonly avatar?: Maybe<Scalars["String"]>;
+  readonly talks: ReadonlyArray<Talk>;
 };
 
 export type Talk = {
@@ -306,6 +307,11 @@ export type SpeakerResolvers<
     ContextType
   >;
   avatar?: Resolver<Maybe<ResolversTypes["String"]>, ParentType, ContextType>;
+  talks?: Resolver<
+    ReadonlyArray<ResolversTypes["Talk"]>,
+    ParentType,
+    ContextType
+  >;
   __isTypeOf?: IsTypeOfResolverFn<ParentType>;
 };
 

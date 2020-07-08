@@ -62,6 +62,7 @@ export type Speaker = {
   biography?: Maybe<Scalars["String"]>;
   /** The URL of the user's upload avatar image. */
   avatar?: Maybe<Scalars["String"]>;
+  talks: Array<Talk>;
 };
 
 export type Talk = {

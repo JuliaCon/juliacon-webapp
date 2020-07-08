@@ -7,6 +7,7 @@ import { arrayToFragment } from "../../utils/react";
 import { Link } from "../core";
 import { Time, TimeRangeFormatted } from "../date";
 import { VSpace } from "../layout";
+import { StyledMarkdown } from "../core";
 
 import {
   AgendaTalksListItemQuery,
@@ -106,7 +107,7 @@ export const AgendaTalksListItem = ({
           <AgendaTalksListItemSpeakers speakers={speakers} />
         </div>
         <VSpace />
-        <p>{abstract}</p>
+        <StyledMarkdown source={abstract} />
       </div>
     </div>
   );
