@@ -30,27 +30,35 @@ export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
       </h2>
       <AgendaTalksListItemSpeakers speakers={talk.speakers} />
       <VSpace />
-      <h4
-        className={css`
-          font-weight: bold;
-          font-size: 1rem;
-          padding-bottom: 10px;
-        `}
-      >
-        Abstract:
-      </h4>
-      <StyledMarkdown source={talk.abstract} />
+      {talk.abstract && (
+        <div>
+          <h4
+            className={css`
+              font-weight: bold;
+              font-size: 1rem;
+              padding-bottom: 10px;
+            `}
+          >
+            Abstract:
+          </h4>
+          <StyledMarkdown source={talk.abstract} />
+        </div>
+      )}
       <VSpace />
-      <h4
-        className={css`
-          font-weight: bold;
-          font-size: 1rem;
-          padding-bottom: 10px;
-        `}
-      >
-        Description:
-      </h4>
-      <StyledMarkdown source={talk.description} />
+      {talk.description && (
+        <div>
+          <h4
+            className={css`
+              font-weight: bold;
+              font-size: 1rem;
+              padding-bottom: 10px;
+            `}
+          >
+            Description:
+          </h4>
+          <StyledMarkdown source={talk.description} />
+        </div>
+      )}
       <VSpace />
     </div>
   );

@@ -107,7 +107,7 @@ export const AgendaTalksListItem = ({
           <AgendaTalksListItemSpeakers speakers={speakers} />
         </div>
         <VSpace />
-        <StyledMarkdown source={abstract} />
+        {abstract && <StyledMarkdown source={abstract} />}
       </div>
     </div>
   );
