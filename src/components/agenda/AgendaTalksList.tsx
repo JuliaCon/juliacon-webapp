@@ -12,20 +12,14 @@ export const AgendaTalksList: React.FC<AgendaTalksListProps> = ({
   conferenceDay,
   zoneOffset,
 }) => {
-  const { data, error, loading, refetch } = useAgendaTalksListQuery({
-    variables: { conferenceDay, zoneOffset: 0 },
+  const { data, error, loading } = useAgendaTalksListQuery({
+    variables: { conferenceDay },
   });
 
   if (error) throw error;
   if (loading) return <p>Loading...</p>;
   const talks = data?.talks;
   if (!talks) return <p>Failed to load talks!</p>;
-
-  // Always refetch data whenever a property changes
-  // For some reason the list does not update when
-  // zoneOffset is set to one of its previous values
-  // if this line is not included
-  refetch();
 
   return (
     <div>

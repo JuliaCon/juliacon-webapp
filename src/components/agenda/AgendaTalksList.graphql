@@ -1,5 +1,5 @@
-query AgendaTalksList($conferenceDay: String!, $zoneOffset: Int!) {
-  talks(day: $conferenceDay, zoneOffset: $zoneOffset) {
+query AgendaTalksList($conferenceDay: String!) {
+  talks(day: $conferenceDay) {
     ...AgendaTalksListItem
   }
 }

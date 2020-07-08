@@ -8,7 +8,6 @@ import * as ApolloReactHooks from "@apollo/client";
 
 export type AgendaTalksListQueryVariables = Types.Exact<{
   conferenceDay: Types.Scalars["String"];
-  zoneOffset: Types.Scalars["Int"];
 }>;
 
 export type AgendaTalksListQuery = { readonly __typename?: "Query" } & {
@@ -18,8 +17,8 @@ export type AgendaTalksListQuery = { readonly __typename?: "Query" } & {
 };
 
 export const AgendaTalksListDocument = gql`
-  query AgendaTalksList($conferenceDay: String!, $zoneOffset: Int!) {
-    talks(day: $conferenceDay, zoneOffset: $zoneOffset) {
+  query AgendaTalksList($conferenceDay: String!) {
+    talks(day: $conferenceDay) {
       ...AgendaTalksListItem
     }
   }
@@ -39,7 +38,6 @@ export const AgendaTalksListDocument = gql`
  * const { data, loading, error } = useAgendaTalksListQuery({
  *   variables: {
  *      conferenceDay: // value for 'conferenceDay'
- *      zoneOffset: // value for 'zoneOffset'
  *   },
  * });
  */

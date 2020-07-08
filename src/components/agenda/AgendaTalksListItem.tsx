@@ -34,11 +34,13 @@ export const AgendaTalksListItem = ({
   const { title, abstract, startTime, endTime, speakers } = data.talk;
 
   let startTimeDate = new Date(startTime);
-
   let offsetedStartTime = addMinutes(new Date(startTime), zoneOffset);
   let offsetedEndTime = addMinutes(new Date(endTime), zoneOffset);
 
   function rolloverText() {
+    // Returns the text that indicates if the
+    // time has rolled over into a different getDay
+    // due to the timezone offset
     if (
       zoneOffset > 0 &&
       offsetedStartTime.getDay() !== startTimeDate.getDay()

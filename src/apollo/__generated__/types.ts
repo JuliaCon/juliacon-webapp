@@ -26,7 +26,6 @@ export type QueryTalksArgs = {
   day?: Maybe<Scalars["String"]>;
   roomId?: Maybe<Scalars["ID"]>;
   talkType?: Maybe<TalkType>;
-  zoneOffset?: Maybe<Scalars["Int"]>;
 };
 
 export type QueryRoomArgs = {
