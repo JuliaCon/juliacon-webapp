@@ -22,8 +22,7 @@ export const SpeakerDetails = ({ id }: { id: string }) => {
     return <p>Couldn't load this speaker...</p>;
   }
 
-  const biography = speaker.biography;
-  const talks = speaker.talks;
+  const { biography, talks } = speaker;
 
   return (
     <div>
