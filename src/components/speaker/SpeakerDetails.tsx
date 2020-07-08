@@ -35,6 +35,7 @@ export const SpeakerDetails = ({ id }: { id: string }) => {
             talkId={talk.id}
             key={talk.id}
             noTopBorder={index === 0}
+            zoneOffset={0}
           />
         ))}
       </div>
