@@ -1,5 +1,6 @@
 import { gql, useQuery } from "@apollo/client";
 import React from "react";
+import Markdown from "react-markdown";
 
 export const TalkDetailsFragment = gql`
   fragment TalkDetails on Talk {
@@ -31,7 +32,9 @@ export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
 
   return (
     <div>
-      <pre>{JSON.stringify(data, null, 1)}</pre>
+      <h1>{talk.title}</h1>
+      <p>{talk.abstract}</p>
+      <Markdown source={talk.description} />
     </div>
   );
 };
