@@ -2,26 +2,26 @@ import { assertConferenceDay } from "../../../const";
 import { filterTalks } from "../../pretalx";
 import { talkTypeToSubmissionType } from "../utils";
 import { QueryResolvers } from "./__types__";
-import { addMinutes } from "../../../utils/addMinutes";
-
+import { addMinutes } from "date-fns";
+import { isNonNull } from "../../../utils/null";
 export const Query: QueryResolvers = {
   talks: async (_root, args, { dataSources }) => {
     const talks = await dataSources.pretalx.getAllTalks();
 
-    let newTalks = [];
+    let newTalks = talks.map((talk) => ({ ...talk }));
 
-    // Copy all the talks
-    for (var i = 0; i < talks.length; i++) {
-      newTalks.push({ ...talks[i] });
-    }
+    args.zoneOffset = isNonNull(args.zoneOffset) ? args.zoneOffset : 0;
 
     // Offset their times by the passed zoneOffset
-    for (i = 0; i < newTalks.length; i++) {
+    for (var i = 0; i < newTalks.length; i++) {
       newTalks[i].startTime = addMinutes(
-        newTalks[i].startTime,
+        new Date(newTalks[i].startTime),
         args.zoneOffset
-      );
-      newTalks[i].endTime = addMinutes(newTalks[i].endTime, args.zoneOffset);
+      ).toISOString();
+      newTalks[i].endTime = addMinutes(
+        new Date(newTalks[i].startTime),
+        args.zoneOffset
+      ).toISOString();
     }
 
     const { roomId, talkType } = args;
