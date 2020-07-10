@@ -1,7 +1,7 @@
 import * as React from "react";
 import { NextPage } from "next";
-import Error from "next/error";
 
+import { ComingSoon } from "../components/ComingSoon";
 import { Page } from "../components/site";
 
 /**
@@ -12,7 +12,7 @@ import { Page } from "../components/site";
 const PostersPage: NextPage = () => {
   return (
     <Page>
-      <Error statusCode={404} title={"Not implemented"} />
+      <ComingSoon />
     </Page>
   );
 };

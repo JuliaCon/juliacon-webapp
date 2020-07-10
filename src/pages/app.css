@@ -15,3 +15,56 @@ html {
 a {
   cursor: pointer;
 }
+
+.styled-markdown > * {
+  margin: 0.4em 0;
+}
+
+.styled-markdown h1 {
+  font-size: 1.6em;
+}
+
+.styled-markdown h2 {
+  font-size: 1.3em;
+}
+
+.styled-markdown h3 {
+  font-size: 1.17em;
+}
+
+.styled-markdown h4 {
+  font-size: 1em;
+}
+
+.styled-markdown h5 {
+  font-size: 0.83em;
+}
+
+.styled-markdown h6 {
+  font-size: 0.75em;
+}
+
+.styled-markdown b,
+strong {
+  font-weight: bolder;
+}
+
+.styled-markdown kbd,
+code,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+.styled-markdown > pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+.styled-markdown ul {
+  list-style: disc inside none;
+}
+
+.styled-markdown ol {
+  list-style: decimal inside none;
+}

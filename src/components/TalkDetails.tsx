@@ -1,29 +1,16 @@
-import { gql, useQuery } from "@apollo/client";
 import React from "react";
-import Markdown from "react-markdown";
+import { VSpace } from "./layout";
+import { AgendaTalksListItemSpeakers } from "./agenda/AgendaTalksListItem";
+import { css } from "emotion";
+import { StyledMarkdown } from "./core";
 
-export const TalkDetailsFragment = gql`
-  fragment TalkDetails on Talk {
-    id
-    title
-    abstract
-    description
-  }
-`;
-export const TalkDetailsQuery = gql`
-  query TalkDetails($id: ID!) {
-    talk(id: $id) {
-      ...TalkDetails
-    }
-  }
-
-  ${TalkDetailsFragment}
-`;
+import { useTalkDetailsQuery } from "./TalkDetails.generated";
 
 export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
-  const { data, loading, error } = useQuery(TalkDetailsQuery, {
-    variables: { id },
+  const { data, error, loading } = useTalkDetailsQuery({
+    variables: { id: id },
   });
+
   if (error) throw error;
   if (loading) return <p>"Loading"</p>;
   if (!data) throw new Error(`Failed to load data`);
@@ -32,9 +19,47 @@ export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
 
   return (
     <div>
-      <h1>{talk.title}</h1>
-      <p>{talk.abstract}</p>
-      <Markdown source={talk.description} />
+      <h2
+        className={css`
+          font-weight: bold;
+          font-size: 2rem;
+          padding-bottom: 10px;
+        `}
+      >
+        {talk.title}
+      </h2>
+      <AgendaTalksListItemSpeakers speakers={talk.speakers} />
+      <VSpace />
+      {talk.abstract && (
+        <div>
+          <h4
+            className={css`
+              font-weight: bold;
+              font-size: 1rem;
+              padding-bottom: 10px;
+            `}
+          >
+            Abstract:
+          </h4>
+          <StyledMarkdown source={talk.abstract} />
+        </div>
+      )}
+      <VSpace />
+      {talk.description && (
+        <div>
+          <h4
+            className={css`
+              font-weight: bold;
+              font-size: 1rem;
+              padding-bottom: 10px;
+            `}
+          >
+            Description:
+          </h4>
+          <StyledMarkdown source={talk.description} />
+        </div>
+      )}
+      <VSpace />
     </div>
   );
 };
