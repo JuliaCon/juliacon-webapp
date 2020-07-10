@@ -12,5 +12,5 @@ import { format, parseISO } from "date-fns";
  */
 export const Time = ({ time }: { time: Date | string }) => {
   const date = typeof time === "string" ? parseISO(time) : time;
-  return <>{format(date, "HH:mm")} UTC</>;
+  return <>{format(date, "HH:mm")}</>;
 };

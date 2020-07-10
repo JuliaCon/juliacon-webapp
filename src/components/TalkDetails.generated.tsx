@@ -18,7 +18,7 @@ export type TalkDetailsQuery = { readonly __typename?: "Query" } & {
 
 export type TalkDetailsFragment = { readonly __typename?: "Talk" } & Pick<
   Types.Talk,
-  "id" | "title" | "abstract" | "description"
+  "id" | "title" | "abstract" | "description" | "startTime" | "endTime"
 > & {
     readonly speakers: ReadonlyArray<
       { readonly __typename?: "Speaker" } & SpeakerInfoFragment
@@ -31,6 +31,8 @@ export const TalkDetailsFragmentDoc = gql`
     title
     abstract
     description
+    startTime
+    endTime
     speakers {
       ...SpeakerInfo
     }

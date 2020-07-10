@@ -3,6 +3,7 @@ import { VSpace } from "./layout";
 import { AgendaTalksListItemSpeakers } from "./agenda/AgendaTalksListItem";
 import { css } from "emotion";
 import { StyledMarkdown } from "./core";
+import { TimeRangeFormatted } from "./date";
 
 import { useTalkDetailsQuery } from "./TalkDetails.generated";
 
@@ -29,6 +30,8 @@ export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
         {talk.title}
       </h2>
       <AgendaTalksListItemSpeakers speakers={talk.speakers} />
+      <VSpace />
+      <TimeRangeFormatted start={talk.startTime} end={talk.endTime} />
       <VSpace />
       {talk.abstract && (
         <div>
