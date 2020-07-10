@@ -9,6 +9,8 @@ fragment TalkDetails on Talk {
   title
   abstract
   description
+  startTime
+  endTime
   speakers {
     ...SpeakerInfo
   }
