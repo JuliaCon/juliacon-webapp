@@ -874,6 +874,32 @@
  {
   "content_locale": "en",
   "is_featured": false,
+  "code": "9XN9AW",
+  "track": null,
+  "state": "confirmed",
+  "duration": 5,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2020-07-30T17:30:00Z",
+   "room": {
+    "en": "Track 1"
+   },
+   "end": "2020-07-30T17:35:00Z"
+  },
+  "submission_type": {
+   "en": "Sponsor Talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Zapata",
+  "abstract": "Some words from our sponsor"
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
   "code": "AA8CQU",
   "track": null,
   "state": "confirmed",
@@ -2367,6 +2393,32 @@
   "do_not_record": false,
   "title": "DynamicPPL: Stan-like Speed for Dynamic Probabilistic Models",
   "abstract": "We present DynamicPPL.jl, a modular library providing a lightning-fast infrastructure for probabilistic programming and Bayesian inference, used in Turing.jl. DynamicPPL enables Turing to have C/Stan-like speeds for Bayesian inference involving static and dynamic models alike. Beside run-time speed, DynamicPPL provides a user-friendly domain-specific language for defining and then querying probabilistic models."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "HZRHEL",
+  "track": null,
+  "state": "confirmed",
+  "duration": 5,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2020-07-31T15:05:00Z",
+   "room": {
+    "en": "Track 1"
+   },
+   "end": "2020-07-31T15:10:00Z"
+  },
+  "submission_type": {
+   "en": "Sponsor Talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Julia Computing",
+  "abstract": "Some words from our sponsors"
  },
  {
   "content_locale": "en",
