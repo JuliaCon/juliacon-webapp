@@ -1,0 +1,8 @@
+query LiveTalks($day: String!) {
+  talks(day: $day) {
+    title
+    startTime
+    endTime
+    videoCode
+  }
+}
