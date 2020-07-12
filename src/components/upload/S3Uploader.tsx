@@ -109,7 +109,12 @@ export const S3Uploader = () => {
       const file = files[0];
       const promise = Storage.put(`${talkName}: ${file.name}`, file, {
         contentType: file.type,
-        metadata: { talkName, uploaderName },
+        // NOTE: When using S3 and REST, we have to encode everything as ascii.
+        // URI-encoding seems to me the simplest workaround for now.
+        metadata: {
+          talkName: encodeURIComponent(talkName),
+          uploaderName: encodeURIComponent(uploaderName),
+        },
         progressCallback: (event: ProgressEvent) => {
           if (uploadPromiseRef.current !== promise) return;
           setUploadProgress(event.loaded / event.total);
