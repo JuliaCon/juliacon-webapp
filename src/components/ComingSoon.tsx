@@ -24,7 +24,7 @@ export const ComingSoon = () => {
       <p>
         Contributions welcome!{" "}
         <a href="https://github.com/JuliaCon/juliacon-webapp">
-          Checkout GitHub
+          Check on GitHub
         </a>
       </p>
     </div>
