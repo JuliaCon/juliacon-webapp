@@ -20,7 +20,7 @@ export type AgendaTalksListItemFragment = {
   readonly __typename?: "Talk";
 } & Pick<
   Types.Talk,
-  "id" | "title" | "abstract" | "type" | "startTime" | "endTime"
+  "id" | "title" | "abstract" | "description" | "type" | "startTime" | "endTime"
 > & {
     readonly room?: Types.Maybe<
       { readonly __typename?: "Room" } & Pick<Types.Room, "name">
@@ -35,6 +35,7 @@ export const AgendaTalksListItemFragmentDoc = gql`
     id
     title
     abstract
+    description
     type
     startTime
     endTime
