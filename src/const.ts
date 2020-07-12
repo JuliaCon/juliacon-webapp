@@ -1,3 +1,4 @@
+import React from "react";
 export const CONFERENCE_DAYS = [
   `2020-07-24`,
   `2020-07-25`,
@@ -20,6 +21,11 @@ export function assertConferenceDay(x: string): ConferenceDay {
 }
 
 export const DISCORD_COOKIE = "discord";
+
+export const TimezoneContext = React.createContext({
+  timezone: "+00:00",
+  changeTimezone: (timezone: string) => {},
+});
 
 export const timezoneOptions = [
   {

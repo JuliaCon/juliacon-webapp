@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import { NextPage } from "next";
 import { withApollo } from "../../apollo";
 import { AgendaTalksList } from "../../components/agenda";
@@ -11,7 +11,12 @@ import {
   AgendaTalksListQuery,
   AgendaTalksListQueryVariables,
 } from "../../components/agenda/AgendaTalksList.generated";
-import { ConferenceDay, isConferenceDay, timezoneOptions } from "../../const";
+import {
+  ConferenceDay,
+  isConferenceDay,
+  timezoneOptions,
+  TimezoneContext,
+} from "../../const";
 import { useRouter } from "next/router";
 import Error from "next/error";
 import Select from "react-select";
@@ -19,10 +24,6 @@ import Select from "react-select";
 const Agenda: NextPage = () => {
   const router = useRouter();
   const { day } = router.query;
-  const [zoneOffsetOption, setZoneOffsetOption] = useState({
-    value: 0,
-    label: "UTC+00:00",
-  });
   const apollo = useApolloClient();
 
   const onNavIntent = React.useCallback(
@@ -37,12 +38,14 @@ const Agenda: NextPage = () => {
     [apollo]
   );
 
+  const timezoneContext = useContext(TimezoneContext);
+
   if (typeof day !== "string" || !isConferenceDay(day)) {
     return <Error statusCode={404} />;
   }
 
   function onChange(option: any) {
-    setZoneOffsetOption(option);
+    timezoneContext.changeTimezone(option.value);
   }
 
   return (
@@ -59,13 +62,13 @@ const Agenda: NextPage = () => {
       <Select
         options={timezoneOptions}
         onChange={onChange}
-        value={zoneOffsetOption}
+        value={timezoneContext.timezone}
         placeholder="Choose a timezone"
       />
       <VSpace />
       <AgendaTalksList
         conferenceDay={day}
-        zoneOffset={zoneOffsetOption.value}
+        zoneOffset={timezoneContext.timezone}
       />
     </Page>
   );

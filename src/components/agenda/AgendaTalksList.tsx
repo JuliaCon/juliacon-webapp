@@ -6,7 +6,7 @@ import { AgendaTalksListItem } from "./AgendaTalksListItem";
 export interface AgendaTalksListProps {
   children?: never;
   conferenceDay: ConferenceDay;
-  zoneOffset: number;
+  zoneOffset: string;
 }
 export const AgendaTalksList: React.FC<AgendaTalksListProps> = ({
   conferenceDay,
