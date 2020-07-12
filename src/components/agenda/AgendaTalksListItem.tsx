@@ -1,6 +1,5 @@
 import * as React from "react";
 import { css, cx } from "emotion";
-
 import { interleaveMap } from "../../utils/array";
 import { desktopOnly, mobileOnly } from "../../utils/css";
 import { arrayToFragment } from "../../utils/react";
@@ -8,7 +7,6 @@ import { Link } from "../core";
 import { Time, TimeRangeFormatted } from "../date";
 import { VSpace } from "../layout";
 import { StyledMarkdown } from "../core";
-import { utcToZonedTime } from "date-fns-tz";
 
 import {
   AgendaTalksListItemQuery,
@@ -18,11 +16,9 @@ import {
 export const AgendaTalksListItem = ({
   talkId,
   noTopBorder,
-  zoneOffset,
 }: {
   talkId: string;
   noTopBorder?: boolean;
-  zoneOffset: string;
 }) => {
   const { data, error, loading } = useAgendaTalksListItemQuery({
     variables: { id: talkId },
@@ -33,9 +29,6 @@ export const AgendaTalksListItem = ({
   if (!data?.talk) return <p>Couldn't load this talk...</p>;
 
   const { title, abstract, startTime, endTime, speakers } = data.talk;
-
-  let offsetedStartTime = utcToZonedTime(startTime, zoneOffset);
-  let offsetedEndTime = utcToZonedTime(endTime, zoneOffset);
 
   const commonStyle =
     !noTopBorder &&
@@ -69,7 +62,7 @@ export const AgendaTalksListItem = ({
         )}
       >
         <p>
-          <Time time={offsetedStartTime} />
+          <Time time={startTime} />
         </p>
       </div>
       <div
@@ -100,10 +93,7 @@ export const AgendaTalksListItem = ({
           `}
         >
           <p>
-            <TimeRangeFormatted
-              start={offsetedStartTime.toISOString()}
-              end={offsetedEndTime.toISOString()}
-            />
+            <TimeRangeFormatted start={startTime} end={endTime} />
           </p>
           <span
             className={css`

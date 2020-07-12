@@ -181,3 +181,8 @@ export const timezoneOptions = [
     value: "+14:00",
   },
 ];
+
+export const defaultTimezoneOption = {
+  label: "UTC+00:00",
+  value: "+00:00",
+};

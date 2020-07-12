@@ -14,6 +14,7 @@ export const SpeakerDetails = ({ id }: { id: string }) => {
   const { data, error, loading } = useSpeakerDetailsQuery({
     variables: { id },
   });
+
   if (error) throw error;
   if (loading) return null;
 
@@ -45,7 +46,6 @@ export const SpeakerDetails = ({ id }: { id: string }) => {
             talkId={talk.id}
             key={talk.id}
             noTopBorder={index === 0}
-            zoneOffset={0}
           />
         ))}
       </div>

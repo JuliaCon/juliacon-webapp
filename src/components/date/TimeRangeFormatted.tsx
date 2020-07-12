@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import { format, isSameDay, parseISO } from "date-fns";
+import { utcToZonedTime } from "date-fns-tz";
+import { TimezoneContext } from "../../const";
 
 export interface TimeRangeFormattedProps {
   start: string;
@@ -11,8 +13,12 @@ export const TimeRangeFormatted: React.FC<TimeRangeFormattedProps> = ({
 }) => {
   const startTime = parseISO(start);
   const endTime = parseISO(end);
+  const timezoneContext = useContext(TimezoneContext);
 
-  if (isSameDay(startTime, endTime)) {
+  let offsetedStartTime = utcToZonedTime(startTime, timezoneContext.timezone);
+  let offsetedEndTime = utcToZonedTime(endTime, timezoneContext.timezone);
+
+  if (isSameDay(offsetedStartTime, offsetedEndTime)) {
     return (
       <span>
         {formatTimeOnly(startTime)} &mdash; {formatTimeOnly(endTime)}

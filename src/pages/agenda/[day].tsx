@@ -39,6 +39,10 @@ const Agenda: NextPage = () => {
   );
 
   const timezoneContext = useContext(TimezoneContext);
+  const timezoneOption = {
+    value: timezoneContext.timezone,
+    label: "UTC" + timezoneContext.timezone,
+  };
 
   if (typeof day !== "string" || !isConferenceDay(day)) {
     return <Error statusCode={404} />;
@@ -62,14 +66,11 @@ const Agenda: NextPage = () => {
       <Select
         options={timezoneOptions}
         onChange={onChange}
-        value={timezoneContext.timezone}
+        value={timezoneOption}
         placeholder="Choose a timezone"
       />
       <VSpace />
-      <AgendaTalksList
-        conferenceDay={day}
-        zoneOffset={timezoneContext.timezone}
-      />
+      <AgendaTalksList conferenceDay={day} />
     </Page>
   );
 };

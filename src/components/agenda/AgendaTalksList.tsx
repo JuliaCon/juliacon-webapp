@@ -6,11 +6,9 @@ import { AgendaTalksListItem } from "./AgendaTalksListItem";
 export interface AgendaTalksListProps {
   children?: never;
   conferenceDay: ConferenceDay;
-  zoneOffset: string;
 }
 export const AgendaTalksList: React.FC<AgendaTalksListProps> = ({
   conferenceDay,
-  zoneOffset,
 }) => {
   const { data, error, loading } = useAgendaTalksListQuery({
     variables: { conferenceDay },
@@ -28,7 +26,6 @@ export const AgendaTalksList: React.FC<AgendaTalksListProps> = ({
           talkId={talk.id}
           key={talk.id}
           noTopBorder={index === 0}
-          zoneOffset={zoneOffset}
         />
       ))}
     </div>

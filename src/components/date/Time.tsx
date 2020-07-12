@@ -1,6 +1,9 @@
 import * as React from "react";
-import { parseISO } from "date-fns";
-import { format } from "date-fns-tz";
+import { useContext } from "react";
+import { parseISO, format } from "date-fns";
+import { utcToZonedTime } from "date-fns-tz";
+import { TimezoneContext } from "../../const";
+
 /**
  * Display a specific time.
  *
@@ -12,5 +15,8 @@ import { format } from "date-fns-tz";
  */
 export const Time = ({ time }: { time: Date | string }) => {
   const date = typeof time === "string" ? parseISO(time) : time;
-  return <>{format(date, "HH:mm")}</>;
+  const timezoneContext = useContext(TimezoneContext);
+  const offsetedTime = utcToZonedTime(date, timezoneContext.timezone);
+
+  return <>{format(offsetedTime, "HH:mm")}</>;
 };
