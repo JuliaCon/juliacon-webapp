@@ -21,14 +21,15 @@ export const TimeRangeFormatted: React.FC<TimeRangeFormattedProps> = ({
   if (isSameDay(offsetedStartTime, offsetedEndTime)) {
     return (
       <span>
-        {formatTimeOnly(startTime)} &mdash; {formatTimeOnly(endTime)}
+        {formatTimeOnly(offsetedStartTime)} &mdash;{" "}
+        {formatTimeOnly(offsetedEndTime)}
       </span>
     );
   }
 
   return (
     <span>
-      {format(startTime, "Pp")} &mdash; {format(endTime, "Pp")}
+      {format(offsetedStartTime, "Pp")} &mdash; {format(offsetedEndTime, "Pp")}
     </span>
   );
 };
