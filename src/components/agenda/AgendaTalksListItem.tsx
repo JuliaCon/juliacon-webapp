@@ -7,8 +7,8 @@ import { arrayToFragment } from "../../utils/react";
 import { Link } from "../core";
 import { Time, TimeRangeFormatted } from "../date";
 import { VSpace } from "../layout";
-import { addMinutes } from "date-fns";
 import { StyledMarkdown } from "../core";
+import { utcToZonedTime } from "date-fns-tz";
 
 import {
   AgendaTalksListItemQuery,
@@ -22,7 +22,7 @@ export const AgendaTalksListItem = ({
 }: {
   talkId: string;
   noTopBorder?: boolean;
-  zoneOffset: number;
+  zoneOffset: string;
 }) => {
   const { data, error, loading } = useAgendaTalksListItemQuery({
     variables: { id: talkId },
@@ -34,30 +34,8 @@ export const AgendaTalksListItem = ({
 
   const { title, abstract, startTime, endTime, speakers } = data.talk;
 
-  let startTimeDate = new Date(startTime);
-  let offsetedStartTime = addMinutes(new Date(startTime), zoneOffset);
-  let offsetedEndTime = addMinutes(new Date(endTime), zoneOffset);
-
-  function rolloverText() {
-    // Returns the text that indicates if the
-    // time has rolled over into a different getDay
-    // due to the timezone offset
-    if (
-      zoneOffset > 0 &&
-      offsetedStartTime.getDay() !== startTimeDate.getDay()
-    ) {
-      return " The next day";
-    }
-
-    if (
-      zoneOffset < 0 &&
-      offsetedStartTime.getDay() !== startTimeDate.getDay()
-    ) {
-      return " The previous day";
-    }
-
-    return "";
-  }
+  let offsetedStartTime = utcToZonedTime(startTime, zoneOffset);
+  let offsetedEndTime = utcToZonedTime(endTime, zoneOffset);
 
   const commonStyle =
     !noTopBorder &&
@@ -92,7 +70,6 @@ export const AgendaTalksListItem = ({
       >
         <p>
           <Time time={offsetedStartTime} />
-          {rolloverText()}
         </p>
       </div>
       <div
