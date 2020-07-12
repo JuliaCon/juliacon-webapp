@@ -18,5 +18,9 @@ export const Time = ({ time }: { time: Date | string }) => {
   const timezoneContext = useContext(TimezoneContext);
   const offsetedTime = utcToZonedTime(date, timezoneContext.timezone);
 
-  return <>{format(offsetedTime, "HH:mm")}</>;
+  return (
+    <>
+      {format(offsetedTime, "HH:mm")} <br /> UTC{timezoneContext.timezone}
+    </>
+  );
 };
