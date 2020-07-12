@@ -31,6 +31,8 @@ export const typeDefs = gql`
 
     speakers: [Speaker!]!
     room: Room
+
+    videoCode: String
   }
 
   type Speaker {
