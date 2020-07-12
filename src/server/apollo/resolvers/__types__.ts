@@ -90,6 +90,7 @@ export type Talk = {
   readonly endTime: Scalars["String"];
   readonly speakers: ReadonlyArray<Speaker>;
   readonly room?: Maybe<Room>;
+  readonly videoCode?: Maybe<Scalars["String"]>;
 };
 
 export enum TalkType {
@@ -337,6 +338,11 @@ export type TalkResolvers<
     ContextType
   >;
   room?: Resolver<Maybe<ResolversTypes["Room"]>, ParentType, ContextType>;
+  videoCode?: Resolver<
+    Maybe<ResolversTypes["String"]>,
+    ParentType,
+    ContextType
+  >;
   __isTypeOf?: IsTypeOfResolverFn<ParentType>;
 };
 
