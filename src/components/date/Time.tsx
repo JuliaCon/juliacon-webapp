@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useContext } from "react";
-import { parseISO, format } from "date-fns";
+import { parseISO, format, isSameDay, isBefore, isAfter } from "date-fns";
 import { utcToZonedTime } from "date-fns-tz";
 import { TimezoneContext } from "../../const";
 
@@ -18,9 +18,23 @@ export const Time = ({ time }: { time: Date | string }) => {
   const timezoneContext = useContext(TimezoneContext);
   const offsetedTime = utcToZonedTime(date, timezoneContext.timezone);
 
+  function rolloverText() {
+    if (!isSameDay(date, offsetedTime) && isBefore(date, offsetedTime)) {
+      return "The next day";
+    }
+    if (!isSameDay(date, offsetedTime) && isAfter(date, offsetedTime)) {
+      return "The previous day";
+    }
+
+    return "";
+  }
+
   return (
     <>
-      {format(offsetedTime, "HH:mm")} <br /> UTC{timezoneContext.timezone}
+      {format(offsetedTime, "HH:mm")} <br />
+      UTC{timezoneContext.timezone}
+      <br />
+      {rolloverText()}
     </>
   );
 };
