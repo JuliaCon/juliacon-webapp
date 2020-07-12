@@ -1,5 +1,8 @@
 import * as React from "react";
-import { format, parseISO } from "date-fns";
+import { useContext } from "react";
+import { parseISO, format, isSameDay, isBefore, isAfter } from "date-fns";
+import { utcToZonedTime } from "date-fns-tz";
+import { TimezoneContext } from "../../const";
 
 /**
  * Display a specific time.
@@ -12,5 +15,26 @@ import { format, parseISO } from "date-fns";
  */
 export const Time = ({ time }: { time: Date | string }) => {
   const date = typeof time === "string" ? parseISO(time) : time;
-  return <>{format(date, "HH:mm")}</>;
+  const timezoneContext = useContext(TimezoneContext);
+  const offsetedTime = utcToZonedTime(date, timezoneContext.timezone);
+
+  function rolloverText() {
+    if (!isSameDay(date, offsetedTime) && isBefore(date, offsetedTime)) {
+      return "The next day";
+    }
+    if (!isSameDay(date, offsetedTime) && isAfter(date, offsetedTime)) {
+      return "The previous day";
+    }
+
+    return "";
+  }
+
+  return (
+    <>
+      {format(offsetedTime, "HH:mm")} <br />
+      UTC{timezoneContext.timezone}
+      <br />
+      {rolloverText()}
+    </>
+  );
 };

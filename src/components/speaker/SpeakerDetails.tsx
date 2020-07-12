@@ -14,6 +14,7 @@ export const SpeakerDetails = ({ id }: { id: string }) => {
   const { data, error, loading } = useSpeakerDetailsQuery({
     variables: { id },
   });
+
   if (error) throw error;
   if (loading) return null;
 
