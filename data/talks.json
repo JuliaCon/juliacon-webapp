@@ -2064,15 +2064,15 @@
   "speakers": [
    {
     "avatar": null,
-    "name": "Mathieu Besançon",
-    "code": "DK9KDB",
-    "biography": "Mathieu is a PhD candidate in a double program between Polytechnique Montreal & INRIA Lille. His research focuses on mathematical optimization models and applications for power grids. Outside research, he also works on open-source projects around mathematical optimization, graphs and statistics."
-   },
-   {
-    "avatar": null,
     "name": "James Fairbanks",
     "code": "WPZLWJ",
     "biography": "James is a Research Engineer at the Georgia Tech Research Institute in the High Performance Computing and Data Analytics Branch. His current research involves mathematical and computational formalisms in scientific computing. Where his lab applies techniques from Machine Learning, Numerical Methods, and Applied Category Theory to analyze scientific and engineering systems."
+   },
+   {
+    "avatar": null,
+    "name": "Mathieu Besançon",
+    "code": "DK9KDB",
+    "biography": "Mathieu is a PhD candidate in a double program between Polytechnique Montreal & INRIA Lille. His research focuses on mathematical optimization models and applications for power grids. Outside research, he also works on open-source projects around mathematical optimization, graphs and statistics."
    },
    {
     "avatar": null,
