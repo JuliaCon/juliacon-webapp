@@ -1149,7 +1149,7 @@
   "duration": 10,
   "location": "Track 1",
   "id": "PARPJU",
-  "title": "Convolutional Conditional Neural Processes in Flux",
+  "title": "NeuralProcesses.jl: Composing Neural Processes with Flux",
   "url": "/talk/PARPJU",
   "index": 105,
   "speaker": "Wessel Bruinsma"
