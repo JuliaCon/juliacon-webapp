@@ -1,6 +1,7 @@
 import React from "react";
 import { css } from "emotion";
 import { format } from "date-fns";
+import YouTube, { Options as YTOptions } from "react-youtube";
 import {
   Tabs,
   TabList,
@@ -14,7 +15,6 @@ import { now } from "../../utils/time";
 import { Center } from "../layout";
 import { useLiveTalks } from "./useLiveTalks";
 import { LiveTalksTalkFragment } from "./LiveTalks.generated";
-import YouTube from "react-youtube";
 
 export const LiveTalksView = () => {
   const [time, setTime] = React.useState(() => now());
@@ -122,24 +122,34 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
     }
   }, [active]);
 
+  /*
+   * When the YouTube player is mounted, we seek to the position in the video
+   * where the user should be as if they joined the talk live.
+   *
+   * Note: There's also a `start` playerVar but it doesn't always work (e.g. if
+   * the user has already watched part of the video and comes back, it will
+   * resume where they left off).
+   */
+  const onReady = React.useCallback(
+    (event: any) => {
+      if (!mountTime) return;
+      // Calculate the offset into the video that we should be starting at.
+      // Note that we purposefully don't want to start at the beginning to try to
+      // encourage conference attendees to engage in "real time" as if they were at
+      // a physical conference. They will still be able to seek back to the
+      // beginning of the video if they are so inclined.
+      // We divide by 1000 since JS stores times in ms and we only want seconds.
+      const youtubeStart =
+        (mountTime.getTime() - new Date(talk.startTime).getTime()) / 1000;
+      event.target.seekTo(youtubeStart);
+    },
+    [mountTime, talk.startTime]
+  );
+
   if (!active || !mountTime) return null;
 
-  // Calculate the offset into the video that we should be starting at.
-  // Note that we purposefully don't want to start at the beginning to try to
-  // encourage conference attendees to engage in "real time" as if they were at
-  // a physical conference. They will still be able to seek back to the
-  // beginning of the video if they are so inclined.
-  // We divide by 1000 since JS stores times in ms and we only want seconds.
-  const youtubeStart =
-    (mountTime.getTime() - new Date(talk.startTime).getTime()) / 1000;
-
   const video = talk.videoCode ? (
-    <YouTube
-      videoId={talk.videoCode}
-      opts={{
-        playerVars: { autoplay: 1, modestbranding: 1, start: youtubeStart },
-      }}
-    />
+    <YouTube videoId={talk.videoCode} onReady={onReady} opts={YT_OPTS} />
   ) : null;
   return (
     <div
@@ -151,4 +161,11 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
       {video}
     </div>
   );
+};
+
+const YT_OPTS: YTOptions = {
+  playerVars: {
+    autoplay: 1,
+    modestbranding: 1,
+  },
 };
