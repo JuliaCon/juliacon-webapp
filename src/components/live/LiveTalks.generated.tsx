@@ -10,23 +10,31 @@ export type LiveTalksQueryVariables = Types.Exact<{
 
 export type LiveTalksQuery = { readonly __typename?: "Query" } & {
   readonly talks: ReadonlyArray<
-    { readonly __typename?: "Talk" } & Pick<
-      Types.Talk,
-      "id" | "title" | "startTime" | "endTime" | "videoCode"
-    >
+    { readonly __typename?: "Talk" } & LiveTalksTalkFragment
   >;
 };
 
+export type LiveTalksTalkFragment = { readonly __typename?: "Talk" } & Pick<
+  Types.Talk,
+  "id" | "title" | "startTime" | "endTime" | "videoCode"
+>;
+
+export const LiveTalksTalkFragmentDoc = gql`
+  fragment LiveTalksTalk on Talk {
+    id
+    title
+    startTime
+    endTime
+    videoCode
+  }
+`;
 export const LiveTalksDocument = gql`
   query LiveTalks($day: String!) {
     talks(day: $day) {
-      id
-      title
-      startTime
-      endTime
-      videoCode
+      ...LiveTalksTalk
     }
   }
+  ${LiveTalksTalkFragmentDoc}
 `;
 
 /**

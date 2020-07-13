@@ -1,9 +1,13 @@
 query LiveTalks($day: String!) {
   talks(day: $day) {
-    id
-    title
-    startTime
-    endTime
-    videoCode
+    ...LiveTalksTalk
   }
+}
+
+fragment LiveTalksTalk on Talk {
+  id
+  title
+  startTime
+  endTime
+  videoCode
 }
