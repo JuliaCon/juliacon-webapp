@@ -10,4 +10,5 @@ fragment LiveTalksTalk on Talk {
   startTime
   endTime
   videoCode
+  abstract
 }

@@ -12,7 +12,7 @@ import {
 } from "@reach/tabs";
 
 import { now } from "../../utils/time";
-import { Center } from "../layout";
+import { Center, VSpace } from "../layout";
 import { useLiveTalks } from "./useLiveTalks";
 import { LiveTalksTalkFragment } from "./LiveTalks.generated";
 
@@ -111,16 +111,40 @@ interface TalkPanelProps {
   active: boolean;
 }
 const TalkPanel = ({ active, talk }: TalkPanelProps) => {
-  const [mountTime, setMountTime] = React.useState<Date | null>(null);
+  return (
+    <div
+      className={css`
+        padding: 1rem;
+      `}
+    >
+      <Center>
+        {
+          // We need to not mount the YouTube embed until the tab has actually
+          // been opened (so that the autoseek works as expected)
+          active && <TalkYouTubeEmbed talk={talk} />
+        }
+      </Center>
+      <VSpace />
+      <Center>
+        <h1
+          className={css`
+            font-size: 1.5rem;
+          `}
+        >
+          {talk.title}
+        </h1>
+      </Center>
+      <VSpace />
+      <p>{talk.abstract}</p>
+    </div>
+  );
+};
 
-  // Reset the value of mountTime whenever the value of active changes
-  React.useEffect(() => {
-    if (active) {
-      setMountTime(now());
-    } else {
-      setMountTime(null);
-    }
-  }, [active]);
+interface TalkYouTubeEmbedProps {
+  talk: LiveTalksTalkFragment;
+}
+const TalkYouTubeEmbed = ({ talk }: TalkYouTubeEmbedProps) => {
+  const [mountTime] = React.useState<Date>(() => now());
 
   /*
    * When the YouTube player is mounted, we seek to the position in the video
@@ -132,7 +156,6 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
    */
   const onReady = React.useCallback(
     (event: any) => {
-      if (!mountTime) return;
       // Calculate the offset into the video that we should be starting at.
       // Note that we purposefully don't want to start at the beginning to try to
       // encourage conference attendees to engage in "real time" as if they were at
@@ -146,21 +169,10 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
     [mountTime, talk.startTime]
   );
 
-  if (!active || !mountTime) return null;
-
-  const video = talk.videoCode ? (
-    <YouTube videoId={talk.videoCode} onReady={onReady} opts={YT_OPTS} />
-  ) : null;
-  return (
-    <div
-      className={css`
-        padding: 1rem;
-      `}
-    >
-      <p>{talk.title}</p>
-      {video}
-    </div>
-  );
+  if (!talk.videoCode) {
+    return <p>Unable to load video for this talk.</p>;
+  }
+  return <YouTube videoId={talk.videoCode} onReady={onReady} opts={YT_OPTS} />;
 };
 
 const YT_OPTS: YTOptions = {
