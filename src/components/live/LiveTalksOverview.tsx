@@ -14,6 +14,7 @@ import { now } from "../../utils/time";
 import { Center } from "../layout";
 import { useLiveTalks } from "./useLiveTalks";
 import { LiveTalksTalkFragment } from "./LiveTalks.generated";
+import YouTube from "react-youtube";
 
 export const LiveTalksView = () => {
   const [time, setTime] = React.useState(() => now());
@@ -38,11 +39,11 @@ interface TalkSelectionTabsProps {
   index: number | undefined;
   onChange: (index: number) => void;
 }
-const TalkSelectionTabs = ({
+const TalkSelectionTabs = React.memo(function TalkSelectionTabs({
   talks,
   index,
   onChange,
-}: TalkSelectionTabsProps) => {
+}: TalkSelectionTabsProps) {
   const tabs = talks.map((talk) => <Tab key={talk.id}>{talk.title}</Tab>);
   const panels = talks.map((talk, talkIndex) => (
     <TabPanel key={talk.id}>
@@ -96,7 +97,7 @@ const TalkSelectionTabs = ({
       <TabPanels>{panels}</TabPanels>
     </Tabs>
   );
-};
+});
 
 interface TalkPanelProps {
   talk: LiveTalksTalkFragment;
@@ -110,7 +111,36 @@ interface TalkPanelProps {
   active: boolean;
 }
 const TalkPanel = ({ active, talk }: TalkPanelProps) => {
-  if (!active) return null;
+  const [mountTime, setMountTime] = React.useState<Date | null>(null);
+
+  // Reset the value of mountTime whenever the value of active changes
+  React.useEffect(() => {
+    if (active) {
+      setMountTime(now());
+    } else {
+      setMountTime(null);
+    }
+  }, [active]);
+
+  if (!active || !mountTime) return null;
+
+  // Calculate the offset into the video that we should be starting at.
+  // Note that we purposefully don't want to start at the beginning to try to
+  // encourage conference attendees to engage in "real time" as if they were at
+  // a physical conference. They will still be able to seek back to the
+  // beginning of the video if they are so inclined.
+  // We divide by 1000 since JS stores times in ms and we only want seconds.
+  const youtubeStart =
+    (mountTime.getTime() - new Date(talk.startTime).getTime()) / 1000;
+
+  const video = talk.videoCode ? (
+    <YouTube
+      videoId={talk.videoCode}
+      opts={{
+        playerVars: { autoplay: 1, modestbranding: 1, start: youtubeStart },
+      }}
+    />
+  ) : null;
   return (
     <div
       className={css`
@@ -118,6 +148,7 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
       `}
     >
       <p>{talk.title}</p>
+      {video}
     </div>
   );
 };
