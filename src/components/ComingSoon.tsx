@@ -22,9 +22,9 @@ export const ComingSoon = () => {
       </h2>
       <VSpace />
       <p>
-        Contributions welcome!{" "}
+        Please feel free to{" "}
         <a href="https://github.com/JuliaCon/juliacon-webapp">
-          Check on GitHub
+          contribute on GitHub
         </a>
       </p>
     </div>
