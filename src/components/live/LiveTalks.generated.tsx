@@ -12,7 +12,7 @@ export type LiveTalksQuery = { readonly __typename?: "Query" } & {
   readonly talks: ReadonlyArray<
     { readonly __typename?: "Talk" } & Pick<
       Types.Talk,
-      "title" | "startTime" | "endTime" | "videoCode"
+      "id" | "title" | "startTime" | "endTime" | "videoCode"
     >
   >;
 };
@@ -20,6 +20,7 @@ export type LiveTalksQuery = { readonly __typename?: "Query" } & {
 export const LiveTalksDocument = gql`
   query LiveTalks($day: String!) {
     talks(day: $day) {
+      id
       title
       startTime
       endTime

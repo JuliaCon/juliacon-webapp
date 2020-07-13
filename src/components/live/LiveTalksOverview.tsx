@@ -1,6 +1,8 @@
 import React from "react";
-import { now } from "../../utils/time";
 import { format } from "date-fns";
+
+import { now } from "../../utils/time";
+import { useLiveTalks } from "./useLiveTalks";
 
 export const LiveTalksView = () => {
   const [time, setTime] = React.useState(() => now());
@@ -9,5 +11,15 @@ export const LiveTalksView = () => {
     return () => clearInterval(interval);
   });
 
-  return <p>{format(time, "HH:mm")}</p>;
+  const talks = useLiveTalks(time);
+
+  return (
+    <div>
+      <p>{format(time, "yyyy-MM-dd HH:mm")}</p>
+      <h1>Current Talks</h1>
+      {talks.map((talk) => (
+        <p key={talk.id}>{talk.title}</p>
+      ))}
+    </div>
+  );
 };

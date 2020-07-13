@@ -1,7 +1,8 @@
 import { NextPage } from "next";
 import { Page } from "../../components/site";
-import { LiveTalksView } from "../../components/live/LiveTalksOverview";
+import { LiveTalksView } from "../../components/live";
 import React from "react";
+import { withApollo } from "../../apollo";
 
 const TestLivePage: NextPage = () => {
   return (
@@ -11,4 +12,4 @@ const TestLivePage: NextPage = () => {
   );
 };
 
-export default TestLivePage;
+export default withApollo()(TestLivePage);

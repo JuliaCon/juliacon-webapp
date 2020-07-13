@@ -1,5 +1,6 @@
 query LiveTalks($day: String!) {
   talks(day: $day) {
+    id
     title
     startTime
     endTime
