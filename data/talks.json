@@ -394,37 +394,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "7ZJCPC",
-  "track": null,
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Chad Scherrer",
-    "code": "A7PDM3",
-    "biography": "Chad Scherrer is a Senior Research Scientist at [RelationalAI](https://www.relational.ai/).\r\n\r\nChad's work in probabilistic programming began in 2010, leading to the development of [Passage](https://cscherrer.github.io/pdf/Scherrer%20-%202012%20-%20Passage%20A%20Parallel%20Sampler%20Generator%20for%20Hierarchical%20Bayesian%20Modeling.pdf), a Haskell-based language to generate parallel C/OpenMP code for Gibbs sampling. Following this, he served as technical lead for the language evaluation team for the DARPA program \"Probabilistic Programming for Advancing Machine Learning\"."
-   }
-  ],
-  "description": "[Soss](https://github.com/cscherrer/Soss.jl) is a declarative probabilistic programming language (PPL) that represents statistical models in terms of abstract syntax trees, and uses staged compilation for on-demand code generation for inference primitives. This allows efficient code, while retaining simplicity for casual users.\r\n\r\nMany characteristics of Soss distinguish it from most other PPLs:\r\n\r\n- Soss models are _function-like_, so a model works as a function from its arguments to a joint distribution. In particular, specification of \"observed variables\" is separated from model definition.\r\n- Soss models are _first-class_; models can be passed as arguments to other models, or used in place of distribution functions like `Normal` within a model.\r\n- Model specification in Soss is _declarative_; statements are represented not by the order entered by the user, but by the partial order given by their variable dependencies. \r\n- Soss adds several of _distribution combinators_ for building new distributions in terms of existing ones.\r\n- Soss supports _causal inference_ through an implementation of [Pearl's `do` operator](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/)\r\n- Values and distributions in Soss are represented internally as _abstract syntax trees_, keeping the internal representation close to that given by the user for maximum flexibility.\r\n- Soss uses _staged compilation_ for inference primitives like `rand` and `logpdf`, using _generalized generated functions_ from [GeneralizedGenerated.jl](https://github.com/thautwarm/GeneralizedGenerated.jl).\r\n- Soss supports _model transformations_, functions that take a model and return another model.\r\n- Soss supports _symbolic simplification_, making it easy to inspect or manipulate a symbolic representation of the log-density, or to use it to generate optimized code.\r\n- Soss is _extensible_; users can define new inference primitives or model transformations externally, and use them as if they had been included in Soss. , and can also also use functions, distributions, or combinators defined locally by users, without modifying the Soss library.\r\n\r\nIn this talk, we'll introduce Soss and describe these features through simplified causal analysis of a small data set.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2020-07-30T18:00:00Z",
-   "room": {
-    "en": "Purple Track"
-   },
-   "end": "2020-07-30T18:30:00Z"
-  },
-  "submission_type": "Talk",
-  "resources": [],
-  "do_not_record": false,
-  "title": "Causal Bayesian Inference with Soss.jl",
-  "abstract": "[Soss](https://github.com/cscherrer/Soss.jl) is a declarative probabilistic programming language (PPL) that represents statistical models in terms of abstract syntax trees, and uses staged compilation for on-demand code generation for inference primitives. This allows efficient code, while retaining simplicity for casual users."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "87JCMX",
   "track": null,
   "state": "confirmed",
@@ -1085,11 +1054,11 @@
   "image": "https://pretalx.com/media/juliacon2020/submissions/AQMLUC/Screen_Shot_2020-03-14_at_10.30.29_PM_F2Av4QC.png",
   "slot_count": 1,
   "slot": {
-   "start": "2020-07-30T19:30:00Z",
+   "start": "2020-07-30T18:00:00Z",
    "room": {
-    "en": "Green Track"
+    "en": "Purple Track"
    },
-   "end": "2020-07-30T20:00:00Z"
+   "end": "2020-07-30T18:30:00Z"
   },
   "submission_type": "Talk",
   "resources": [],
@@ -3714,7 +3683,7 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Write a WebApp in Julia with Dashboards.jl",
+  "title": "Write a WebApp in Julia with Dash.jl",
   "abstract": "For many scientific workflows, and easy way to publish results interactively to the browser is very useful. However, most web frameworks have a steep learning curve, and involve knowledge of multiple languages and technologies. In this talk, we will show you how to create web applications in pure Julia, without any javascript or html using Dashboards.jl."
  },
  {
