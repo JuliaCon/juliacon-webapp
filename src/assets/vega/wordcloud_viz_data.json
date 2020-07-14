@@ -3071,13 +3071,6 @@
   ]
  },
  {
-  "text": "sonums",
-  "count": 3,
-  "talks": [
-   71
-  ]
- },
- {
   "text": "internal",
   "count": 11,
   "talks": [
@@ -11728,7 +11721,7 @@
  },
  {
   "text": "stochastic",
-  "count": 17,
+  "count": 16,
   "talks": [
    8,
    18,
@@ -13546,7 +13539,7 @@
  },
  {
   "text": "provide",
-  "count": 71,
+  "count": 70,
   "talks": [
    2,
    5,
@@ -13571,7 +13564,6 @@
    65,
    67,
    70,
-   71,
    74,
    77,
    78,
@@ -14661,12 +14653,11 @@
  },
  {
   "text": "difficult",
-  "count": 10,
+  "count": 9,
   "talks": [
    13,
    32,
    51,
-   71,
    82,
    95,
    120
@@ -15364,11 +15355,12 @@
   ]
  },
  {
-  "text": "difficult implement",
-  "count": 12,
+  "text": "widepread",
+  "count": 3,
   "talks": [
-   71,
-   82
+   37,
+   83,
+   135
   ]
  },
  {
@@ -15378,15 +15370,6 @@
    1,
    60,
    148
-  ]
- },
- {
-  "text": "widepread",
-  "count": 3,
-  "talks": [
-   37,
-   83,
-   135
   ]
  },
  {
@@ -15866,7 +15849,7 @@
  },
  {
   "text": "rounding",
-  "count": 5,
+  "count": 4,
   "talks": [
    71
   ]
@@ -17788,7 +17771,7 @@
  },
  {
   "text": "data",
-  "count": 183,
+  "count": 182,
   "talks": [
    5,
    12,
@@ -18489,7 +18472,7 @@
  },
  {
   "text": "perspective",
-  "count": 11,
+  "count": 10,
   "talks": [
    7,
    20,
@@ -18614,7 +18597,7 @@
  },
  {
   "text": "implement",
-  "count": 24,
+  "count": 23,
   "talks": [
    30,
    33,
@@ -18624,7 +18607,6 @@
    56,
    57,
    62,
-   71,
    74,
    80,
    82,
@@ -21277,7 +21259,7 @@
  },
  {
   "text": "hardware",
-  "count": 14,
+  "count": 13,
   "talks": [
    51,
    71,

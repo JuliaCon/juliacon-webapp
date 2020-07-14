@@ -2406,11 +2406,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2020-07-31T15:05:00Z",
+   "start": "2020-07-29T15:05:00Z",
    "room": {
     "en": "Track 1"
    },
-   "end": "2020-07-31T15:10:00Z"
+   "end": "2020-07-29T15:10:00Z"
   },
   "submission_type": {
    "en": "Sponsor Talk"
@@ -2565,7 +2565,7 @@
     "biography": "Sun is shining"
    }
   ],
-  "description": "The need for high precision calculations with 64bit floating-point numbers for weather and climate models has been questioned. Lower precision numbers can accelerate simulations and are increasingly supported by modern computing architecture. Posit numbers, a recently proposed alternative to floating-point numbers, claim to have smaller arithmetic rounding errors in many applications. As a standardized posit processor does not exist yet, we emulate posit arithmetic with SoftPosit.jl on a conventional processor. Julia’s type-flexibility easily allows to test benefits of posits compared to floats at 16bit in the Lorenz system, with ShallowWaters.jl and in Oceananigans.jl. We show that forecasts based on posits are clearly more accurate than floats. Mixing 16bit arithmetic with 32bit for critical computations strongly reduces errors and is promising for present-day float-based hardware. Reduced precision communication of boundary values with 16 or 8bit encoded as floats or posits introduces negligible errors, presenting a perspective for reduced data communication within a computer cluster.  Stochastic rounding modes, that are exact in expectation, are found to improve simulations at 16bit and mimic uncertainties. Algorithmic bottlenecks with low precision are identified using Sherlogs.jl to facilitate the transition towards 16bit arithmetic. We analyse algorithms form an information theory perspective to find the best number format for a given application. This approach led the the development of Sonums.jl, a number format that is optimal once trained on data to minimize the rounding error. Although difficult to implement in hardware, we provide perspectives for Sonums in data compression. The results promote the potential of 16bit formats for at least parts of complex weather and climate models, where rounding errors would be entirely masked by intitial condition, model or discretization error.\r\n\r\nCo-authored by\r\n- Ali Ramadhan, MIT, Cambridge, USA\r\n- Peter Dueben, ECMWF, Reading, UK\r\n- Tim Palmer, University of Oxford, UK",
+  "description": "The need for high precision calculations with 64bit floating-point numbers for weather and climate models has been questioned. Lower precision numbers can accelerate simulations and are increasingly supported by modern computing architecture. Posit numbers, a recently proposed alternative to floating-point numbers, claim to have smaller arithmetic rounding errors in many applications. As a standardized posit processor does not exist yet, we emulate posit arithmetic with SoftPosit.jl on a conventional processor. Julia’s type-flexibility easily allows to test benefits of posits compared to floats at 16bit in the Lorenz system and in ShallowWaters.jl. We show that forecasts based on posits are clearly more accurate than floats. Mixing 16 bit arithmetic with 32 bit for critical computations strongly reduces errors and is promising for present-day float-based hardware. Reduced precision communication of boundary values with 16 or 8-bit encoded as floats or posits introduces negligible errors, presenting a perspective for reduced data communication within a computer cluster.  Stochastic rounding modes, that are exact in expectation, are found to improve simulations at 16-bit and mimic uncertainties. Algorithmic bottlenecks with low precision are identified using Sherlogs.jl to facilitate the transition towards 16-bit arithmetic. We analyse algorithms form an information theory perspective to find the best number format for a given application. This approach led the the development of Sonums.jl, a number format that is optimal once trained on data to minimize the rounding error. The results promote the potential of 16-bit formats for at least parts of complex weather and climate models, where rounding errors would be entirely masked by intitial condition, model or discretization error.\r\n\r\nCo-authored by\r\n- Peter Dueben, ECMWF, Reading, UK\r\n- Tim Palmer, University of Oxford, UK",
   "image": "https://pretalx.com/media/juliacon2020/submissions/JPGZK3/sst_YGBX243.png",
   "slot_count": 1,
   "slot": {
@@ -2581,7 +2581,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Climate models in 16bit: Arithmetic and algorithmic challenges",
-  "abstract": "Powered by Julia’s type-flexibility, various posit and float arithmetics are tested in ShallowWaters.jl and Oceananigans.jl for perspectives to accelerate climate models on modern computing architecture in 16bit, using either deterministic or stochastic rounding. Algorithmic bottlenecks with low precision are identified and information theory is used to find the best number format for a given algorithm, which led to the development of Sonums.jl – a number format that learns from data."
+  "abstract": "Powered by Julia’s type-flexibility, various posit and float arithmetics are tested in ShallowWaters.jl for perspectives to accelerate climate models on modern computing architecture in 16 bit, using either deterministic or StochasticRounding.jl. Algorithmic bottlenecks with low precision are identified and information theory is used to find the best number format for a given algorithm, which led to the development of Sonums.jl – a number format that learns from data."
  },
  {
   "content_locale": "en",
