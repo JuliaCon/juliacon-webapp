@@ -1,12 +1,12 @@
 import * as React from "react";
 import { css, cx } from "emotion";
-
 import { interleaveMap } from "../../utils/array";
 import { desktopOnly, mobileOnly } from "../../utils/css";
 import { arrayToFragment } from "../../utils/react";
 import { Link } from "../core";
 import { Time, TimeRangeFormatted } from "../date";
 import { VSpace } from "../layout";
+import { StyledMarkdown } from "../core";
 
 import {
   AgendaTalksListItemQuery,
@@ -73,13 +73,15 @@ export const AgendaTalksListItem = ({
           flex: 1;
         `}
       >
-        <h4
-          className={css`
-            font-weight: bold;
-          `}
-        >
-          {title}
-        </h4>
+        <Link href="/talk/[id]" as={`/talk/${talkId}`}>
+          <h4
+            className={css`
+              font-weight: bold;
+            `}
+          >
+            {title}
+          </h4>
+        </Link>
         <VSpace height={"0.25em"} />
         <div
           className={css`
@@ -104,7 +106,7 @@ export const AgendaTalksListItem = ({
           <AgendaTalksListItemSpeakers speakers={speakers} />
         </div>
         <VSpace />
-        <p>{abstract}</p>
+        {abstract && <StyledMarkdown source={abstract} />}
       </div>
     </div>
   );
@@ -112,7 +114,7 @@ export const AgendaTalksListItem = ({
 
 type TalkData = NonNullable<AgendaTalksListItemQuery["talk"]>;
 type TalkSpeakers = TalkData["speakers"];
-const AgendaTalksListItemSpeakers = ({
+export const AgendaTalksListItemSpeakers = ({
   speakers,
 }: {
   speakers: TalkSpeakers;

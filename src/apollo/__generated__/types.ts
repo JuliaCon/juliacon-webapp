@@ -79,6 +79,7 @@ export type Talk = {
   endTime: Scalars["String"];
   speakers: Array<Speaker>;
   room?: Maybe<Room>;
+  videoCode?: Maybe<Scalars["String"]>;
 };
 
 export enum TalkType {

@@ -20,7 +20,7 @@
   "slot": {
    "start": "2020-07-30T13:30:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T14:00:00Z"
   },
@@ -84,7 +84,7 @@
   "slot": {
    "start": "2020-07-29T18:40:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T18:50:00Z"
   },
@@ -117,7 +117,7 @@
   "slot": {
    "start": "2020-07-30T16:20:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T16:30:00Z"
   },
@@ -150,7 +150,7 @@
   "slot": {
    "start": "2020-07-29T18:40:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T18:50:00Z"
   },
@@ -183,7 +183,7 @@
   "slot": {
    "start": "2020-07-30T17:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T17:40:00Z"
   },
@@ -216,7 +216,7 @@
   "slot": {
    "start": "2020-07-30T19:20:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T19:30:00Z"
   },
@@ -249,7 +249,7 @@
   "slot": {
    "start": "2020-07-31T12:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T13:00:00Z"
   },
@@ -280,7 +280,7 @@
   "slot": {
    "start": "2020-07-28T14:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-28T17:30:00Z"
   },
@@ -313,7 +313,7 @@
   "slot": {
    "start": "2020-07-29T17:30:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T17:40:00Z"
   },
@@ -346,7 +346,7 @@
   "slot": {
    "start": "2020-07-30T15:10:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T15:55:00Z"
   },
@@ -379,7 +379,7 @@
   "slot": {
    "start": "2020-07-31T19:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T19:10:00Z"
   },
@@ -390,37 +390,6 @@
   "do_not_record": false,
   "title": "Makie.jl",
   "abstract": "All the news about Makie! WebGL, layouts, widgets, recipes and more!"
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "7ZJCPC",
-  "track": null,
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Chad Scherrer",
-    "code": "A7PDM3",
-    "biography": "Chad Scherrer is a Senior Research Scientist at [RelationalAI](https://www.relational.ai/).\r\n\r\nChad's work in probabilistic programming began in 2010, leading to the development of [Passage](https://cscherrer.github.io/pdf/Scherrer%20-%202012%20-%20Passage%20A%20Parallel%20Sampler%20Generator%20for%20Hierarchical%20Bayesian%20Modeling.pdf), a Haskell-based language to generate parallel C/OpenMP code for Gibbs sampling. Following this, he served as technical lead for the language evaluation team for the DARPA program \"Probabilistic Programming for Advancing Machine Learning\"."
-   }
-  ],
-  "description": "[Soss](https://github.com/cscherrer/Soss.jl) is a declarative probabilistic programming language (PPL) that represents statistical models in terms of abstract syntax trees, and uses staged compilation for on-demand code generation for inference primitives. This allows efficient code, while retaining simplicity for casual users.\r\n\r\nMany characteristics of Soss distinguish it from most other PPLs:\r\n\r\n- Soss models are _function-like_, so a model works as a function from its arguments to a joint distribution. In particular, specification of \"observed variables\" is separated from model definition.\r\n- Soss models are _first-class_; models can be passed as arguments to other models, or used in place of distribution functions like `Normal` within a model.\r\n- Model specification in Soss is _declarative_; statements are represented not by the order entered by the user, but by the partial order given by their variable dependencies. \r\n- Soss adds several of _distribution combinators_ for building new distributions in terms of existing ones.\r\n- Soss supports _causal inference_ through an implementation of [Pearl's `do` operator](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/)\r\n- Values and distributions in Soss are represented internally as _abstract syntax trees_, keeping the internal representation close to that given by the user for maximum flexibility.\r\n- Soss uses _staged compilation_ for inference primitives like `rand` and `logpdf`, using _generalized generated functions_ from [GeneralizedGenerated.jl](https://github.com/thautwarm/GeneralizedGenerated.jl).\r\n- Soss supports _model transformations_, functions that take a model and return another model.\r\n- Soss supports _symbolic simplification_, making it easy to inspect or manipulate a symbolic representation of the log-density, or to use it to generate optimized code.\r\n- Soss is _extensible_; users can define new inference primitives or model transformations externally, and use them as if they had been included in Soss. , and can also also use functions, distributions, or combinators defined locally by users, without modifying the Soss library.\r\n\r\nIn this talk, we'll introduce Soss and describe these features through simplified causal analysis of a small data set.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2020-07-30T18:00:00Z",
-   "room": {
-    "en": "Track 3"
-   },
-   "end": "2020-07-30T18:30:00Z"
-  },
-  "submission_type": "Talk",
-  "resources": [],
-  "do_not_record": false,
-  "title": "Causal Bayesian Inference with Soss.jl",
-  "abstract": "[Soss](https://github.com/cscherrer/Soss.jl) is a declarative probabilistic programming language (PPL) that represents statistical models in terms of abstract syntax trees, and uses staged compilation for on-demand code generation for inference primitives. This allows efficient code, while retaining simplicity for casual users."
  },
  {
   "content_locale": "en",
@@ -443,7 +412,7 @@
   "slot": {
    "start": "2020-07-29T13:40:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T13:50:00Z"
   },
@@ -476,7 +445,7 @@
   "slot": {
    "start": "2020-07-30T18:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T18:40:00Z"
   },
@@ -560,7 +529,7 @@
   "slot": {
    "start": "2020-07-30T13:00:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T13:30:00Z"
   },
@@ -591,7 +560,7 @@
   "slot": {
    "start": "2020-07-27T14:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-27T17:30:00Z"
   },
@@ -624,7 +593,7 @@
   "slot": {
    "start": "2020-07-30T16:50:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T17:00:00Z"
   },
@@ -657,7 +626,7 @@
   "slot": {
    "start": "2020-07-29T12:30:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T12:40:00Z"
   },
@@ -690,7 +659,7 @@
   "slot": {
    "start": "2020-07-30T13:30:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T14:00:00Z"
   },
@@ -721,7 +690,7 @@
   "slot": {
    "start": "2020-07-29T16:10:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T17:40:00Z"
   },
@@ -742,7 +711,7 @@
   "duration": 10,
   "speakers": [
    {
-    "avatar": "https://pretalx.com/media/avatars/gcdprofile_4ompiAL.jpg",
+    "avatar": null,
     "name": "Gajendra Deshpande",
     "code": "CPJQQS",
     "biography": "Mr. Gajendra Deshpande holds a master's degree in Computer Science and Engineering and working as Assistant Professor at the Department of Computer Science and Engineering, KLS Gogte Institute of Technology, Belagavi, Karnataka, India.  He has a teaching experience of 12 years and Linux and Network Administration experience of one year. Under his mentorship teams have won Smart India Hackathon 2018 and Smart India Hackathon 2019. He is the Technical Director for Sestoauto Networks Pvt. Ltd. and Founder of Thingsvalley. His areas of Interest include Programming, Web Designing, Cyber Security, Artificial Intelligence, Machine Learning, Brain-Computer Interface, Internet of Things and Virtual Reality. He has presented papers at NIT Goa, Scipy India 2017 IIT Bombay, JuliaCon 2018 London, Scipy India 2018 IIT Bombay, Scipy 2019 USA and PyCon France 2019."
@@ -754,7 +723,7 @@
   "slot": {
    "start": "2020-07-31T13:30:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T13:40:00Z"
   },
@@ -787,7 +756,7 @@
   "slot": {
    "start": "2020-07-30T19:10:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T19:20:00Z"
   },
@@ -826,7 +795,7 @@
   "slot": {
    "start": "2020-07-25T14:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-25T17:30:00Z"
   },
@@ -874,6 +843,32 @@
  {
   "content_locale": "en",
   "is_featured": false,
+  "code": "9XN9AW",
+  "track": null,
+  "state": "confirmed",
+  "duration": 5,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2020-07-30T17:30:00Z",
+   "room": {
+    "en": "Red Track"
+   },
+   "end": "2020-07-30T17:35:00Z"
+  },
+  "submission_type": {
+   "en": "Sponsor Talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Zapata",
+  "abstract": "Some words from our sponsor"
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
   "code": "AA8CQU",
   "track": null,
   "state": "confirmed",
@@ -892,7 +887,7 @@
   "slot": {
    "start": "2020-07-29T13:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T13:10:00Z"
   },
@@ -925,7 +920,7 @@
   "slot": {
    "start": "2020-07-29T13:50:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T14:00:00Z"
   },
@@ -958,7 +953,7 @@
   "slot": {
    "start": "2020-07-29T13:10:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T13:40:00Z"
   },
@@ -989,7 +984,7 @@
   "slot": {
    "start": "2020-07-29T13:40:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T13:50:00Z"
   },
@@ -1028,7 +1023,7 @@
   "slot": {
    "start": "2020-07-30T12:40:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T12:50:00Z"
   },
@@ -1059,11 +1054,11 @@
   "image": "https://pretalx.com/media/juliacon2020/submissions/AQMLUC/Screen_Shot_2020-03-14_at_10.30.29_PM_F2Av4QC.png",
   "slot_count": 1,
   "slot": {
-   "start": "2020-07-30T19:30:00Z",
+   "start": "2020-07-30T18:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Purple Track"
    },
-   "end": "2020-07-30T20:00:00Z"
+   "end": "2020-07-30T18:30:00Z"
   },
   "submission_type": "Talk",
   "resources": [],
@@ -1092,7 +1087,7 @@
   "slot": {
    "start": "2020-07-29T16:20:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T16:30:00Z"
   },
@@ -1125,7 +1120,7 @@
   "slot": {
    "start": "2020-07-31T16:10:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T16:40:00Z"
   },
@@ -1156,7 +1151,7 @@
   "slot": {
    "start": "2020-07-31T19:10:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T19:20:00Z"
   },
@@ -1189,7 +1184,7 @@
   "slot": {
    "start": "2020-07-30T16:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T16:40:00Z"
   },
@@ -1222,7 +1217,7 @@
   "slot": {
    "start": "2020-07-26T14:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-26T17:30:00Z"
   },
@@ -1288,7 +1283,7 @@
   "slot": {
    "start": "2020-07-29T12:50:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T13:00:00Z"
   },
@@ -1321,7 +1316,7 @@
   "slot": {
    "start": "2020-07-29T17:20:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T17:30:00Z"
   },
@@ -1354,7 +1349,7 @@
   "slot": {
    "start": "2020-07-29T13:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T14:00:00Z"
   },
@@ -1391,7 +1386,7 @@
   "slot": {
    "start": "2020-07-28T14:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-28T17:30:00Z"
   },
@@ -1424,7 +1419,7 @@
   "slot": {
    "start": "2020-07-29T12:40:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T12:50:00Z"
   },
@@ -1457,7 +1452,7 @@
   "slot": {
    "start": "2020-07-31T13:00:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T13:10:00Z"
   },
@@ -1490,7 +1485,7 @@
   "slot": {
    "start": "2020-07-30T16:20:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T16:30:00Z"
   },
@@ -1523,7 +1518,7 @@
   "slot": {
    "start": "2020-07-30T18:30:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T19:00:00Z"
   },
@@ -1565,7 +1560,7 @@
   "slot": {
    "start": "2020-07-29T15:20:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T15:50:00Z"
   },
@@ -1596,7 +1591,7 @@
   "slot": {
    "start": "2020-07-30T12:50:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T13:00:00Z"
   },
@@ -1629,7 +1624,7 @@
   "slot": {
    "start": "2020-07-30T18:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T18:30:00Z"
   },
@@ -1660,7 +1655,7 @@
   "slot": {
    "start": "2020-07-31T13:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T13:40:00Z"
   },
@@ -1693,7 +1688,7 @@
   "slot": {
    "start": "2020-07-31T17:20:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T17:30:00Z"
   },
@@ -1726,7 +1721,7 @@
   "slot": {
    "start": "2020-07-31T13:20:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T13:30:00Z"
   },
@@ -1777,7 +1772,7 @@
   "slot": {
    "start": "2020-07-30T18:40:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T18:50:00Z"
   },
@@ -1849,7 +1844,7 @@
   "slot": {
    "start": "2020-07-31T13:50:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T14:00:00Z"
   },
@@ -1882,7 +1877,7 @@
   "slot": {
    "start": "2020-07-29T13:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T13:30:00Z"
   },
@@ -1919,7 +1914,7 @@
   "slot": {
    "start": "2020-07-29T16:20:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T16:50:00Z"
   },
@@ -1950,7 +1945,7 @@
   "slot": {
    "start": "2020-07-30T12:50:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T13:00:00Z"
   },
@@ -1983,7 +1978,7 @@
   "slot": {
    "start": "2020-07-30T16:30:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T16:40:00Z"
   },
@@ -2016,7 +2011,7 @@
   "slot": {
    "start": "2020-07-31T12:50:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T13:00:00Z"
   },
@@ -2038,15 +2033,15 @@
   "speakers": [
    {
     "avatar": null,
-    "name": "Mathieu Besançon",
-    "code": "DK9KDB",
-    "biography": "Mathieu is a PhD candidate in a double program between Polytechnique Montreal & INRIA Lille. His research focuses on mathematical optimization models and applications for power grids. Outside research, he also works on open-source projects around mathematical optimization, graphs and statistics."
-   },
-   {
-    "avatar": null,
     "name": "James Fairbanks",
     "code": "WPZLWJ",
     "biography": "James is a Research Engineer at the Georgia Tech Research Institute in the High Performance Computing and Data Analytics Branch. His current research involves mathematical and computational formalisms in scientific computing. Where his lab applies techniques from Machine Learning, Numerical Methods, and Applied Category Theory to analyze scientific and engineering systems."
+   },
+   {
+    "avatar": null,
+    "name": "Mathieu Besançon",
+    "code": "DK9KDB",
+    "biography": "Mathieu is a PhD candidate in a double program between Polytechnique Montreal & INRIA Lille. His research focuses on mathematical optimization models and applications for power grids. Outside research, he also works on open-source projects around mathematical optimization, graphs and statistics."
    },
    {
     "avatar": null,
@@ -2061,7 +2056,7 @@
   "slot": {
    "start": "2020-07-24T14:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-24T17:30:00Z"
   },
@@ -2094,7 +2089,7 @@
   "slot": {
    "start": "2020-07-30T12:40:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T12:50:00Z"
   },
@@ -2127,7 +2122,7 @@
   "slot": {
    "start": "2020-07-29T18:30:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T18:40:00Z"
   },
@@ -2160,7 +2155,7 @@
   "slot": {
    "start": "2020-07-29T13:30:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T13:40:00Z"
   },
@@ -2199,7 +2194,7 @@
   "slot": {
    "start": "2020-07-30T12:30:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T12:40:00Z"
   },
@@ -2232,7 +2227,7 @@
   "slot": {
    "start": "2020-07-31T16:10:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T16:40:00Z"
   },
@@ -2263,7 +2258,7 @@
   "slot": {
    "start": "2020-07-31T13:20:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T13:30:00Z"
   },
@@ -2296,7 +2291,7 @@
   "slot": {
    "start": "2020-07-30T19:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T19:30:00Z"
   },
@@ -2327,7 +2322,7 @@
   "slot": {
    "start": "2020-07-30T13:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T13:30:00Z"
   },
@@ -2358,7 +2353,7 @@
   "slot": {
    "start": "2020-07-30T18:30:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T19:00:00Z"
   },
@@ -2367,6 +2362,32 @@
   "do_not_record": false,
   "title": "DynamicPPL: Stan-like Speed for Dynamic Probabilistic Models",
   "abstract": "We present DynamicPPL.jl, a modular library providing a lightning-fast infrastructure for probabilistic programming and Bayesian inference, used in Turing.jl. DynamicPPL enables Turing to have C/Stan-like speeds for Bayesian inference involving static and dynamic models alike. Beside run-time speed, DynamicPPL provides a user-friendly domain-specific language for defining and then querying probabilistic models."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "HZRHEL",
+  "track": null,
+  "state": "confirmed",
+  "duration": 5,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2020-07-29T15:05:00Z",
+   "room": {
+    "en": "Red Track"
+   },
+   "end": "2020-07-29T15:10:00Z"
+  },
+  "submission_type": {
+   "en": "Sponsor Talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Julia Computing",
+  "abstract": "Some words from our sponsors"
  },
  {
   "content_locale": "en",
@@ -2389,7 +2410,7 @@
   "slot": {
    "start": "2020-07-30T12:50:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T13:00:00Z"
   },
@@ -2422,7 +2443,7 @@
   "slot": {
    "start": "2020-07-29T18:00:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T18:30:00Z"
   },
@@ -2453,7 +2474,7 @@
   "slot": {
    "start": "2020-07-31T13:50:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T14:00:00Z"
   },
@@ -2486,7 +2507,7 @@
   "slot": {
    "start": "2020-07-29T18:50:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T19:00:00Z"
   },
@@ -2513,13 +2534,13 @@
     "biography": "Sun is shining"
    }
   ],
-  "description": "The need for high precision calculations with 64bit floating-point numbers for weather and climate models has been questioned. Lower precision numbers can accelerate simulations and are increasingly supported by modern computing architecture. Posit numbers, a recently proposed alternative to floating-point numbers, claim to have smaller arithmetic rounding errors in many applications. As a standardized posit processor does not exist yet, we emulate posit arithmetic with SoftPosit.jl on a conventional processor. Julia’s type-flexibility easily allows to test benefits of posits compared to floats at 16bit in the Lorenz system, with ShallowWaters.jl and in Oceananigans.jl. We show that forecasts based on posits are clearly more accurate than floats. Mixing 16bit arithmetic with 32bit for critical computations strongly reduces errors and is promising for present-day float-based hardware. Reduced precision communication of boundary values with 16 or 8bit encoded as floats or posits introduces negligible errors, presenting a perspective for reduced data communication within a computer cluster.  Stochastic rounding modes, that are exact in expectation, are found to improve simulations at 16bit and mimic uncertainties. Algorithmic bottlenecks with low precision are identified using Sherlogs.jl to facilitate the transition towards 16bit arithmetic. We analyse algorithms form an information theory perspective to find the best number format for a given application. This approach led the the development of Sonums.jl, a number format that is optimal once trained on data to minimize the rounding error. Although difficult to implement in hardware, we provide perspectives for Sonums in data compression. The results promote the potential of 16bit formats for at least parts of complex weather and climate models, where rounding errors would be entirely masked by intitial condition, model or discretization error.\r\n\r\nCo-authored by\r\n- Ali Ramadhan, MIT, Cambridge, USA\r\n- Peter Dueben, ECMWF, Reading, UK\r\n- Tim Palmer, University of Oxford, UK",
+  "description": "The need for high precision calculations with 64bit floating-point numbers for weather and climate models has been questioned. Lower precision numbers can accelerate simulations and are increasingly supported by modern computing architecture. Posit numbers, a recently proposed alternative to floating-point numbers, claim to have smaller arithmetic rounding errors in many applications. As a standardized posit processor does not exist yet, we emulate posit arithmetic with SoftPosit.jl on a conventional processor. Julia’s type-flexibility easily allows to test benefits of posits compared to floats at 16bit in the Lorenz system and in ShallowWaters.jl. We show that forecasts based on posits are clearly more accurate than floats. Mixing 16 bit arithmetic with 32 bit for critical computations strongly reduces errors and is promising for present-day float-based hardware. Reduced precision communication of boundary values with 16 or 8-bit encoded as floats or posits introduces negligible errors, presenting a perspective for reduced data communication within a computer cluster.  Stochastic rounding modes, that are exact in expectation, are found to improve simulations at 16-bit and mimic uncertainties. Algorithmic bottlenecks with low precision are identified using Sherlogs.jl to facilitate the transition towards 16-bit arithmetic. We analyse algorithms form an information theory perspective to find the best number format for a given application. This approach led the the development of Sonums.jl, a number format that is optimal once trained on data to minimize the rounding error. The results promote the potential of 16-bit formats for at least parts of complex weather and climate models, where rounding errors would be entirely masked by intitial condition, model or discretization error.\r\n\r\nCo-authored by\r\n- Peter Dueben, ECMWF, Reading, UK\r\n- Tim Palmer, University of Oxford, UK",
   "image": "https://pretalx.com/media/juliacon2020/submissions/JPGZK3/sst_YGBX243.png",
   "slot_count": 1,
   "slot": {
    "start": "2020-07-31T13:20:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T13:30:00Z"
   },
@@ -2529,7 +2550,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Climate models in 16bit: Arithmetic and algorithmic challenges",
-  "abstract": "Powered by Julia’s type-flexibility, various posit and float arithmetics are tested in ShallowWaters.jl and Oceananigans.jl for perspectives to accelerate climate models on modern computing architecture in 16bit, using either deterministic or stochastic rounding. Algorithmic bottlenecks with low precision are identified and information theory is used to find the best number format for a given algorithm, which led to the development of Sonums.jl – a number format that learns from data."
+  "abstract": "Powered by Julia’s type-flexibility, various posit and float arithmetics are tested in ShallowWaters.jl for perspectives to accelerate climate models on modern computing architecture in 16 bit, using either deterministic or StochasticRounding.jl. Algorithmic bottlenecks with low precision are identified and information theory is used to find the best number format for a given algorithm, which led to the development of Sonums.jl – a number format that learns from data."
  },
  {
   "content_locale": "en",
@@ -2552,7 +2573,7 @@
   "slot": {
    "start": "2020-07-29T18:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T18:30:00Z"
   },
@@ -2583,7 +2604,7 @@
   "slot": {
    "start": "2020-07-30T16:40:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T17:10:00Z"
   },
@@ -2614,7 +2635,7 @@
   "slot": {
    "start": "2020-07-31T17:10:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T17:40:00Z"
   },
@@ -2645,7 +2666,7 @@
   "slot": {
    "start": "2020-07-29T12:40:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T12:50:00Z"
   },
@@ -2666,7 +2687,7 @@
   "duration": 30,
   "speakers": [
    {
-    "avatar": "https://pretalx.com/media/avatars/gcdprofile_4ompiAL.jpg",
+    "avatar": null,
     "name": "Gajendra Deshpande",
     "code": "CPJQQS",
     "biography": "Mr. Gajendra Deshpande holds a master's degree in Computer Science and Engineering and working as Assistant Professor at the Department of Computer Science and Engineering, KLS Gogte Institute of Technology, Belagavi, Karnataka, India.  He has a teaching experience of 12 years and Linux and Network Administration experience of one year. Under his mentorship teams have won Smart India Hackathon 2018 and Smart India Hackathon 2019. He is the Technical Director for Sestoauto Networks Pvt. Ltd. and Founder of Thingsvalley. His areas of Interest include Programming, Web Designing, Cyber Security, Artificial Intelligence, Machine Learning, Brain-Computer Interface, Internet of Things and Virtual Reality. He has presented papers at NIT Goa, Scipy India 2017 IIT Bombay, JuliaCon 2018 London, Scipy India 2018 IIT Bombay, Scipy 2019 USA and PyCon France 2019."
@@ -2678,7 +2699,7 @@
   "slot": {
    "start": "2020-07-30T19:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T19:30:00Z"
   },
@@ -2709,7 +2730,7 @@
   "slot": {
    "start": "2020-07-30T12:30:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T12:40:00Z"
   },
@@ -2742,7 +2763,7 @@
   "slot": {
    "start": "2020-07-30T17:10:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T17:20:00Z"
   },
@@ -2775,7 +2796,7 @@
   "slot": {
    "start": "2020-07-29T17:10:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T17:20:00Z"
   },
@@ -2808,7 +2829,7 @@
   "slot": {
    "start": "2020-07-31T16:40:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T17:10:00Z"
   },
@@ -2839,7 +2860,7 @@
   "slot": {
    "start": "2020-07-29T12:50:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T13:00:00Z"
   },
@@ -2911,7 +2932,7 @@
   "slot": {
    "start": "2020-07-29T19:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T19:30:00Z"
   },
@@ -2942,7 +2963,7 @@
   "slot": {
    "start": "2020-07-31T14:20:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T15:05:00Z"
   },
@@ -2987,7 +3008,7 @@
   "slot": {
    "start": "2020-07-30T12:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T12:40:00Z"
   },
@@ -3020,7 +3041,7 @@
   "slot": {
    "start": "2020-07-29T16:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T16:40:00Z"
   },
@@ -3053,7 +3074,7 @@
   "slot": {
    "start": "2020-07-30T17:10:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T17:20:00Z"
   },
@@ -3086,7 +3107,7 @@
   "slot": {
    "start": "2020-07-31T16:10:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T17:40:00Z"
   },
@@ -3119,7 +3140,7 @@
   "slot": {
    "start": "2020-07-24T14:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-24T17:30:00Z"
   },
@@ -3152,7 +3173,7 @@
   "slot": {
    "start": "2020-07-31T18:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T19:00:00Z"
   },
@@ -3183,7 +3204,7 @@
   "slot": {
    "start": "2020-07-30T12:40:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T12:50:00Z"
   },
@@ -3216,7 +3237,7 @@
   "slot": {
    "start": "2020-07-31T19:00:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T19:10:00Z"
   },
@@ -3249,7 +3270,7 @@
   "slot": {
    "start": "2020-07-30T18:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T18:30:00Z"
   },
@@ -3286,7 +3307,7 @@
   "slot": {
    "start": "2020-07-30T14:20:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T15:05:00Z"
   },
@@ -3319,7 +3340,7 @@
   "slot": {
    "start": "2020-07-31T18:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T19:30:00Z"
   },
@@ -3352,7 +3373,7 @@
   "slot": {
    "start": "2020-07-29T16:10:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T16:20:00Z"
   },
@@ -3373,7 +3394,7 @@
   "duration": 10,
   "speakers": [
    {
-    "avatar": "https://pretalx.com/media/avatars/gcdprofile_4ompiAL.jpg",
+    "avatar": null,
     "name": "Gajendra Deshpande",
     "code": "CPJQQS",
     "biography": "Mr. Gajendra Deshpande holds a master's degree in Computer Science and Engineering and working as Assistant Professor at the Department of Computer Science and Engineering, KLS Gogte Institute of Technology, Belagavi, Karnataka, India.  He has a teaching experience of 12 years and Linux and Network Administration experience of one year. Under his mentorship teams have won Smart India Hackathon 2018 and Smart India Hackathon 2019. He is the Technical Director for Sestoauto Networks Pvt. Ltd. and Founder of Thingsvalley. His areas of Interest include Programming, Web Designing, Cyber Security, Artificial Intelligence, Machine Learning, Brain-Computer Interface, Internet of Things and Virtual Reality. He has presented papers at NIT Goa, Scipy India 2017 IIT Bombay, JuliaCon 2018 London, Scipy India 2018 IIT Bombay, Scipy 2019 USA and PyCon France 2019."
@@ -3385,7 +3406,7 @@
   "slot": {
    "start": "2020-07-30T17:20:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T17:30:00Z"
   },
@@ -3418,7 +3439,7 @@
   "slot": {
    "start": "2020-07-31T12:40:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T12:50:00Z"
   },
@@ -3451,7 +3472,7 @@
   "slot": {
    "start": "2020-07-29T18:20:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T18:30:00Z"
   },
@@ -3484,7 +3505,7 @@
   "slot": {
    "start": "2020-07-29T13:50:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T14:00:00Z"
   },
@@ -3550,7 +3571,7 @@
   "slot": {
    "start": "2020-07-29T18:50:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T19:00:00Z"
   },
@@ -3583,7 +3604,7 @@
   "slot": {
    "start": "2020-07-26T14:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-26T17:30:00Z"
   },
@@ -3622,7 +3643,7 @@
   "slot": {
    "start": "2020-07-31T12:30:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T13:00:00Z"
   },
@@ -3653,7 +3674,7 @@
   "slot": {
    "start": "2020-07-30T16:40:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T16:50:00Z"
   },
@@ -3662,7 +3683,7 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Write a WebApp in Julia with Dashboards.jl",
+  "title": "Write a WebApp in Julia with Dash.jl",
   "abstract": "For many scientific workflows, and easy way to publish results interactively to the browser is very useful. However, most web frameworks have a steep learning curve, and involve knowledge of multiple languages and technologies. In this talk, we will show you how to create web applications in pure Julia, without any javascript or html using Dashboards.jl."
  },
  {
@@ -3686,7 +3707,7 @@
   "slot": {
    "start": "2020-07-31T18:00:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T18:30:00Z"
   },
@@ -3711,13 +3732,13 @@
     "biography": "Hello! I am a PhD student at the Machine Learning Group at the University of Cambridge, supervised by Dr Richard Turner."
    }
   ],
-  "description": "Conditional Neural Processes [1] are a rich class of models that directly parametrise their predictive distribution by passing the observed data, also called the context set, through a neural network that outputs the predictive means and variances at any desired location.\r\n\r\nA recent new member of this family, called the Convolutional Conditional Neural Process (ConvCNP) [2], proposes to account for _translation equivariance_ in the data:\r\nif the context set is shifted, then the predictions are shifted accordingly.\r\nTranslation equivariance is an important inductive bias for many learning problems, such as time series, spatial data, and images.\r\n\r\nIn this talk, we give a brief introduction to meta-learning and the neural process family. We define and discuss the importance of translation equivariance and show how the ConvCNP can be simply implemented with Flux.jl [3]. We finally demonstrate the benefits of translation equivariance by predicting a sawtooth wave with the ConvCNP, an otherwise challenging task due to the wave's discontinuous nature.\r\n\r\n[1] https://arxiv.org/abs/1807.01613\r\n\r\n[2] https://openreview.net/forum?id=Skey4eBYPS\r\n\r\n[3] https://github.com/wesselb/ConvCNPs.jl",
-  "image": null,
+  "description": "(Conditional) Neural Processes ((C)NPs) [1, 2] are a rich class of models that parametrise the predictive distribution through an encoding of the observed data. Their flexibility allows them to be deployed in myriad applications, such as image completion and generation, time-series modelling, and spatio-temporal applications. Neural Processes have enjoyed much recent interest, resulting in the development of several well-performing members of the Neural Process family. In an effort to accelerate the development and evaluation of NP architectures, we present NeuralProcesses.jl [3], a framework for NPs built on top of Flux.jl. NeuralProcesses.jl provides basic building blocks that can be flexibly composed and mixed and matched to reconstruct many (conditional) neural process architectures from the literature, as well as expand to novel architectures.\r\n\r\nA recently introduced new member of the neural process family, called the Convolutional Conditional Neural Process (ConvCNP) [4], proposes to account for _translation equivariance_ in the data, the inductive bias that if the observations are shifted, then the predictions should be shifted accordingly. Translation equivariance is an important inductive bias for many learning problems, such as time series, spatial data, and images. The ConvCNP has been demonstrated to achieve state-of-the-art performance on several established NP benchmarks.\r\n\r\nIn this talk, we give a brief introduction to meta-learning, the neural process family, and NeuralProcesses.jl. To demonstrate the abstractions of NeuralProcess.jl, we walk through an implementation of the ConvCNP. We will then use the ConvCNP to predict a sawtooth wave, an otherwise challenging task due to the wave's discontinuous nature. We conclude with a brief demonstration of how the building blocks of NeuralProcess.jl can be used to construct several prominent NP architectures.\r\n\r\n[1] https://arxiv.org/abs/1807.01613\r\n\r\n[2] https://arxiv.org/abs/1807.01622\r\n\r\n[3] https://github.com/wesselb/NeuralProcesses.jl\r\n\r\n[4] https://openreview.net/forum?id=Skey4eBYPS",
+  "image": "https://pretalx.com/media/juliacon2020/submissions/PARPJU/loop_E0BS6Ux.gif",
   "slot_count": 1,
   "slot": {
    "start": "2020-07-29T18:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T18:10:00Z"
   },
@@ -3726,8 +3747,8 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Convolutional Conditional Neural Processes in Flux",
-  "abstract": "The Convolutional Conditional Neural Process (ConvCNP) is a new member of the neural process family that models translation equivariance, an important inductive bias for many learning problems. We present ConvCNPs.jl, a simple implementation of the ConvCNP with Flux.jl, and demonstrate that it can be used to predict a sawtooth wave, an otherwise challenging task due to the wave's discontinuous nature."
+  "title": "NeuralProcesses.jl: Composing Neural Processes with Flux",
+  "abstract": "Neural Processes (NPs) are a rich class of models for meta-learning that have enjoyed a flurry of recent interest. We present NeuralProcesses.jl, a compositional framework for constructing and training NPs built on top of Flux.jl. We demonstrate how to implement the Convolutional Conditional Neural Process (ConvCNP), a new member of the NP family, within the framework. The ConvCNP models translation equivariance, which is an important inductive bias for many learning problems."
  },
  {
   "content_locale": "en",
@@ -3750,7 +3771,7 @@
   "slot": {
    "start": "2020-07-30T17:20:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T17:30:00Z"
   },
@@ -3783,7 +3804,7 @@
   "slot": {
    "start": "2020-07-31T15:10:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T15:20:00Z"
   },
@@ -3816,7 +3837,7 @@
   "slot": {
    "start": "2020-07-31T13:10:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T13:20:00Z"
   },
@@ -3849,7 +3870,7 @@
   "slot": {
    "start": "2020-07-31T19:20:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T19:30:00Z"
   },
@@ -3882,7 +3903,7 @@
   "slot": {
    "start": "2020-07-29T18:10:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T18:20:00Z"
   },
@@ -3915,7 +3936,7 @@
   "slot": {
    "start": "2020-07-30T16:10:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T16:20:00Z"
   },
@@ -3948,7 +3969,7 @@
   "slot": {
    "start": "2020-07-31T16:40:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T17:10:00Z"
   },
@@ -4012,7 +4033,7 @@
   "slot": {
    "start": "2020-07-30T16:40:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T17:10:00Z"
   },
@@ -4043,7 +4064,7 @@
   "slot": {
    "start": "2020-07-27T14:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-27T17:30:00Z"
   },
@@ -4109,7 +4130,7 @@
   "slot": {
    "start": "2020-07-31T15:20:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T15:50:00Z"
   },
@@ -4140,7 +4161,7 @@
   "slot": {
    "start": "2020-07-29T19:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T19:30:00Z"
   },
@@ -4171,7 +4192,7 @@
   "slot": {
    "start": "2020-07-31T17:10:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T17:20:00Z"
   },
@@ -4210,7 +4231,7 @@
   "slot": {
    "start": "2020-07-29T16:40:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T17:10:00Z"
   },
@@ -4241,7 +4262,7 @@
   "slot": {
    "start": "2020-07-29T18:30:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T19:00:00Z"
   },
@@ -4272,7 +4293,7 @@
   "slot": {
    "start": "2020-07-31T13:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T13:10:00Z"
   },
@@ -4305,7 +4326,7 @@
   "slot": {
    "start": "2020-07-29T17:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T17:40:00Z"
   },
@@ -4338,7 +4359,7 @@
   "slot": {
    "start": "2020-07-31T12:30:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T12:40:00Z"
   },
@@ -4371,7 +4392,7 @@
   "slot": {
    "start": "2020-07-29T14:20:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T15:05:00Z"
   },
@@ -4443,7 +4464,7 @@
   "slot": {
    "start": "2020-07-31T18:00:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T18:30:00Z"
   },
@@ -4474,7 +4495,7 @@
   "slot": {
    "start": "2020-07-29T15:10:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T15:20:00Z"
   },
@@ -4507,7 +4528,7 @@
   "slot": {
    "start": "2020-07-31T13:30:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T14:00:00Z"
   },
@@ -4544,7 +4565,7 @@
   "slot": {
    "start": "2020-07-31T13:10:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T13:20:00Z"
   },
@@ -4577,7 +4598,7 @@
   "slot": {
    "start": "2020-07-31T19:10:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T19:20:00Z"
   },
@@ -4610,7 +4631,7 @@
   "slot": {
    "start": "2020-07-30T17:00:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T17:10:00Z"
   },
@@ -4643,7 +4664,7 @@
   "slot": {
    "start": "2020-07-31T13:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T13:10:00Z"
   },
@@ -4682,7 +4703,7 @@
   "slot": {
    "start": "2020-07-29T12:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T13:00:00Z"
   },
@@ -4713,7 +4734,7 @@
   "slot": {
    "start": "2020-07-30T17:10:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-30T17:40:00Z"
   },
@@ -4744,7 +4765,7 @@
   "slot": {
    "start": "2020-07-29T19:00:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T19:30:00Z"
   },
@@ -4775,7 +4796,7 @@
   "slot": {
    "start": "2020-07-31T19:20:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T19:30:00Z"
   },
@@ -4808,7 +4829,7 @@
   "slot": {
    "start": "2020-07-29T16:50:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T17:20:00Z"
   },
@@ -4839,7 +4860,7 @@
   "slot": {
    "start": "2020-07-30T16:10:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T16:40:00Z"
   },
@@ -4870,7 +4891,7 @@
   "slot": {
    "start": "2020-07-29T18:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T18:40:00Z"
   },
@@ -4903,7 +4924,7 @@
   "slot": {
    "start": "2020-07-30T18:50:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T19:00:00Z"
   },
@@ -4942,7 +4963,7 @@
   "slot": {
    "start": "2020-07-29T16:10:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T16:20:00Z"
   },
@@ -4975,7 +4996,7 @@
   "slot": {
    "start": "2020-07-25T14:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-25T17:30:00Z"
   },
@@ -5008,7 +5029,7 @@
   "slot": {
    "start": "2020-07-30T16:10:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T16:20:00Z"
   },
@@ -5041,7 +5062,7 @@
   "slot": {
    "start": "2020-07-30T13:30:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-30T14:00:00Z"
   },
@@ -5084,7 +5105,7 @@
   "slot": {
    "start": "2020-07-29T17:20:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-29T17:30:00Z"
   },
@@ -5156,7 +5177,7 @@
   "slot": {
    "start": "2020-07-30T13:00:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-30T13:30:00Z"
   },
@@ -5187,7 +5208,7 @@
   "slot": {
    "start": "2020-07-29T12:30:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-29T12:40:00Z"
   },
@@ -5253,7 +5274,7 @@
   "slot": {
    "start": "2020-07-31T13:10:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T13:20:00Z"
   },
@@ -5286,7 +5307,7 @@
   "slot": {
    "start": "2020-07-31T13:40:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T13:50:00Z"
   },
@@ -5319,7 +5340,7 @@
   "slot": {
    "start": "2020-07-29T13:00:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-29T13:30:00Z"
   },
@@ -5350,7 +5371,7 @@
   "slot": {
    "start": "2020-07-31T18:30:00Z",
    "room": {
-    "en": "Track 3"
+    "en": "Purple Track"
    },
    "end": "2020-07-31T19:00:00Z"
   },
@@ -5381,7 +5402,7 @@
   "slot": {
    "start": "2020-07-31T13:40:00Z",
    "room": {
-    "en": "Track 2"
+    "en": "Green Track"
    },
    "end": "2020-07-31T13:50:00Z"
   },
@@ -5414,7 +5435,7 @@
   "slot": {
    "start": "2020-07-31T17:30:00Z",
    "room": {
-    "en": "Track 1"
+    "en": "Red Track"
    },
    "end": "2020-07-31T17:40:00Z"
   },

@@ -6,7 +6,7 @@ import {
   useSpeakerDetailsQuery,
 } from "./SpeakerDetails.generated";
 import { HSpace, VSpace } from "../layout";
-import Markdown from "react-markdown";
+import { StyledMarkdown } from "../core";
 
 type SpeakerData = NonNullable<SpeakerDetailsQuery["speaker"]>;
 
@@ -14,6 +14,7 @@ export const SpeakerDetails = ({ id }: { id: string }) => {
   const { data, error, loading } = useSpeakerDetailsQuery({
     variables: { id },
   });
+
   if (error) throw error;
   if (loading) return null;
 
@@ -22,15 +23,23 @@ export const SpeakerDetails = ({ id }: { id: string }) => {
     return <p>Couldn't load this speaker...</p>;
   }
 
-  const biography = speaker.biography;
-  const talks = speaker.talks;
+  const { biography, talks } = speaker;
 
   return (
     <div>
       <SpeakerDetailsHeading speaker={speaker} />
       <VSpace />
-      {biography && <Markdown source={biography} />}
-      <h3> Talks </h3>
+      {biography && <StyledMarkdown source={biography} />}
+      <VSpace />
+      <h4
+        className={css`
+          font-weight: bold;
+          font-size: 1rem;
+          padding-bottom: 10px;
+        `}
+      >
+        Talks:
+      </h4>
       <div>
         {talks.map((talk, index) => (
           <AgendaTalksListItem

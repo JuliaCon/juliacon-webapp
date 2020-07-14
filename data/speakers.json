@@ -208,7 +208,6 @@
   "avatar": null,
   "name": "Chad Scherrer",
   "submissions": [
-   "7ZJCPC",
    "R7EPKS"
   ],
   "code": "A7PDM3",
@@ -383,7 +382,7 @@
   "biography": "Dr. Anthony Blaom conducted his PhD at Caltech in Mathematics and has expertise in Differential Geometry, Dynamical Systems, Fluid Mechanics, Machine Learning and Applied Statistics.  An erstwhile academic, Anthony is now primarily involved in software development for machine learning."
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/gcdprofile_4ompiAL.jpg",
+  "avatar": null,
   "name": "Gajendra Deshpande",
   "submissions": [
    "MGJCGT",
@@ -422,7 +421,7 @@
   "biography": null
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/download_X7vEu32.png",
+  "avatar": null,
   "name": "Indranil Ghosh",
   "submissions": [
    "NX33Q8"
@@ -1196,7 +1195,7 @@
    "BYDSZK"
   ],
   "code": "RHJCGX",
-  "biography": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+  "biography": "bricoleur, putterer"
  },
  {
   "avatar": null,
@@ -1597,8 +1596,7 @@
   "avatar": null,
   "name": "Kusti Skytén",
   "submissions": [
-   "TTU9U8",
-   "K77ZJK"
+   "TTU9U8"
   ],
   "code": "Z7JSAN",
   "biography": "A PhD student at the Biostatistics department at the university of Oslo."

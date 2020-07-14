@@ -13,6 +13,7 @@ export const AgendaTalksList: React.FC<AgendaTalksListProps> = ({
   const { data, error, loading } = useAgendaTalksListQuery({
     variables: { conferenceDay },
   });
+
   if (error) throw error;
   if (loading) return <p>Loading...</p>;
   const talks = data?.talks;

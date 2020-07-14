@@ -26,4 +26,8 @@ export const Talk: TalkResolvers = {
   type: (root) => {
     return submissionTypeToTalkType(root.submissionType);
   },
+
+  videoCode: (root) => {
+    return "dQw4w9WgXcQ";
+  },
 };
