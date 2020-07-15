@@ -68,7 +68,6 @@ export const typeDefs = gql`
     abstract: String
     description: String
     day: String!
-    type: TalkType!
     pdflink: String
     speakers: [Speaker!]!
 
