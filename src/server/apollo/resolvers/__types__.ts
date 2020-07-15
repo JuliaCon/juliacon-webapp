@@ -39,6 +39,8 @@ export type Query = {
   readonly room?: Maybe<Room>;
   readonly rooms: ReadonlyArray<Room>;
   readonly speaker?: Maybe<Speaker>;
+  readonly poster?: Maybe<Poster>;
+  readonly posters: ReadonlyArray<Poster>;
 };
 
 export type QueryTalkArgs = {
@@ -57,6 +59,14 @@ export type QueryRoomArgs = {
 
 export type QuerySpeakerArgs = {
   id: Scalars["ID"];
+};
+
+export type QueryPosterArgs = {
+  id: Scalars["ID"];
+};
+
+export type QueryPostersArgs = {
+  day?: Maybe<Scalars["String"]>;
 };
 
 export type Room = {
@@ -239,12 +249,12 @@ export type ResolversTypes = {
   TalkType: TalkType;
   Speaker: ResolverTypeWrapper<PretalxAPISpeaker>;
   Room: ResolverTypeWrapper<PretalxAPIRoom>;
-  Boolean: ResolverTypeWrapper<Scalars["Boolean"]>;
   Poster: ResolverTypeWrapper<
     Omit<Poster, "speakers"> & {
       speakers: ReadonlyArray<ResolversTypes["Speaker"]>;
     }
   >;
+  Boolean: ResolverTypeWrapper<Scalars["Boolean"]>;
 };
 
 /** Mapping between all available schema types and the resolvers parents */
@@ -255,10 +265,10 @@ export type ResolversParentTypes = {
   String: Scalars["String"];
   Speaker: PretalxAPISpeaker;
   Room: PretalxAPIRoom;
-  Boolean: Scalars["Boolean"];
   Poster: Omit<Poster, "speakers"> & {
     speakers: ReadonlyArray<ResolversParentTypes["Speaker"]>;
   };
+  Boolean: Scalars["Boolean"];
 };
 
 export type PosterResolvers<
@@ -315,6 +325,18 @@ export type QueryResolvers<
     ParentType,
     ContextType,
     RequireFields<QuerySpeakerArgs, "id">
+  >;
+  poster?: Resolver<
+    Maybe<ResolversTypes["Poster"]>,
+    ParentType,
+    ContextType,
+    RequireFields<QueryPosterArgs, "id">
+  >;
+  posters?: Resolver<
+    ReadonlyArray<ResolversTypes["Poster"]>,
+    ParentType,
+    ContextType,
+    RequireFields<QueryPostersArgs, never>
   >;
 };
 
