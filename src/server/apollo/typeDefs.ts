@@ -62,12 +62,38 @@ export const typeDefs = gql`
     talks(day: String): [Talk!]!
   }
 
+  type Poster {
+    id: ID!
+    title: String!
+    abstract: String
+    description: String
+    day: String!
+    type: TalkType!
+    pdflink: String
+
+    """
+    The start time of the talk (as an ISO 8601 formatted timestamp).
+    """
+    startTime: String!
+
+    """
+    The end time of the talk (as an ISO 8601 formatted timestamp).
+    """
+    endTime: String!
+
+    speakers: [Speaker!]!
+    room: Room
+
+    videoCode: String
+  }
+
   enum TalkType {
     BIRDS_OF_FEATHER
     BREAK
     KEYNOTE
     LIGHTNING_TALK
     MINISYMPOSIUM
+    POSTER
     SPONSOR_ADDRESS
     TALK
     WORKSHOP_FULL_DAY
