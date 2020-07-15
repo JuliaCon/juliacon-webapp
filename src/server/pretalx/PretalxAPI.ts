@@ -40,8 +40,6 @@ export class PretalxAPI extends DataSource {
 
   async getAllPosters() {
     // fetch the list of posters, put in getAllPosters
-    this.getAllPosters().then(() => void 0);
-
     return ALL_POSTERS;
   }
 
