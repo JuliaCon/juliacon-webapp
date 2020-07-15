@@ -79,7 +79,6 @@ export const typeDefs = gql`
     KEYNOTE
     LIGHTNING_TALK
     MINISYMPOSIUM
-    POSTER
     SPONSOR_ADDRESS
     TALK
     WORKSHOP_FULL_DAY
