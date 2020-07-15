@@ -11,6 +11,7 @@ export const typeDefs = gql`
     speaker(id: ID!): Speaker
 
     poster(id: ID!): Poster
+    posters(day: String): [Poster!]!
   }
 
   type Talk {
