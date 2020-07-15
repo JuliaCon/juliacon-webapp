@@ -3,6 +3,7 @@ import { DataSource } from "apollo-datasource";
 import { ALL_ROOMS } from "./PretalxAPIRoom";
 import { ALL_SPEAKERS } from "./PretalxAPISpeaker";
 import { ALL_TALKS } from "./PretalxAPITalk";
+import { ALL_POSTERS } from "./PretalxAPIPosters";
 
 export class PretalxAPI extends DataSource {
   async getAllSpeakers() {
@@ -28,12 +29,28 @@ export class PretalxAPI extends DataSource {
     return allTalks.find((talk) => talk.id === id);
   }
 
+
   async getAllRooms() {
     // Preemptively fetch the list of talks (we'll need those soon anyway)
     this.getAllTalks().then(() => void 0);
 
     return ALL_ROOMS;
   }
+
+
+  async getAllPosters() {
+    // fetch the list of posters, put in getAllPosters
+    this.getAllPosters().then(() => void 0);
+
+    return ALL_POSTERS;
+  }
+
+  async getPoster(id: string) {
+    // return poster data for a specific poster.id
+    const allPosters = await this.getAllPosters();
+    return allPosters.find((poster) => poster.id === id);
+  }
+
 
   async getRoom(id: string) {
     const rooms = await this.getAllRooms();
