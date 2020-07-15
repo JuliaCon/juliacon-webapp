@@ -7,6 +7,7 @@ import {
 import { ResolverContext } from "../ResolverContext";
 export type Maybe<T> = T | null | undefined;
 export type Exact<T extends { [key: string]: any }> = { [K in keyof T]: T[K] };
+export type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
 export type RequireFields<T, K extends keyof T> = {
   [X in Exclude<keyof T, K>]?: T[X];
 } &
@@ -18,6 +19,17 @@ export type Scalars = {
   Boolean: boolean;
   Int: number;
   Float: number;
+};
+
+export type Poster = {
+  readonly __typename?: "Poster";
+  readonly id: Scalars["ID"];
+  readonly title: Scalars["String"];
+  readonly abstract?: Maybe<Scalars["String"]>;
+  readonly description?: Maybe<Scalars["String"]>;
+  readonly day: Scalars["String"];
+  readonly pdflink?: Maybe<Scalars["String"]>;
+  readonly speakers: ReadonlyArray<Speaker>;
 };
 
 export type Query = {
@@ -228,6 +240,11 @@ export type ResolversTypes = {
   Speaker: ResolverTypeWrapper<PretalxAPISpeaker>;
   Room: ResolverTypeWrapper<PretalxAPIRoom>;
   Boolean: ResolverTypeWrapper<Scalars["Boolean"]>;
+  Poster: ResolverTypeWrapper<
+    Omit<Poster, "speakers"> & {
+      speakers: ReadonlyArray<ResolversTypes["Speaker"]>;
+    }
+  >;
 };
 
 /** Mapping between all available schema types and the resolvers parents */
@@ -239,6 +256,31 @@ export type ResolversParentTypes = {
   Speaker: PretalxAPISpeaker;
   Room: PretalxAPIRoom;
   Boolean: Scalars["Boolean"];
+  Poster: Omit<Poster, "speakers"> & {
+    speakers: ReadonlyArray<ResolversParentTypes["Speaker"]>;
+  };
+};
+
+export type PosterResolvers<
+  ContextType = ResolverContext,
+  ParentType extends ResolversParentTypes["Poster"] = ResolversParentTypes["Poster"]
+> = {
+  id?: Resolver<ResolversTypes["ID"], ParentType, ContextType>;
+  title?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
+  abstract?: Resolver<Maybe<ResolversTypes["String"]>, ParentType, ContextType>;
+  description?: Resolver<
+    Maybe<ResolversTypes["String"]>,
+    ParentType,
+    ContextType
+  >;
+  day?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
+  pdflink?: Resolver<Maybe<ResolversTypes["String"]>, ParentType, ContextType>;
+  speakers?: Resolver<
+    ReadonlyArray<ResolversTypes["Speaker"]>,
+    ParentType,
+    ContextType
+  >;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType>;
 };
 
 export type QueryResolvers<
@@ -347,6 +389,7 @@ export type TalkResolvers<
 };
 
 export type Resolvers<ContextType = ResolverContext> = {
+  Poster?: PosterResolvers<ContextType>;
   Query?: QueryResolvers<ContextType>;
   Room?: RoomResolvers<ContextType>;
   Speaker?: SpeakerResolvers<ContextType>;
