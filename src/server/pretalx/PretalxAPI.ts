@@ -3,7 +3,7 @@ import { DataSource } from "apollo-datasource";
 import { ALL_ROOMS } from "./PretalxAPIRoom";
 import { ALL_SPEAKERS } from "./PretalxAPISpeaker";
 import { ALL_TALKS } from "./PretalxAPITalk";
-import { ALL_POSTERS } from "./PretalxAPIPosters";
+import { ALL_POSTERS } from "./PretalxAPIPoster";
 
 export class PretalxAPI extends DataSource {
   async getAllSpeakers() {

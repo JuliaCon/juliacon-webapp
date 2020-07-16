@@ -20,7 +20,7 @@ generates:
         Talk: "../../pretalx#PretalxAPITalk"
         Speaker: "../../pretalx#PretalxAPISpeaker"
         Room: "../../pretalx#PretalxAPIRoom"
-        Poster: "../../pretalx#PretalxAPIPosters"
+        Poster: "../../pretalx#PretalxAPIPoster"
 
   # Generate types for the GraphQL objects for the frontend
   ./src/apollo/__generated__/types.ts:
