@@ -320,7 +320,12 @@
   "submission_type": {
    "en": "Lightning Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Slides",
+    "resource": "/media/juliacon2020/submissions/7MYVV3/resources/Juliacon2020_LoRYdnB.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "Computational tools for designing modular biosystems",
   "abstract": "Living systems, from molecules to ecosystems, are modular, allowing us to engineer them. I develop computational tools to aid bioscience engineering with applications in health, ecology and engineering. The whole chain of modeling, knowledge and decision relies on methods from machine learning, bioinformatics and optimization. Julia has proven to be a useful language for these tasks. In this talk, I will outline how I use Julia for my research through a series of case studies."
