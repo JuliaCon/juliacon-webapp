@@ -9,6 +9,17 @@ export type Scalars = {
   Float: number;
 };
 
+export type Poster = {
+  __typename?: "Poster";
+  id: Scalars["ID"];
+  title: Scalars["String"];
+  abstract?: Maybe<Scalars["String"]>;
+  description?: Maybe<Scalars["String"]>;
+  day: Scalars["String"];
+  pdflink?: Maybe<Scalars["String"]>;
+  speakers: Array<Speaker>;
+};
+
 export type Query = {
   __typename?: "Query";
   talk?: Maybe<Talk>;
@@ -16,6 +27,8 @@ export type Query = {
   room?: Maybe<Room>;
   rooms: Array<Room>;
   speaker?: Maybe<Speaker>;
+  poster?: Maybe<Poster>;
+  posters: Array<Poster>;
 };
 
 export type QueryTalkArgs = {
@@ -34,6 +47,14 @@ export type QueryRoomArgs = {
 
 export type QuerySpeakerArgs = {
   id: Scalars["ID"];
+};
+
+export type QueryPosterArgs = {
+  id: Scalars["ID"];
+};
+
+export type QueryPostersArgs = {
+  day?: Maybe<Scalars["String"]>;
 };
 
 export type Room = {

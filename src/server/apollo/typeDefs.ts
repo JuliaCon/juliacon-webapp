@@ -9,6 +9,9 @@ export const typeDefs = gql`
     rooms: [Room!]!
 
     speaker(id: ID!): Speaker
+
+    poster(id: ID!): Poster
+    posters(day: String): [Poster!]!
   }
 
   type Talk {
@@ -60,6 +63,17 @@ export const typeDefs = gql`
         Must be in format \`YYYY-MM-DD\`.
     """
     talks(day: String): [Talk!]!
+  }
+
+  type Poster {
+    id: ID!
+    title: String!
+    abstract: String
+    description: String
+    day: String!
+    pdflink: String
+    speakers: [Speaker!]!
+
   }
 
   enum TalkType {

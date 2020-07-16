@@ -30,5 +30,16 @@ export const Query: QueryResolvers = {
 
   speaker: async (_root, { id }, { dataSources }) => {
     return dataSources.pretalx.getSpeaker(id);
+
+  },
+  
+  posters: async (_root, _args, { dataSources }) => {
+      return dataSources.pretalx.getAllPosters();  
+
+  },
+  
+  poster: async (_root, { id }, { dataSources }) => {
+      return dataSources.pretalx.getPoster(id);
+
   },
 };
