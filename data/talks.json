@@ -2290,7 +2290,7 @@
     "biography": "Together with Station B at Microsoft Research Cambridge and the Randall Division of Cell and Molecular Biophysics at King's College London we aim to create tools that can make biochemical manufacturing more efficient, with efforts towards combating Eroom's law of drug discovery and addressing the reproducibility crisis in biotechnology. My current research focus is the development of novel parameter inference procedures for differential equation models where data had been obtained by flow cytometry or fluorescence microscopy."
    }
   ],
-  "description": "This project extends functionality of parameter continuation library PseudoArcLengthContinuation.jl to work with automatic differentiation library Zygote.jl. This talk would be interesting to anyone who infers parameters of differential equation models, users of DifferentialEquations.jl, Flux.jl and FluxDiffEq.jl",
+  "description": "This project uses functionality of parameter continuation library BifurcationKit.jl to work with automatic differentiation library Zygote.jl. This talk would be interesting to anyone who infers parameters of differential equation models, users of DifferentialEquations.jl, Flux.jl and FluxDiffEq.jl",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -2301,7 +2301,12 @@
    "end": "2020-07-30T19:30:00Z"
   },
   "submission_type": "Talk",
-  "resources": [],
+  "resources": [
+   {
+    "description": "slides",
+    "resource": "/media/juliacon2020/submissions/HJZXMX/resources/juliacon-talk_fp9GPM3.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "Inference of Bifurcations with Differentiable Continuation",
   "abstract": "In this talk I will demonstrate a gradient-based semi-supervised approach for matching target codimension one bifurcations with parameterised differential equation models. This work has been applied in synthetic biology settings, where experiments generate qualitative observations: locations of fixed points, limit cycles and bistability. Future outlooks include a view towards designing patterns and limit cycles in partial differential equations."
@@ -3673,7 +3678,7 @@
     "biography": "Dhairya is currently a Data Scientist at Julia Computing Inc. and maintains and develops Julia's ML stack with Flux and Zygote."
    }
   ],
-  "description": "[Dashboards.jl](https://github.com/waralex/Dashboards.jl) is a Julia interface to the Dash framework developed by the Plotly team. This talk is aimed at demonstrating how easy it is to write a high quality webapp in Julia, without having to write JavaScript, and still have it be really intuitive, almost as if one is writing HTML. \r\nOften in large projects, one of the key goals is to deliver a final solution to a large user base. In this talk, we will explore a simple way to deploy your solution behind a web server.\r\nWe will write a webapp that includes user input, automated HTTP request routing, and displaying analytical results with Plotly graphs.",
+  "description": "[Dash.jl](https://github.com/plotly/Dash.jl) is a Julia interface to the Dash framework developed by the Plotly team. This talk is aimed at demonstrating how easy it is to write a high quality webapp in Julia, without having to write JavaScript, and still have it be really intuitive, almost as if one is writing HTML. \r\nOften in large projects, one of the key goals is to deliver a final solution to a large user base. In this talk, we will explore a simple way to deploy your solution behind a web server.\r\nWe will write a webapp that includes user input, automated HTTP request routing, and displaying analytical results with Plotly graphs.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -3689,7 +3694,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Write a WebApp in Julia with Dash.jl",
-  "abstract": "For many scientific workflows, and easy way to publish results interactively to the browser is very useful. However, most web frameworks have a steep learning curve, and involve knowledge of multiple languages and technologies. In this talk, we will show you how to create web applications in pure Julia, without any javascript or html using Dashboards.jl."
+  "abstract": "For many scientific workflows, an easy way to publish results interactively to the browser is very useful. However, most web frameworks have a steep learning curve, and involve knowledge of multiple languages and technologies. In this talk, we will show you how to create web applications in pure Julia, without any javascript or html using Dash.jl."
  },
  {
   "content_locale": "en",
