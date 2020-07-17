@@ -320,7 +320,12 @@
   "submission_type": {
    "en": "Lightning Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Slides",
+    "resource": "/media/juliacon2020/submissions/7MYVV3/resources/Juliacon2020_LoRYdnB.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "Computational tools for designing modular biosystems",
   "abstract": "Living systems, from molecules to ecosystems, are modular, allowing us to engineer them. I develop computational tools to aid bioscience engineering with applications in health, ecology and engineering. The whole chain of modeling, knowledge and decision relies on methods from machine learning, bioinformatics and optimization. Julia has proven to be a useful language for these tasks. In this talk, I will outline how I use Julia for my research through a series of case studies."
@@ -554,7 +559,7 @@
     "biography": "I am a researcher in the fields of operations research and computational social science.\r\nFor development work I mostly use the Julia language.\r\n\r\nYou can find more information about me and my work on my [personal website](http://bogumilkaminski.pl/about/) or [GitHub](https://github.com/bkamins)."
    }
   ],
-  "description": "Making a `DataFrame` consistent with all indexing functionalities provided by Base Julia (`getindex`, `setindex!`, `view`, `broadcast` and `broadcast!`) is a challenge as it can contain heterogeneous columns that can dynamically change their element type and be added/removed/resized.\r\n\r\nThe first part of the workshop is aimed at a general audience and explains the `DataFrame` indexing rules. The second part explains how to implement indexing for a custom type in the Julia language.",
+  "description": "Making a `DataFrame` consistent with all indexing functionalities provided by Base Julia (`getindex`, `setindex!`, `view`, `broadcast` and `broadcast!`) is a challenge as it can contain heterogeneous columns that can dynamically change their element type and be added/removed/resized.\r\n\r\nThe first part of the workshop is aimed at a general audience and explains the `DataFrame` indexing rules. The second part explains how to implement indexing for a custom type in the Julia language.\r\n\r\nThe workshop materials will be made available at https://github.com/bkamins/JuliaCon2020-DataFrames-Tutorial.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -2285,7 +2290,7 @@
     "biography": "Together with Station B at Microsoft Research Cambridge and the Randall Division of Cell and Molecular Biophysics at King's College London we aim to create tools that can make biochemical manufacturing more efficient, with efforts towards combating Eroom's law of drug discovery and addressing the reproducibility crisis in biotechnology. My current research focus is the development of novel parameter inference procedures for differential equation models where data had been obtained by flow cytometry or fluorescence microscopy."
    }
   ],
-  "description": "This project extends functionality of parameter continuation library PseudoArcLengthContinuation.jl to work with automatic differentiation library Zygote.jl. This talk would be interesting to anyone who infers parameters of differential equation models, users of DifferentialEquations.jl, Flux.jl and FluxDiffEq.jl",
+  "description": "This project uses functionality of parameter continuation library BifurcationKit.jl to work with automatic differentiation library Zygote.jl. This talk would be interesting to anyone who infers parameters of differential equation models, users of DifferentialEquations.jl, Flux.jl and FluxDiffEq.jl",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -2296,7 +2301,12 @@
    "end": "2020-07-30T19:30:00Z"
   },
   "submission_type": "Talk",
-  "resources": [],
+  "resources": [
+   {
+    "description": "slides",
+    "resource": "/media/juliacon2020/submissions/HJZXMX/resources/juliacon-talk_fp9GPM3.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "Inference of Bifurcations with Differentiable Continuation",
   "abstract": "In this talk I will demonstrate a gradient-based semi-supervised approach for matching target codimension one bifurcations with parameterised differential equation models. This work has been applied in synthetic biology settings, where experiments generate qualitative observations: locations of fixed points, limit cycles and bistability. Future outlooks include a view towards designing patterns and limit cycles in partial differential equations."
@@ -2664,11 +2674,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2020-07-29T12:40:00Z",
+   "start": "2020-07-29T12:50:00Z",
    "room": {
     "en": "Purple Track"
    },
-   "end": "2020-07-29T12:50:00Z"
+   "end": "2020-07-29T13:00:00Z"
   },
   "submission_type": {
    "en": "Lightning Talk"
@@ -2858,11 +2868,11 @@
   "image": "https://pretalx.com/media/juliacon2020/images/L3FYJW/DrWatson-icon_HuSEXOb.png",
   "slot_count": 1,
   "slot": {
-   "start": "2020-07-29T12:50:00Z",
+   "start": "2020-07-29T12:40:00Z",
    "room": {
     "en": "Purple Track"
    },
-   "end": "2020-07-29T13:00:00Z"
+   "end": "2020-07-29T12:50:00Z"
   },
   "submission_type": {
    "en": "Lightning Talk"
@@ -3668,7 +3678,7 @@
     "biography": "Dhairya is currently a Data Scientist at Julia Computing Inc. and maintains and develops Julia's ML stack with Flux and Zygote."
    }
   ],
-  "description": "[Dashboards.jl](https://github.com/waralex/Dashboards.jl) is a Julia interface to the Dash framework developed by the Plotly team. This talk is aimed at demonstrating how easy it is to write a high quality webapp in Julia, without having to write JavaScript, and still have it be really intuitive, almost as if one is writing HTML. \r\nOften in large projects, one of the key goals is to deliver a final solution to a large user base. In this talk, we will explore a simple way to deploy your solution behind a web server.\r\nWe will write a webapp that includes user input, automated HTTP request routing, and displaying analytical results with Plotly graphs.",
+  "description": "[Dash.jl](https://github.com/plotly/Dash.jl) is a Julia interface to the Dash framework developed by the Plotly team. This talk is aimed at demonstrating how easy it is to write a high quality webapp in Julia, without having to write JavaScript, and still have it be really intuitive, almost as if one is writing HTML. \r\nOften in large projects, one of the key goals is to deliver a final solution to a large user base. In this talk, we will explore a simple way to deploy your solution behind a web server.\r\nWe will write a webapp that includes user input, automated HTTP request routing, and displaying analytical results with Plotly graphs.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -3684,7 +3694,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Write a WebApp in Julia with Dash.jl",
-  "abstract": "For many scientific workflows, and easy way to publish results interactively to the browser is very useful. However, most web frameworks have a steep learning curve, and involve knowledge of multiple languages and technologies. In this talk, we will show you how to create web applications in pure Julia, without any javascript or html using Dashboards.jl."
+  "abstract": "For many scientific workflows, an easy way to publish results interactively to the browser is very useful. However, most web frameworks have a steep learning curve, and involve knowledge of multiple languages and technologies. In this talk, we will show you how to create web applications in pure Julia, without any javascript or html using Dash.jl."
  },
  {
   "content_locale": "en",
@@ -3963,8 +3973,8 @@
     "biography": "I am a research software engineer at Invenia Labs (Cambridge, UK). I help researchers use machine learning, constrained optimization, and generally tools from the technical computing domain to optimize the power grid. I get to do all the best parts of being a software developer and all the best parts of being a researcher, its great. I am a long-term contributor to the open-source JuliaLang ecosystem. I am passionate about building the tools to do research better."
    }
   ],
-  "description": "A perhaps counterintuitive requirement for differentiable programming is easy hand-coded rules for determining derivatives. You might think: “I thought the whole point of differentiable programming was to use AD, so I didn’t have to write all these derivatives by hand.”. Indeed you don’t have to, but that doesn’t mean you shouldn't be allowed to, and it doesn’t mean you can't get advantages out of doing do. Custom sensitivities allow programmers to insert domain knowledge that no autodiff system could ever figure out. Further custom rules, let you work around any bugs in the AD system, and fix performance issues.\r\nSo being able to write custom rules is important, and doing it once for every AD system is win on deduplicating effort.\r\n\r\nA secondary advantage of ChainRules is that it provides a set of differential types to be used by AD systems. The differential types provided by ChainRules are very expressive, more expressive in-fact than is required for any current AD system. These types allow ChainRules to act as a lingua franca between AD systems. If it is advantageous because of some properties of your system to AD one part with ForwardDiff2 (via forward-mode), another part with Zygote (via source code transformation reverse mode) and another via Nabla (via overloading tape-based reverse mode) then you can; and each part can understand the derivative types returned by the other.\r\n\r\nThe ChainRules project has 3 packages:\r\n - ChainRulesCore.jl: the minimum stuff required to implement custom rules for your package. Think of it like RecipesBase for Plots.jl. It should be used by all packages wanting to support rules.\r\n - ChainRules.jl: a repository of rules for functions defined in Base and the Standard Libraries. This was separated out from ChainRulesCore to minimize load time. It should be used by AD packages wanting to consume rules.\r\n - ChainRulesTestUtils.jl: robust testing utilities based on finite differencing. Its a test-time dependency for packages defining rules.\r\n\r\n\r\nThis talk will cover:\r\n - An introduction to AD, including terminology such as pullback, custom sensitivity etc.\r\n - The details the use and design of the ChainRules packages\r\n - An explanation of some of the open questions in autodiff and our resolutions to them including: natural vs structural derivatives, mutating reverse-mode AD, chunked AD / change of basis, one-to-one vs many-to-many relationships between differential and primal types.",
-  "image": null,
+  "description": "[Slides](https://raw.githack.com/oxinabox/ChainRulesJuliaCon2020/main/out/build/index.html)\r\n\r\nA perhaps counterintuitive requirement for differentiable programming is easy hand-coded rules for determining derivatives. You might think: “I thought the whole point of differentiable programming was to use AD, so I didn’t have to write all these derivatives by hand.”. Indeed you don’t have to, but that doesn’t mean you shouldn't be allowed to, and it doesn’t mean you can't get advantages out of doing do. Custom sensitivities allow programmers to insert domain knowledge that no autodiff system could ever figure out. Further custom rules, let you work around any bugs in the AD system, and fix performance issues.\r\nSo being able to write custom rules is important, and doing it once for every AD system is win on deduplicating effort.\r\n\r\nA secondary advantage of ChainRules is that it provides a set of differential types to be used by AD systems. The differential types provided by ChainRules are very expressive, more expressive in-fact than is required for any current AD system. These types allow ChainRules to act as a lingua franca between AD systems. If it is advantageous because of some properties of your system to AD one part with ForwardDiff2 (via forward-mode), another part with Zygote (via source code transformation reverse mode) and another via Nabla (via overloading tape-based reverse mode) then you can; and each part can understand the derivative types returned by the other.\r\n\r\nThe ChainRules project has 3 packages:\r\n - ChainRulesCore.jl: the minimum stuff required to implement custom rules for your package. Think of it like RecipesBase for Plots.jl. It should be used by all packages wanting to support rules.\r\n - ChainRules.jl: a repository of rules for functions defined in Base and the Standard Libraries. This was separated out from ChainRulesCore to minimize load time. It should be used by AD packages wanting to consume rules.\r\n - ChainRulesTestUtils.jl: robust testing utilities based on finite differencing. Its a test-time dependency for packages defining rules.\r\n\r\n\r\nThis talk will cover:\r\n - An introduction to AD, including terminology such as pullback, custom sensitivity etc.\r\n - The details the use and design of the ChainRules packages\r\n - An explanation of some of the open questions in autodiff and our resolutions to them including: natural vs structural derivatives, mutating reverse-mode AD, chunked AD / change of basis, one-to-one vs many-to-many relationships between differential and primal types.",
+  "image": "https://pretalx.com/media/juliacon2020/submissions/QABEK8/logo_xHiYTxP.png",
   "slot_count": 1,
   "slot": {
    "start": "2020-07-31T16:40:00Z",
@@ -3977,7 +3987,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "ChainRules.jl",
-  "abstract": "The ChainRules project allows package authors to write rules for custom sensitivities (sometimes called custom adjoints) in a way that is not dependent on any particular autodiff (AD) package.\r\nIt allows authors of AD packages to access a wealth of prewritten custom sensitivities, saving them the effort of writing them all out themselves.\r\nChainRules is the successor to DiffRules.jl and is the native rule system currently used by ForwardDiff2, and soon Zygote and Nabla."
+  "abstract": "The ChainRules project allows package authors to write rules for custom sensitivities (sometimes called custom adjoints) in a way that is not dependent on any particular autodiff (AD) package.\r\nIt allows authors of AD packages to access a wealth of prewritten custom sensitivities, saving them the effort of writing them all out themselves.\r\nChainRules is the successor to DiffRules.jl and is the native rule system currently used by ForwardDiff2,  Zygote and soon ReverseDiff"
  },
  {
   "content_locale": "en",
@@ -5365,7 +5375,7 @@
     "biography": "Undergraduate student majoring in Computer Science and Engineering at Indian Institute of Technology Kharagpur."
    }
   ],
-  "description": "Natural Language Processing (NLP) enables the computers to analyse, understand and read human languages. In the past decade, tremendous growth has been witnessed in NLP owing to milestones like word embeddings, neural networks for NLP, attention and pre-trained language modelling. JuliaText packages, together with Flux, makes Deep Learning for NLP easy in Julia.\r\n\r\n## Packages\r\n\r\nThe following packages of JuliaText mainly will be discussed:\r\n- `TextAnalysis.jl` is a package for text analysis and APIs for language processing pipelines like pre-processing, stemming, Named Entity Recognition, Part Of Speech Tagging along with CRFs and ULMFiT.\r\n- `WordTokenizers.jl` provides various high-speed tokenizers and APIs for writing custom tokenizers for natural languages.\r\n- `CorpusLoaders.jl` contains a variety of (lazy) loaders for NLP corpora.\r\n- `Embeddings.jl` for working with Word Embeddings.\r\n\r\n## Talk\r\n\r\nThe attendees will gain working knowledge about how to apply the package for NLP in Julia.\r\nThe talk will encompass the following:\r\n- Tokenizers (Sentence splitters and word tokenizers) in WordTokenizers.jl\r\n- Preprocessing using TextAnalysis.jl: Stemming, text normalizing, spelling correction and stopword removal.\r\n- Word Embeddings (mapping words to vectors of numbers) using Embeddings.jl\r\n- Recurrent Neural Networks and Language models.\r\n\r\nAs a demonstration, we will also be using the packages to build an NLP pipeline for a neural network model to address the task of Sentiment Analysis over noisy data. We will then proceed to demonstrate using language models like ULMFiT for this task. As a bonus, the trained model will be run for the sentiment classification of messages from Julia Slack.",
+  "description": "Natural Language Processing (NLP) enables the computers to analyse, understand and read human languages. In the past decade, tremendous growth has been witnessed in NLP owing to milestones like word embeddings, neural networks for NLP, attention and pre-trained language modelling. JuliaText packages, together with Flux, makes Deep Learning for NLP easy in Julia.\r\n\r\n## Packages\r\n\r\nWe will start with an overview of natural language processing.\r\nThen we pick up the task of Sentiment Analysis and discuss following packages:\r\n- `WordTokenizers.jl` provides various high-speed tokenizers and APIs for writing custom tokenizers for natural languages.\r\n- `CorpusLoaders.jl` contains a variety of (lazy) loaders for NLP corpora.\r\n- `Embeddings.jl` for working with Word Embeddings.\r\n- `Flux.jl` for neural networks.\r\n\r\nNext we will move on to some other NLP pipelines and discuss some APIs from `TextAnalysis.jl`\r\n\r\n## Talk\r\n\r\nThe attendees will gain working knowledge about how to apply the package for NLP in Julia.\r\nThe talk will encompass the following:\r\n- Tokenizers (Sentence splitters and word tokenizers) in WordTokenizers.jl\r\n- Word Embeddings (mapping words to vectors of numbers) using Embeddings.jl\r\n- Recurrent Neural Networks and Language models.\r\n\r\nAll notebooks with model weights at https://github.com/Ayushk4/JuliaCon20_Talk",
   "image": null,
   "slot_count": 1,
   "slot": {

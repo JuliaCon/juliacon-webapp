@@ -3,6 +3,7 @@ import {
   PretalxAPITalk,
   PretalxAPISpeaker,
   PretalxAPIRoom,
+  PretalxAPIPoster,
 } from "../../pretalx";
 import { ResolverContext } from "../ResolverContext";
 export type Maybe<T> = T | null | undefined;
@@ -20,6 +21,17 @@ export type Scalars = {
   Float: number;
 };
 
+export type Poster = {
+  readonly __typename?: "Poster";
+  readonly id: Scalars["ID"];
+  readonly title: Scalars["String"];
+  readonly abstract?: Maybe<Scalars["String"]>;
+  readonly description?: Maybe<Scalars["String"]>;
+  readonly day: Scalars["String"];
+  readonly pdflink?: Maybe<Scalars["String"]>;
+  readonly speakers: ReadonlyArray<Speaker>;
+};
+
 export type Query = {
   readonly __typename?: "Query";
   readonly talk?: Maybe<Talk>;
@@ -27,6 +39,8 @@ export type Query = {
   readonly room?: Maybe<Room>;
   readonly rooms: ReadonlyArray<Room>;
   readonly speaker?: Maybe<Speaker>;
+  readonly poster?: Maybe<Poster>;
+  readonly posters: ReadonlyArray<Poster>;
 };
 
 export type QueryTalkArgs = {
@@ -45,6 +59,14 @@ export type QueryRoomArgs = {
 
 export type QuerySpeakerArgs = {
   id: Scalars["ID"];
+};
+
+export type QueryPosterArgs = {
+  id: Scalars["ID"];
+};
+
+export type QueryPostersArgs = {
+  day?: Maybe<Scalars["String"]>;
 };
 
 export type Room = {
@@ -227,6 +249,7 @@ export type ResolversTypes = {
   TalkType: TalkType;
   Speaker: ResolverTypeWrapper<PretalxAPISpeaker>;
   Room: ResolverTypeWrapper<PretalxAPIRoom>;
+  Poster: ResolverTypeWrapper<PretalxAPIPoster>;
   Boolean: ResolverTypeWrapper<Scalars["Boolean"]>;
 };
 
@@ -238,7 +261,30 @@ export type ResolversParentTypes = {
   String: Scalars["String"];
   Speaker: PretalxAPISpeaker;
   Room: PretalxAPIRoom;
+  Poster: PretalxAPIPoster;
   Boolean: Scalars["Boolean"];
+};
+
+export type PosterResolvers<
+  ContextType = ResolverContext,
+  ParentType extends ResolversParentTypes["Poster"] = ResolversParentTypes["Poster"]
+> = {
+  id?: Resolver<ResolversTypes["ID"], ParentType, ContextType>;
+  title?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
+  abstract?: Resolver<Maybe<ResolversTypes["String"]>, ParentType, ContextType>;
+  description?: Resolver<
+    Maybe<ResolversTypes["String"]>,
+    ParentType,
+    ContextType
+  >;
+  day?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
+  pdflink?: Resolver<Maybe<ResolversTypes["String"]>, ParentType, ContextType>;
+  speakers?: Resolver<
+    ReadonlyArray<ResolversTypes["Speaker"]>,
+    ParentType,
+    ContextType
+  >;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType>;
 };
 
 export type QueryResolvers<
@@ -273,6 +319,18 @@ export type QueryResolvers<
     ParentType,
     ContextType,
     RequireFields<QuerySpeakerArgs, "id">
+  >;
+  poster?: Resolver<
+    Maybe<ResolversTypes["Poster"]>,
+    ParentType,
+    ContextType,
+    RequireFields<QueryPosterArgs, "id">
+  >;
+  posters?: Resolver<
+    ReadonlyArray<ResolversTypes["Poster"]>,
+    ParentType,
+    ContextType,
+    RequireFields<QueryPostersArgs, never>
   >;
 };
 
@@ -347,6 +405,7 @@ export type TalkResolvers<
 };
 
 export type Resolvers<ContextType = ResolverContext> = {
+  Poster?: PosterResolvers<ContextType>;
   Query?: QueryResolvers<ContextType>;
   Room?: RoomResolvers<ContextType>;
   Speaker?: SpeakerResolvers<ContextType>;
