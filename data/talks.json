@@ -3902,9 +3902,9 @@
   "speakers": [
    {
     "avatar": null,
-    "name": "tombsvj@ornl.gov",
+    "name": "Vandy Tombs",
     "code": "P3DS7F",
-    "biography": "Vandy Tombs is a Research Associate in Geographic Data Science group at Oak Ridge National Laboratory. She enjoys applying group theory to develop new machine learning architectures and utilizing differentiable programming to improve existing scientific algorithms."
+    "biography": "Vandy Tombs is an Applied Mathematician in Geographic Data Science group at Oak Ridge National Laboratory. She enjoys applying group theory to develop new machine learning architectures and utilizing differentiable programming to improve existing scientific algorithms."
    }
   ],
   "description": "This talk will briefly discuss the Dark Channel Prior implementation and will emphasize how it is possible to parameterize the algorithm and replace key portions with small neural networks. It will also cover gathering useful data and defining a meaningful loss function for measuring the performance of the dehaze algorithm. The hope is that others will see how programming in Julia can allow for easy application of differentiable programming in variety of scientific domains.",
