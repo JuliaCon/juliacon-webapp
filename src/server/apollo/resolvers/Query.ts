@@ -1,16 +1,22 @@
-import { assertConferenceDay } from "../../../const";
+import { isConferenceDay } from "../../../const";
 import { filterTalks } from "../../pretalx";
 import { talkTypeToSubmissionType } from "../utils";
 import { QueryResolvers } from "./__types__";
+import { isNonNull } from "../../../utils/null";
 
 export const Query: QueryResolvers = {
   talks: async (_root, args, { dataSources }) => {
     const talks = await dataSources.pretalx.getAllTalks();
 
-    const { roomId, talkType } = args;
+    const { day, roomId, talkType } = args;
+
+    // If we pass an invalid day, just return no talks.
+    if (isNonNull(day) && !isConferenceDay(day)) {
+      return [];
+    }
 
     return filterTalks(talks, {
-      day: args.day ? assertConferenceDay(args.day) : undefined,
+      day: day,
       roomId,
       submissionType: talkType && talkTypeToSubmissionType(talkType),
     });
