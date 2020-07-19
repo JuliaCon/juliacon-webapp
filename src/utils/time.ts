@@ -1,6 +1,12 @@
 import { addHours } from "date-fns";
 
-const DEBUG_HOURS_SHIFT = Number(process.env["DEBUG_HOURS_SHIFT"]);
+// This has the unfortunate side effect of causing the server rendered content
+// and the browser rendered content to disagree since we can't access
+// localStorage on the server. Since it's only a debug thing, it's not that big
+// of a deal.
+const DEBUG_HOURS_SHIFT = __SERVER__
+  ? 0
+  : Number(window.localStorage.getItem("DEBUG_HOURS_SHIFT"));
 
 export function createDate(timestamp: string | Date) {
   let date = typeof timestamp === "string" ? new Date(timestamp) : timestamp;

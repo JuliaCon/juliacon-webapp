@@ -6,8 +6,7 @@ module.exports = {
       new webpack.DefinePlugin({
         __SERVER__: isServer,
         __DEV__: dev,
-      }),
-      new webpack.EnvironmentPlugin(["DEBUG_HOURS_SHIFT"])
+      })
     );
 
     // Because of reasons, Webpack doesn't seem to be able to properly eliminate
