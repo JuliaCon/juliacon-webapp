@@ -43,6 +43,12 @@ git-tree-sha1 = "1b77a77c3b28e0b3f413f7567c9bb8dd9bdccd14"
 uuid = "fa961155-64e5-5f13-b03f-caf6b980ea82"
 version = "0.3.0"
 
+[[CSV]]
+deps = ["CategoricalArrays", "DataFrames", "Dates", "Mmap", "Parsers", "PooledArrays", "SentinelArrays", "Tables", "Unicode"]
+git-tree-sha1 = "f095e44feec53d0ae809714a78c25908d1f370e6"
+uuid = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+version = "0.7.4"
+
 [[CUDAapi]]
 deps = ["Libdl", "Logging"]
 git-tree-sha1 = "831b825d10104bd29e28f6da93312a976830717b"
@@ -416,6 +422,12 @@ version = "1.0.1"
 
 [[SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
+
+[[SentinelArrays]]
+deps = ["Dates", "Random"]
+git-tree-sha1 = "cd9dccb026262a46d5a81ef1ce1e595150b2b8d2"
+uuid = "91c51154-3ec4-41a3-a24f-3f23e20d615c"
+version = "1.2.9"
 
 [[Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"

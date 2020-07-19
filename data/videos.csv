@@ -1,0 +1,154 @@
+date,start_time (UTC),end_time (UTC),title,speakers,code,In S3?,youtube_url
+2020-07-24,14:00:00,17:30:00,Learn Julia via epidemic modelling,David P. Sanders,LSNEWV,Workshop,
+2020-07-24,14:00:00,17:30:00,Building and analyzing graphs at scale with LightGraphs,"Mathieu Besançon, James Fairbanks, Simon Schoelly",GQATHR,Workshop,
+2020-07-25,14:00:00,17:30:00,Building microservices and applications in Julia,Jacob Quinn,Y3H7FG,Workshop,
+2020-07-25,14:00:00,17:30:00,"BinaryBuilder.jl — The Subtle Art of Binaries that ""Just Work""","Elliot Saba, Mosè Giordano",9WMAVU,Workshop,
+2020-07-26,14:00:00,17:30:00,Wrapping a C++ library using CxxWrap.jl,Bart Janssens,NNVQQF,Workshop,
+2020-07-26,14:00:00,17:30:00,Doing Scientific Machine Learning (SciML) With Julia,Chris Rackauckas,C9FGPP,Workshop,
+2020-07-27,14:00:00,17:30:00,A deep dive into DataFrames.jl indexing,Bogumił Kamiński,8SFYHK,Workshop,
+2020-07-27,14:00:00,17:30:00,Calculating with sets: Interval methods in Julia,David P. Sanders,QT3S9U,Workshop,
+2020-07-28,14:00:00,17:30:00,Make your Julia code faster and compatible with non-Julia code.,Huda Nassar,7MALUA,Workshop,
+2020-07-28,14:00:00,17:30:00,MLJ: a machine learning toolbox for Julia,"Anthony Blaom, Thibaut Lienart",DMHZCC,Workshop,
+2020-07-29,12:30:00,12:40:00,"KernelFunctions.jl, machine learning kernels for Julia",Théo Galy-Fajou,YY9QEJ,Y,https://youtu.be/ufHG0C44ivI
+2020-07-29,12:30:00,13:00:00,When compiler technology meets Market Risk Management,"Felipe Noronha Tavares, Lucas Processi",WGAHCK,Y,
+2020-07-29,12:30:00,12:40:00,"Parallelization, Random Numbers and Reproducibility",Phillip Alday,8VUMUA,Y,https://youtu.be/qhfQKIDR7Ms
+2020-07-29,12:40:00,12:50:00,Reproducible environments with Singularity,Steffen Ridderbusch,KCP9NT,Delay,
+2020-07-29,12:40:00,12:50:00,Fast Gaussian processes for time series,Will Tebbutt,DSXCMZ,Y,
+2020-07-29,12:50:00,13:00:00,DrWatson - The perfect sidekick to your scientific inquiries,George Datseris,L3FYJW,,
+2020-07-29,12:50:00,13:00:00,"AugmentedGaussianProcesses.jl, a full Gaussian Process toolkit",Théo Galy-Fajou,CE7FZA,Y,
+2020-07-29,13:00:00,13:10:00,Modeling non-Gaussian time series with ScoreDrivenModels.jl,Guilherme Bodin,AA8CQU,Y,
+2020-07-29,13:00:00,13:30:00,Jusdl.jl - Julia Based System Description Language,Zekeriya SARI,FW7W9D,Y,https://youtu.be/VTn8j-HDzIQ
+2020-07-29,13:00:00,13:30:00,Shippable apps and custom sysimages with PackageCompiler.jl,Kristoffer Carlsson,Z8TE39,Y,
+2020-07-29,13:10:00,13:40:00,AutoMLPipeline: A ToolBox for Building ML Pipelines,"Dr. Paulito Palmes, PhD",AD7TQW,Y,https://youtu.be/6-hJnMO0oDs
+2020-07-29,13:30:00,14:00:00,"Salsa.jl: A framework for on-demand, incremental computation",Nathan Daly,DBGWXK,Y,
+2020-07-29,13:30:00,13:40:00,Project Binder and the Julia Community: How can we help each oth,Sarah Gibson,GVFYUF,,
+2020-07-29,13:40:00,13:50:00,EvoTrees for Flexible Gradient Boosting Trees,Jeremie Desgagne-Bouchard,AKY8V7,Y,https://youtu.be/HM965vLN7d0
+2020-07-29,13:40:00,13:50:00,Dependency-Aware Jupyter Notebooks,Arnav Sood,87JCMX,Delay,
+2020-07-29,13:50:00,14:00:00,Julia for scripting,Fredrik Ekre,N39HSX,Delay,
+2020-07-29,13:50:00,14:00:00,Generating automatically labelled ML datasets with Lattice.jl,Don March,ACJRET,Delay,
+2020-07-29,14:20:00,15:05:00,Keynote: Karen Willcox,Karen Willcox,UCQCSN,Live,
+2020-07-29,15:10:00,15:20:00,Diversity and Inclusion Efforts in the Julia Community,Logan Kilpatrick,UTGXSH,Live,
+2020-07-29,15:20:00,15:50:00,Juno 1.0,"Shuhei Kadowaki, Sebastian Pfitzner",DWCJUK,Live,
+2020-07-29,16:10:00,16:20:00,Estimation of Macroeconomic Models,William Chen,MCQHT3,Y,https://youtu.be/q3KoMloafwY
+2020-07-29,16:10:00,17:40:00,Poster Session 1,JuliaCon Committee,9BNNMD,NA,
+2020-07-29,16:10:00,16:20:00,Using Julia and group theory  to describe Molecular Vibrations,"León Alday, Roberto Bernal-Jaquez",XW9PNR,Y,
+2020-07-29,16:20:00,16:50:00,JuliaCats: Applied Category Theory in Julia,"James Fairbanks, Micah Halter",GALAX8,Y,
+2020-07-29,16:20:00,16:30:00,Bayesian Agent-Based Monte Carlo Option Pricing with Julia,Tyler Brough,AWYKZL,,
+2020-07-29,16:30:00,16:40:00,Convex.jl: where are we and where do we want to go?,Eric P. Hanson,LQLP9P,Y,
+2020-07-29,16:40:00,17:10:00,"What's new in Pkg: artifacts, binaries & the Pkg protocol","Elliot Saba, Stefan Karpinski",RXAN8F,,
+2020-07-29,16:50:00,17:20:00,Solving Neuroinformatics' Three Language Problem With Julia,Zachary P Christensen,XEELRW,Y,
+2020-07-29,17:10:00,17:20:00,Probabilistic Optimization with the Koopman Operator,Adam R. Gerlach,KTDY7J,Y,
+2020-07-29,17:20:00,17:30:00,Multi-Physics 3-D Inversion on GPU Supercomputers with Julia,"Ludovic Räss, Georg, Samuel Omlin",YDSABY,Y,https://youtu.be/1t1AKnnGRqA
+2020-07-29,17:20:00,17:30:00,Whole-brain systems neuroscience with Julia,Vilim Štih,CUMDLK,Y,
+2020-07-29,17:30:00,17:40:00,Terminal User Interfaces in Julia,Dheepak Krishnamurthy,SD8PSC,Y,https://youtu.be/-TASx67pphw
+2020-07-29,17:30:00,17:40:00,Computational tools for designing modular biosystems,Michiel Stock,7MYVV3,Y,https://youtu.be/qI2fCgYD0bU
+2020-07-29,18:00:00,18:30:00,Abstraction without Regret: A Cloud Knowledge Graph DB in Julia,Molham Aref,JEWE93,Delay,
+2020-07-29,18:00:00,18:10:00,Convolutional Conditional Neural Processes in Flux,Wessel Bruinsma,PARPJU,,https://youtu.be/nq6X-w5xgLo
+2020-07-29,18:00:00,18:30:00,Loop Analysis in Julia,Chris Elrod,JQLXBK,Y,
+2020-07-29,18:10:00,18:20:00,Applying Differentiable Programming to the Dark Channel Prior,tombsvj@ornl.gov,PUHBMG,Y,https://youtu.be/ZQSObRGPcIc
+2020-07-29,18:20:00,18:30:00,Exploring Disease Vector Dynamics Under Environmental Change,Valeri Vasquez,MR9QWA,Y,https://youtu.be/CUmd-J0CaNs
+2020-07-29,18:30:00,18:40:00,Accelerating Tensor Computations in Julia on the GPU,Katharine Hyatt,GSXV8H,,
+2020-07-29,18:30:00,19:00:00,SciML: Automatic Discovery of droplet fragmentation Physics,Raj Dandekar,RYFMY9,Y,https://youtu.be/og6aE3sYdHg
+2020-07-29,18:30:00,18:40:00,`SymbolicTensors.jl` -- high-level tensor manipulation in Julia,Robert Rosati,XKG7TT,Y,
+2020-07-29,18:40:00,18:50:00,Concatenation and Kronecker products of abstract linear maps,Daniel Karrasch,3JSMMG,Y,https://youtu.be/K86CMafvgFA
+2020-07-29,18:40:00,18:50:00,MPI.jl: Julia meets classic HPC,Simon Byrne,3NXGGJ,Delay,https://youtu.be/pV-8YqfOxQE
+2020-07-29,18:50:00,19:00:00,SIMD in Julia - Automatic and explicit,Kristoffer Carlsson,NMGTD9,Y,https://youtu.be/MUGQnq7mkSs
+2020-07-29,18:50:00,19:00:00,Effectively Using GR,Josef Heinen,JHCWQA,Delay,
+2020-07-29,19:00:00,19:30:00,Accurate and Efficiently Vectorized Sums and Dot Products,"François Févotte, Chris Elrod",LEADQ7,Y,https://youtu.be/CoAlD8OqrrI
+2020-07-29,19:00:00,19:30:00,On the State of Flux,Dhairya Gandhi,RRNYRW,Y,
+2020-07-29,19:00:00,19:30:00,DFTK: A Julian approach for simulating electrons in solids,Michael Herbst,X8LY73,Y,https://youtu.be/-RomkxjlIcQ
+2020-07-30,12:30:00,12:40:00,State Space Modeling for Macroeconomics with StateSpaceEcon,"Nicholas Labelle St-Pierre, Boyan Bejanov, Atai Akunov",LHBLF3,,
+2020-07-30,12:30:00,12:40:00,Complex graphs in transportation networks with OpenStreetMapX.jl,"Bogumił Kamiński, Przemysław Szufel",GX8QCX,Y,https://youtu.be/wybG7ha3fdA
+2020-07-30,12:30:00,12:40:00,Creating a multichannel wireless speaker setup with Julia,Elliot Saba,KK9S9V,Y,
+2020-07-30,12:40:00,12:50:00,Parallel Implementation of Monte Carlo-Markov Chain Algorithm,"Oscar A. Esquivel-Flores, Óscar Alvarado",ALMRKK,,https://youtu.be/UEC-bThWCIs
+2020-07-30,12:40:00,12:50:00,GeoInterface: bringing geospatial packages together,Martijn Visser,GR9TZH,Y,
+2020-07-30,12:40:00,12:50:00,Boids: Dancing with Friends and Enemies,Jesse Bettencourt,M89V9M,,
+2020-07-30,12:50:00,13:00:00,Comparative study of parallelism in Julia and an HPC environment,Samuel Kapembe,E98QKR,Delay,
+2020-07-30,12:50:00,13:00:00,Handling large geospatial raster data with the Earth System Data,Felix Cremer,GDCEYU,Y,
+2020-07-30,12:50:00,13:00:00,AMDGPU Computing in Julia,Julian P Samaroo,J9Q8UR,Y,https://youtu.be/bpsA0iooMb4
+2020-07-30,13:00:00,13:30:00,JuliaMusic: doing cool science and becoming a better drummer,George Datseris,8RM33X,Y,https://youtu.be/VxiwWD8U9iQ
+2020-07-30,13:00:00,13:30:00,Optimization Algorithms in Julia for GPUs,Michel Schanen,HVXXZD,,
+2020-07-30,13:00:00,13:30:00,NetworkDynamics.jl - Modeling dynamical systems on networks,"Michael Lindner, Anton Plietzsch",YVRWMA,Y,https://youtu.be/GrmnbDYr6mM
+2020-07-30,13:30:00,14:00:00,Rapid Commercialization of Drone Autonomy using Julia,Kerry Snyder,38UTLX,Y,
+2020-07-30,13:30:00,14:00:00,How not to write CPU code -- KernelAbstractions.jl,Valentin Churavy,YCGSVY,Delay,
+2020-07-30,13:30:00,14:00:00,GeometricFlux.jl: Geometric Deep Learning on Flux,Yueh-Hua Tu,9A8DCP,Y,
+2020-07-30,14:20:00,15:05:00,The State of Julia,"Stefan Karpinski, Jeff Bezanson",MASLPF,Live,
+2020-07-30,15:10:00,15:55:00,Keynote: Juan Pablo Vielma,Juan Pablo Vielma,7RL9UQ,Live,
+2020-07-30,16:10:00,16:20:00,Integrate Julia and Javascript using Node.js extensions,Maxime Mouchet,Q88P8U,Y,https://youtu.be/bk3DNy18c0Y
+2020-07-30,16:10:00,16:40:00,Julia and C++: a technical overview of CxxWrap.jl,Bart Janssens,XGHSWW,Y,
+2020-07-30,16:10:00,16:20:00,Introducing the @ccall macro,Aaron Christianson,Y7ERM9,,
+2020-07-30,16:20:00,16:30:00,"Design documents are great, and here’s why you should consider w",Matt Brzezinski,3LUQVT,Y,https://youtu.be/XI58hlGA7Is
+2020-07-30,16:20:00,16:30:00,Highly productive Julia web development with Genie 1.0,Adrian Salceanu,DTLBM9,Y,
+2020-07-30,16:30:00,16:40:00,JSServe: Websites & Dashboards in Julia,Simon Danisch,GFE3DB,Delay,
+2020-07-30,16:30:00,16:40:00,Adventures in Avoiding Allocations,Brian Jackson,BSQLL9,Y,https://youtu.be/o8qTJGcPWkE
+2020-07-30,16:40:00,17:10:00,Advanced Metaprogramming Tools,Mike Innes,QHRQVF,Y,
+2020-07-30,16:40:00,16:50:00,Write a WebApp in Julia with Dashboards.jl,Dhairya Gandhi,P7EQCK,Delay,https://youtu.be/xPUOCQ2SJF0
+2020-07-30,16:40:00,17:10:00,Dispatching Design Patterns,Aaron Christianson,JYNERU,Y,https://youtu.be/n-E-1-A_rZM
+2020-07-30,16:50:00,17:00:00,Interactive data dashboards with Julia and Stipple,Adrian Salceanu,8SZSBE,Y,https://youtu.be/PF5u1X0WSAM
+2020-07-30,17:00:00,17:10:00,Rocket.jl: A Julia package for reactive programming,Dmitry Bagaev,VP3W33,Y,https://youtu.be/5UVwzzWeCm8
+2020-07-30,17:10:00,17:20:00,Continuables.jl: Python yield in Julia in blazingly fast,Stephan Sahm,LRKHWM,Y,
+2020-07-30,17:10:00,17:20:00,Beyond Overdubbing: Building a Generic IR Tracker,Philipp Gabler,KKUCBL,Y,https://youtu.be/DAVu6PYbQOs
+2020-07-30,17:10:00,17:40:00,Interactive notebooks ~ Pluto.jl,Fons van der Plas,WNBYW8,Y,
+2020-07-30,17:20:00,17:30:00,Computation Techniques for Encrypted Data,Gajendra Deshpande,MGJCGT,Y,
+2020-07-30,17:20:00,17:30:00,Integrating Julia in R with the JuliaConnectoR,Stefan Lenz,PHGCKB,Y,
+2020-07-30,17:30:00,17:35:00,Zapata,,9XN9AW,NA,
+2020-07-30,17:30:00,17:40:00,JuliaLang Survey Results,Viral B. Shah,3YDDAE,,
+2020-07-30,18:00:00,18:30:00,Solving Nonlinear Multi-Physics on GPU Supercomputers with Julia,Samuel Omlin,M98VVM,,
+2020-07-30,18:00:00,18:30:00,StatsModels.jl: Mistakes were made/A `@formula` for success,Dave Kleinschmidt,ELQ8A8,Y,
+2020-07-30,18:00:00,18:30:00,Causal Bayesian Inference with Soss.jl,Chad Scherrer,7ZJCPC,,
+2020-07-30,18:30:00,19:00:00,Solving partial differential equations in Julia with Gridap.jl,Francesc Verdugo,DVSD7Q,Y,https://youtu.be/txcb3ROQBS4
+2020-07-30,18:30:00,18:40:00,The Queryverse,David Anthoff,8EPG3L,,
+2020-07-30,18:30:00,19:00:00,DynamicPPL: Stan-like Speed for Dynamic Probabilistic Models,Mohamed Tarek,HWZ38H,Y,
+2020-07-30,18:40:00,18:50:00,Julia for Knowledge Mining in Industry 4.0,"Dewan Md. Farid, Swakkhar Shatabda, Aicha Sekhari, Yacine Ouzrout",EVJNMH,Y,https://youtu.be/wkwIaE1o5jc
+2020-07-30,18:50:00,19:00:00,Efficient RANSAC in efficient Julia,Tamás Cserteg,XQ9YQK,Y,https://youtu.be/EcuqNhmfovM
+2020-07-30,19:00:00,19:30:00,Inventing Curriculum with Julia and Pointer-Generator Network,Gajendra Deshpande,KFRKCB,Delay,
+2020-07-30,19:00:00,19:30:00,Inference of Bifurcations with Differentiable Continuation,Gregory Szep,HJZXMX,Y,https://youtu.be/vp-206RgeVE
+2020-07-30,19:00:00,19:10:00,SymbolicStats.jl,Kusti Skytén,TTU9U8,Withdrawn?,
+2020-07-30,19:10:00,19:20:00,Bijectors.jl: Transforming probability distributions in Julia,Tor Erlend Fjelde,9RX99T,Y,https://youtu.be/ekF8ApjPYWk
+2020-07-30,19:20:00,19:30:00,Easy and fast desktop GUIs with QML,Bart Janssens,3ZTCWX,Y,https://youtu.be/AddbHe05yRg
+2020-07-30,19:30:00,20:00:00,Enterprise data management with low-rank topic models,Jiahao Chen,AQMLUC,,
+2020-07-31,12:30:00,12:40:00,Bringing Julia to the Realm of Electronic Structure Theory,David Poole,TKAXGF,,
+2020-07-31,12:30:00,13:00:00,Generic Manpower Simulation Engine: a SimJulia case study,Johan Van Kerckhoven,79FJUW,Y,https://youtu.be/nvtGNQQlqIo
+2020-07-31,12:30:00,13:00:00,A Computational Textbook for Teaching Data Science with Julia,"Travis DePrato, Raj Rao",NPWSWB,,
+2020-07-31,12:40:00,12:50:00,Interrogating intratumor heterogeneity dynamics with Julia,Meghan Ferrall-Fairbanks,MMJXXC,Y,https://youtu.be/bOw9VrLmZzs
+2020-07-31,12:50:00,13:00:00,Analyzing species interaction networks in Julia,Francis Banville,GPFUZR,Y,
+2020-07-31,13:00:00,13:10:00,Introducing the Hispanic community to Julia,Pamela Alejandra Bustamante Faúndez,VPUS7J,Y,
+2020-07-31,13:00:00,13:10:00,A fast atmospheric radiation code for global circulation models,Charlie Kawczynski,DTAFMF,,
+2020-07-31,13:00:00,13:10:00,Migrating to JuMP: Leaving Behind Domain Specific Languages,Josiah Pohl,S9BVBR,Y,https://youtu.be/tJv2tbQjTlg
+2020-07-31,13:10:00,13:20:00,Crash Course in Energy Systems Modeling and Analysis with Julia,"Dheepak Krishnamurthy, Clayton Barrows",V3QDAM,Y,https://youtu.be/kQNOG4tGJdg
+2020-07-31,13:10:00,13:20:00,No-overhead Game Development in Julia,Ahan Sengupta,YYWMPR,Delay,
+2020-07-31,13:10:00,13:20:00,"BITE, a Bayesian glacier thickness estimation model",Mauro Werder,PTL7YB,Y,https://youtu.be/tZcsbNhJ7DY
+2020-07-31,13:20:00,13:30:00,Julia Track Google Code In and Beyond,Choi Ching Lam,HJTZNE,,
+2020-07-31,13:20:00,13:30:00,Climate models in 16bit: Arithmetic and algorithmic challenges,Milan Kloewer,JPGZK3,Y,
+2020-07-31,13:20:00,13:30:00,HydroPowerModels.jl: Impacts of Network Simplifications,Andrew Rosemberg,ETWX8X,,https://youtu.be/xUpX-k0oZmo
+2020-07-31,13:30:00,13:40:00,Solving Practical Allotment Problems with Julia,Saurabh Kumar,ELXNUQ,,https://youtu.be/fSoNYz56MiM
+2020-07-31,13:30:00,13:40:00,Julia in Education for Generation Z,Gajendra Deshpande,9GDBEW,Y,
+2020-07-31,13:30:00,14:00:00,Intertwined Economic and Energy Analysis using Julia,Caroline Hughes,UUECGJ,Y,
+2020-07-31,13:40:00,13:50:00,A Parallel Time-Domain Power System Simulation Toolbox in Julia,Michael Kyesswa,ZMHR9V,Y,https://youtu.be/RKtIxZfhdXU
+2020-07-31,13:40:00,13:50:00,Developing an exercise-based Julia curriculum,Sascha Mann,Z3RDBQ,Y,
+2020-07-31,13:50:00,14:00:00,The ups and downs of convincing to switch to Julia in a company,Jorge Alberto Vieyra Salas,FHEGUA,,
+2020-07-31,13:50:00,14:00:00,Evolutionary algorithms for electrical circuit design,Maxime,JFUJJ7,Y,
+2020-07-31,14:20:00,15:05:00,Keynote: Linda Petzold,Linda Petzold,LG3GQP,Live,
+2020-07-31,15:05:00,15:10:00,Julia Computing,,HZRHEL,Live,
+2020-07-31,15:10:00,15:20:00,Pkg.update() or What's going on in Pkg-land?,Kristoffer Carlsson,PLFURQ,,
+2020-07-31,15:20:00,15:50:00,Lessons learned on trait-based descriptions of graphs,Mathieu Besançon,RMGYYX,Y,https://youtu.be/qhAe1PuWjRQ
+2020-07-31,16:10:00,16:40:00,Auto-Optimization and Parallelism in DifferentialEquations.jl,Chris Rackauckas,B3VAGU,Y,https://youtu.be/UNkXNZZ3hSw
+2020-07-31,16:10:00,16:40:00,Using VS Code for Julia development,David Anthoff,HBTFT7,,
+2020-07-31,16:10:00,17:40:00,Poster Session 2,JuliaCon Committee,LRRAGD,NA,
+2020-07-31,16:40:00,17:10:00,"Display, show and print -- how Julia's display system works",Fredrik Ekre,KZK93G,Delay,
+2020-07-31,16:40:00,17:10:00,ChainRules.jl,Lyndon White (@oxinabox),QABEK8,Y,
+2020-07-31,17:10:00,17:40:00,Manifolds in Julia – Manifolds.jl & ManifoldsBase.jl,Ronny Bergmann,KCFCMQ,Y,https://youtu.be/md-FnDGCh9M
+2020-07-31,17:10:00,17:20:00,NamedDims.jl: Work with array dimensions by name at no cost,Nick Robinson,RVZNV3,Delay,
+2020-07-31,17:20:00,17:30:00,Changing the immutable,Jan Weidner,ER3ZYC,,https://youtu.be/vkAOYeTpLg0
+2020-07-31,17:30:00,17:40:00,SmartHomy: Julia controlling your home and life!,Simon Danisch,ZRC8HA,Delay,
+2020-07-31,18:00:00,18:30:00,DynamicGrids.jl: high-performance spatial simulations in Julia,Rafael Schouten,P8D3PF,Y,https://youtu.be/MDvhIASXb6k
+2020-07-31,18:00:00,18:30:00,GigaSOM.jl: 1 billion cytometry events and beyond with Julia,"Miroslav Kratochvíl, Oliver Hunewald",UPHPAT,Y,
+2020-07-31,18:00:00,19:30:00,Minisymposium on Partial Differential Equations,Jürgen Fuhrmann,MCFFUY,Delay,
+2020-07-31,18:30:00,19:00:00,Natural Language Processing in Julia,Ayush Kaushal,Z8WWNV,Y,https://youtu.be/hHCi8ojazqk
+2020-07-31,18:30:00,19:00:00,Simulating the Early Universe with Inflation.jl,Robert Rosati,LUSFK8,Y,
+2020-07-31,19:00:00,19:10:00,Makie.jl,Simon Danisch,7XARPV,Delay,
+2020-07-31,19:00:00,19:10:00,Iterable Parser Combinators for fast parsing in pure Julia,Gregor Kappler,M8JLAF,Y,
+2020-07-31,19:10:00,19:20:00,Creating an XML parser from scratch,Erik Engheim,V9NX3C,Y,https://youtu.be/3WnJZzNXM_0
+2020-07-31,19:10:00,19:20:00,Interactive data visualizations with StatsMakie,Pietro Vertechi,BMNWLJ,,
+2020-07-31,19:20:00,19:30:00,The Julia Vega and Vega-Lite ecosystem,David Anthoff,XBLMPG,,
+2020-07-31,19:20:00,19:30:00,How similar do two strings look? Visual distances in Julia,Eric P. Hanson,PTZDCJ,Y,https://youtu.be/hf2b9ganGxE

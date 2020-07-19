@@ -56,4 +56,20 @@ viz_data_preprocess(talks)
 #   return talk_type === "Poster"
 # end
 
+using CSV
+
+youtube_code(url::String) = split(url, "/")[end]
+youtube_code(::Missing) = nothing
+
+video_codes = Dict(
+    v.code => youtube_code(v.youtube_url)
+    for v in CSV.File("videos.csv")
+)
+open("videocodes.json", "w") do io
+    data = Dict(
+        "videoCodes" => video_codes,
+    )
+    JSON.print(io, data, 1)
+end
+
 @info "Success!"
