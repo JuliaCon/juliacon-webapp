@@ -28,6 +28,6 @@ export const Talk: TalkResolvers = {
   },
 
   videoCode: (root) => {
-    return "dQw4w9WgXcQ";
+    return "9FXSN6Y2pgY";
   },
 };
