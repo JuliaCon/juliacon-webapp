@@ -5,3 +5,4 @@ export * from "./PretalxAPIRoom";
 export * from "./PretalxAPIPoster";
 
 export * from "./PretalxAPI";
+export * from "./VideoCodes";

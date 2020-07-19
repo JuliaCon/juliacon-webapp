@@ -3,11 +3,11 @@ import {
   PretalxAPITalk,
   PretalxAPISpeaker,
   PretalxAPIRoom,
+  PretalxAPIPoster,
 } from "../../pretalx";
 import { ResolverContext } from "../ResolverContext";
 export type Maybe<T> = T | null | undefined;
 export type Exact<T extends { [key: string]: any }> = { [K in keyof T]: T[K] };
-export type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
 export type RequireFields<T, K extends keyof T> = {
   [X in Exclude<keyof T, K>]?: T[X];
 } &
@@ -249,11 +249,7 @@ export type ResolversTypes = {
   TalkType: TalkType;
   Speaker: ResolverTypeWrapper<PretalxAPISpeaker>;
   Room: ResolverTypeWrapper<PretalxAPIRoom>;
-  Poster: ResolverTypeWrapper<
-    Omit<Poster, "speakers"> & {
-      speakers: ReadonlyArray<ResolversTypes["Speaker"]>;
-    }
-  >;
+  Poster: ResolverTypeWrapper<PretalxAPIPoster>;
   Boolean: ResolverTypeWrapper<Scalars["Boolean"]>;
 };
 
@@ -265,9 +261,7 @@ export type ResolversParentTypes = {
   String: Scalars["String"];
   Speaker: PretalxAPISpeaker;
   Room: PretalxAPIRoom;
-  Poster: Omit<Poster, "speakers"> & {
-    speakers: ReadonlyArray<ResolversParentTypes["Speaker"]>;
-  };
+  Poster: PretalxAPIPoster;
   Boolean: Scalars["Boolean"];
 };
 
