@@ -69,9 +69,11 @@ function get_corpus(data)
 
     # replace plurals and update the lexicon
     for doc in corpus
+        words = split(doc.text)
         for pair in pairs
-            doc.text = replace(doc.text, pair)
+            words = replace(words, pair)
         end
+        doc.text = join(words, " ")
     end
     update_lexicon!(corpus)
 
