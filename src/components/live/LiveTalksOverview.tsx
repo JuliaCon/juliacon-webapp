@@ -16,6 +16,7 @@ import { Center, VSpace } from "../layout";
 import { useLiveTalks } from "./useLiveTalks";
 import { LiveTalksTalkFragment } from "./LiveTalks.generated";
 import { LiveTalksPlaceholder } from "./LiveTalksPlaceholder";
+import { Link } from "../core";
 
 export const LiveTalksView = () => {
   const [time, setTime] = React.useState(() => now());
@@ -130,15 +131,15 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
         }
       </Center>
       <VSpace />
-      <Center>
-        <h1
-          className={css`
-            font-size: 1.5rem;
-          `}
-        >
+      <h1
+        className={css`
+          font-size: 1.5rem;
+        `}
+      >
+        <Link href={"/talk/[id]"} as={`/talk/${talk.id}`}>
           {talk.title}
-        </h1>
-      </Center>
+        </Link>
+      </h1>
       <VSpace />
       <p>{talk.abstract}</p>
     </div>
