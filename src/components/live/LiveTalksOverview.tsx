@@ -15,6 +15,7 @@ import { now } from "../../utils/time";
 import { Center, VSpace } from "../layout";
 import { useLiveTalks } from "./useLiveTalks";
 import { LiveTalksTalkFragment } from "./LiveTalks.generated";
+import { LiveTalksPlaceholder } from "./LiveTalksPlaceholder";
 
 export const LiveTalksView = () => {
   const [time, setTime] = React.useState(() => now());
@@ -25,6 +26,10 @@ export const LiveTalksView = () => {
 
   const talks = useLiveTalks(time);
   const [index, setIndex] = React.useState(0);
+
+  if (talks.length === 0) {
+    return <LiveTalksPlaceholder />;
+  }
 
   return (
     <div>
