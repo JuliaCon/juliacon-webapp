@@ -11,7 +11,7 @@ export type PretalxAPIPoster = typeof ALL_POSTERS[number];
  * SpeakerIds grabbed here for each poster
  */
 export const ALL_POSTERS = postersData.map((poster) => ({
-  ...pick(poster, ["title", "abstract", "description"]),
+  ...pick(poster, ["title", "abstract", "description", "startTime"]),
   id: poster.code,
   speakerIds: (poster.speakers as Array<{ code: string }>).map((s) => s.code),
 }));
