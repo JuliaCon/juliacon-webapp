@@ -217,6 +217,14 @@ const TalkYouTubeEmbed = ({ talk }: TalkYouTubeEmbedProps) => {
       // We divide by 1000 since JS stores times in ms and we only want seconds.
       const youtubeStart =
         (mountTime.getTime() - new Date(talk.startTime).getTime()) / 1000;
+
+      // Don't seek forward if we're at the start of a video. This is necessary
+      // since it can take a few seconds for the YouTube video to fire the ready
+      // event and we don't want to always start talks 5 seconds in.
+      if (youtubeStart < 10) {
+        return;
+      }
+
       event.target.seekTo(youtubeStart);
     },
     [mountTime, talk.startTime]
