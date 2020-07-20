@@ -33,7 +33,7 @@
     "apollo-server-micro": "2.15.0",
     "aws-amplify": "3.0.18",
     "cookie": "0.4.1",
-    "date-fns": "2.14.0",
+    "date-fns": "2.15.0",
     "date-fns-tz": "^1.0.10",
     "emotion": "10.0.27",
     "emotion-server": "10.0.27",
