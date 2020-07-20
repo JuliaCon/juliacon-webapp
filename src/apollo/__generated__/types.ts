@@ -99,7 +99,7 @@ export type Talk = {
   /** The end time of the talk (as an ISO 8601 formatted timestamp). */
   endTime: Scalars["String"];
   speakers: Array<Speaker>;
-  room?: Maybe<Room>;
+  room: Room;
   videoCode?: Maybe<Scalars["String"]>;
 };
 

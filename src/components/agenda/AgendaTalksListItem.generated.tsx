@@ -22,9 +22,7 @@ export type AgendaTalksListItemFragment = {
   Types.Talk,
   "id" | "title" | "abstract" | "description" | "type" | "startTime" | "endTime"
 > & {
-    readonly room?: Types.Maybe<
-      { readonly __typename?: "Room" } & Pick<Types.Room, "name">
-    >;
+    readonly room: { readonly __typename?: "Room" } & Pick<Types.Room, "name">;
     readonly speakers: ReadonlyArray<
       { readonly __typename?: "Speaker" } & SpeakerInfoFragment
     >;

@@ -17,6 +17,7 @@ import { useLiveTalks } from "./useLiveTalks";
 import { LiveTalksTalkFragment } from "./LiveTalks.generated";
 import { LiveTalksPlaceholder } from "./LiveTalksPlaceholder";
 import { Link } from "../core";
+import { invariant } from "../../utils/invariant";
 
 export const LiveTalksView = () => {
   const [time, setTime] = React.useState(() => now());
@@ -26,7 +27,6 @@ export const LiveTalksView = () => {
   });
 
   const talks = useLiveTalks(time);
-  const [index, setIndex] = React.useState(0);
 
   if (talks.length === 0) {
     return <LiveTalksPlaceholder />;
@@ -35,33 +35,61 @@ export const LiveTalksView = () => {
   return (
     <div>
       <Center>{format(time, "yyyy-MM-dd HH:mm")}</Center>
-      <TalkSelectionTabs index={index} talks={talks} onChange={setIndex} />
+      <TalkSelectionTabs talks={talks} />
     </div>
   );
 };
 
+type TalksList = readonly LiveTalksTalkFragment[];
 interface TalkSelectionTabsProps {
-  talks: readonly LiveTalksTalkFragment[];
-  index: number | undefined;
-  onChange: (index: number) => void;
+  talks: TalksList;
 }
 const TalkSelectionTabs = React.memo(function TalkSelectionTabs({
   talks,
-  index,
-  onChange,
 }: TalkSelectionTabsProps) {
+  // Knowing that there is at least one active talk makes our life easier below.
+  invariant(
+    !!talks.length,
+    `Cannot render empty talks list in TalkSelectionTabs component`
+  );
+  const fallbackRoomId = talks[0].room.id;
+
+  // We need to decouple the active "room" from the tab index since the tabs
+  // may change over time (e.g. the "green" room might change from tab index 2
+  // to 1 if one room is no longer hosting talks) and we want to typically keep
+  // the user in the same room when the transitions occur.
+  // The edge case here is when a room that the user is currently in goes idle.
+  // In that case, trying to lookup the associated tab index fails and we just
+  // default to the first room.
+  const [roomId, setRoomId] = React.useState(fallbackRoomId);
+  const tabIndex = getIndexByRoom(talks, roomId) || 0;
+
+  // If the room goes idle, set the room to the fallback value
+  React.useEffect(() => {
+    if (tabIndex === null) setRoomId(fallbackRoomId);
+  }, [fallbackRoomId, tabIndex]);
+
+  // When the user click a tab, we need to lookup the index of that tab and
+  // translate it into a room id
+  const onTabChange = React.useCallback(
+    (index: number) => {
+      setRoomId(getRoomByIndex(talks, index) || fallbackRoomId);
+    },
+    [fallbackRoomId, talks]
+  );
+
   const tabs = talks.map((talk) => <Tab key={talk.id}>{talk.title}</Tab>);
-  const panels = talks.map((talk, talkIndex) => (
+  const panels = talks.map((talk) => (
     <TabPanel key={talk.id}>
-      <TalkPanel active={index === talkIndex} talk={talk} />
+      <TalkPanel active={talk.room.id === roomId} talk={talk} />
     </TabPanel>
   ));
 
   return (
     <Tabs
       orientation={TabsOrientation.Vertical}
-      index={index}
-      onChange={onChange}
+      index={tabIndex || 0}
+      onChange={onTabChange}
       className={css`
         &[data-reach-tabs] {
           display: grid;
@@ -104,6 +132,25 @@ const TalkSelectionTabs = React.memo(function TalkSelectionTabs({
     </Tabs>
   );
 });
+
+function getRoomByIndex(talks: TalksList, index: number): string | null {
+  const talk = talks[index];
+  if (!talks.length) {
+    return null;
+  }
+  // If there is no talk at that index (this shouldn't usually happen?), we just
+  // return the first room.
+  if (!talk) {
+    return talks[0].room.id;
+  }
+  return talk.room.id;
+}
+
+function getIndexByRoom(talks: TalksList, roomId: string) {
+  const roomIndex = talks.findIndex((talk) => talk.room.id === roomId);
+  if (roomIndex === -1) return null;
+  return roomIndex;
+}
 
 interface TalkPanelProps {
   talk: LiveTalksTalkFragment;

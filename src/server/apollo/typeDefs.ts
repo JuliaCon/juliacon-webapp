@@ -33,7 +33,7 @@ export const typeDefs = gql`
     endTime: String!
 
     speakers: [Speaker!]!
-    room: Room
+    room: Room!
 
     videoCode: String
   }
@@ -73,7 +73,6 @@ export const typeDefs = gql`
     day: String!
     pdflink: String
     speakers: [Speaker!]!
-
   }
 
   enum TalkType {

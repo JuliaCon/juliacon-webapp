@@ -111,7 +111,7 @@ export type Talk = {
   /** The end time of the talk (as an ISO 8601 formatted timestamp). */
   readonly endTime: Scalars["String"];
   readonly speakers: ReadonlyArray<Speaker>;
-  readonly room?: Maybe<Room>;
+  readonly room: Room;
   readonly videoCode?: Maybe<Scalars["String"]>;
 };
 
@@ -395,7 +395,7 @@ export type TalkResolvers<
     ParentType,
     ContextType
   >;
-  room?: Resolver<Maybe<ResolversTypes["Room"]>, ParentType, ContextType>;
+  room?: Resolver<ResolversTypes["Room"], ParentType, ContextType>;
   videoCode?: Resolver<
     Maybe<ResolversTypes["String"]>,
     ParentType,

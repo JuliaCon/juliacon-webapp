@@ -15,7 +15,11 @@ export const Talk: TalkResolvers = {
   },
 
   room: async (root, _args, { dataSources }) => {
-    return dataSources.pretalx.getRoom(root.roomId);
+    const room = await dataSources.pretalx.getRoom(root.roomId);
+    if (!room) {
+      throw new Error(`Failed to lookup room for talk ${root.id}`);
+    }
+    return room;
   },
 
   day: (root) => {
