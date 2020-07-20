@@ -1499,7 +1499,7 @@
    "YYKQCW"
   ],
   "code": "WUWQQ3",
-  "biography": "Christopher Rackauckas is an Applied Mathematics Instructor at the Massachusetts Institute of Technology and a Senior Research Analyst at University of Maryland, Baltimore, School of Pharmacy in the Center for Translational Medicine. Chris's research is focused on numerical differential equations and scientific machine learning with applications from climate to biological modeling. He is the developer of over many core numerical packages for the Julia programming language, including DifferentialEquations.jl for which he won the inaugural Julia community prize, and the Pumas.jl for pharmaceutical modeling and simulation."
+  "biography": "Christopher Rackauckas is an Applied Mathematics Instructor at the Massachusetts Institute of Technology and a Senior Research Analyst at University of Maryland, Baltimore, School of Pharmacy in the Center for Translational Medicine. Chris's research is focused on numerical differential equations and scientific machine learning with applications from climate to biological modeling. He is the developer of over many core numerical packages for the Julia programming language, including DifferentialEquations.jl for which he won the inaugural Julia community prize, and the Pumas.jl for pharmaceutical modeling and simulation. He is the lead developer for the [SciML Open Source Scientific Machine Learning](https://sciml.ai/) software organization, along with its packages like [DiffEqFlux.jl](https://diffeqflux.sciml.ai/dev/) and [NeuralPDE.jl](https://neuralpde.sciml.ai/dev/)"
  },
  {
   "avatar": "https://pretalx.com/media/avatars/me_9DMNKLb.jpg",
