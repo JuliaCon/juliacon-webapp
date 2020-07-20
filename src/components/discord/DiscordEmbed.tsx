@@ -3,7 +3,7 @@ import React from "react";
 import { Client } from "@widgetbot/embed-api";
 import dynamic from "next/dynamic";
 
-const SERVER = "711732462786576444";
+const SERVER = "709438882504245358";
 const SHARD = "https://e.widgetbot.io";
 
 interface DiscordEmbedProps {

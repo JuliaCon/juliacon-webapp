@@ -1,4 +1,8 @@
-import { EVENTBRITE_BASE_URL, getEventbriteApiToken } from "./config";
+import {
+  EVENTBRITE_BASE_URL,
+  EVENTBRITE_EVENT_ID,
+  getEventbriteApiToken,
+} from "./config";
 
 /**
  * Retrieve an `EventbriteOrder` from the Eventbrite API.
@@ -38,6 +42,10 @@ export async function getEventbriteOrder({ orderId }: { orderId: string }) {
     const message = `Eventbrite returned 200, but got unexpected response`;
     console.error(message, result);
     throw new Error(message);
+  }
+
+  if (result.event_id !== EVENTBRITE_EVENT_ID) {
+    return null;
   }
 
   return result;

@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { useWindowCloseListener } from "../../hooks/useWindowCloseListener";
 import { Center, VSpace } from "../layout";
+import { FormInput, SubmitButton, useInputRef } from "../form";
 
 // These are public credentials. They are intended to be exposed to the
 // frontend. Importantly, the backend bucket is configured to act as a dropbox,
@@ -185,81 +186,6 @@ export const S3Uploader = () => {
         )}
       </form>
     </div>
-  );
-};
-
-interface FormInputProps {
-  description?: React.ReactChild;
-  disabled?: boolean;
-  inputRef: React.MutableRefObject<HTMLInputElement | null>;
-  label: string;
-  type: "text" | "file";
-}
-const FormInput = ({
-  description,
-  disabled,
-  inputRef,
-  label,
-  type,
-}: FormInputProps) => {
-  const descriptionElt = description && (
-    <>
-      {" "}
-      <VSpace height={"0.5rem"} />
-      <p
-        className={css`
-          font-size: 0.9em;
-          padding-left: 1rem;
-          color: #333;
-        `}
-      >
-        {description}
-      </p>
-    </>
-  );
-  return (
-    <label
-      className={css`
-        display: block;
-        padding: 0.5rem;
-      `}
-    >
-      <p>{label}</p>
-      {descriptionElt}
-      <VSpace height={"0.5rem"} />
-      <input
-        ref={inputRef}
-        type={type}
-        disabled={disabled}
-        className={css`
-          display: block;
-          width: 100%;
-          padding: 0.25rem;
-          font-size: 1rem;
-        `}
-      />
-    </label>
-  );
-};
-
-function useInputRef() {
-  return React.useRef<HTMLInputElement | null>(null);
-}
-
-interface SubmitButtonProps {
-  pending: boolean;
-}
-const SubmitButton = ({ pending }: SubmitButtonProps) => {
-  return (
-    <Center>
-      <input
-        type={"submit"}
-        disabled={pending}
-        className={css`
-          font-size: 1rem;
-        `}
-      />
-    </Center>
   );
 };
 
