@@ -7,8 +7,8 @@ import { PosterResolvers } from "./__types__";
 
 export const Poster: PosterResolvers = {
   
-  pdflink: async (root, _args, { dataSources }) => {
-    return null;
+  pdflink: (root, _args, { dataSources }) => {
+    return `/uploads/posters/${root.id}.pdf`;
   },
   
   speakers: async (root, _args, { dataSources }) => {
