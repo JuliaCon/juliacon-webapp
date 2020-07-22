@@ -592,7 +592,7 @@
     "biography": "IT professional working at the intersection between Web Development, Data Science, and Machine Learning. 20 years of experience leading agile teams in developing real-time, data-intensive, web and mobile products.\r\n\r\nPublic speaker and enthusiastic contributor to Open Source projects, with a focus on high-performance web development. Creator of Genie, the highly-productive Julia web framework. Author of \"Julia Programming Projects\" (Packt, 2018) and co-author of “Julia Programming Complete Reference Guide” (Packt, 2019).\r\n\r\nMSc. Advanced Computer Science. MSc. Computing. Certified ScrumMaster."
    }
   ],
-  "description": "We will start by taking a quick look at the technology behind Stipple and its Reactive UI components, to provide a high level understanding of the various layers and the interactions between them. \r\n\r\nThe bulk of the talk will demonstrate how to build a fully functional interactive data dashboard using the German Credit dataset - and how to publish it, with one click, on one of the major hosting platforms. All in just 10 minutes!",
+  "description": "We will start by taking a quick look at the technology stack behind Stipple and its Reactive UI components, to provide a high level understanding of the various layers (Julia, Genie, Observables, Stipple, and Vue.js) and the interactions between them. \r\n\r\nWe will then build a fully functional interactive data dashboard using the German Credit dataset, in which we will explore and visualize the credits distribution by age, using data tables, different types of plots and big numbers -- all in just 10 minutes!",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -605,10 +605,15 @@
   "submission_type": {
    "en": "Lightning Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Presentation slides",
+    "resource": "/media/juliacon2020/submissions/8SZSBE/resources/Stipple_no_vids_4Xq2UpV.pptx"
+   }
+  ],
   "do_not_record": false,
   "title": "Interactive data dashboards with Julia and Stipple",
-  "abstract": "The presentation will demonstrate how to build and publish interactive web based data dashboard using Stipple, the Reactive UI library for Genie. The participants will learn the fundamentals of developing and deploying Stipple apps, allowing them to apply the skills to easily and efficiently create their own interactive Julia data dashboards."
+  "abstract": "Learn how to build interactive, web based data dashboards in pure Julia with the Stipple Reactive UI library. The participants will learn the fundamentals of developing Stipple apps, allowing them to apply the skills to easily and efficiently create their own interactive data dashboards with pure Julia."
  },
  {
   "content_locale": "en",
@@ -1484,7 +1489,7 @@
     "biography": "IT professional working at the intersection between Web Development, Data Science, and Machine Learning. 20 years of experience leading agile teams in developing real-time, data-intensive, web and mobile products.\r\n\r\nPublic speaker and enthusiastic contributor to Open Source projects, with a focus on high-performance web development. Creator of Genie, the highly-productive Julia web framework. Author of \"Julia Programming Projects\" (Packt, 2018) and co-author of “Julia Programming Complete Reference Guide” (Packt, 2019).\r\n\r\nMSc. Advanced Computer Science. MSc. Computing. Certified ScrumMaster."
    }
   ],
-  "description": "With over 800 stars on GitHub and consistently ranking as one of the top 10 most starred Julia packages, Genie is a testament of Julia's great potential as a language for the web. After 5 years in development, over 900 commits and 50 releases, Genie reaches the v1 milestone as a mature, stable, performant, and feature-rich Julia web development framework. \r\n\r\nThe talk will touch upon Genie's most important features, providing a starting point for Julia developers interested in the development of web applications. We will go over features like the HTML templating language, JSON rendering capabilities, input handling, caching, built-in Docker integration, the plugins ecosystem (Genie Authentication and Genie Autoreload), and the built-in deployment adapters for the major hosting platforms. \r\n\r\nWe will close by providing links to Genie resources and documentation so that the interested attendees can dive deeper.",
+  "description": "With over 900 stars on GitHub and consistently ranking as one of the top 10 most starred Julia packages, Genie is a testament of Julia's great potential as a language for the web. After 5 years in development, over 1000 commits and 50 releases, Genie reaches the v1 milestone as a mature, stable, performant, and feature-rich Julia web development framework. \r\n\r\nThe talk will touch upon Genie's most important features, providing a starting point for Julia developers interested in the development of web applications. We will go over features like the HTML templating language, JSON rendering capabilities, input handling, caching, built-in Docker integration, the plugins ecosystem (Genie Authentication and Genie Autoreload), and the built-in deployment adapters for the major hosting platforms.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -1497,7 +1502,12 @@
   "submission_type": {
    "en": "Lightning Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Presentation slides",
+    "resource": "/media/juliacon2020/submissions/DTLBM9/resources/Highly_productive_Julia_web_development_with__ifLirDd.pptx"
+   }
+  ],
   "do_not_record": false,
   "title": "Highly productive Julia web development with Genie 1.0",
   "abstract": "A quick tour de force of Genie's most important features, now packed into the stable, mature, performant, and resilient v1 API. The attendees will discover how Genie can help them to productively build and deploy powerful web applications with Julia."
@@ -3000,10 +3010,10 @@
     "biography": "Nicholas Labelle St-Pierre is a Principal Economist in the Projection Division of the Canadian Economic Analysis Department at the Bank of Canada. His research interests include macroeconomics and computational economics. Nicholas holds an MSc in Economics from the University of Quebec in Montreal (UQAM)."
    },
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/avatar_aGIlCHg.png",
     "name": "Boyan Bejanov",
     "code": "JXPEBU",
-    "biography": null
+    "biography": "Boyan is a Senior Data Scientist at the Bank of Canada in the Digital Economy and Advanced Analytics division. He is interested in scientific computing. His PhD is in Applied Mathematics from the University of Alberta in Edmonton, Alberta, Canada."
    },
    {
     "avatar": null,
