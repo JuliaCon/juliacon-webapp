@@ -15,5 +15,3 @@ export const ALL_POSTERS = postersData.map((poster) => ({
   id: poster.code,
   speakerIds: (poster.speakers as Array<{ code: string }>).map((s) => s.code),
 }));
-
-
