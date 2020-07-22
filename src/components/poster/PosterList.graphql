@@ -1,0 +1,5 @@
+query PosterList {
+  posters {
+    ...PosterListItem
+  }
+}
