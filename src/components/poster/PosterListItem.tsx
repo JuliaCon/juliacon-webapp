@@ -1,7 +1,6 @@
 import React from "react";
 import { usePosterListItemQuery } from "./PosterListItem.generated";
 import { css } from "emotion";
-import { Link } from "../core";
 import { AgendaTalksListItemSpeakers } from "../agenda/AgendaTalksListItem";
 import { VSpace } from "../layout";
 export const PosterListItem = ({ posterId }: { posterId: string }) => {
@@ -18,15 +17,15 @@ export const PosterListItem = ({ posterId }: { posterId: string }) => {
 
   return (
     <div>
-      <Link href={pdflink} as={pdflink}>
-        <h4
-          className={css`
-            font-weight: bold;
-          `}
-        >
+      <h4
+        className={css`
+          font-weight: bold;
+        `}
+      >
+        <a href={pdflink} target="_blank" rel="noopener noreferrer">
           {title}
-        </h4>
-      </Link>
+        </a>
+      </h4>
       <AgendaTalksListItemSpeakers speakers={speakers} />
       <VSpace />
       <p>{abstract}</p>
