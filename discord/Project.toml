@@ -1,0 +1,13 @@
+name = "DiscordBot"
+uuid = "5bfef4c6-bfa3-47cd-9764-ab6ae77a208e"
+authors = ["Chris de Graaf <me@cdg.dev>"]
+version = "0.1.0"
+
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Discord = "e67e5439-1494-44b2-b9ab-d191a16377ec"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+
+[compat]
+Discord = "0.1"
+julia = "1"
