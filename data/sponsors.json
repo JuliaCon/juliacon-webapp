@@ -1,101 +1,101 @@
 [
   {
-    "Sponsor Name": "Gordon and Betty Moore Foundation",
-    "Blurb": "The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements and preservation of the special character of the Bay Area.",
-    "More Info URL": "https://www.moore.org/",
-    "Video URL": "NA",
-    "Chat channel name": "NA",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/moore.jpg",
-    "Tier": "Gold"
+    "sponsorName": "Gordon and Betty Moore Foundation",
+    "blurb": "The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements and preservation of the special character of the Bay Area.",
+    "moreInfoURL": "https://www.moore.org/",
+    "videoURL": "NA",
+    "chatChannelName": "NA",
+    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/moore.jpg",
+    "tier": "Gold"
   },
   {
-    "Sponsor Name": "Julia Computing",
-    "Blurb": "Julia Computing was founded by all the creators of Julia. We make products that make Julia easy to use, easy to deploy and easy to scale.",
-    "More Info URL": "https://juliacomputing.com",
-    "Video URL": "",
-    "Chat channel name": "",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/julia.png",
-    "Tier": "Gold"
+    "sponsorName": "Julia Computing",
+    "blurb": "Julia Computing was founded by all the creators of Julia. We make products that make Julia easy to use, easy to deploy and easy to scale.",
+    "moreInfoURL": "https://juliacomputing.com",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/julia.png",
+    "tier": "Gold"
   },
   {
-    "Sponsor Name": "Invenia Labs",
-    "Blurb": "",
-    "More Info URL": "",
-    "Video URL": "",
-    "Chat channel name": "",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/invenia-labs.png",
-    "Tier": "Silver"
+    "sponsorName": "Invenia Labs",
+    "blurb": "",
+    "moreInfoURL": "",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/invenia-labs.png",
+    "tier": "Silver"
   },
   {
-    "Sponsor Name": "Zapata Computing",
-    "Blurb": "",
-    "More Info URL": "",
-    "Video URL": "",
-    "Chat channel name": "",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/zapata.png",
-    "Tier": "Silver"
+    "sponsorName": "Zapata Computing",
+    "blurb": "Zapata Computing, Inc. is the quantum software company for near-term/NISQ-based quantum applications empowering enterprise teams to accelerate quantum solutions, innovation and transformation.",
+    "moreInfoURL": "https://www.zapatacomputing.com/",
+    "videoURL": "https://youtu.be/-6VfSgPXe4s",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/zapata.png",
+    "tier": "Silver"
   },
   {
-    "Sponsor Name": "Juspay",
-    "Blurb": "",
-    "More Info URL": "",
-    "Video URL": "",
-    "Chat channel name": "",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/juspay.png",
-    "Tier": "Silver"
+    "sponsorName": "Juspay",
+    "blurb": "",
+    "moreInfoURL": "https://juspay.in/",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/juspay.png",
+    "tier": "Silver"
   },
   {
-    "Sponsor Name": "Jeffery Sarnoff",
-    "Blurb": "NA",
-    "More Info URL": "NA",
-    "Video URL": "NA",
-    "Chat channel name": "NA",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/sarnoff.png",
-    "Tier": "Silver"
+    "sponsorName": "Jeffery Sarnoff",
+    "blurb": "",
+    "moreInfoURL": "NA",
+    "videoURL": "NA",
+    "chatChannelName": "NA",
+    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/sarnoff.png",
+    "tier": "Silver"
   },
   {
-    "Sponsor Name": "repl.it",
-    "Blurb": "Repl.it is the easiest, fastest, and most collaborative way to code in Julia and 50+ other languages online. We make programming, rapid prototyping, and sharing easier with multiplayer, no-setup, automatic hosting, and more. Start coding (in Julia) now!",
-    "More Info URL": "https://repl.it/claim?code=JuliaCon2020",
-    "Video URL": "Coming soon?",
-    "Chat channel name": "<iframe src=\"https://discord.com/widget?id=437048931827056642&theme=dark\" width=\"350\" height=\"500\" allowtransparency=\"true\" frameborder=\"0\"></iframe>",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/repl-it.png",
-    "Tier": "Silver"
+    "sponsorName": "repl.it",
+    "blurb": "Repl.it is the easiest, fastest, and most collaborative way to code in Julia and 50+ other languages online. We make programming, rapid prototyping, and sharing easier with multiplayer, no-setup, automatic hosting, and more. Start coding (in Julia) now!",
+    "moreInfoURL": "https://repl.it/claim?code=JuliaCon2020",
+    "videoURL": "Coming soon?",
+    "chatChannelName": "<iframe src=\"https://discord.com/widget?id=437048931827056642&theme=dark\" width=\"350\" height=\"500\" allowtransparency=\"true\" frameborder=\"0\"></iframe>",
+    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/repl-it.png",
+    "tier": "Silver"
   },
   {
-    "Sponsor Name": "Sticker Mule",
-    "Blurb": "Sticker Mule is the fastest and easiest way to buy custom printed products. Order in 60 seconds and we'll turn your designs and illustrations into custom stickers, magnets, buttons, labels and packaging in days. We offer free online proofs, free worldwide shipping and super fast turnaround.",
-    "More Info URL": "http://stickermule.com/juliacon20",
-    "Video URL": "NA",
-    "Chat channel name": "NA",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/sticker-mule.png",
-    "Tier": "Media Partner"
+    "sponsorName": "Sticker Mule",
+    "blurb": "Sticker Mule is the fastest and easiest way to buy custom printed products. Order in 60 seconds and we'll turn your designs and illustrations into custom stickers, magnets, buttons, labels and packaging in days. We offer free online proofs, free worldwide shipping and super fast turnaround.",
+    "moreInfoURL": "http://stickermule.com/juliacon20",
+    "videoURL": "NA",
+    "chatChannelName": "NA",
+    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/sticker-mule.png",
+    "tier": "Media Partner"
   },
   {
-    "Sponsor Name": "Packt Publication",
-    "Blurb": "Packt is the online library and learning platform for professional developers. Learn Julia, Python, Angular and more with eBooks, videos and courses.",
-    "More Info URL": "https://www.amazon.com/stores/page/B332E0D1-AECD-4D89-9DDE-FB67C0E7073A?ingress=0&visitId=53ed5a7b-8bf7-4661-af38-c482a3a1ddb7",
-    "Video URL": "Coming soon!",
-    "Chat channel name": "NA",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/packt.png",
-    "Tier": "Media Partner"
+    "sponsorName": "Packt Publication",
+    "blurb": "Packt is the online library and learning platform for professional developers. Learn Julia, Python, Angular and more with eBooks, videos and courses.",
+    "moreInfoURL": "https://www.amazon.com/stores/page/B332E0D1-AECD-4D89-9DDE-FB67C0E7073A?ingress=0&visitId=53ed5a7b-8bf7-4661-af38-c482a3a1ddb7",
+    "videoURL": "Coming soon!",
+    "chatChannelName": "NA",
+    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/packt.png",
+    "tier": "Media Partner"
   },
   {
-    "Sponsor Name": "Pumas",
-    "Blurb": "Pumas is a Julia-based comprehensive platform for pharmaceutical modeling and simulation",
-    "More Info URL": "https://pumas.ai",
-    "Video URL": "",
-    "Chat channel name": "",
-    "Logo URL": "",
-    "Tier": "Silver"
+    "sponsorName": "Pumas",
+    "blurb": "Pumas is a Julia-based comprehensive platform for pharmaceutical modeling and simulation",
+    "moreInfoURL": "https://pumas.ai",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/pumas.png",
+    "tier": "Silver"
   },
   {
-    "Sponsor Name": "Vercel",
-    "Blurb": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
-    "More Info URL": "https://vercel.com/",
-    "Video URL": "",
-    "Chat channel name": "",
-    "Logo URL": "",
-    "Tier": "Media partner"
+    "sponsorName": "Vercel",
+    "blurb": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+    "moreInfoURL": "https://vercel.com/",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "",
+    "tier": "Media Partner"
   }
 ]
