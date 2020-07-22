@@ -1,0 +1,90 @@
+[
+  {
+    "Sponsor Name": "Gordon and Betty Moore Foundation",
+    "Blurb": "The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements and preservation of the special character of the Bay Area.",
+    "More Info URL": "https://www.moore.org/",
+    "Video URL": "NA",
+    "Chat channel name": "NA",
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/moore.jpg"
+  },
+  {
+    "Sponsor Name": "Julia Computing",
+    "Blurb": "Julia Computing was founded by all the creators of Julia. We make products that make Julia easy to use, easy to deploy and easy to scale.",
+    "More Info URL": "https://juliacomputing.com",
+    "Video URL": "",
+    "Chat channel name": "",
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/julia.png"
+  },
+  {
+    "Sponsor Name": "Invenia Labs",
+    "Blurb": "",
+    "More Info URL": "",
+    "Video URL": "",
+    "Chat channel name": "",
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/invenia-labs.png"
+  },
+  {
+    "Sponsor Name": "Zapata Computing",
+    "Blurb": "",
+    "More Info URL": "",
+    "Video URL": "",
+    "Chat channel name": "",
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/zapata.png"
+  },
+  {
+    "Sponsor Name": "Juspay",
+    "Blurb": "",
+    "More Info URL": "",
+    "Video URL": "",
+    "Chat channel name": "",
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/juspay.png"
+  },
+  {
+    "Sponsor Name": "Jeffery Sarnoff",
+    "Blurb": "NA",
+    "More Info URL": "NA",
+    "Video URL": "NA",
+    "Chat channel name": "NA",
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/sarnoff.png"
+  },
+  {
+    "Sponsor Name": "repl.it",
+    "Blurb": "Repl.it is the easiest, fastest, and most collaborative way to code in Julia and 50+ other languages online. We make programming, rapid prototyping, and sharing easier with multiplayer, no-setup, automatic hosting, and more. Start coding (in Julia) now!",
+    "More Info URL": "https://repl.it/claim?code=JuliaCon2020",
+    "Video URL": "Coming soon?",
+    "Chat channel name": "<iframe src=\"https://discord.com/widget?id=437048931827056642&theme=dark\" width=\"350\" height=\"500\" allowtransparency=\"true\" frameborder=\"0\"></iframe>",
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/repl-it.png"
+  },
+  {
+    "Sponsor Name": "Sticker Mule",
+    "Blurb": "Sticker Mule is the fastest and easiest way to buy custom printed products. Order in 60 seconds and we'll turn your designs and illustrations into custom stickers, magnets, buttons, labels and packaging in days. We offer free online proofs, free worldwide shipping and super fast turnaround.",
+    "More Info URL": "http://stickermule.com/juliacon20",
+    "Video URL": "NA",
+    "Chat channel name": "NA",
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/sticker-mule.png"
+  },
+  {
+    "Sponsor Name": "Packt Publication",
+    "Blurb": "Packt is the online library and learning platform for professional developers. Learn Julia, Python, Angular and more with eBooks, videos and courses.",
+    "More Info URL": "https://www.amazon.com/stores/page/B332E0D1-AECD-4D89-9DDE-FB67C0E7073A?ingress=0&visitId=53ed5a7b-8bf7-4661-af38-c482a3a1ddb7",
+    "Video URL": "Coming soon!",
+    "Chat channel name": "NA",
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/packt.png"
+  },
+  {
+    "Sponsor Name": "Pumas",
+    "Blurb": "Pumas is a Julia-based comprehensive platform for pharmaceutical modeling and simulation",
+    "More Info URL": "https://pumas.ai",
+    "Video URL": "",
+    "Chat channel name": "",
+    "Logo URL": ""
+  },
+  {
+    "Sponsor Name": "Vercel",
+    "Blurb": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+    "More Info URL": "https://vercel.com/",
+    "Video URL": "",
+    "Chat channel name": "",
+    "Logo URL": ""
+  }
+]
