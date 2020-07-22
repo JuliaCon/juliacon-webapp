@@ -1,0 +1,13 @@
+query PosterListItem($id: ID!) {
+  poster(id: $id) {
+    ...PosterListItem
+  }
+}
+
+fragment PosterListItem on Poster {
+  id
+  title
+  abstract
+  description
+  pdflink
+}

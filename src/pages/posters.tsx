@@ -1,8 +1,9 @@
 import * as React from "react";
 import { NextPage } from "next";
 
-import { ComingSoon } from "../components/ComingSoon";
 import { Page } from "../components/site";
+import { PosterList } from "../components/poster";
+import { withApollo } from "../apollo";
 
 /**
  * An overview of all of the poster submissions for the conference.
@@ -12,9 +13,9 @@ import { Page } from "../components/site";
 const PostersPage: NextPage = () => {
   return (
     <Page>
-      <ComingSoon />
+      <PosterList />
     </Page>
   );
 };
 
-export default PostersPage;
+export default withApollo()(PostersPage);

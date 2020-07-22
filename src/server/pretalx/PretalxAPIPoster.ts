@@ -6,7 +6,12 @@ import { pick } from "../../utils/pick";
  */
 export type PretalxAPIPoster = typeof ALL_POSTERS[number];
 
+/**
+ * Pull poster data from json file.
+ * SpeakerIds grabbed here for each poster
+ */
 export const ALL_POSTERS = postersData.map((poster) => ({
-  ...pick(poster, ["title", "abstract", "description", "speakers"]),
+  ...pick(poster, ["title", "abstract", "description"]),
   id: poster.code,
+  speakerIds: (poster.speakers as Array<{ code: string }>).map((s) => s.code),
 }));
