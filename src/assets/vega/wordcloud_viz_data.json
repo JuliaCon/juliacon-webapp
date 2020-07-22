@@ -1906,7 +1906,7 @@
  },
  {
   "text": "genie",
-  "count": 10,
+  "count": 9,
   "talks": [
    16,
    40
@@ -4234,10 +4234,9 @@
  },
  {
   "text": "close",
-  "count": 10,
+  "count": 9,
   "talks": [
    26,
-   40,
    64,
    84,
    91,
@@ -5026,15 +5025,6 @@
   ]
  },
  {
-  "text": "hosting",
-  "count": 3,
-  "talks": [
-   16,
-   40,
-   106
-  ]
- },
- {
   "text": "compilation",
   "count": 7,
   "talks": [
@@ -5438,9 +5428,10 @@
  },
  {
   "text": "distribution",
-  "count": 24,
+  "count": 25,
   "talks": [
    8,
+   16,
    19,
    21,
    24,
@@ -6019,14 +6010,6 @@
   ]
  },
  {
-  "text": "publish",
-  "count": 3,
-  "talks": [
-   16,
-   102
-  ]
- },
- {
   "text": "allowing",
   "count": 16,
   "talks": [
@@ -6489,10 +6472,9 @@
  },
  {
   "text": "platform",
-  "count": 22,
+  "count": 21,
   "talks": [
    7,
-   16,
    18,
    40,
    44,
@@ -6812,19 +6794,12 @@
   ]
  },
  {
-  "text": "major",
-  "count": 11,
+  "text": "algorithmic",
+  "count": 5,
   "talks": [
-   16,
-   40,
-   60,
-   69,
-   74,
-   92,
-   116,
-   118,
-   119,
-   149
+   38,
+   68,
+   70
   ]
  },
  {
@@ -6882,12 +6857,18 @@
   ]
  },
  {
-  "text": "algorithmic",
-  "count": 5,
+  "text": "major",
+  "count": 10,
   "talks": [
-   38,
-   68,
-   70
+   40,
+   60,
+   69,
+   74,
+   92,
+   116,
+   118,
+   119,
+   149
   ]
  },
  {
@@ -7137,9 +7118,10 @@
  },
  {
   "text": "observable",
-  "count": 4,
+  "count": 5,
   "talks": [
    7,
+   16,
    130
   ]
  },
@@ -7353,8 +7335,9 @@
  },
  {
   "text": "plot",
-  "count": 18,
+  "count": 19,
   "talks": [
+   16,
    32,
    54,
    69,
@@ -7661,8 +7644,9 @@
  },
  {
   "text": "stack",
-  "count": 4,
+  "count": 5,
   "talks": [
+   16,
    43,
    63,
    66
@@ -7706,7 +7690,7 @@
  },
  {
   "text": "attendees",
-  "count": 6,
+  "count": 5,
   "talks": [
    40,
    55,
@@ -8148,6 +8132,14 @@
    90,
    140,
    150
+  ]
+ },
+ {
+  "text": "credit",
+  "count": 3,
+  "talks": [
+   16,
+   95
   ]
  },
  {
@@ -8899,11 +8891,12 @@
  },
  {
   "text": "type",
-  "count": 74,
+  "count": 75,
   "talks": [
    3,
    5,
    8,
+   16,
    17,
    25,
    26,
@@ -9056,8 +9049,9 @@
  },
  {
   "text": "pure",
-  "count": 10,
+  "count": 12,
   "talks": [
+   16,
    27,
    32,
    90,
@@ -9823,8 +9817,9 @@
  },
  {
   "text": "table",
-  "count": 5,
+  "count": 6,
   "talks": [
+   16,
    29,
    32,
    56,
@@ -10777,10 +10772,11 @@
  },
  {
   "text": "age",
-  "count": 3,
+  "count": 4,
   "talks": [
    5,
    8,
+   16,
    131
   ]
  },
@@ -11430,7 +11426,7 @@
  },
  {
   "text": "providing",
-  "count": 9,
+  "count": 8,
   "talks": [
    24,
    36,
@@ -11846,10 +11842,9 @@
  },
  {
   "text": "resource",
-  "count": 10,
+  "count": 9,
   "talks": [
    8,
-   40,
    47,
    74,
    136,
@@ -12116,7 +12111,7 @@
  },
  {
   "text": "learn",
-  "count": 11,
+  "count": 12,
   "talks": [
    16,
    44,
@@ -12702,9 +12697,10 @@
  },
  {
   "text": "explore",
-  "count": 7,
+  "count": 8,
   "talks": [
    9,
+   16,
    66,
    97,
    102,
@@ -12714,13 +12710,12 @@
   ]
  },
  {
-  "text": "minimal",
-  "count": 4,
+  "text": "visualize",
+  "count": 3,
   "talks": [
-   37,
-   69,
-   74,
-   95
+   16,
+   55,
+   69
   ]
  },
  {
@@ -12731,6 +12726,16 @@
    31,
    88,
    138
+  ]
+ },
+ {
+  "text": "minimal",
+  "count": 4,
+  "talks": [
+   37,
+   69,
+   74,
+   95
   ]
  },
  {
@@ -14946,9 +14951,8 @@
  },
  {
   "text": "link",
-  "count": 4,
+  "count": 3,
   "talks": [
-   40,
    51,
    58,
    112
@@ -15703,7 +15707,7 @@
  },
  {
   "text": "stipple",
-  "count": 4,
+  "count": 5,
   "talks": [
    16
   ]
@@ -15798,14 +15802,6 @@
   "talks": [
    122,
    134
-  ]
- },
- {
-  "text": "demonstrate build",
-  "count": 12,
-  "talks": [
-   16,
-   148
   ]
  },
  {
@@ -17370,8 +17366,9 @@
  },
  {
   "text": "j",
-  "count": 9,
+  "count": 10,
   "talks": [
+   16,
    93,
    110
   ]
@@ -17551,7 +17548,7 @@
  },
  {
   "text": "data",
-  "count": 180,
+  "count": 181,
   "talks": [
    5,
    15,
@@ -18641,11 +18638,10 @@
  },
  {
   "text": "documentation",
-  "count": 8,
+  "count": 7,
   "talks": [
    29,
    37,
-   40,
    56,
    91,
    130,
@@ -18782,14 +18778,6 @@
   "talks": [
    95,
    144
-  ]
- },
- {
-  "text": "deeper",
-  "count": 3,
-  "talks": [
-   40,
-   101
   ]
  },
  {
@@ -19018,10 +19006,9 @@
  },
  {
   "text": "demonstrate",
-  "count": 31,
+  "count": 29,
   "talks": [
    12,
-   16,
    17,
    20,
    29,
@@ -19245,10 +19232,9 @@
  },
  {
   "text": "presentation",
-  "count": 15,
+  "count": 14,
   "talks": [
    7,
-   16,
    42,
    43,
    47,
