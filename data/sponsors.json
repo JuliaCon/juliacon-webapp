@@ -5,7 +5,8 @@
     "More Info URL": "https://www.moore.org/",
     "Video URL": "NA",
     "Chat channel name": "NA",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/moore.jpg"
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/moore.jpg",
+    "Tier": "Gold"
   },
   {
     "Sponsor Name": "Julia Computing",
@@ -13,7 +14,8 @@
     "More Info URL": "https://juliacomputing.com",
     "Video URL": "",
     "Chat channel name": "",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/julia.png"
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/julia.png",
+    "Tier": "Gold"
   },
   {
     "Sponsor Name": "Invenia Labs",
@@ -21,7 +23,8 @@
     "More Info URL": "",
     "Video URL": "",
     "Chat channel name": "",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/invenia-labs.png"
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/invenia-labs.png",
+    "Tier": "Silver"
   },
   {
     "Sponsor Name": "Zapata Computing",
@@ -29,7 +32,8 @@
     "More Info URL": "",
     "Video URL": "",
     "Chat channel name": "",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/zapata.png"
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/zapata.png",
+    "Tier": "Silver"
   },
   {
     "Sponsor Name": "Juspay",
@@ -37,7 +41,8 @@
     "More Info URL": "",
     "Video URL": "",
     "Chat channel name": "",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/juspay.png"
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/juspay.png",
+    "Tier": "Silver"
   },
   {
     "Sponsor Name": "Jeffery Sarnoff",
@@ -45,7 +50,8 @@
     "More Info URL": "NA",
     "Video URL": "NA",
     "Chat channel name": "NA",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/sarnoff.png"
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/sarnoff.png",
+    "Tier": "Silver"
   },
   {
     "Sponsor Name": "repl.it",
@@ -53,7 +59,8 @@
     "More Info URL": "https://repl.it/claim?code=JuliaCon2020",
     "Video URL": "Coming soon?",
     "Chat channel name": "<iframe src=\"https://discord.com/widget?id=437048931827056642&theme=dark\" width=\"350\" height=\"500\" allowtransparency=\"true\" frameborder=\"0\"></iframe>",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/repl-it.png"
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/repl-it.png",
+    "Tier": "Silver"
   },
   {
     "Sponsor Name": "Sticker Mule",
@@ -61,7 +68,8 @@
     "More Info URL": "http://stickermule.com/juliacon20",
     "Video URL": "NA",
     "Chat channel name": "NA",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/sticker-mule.png"
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/sticker-mule.png",
+    "Tier": "Media Partner"
   },
   {
     "Sponsor Name": "Packt Publication",
@@ -69,7 +77,8 @@
     "More Info URL": "https://www.amazon.com/stores/page/B332E0D1-AECD-4D89-9DDE-FB67C0E7073A?ingress=0&visitId=53ed5a7b-8bf7-4661-af38-c482a3a1ddb7",
     "Video URL": "Coming soon!",
     "Chat channel name": "NA",
-    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/packt.png"
+    "Logo URL": "https://juliacon.org/2020/assets/img/sponsors/packt.png",
+    "Tier": "Media Partner"
   },
   {
     "Sponsor Name": "Pumas",
@@ -77,7 +86,8 @@
     "More Info URL": "https://pumas.ai",
     "Video URL": "",
     "Chat channel name": "",
-    "Logo URL": ""
+    "Logo URL": "",
+    "Tier": "Silver"
   },
   {
     "Sponsor Name": "Vercel",
@@ -85,6 +95,7 @@
     "More Info URL": "https://vercel.com/",
     "Video URL": "",
     "Chat channel name": "",
-    "Logo URL": ""
+    "Logo URL": "",
+    "Tier": "Unknown"
   }
 ]
