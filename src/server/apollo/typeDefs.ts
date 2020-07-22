@@ -72,7 +72,6 @@ export const typeDefs = gql`
     description: String
     day: String!
     pdflink: String
-    startTime: String!
     speakers: [Speaker!]!
 
   }
