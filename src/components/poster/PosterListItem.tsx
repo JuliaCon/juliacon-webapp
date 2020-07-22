@@ -13,7 +13,8 @@ export const PosterListItem = ({ posterId }: { posterId: string }) => {
   if (loading) return <p>Loading...</p>;
   if (!data?.poster) return <p>Couldn't load this poster...</p>;
 
-  const { title, abstract, pdflink, speakers } = data.poster;
+  const { title, abstract, speakers } = data.poster;
+  const pdflink = String(data.poster.pdflink);
 
   return (
     <div>
