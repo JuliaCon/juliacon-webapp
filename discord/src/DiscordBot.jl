@@ -13,7 +13,6 @@ const DATA_DIR = joinpath(@__DIR__, "..", "..", "data")
 discord_client() = BotClient(ENV["DISCORD_TOKEN"])
 
 function load_channels()
-    return Dict("General" => "713193114906525748")
     data = open(JSON3.read, joinpath(DATA_DIR, "discord.json"))
     return Dict(ch.name => ch.channelId for ch in data.channels)
 end
