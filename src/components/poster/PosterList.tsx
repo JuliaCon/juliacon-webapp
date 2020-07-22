@@ -1,11 +1,20 @@
 import React from "react";
 import { PosterListItem } from "./PosterListItem";
+import { css } from "emotion";
 
 export const PosterList = () => {
-  console.log("Nesto");
   return (
     <div>
-      <h1> Poster List </h1>
+      <h2
+        className={css`
+          font-weight: bold;
+          font-size: 2rem;
+          padding-bottom: 10px;
+          text-align: center;
+        `}
+      >
+        Posters
+      </h2>
       <PosterListItem posterId="RGT8RF" />
     </div>
   );
