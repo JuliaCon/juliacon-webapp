@@ -38,18 +38,9 @@ const Sponsors: NextPage = () => {
         Gold sponsors
       </h2>
       <VSpace />
-      <div
-        className={css`
-           {
-            padding: 0;
-            margin: 25px 0 0;
-          }
-        `}
-      >
-        {goldSponsors.map((sponsor) => (
-          <Sponsor sponsor={sponsor} key={sponsor.sponsorName} />
-        ))}
-      </div>
+      {goldSponsors.map((sponsor) => (
+        <Sponsor sponsor={sponsor} key={sponsor.sponsorName} />
+      ))}
       <h2
         className={css`
           font-size: 1.5rem;
