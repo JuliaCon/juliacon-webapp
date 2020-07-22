@@ -18,15 +18,15 @@ export const PosterListItem = ({ posterId }: { posterId: string }) => {
 
   return (
     <div>
-      <Link href={pdflink} as={pdflink}>
-        <h4
-          className={css`
-            font-weight: bold;
-          `}
+      <h4
+        className={css`
+          font-weight: bold;
+        `}
         >
-          {title}
-        </h4>
-      </Link>
+          <a href={pdflink} target="_blank" rel="noopener noreferrer">
+            {title}
+          </a>
+        </Link>
       <AgendaTalksListItemSpeakers speakers={speakers} />
       <VSpace />
       <p>{abstract}</p>
