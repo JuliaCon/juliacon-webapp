@@ -19,7 +19,7 @@
     "@apollo/client": "3.0.2",
     "@apollo/link-batch-http": "^2.0.0-beta.3",
     "@apollo/link-schema": "2.0.0-beta.3",
-    "@apollo/react-ssr": "4.0.0-beta.1",
+    "@apollo/react-ssr": "4.0.0",
     "@fortawesome/fontawesome-svg-core": "1.2.29",
     "@fortawesome/free-regular-svg-icons": "5.14.0",
     "@fortawesome/free-solid-svg-icons": "5.14.0",
