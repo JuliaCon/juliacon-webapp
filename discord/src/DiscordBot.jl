@@ -12,7 +12,7 @@ discord_client() = BotClient(ENV["DISCORD_TOKEN"])
 
 function load_channels()
     data = open(JSON3.read, joinpath(DATA_DIR, "discord.json"))
-    return Dict(ch.name => ch.channelId for ch in data.channels)
+    return Dict(ch.name => (; id=ch.channelId, color=ch.color) for ch in data.channels)
 end
 
 function load_talks()
@@ -25,24 +25,38 @@ function load_talks()
     return sort(collect(buckets); by=first)
 end
 
-function format_message(talk)
-    # TODO: A cute embed.
-    title = talk.title
-    speakers = isempty(talk.speakers) ? "None" : join(map(s -> s.name, talk.speakers), ", ")
-    content = """
-        Starting now!
-        **$title**
-        By $speakers
-        More info: <https://juliacon2020.now.sh/live>
-        """
-    return (; content=content)
+function format_message(talk, color)
+    description = talk.description
+    if length(description) > 2000
+        description = description[1:1994] * " [...]"
+    end
+
+    fields = [(; name="More info", value="https://juliacon2020.now.sh/live")]
+    speakers = map(s -> s.name, talk.speakers)
+    if !isempty(speakers)
+        pushfirst!(fields, (; name="Presented by", value=join(speakers, ", ")))
+    end
+
+    embed = Dict(
+        :title => talk.title,
+        :description => description,
+        :author => (; name="Starting now!"),
+        :color => color,
+        :fields => fields,
+    )
+
+    if talk.image !== nothing
+        embed[:thumbnail] = (; url=talk.image)
+    end
+
+    return (; embed=embed)
 end
 
 function send_message(client, channels, talk)
     channel = get(channels, talk.slot.room.en, channels["General"])
-    message = format_message(talk)
+    message = format_message(talk, get(channel, :color, channels["General"].color))
     try
-        create_message(client, channel; message...)
+        create_message(client, channel.id; message...)
     catch ex
         @warn "Sending message failed" exception=(ex, catch_backtrace())
     end

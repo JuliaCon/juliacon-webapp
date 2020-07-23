@@ -3,23 +3,27 @@
     {
       "name": "General",
       "channelId": "709438882504245361",
+      "color": 4219864,
       "description": "The Discord channel for general discussion about JuliaCon."
     },
     {
       "name": "Red Track",
       "channelId": "732263253811658783",
+      "color": 13319219,
       "description": "The Discord channel for discussion of talks happening in the \"Red\" track. During the conference, this channel should only be used to discuss talks as they're occurring.",
       "roomId": 379
     },
     {
       "name": "Green Track",
       "channelId": "732263286812442665",
+      "color": 3708966,
       "description": "The Discord channel for discussion of talks happening in the \"Green\" track. During the conference, this channel should only be used to discuss talks as they're occurring.",
       "roomId": 380
     },
     {
       "name": "Purple Track",
       "channelId": "732263307880431667",
+      "color": 9787570,
       "description": "The Discord channel for discussion of talks happening in the \"Purple\" track. During the conference, this channel should only be used to discuss talks as they're occurring.",
       "roomId": 381
     }
