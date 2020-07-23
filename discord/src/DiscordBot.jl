@@ -1,14 +1,12 @@
 module DiscordBot
 
-using Base: @kwdef
-
 using Dates: DateTime, Millisecond, UTC, now, @dateformat_str
 
 using Discord: BotClient, create_message
 using JSON3: JSON3
 
-const DATETIME_FORMAT = dateformat"yyyy-mm-ddTHH:MM:SSZ"
 const DATA_DIR = joinpath(@__DIR__, "..", "..", "data")
+const DATETIME_FORMAT = dateformat"yyyy-mm-ddTHH:MM:SSZ"
 
 discord_client() = BotClient(ENV["DISCORD_TOKEN"])
 
@@ -54,7 +52,7 @@ function main()
     client = discord_client()
     channels = load_channels()
     for (start, talks) in load_talks()
-        wait = max(start - now(UTC), Millisecond(0))
+        wait = max(start - now(UTC), zero(Millisecond))
         @info "Waiting $wait until $start"
         sleep(wait)
         @info "Alerting"
