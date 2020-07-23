@@ -12,18 +12,7 @@ export const Sidebar = () => {
     (sponsor) => sponsor.tier === "Media Partner"
   );
   return (
-    <div
-      className={css`
-         {
-          top: 4rem;
-          float: left;
-          width: 150px;
-          background: white;
-          position: fixed;
-          bottom: 4rem;
-        }
-      `}
-    >
+    <div className={"sidebar"}>
       <span
         className={css`
           font-size: 1rem;

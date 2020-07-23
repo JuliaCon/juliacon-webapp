@@ -68,3 +68,71 @@ samp {
 .styled-markdown ol {
   list-style: decimal inside none;
 }
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  background-color: transparent;
+  float: right;
+  margin: 0;
+  max-width: 300px;
+  width: 30%;
+  padding: 0 19px;
+  position: relative !important;
+  box-sizing: content-box;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  background-color: transparent;
+  float: left;
+  margin: 0;
+  max-width: 60%;
+  padding: 0;
+  width: 60%;
+  box-sizing: content-box;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    height: auto;
+    position: relative;
+    margin: 0;
+    top: 0rem;
+    float: none;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}

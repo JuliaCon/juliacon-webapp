@@ -15,6 +15,7 @@ export const VercelBanner = () => {
         align-items: center;
         font-size: 0.75rem;
         text-decoration: none;
+        width: 100%;
       `}
     >
       <span>Powered by </span>

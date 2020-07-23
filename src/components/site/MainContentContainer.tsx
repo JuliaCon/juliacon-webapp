@@ -1,9 +1,9 @@
 import { css } from "emotion";
 import React from "react";
-
+import { Sidebar } from "./Sidebar";
 export const MainContentContainer: React.FC = ({ children }) => {
   return (
-    <main
+    <div
       className={css`
         margin: 0 auto;
         padding: 1rem;
@@ -11,7 +11,8 @@ export const MainContentContainer: React.FC = ({ children }) => {
         max-width: 1000px;
       `}
     >
-      {children}
-    </main>
+      <div className={"content"}>{children}</div>
+      <Sidebar />
+    </div>
   );
 };
