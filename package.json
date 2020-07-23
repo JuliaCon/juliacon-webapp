@@ -31,7 +31,7 @@
     "@widgetbot/react-embed": "1.2.2",
     "apollo-datasource-rest": "0.9.3",
     "apollo-server-micro": "2.15.0",
-    "aws-amplify": "3.0.20",
+    "aws-amplify": "3.0.21",
     "cookie": "0.4.1",
     "date-fns": "2.15.0",
     "date-fns-tz": "^1.0.10",
