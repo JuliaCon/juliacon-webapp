@@ -4340,7 +4340,7 @@
     "biography": "Dheepak is an energy system research engineer working at the National Renewable Energy Laboratory. He is interested in energy, optimization and high performance computing."
    }
   ],
-  "description": "Terminal User Interfaces can be developed using in-band ANSI escape and control sequences. Using the various escape and control sequences we can move the cursor to any position, erase lines or part of the screen, set formatting options such as bold, italic, foreground color, background color, change the cursor shape, etc. \r\n\r\nIn this talk I will go over best practices for dealing with the terminal from Julia, and some tips and tricks to draw text fast and efficiently to the terminal. I will also be discussing TERMIOS settings, such as cooked, raw and cbreak modes, and I will show how to read stdin and write to stdout while in these various modes.",
+  "description": "Terminal User Interfaces can be developed using in-band ANSI escape and control sequences. Using the various escape and control sequences we can move the cursor to any position, erase lines or part of the screen, set formatting options such as bold, italic, foreground color, background color, change the cursor shape, etc. \r\n\r\nIn this lightning talk I will go over some examples of building terminal user interfaces in Julia.  The presentation will feature ANSI escape sequences; TERMIOS settings, such as cooked, raw and cbreak modes; reading stdin and write to stdout while in these various modes, etc.",
   "image": null,
   "slot_count": 1,
   "slot": {
