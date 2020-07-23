@@ -833,10 +833,11 @@
  },
  {
   "text": "algebra",
-  "count": 11,
+  "count": 12,
   "talks": [
    3,
    29,
+   32,
    52,
    57,
    63,
@@ -1054,7 +1055,7 @@
  },
  {
   "text": "particular",
-  "count": 18,
+  "count": 17,
   "talks": [
    1,
    8,
@@ -1447,6 +1448,15 @@
   ]
  },
  {
+  "text": "successor",
+  "count": 3,
+  "talks": [
+   32,
+   111,
+   124
+  ]
+ },
+ {
   "text": "dae",
   "count": 3,
   "talks": [
@@ -1596,7 +1606,7 @@
  },
  {
   "text": "approaches",
-  "count": 8,
+  "count": 7,
   "talks": [
    17,
    30,
@@ -2062,7 +2072,7 @@
  },
  {
   "text": "interactive data",
-  "count": 16,
+  "count": 20,
   "talks": [
    16,
    32
@@ -4599,13 +4609,12 @@
   ]
  },
  {
-  "text": "arbitrary",
-  "count": 5,
+  "text": "external",
+  "count": 3,
   "talks": [
-   73,
-   90,
-   95,
-   146
+   4,
+   32,
+   150
   ]
  },
  {
@@ -4622,6 +4631,16 @@
    46,
    90,
    100
+  ]
+ },
+ {
+  "text": "arbitrary",
+  "count": 5,
+  "talks": [
+   73,
+   90,
+   95,
+   146
   ]
  },
  {
@@ -5083,7 +5102,6 @@
    9,
    14,
    31,
-   32,
    33,
    34,
    36,
@@ -5101,6 +5119,7 @@
    99,
    100,
    101,
+   108,
    109,
    110,
    116,
@@ -5190,7 +5209,7 @@
  },
  {
   "text": "process",
-  "count": 34,
+  "count": 35,
   "talks": [
    17,
    26,
@@ -5207,6 +5226,7 @@
    104,
    105,
    106,
+   108,
    131,
    141,
    146,
@@ -5385,9 +5405,10 @@
  },
  {
   "text": "novel",
-  "count": 10,
+  "count": 11,
   "talks": [
    9,
+   32,
    37,
    41,
    55,
@@ -5709,7 +5730,7 @@
  },
  {
   "text": "graphics",
-  "count": 7,
+  "count": 8,
   "talks": [
    32,
    69,
@@ -6516,7 +6537,7 @@
  },
  {
   "text": "interactive",
-  "count": 24,
+  "count": 25,
   "talks": [
    7,
    14,
@@ -6802,7 +6823,7 @@
  },
  {
   "text": "based",
-  "count": 75,
+  "count": 74,
   "talks": [
    7,
    8,
@@ -7939,7 +7960,7 @@
  },
  {
   "text": "combination",
-  "count": 10,
+  "count": 9,
   "talks": [
    26,
    32,
@@ -8460,11 +8481,10 @@
   ]
  },
  {
-  "text": "web based",
+  "text": "intratumor heterogeneity",
   "count": 12,
   "talks": [
-   16,
-   32
+   96
   ]
  },
  {
@@ -8487,13 +8507,6 @@
    8,
    52,
    127
-  ]
- },
- {
-  "text": "intratumor heterogeneity",
-  "count": 12,
-  "talks": [
-   96
   ]
  },
  {
@@ -8832,7 +8845,7 @@
  },
  {
   "text": "application",
-  "count": 50,
+  "count": 51,
   "talks": [
    1,
    3,
@@ -8888,7 +8901,7 @@
  },
  {
   "text": "type",
-  "count": 75,
+  "count": 76,
   "talks": [
    3,
    5,
@@ -8979,7 +8992,7 @@
  },
  {
   "text": "web",
-  "count": 18,
+  "count": 17,
   "talks": [
    16,
    32,
@@ -9196,14 +9209,6 @@
    44,
    56,
    101
-  ]
- },
- {
-  "text": "data time",
-  "count": 12,
-  "talks": [
-   32,
-   117
   ]
  },
  {
@@ -10343,14 +10348,13 @@
  },
  {
   "text": "overview",
-  "count": 32,
+  "count": 31,
   "talks": [
    4,
    8,
    24,
    25,
    30,
-   32,
    39,
    42,
    50,
@@ -10700,12 +10704,13 @@
  },
  {
   "text": "auto",
-  "count": 8,
+  "count": 9,
   "talks": [
    31,
    37,
    100,
-   101
+   101,
+   108
   ]
  },
  {
@@ -11642,7 +11647,7 @@
  },
  {
   "text": "custom type",
-  "count": 20,
+  "count": 24,
   "talks": [
    32,
    79
@@ -11665,7 +11670,7 @@
  },
  {
   "text": "top",
-  "count": 11,
+  "count": 10,
   "talks": [
    3,
    24,
@@ -11950,11 +11955,10 @@
  },
  {
   "text": "existing",
-  "count": 28,
+  "count": 27,
   "talks": [
    4,
    29,
-   32,
    37,
    41,
    47,
@@ -12165,14 +12169,6 @@
   ]
  },
  {
-  "text": "recipe",
-  "count": 4,
-  "talks": [
-   11,
-   32
-  ]
- },
- {
   "text": "scaling",
   "count": 3,
   "talks": [
@@ -12304,7 +12300,7 @@
  },
  {
   "text": "combined",
-  "count": 6,
+  "count": 7,
   "talks": [
    32,
    52,
@@ -13274,10 +13270,9 @@
  },
  {
   "text": "define",
-  "count": 7,
+  "count": 6,
   "talks": [
    8,
-   32,
    72,
    73,
    86,
@@ -14414,8 +14409,9 @@
  },
  {
   "text": "hand",
-  "count": 12,
+  "count": 13,
   "talks": [
+   32,
    51,
    82,
    93,
@@ -15201,12 +15197,11 @@
  },
  {
   "text": "design",
-  "count": 47,
+  "count": 46,
   "talks": [
    4,
    9,
    27,
-   32,
    37,
    41,
    52,
@@ -15266,11 +15261,10 @@
  },
  {
   "text": "brief overview",
-  "count": 20,
+  "count": 16,
   "talks": [
    24,
    25,
-   32,
    145
   ]
  },
@@ -15528,7 +15522,7 @@
  },
  {
   "text": "ui",
-  "count": 7,
+  "count": 8,
   "talks": [
    16,
    32,
@@ -16245,14 +16239,13 @@
  },
  {
   "text": "time",
-  "count": 94,
+  "count": 93,
   "talks": [
    1,
    8,
    20,
    24,
    31,
-   32,
    33,
    38,
    39,
@@ -16973,6 +16966,15 @@
   ]
  },
  {
+  "text": "apps",
+  "count": 6,
+  "talks": [
+   16,
+   37,
+   150
+  ]
+ },
+ {
   "text": "data management",
   "count": 12,
   "talks": [
@@ -17459,11 +17461,10 @@
  },
  {
   "text": "brief",
-  "count": 12,
+  "count": 11,
   "talks": [
    24,
    25,
-   32,
    71,
    104,
    131,
@@ -17539,7 +17540,7 @@
  },
  {
   "text": "data",
-  "count": 181,
+  "count": 180,
   "talks": [
    5,
    15,
@@ -18307,16 +18308,6 @@
   ]
  },
  {
-  "text": "app",
-  "count": 7,
-  "talks": [
-   16,
-   32,
-   37,
-   150
-  ]
- },
- {
   "text": "involve",
   "count": 4,
   "talks": [
@@ -18403,7 +18394,7 @@
  },
  {
   "text": "framework",
-  "count": 39,
+  "count": 38,
   "talks": [
    8,
    18,
@@ -18818,13 +18809,6 @@
   "count": 27,
   "talks": [
    25
-  ]
- },
- {
-  "text": "statsmakie",
-  "count": 5,
-  "talks": [
-   32
   ]
  },
  {
@@ -19351,7 +19335,7 @@
  },
  {
   "text": "custom",
-  "count": 24,
+  "count": 25,
   "talks": [
    5,
    32,
@@ -19816,7 +19800,7 @@
  },
  {
   "text": "visualization",
-  "count": 20,
+  "count": 19,
   "talks": [
    7,
    32,
@@ -20079,7 +20063,7 @@
  },
  {
   "text": "approach",
-  "count": 44,
+  "count": 43,
   "talks": [
    17,
    30,
@@ -20177,7 +20161,7 @@
  },
  {
   "text": "allow",
-  "count": 61,
+  "count": 60,
   "talks": [
    1,
    8,
@@ -20473,6 +20457,13 @@
   "count": 12,
   "talks": [
    150
+  ]
+ },
+ {
+  "text": "algebraofgraphics",
+  "count": 3,
+  "talks": [
+   32
   ]
  },
  {
@@ -20945,8 +20936,9 @@
  },
  {
   "text": "plotting",
-  "count": 5,
+  "count": 6,
   "talks": [
+   32,
    69,
    136
   ]

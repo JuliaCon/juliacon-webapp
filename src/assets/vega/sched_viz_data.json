@@ -346,7 +346,7 @@
   "duration": 10,
   "location": "Green Track",
   "id": "BMNWLJ",
-  "title": "Interactive data visualizations with StatsMakie",
+  "title": "Interactive data visualizations with AlgebraOfGraphics",
   "url": "/talk/BMNWLJ",
   "index": 32,
   "speaker": "Pietro Vertechi"
