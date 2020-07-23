@@ -3,6 +3,7 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { css } from "emotion";
 import { MainContentContainer } from "./MainContentContainer";
+import { Sidebar } from "./Sidebar";
 
 export const Page: React.FC = ({ children }) => {
   return (
@@ -14,7 +15,9 @@ export const Page: React.FC = ({ children }) => {
       `}
     >
       <Header />
+      <Sidebar />
       <MainContentContainer>{children}</MainContentContainer>
+
       <div
         // Spacer to force the footer to the bottom
         className={css`
