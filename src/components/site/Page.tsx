@@ -1,13 +1,14 @@
 import React from "react";
-import { Header } from "./Header";
+import Head from "next/head";
 import { css } from "emotion";
+
+import { Header } from "./Header";
 import { MainContentContainer } from "./MainContentContainer";
-import { useRouter } from "next/router";
 
-export const Page: React.FC = ({ children }) => {
-  const router = useRouter();
-  const route = router.route.substring(1);
-
+interface PageProps {
+  title?: string;
+}
+export const Page: React.FC<PageProps> = ({ children, title }) => {
   return (
     <div
       className={css`
@@ -15,8 +16,10 @@ export const Page: React.FC = ({ children }) => {
         display: flex;
         flex-flow: column nowrap;
       `}
-      id={route}
     >
+      <Head>
+        <title>{title && `${title} | `}JuliaCon 2020</title>
+      </Head>
       <Header />
       <MainContentContainer>{children}</MainContentContainer>
     </div>

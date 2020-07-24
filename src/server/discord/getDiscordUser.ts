@@ -16,7 +16,9 @@ export async function getDiscordUser({
   // Returns 201 if the member was added, or 204 is the member was already in
   // the server.
   if (response.status !== 200) {
-    const message = `Unexpected status code returned from Discord: ${response.status} ${response.statusText}`;
+    const message =
+      `Unexpected status code returned from Discord while loading user: ` +
+      `${response.status} ${response.statusText}`;
     console.error(message);
     throw new Error(message);
   }

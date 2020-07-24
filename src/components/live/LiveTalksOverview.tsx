@@ -18,6 +18,7 @@ import { LiveTalksTalkFragment } from "./LiveTalks.generated";
 import { LiveTalksPlaceholder } from "./LiveTalksPlaceholder";
 import { Link } from "../core";
 import { invariant } from "../../utils/invariant";
+import { TalkType } from "../../apollo/__generated__/types";
 
 export const LiveTalksView = () => {
   const [time, setTime] = React.useState(() => now());
@@ -108,6 +109,7 @@ const TalkSelectionTabs = React.memo(function TalkSelectionTabs({
           position: relative;
           background-color: transparent;
           transition: background-color 0.3s;
+
           &:hover {
             background: rgba(0, 0, 0, 0.05);
           }
@@ -127,7 +129,7 @@ const TalkSelectionTabs = React.memo(function TalkSelectionTabs({
         }
       `}
     >
-      <TabList className={css``}>{tabs}</TabList>
+      <TabList>{tabs}</TabList>
       <TabPanels>{panels}</TabPanels>
     </Tabs>
   );
@@ -164,6 +166,27 @@ interface TalkPanelProps {
   active: boolean;
 }
 const TalkPanel = ({ active, talk }: TalkPanelProps) => {
+  const zoomReminder = talk.type === TalkType.WorkshopHalfDay && (
+    <>
+      <VSpace />
+      <div
+        className={css`
+          border-left: 4px solid var(--julia-purple);
+          padding-left: 1rem;
+        `}
+      >
+        <p>
+          You can engage with the workshop presenter in real time on Zoom!
+          Please check your email for a list of Zoom links to join the
+          discussion (or{" "}
+          <a href={"https://juliacon.org/2020/tickets/"}>
+            register for JuliaCon
+          </a>{" "}
+          if you haven't).
+        </p>
+      </div>
+    </>
+  );
   return (
     <div
       className={css`
@@ -181,6 +204,7 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
       <h1
         className={css`
           font-size: 1.5rem;
+          font-family: "Patua One", sans-serif;
         `}
       >
         <Link href={"/talk/[id]"} as={`/talk/${talk.id}`}>
@@ -189,6 +213,7 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
       </h1>
       <VSpace />
       <p>{talk.abstract}</p>
+      {zoomReminder || null}
     </div>
   );
 };
@@ -209,6 +234,9 @@ const TalkYouTubeEmbed = ({ talk }: TalkYouTubeEmbedProps) => {
    */
   const onReady = React.useCallback(
     (event: any) => {
+      // Live videos don't require seeking to a specific time
+      if (talk.isLive) return;
+
       // Calculate the offset into the video that we should be starting at.
       // Note that we purposefully don't want to start at the beginning to try to
       // encourage conference attendees to engage in "real time" as if they were at
@@ -227,7 +255,7 @@ const TalkYouTubeEmbed = ({ talk }: TalkYouTubeEmbedProps) => {
 
       event.target.seekTo(youtubeStart);
     },
-    [mountTime, talk.startTime]
+    [mountTime, talk.isLive, talk.startTime]
   );
 
   if (!talk.videoCode) {

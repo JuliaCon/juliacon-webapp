@@ -33,7 +33,11 @@ const DiscordAuthHandler: NextApiHandler = async (req, res) => {
 
   const token = await discord.getDiscordOauthUserToken({ code });
   const user = await discord.getDiscordUser({ token });
-  await discord.addDiscordGuildMember({ userId: user.id, token });
+  await discord.addDiscordGuildMember({
+    userId: user.id,
+    token,
+    nick: eventbriteOrder.name,
+  });
 
   res.status(302);
   res.setHeader(

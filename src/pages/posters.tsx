@@ -12,7 +12,7 @@ import { withApollo } from "../apollo";
  */
 const PostersPage: NextPage = () => {
   return (
-    <Page>
+    <Page title={"Posters"}>
       <PosterList />
     </Page>
   );

@@ -23,6 +23,11 @@ export const typeDefs = gql`
     type: TalkType!
 
     """
+    True if the talk is live (not pre-recorded).
+    """
+    isLive: Boolean
+
+    """
     The start time of the talk (as an ISO 8601 formatted timestamp).
     """
     startTime: String!

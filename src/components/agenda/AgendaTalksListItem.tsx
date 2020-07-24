@@ -76,7 +76,8 @@ export const AgendaTalksListItem = ({
         <Link href="/talk/[id]" as={`/talk/${talkId}`}>
           <h4
             className={css`
-              font-weight: bold;
+              font-family: "Patua One", sans-serif;
+              font-size: 1.25rem;
             `}
           >
             {title}
