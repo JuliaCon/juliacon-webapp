@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 export const Page: React.FC = ({ children }) => {
   const router = useRouter();
   const route = router.route.substring(1);
-  console.log(router);
+
   return (
     <div
       className={css`
