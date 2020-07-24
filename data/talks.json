@@ -4920,8 +4920,8 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "`SymbolicTensors.jl` -- high-level tensor manipulation in Julia",
-  "abstract": "Learn how to speed up your tensor calculations with `SymbolicTensors.jl`, a package designed to manipulate and simplify your tensor expressions before rewriting them in performant pure Julia using `ITensors.jl`."
+  "title": "SymbolicTensors.jl -- high-level tensor manipulation in Julia",
+  "abstract": "Learn how to speed up your tensor calculations with `SymbolicTensors.jl`, a package designed to manipulate and simplify your tensor expressions before rewriting them in performant pure Julia."
  },
  {
   "content_locale": "en",

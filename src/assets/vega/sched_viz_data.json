@@ -1512,7 +1512,7 @@
   "duration": 10,
   "location": "Green Track",
   "id": "XKG7TT",
-  "title": "`SymbolicTensors.jl` -- high-level tensor manipulation in Julia",
+  "title": "SymbolicTensors.jl -- high-level tensor manipulation in Julia",
   "url": "/talk/XKG7TT",
   "index": 138,
   "speaker": "Robert Rosati"
