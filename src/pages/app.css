@@ -79,10 +79,8 @@ body {
   float: right;
   margin: 0;
   max-width: 300px;
-  width: 30%;
-  padding: 0 19px;
-  position: relative !important;
-  box-sizing: content-box;
+  min-height: 1px;
+  margin-left: 30px;
 }
 
 .sidebar a {
@@ -104,12 +102,11 @@ body {
 
 div.content {
   background-color: transparent;
-  float: left;
+  width: 870px;
   margin: 0;
-  max-width: 60%;
-  padding: 0;
-  width: 60%;
-  box-sizing: content-box;
+  float: left;
+  min-height: 1px;
+  margin-left: 30px;
 }
 
 @media screen and (max-width: 700px) {
@@ -135,4 +132,17 @@ div.content {
     text-align: center;
     float: none;
   }
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix {
+  clear: both;
+}
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: table;
 }
