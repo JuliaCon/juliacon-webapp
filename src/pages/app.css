@@ -3,6 +3,15 @@
   --julia-purple: #9558b2;
 }
 
+@font-face {
+  font-family: "Patua One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/patuaone/v10/ZXuke1cDvLCKLDcimxB44_luFgxbuQ.woff2)
+    format("woff2");
+}
+
 html {
   box-sizing: border-box;
 }
@@ -14,6 +23,10 @@ html {
 
 a {
   cursor: pointer;
+}
+
+.styled-markdown {
+  line-height: 1.25em;
 }
 
 .styled-markdown > * {
@@ -46,7 +59,7 @@ a {
 
 .styled-markdown b,
 strong {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .styled-markdown kbd,

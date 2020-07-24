@@ -22,13 +22,19 @@ export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
     <div>
       <h2
         className={css`
-          font-weight: bold;
           font-size: 2rem;
-          padding-bottom: 10px;
+          font-family: "Patua One", sans-serif;
         `}
       >
         {talk.title}
       </h2>
+      <div
+        className={css`
+          border-top: 0.5rem solid var(--julia-purple);
+          width: 6rem;
+          margin: 0.5rem 0;
+        `}
+      />
       <AgendaTalksListItemSpeakers speakers={talk.speakers} />
       <VSpace />
       <TimeRangeFormatted start={talk.startTime} end={talk.endTime} />
@@ -39,12 +45,17 @@ export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
             className={css`
               font-weight: bold;
               font-size: 1rem;
-              padding-bottom: 10px;
             `}
           >
             Abstract:
           </h4>
-          <StyledMarkdown source={talk.abstract} />
+          <div
+            className={css`
+              padding-left: 1rem;
+            `}
+          >
+            <StyledMarkdown source={talk.abstract} />
+          </div>
         </div>
       )}
       <VSpace />
@@ -54,12 +65,17 @@ export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
             className={css`
               font-weight: bold;
               font-size: 1rem;
-              padding-bottom: 10px;
             `}
           >
             Description:
           </h4>
-          <StyledMarkdown source={talk.description} />
+          <div
+            className={css`
+              padding-left: 1rem;
+            `}
+          >
+            <StyledMarkdown source={talk.description} />
+          </div>
         </div>
       )}
       <VSpace />

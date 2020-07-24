@@ -109,6 +109,7 @@ const TalkSelectionTabs = React.memo(function TalkSelectionTabs({
           position: relative;
           background-color: transparent;
           transition: background-color 0.3s;
+
           &:hover {
             background: rgba(0, 0, 0, 0.05);
           }
@@ -128,7 +129,7 @@ const TalkSelectionTabs = React.memo(function TalkSelectionTabs({
         }
       `}
     >
-      <TabList className={css``}>{tabs}</TabList>
+      <TabList>{tabs}</TabList>
       <TabPanels>{panels}</TabPanels>
     </Tabs>
   );
@@ -203,6 +204,7 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
       <h1
         className={css`
           font-size: 1.5rem;
+          font-family: "Patua One", sans-serif;
         `}
       >
         <Link href={"/talk/[id]"} as={`/talk/${talk.id}`}>
