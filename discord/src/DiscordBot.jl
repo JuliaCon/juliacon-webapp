@@ -66,7 +66,8 @@ function main()
     client = discord_client()
     channels = load_channels()
     for (start, talks) in load_talks()
-        wait = max(start - now(UTC), zero(Millisecond))
+        wait = start - now(UTC)
+        wait < zero(Millisecond) && continue
         @info "Waiting $wait until $start"
         sleep(wait)
         @info "Alerting"
