@@ -13,6 +13,9 @@ export const Nav = () => {
         align-items: center;
       `}
     >
+      <NavLink href={"https://juliacon.org/2020/tickets/"} external>
+        Register
+      </NavLink>
       <NavLink href={"/agenda"}>Agenda</NavLink>
       <NavLink href={"/live"}>Live Schedule</NavLink>
       <NavLink href={"/posters"}>Posters</NavLink>
@@ -38,52 +41,61 @@ interface NavLinkProps {
   children: string;
   href: string;
   as?: string;
+  external?: boolean;
 }
-const NavLink = ({ children, href, as }: NavLinkProps) => {
+const NavLink = ({ children, href, as, external }: NavLinkProps) => {
   /* eslint-disable jsx-a11y/anchor-is-valid */
   // NextJS does fancy™ stuff with links and it sets the href of the child <a />
   // element itself.
-  return (
-    <Link href={href} as={as}>
-      <a
+
+  const anchorElement = (
+    <a
+      href={external ? href : undefined}
+      className={css`
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        transition: background-color 0.3s;
+        position: relative;
+        text-decoration: none;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        &::after {
+          position: absolute;
+          bottom: -1px;
+          width: 100%;
+          height: 4px;
+          background-color: var(--julia-purple);
+          content: " ";
+          opacity: 0;
+          transition: opacity 0.3s;
+        }
+
+        &:hover::after {
+          opacity: 1;
+        }
+      `}
+    >
+      <span
         className={css`
-          height: 100%;
-          display: flex;
-          flex-flow: row nowrap;
-          align-items: center;
-          transition: background-color 0.3s;
-          position: relative;
-          text-decoration: none;
-
-          &:hover {
-            background-color: rgba(0, 0, 0, 0.05);
-          }
-
-          &::after {
-            position: absolute;
-            bottom: -1px;
-            width: 100%;
-            height: 4px;
-            background-color: var(--julia-purple);
-            content: " ";
-            opacity: 0;
-            transition: opacity 0.3s;
-          }
-
-          &:hover::after {
-            opacity: 1;
-          }
+          display: block;
+          padding: 1rem;
         `}
       >
-        <span
-          className={css`
-            display: block;
-            padding: 1rem;
-          `}
-        >
-          {children}
-        </span>
-      </a>
+        {children}
+      </span>
+    </a>
+  );
+
+  if (external) return anchorElement;
+
+  return (
+    <Link href={href} as={as}>
+      {anchorElement}
     </Link>
   );
   /* eslint-enable */
