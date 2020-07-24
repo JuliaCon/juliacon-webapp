@@ -7,6 +7,7 @@ using JSON3: JSON3
 
 const DATA_DIR = joinpath(@__DIR__, "..", "..", "data")
 const DATETIME_FORMAT = dateformat"yyyy-mm-ddTHH:MM:SSZ"
+const LIVE_URL = "https://live.juliacon.org/live"
 
 discord_client() = BotClient(ENV["DISCORD_TOKEN"])
 
@@ -31,7 +32,7 @@ function format_message(talk, color)
         description = description[1:1994] * " [...]"
     end
 
-    fields = [(; name="More info", value="https://juliacon2020.now.sh/live")]
+    fields = [(; name="More info", value=LIVE_URL)]
     speakers = map(s -> s.name, talk.speakers)
     if !isempty(speakers)
         pushfirst!(fields, (; name="Presented by", value=join(speakers, ", ")))
