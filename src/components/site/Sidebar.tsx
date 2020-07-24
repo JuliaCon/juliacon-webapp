@@ -29,7 +29,7 @@ export const Sidebar = () => {
         <SponsorSidebarItem sponsor={sponsor} />
       ))}
 
-      <p
+      <h2
         className={css`
           font-size: 1.5rem;
           font-weight: bold;
@@ -39,11 +39,11 @@ export const Sidebar = () => {
         `}
       >
         Silver sponsors
-      </p>
+      </h2>
       {silverSponsors.map((sponsor) => (
         <SponsorSidebarItem sponsor={sponsor} />
       ))}
-      <p
+      <h2
         className={css`
           font-size: 1.5rem;
           font-weight: bold;
@@ -53,7 +53,7 @@ export const Sidebar = () => {
         `}
       >
         Media partners
-      </p>
+      </h2>
       {mediaPartners.map((sponsor) => (
         <SponsorSidebarItem sponsor={sponsor} />
       ))}
