@@ -13,37 +13,40 @@ export const Sidebar = () => {
   );
   return (
     <div className={"sidebar"}>
-      <span
+      <p
         className={css`
-          font-size: 1rem;
+          font-size: 1.5rem;
           font-weight: bold;
+          text-align: center;
         `}
       >
         Gold sponsors
-      </span>
+      </p>
       {goldSponsors.map((sponsor) => (
         <SponsorSidebarItem sponsor={sponsor} />
       ))}
 
-      <span
+      <p
         className={css`
-          font-size: 1rem;
+          font-size: 1.5rem;
           font-weight: bold;
+          text-align: center;
         `}
       >
         Silver sponsors
-      </span>
+      </p>
       {silverSponsors.map((sponsor) => (
         <SponsorSidebarItem sponsor={sponsor} />
       ))}
-      <span
+      <p
         className={css`
-          font-size: 1rem;
+          font-size: 1.5rem;
           font-weight: bold;
+          text-align: center;
         `}
       >
         Media partners
-      </span>
+      </p>
       {mediaPartners.map((sponsor) => (
         <SponsorSidebarItem sponsor={sponsor} />
       ))}

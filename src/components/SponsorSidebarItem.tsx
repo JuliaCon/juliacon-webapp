@@ -22,10 +22,12 @@ export const SponsorSidebarItem = (sponsor: {
         className={css`
            {
             padding: 15px;
-            width: 48%;
-            height: 40%;
+            width: 100%;
+            height: auto;
             object-fit: contain;
             border: 0;
+            margin-left: auto;
+            margin-right: auto;
           }
         `}
       />

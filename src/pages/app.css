@@ -125,24 +125,24 @@ div.content {
   .sidebar {
     height: auto;
     position: relative;
-    margin: 0;
     top: 0rem;
     float: none;
-  }
-  .sidebar a {
-    float: left;
+    width: 80%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
   div.content {
     margin-left: 0;
     width: 100%;
     max-width: 100%;
   }
-}
-
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
+  body {
+    margin: 0;
+    width: 100%;
+  }
+  .container {
+    width: 100%;
   }
 }
 

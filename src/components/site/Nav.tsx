@@ -30,7 +30,6 @@ export const Nav = () => {
       >
         <NavLink href={"/viz"}>Explore Talks</NavLink>
       </div>
-      <NavLink href={"/sponsors"}>Sponsors</NavLink>
     </nav>
   );
 };
