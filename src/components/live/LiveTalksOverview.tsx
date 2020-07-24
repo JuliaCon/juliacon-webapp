@@ -177,7 +177,11 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
         <p>
           You can engage with the workshop presenter in real time on Zoom!
           Please check your email for a list of Zoom links to join the
-          discussion (or register for JuliaCon on Eventbrite) if you haven't.
+          discussion (or{" "}
+          <a href={"https://juliacon.org/2020/tickets/"}>
+            register for JuliaCon
+          </a>{" "}
+          if you haven't).
         </p>
       </div>
     </>
