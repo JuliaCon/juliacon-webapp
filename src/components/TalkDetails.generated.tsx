@@ -1,8 +1,10 @@
 import * as Types from "../apollo/__generated__/types";
 
 import { SpeakerInfoFragment } from "./speaker/SpeakerInfo.generated";
+import { LiveTalksTalkFragment } from "./live/LiveTalks.generated";
 import gql from "graphql-tag";
 import { SpeakerInfoFragmentDoc } from "./speaker/SpeakerInfo.generated";
+import { LiveTalksTalkFragmentDoc } from "./live/LiveTalks.generated";
 import * as ApolloReactCommon from "@apollo/client";
 import * as ApolloReactHooks from "@apollo/client";
 
@@ -18,12 +20,18 @@ export type TalkDetailsQuery = { readonly __typename?: "Query" } & {
 
 export type TalkDetailsFragment = { readonly __typename?: "Talk" } & Pick<
   Types.Talk,
-  "id" | "title" | "abstract" | "description" | "startTime" | "endTime"
+  | "id"
+  | "title"
+  | "abstract"
+  | "description"
+  | "startTime"
+  | "endTime"
+  | "videoCode"
 > & {
     readonly speakers: ReadonlyArray<
       { readonly __typename?: "Speaker" } & SpeakerInfoFragment
     >;
-  };
+  } & LiveTalksTalkFragment;
 
 export const TalkDetailsFragmentDoc = gql`
   fragment TalkDetails on Talk {
@@ -33,11 +41,14 @@ export const TalkDetailsFragmentDoc = gql`
     description
     startTime
     endTime
+    videoCode
     speakers {
       ...SpeakerInfo
     }
+    ...LiveTalksTalk
   }
   ${SpeakerInfoFragmentDoc}
+  ${LiveTalksTalkFragmentDoc}
 `;
 export const TalkDetailsDocument = gql`
   query TalkDetails($id: ID!) {
