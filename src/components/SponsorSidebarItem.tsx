@@ -45,15 +45,20 @@ export const SponsorSidebarItem = (sponsor: {
       `
   );
 
-  return (
-    <div>
-      <a href={sponsorObj.moreInfoURL}>
-        <img
-          src={sponsorObj.logoURL}
-          alt={sponsorObj.sponsorName}
-          className={imgStyle}
-        />
-      </a>
-    </div>
+  const imgElt = (
+    <img
+      src={sponsorObj.logoURL}
+      alt={sponsorObj.sponsorName}
+      className={imgStyle}
+    />
   );
+  const anchorElt = sponsorObj.moreInfoURL ? (
+    <a href={sponsorObj.moreInfoURL} rel={"noopener noreferrer"}>
+      {imgElt}
+    </a>
+  ) : (
+    imgElt
+  );
+
+  return <div>{anchorElt}</div>;
 };

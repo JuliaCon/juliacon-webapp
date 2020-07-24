@@ -36,7 +36,6 @@ export const Sidebar = () => {
           display: flex;
           flex-flow: column nowrap;
           align-items: center;
-          justify-content: center;
         `}
       >
         <div>
@@ -45,6 +44,7 @@ export const Sidebar = () => {
               font-size: 1.5rem;
               font-weight: bold;
               text-align: center;
+              border-bottom: 1px solid #ccc;
               display: block;
               width: 100%;
             `}
@@ -56,13 +56,15 @@ export const Sidebar = () => {
             <SponsorSidebarItem sponsor={sponsor} />
           ))}
 
-          <VSpace height={"2rem"} />
+          <VSpace height={"3rem"} />
 
           <h2
             className={css`
               font-size: 1.5rem;
               font-weight: bold;
               text-align: center;
+              border-bottom: 1px solid #ccc;
+
               width: 100%;
             `}
           >
@@ -73,13 +75,15 @@ export const Sidebar = () => {
             <SponsorSidebarItem sponsor={sponsor} />
           ))}
 
-          <VSpace height={"2rem"} />
+          <VSpace height={"3rem"} />
 
           <h2
             className={css`
               font-size: 1.5rem;
               font-weight: bold;
               text-align: center;
+              border-bottom: 1px solid #ccc;
+
               display: block;
               width: 100%;
             `}
