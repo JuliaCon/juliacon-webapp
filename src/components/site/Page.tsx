@@ -3,7 +3,6 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { css } from "emotion";
 import { MainContentContainer } from "./MainContentContainer";
-
 export const Page: React.FC = ({ children }) => {
   return (
     <div
