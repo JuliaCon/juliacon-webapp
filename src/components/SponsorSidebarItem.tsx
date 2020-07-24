@@ -53,7 +53,11 @@ export const SponsorSidebarItem = (sponsor: {
     />
   );
   const anchorElt = sponsorObj.moreInfoURL ? (
-    <a href={sponsorObj.moreInfoURL} rel={"noopener noreferrer"}>
+    <a
+      href={sponsorObj.moreInfoURL}
+      target={"_blank"}
+      rel={"noopener noreferrer"}
+    >
       {imgElt}
     </a>
   ) : (
