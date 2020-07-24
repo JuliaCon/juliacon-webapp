@@ -24,6 +24,10 @@ export async function getDiscordOauthUserToken({ code }: { code: string }) {
     body,
   });
   const result: AccessTokenResponse = await response.json();
+
+  // For debug only, REMOVE THIS
+  console.log(`token:`, result);
+
   return result.access_token;
 }
 
