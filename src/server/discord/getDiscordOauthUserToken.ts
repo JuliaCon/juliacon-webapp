@@ -5,6 +5,7 @@ import {
   getDiscordOauthClientSecret,
   getDiscordOauthRedirectUrl,
 } from "./config";
+import { nullthrows } from "../../utils/invariant";
 
 export async function getDiscordOauthUserToken({ code }: { code: string }) {
   // Body must be form encoded
@@ -23,12 +24,20 @@ export async function getDiscordOauthUserToken({ code }: { code: string }) {
     },
     body,
   });
+
+  if (response.status !== 200) {
+    const message =
+      `Unexpected status code returned from Discord oauth2/token: ` +
+      `${response.status} ${response.statusText}`;
+    console.error(message, await response.json());
+    throw new Error(message);
+  }
+
   const result: AccessTokenResponse = await response.json();
-
-  // For debug only, REMOVE THIS
-  console.log(`token:`, result);
-
-  return result.access_token;
+  return nullthrows(
+    result.access_token,
+    `Discord did not return a valid access token`
+  );
 }
 
 interface AccessTokenResponse {
