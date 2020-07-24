@@ -17,7 +17,7 @@ export async function getDiscordOauthUserToken({ code }: { code: string }) {
     scope: DISCORD_OAUTH_SCOPE,
     code,
   };
-  console.log({ body });
+
   const response = await fetch("https://discord.com/api/oauth2/token", {
     method: "POST",
     headers: {
