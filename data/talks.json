@@ -3154,7 +3154,7 @@
     "biography": "Full professor in the Faculty of Sciences, Universidad Nacional Autónoma de México (UNAM) and visiting professor at MIT.\r\n\r\nJulia user, tutorial developer and package author since 2014. Co-creator of the JuliaIntervals suite of tools for interval arithmetic in Julia."
    }
   ],
-  "description": "We will explore more advanced features of Julia, in particular Julia’s\r\ntype system. To do so we will build up simple models \r\nfor the spread of an epidemic through a population of individuals.\r\n\r\nSome topics that we will cover include:\r\n\r\n- Why Julia?\r\n- Small functions as building blocks\r\n- Multiple dispatch\r\n- User-defined types\r\n- Abstract types and type hierarchies\r\n- Generic programming",
+  "description": "We will explore more advanced features of Julia, in particular Julia’s\r\ntype system. To do so we will build up simple models \r\nfor the spread of an epidemic through a population of individuals.\r\n\r\nSome topics that we will cover include:\r\n\r\n- Why Julia?\r\n- Small functions as building blocks\r\n- Multiple dispatch\r\n- User-defined types\r\n- Abstract types and type hierarchies\r\n- Generic programming\r\n\r\nMaterials and installation instructions are available at \r\nhttps://github.com/dpsanders/LearnJulia2020",
   "image": null,
   "slot_count": 1,
   "slot": {
