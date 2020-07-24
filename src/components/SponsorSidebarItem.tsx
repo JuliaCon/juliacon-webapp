@@ -18,11 +18,15 @@ export const SponsorSidebarItem = (sponsor: {
 
   return (
     <div
-      className={css`
-         {
-          display: inline;
-        }
-      `}
+      className={
+        css`
+           {
+            display: inline;
+          }
+        ` +
+        " " +
+        sponsorObj.tier
+      }
     >
       <a href={sponsorObj.moreInfoURL}>
         <img
@@ -30,13 +34,14 @@ export const SponsorSidebarItem = (sponsor: {
           alt={sponsorObj.sponsorName}
           className={css`
              {
-              padding: 15px;
-              width: 100%;
-              height: auto;
-              object-fit: contain;
+              max-width: 150px;
+              max-height: 40px;
+              overflow: hidden;
               border: 0;
               margin-left: auto;
               margin-right: auto;
+              margin-bottom: 10px;
+              display: block;
             }
           `}
         />

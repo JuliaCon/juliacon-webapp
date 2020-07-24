@@ -2,7 +2,7 @@ import * as React from "react";
 import { css } from "emotion";
 import sponsors from "../../../data/sponsors.json";
 import { SponsorSidebarItem } from "../SponsorSidebarItem";
-
+import { VSpace } from "../layout";
 export const Sidebar = () => {
   const goldSponsors = sponsors.filter((sponsor) => sponsor.tier === "Gold");
   const silverSponsors = sponsors.filter(
@@ -24,7 +24,7 @@ export const Sidebar = () => {
       >
         Gold sponsors
       </h2>
-      <br />
+      <VSpace />
       {goldSponsors.map((sponsor) => (
         <SponsorSidebarItem sponsor={sponsor} />
       ))}
@@ -40,6 +40,7 @@ export const Sidebar = () => {
       >
         Silver sponsors
       </h2>
+      <VSpace />
       {silverSponsors.map((sponsor) => (
         <SponsorSidebarItem sponsor={sponsor} />
       ))}
@@ -54,6 +55,7 @@ export const Sidebar = () => {
       >
         Media partners
       </h2>
+      <VSpace />
       {mediaPartners.map((sponsor) => (
         <SponsorSidebarItem sponsor={sponsor} />
       ))}
