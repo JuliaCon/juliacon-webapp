@@ -92,10 +92,10 @@
   {
     "sponsorName": "Vercel",
     "blurb": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
-    "moreInfoURL": "https://vercel.com/",
+    "moreInfoURL": "https://vercel.com/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "",
+    "logoURL": "/vercel.svg",
     "tier": "Media Partner"
   }
 ]

@@ -1,6 +1,5 @@
 import React from "react";
 import { Header } from "./Header";
-import { Footer } from "./Footer";
 import { css } from "emotion";
 import { MainContentContainer } from "./MainContentContainer";
 import { useRouter } from "next/router";
@@ -20,14 +19,6 @@ export const Page: React.FC = ({ children }) => {
     >
       <Header />
       <MainContentContainer>{children}</MainContentContainer>
-      <div
-        // Spacer to force the footer to the bottom
-        className={css`
-          flex: 1;
-          min-height: 4rem;
-        `}
-      />
-      <Footer />
     </div>
   );
 };
