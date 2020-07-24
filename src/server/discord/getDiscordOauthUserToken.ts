@@ -9,20 +9,21 @@ import { nullthrows } from "../../utils/invariant";
 
 export async function getDiscordOauthUserToken({ code }: { code: string }) {
   // Body must be form encoded
-  const body = querystring.encode({
+  const body = {
     client_id: getDiscordOauthClientId(),
     client_secret: getDiscordOauthClientSecret(),
     redirect_uri: getDiscordOauthRedirectUrl(),
     grant_type: "authorization_code",
     scope: DISCORD_OAUTH_SCOPE,
     code,
-  });
+  };
+  console.log({ body });
   const response = await fetch("https://discord.com/api/oauth2/token", {
     method: "POST",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
     },
-    body,
+    body: querystring.encode(body),
   });
 
   if (response.status !== 200) {
