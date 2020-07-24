@@ -146,15 +146,18 @@ div.content {
   }
 }
 
-.clear {
-  clear: both;
+#viz .sidebar {
+  height: auto !important;
+  position: relative !important;
+  top: 0rem !important;
+  float: none !important;
+  width: 80% !important;
+  max-width: 80% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
-
-.clearfix {
-  clear: both;
-}
-.clearfix:after {
-  clear: both;
-  content: "";
-  display: table;
+#viz div.content {
+  margin-left: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
 }

@@ -3,7 +3,12 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { css } from "emotion";
 import { MainContentContainer } from "./MainContentContainer";
+import { useRouter } from "next/router";
+
 export const Page: React.FC = ({ children }) => {
+  const router = useRouter();
+  const route = router.route.substring(1);
+  console.log(router);
   return (
     <div
       className={css`
@@ -11,6 +16,7 @@ export const Page: React.FC = ({ children }) => {
         display: flex;
         flex-flow: column nowrap;
       `}
+      id={route}
     >
       <Header />
       <MainContentContainer>{children}</MainContentContainer>
