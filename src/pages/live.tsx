@@ -6,7 +6,7 @@ import { withApollo } from "../apollo";
 
 const TestLivePage: NextPage = () => {
   return (
-    <Page>
+    <Page title={"Live Overview"}>
       <LiveTalksView />
     </Page>
   );

@@ -37,7 +37,7 @@ const Agenda: NextPage = () => {
   }
 
   return (
-    <Page>
+    <Page title={"Agenda"}>
       <Center>
         <ConferenceDayPicker
           day={day}

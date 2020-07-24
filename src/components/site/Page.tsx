@@ -1,10 +1,15 @@
 import React from "react";
+import Head from "next/head";
+import { css } from "emotion";
+
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import { css } from "emotion";
 import { MainContentContainer } from "./MainContentContainer";
 
-export const Page: React.FC = ({ children }) => {
+interface PageProps {
+  title?: string;
+}
+export const Page: React.FC<PageProps> = ({ children, title }) => {
   return (
     <div
       className={css`
@@ -13,6 +18,9 @@ export const Page: React.FC = ({ children }) => {
         flex-flow: column nowrap;
       `}
     >
+      <Head>
+        <title>{title && `${title} | `}JuliaCon 2020</title>
+      </Head>
       <Header />
       <MainContentContainer>{children}</MainContentContainer>
       <div
