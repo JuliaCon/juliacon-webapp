@@ -1,7 +1,7 @@
 import { asyncMap } from "../../../utils/async";
 import { isNonNull } from "../../../utils/null";
 
-import { submissionTypeToTalkType } from "../utils";
+import { submissionTypeToTalkType, TalkType } from "../utils";
 import { TalkResolvers } from "./__types__";
 import { getDayString } from "../../../utils/time";
 
@@ -32,5 +32,11 @@ export const Talk: TalkResolvers = {
 
   videoCode: (root, _args, { dataSources }) => {
     return dataSources.videoCodes.getTalkVideoCode(root.id);
+  },
+
+  isLive: (root) => {
+    return (
+      submissionTypeToTalkType(root.submissionType) === TalkType.WorkshopHalfDay
+    );
   },
 };

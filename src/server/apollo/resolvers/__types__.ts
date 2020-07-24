@@ -106,6 +106,8 @@ export type Talk = {
   readonly description?: Maybe<Scalars["String"]>;
   readonly day: Scalars["String"];
   readonly type: TalkType;
+  /** True if the talk is live (not pre-recorded). */
+  readonly isLive?: Maybe<Scalars["Boolean"]>;
   /** The start time of the talk (as an ISO 8601 formatted timestamp). */
   readonly startTime: Scalars["String"];
   /** The end time of the talk (as an ISO 8601 formatted timestamp). */
@@ -247,10 +249,10 @@ export type ResolversTypes = {
   Talk: ResolverTypeWrapper<PretalxAPITalk>;
   String: ResolverTypeWrapper<Scalars["String"]>;
   TalkType: TalkType;
+  Boolean: ResolverTypeWrapper<Scalars["Boolean"]>;
   Speaker: ResolverTypeWrapper<PretalxAPISpeaker>;
   Room: ResolverTypeWrapper<PretalxAPIRoom>;
   Poster: ResolverTypeWrapper<PretalxAPIPoster>;
-  Boolean: ResolverTypeWrapper<Scalars["Boolean"]>;
 };
 
 /** Mapping between all available schema types and the resolvers parents */
@@ -259,10 +261,10 @@ export type ResolversParentTypes = {
   ID: Scalars["ID"];
   Talk: PretalxAPITalk;
   String: Scalars["String"];
+  Boolean: Scalars["Boolean"];
   Speaker: PretalxAPISpeaker;
   Room: PretalxAPIRoom;
   Poster: PretalxAPIPoster;
-  Boolean: Scalars["Boolean"];
 };
 
 export type PosterResolvers<
@@ -388,6 +390,7 @@ export type TalkResolvers<
   >;
   day?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
   type?: Resolver<ResolversTypes["TalkType"], ParentType, ContextType>;
+  isLive?: Resolver<Maybe<ResolversTypes["Boolean"]>, ParentType, ContextType>;
   startTime?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
   endTime?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
   speakers?: Resolver<

@@ -94,6 +94,8 @@ export type Talk = {
   description?: Maybe<Scalars["String"]>;
   day: Scalars["String"];
   type: TalkType;
+  /** True if the talk is live (not pre-recorded). */
+  isLive?: Maybe<Scalars["Boolean"]>;
   /** The start time of the talk (as an ISO 8601 formatted timestamp). */
   startTime: Scalars["String"];
   /** The end time of the talk (as an ISO 8601 formatted timestamp). */

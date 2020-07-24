@@ -16,7 +16,14 @@ export type LiveTalksQuery = { readonly __typename?: "Query" } & {
 
 export type LiveTalksTalkFragment = { readonly __typename?: "Talk" } & Pick<
   Types.Talk,
-  "id" | "title" | "startTime" | "endTime" | "videoCode" | "abstract"
+  | "id"
+  | "title"
+  | "startTime"
+  | "endTime"
+  | "videoCode"
+  | "abstract"
+  | "isLive"
+  | "type"
 > & {
     readonly room: { readonly __typename?: "Room" } & Pick<Types.Room, "id">;
   };
@@ -29,6 +36,8 @@ export const LiveTalksTalkFragmentDoc = gql`
     endTime
     videoCode
     abstract
+    isLive
+    type
     room {
       id
     }

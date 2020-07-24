@@ -11,6 +11,8 @@ fragment LiveTalksTalk on Talk {
   endTime
   videoCode
   abstract
+  isLive
+  type
   room {
     id
   }
