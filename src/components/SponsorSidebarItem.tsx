@@ -30,19 +30,18 @@ export const SponsorSidebarItem = (sponsor: {
     `,
     sponsorObj.tier === "Gold" &&
       css`
-        max-width: 300px;
+        max-width: 200px;
         max-height: 100px;
       `,
     sponsorObj.tier === "Silver" &&
       css`
-        max-width: 200px;
+        max-width: 150px;
         max-height: 70px;
       `,
     sponsorObj.tier === "Media Partner" &&
       css`
-        height: 50px;
         max-height: 50px;
-        max-width: 150px;
+        max-width: 100px;
       `
   );
 
