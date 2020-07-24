@@ -15,22 +15,30 @@ export const SponsorSidebarItem = (sponsor: {
   const sponsorObj = sponsor.sponsor;
 
   return (
-    <div>
-      <img
-        src={sponsorObj.logoURL}
-        alt={sponsorObj.sponsorName}
-        className={css`
-           {
-            padding: 15px;
-            width: 100%;
-            height: auto;
-            object-fit: contain;
-            border: 0;
-            margin-left: auto;
-            margin-right: auto;
-          }
-        `}
-      />
+    <div
+      className={css`
+         {
+          display: inline;
+        }
+      `}
+    >
+      <a href={sponsorObj.moreInfoURL}>
+        <img
+          src={sponsorObj.logoURL}
+          alt={sponsorObj.sponsorName}
+          className={css`
+             {
+              padding: 15px;
+              width: 100%;
+              height: auto;
+              object-fit: contain;
+              border: 0;
+              margin-left: auto;
+              margin-right: auto;
+            }
+          `}
+        />
+      </a>
     </div>
   );
 };

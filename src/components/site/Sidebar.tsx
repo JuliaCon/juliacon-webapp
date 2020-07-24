@@ -13,15 +13,18 @@ export const Sidebar = () => {
   );
   return (
     <div className={"sidebar"}>
-      <p
+      <h2
         className={css`
           font-size: 1.5rem;
           font-weight: bold;
           text-align: center;
+          display: block !important;
+          width: 100%;
         `}
       >
         Gold sponsors
-      </p>
+      </h2>
+      <br />
       {goldSponsors.map((sponsor) => (
         <SponsorSidebarItem sponsor={sponsor} />
       ))}
@@ -31,6 +34,8 @@ export const Sidebar = () => {
           font-size: 1.5rem;
           font-weight: bold;
           text-align: center;
+          display: block !important;
+          width: 100%;
         `}
       >
         Silver sponsors
@@ -43,6 +48,8 @@ export const Sidebar = () => {
           font-size: 1.5rem;
           font-weight: bold;
           text-align: center;
+          display: block !important;
+          width: 100%;
         `}
       >
         Media partners
