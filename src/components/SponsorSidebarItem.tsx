@@ -1,6 +1,8 @@
 import * as React from "react";
 import { css } from "emotion";
 
+// A sponsor in the sidebar
+
 export const SponsorSidebarItem = (sponsor: {
   sponsor: {
     sponsorName: string;
