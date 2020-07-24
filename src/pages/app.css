@@ -75,7 +75,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1250px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -91,24 +91,33 @@ body {
 
 div.content {
   background-color: transparent;
-  width: 870px;
+  width: 920px;
   margin: 0;
   float: left;
   min-height: 1px;
   margin-left: 30px;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1250px) {
+  .container {
+    width: 1000px;
+  }
   div.content {
-    max-width: 800px;
+    max-width: 710px;
+  }
+  .sidebar {
+    max-width: 230px;
   }
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 700px;
+  }
   div.content {
-    max-width: 750px;
+    max-width: 450px;
   }
   .sidebar {
-    max-width: 250px;
+    max-width: 190px;
   }
 }
 
