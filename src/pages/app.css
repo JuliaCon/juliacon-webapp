@@ -81,3 +81,8 @@ samp {
 .styled-markdown ol {
   list-style: decimal inside none;
 }
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}

@@ -3,7 +3,6 @@ import Head from "next/head";
 import { css } from "emotion";
 
 import { Header } from "./Header";
-import { Footer } from "./Footer";
 import { MainContentContainer } from "./MainContentContainer";
 
 interface PageProps {
@@ -23,14 +22,6 @@ export const Page: React.FC<PageProps> = ({ children, title }) => {
       </Head>
       <Header />
       <MainContentContainer>{children}</MainContentContainer>
-      <div
-        // Spacer to force the footer to the bottom
-        className={css`
-          flex: 1;
-          min-height: 4rem;
-        `}
-      />
-      <Footer />
     </div>
   );
 };
