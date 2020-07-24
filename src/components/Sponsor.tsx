@@ -2,6 +2,9 @@ import * as React from "react";
 import { VSpace } from "./layout";
 import { css } from "emotion";
 
+// Displays a sponsor on the sponsors page
+// Currently not in use
+
 export const Sponsor = (sponsor: {
   sponsor: {
     sponsorName: string;
