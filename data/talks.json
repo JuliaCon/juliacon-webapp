@@ -2081,7 +2081,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Building and analyzing graphs at scale with LightGraphs",
-  "abstract": "From logistics to bioinformatics or web analytics, graphs are versatile abstractions for modelling problems and solving them with specialized efficient algorithms. But with different problems comes the need for different representations. This workshop aims at giving a hands-on tour to the JuliaGraphs libraries, letting the participants build, analyze and visualize graphs for different applications."
+  "abstract": "From logistics to bioinformatics or web analytics, graphs are versatile abstractions for modelling problems and solving them with specialized efficient algorithms. But with different problems comes the need for different representations. This workshop aims at giving a hands-on tour to the JuliaGraphs libraries, letting the participants build, analyze and visualize graphs for different applications. Join via Zoom: link in email from Eventbrite. Backup Youtube link: https://youtu.be/K3z0kUOBy2Y."
  },
  {
   "content_locale": "en",
@@ -5026,7 +5026,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Building microservices and applications in Julia",
-  "abstract": "While Julia started as a \"fresh approach to technical computing\", it has blossomed into a powerful general-purpose language fit for much more than \"just\" linear algebra and automatic differentiation. This workshop will walk-through an architecture of microservices in Julia, and a broad spectrum of high-quality packages to aid in the process."
+  "abstract": "While Julia started as a \"fresh approach to technical computing\", it has blossomed into a powerful general-purpose language fit for much more than \"just\" linear algebra and automatic differentiation. This workshop will walk-through an architecture of microservices in Julia, and a broad spectrum of high-quality packages to aid in the process. \r\n\r\nJoin via Zoom: link in email from Eventbrite. Backup Youtube link: https://youtu.be/uLhXgt_gKJc."
  },
  {
   "content_locale": "en",
