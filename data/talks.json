@@ -815,7 +815,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "BinaryBuilder.jl — The Subtle Art of Binaries that \"Just Work\"",
-  "abstract": "This workshop will walk you through the wonders of `BinaryBuilder.jl`, the framework that allows you to compile binary libraries and programs for all supported Julia platforms"
+  "abstract": "This workshop will walk you through the wonders of `BinaryBuilder.jl`, the framework that allows you to compile binary libraries and programs for all supported Julia platforms. \r\n\r\nJoin via Zoom: link in email from Eventbrite. Backup Youtube link: https://youtu.be/3IyXsBwqll8"
  },
  {
   "content_locale": "en",
