@@ -3634,7 +3634,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Wrapping a C++ library using CxxWrap.jl",
-  "abstract": "This workshop will show how to use [CxxWrap.jl](https://github.com/JuliaInterop/CxxWrap.jl) to wrap a C++ library, based on tutorial material that can be followed along during the workshop. We will show everything you need to know about writing and compiling the required C++ wrapping code."
+  "abstract": "This workshop will show how to use [CxxWrap.jl](https://github.com/JuliaInterop/CxxWrap.jl) to wrap a C++ library, based on tutorial material that can be followed along during the workshop. We will show everything you need to know about writing and compiling the required C++ wrapping code. \r\n\r\nSetup beforehand is required, see https://github.com/barche/cxxwrap-juliacon2020#docker-dev-container"
  },
  {
   "content_locale": "en",
