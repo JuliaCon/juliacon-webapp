@@ -64,12 +64,6 @@ export const IndexPage: NextPage = () => {
               href={"https://www.bonfire.com/store/the-julia-language/"}
             >
               Julia Bonfire store
-            </ExternalLink>{" "}
-            and other general Julia merchandise can be found on the{" "}
-            <ExternalLink
-              href={"https://www.bonfire.com/store/the-julia-language/"}
-            >
-              Julia RedBubble shop
             </ExternalLink>
             .
           </p>
