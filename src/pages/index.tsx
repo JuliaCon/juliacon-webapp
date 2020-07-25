@@ -54,23 +54,35 @@ export const IndexPage: NextPage = () => {
           </VSpaceBetween>
         </div>
         <div>
-          <TextHeading level={"h3"}>
-            How do I get my conference swag?
-          </TextHeading>
-          <VSpace height={"0.5rem"} />
-          <p>
-            T-shirts are available on the{" "}
-            <ExternalLink
-              href={"https://www.bonfire.com/store/the-julia-language/"}
-            >
-              Julia Bonfire store
-            </ExternalLink>
-            , and{" "}
-            <ExternalLink href={"https://www.bonfire.com/juliacon-2020-mug/"}>
-              JuliaCon mugs
-            </ExternalLink>{" "}
-            are also available for purchase.
-          </p>
+          <VSpaceBetween space={"0.5rem"}>
+            <TextHeading level={"h3"}>
+              How do I get my conference swag?
+            </TextHeading>
+            <p>
+              T-shirts and mugs are available on the{" "}
+              <ExternalLink
+                href={"https://www.bonfire.com/store/the-julia-language/"}
+              >
+                Julia Bonfire store
+              </ExternalLink>
+              . JuliaCon is also proud to be sponsored by{" "}
+              <ExternalLink
+                href={"http://stickermule.com/juliacon20?utm_source=juliacon"}
+              >
+                Sticker Mule
+              </ExternalLink>
+              ! Head to their site to get 10 Julia stickers for only one 1 Euro
+              (plus free shipping!). You can find the Julia Language logo{" "}
+              <ExternalLink
+                href={
+                  "https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia-logo-color.png"
+                }
+              >
+                here
+              </ExternalLink>
+              .
+            </p>
+          </VSpaceBetween>
         </div>
       </VSpaceBetween>
     </Page>
