@@ -59,13 +59,17 @@ export const IndexPage: NextPage = () => {
           </TextHeading>
           <VSpace height={"0.5rem"} />
           <p>
-            T-shirts and mugs are available on the{" "}
+            T-shirts are available on the{" "}
             <ExternalLink
               href={"https://www.bonfire.com/store/the-julia-language/"}
             >
               Julia Bonfire store
             </ExternalLink>
-            .
+            , and{" "}
+            <ExternalLink href={"https://www.bonfire.com/juliacon-2020-mug/"}>
+              JuliaCon mugs
+            </ExternalLink>{" "}
+            are also available for purchase.
           </p>
         </div>
       </VSpaceBetween>
