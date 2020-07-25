@@ -58,7 +58,7 @@
     "blurb": "Repl.it is the easiest, fastest, and most collaborative way to code in Julia and 50+ other languages online. We make programming, rapid prototyping, and sharing easier with multiplayer, no-setup, automatic hosting, and more. Start coding (in Julia) now!",
     "moreInfoURL": "https://repl.it/claim?code=JuliaCon2020&utm_source=juliacon",
     "videoURL": "",
-    "chatChannelName": "<iframe src=\"https://discord.com/widget?id=437048931827056642&theme=dark\" width=\"350\" height=\"500\" allowtransparency=\"true\" frameborder=\"0\"></iframe>",
+    "chatChannelName": "https://discord.com/widget?id=437048931827056642",
     "logoURL": "https://juliacon.org/2020/assets/img/sponsors/repl-it.png",
     "tier": "Silver"
   },

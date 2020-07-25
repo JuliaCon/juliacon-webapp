@@ -1,8 +1,10 @@
 import { SponsorData, SponsorTier, sponsorTier } from "./utils";
 import React from "react";
 import { css, cx } from "emotion";
-import { MaybeExternalLink, TextHeading } from "../content";
+import { ExternalLink, MaybeExternalLink, TextHeading } from "../content";
 import { VSpace } from "../layout";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faComments } from "@fortawesome/free-solid-svg-icons/faComments";
 
 export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
   const tier = sponsorTier(sponsor);
@@ -53,6 +55,33 @@ export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
           <>
             <VSpace height={"0.5rem"} />
             <p>{sponsor.blurb}</p>
+          </>
+        ) : null}
+        {sponsor.chatChannelName ? (
+          <>
+            <VSpace height={"0.5rem"} />
+            <div
+              className={css`
+                padding-left: 1rem;
+              `}
+            >
+              <ExternalLink
+                href={sponsor.chatChannelName}
+                className={css`
+                  text-decoration: none;
+                `}
+              >
+                <FontAwesomeIcon icon={faComments} />{" "}
+                <span
+                  className={css`
+                    text-decoration: underline;
+                  `}
+                >
+                  {" "}
+                  Chat with us!
+                </span>
+              </ExternalLink>
+            </div>
           </>
         ) : null}
       </div>
