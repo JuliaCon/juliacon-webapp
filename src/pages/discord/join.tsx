@@ -46,6 +46,18 @@ const DiscordJoinPage: NextPage = () => {
         You'll need to make a Discord account if you don't have one (the process
         below will prompt you to login to or register for Discord).
       </p>
+      <VSpace />
+      <p>
+        If you’re comfortable using the designated hallway channels to direct
+        questions to presenters, please do so. This way everyone can benefit
+        from the answer you get! Attendees are encouraged to request new
+        channels to create gathering places for those with specific interests
+        (e.g., #web for attendees interested in applications of Julia to the
+        web). Let us know in #channel-requests if you’d like a new text or voice
+        channel. To report issues, please contact an admin (red) or organizer
+        (blue) on Discord. Organizers are identifiable in the user list on
+        Discord.
+      </p>
       <VSpace height={"2rem"} />
       <div
         className={css`
@@ -81,6 +93,13 @@ const DiscordJoinForm = ({ status }: DiscordJoinFormProps) => {
         errorMessage={errorMessage}
       />
       <VSpace />
+      <DiscordRules />
+      <VSpace />
+      <p>
+        By joining the JuliaCon 2020 Discord server, you are acknowledging the
+        rules above and are agreeing to follow them.
+      </p>
+      <VSpace />
       <SubmitButton pending={false} />
     </form>
   );
@@ -107,14 +126,33 @@ const DiscordJoinSuccess = () => {
         engage with the conference community.
       </p>
       <VSpace />
+      <DiscordRules />
+    </>
+  );
+};
+
+const DiscordRules = () => {
+  return (
+    <>
       <p>
-        As a reminder, discussion in the JuliaCon Discord server must adhere to
-        the{" "}
-        <a href="https://julialang.org/community/standards/">
-          Julia community standards
-        </a>
-        . Additionally, please limit conversation to the appropriate channels at
-        the appropriate talks.
+        As a reminder, discussion in the JuliaCon 2020 Discord server must
+        adhere to the{" "}
+        <a
+          href={"https://juliacon.org/2020/coc"}
+          target={"_blank"}
+          rel={"noopener noreferrer"}
+        >
+          JuliaCon Code of Conduct
+        </a>{" "}
+        as well as the{" "}
+        <a
+          href={"https://julialang.org/community/standards/"}
+          target={"_blank"}
+          rel={"noopener noreferrer"}
+        >
+          JuliaCon Code of Conduct
+        </a>{" "}
+        . Please also observe these expectations for the server:
       </p>
       <ul
         className={css`
@@ -127,23 +165,34 @@ const DiscordJoinSuccess = () => {
         `}
       >
         <li>
-          Discussion in the conference track channels (#red, #green, and #blue)
-          should pertain to the currently airing talk.
-        </li>
-        <li>
-          Attendees are encouraged to use the designated hallway channels rather
-          than DMs for general chat to promote an air of openness and to ensure
-          the comfort and safety of all attendees.
-        </li>
-        <li>
-          For speakers, please do not exceed your allocated question-and-answer
-          time (i.e. do not continue to use the channel for Q&A after the
-          subsequent talk has begin). Feel free to move to direct messaging if
-          you wish to ask a question after the end of a talk.
+          Discussion in the conference track channels (#red, #green, and
+          #purple) should pertain to the talk currently airing in the
+          corresponding track.
         </li>
         <li>
           When engaged in voice channels, participants should be muted when not
           speaking or should use the push-to-talk feature.
+        </li>
+        <li>
+          All Direct Messages (DMs) must be of a professional and respectful
+          nature. If you wish to disable DMs from other attendees, you can do so
+          as{" "}
+          <a
+            href={
+              "https://support.discord.com/hc/en-us/articles/217916488-Blocking-Privacy-Settings-"
+            }
+            target={"_blank"}
+            rel={"noopener noreferrer"}
+          >
+            described in the Discord documentation
+          </a>
+          .
+        </li>
+        <li>
+          For speakers, please do not exceed your allocated question-and-answer
+          time (i.e. do not continue to use the channel for Q&A after the
+          following talk has begun). Feel free to move to direct messaging if
+          you wish to ask a question after the end of a talk.
         </li>
       </ul>
     </>
