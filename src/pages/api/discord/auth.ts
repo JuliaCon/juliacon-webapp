@@ -19,9 +19,19 @@ const DiscordAuthHandler: NextApiHandler = async (req, res) => {
   const state: DiscordOAuthState = JSON.parse(stateString as string);
   const { eventbriteCode } = state;
 
-  const eventbriteOrder = await eventbrite.getEventbriteOrder({
-    orderId: eventbriteCode,
-  });
+  let eventbriteOrder;
+  try {
+    eventbriteOrder = await eventbrite.getEventbriteOrder({
+      orderId: eventbriteCode,
+    });
+  } catch (e) {
+    res.status(302);
+    res.setHeader(
+      "Location",
+      `/discord/join?status=${DiscordJoinStatus.EventbriteError}`
+    );
+    return res.end();
+  }
   if (!eventbriteOrder) {
     res.status(302);
     res.setHeader(

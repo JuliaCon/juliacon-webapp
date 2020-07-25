@@ -9,6 +9,7 @@ import { useRouter } from "next/router";
 export enum DiscordJoinStatus {
   Success,
   InvalidEventbriteCode,
+  EventbriteError,
 }
 
 const DiscordJoinPage: NextPage = () => {
@@ -58,6 +59,14 @@ const DiscordJoinPage: NextPage = () => {
         (blue) on Discord. Organizers are identifiable in the user list on
         Discord.
       </p>
+      <VSpace />
+      <p>
+        Note that if you asked for you ticket to be refunded, you will need to{" "}
+        <a href={"https://juliacon.org/2020/tickets/"}>
+          re-register for the conference
+        </a>{" "}
+        (at no cost).
+      </p>
       <VSpace height={"2rem"} />
       <div
         className={css`
@@ -77,16 +86,31 @@ interface DiscordJoinFormProps {
   status?: DiscordJoinStatus;
 }
 const DiscordJoinForm = ({ status }: DiscordJoinFormProps) => {
-  const errorMessage =
-    status === DiscordJoinStatus.InvalidEventbriteCode
-      ? "The Eventbrite confirmation code that you entered is not valid."
-      : undefined;
+  const errorMessage = (() => {
+    switch (status) {
+      case DiscordJoinStatus.InvalidEventbriteCode:
+        return "The Eventbrite confirmation code that you entered is not valid.";
+      case DiscordJoinStatus.EventbriteError:
+        return (
+          "Something went wrong while trying to confirm your registration. " +
+          "Please make sure that you are using the correct confirmation code. " +
+          "If you continue to have issues, please reach out to the JuliaCon organizers."
+        );
+    }
+  })();
+
   return (
     <form action={"/api/discord/join"} method={"post"}>
       <FormInput
         label={"eventbrite confirmation"}
         description={
-          "We need your Eventbrite confirmation code to make sure that you are registered for the conference."
+          <>
+            We need your Eventbrite confirmation code to make sure that you are
+            registered for the conference.
+            <br />
+            You can find the code in the email confirmation from Eventbrite,
+            usually in the form "Order #1234567890" under "Order Summary."
+          </>
         }
         type={"text"}
         name={"eventbriteCode"}
