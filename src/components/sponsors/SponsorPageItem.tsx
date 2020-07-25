@@ -5,6 +5,8 @@ import { ExternalLink, MaybeExternalLink, TextHeading } from "../content";
 import { VSpace } from "../layout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComments } from "@fortawesome/free-solid-svg-icons/faComments";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons/faDiscord";
+import { Link } from "../core";
 
 export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
   const tier = sponsorTier(sponsor);
@@ -81,6 +83,20 @@ export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
                   Chat with us!
                 </span>
               </ExternalLink>
+            </div>
+          </>
+        ) : null}
+        {sponsor.discord?.channel ? (
+          <>
+            <VSpace height={"0.5rem"} />
+            <div
+              className={css`
+                padding-left: 1rem;
+              `}
+            >
+              <FontAwesomeIcon icon={faDiscord} />{" "}
+              <span>{sponsor.discord.channel}</span> on{" "}
+              <Link href={"/discord/join"}>Discord</Link>
             </div>
           </>
         ) : null}

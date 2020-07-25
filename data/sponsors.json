@@ -15,16 +15,22 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/2020/assets/img/sponsors/julia.png",
-    "tier": "Gold"
+    "tier": "Gold",
+    "discord": {
+      "channel": "#juliacomputing"
+    }
   },
   {
     "sponsorName": "Invenia Labs",
-    "blurb": "",
+    "blurb": "We are a team of scientists and engineers working together to solve the social, economic and environmental issues that we face in the world today.\n\nWe use machine learning to optimise some of the most complex systems on earth, including one that contributes to 25% of global emissions - the electricity grid. By using machine learning, we help grid operators to improve planning for generation, flow and use of electricity ahead of real-time operation. All of this helps meet demand, while reducing cost and lowering environmental damage.",
     "moreInfoURL": "https://www.invenia.ca/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/2020/assets/img/sponsors/invenia-labs.png",
-    "tier": "Silver"
+    "tier": "Silver",
+    "discord": {
+      "channel": "#invenia"
+    }
   },
   {
     "sponsorName": "Zapata Computing",
@@ -37,7 +43,7 @@
   },
   {
     "sponsorName": "Juspay",
-    "blurb": "",
+    "blurb": "We are a team of engineers and designers working passionately to revolutionize digital payments in India with secure, reliable, efficient and cost effective solutions.",
     "moreInfoURL": "https://juspay.in/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
@@ -78,7 +84,10 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/2020/assets/img/sponsors/packt.png",
-    "tier": "Media Partner"
+    "tier": "Media Partner",
+    "discord": {
+      "channel": "#packt"
+    }
   },
   {
     "sponsorName": "Pumas",
