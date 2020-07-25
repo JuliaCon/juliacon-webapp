@@ -6,7 +6,7 @@ export const Center: React.FC = ({ children }) => {
     <div
       className={css`
         display: flex;
-        flex-flow: row;
+        flex-flow: column;
         align-items: center;
         justify-content: center;
       `}

@@ -1,5 +1,7 @@
 import React, { useState, useLayoutEffect } from "react";
 import vegaEmbed from "vega-embed";
+import { css } from "emotion";
+
 import spec from "../../assets/vega/schedule";
 import data from "../../assets/vega/sched_viz_data";
 
@@ -45,11 +47,19 @@ const ScheduleViz = (props) => {
   }, [view, props, vizRef]);
 
   useLayoutEffect(() => {
-    var update = props.wcHover ? props.wcHover : [];
+    const update = props.wcHover ? props.wcHover : [];
     view && view.signal("hoverIDs", update).run();
   });
 
-  return <div ref={vizRef}></div>;
+  return (
+    <div
+      ref={vizRef}
+      className={css`
+        max-width: 100%;
+        overflow: auto;
+      `}
+    />
+  );
 };
 
 export default ScheduleViz;

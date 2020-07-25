@@ -37,6 +37,7 @@ export const MainContentContainer: React.FC = ({ children }) => {
           margin: 0 auto;
           max-width: 1000px;
           padding: 1rem;
+          overflow: hidden;
         `}
       >
         {children}

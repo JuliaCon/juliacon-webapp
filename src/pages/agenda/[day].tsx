@@ -14,6 +14,7 @@ import {
 import { ConferenceDay, isConferenceDay } from "../../const";
 import { useRouter } from "next/router";
 import Error from "next/error";
+import { PageHeading } from "../../components/page";
 
 const Agenda: NextPage = () => {
   const router = useRouter();
@@ -38,6 +39,8 @@ const Agenda: NextPage = () => {
 
   return (
     <Page title={"Agenda"}>
+      <PageHeading>Conference Agenda</PageHeading>
+      <VSpace />
       <Center>
         <ConferenceDayPicker
           day={day}
