@@ -290,7 +290,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Make your Julia code faster and compatible with non-Julia code.",
-  "abstract": "Often, new comers to Julia face one of two issues: (1) write a quick Julia implementation that turns out slower than expected, and (2) find it hard to bridge existing codes they have written previously via another programming language to Julia. In this workshop, I intend to highlight these two aspects specifically. I will show some Julia tools and \"aha-moments\" that will allow your Julia code to be much faster, as well as walk through examples of wrapping Python, C, and C++ codes into Julia."
+  "abstract": "Often, new comers to Julia face one of two issues: (1) write a quick Julia implementation that turns out slower than expected, and (2) find it hard to bridge existing codes in another programming language to Julia. In this workshop, I will show Julia tools and \"aha-moments\" that will allow your Julia code to be much faster, and walk through examples of wrapping Python, and C codes into Julia.\r\n\r\nJoin via Zoom: link in email from Eventbrite. Backup Youtube link: https://youtu.be/S5R8zXJOsUQ"
  },
  {
   "content_locale": "en",
@@ -575,7 +575,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "A deep dive into DataFrames.jl indexing",
-  "abstract": "During this workshop I will explain the design of indexing of the `DataFrame` type provided by the DataFrames.jl package. Next a detailed discussion of the implementation challenges we faced will be given."
+  "abstract": "During this workshop I will explain the design of indexing of the `DataFrame` type provided by the DataFrames.jl package. Next a detailed discussion of the implementation challenges we faced will be given.\r\n\r\nJoin via Zoom: link in email from Eventbrite. Backup Youtube link: https://youtu.be/X7AJf0C4Czw"
  },
  {
   "content_locale": "en",
@@ -1237,7 +1237,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Doing Scientific Machine Learning (SciML) With Julia",
-  "abstract": "Scientific machine learning combines differentiable programming, scientific simulation (differential equations, nonlinear solvers, etc.), and machine learning (deep learning) in order impose physical constraints on machine learning and automatically learn biological models. Given the composibility of Julia, many have noted that it is positioned as the best language for this set of numerical techniques, but how to do actually \"do\" SciML? This workshop gets your hands dirty."
+  "abstract": "Scientific machine learning combines differentiable programming, scientific simulation, and machine learning in order impose physical constraints on machine learning and automatically learn biological models. Given the composibility of Julia, it is positioned as the best language for this set of numerical techniques, but how to do actually \"do\" SciML? This workshop gets your hands dirty.\r\n\r\nJoin via Zoom: link in email from Eventbrite. Backup Youtube link: https://youtu.be/QwVO0Xh2Hbg"
  },
  {
   "content_locale": "en",
@@ -1406,7 +1406,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "MLJ: a machine learning toolbox for Julia",
-  "abstract": "MLJ is a machine learning framework for Julia aiming to provide a convenient way to use and combine a multitude of tools and models available in the Julia ML/Stats ecosystem."
+  "abstract": "MLJ is a machine learning framework for Julia aiming to provide a convenient way to use and combine a multitude of tools and models available in the Julia ML/Stats ecosystem.\r\n\r\nJoin via Zoom: link in email from Eventbrite. Backup Youtube link: https://youtu.be/qSWbCn170HU"
  },
  {
   "content_locale": "en",
@@ -3634,7 +3634,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Wrapping a C++ library using CxxWrap.jl",
-  "abstract": "This workshop will show how to use [CxxWrap.jl](https://github.com/JuliaInterop/CxxWrap.jl) to wrap a C++ library, based on tutorial material that can be followed along during the workshop. We will show everything you need to know about writing and compiling the required C++ wrapping code. \r\n\r\nSetup beforehand is required, see https://github.com/barche/cxxwrap-juliacon2020#docker-dev-container"
+  "abstract": "This workshop will show how to use [CxxWrap.jl](https://github.com/JuliaInterop/CxxWrap.jl) to wrap a C++ library, based on tutorial material that can be followed along during the workshop. We will show everything you need to know about writing and compiling the required C++ wrapping code. \r\n\r\nSetup beforehand is required, see https://github.com/barche/cxxwrap-juliacon2020#docker-dev-container\r\n\r\nJoin via Zoom: link in email from Eventbrite. Backup Youtube link: https://youtu.be/VoXmXtqLhdo"
  },
  {
   "content_locale": "en",
@@ -4094,7 +4094,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Calculating with sets: Interval methods in Julia",
-  "abstract": "We will give a hands-on tutorial introduction to the powerful numerical methods for calculating with sets that become available by using interval arithmetic and associated methods, including for approximating functions, root finding, global optimization and solving ODEs, all with guaranteed error bounds."
+  "abstract": "We will give a hands-on tutorial introduction to the powerful numerical methods for calculating with sets that become available by using interval arithmetic and associated methods, including for approximating functions, root finding, global optimization and solving ODEs, all with guaranteed error bounds.\r\n\r\nJoin via Zoom: link in email from Eventbrite. Backup Youtube link: https://youtu.be/LAuRCy9jUU8"
  },
  {
   "content_locale": "en",
