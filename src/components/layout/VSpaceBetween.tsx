@@ -4,9 +4,11 @@ import { VSpace } from "./VSpace";
 export const VSpaceBetween = ({
   children,
   space,
+  spaceAbove,
 }: {
-  children: React.ReactNode[];
+  children: React.ReactNode;
   space?: string;
+  spaceAbove?: boolean;
 }) => {
   const length = React.Children.count(children);
   const array = React.Children.map(children, (child, idx) => (
@@ -15,5 +17,10 @@ export const VSpaceBetween = ({
       {idx === length - 1 ? null : <VSpace height={space} />}
     </>
   ));
-  return <>{array}</>;
+  return (
+    <>
+      {spaceAbove ? <VSpace height={space} /> : null}
+      {array}
+    </>
+  );
 };
