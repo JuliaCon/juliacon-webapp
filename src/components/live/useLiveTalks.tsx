@@ -1,5 +1,7 @@
 import { useLiveTalksQuery } from "./LiveTalks.generated";
 import { getDayString } from "../../utils/time";
+import { TalkType } from "../../apollo/__generated__/types";
+import { addMinutes } from "date-fns";
 
 export function useLiveTalks(time: Date) {
   const day = getDayString(time);
@@ -13,7 +15,17 @@ export function useLiveTalks(time: Date) {
   if (!talks) return [];
   const result = talks.filter((talk) => {
     const start = new Date(talk.startTime).getTime();
-    const end = new Date(talk.endTime).getTime();
+
+    // Workshops are live, and frequently go a bit over time. Since there is
+    // nothing that comes after, we're just going to artifically extend the
+    // end time by thirty minutes to allow for the workshop to wrap up instead
+    // of chopping it off exactly when the scheduled time ends.
+    let endDate = new Date(talk.endTime);
+    if (talk.type === TalkType.WorkshopHalfDay) {
+      endDate = addMinutes(endDate, 30);
+    }
+    const end = endDate.getTime();
+
     const current = time.getTime();
     return start <= current && current <= end;
   });
