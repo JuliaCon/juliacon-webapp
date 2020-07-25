@@ -1,5 +1,5 @@
 import React from "react";
-import { Sidebar } from "./Sidebar";
+import { SponsorSidebar } from "../sponsors/SponsorSidebar";
 import { css, cx } from "emotion";
 import { mobileOnly } from "../../utils/css";
 export const MainContentContainer: React.FC = ({ children }) => {
@@ -41,7 +41,7 @@ export const MainContentContainer: React.FC = ({ children }) => {
       >
         {children}
       </div>
-      <Sidebar />
+      <SponsorSidebar />
     </div>
   );
 };
