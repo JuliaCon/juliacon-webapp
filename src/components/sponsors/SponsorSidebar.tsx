@@ -4,6 +4,7 @@ import sponsors from "../../../data/sponsors.json";
 import { SponsorSidebarItem } from "./SponsorSidebarItem";
 import { VSpace } from "../layout";
 import { mobileOnly } from "../../utils/css";
+import { Link } from "../core";
 
 export const SponsorSidebar = () => {
   const goldSponsors = sponsors.filter((sponsor) => sponsor.tier === "Gold");
@@ -14,15 +15,18 @@ export const SponsorSidebar = () => {
     (sponsor) => sponsor.tier === "Media Partner"
   );
   return (
-    <div
+    <Link
+      href={"/sponsors"}
       className={cx(
         css`
+          display: block;
           background-color: #f6f6f6;
           align-self: stretch;
           justify-self: stretch;
           padding: 1rem;
           flex: 1;
           max-width: 400px;
+          text-decoration: none;
         `,
         mobileOnly(
           css`
@@ -31,72 +35,74 @@ export const SponsorSidebar = () => {
         )
       )}
     >
-      <div
-        className={css`
-          height: 100%;
-          display: flex;
-          flex-flow: column nowrap;
-          align-items: center;
-        `}
-      >
-        <div>
-          <h2
-            className={css`
-              font-size: 1.5rem;
-              font-weight: bold;
-              text-align: center;
-              border-bottom: 1px solid #ccc;
-              display: block;
-              width: 100%;
-            `}
-          >
-            Gold sponsors
-          </h2>
-          <VSpace />
-          {goldSponsors.map((sponsor, i) => (
-            <SponsorSidebarItem key={i} sponsor={sponsor} />
-          ))}
+      <div>
+        <div
+          className={css`
+            height: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+          `}
+        >
+          <div>
+            <h2
+              className={css`
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-align: center;
+                border-bottom: 1px solid #ccc;
+                display: block;
+                width: 100%;
+              `}
+            >
+              Gold sponsors
+            </h2>
+            <VSpace />
+            {goldSponsors.map((sponsor, i) => (
+              <SponsorSidebarItem key={i} sponsor={sponsor} />
+            ))}
 
-          <VSpace height={"3rem"} />
+            <VSpace height={"3rem"} />
 
-          <h2
-            className={css`
-              font-size: 1.5rem;
-              font-weight: bold;
-              text-align: center;
-              border-bottom: 1px solid #ccc;
+            <h2
+              className={css`
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-align: center;
+                border-bottom: 1px solid #ccc;
 
-              width: 100%;
-            `}
-          >
-            Silver sponsors
-          </h2>
-          <VSpace />
-          {silverSponsors.map((sponsor) => (
-            <SponsorSidebarItem sponsor={sponsor} />
-          ))}
+                width: 100%;
+              `}
+            >
+              Silver sponsors
+            </h2>
+            <VSpace />
+            {silverSponsors.map((sponsor, i) => (
+              <SponsorSidebarItem sponsor={sponsor} key={i} />
+            ))}
 
-          <VSpace height={"3rem"} />
+            <VSpace height={"3rem"} />
 
-          <h2
-            className={css`
-              font-size: 1.5rem;
-              font-weight: bold;
-              text-align: center;
-              border-bottom: 1px solid #ccc;
+            <h2
+              className={css`
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-align: center;
+                border-bottom: 1px solid #ccc;
 
-              display: block;
-              width: 100%;
-            `}
-          >
-            Media partners
-          </h2>
-          <VSpace />
-          {mediaPartners.map((sponsor) => (
-            <SponsorSidebarItem sponsor={sponsor} />
-          ))}
+                display: block;
+                width: 100%;
+              `}
+            >
+              Media partners
+            </h2>
+            <VSpace />
+            {mediaPartners.map((sponsor, i) => (
+              <SponsorSidebarItem sponsor={sponsor} key={i} />
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };

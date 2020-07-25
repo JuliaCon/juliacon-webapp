@@ -52,17 +52,6 @@ export const SponsorSidebarItem = (sponsor: {
       className={imgStyle}
     />
   );
-  const anchorElt = sponsorObj.moreInfoURL ? (
-    <a
-      href={sponsorObj.moreInfoURL}
-      target={"_blank"}
-      rel={"noopener noreferrer"}
-    >
-      {imgElt}
-    </a>
-  ) : (
-    imgElt
-  );
 
-  return <div>{anchorElt}</div>;
+  return imgElt;
 };
