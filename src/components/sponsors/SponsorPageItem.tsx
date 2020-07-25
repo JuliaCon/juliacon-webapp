@@ -86,7 +86,7 @@ export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
             </div>
           </>
         ) : null}
-        {sponsor.discord?.channel ? (
+        {sponsor.discord ? (
           <>
             <VSpace height={"0.5rem"} />
             <div
@@ -94,9 +94,23 @@ export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
                 padding-left: 1rem;
               `}
             >
-              <FontAwesomeIcon icon={faDiscord} />{" "}
-              <span>{sponsor.discord.channel}</span> on{" "}
-              <Link href={"/discord/join"}>Discord</Link>
+              <ExternalLink
+                href={sponsor.discord.url}
+                className={css`
+                  text-decoration: none;
+                `}
+              >
+                <FontAwesomeIcon icon={faDiscord} />{" "}
+                <span
+                  className={css`
+                    text-decoration: underline;
+                  `}
+                >
+                  {sponsor.discord.channel}
+                </span>
+              </ExternalLink>{" "}
+              (make sure to{" "}
+              <Link href={"/discord/join"}>join the Discord server</Link>)
             </div>
           </>
         ) : null}

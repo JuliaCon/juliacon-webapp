@@ -17,7 +17,8 @@
     "logoURL": "https://juliacon.org/2020/assets/img/sponsors/julia.png",
     "tier": "Gold",
     "discord": {
-      "channel": "#juliacomputing"
+      "channel": "#juliacomputing",
+      "url": "https://discord.com/channels/709438882504245358/736564526467645451"
     }
   },
   {
@@ -29,7 +30,8 @@
     "logoURL": "https://juliacon.org/2020/assets/img/sponsors/invenia-labs.png",
     "tier": "Silver",
     "discord": {
-      "channel": "#invenia"
+      "channel": "#invenia",
+      "url": "https://discord.com/channels/709438882504245358/736635771993456743"
     }
   },
   {
@@ -69,6 +71,15 @@
     "tier": "Silver"
   },
   {
+    "sponsorName": "Pumas",
+    "blurb": "Pumas is a Julia-based comprehensive platform for pharmaceutical modeling and simulation",
+    "moreInfoURL": "https://pumas.ai/?utm_source=juliacon",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/pumas.png",
+    "tier": "Silver"
+  },
+  {
     "sponsorName": "Sticker Mule",
     "blurb": "Sticker Mule is the fastest and easiest way to buy custom printed products. Order in 60 seconds and we'll turn your designs and illustrations into custom stickers, magnets, buttons, labels and packaging in days. We offer free online proofs, free worldwide shipping and super fast turnaround.",
     "moreInfoURL": "http://stickermule.com/juliacon20?utm_source=juliacon",
@@ -86,17 +97,9 @@
     "logoURL": "https://juliacon.org/2020/assets/img/sponsors/packt.png",
     "tier": "Media Partner",
     "discord": {
-      "channel": "#packt"
+      "channel": "#packt",
+      "url": "https://discord.com/channels/709438882504245358/736564992811204619"
     }
-  },
-  {
-    "sponsorName": "Pumas",
-    "blurb": "Pumas is a Julia-based comprehensive platform for pharmaceutical modeling and simulation",
-    "moreInfoURL": "https://pumas.ai/?utm_source=juliacon",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/pumas.png",
-    "tier": "Silver"
   },
   {
     "sponsorName": "Vercel",
