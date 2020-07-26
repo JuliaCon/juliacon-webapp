@@ -1,6 +1,6 @@
 import React from "react";
 import { css } from "emotion";
-import { format } from "date-fns";
+import { isFuture } from "date-fns";
 import {
   Tabs,
   TabList,
@@ -10,15 +10,17 @@ import {
   TabPanel,
 } from "@reach/tabs";
 
+import { TalkType } from "../../apollo/__generated__/types";
 import { now } from "../../utils/time";
-import { Center, VSpace } from "../layout";
+import { invariant } from "../../utils/invariant";
+
+import { Link, StyledMarkdown } from "../core";
+import { VSpace } from "../layout";
+import { TalkByline, TalkYouTubeEmbed } from "../talk";
+
 import { useLiveTalks } from "./useLiveTalks";
 import { LiveTalksTalkFragment } from "./LiveTalks.generated";
 import { LiveTalksPlaceholder } from "./LiveTalksPlaceholder";
-import { Link } from "../core";
-import { invariant } from "../../utils/invariant";
-import { TalkType } from "../../apollo/__generated__/types";
-import { TalkYouTubeEmbed } from "../talk";
 
 export const LiveTalksView = () => {
   const [time, setTime] = React.useState(() => now());
@@ -35,7 +37,6 @@ export const LiveTalksView = () => {
 
   return (
     <div>
-      <Center>{format(time, "yyyy-MM-dd HH:mm")}</Center>
       <TalkSelectionTabs talks={talks} />
     </div>
   );
@@ -79,7 +80,7 @@ const TalkSelectionTabs = React.memo(function TalkSelectionTabs({
     [fallbackRoomId, talks]
   );
 
-  const tabs = talks.map((talk) => <Tab key={talk.id}>{talk.title}</Tab>);
+  const tabs = talks.map((talk) => <TalkTab talk={talk} />);
   const panels = talks.map((talk) => (
     <TabPanel key={talk.id}>
       <TalkPanel active={talk.room.id === roomId} talk={talk} />
@@ -101,31 +102,6 @@ const TalkSelectionTabs = React.memo(function TalkSelectionTabs({
           display: flex;
           flex-flow: column nowrap;
           background: none;
-        }
-
-        [data-reach-tab] {
-          display: block;
-          padding: 1em;
-          position: relative;
-          background-color: transparent;
-          transition: background-color 0.3s;
-
-          &:hover {
-            background: rgba(0, 0, 0, 0.05);
-          }
-
-          &[data-selected] {
-            border: none;
-            &:before {
-              content: " ";
-              position: absolute;
-              left: 0;
-              top: 0;
-              width: 4px;
-              height: 100%;
-              background-color: var(--julia-purple);
-            }
-          }
         }
       `}
     >
@@ -154,6 +130,42 @@ function getIndexByRoom(talks: TalksList, roomId: string) {
   return roomIndex;
 }
 
+const TalkTab = ({ talk }: { talk: LiveTalksTalkFragment }) => {
+  return (
+    <Tab
+      key={talk.id}
+      className={css`
+        &[data-reach-tab] {
+          display: block;
+          padding: 1em;
+          position: relative;
+          background-color: transparent;
+          transition: background-color 0.3s;
+
+          &:hover {
+            background: rgba(0, 0, 0, 0.05);
+          }
+
+          &[data-selected] {
+            border: none;
+            &:before {
+              content: " ";
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 0.5rem;
+              height: 100%;
+              background-color: ${talk.room.color || "#cccccc"};
+            }
+          }
+        }
+      `}
+    >
+      <p>{talk.title}</p>
+    </Tab>
+  );
+};
+
 interface TalkPanelProps {
   talk: LiveTalksTalkFragment;
 
@@ -166,40 +178,41 @@ interface TalkPanelProps {
   active: boolean;
 }
 const TalkPanel = ({ active, talk }: TalkPanelProps) => {
-  const zoomReminder = talk.type === TalkType.WorkshopHalfDay && (
-    <>
-      <VSpace />
-      <div
-        className={css`
-          border-left: 4px solid var(--julia-purple);
-          padding-left: 1rem;
-        `}
-      >
-        <p>
-          You can engage with the workshop presenter in real time on Zoom!
-          Please check your email for a list of Zoom links to join the
-          discussion (or{" "}
-          <a href={"https://juliacon.org/2020/tickets/"}>
-            register for JuliaCon
-          </a>{" "}
-          if you haven't).
-        </p>
-      </div>
-    </>
-  );
+  const zoomReminder = talk.type === TalkType.WorkshopHalfDay &&
+    isFuture(new Date(talk.endTime)) && (
+      <>
+        <VSpace />
+        <div
+          className={css`
+            border-left: 4px solid var(--julia-purple);
+            padding-left: 1rem;
+          `}
+        >
+          <p>
+            You can engage with the workshop presenter in real time on Zoom!
+            Please check your email for a list of Zoom links to join the
+            discussion (or{" "}
+            <a href={"https://juliacon.org/2020/tickets/"}>
+              register for JuliaCon
+            </a>{" "}
+            if you haven't).
+          </p>
+        </div>
+      </>
+    );
   return (
     <div
       className={css`
         padding: 1rem;
+        overflow: auto;
       `}
     >
-      <Center>
-        {
-          // We need to not mount the YouTube embed until the tab has actually
-          // been opened (so that the autoseek works as expected)
-          active && <TalkYouTubeEmbed autoplay talk={talk} />
-        }
-      </Center>
+      {
+        // We need to not mount the YouTube embed until the tab has actually
+        // been opened (so that the autoseek works as expected)
+        active && <TalkYouTubeEmbed autoplay talk={talk} />
+      }
+
       <VSpace />
       <h1
         className={css`
@@ -212,7 +225,9 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
         </Link>
       </h1>
       <VSpace />
-      <p>{talk.abstract}</p>
+      <TalkByline talk={talk} />
+      <VSpace />
+      {talk.abstract && <StyledMarkdown source={talk.abstract} />}
       {zoomReminder || null}
     </div>
   );

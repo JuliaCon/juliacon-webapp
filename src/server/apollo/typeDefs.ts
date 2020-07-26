@@ -59,6 +59,7 @@ export const typeDefs = gql`
     id: ID!
     name: String!
     description: String
+    color: String
 
     """
     The talks scheduled to occur in this room.

@@ -11,6 +11,6 @@ fragment PosterListItem on Poster {
   description
   pdflink
   speakers {
-    ...SpeakerInfo
+    ...SpeakerListInline
   }
 }

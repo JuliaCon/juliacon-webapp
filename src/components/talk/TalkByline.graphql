@@ -1,0 +1,12 @@
+fragment TalkByline on Talk {
+  startTime
+  endTime
+  speakers {
+    ...SpeakerListInline
+  }
+  room {
+    id
+    color
+    name
+  }
+}

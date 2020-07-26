@@ -2,14 +2,12 @@ import React from "react";
 import { isPast } from "date-fns";
 import { css } from "emotion";
 
-import { Center, VSpace } from "./layout";
-import { AgendaTalksListItemSpeakers } from "./agenda/AgendaTalksListItem";
 import { StyledMarkdown } from "./core";
-import { TimeRangeFormatted } from "./date";
+import { Center, VSpace } from "./layout";
+import { PageHeading } from "./page";
+import { TalkByline, TalkYouTubeEmbed } from "./talk";
 
 import { useTalkDetailsQuery } from "./TalkDetails.generated";
-
-import { TalkYouTubeEmbed } from "./talk";
 
 export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
   const { data, error, loading } = useTalkDetailsQuery({
@@ -34,24 +32,9 @@ export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
 
   return (
     <div>
-      <h2
-        className={css`
-          font-size: 2rem;
-          font-family: "Patua One", sans-serif;
-        `}
-      >
-        {talk.title}
-      </h2>
-      <div
-        className={css`
-          border-top: 0.5rem solid var(--julia-purple);
-          width: 6rem;
-          margin: 0.5rem 0;
-        `}
-      />
-      <AgendaTalksListItemSpeakers speakers={talk.speakers} />
+      <PageHeading>{talk.title}</PageHeading>
       <VSpace />
-      <TimeRangeFormatted start={talk.startTime} end={talk.endTime} />
+      <TalkByline vertical talk={talk} />
       {video}
       <VSpace />
       {talk.abstract && (

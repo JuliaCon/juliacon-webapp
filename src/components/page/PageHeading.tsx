@@ -14,7 +14,7 @@ export const PageHeading: React.FC = ({ children }) => {
       </h1>
       <div
         className={css`
-          padding: 0.5rem 0;
+          padding: 0.5rem 0 0 0;
         `}
       >
         <div

@@ -15,5 +15,9 @@ fragment LiveTalksTalk on Talk {
   type
   room {
     id
+    color
+    name
   }
+
+  ...TalkByline
 }

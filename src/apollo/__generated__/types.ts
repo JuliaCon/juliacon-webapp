@@ -62,6 +62,7 @@ export type Room = {
   id: Scalars["ID"];
   name: Scalars["String"];
   description?: Maybe<Scalars["String"]>;
+  color?: Maybe<Scalars["String"]>;
   /**
    * The talks scheduled to occur in this room.
    *

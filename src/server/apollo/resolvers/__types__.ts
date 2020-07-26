@@ -74,6 +74,7 @@ export type Room = {
   readonly id: Scalars["ID"];
   readonly name: Scalars["String"];
   readonly description?: Maybe<Scalars["String"]>;
+  readonly color?: Maybe<Scalars["String"]>;
   /**
    * The talks scheduled to occur in this room.
    *
@@ -347,6 +348,7 @@ export type RoomResolvers<
     ParentType,
     ContextType
   >;
+  color?: Resolver<Maybe<ResolversTypes["String"]>, ParentType, ContextType>;
   talks?: Resolver<
     ReadonlyArray<ResolversTypes["Talk"]>,
     ParentType,

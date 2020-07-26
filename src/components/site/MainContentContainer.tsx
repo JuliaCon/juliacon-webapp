@@ -33,11 +33,11 @@ export const MainContentContainer: React.FC = ({ children }) => {
       />
       <div
         className={css`
-          flex: 5 1;
           margin: 0 auto;
+          flex-basis: 1000px;
           max-width: 1000px;
           padding: 1rem;
-          overflow: hidden;
+          overflow: auto;
         `}
       >
         {children}

@@ -1,6 +1,8 @@
 import * as Types from "../../apollo/__generated__/types";
 
+import { TalkBylineFragment } from "../talk/TalkByline.generated";
 import gql from "graphql-tag";
+import { TalkBylineFragmentDoc } from "../talk/TalkByline.generated";
 import * as ApolloReactCommon from "@apollo/client";
 import * as ApolloReactHooks from "@apollo/client";
 
@@ -25,8 +27,11 @@ export type LiveTalksTalkFragment = { readonly __typename?: "Talk" } & Pick<
   | "isLive"
   | "type"
 > & {
-    readonly room: { readonly __typename?: "Room" } & Pick<Types.Room, "id">;
-  };
+    readonly room: { readonly __typename?: "Room" } & Pick<
+      Types.Room,
+      "id" | "color" | "name"
+    >;
+  } & TalkBylineFragment;
 
 export const LiveTalksTalkFragmentDoc = gql`
   fragment LiveTalksTalk on Talk {
@@ -40,8 +45,12 @@ export const LiveTalksTalkFragmentDoc = gql`
     type
     room {
       id
+      color
+      name
     }
+    ...TalkByline
   }
+  ${TalkBylineFragmentDoc}
 `;
 export const LiveTalksDocument = gql`
   query LiveTalks($day: String!) {

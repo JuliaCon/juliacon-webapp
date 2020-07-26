@@ -16,4 +16,16 @@ export const Room: RoomResolvers = {
       day: day as ConferenceDay | null,
     });
   },
+  color: (root) => {
+    switch (root.name) {
+      case "Red Track":
+        return "#cb3c33";
+      case "Green Track":
+        return "#389826";
+      case "Purple Track":
+        return "#9558B2";
+      default:
+        return undefined;
+    }
+  },
 };

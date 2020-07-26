@@ -1,17 +1,13 @@
 import * as React from "react";
 import { css, cx } from "emotion";
-import { interleaveMap } from "../../utils/array";
+
 import { desktopOnly, mobileOnly } from "../../utils/css";
-import { arrayToFragment } from "../../utils/react";
-import { Link } from "../core";
+import { Link, StyledMarkdown } from "../core";
 import { Time, TimeRangeFormatted } from "../date";
 import { VSpace } from "../layout";
-import { StyledMarkdown } from "../core";
+import { SpeakerListInline } from "../speaker";
 
-import {
-  AgendaTalksListItemQuery,
-  useAgendaTalksListItemQuery,
-} from "./AgendaTalksListItem.generated";
+import { useAgendaTalksListItemQuery } from "./AgendaTalksListItem.generated";
 
 export const AgendaTalksListItem = ({
   talkId,
@@ -104,35 +100,11 @@ export const AgendaTalksListItem = ({
           >
             &bull;
           </span>
-          <AgendaTalksListItemSpeakers speakers={speakers} />
+          <SpeakerListInline speakers={speakers} />
         </div>
         <VSpace />
         {abstract && <StyledMarkdown source={abstract} />}
       </div>
     </div>
   );
-};
-
-type TalkData = NonNullable<AgendaTalksListItemQuery["talk"]>;
-type TalkSpeakers = TalkData["speakers"];
-export const AgendaTalksListItemSpeakers = ({
-  speakers,
-}: {
-  speakers: TalkSpeakers;
-}) => {
-  // Interleave the speaker links with commas
-  const speakersRendered = interleaveMap(
-    speakers,
-    (speaker) => (
-      <Link
-        href={"/speaker/[id]"}
-        as={`/speaker/${speaker.id}`}
-        key={speaker.id}
-      >
-        {speaker.name}
-      </Link>
-    ),
-    () => <>, </>
-  );
-  return <p>{arrayToFragment(speakersRendered)}</p>;
 };

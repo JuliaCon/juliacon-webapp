@@ -1,0 +1,4 @@
+fragment SpeakerListInline on Speaker {
+  id
+  name
+}

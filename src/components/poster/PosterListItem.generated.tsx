@@ -1,8 +1,8 @@
 import * as Types from "../../apollo/__generated__/types";
 
-import { SpeakerInfoFragment } from "../speaker/SpeakerInfo.generated";
+import { SpeakerListInlineFragment } from "../speaker/SpeakerListInline.generated";
 import gql from "graphql-tag";
-import { SpeakerInfoFragmentDoc } from "../speaker/SpeakerInfo.generated";
+import { SpeakerListInlineFragmentDoc } from "../speaker/SpeakerListInline.generated";
 import * as ApolloReactCommon from "@apollo/client";
 import * as ApolloReactHooks from "@apollo/client";
 
@@ -21,7 +21,7 @@ export type PosterListItemFragment = { readonly __typename?: "Poster" } & Pick<
   "id" | "title" | "abstract" | "description" | "pdflink"
 > & {
     readonly speakers: ReadonlyArray<
-      { readonly __typename?: "Speaker" } & SpeakerInfoFragment
+      { readonly __typename?: "Speaker" } & SpeakerListInlineFragment
     >;
   };
 
@@ -33,10 +33,10 @@ export const PosterListItemFragmentDoc = gql`
     description
     pdflink
     speakers {
-      ...SpeakerInfo
+      ...SpeakerListInline
     }
   }
-  ${SpeakerInfoFragmentDoc}
+  ${SpeakerListInlineFragmentDoc}
 `;
 export const PosterListItemDocument = gql`
   query PosterListItem($id: ID!) {
