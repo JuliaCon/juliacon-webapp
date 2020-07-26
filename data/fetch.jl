@@ -1,5 +1,6 @@
 using HTTP, JSON
 
+include("postersessions.jl")
 include("viz_data_preprocess.jl")
 
 function order!(d)
@@ -18,8 +19,16 @@ end
 normalize_string(s::String) = s
 normalize_string(d::Dict) = d["en"]
 
-function fetch_pretalx(filter_fn::Function, resource; out_file=resource)
-  resp = HTTP.get("https://pretalx.com/api/events/juliacon2020/$(resource)?limit=500")
+function fetch_pretalx(filter_fn::Function, resource; out_file=resource, token=nothing)
+  headers = if token !== nothing
+    ["Authorization" => "Token $token"]
+  else
+    []
+  end
+  resp = HTTP.get(
+    "https://pretalx.com/api/events/juliacon2020/$(resource)?limit=500",
+    headers,
+  )
   data = JSON.parse(String(resp.body))
   if (data["next"] !== nothing || data["previous"] !== nothing)
     error("Failed to fetch all $(resource)!")
@@ -46,15 +55,16 @@ end
 viz_data_preprocess(talks)
 
 # For now, posters aren't officially published, so we're we can't access them
-# from the Pretalx public API. When they are ultimately published, un-comment
-# these lines.
-# ALSO TODO: How are we going to match up posters with pdfs since that process
-# is handled outside of Pretalx?
-@warn "Skipping updating posters..."
-# fetch_pretalx("talks"; out_file="posters") do talk
-#   talk_type = normalize_string(talk["submission_type"])
-#   return talk_type === "Poster"
-# end
+# from the Pretalx public API.
+token = get(ENV, "PRETALX_TOKEN", nothing)
+if token === nothing
+    @warn "Skipping updating posters..."
+else
+  fetch_pretalx("submissions"; out_file="posters", token=token) do talk
+    talk_type = normalize_string(talk["submission_type"])
+    return talk_type === "Poster" && talk["state"] == "confirmed"
+  end
+end
 
 using CSV
 
