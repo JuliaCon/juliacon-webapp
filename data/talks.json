@@ -1308,6 +1308,39 @@
  {
   "content_locale": "en",
   "is_featured": false,
+  "code": "CRYCPR",
+  "track": null,
+  "state": "confirmed",
+  "duration": 45,
+  "speakers": [
+   {
+    "avatar": null,
+    "name": "JuliaCon Committee",
+    "code": "M9YRTS",
+    "biography": null
+   }
+  ],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2020-07-27T17:30:00Z",
+   "room": {
+    "en": "BoF"
+   },
+   "end": "2020-07-27T18:15:00Z"
+  },
+  "submission_type": {
+   "en": "Birds of Feather"
+  },
+  "resources": [],
+  "do_not_record": true,
+  "title": "Gather Towns Social",
+  "abstract": "With JuliaCon being remote we've created a gather.town room that will be live throughout the event so that people can mingle and meet. \r\n\r\nAny time people want to use it, just go to  https://gather.town/rBrwIUqeDkb5JTxu/juliacon2020\r\n\r\nAnd there's now a scheduled social gathering in there on Monday after the workshops (the event's been added to pretalx).\r\n\r\nThe team at gather.town are kindly supporting higher capacity for us, and asked that we give them feedback in"
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
   "code": "CUMDLK",
   "track": null,
   "state": "confirmed",
