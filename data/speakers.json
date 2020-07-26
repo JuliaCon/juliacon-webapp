@@ -917,7 +917,8 @@
   "name": "JuliaCon Committee",
   "submissions": [
    "9BNNMD",
-   "LRRAGD"
+   "LRRAGD",
+   "CRYCPR"
   ],
   "code": "M9YRTS",
   "biography": null
@@ -1591,15 +1592,6 @@
   ],
   "code": "YYDPCZ",
   "biography": "Katharine Hyatt is a postdoc, working in the Center for Computational Quantum Physics at the Flatiron Institute, a division of the Simons Foundation. Her research focuses on developing new numerical methods to understand 2D correlated electronic systems, and finding interesting applications in condensed matter physics for these methods."
- },
- {
-  "avatar": null,
-  "name": "Kusti Skytén",
-  "submissions": [
-   "TTU9U8"
-  ],
-  "code": "Z7JSAN",
-  "biography": "A PhD student at the Biostatistics department at the university of Oslo."
  },
  {
   "avatar": null,
