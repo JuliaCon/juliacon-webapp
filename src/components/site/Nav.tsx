@@ -16,6 +16,8 @@ export const Nav = () => {
       <NavLink href={"https://juliacon.org/2020/tickets/"} external>
         Register
       </NavLink>
+      <NavLink href={"/"}>About</NavLink>
+      <NavLink href={"/discord/join"}>Join Discussion</NavLink>
       <NavLink href={"/agenda"}>Agenda</NavLink>
       <NavLink href={"/live"}>Live Schedule</NavLink>
       <NavLink href={"/posters"}>Posters</NavLink>
