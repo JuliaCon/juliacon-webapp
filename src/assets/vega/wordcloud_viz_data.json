@@ -509,7 +509,7 @@
  },
  {
   "text": "package",
-  "count": 254,
+  "count": 257,
   "talks": [
    1,
    3,
@@ -841,7 +841,7 @@
  },
  {
   "text": "algebra",
-  "count": 12,
+  "count": 15,
   "talks": [
    3,
    29,
@@ -1973,8 +1973,9 @@
  },
  {
   "text": "book",
-  "count": 4,
+  "count": 5,
   "talks": [
+   99,
    131
   ]
  },
@@ -1989,12 +1990,13 @@
  },
  {
   "text": "kinds",
-  "count": 6,
+  "count": 7,
   "talks": [
    25,
    29,
    51,
    84,
+   99,
    116,
    140
   ]
@@ -2291,6 +2293,15 @@
   "talks": [
    67,
    106
+  ]
+ },
+ {
+  "text": "chris",
+  "count": 3,
+  "talks": [
+   61,
+   87,
+   99
   ]
  },
  {
@@ -3844,7 +3855,7 @@
  },
  {
   "text": "lattice",
-  "count": 12,
+  "count": 13,
   "talks": [
    14,
    25,
@@ -7209,7 +7220,7 @@
  },
  {
   "text": "composable",
-  "count": 8,
+  "count": 9,
   "talks": [
    19,
    44,
@@ -7661,6 +7672,14 @@
    109,
    112,
    122
+  ]
+ },
+ {
+  "text": "incomplete",
+  "count": 3,
+  "talks": [
+   29,
+   99
   ]
  },
  {
@@ -9694,7 +9713,7 @@
  },
  {
   "text": "written",
-  "count": 19,
+  "count": 20,
   "talks": [
    4,
    25,
@@ -9773,13 +9792,14 @@
  },
  {
   "text": "relies",
-  "count": 9,
+  "count": 10,
   "talks": [
    9,
    18,
    25,
    32,
    91,
+   99,
    136
   ]
  },
@@ -13282,6 +13302,15 @@
   ]
  },
  {
+  "text": "answer",
+  "count": 3,
+  "talks": [
+   15,
+   99,
+   127
+  ]
+ },
+ {
   "text": "bring",
   "count": 4,
   "talks": [
@@ -14658,6 +14687,14 @@
   "count": 27,
   "talks": [
    128
+  ]
+ },
+ {
+  "text": "package written",
+  "count": 12,
+  "talks": [
+   99,
+   130
   ]
  },
  {
@@ -16811,13 +16848,14 @@
  },
  {
   "text": "question",
-  "count": 8,
+  "count": 10,
   "talks": [
    4,
    15,
    95,
    96,
    97,
+   99,
    101,
    111,
    127
@@ -16947,7 +16985,7 @@
  },
  {
   "text": "computer",
-  "count": 15,
+  "count": 18,
   "talks": [
    1,
    20,
@@ -17308,7 +17346,7 @@
  },
  {
   "text": "computation",
-  "count": 51,
+  "count": 52,
   "talks": [
    17,
    28,
@@ -17791,7 +17829,7 @@
  },
  {
   "text": "theory",
-  "count": 20,
+  "count": 23,
   "talks": [
    19,
    24,
@@ -19205,7 +19243,7 @@
  },
  {
   "text": "computer algebra",
-  "count": 12,
+  "count": 24,
   "talks": [
    99
   ]
@@ -19473,7 +19511,7 @@
  },
  {
   "text": "enable",
-  "count": 18,
+  "count": 19,
   "talks": [
    42,
    56,
@@ -19484,6 +19522,7 @@
    81,
    85,
    91,
+   99,
    116,
    130,
    143,
@@ -20035,11 +20074,10 @@
  },
  {
   "text": "missing",
-  "count": 6,
+  "count": 5,
   "talks": [
    29,
    93,
-   99,
    114,
    147
   ]
@@ -20588,6 +20626,15 @@
    75,
    105,
    117
+  ]
+ },
+ {
+  "text": "answer question",
+  "count": 12,
+  "talks": [
+   15,
+   99,
+   127
   ]
  },
  {
