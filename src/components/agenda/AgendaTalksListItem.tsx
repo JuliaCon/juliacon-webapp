@@ -80,7 +80,7 @@ export const AgendaTalksListItem = ({
             {title}
           </h4>
         </Link>
-        <VSpace height={"0.25em"} />
+        <VSpace height={"0.5em"} />
         <TalkByline talk={talk} />
         <VSpace />
         {abstract && <StyledMarkdown source={abstract} />}
