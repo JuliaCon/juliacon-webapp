@@ -1,11 +1,12 @@
 using TextAnalysis
+using Dates
 
 # data wrangling and nlp for viz
 function viz_data_preprocess(data)
     talks = []
     index = 1
     for talk in data
-        if talk["duration"] < 100
+        if Date(talk["slot"]["start"][1:10]) >= Date("2020-07-29")
             push!(talks, parse_talk(talk, index))
             index += 1
         end
