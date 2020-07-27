@@ -239,7 +239,7 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
       {
         // We need to not mount the YouTube embed until the tab has actually
         // been opened (so that the autoseek works as expected)
-        active && <TalkYouTubeEmbed autoplay talk={talk} />
+        active && talk.videoCode && <TalkYouTubeEmbed autoplay talk={talk} />
       }
 
       <VSpace />
