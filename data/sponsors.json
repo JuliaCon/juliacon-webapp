@@ -109,5 +109,14 @@
     "chatChannelName": "",
     "logoURL": "/vercel.svg",
     "tier": "Media Partner"
+  },
+  {
+    "sponsorName": "NumFOCUS",
+    "blurb": "The mission of NumFOCUS is to promote open practices in research, data, and scientific computing by serving as a fiscal sponsor for open source projects and organizing community-driven educational programs.",
+    "moreInfoURL": "https://numfocus.org/?utm_source=juliacon",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/numfocus.png",
+    "tier": "Fiscal Sponsor"
   }
 ]

@@ -6,6 +6,7 @@ export enum SponsorTier {
   Gold = "Gold",
   Silver = "Silver",
   MediaPartner = "Media Partner",
+  FiscalSponsor = "Fiscal Sponsor",
 }
 
 export function sponsorTier(sponsor: SponsorData) {
@@ -16,6 +17,8 @@ export function sponsorTier(sponsor: SponsorData) {
       return SponsorTier.Silver;
     case "Media Partner":
       return SponsorTier.MediaPartner;
+    case "Fiscal Sponsor":
+      return SponsorTier.FiscalSponsor;
     default:
       throw new Error(`Unknown sponsor tier: ${sponsor.tier}`);
   }
@@ -33,5 +36,7 @@ export function sponsorTierColor(tier: SponsorTier) {
       return "silver";
     case SponsorTier.MediaPartner:
       return "#389826";
+    case SponsorTier.FiscalSponsor:
+      return "#4063d8";
   }
 }
