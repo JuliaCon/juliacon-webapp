@@ -7,8 +7,13 @@ import { MainContentContainer } from "./MainContentContainer";
 
 interface PageProps {
   title?: string;
+  hideSponsorSidebar?: boolean;
 }
-export const Page: React.FC<PageProps> = ({ children, title }) => {
+export const Page: React.FC<PageProps> = ({
+  children,
+  title,
+  hideSponsorSidebar,
+}) => {
   return (
     <div
       className={css`
@@ -21,7 +26,9 @@ export const Page: React.FC<PageProps> = ({ children, title }) => {
         <title>{title && `${title} | `}JuliaCon 2020</title>
       </Head>
       <Header />
-      <MainContentContainer>{children}</MainContentContainer>
+      <MainContentContainer hideSponsorSidebar={hideSponsorSidebar}>
+        {children}
+      </MainContentContainer>
     </div>
   );
 };

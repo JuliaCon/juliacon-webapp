@@ -12,7 +12,7 @@ const VizPage: NextPage = () => {
   const [wcHoverIDs, setWcHoverIDs] = useState([]);
 
   return (
-    <Page title={"Explore Talks"}>
+    <Page title={"Explore Talks"} hideSponsorSidebar>
       <PageHeading>Explore Talks</PageHeading>
       <VSpace />
       <Center>

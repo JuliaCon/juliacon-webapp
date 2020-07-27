@@ -15,7 +15,7 @@ import { css } from "emotion";
 
 const SponsorsPage: NextPage = () => {
   return (
-    <Page title={"Sponsors"}>
+    <Page title={"Sponsors"} hideSponsorSidebar>
       <PageHeading>Sponsors</PageHeading>
       <VSpace />
       <SponsorsInner />

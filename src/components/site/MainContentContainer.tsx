@@ -2,7 +2,14 @@ import React from "react";
 import { SponsorSidebar } from "../sponsors/SponsorSidebar";
 import { css, cx } from "emotion";
 import { mobileOnly } from "../../utils/css";
-export const MainContentContainer: React.FC = ({ children }) => {
+
+interface MainContentContainerProps {
+  hideSponsorSidebar?: boolean;
+}
+export const MainContentContainer: React.FC<MainContentContainerProps> = ({
+  children,
+  hideSponsorSidebar,
+}) => {
   return (
     <div
       className={cx(
@@ -42,7 +49,15 @@ export const MainContentContainer: React.FC = ({ children }) => {
       >
         {children}
       </div>
-      <SponsorSidebar />
+      {hideSponsorSidebar ? (
+        <div
+          className={css`
+            flex: 1;
+          `}
+        />
+      ) : (
+        <SponsorSidebar />
+      )}
     </div>
   );
 };
