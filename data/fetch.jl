@@ -1,6 +1,5 @@
 using HTTP, JSON
 
-include("postersessions.jl")
 include("viz_data_preprocess.jl")
 
 function order!(d)
