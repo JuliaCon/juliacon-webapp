@@ -5,6 +5,7 @@ import { SponsorSidebarItem } from "./SponsorSidebarItem";
 import { VSpace } from "../layout";
 import { mobileOnly } from "../../utils/css";
 import { Link } from "../core";
+import { getSponsorsByTier, SponsorTier } from "./utils";
 
 export const SponsorSidebar = () => {
   const goldSponsors = sponsors.filter((sponsor) => sponsor.tier === "Gold");
@@ -101,6 +102,26 @@ export const SponsorSidebar = () => {
               <SponsorSidebarItem sponsor={sponsor} key={i} />
             ))}
           </div>
+
+          <VSpace height={"3rem"} />
+
+          <h2
+            className={css`
+              font-size: 1.5rem;
+              font-weight: bold;
+              text-align: center;
+              border-bottom: 1px solid #ccc;
+
+              display: block;
+              width: 100%;
+            `}
+          >
+            Fiscal Sponsor
+          </h2>
+          <VSpace />
+          {getSponsorsByTier(SponsorTier.FiscalSponsor).map((sponsor, i) => (
+            <SponsorSidebarItem sponsor={sponsor} key={i} />
+          ))}
         </div>
       </div>
     </Link>
