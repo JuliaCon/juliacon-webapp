@@ -3,11 +3,11 @@ import { css, cx } from "emotion";
 
 import { desktopOnly, mobileOnly } from "../../utils/css";
 import { Link, StyledMarkdown } from "../core";
-import { Time, TimeRangeFormatted } from "../date";
+import { Time } from "../date";
 import { VSpace } from "../layout";
-import { SpeakerListInline } from "../speaker";
 
 import { useAgendaTalksListItemQuery } from "./AgendaTalksListItem.generated";
+import { TalkByline } from "../talk";
 
 export const AgendaTalksListItem = ({
   talkId,
@@ -24,7 +24,8 @@ export const AgendaTalksListItem = ({
   if (loading) return <p>Loading...</p>;
   if (!data?.talk) return <p>Couldn't load this talk...</p>;
 
-  const { title, abstract, startTime, endTime, speakers } = data.talk;
+  const { talk } = data;
+  const { title, abstract, startTime } = talk;
 
   const commonStyle =
     !noTopBorder &&
@@ -80,28 +81,7 @@ export const AgendaTalksListItem = ({
           </h4>
         </Link>
         <VSpace height={"0.25em"} />
-        <div
-          className={css`
-            display: flex;
-            flex-flow: row wrap;
-            align-items: center;
-            font-size: 0.85em;
-            color: #333333;
-          `}
-        >
-          <p>
-            <TimeRangeFormatted start={startTime} end={endTime} />
-          </p>
-          <span
-            className={css`
-              margin-left: 0.5em;
-              margin-right: 0.5em;
-            `}
-          >
-            &bull;
-          </span>
-          <SpeakerListInline speakers={speakers} />
-        </div>
+        <TalkByline talk={talk} />
         <VSpace />
         {abstract && <StyledMarkdown source={abstract} />}
       </div>

@@ -11,11 +11,9 @@ fragment AgendaTalksListItem on Talk {
   description
   type
   startTime
-  endTime
   room {
     name
   }
-  speakers {
-    ...SpeakerInfo
-  }
+
+  ...TalkByline
 }
