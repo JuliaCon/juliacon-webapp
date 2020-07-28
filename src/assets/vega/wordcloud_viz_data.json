@@ -699,6 +699,13 @@
   ]
  },
  {
+  "text": "discord",
+  "count": 3,
+  "talks": [
+   49
+  ]
+ },
+ {
   "text": "linear",
   "count": 34,
   "talks": [
@@ -13702,6 +13709,15 @@
   ]
  },
  {
+  "text": "join",
+  "count": 4,
+  "talks": [
+   34,
+   49,
+   67
+  ]
+ },
+ {
   "text": "smoothly",
   "count": 3,
   "talks": [
@@ -14532,6 +14548,14 @@
   ]
  },
  {
+  "text": "registration",
+  "count": 3,
+  "talks": [
+   49,
+   108
+  ]
+ },
+ {
   "text": "smartphone",
   "count": 5,
   "talks": [
@@ -14895,8 +14919,9 @@
  },
  {
   "text": "link",
-  "count": 3,
+  "count": 4,
   "talks": [
+   49,
    51,
    58,
    112
@@ -18422,10 +18447,11 @@
  },
  {
   "text": "bof",
-  "count": 8,
+  "count": 9,
   "talks": [
    14,
    20,
+   49,
    81,
    114,
    124
@@ -19765,9 +19791,10 @@
  },
  {
   "text": "following",
-  "count": 6,
+  "count": 7,
   "talks": [
    26,
+   49,
    59,
    93,
    128,
@@ -20241,9 +20268,10 @@
  },
  {
   "text": "conference",
-  "count": 4,
+  "count": 5,
   "talks": [
    28,
+   49,
    93,
    125,
    133
