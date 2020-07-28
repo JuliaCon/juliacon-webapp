@@ -4361,6 +4361,39 @@
  {
   "content_locale": "en",
   "is_featured": false,
+  "code": "SA8M93",
+  "track": null,
+  "state": "confirmed",
+  "duration": 45,
+  "speakers": [
+   {
+    "avatar": null,
+    "name": "JuliaCon Committee",
+    "code": "M9YRTS",
+    "biography": null
+   }
+  ],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2020-07-28T17:30:00Z",
+   "room": {
+    "en": "BoF"
+   },
+   "end": "2020-07-28T18:15:00Z"
+  },
+  "submission_type": {
+   "en": "Birds of Feather"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Gather Towns Social",
+  "abstract": "After the success of the Monday session, a further scheduled social on Gather Town will happen again on Tuesday after the workshops, at 17:30 UTC. \r\n\r\nPlease join then (or indeed at any time) using https://gather.town/rBrwIUqeDkb5JTxu/juliacon2020\r\n\r\nFor today's event, there will be a dedicated space for MLJ, the Julia Machine Learning toolkit, where the the development team will be around to chat and answer questions."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
   "code": "SD8PSC",
   "track": null,
   "state": "confirmed",
