@@ -6,7 +6,7 @@ import { VSpace } from "../layout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComments } from "@fortawesome/free-solid-svg-icons/faComments";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons/faDiscord";
-import { Link } from "../core";
+import { Link, StyledMarkdown } from "../core";
 
 export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
   const tier = sponsorTier(sponsor);
@@ -56,7 +56,7 @@ export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
         {sponsor.blurb ? (
           <>
             <VSpace height={"0.5rem"} />
-            <p>{sponsor.blurb}</p>
+            <StyledMarkdown source={sponsor.blurb} />
           </>
         ) : null}
         {sponsor.chatChannelName ? (
