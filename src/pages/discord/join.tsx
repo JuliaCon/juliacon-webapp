@@ -45,7 +45,10 @@ const DiscordJoinPage: NextPage = () => {
       <p>
         Discord is where all the discussion around JuliaCon will take place.
         You'll need to make a Discord account if you don't have one (the process
-        below will prompt you to login to or register for Discord).
+        below will prompt you to login to or register for Discord). Your Discord
+        nickname will be set to the name you used when registering for JuliaCon
+        in order to promote an air of authenticity and professionalism among
+        attendees.
       </p>
       <VSpace />
       <p>
