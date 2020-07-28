@@ -27,6 +27,8 @@ jobs:
           cd data
           julia --project -e 'import Pkg; Pkg.instantiate(); include("fetch.jl");'
           cd ..
+        env:
+          PRETALX_TOKEN: ${{ secrets.PRETALX_TOKEN }}
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
