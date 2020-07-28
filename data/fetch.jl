@@ -1,3 +1,6 @@
+using Pkg
+Pkg.activate(@__DIR__)
+
 using HTTP, JSON
 
 include("viz_data_preprocess.jl")
@@ -34,9 +37,11 @@ function fetch_pretalx(filter_fn::Function, resource; out_file=resource, token=n
   end
   results = order!(filter!(filter_fn, data["results"]))
   if out_file !== nothing
-      open("$(out_file).json", "w") do io
-        JSON.print(io, results, 1)
-      end
+    json_string = json(results, 1)
+    json_string = replace(json_string, "\u2028" => "")
+    open("$(out_file).json", "w") do io
+      write(io, json_string)
+    end
   end
   @info "Got $(length(results)) $(out_file)"
   return results
