@@ -651,6 +651,32 @@
  {
   "content_locale": "en",
   "is_featured": false,
+  "code": "8WYB3B",
+  "track": null,
+  "state": "confirmed",
+  "duration": 45,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2020-07-31T19:30:00Z",
+   "room": {
+    "en": "BoF"
+   },
+   "end": "2020-07-31T20:15:00Z"
+  },
+  "submission_type": {
+   "en": "Birds of Feather"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Gather Town Social",
+  "abstract": "A scheduled social on Gather Town will happen after the last talk finishes\r\nPlease join then (or indeed at any time) using https://gather.town/rBrwIUqeDkb5JTxu/juliacon2020"
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
   "code": "9A8DCP",
   "track": null,
   "state": "confirmed",
@@ -1312,14 +1338,7 @@
   "track": null,
   "state": "confirmed",
   "duration": 45,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "JuliaCon Committee",
-    "code": "M9YRTS",
-    "biography": null
-   }
-  ],
+  "speakers": [],
   "description": "",
   "image": null,
   "slot_count": 1,
@@ -1335,7 +1354,7 @@
   },
   "resources": [],
   "do_not_record": true,
-  "title": "Gather Towns Social",
+  "title": "Gather Town Social",
   "abstract": "With JuliaCon being remote we've created a gather.town room that will be live throughout the event so that people can mingle and meet. \r\n\r\nAny time people want to use it, just go to  https://gather.town/rBrwIUqeDkb5JTxu/juliacon2020\r\n\r\nAnd there's now a scheduled social gathering in there on Monday after the workshops (the event's been added to pretalx).\r\n\r\nThe team at gather.town are kindly supporting higher capacity for us, and asked that we give them feedback in"
  },
  {
@@ -1606,11 +1625,11 @@
   "image": "https://pretalx.com/media/juliacon2020/submissions/DWCJUK/juno_lightbg_mu8YED9.png",
   "slot_count": 1,
   "slot": {
-   "start": "2020-07-29T15:20:00Z",
+   "start": "2020-07-29T15:15:00Z",
    "room": {
     "en": "Red Track"
    },
-   "end": "2020-07-29T15:50:00Z"
+   "end": "2020-07-29T15:45:00Z"
   },
   "submission_type": "Talk",
   "resources": [],
@@ -2428,11 +2447,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2020-07-29T15:05:00Z",
+   "start": "2020-07-29T15:45:00Z",
    "room": {
     "en": "Red Track"
    },
-   "end": "2020-07-29T15:10:00Z"
+   "end": "2020-07-29T15:50:00Z"
   },
   "submission_type": {
    "en": "Sponsor Talk"
@@ -2957,6 +2976,32 @@
   "do_not_record": false,
   "title": "Transitioning Code From Closed To Open",
   "abstract": "Within private companies/institutions, it can be difficult to implement effective internal practices that enable internal code to smoothly transition into high quality, open-source contributions. In this BoF, we'll swap techniques for maximizing open-source impact in the Julia ecosystem while minimizing refactor time/effort and code churn."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "LCDHAG",
+  "track": null,
+  "state": "confirmed",
+  "duration": 45,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2020-07-30T19:30:00Z",
+   "room": {
+    "en": "BoF"
+   },
+   "end": "2020-07-30T20:15:00Z"
+  },
+  "submission_type": {
+   "en": "Birds of Feather"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Gather Town Social",
+  "abstract": "A scheduled social on Gather Town will happen after the last talk finishes\r\nPlease join then (or indeed at any time) using https://gather.town/rBrwIUqeDkb5JTxu/juliacon2020"
  },
  {
   "content_locale": "en",
@@ -4165,6 +4210,32 @@
  {
   "content_locale": "en",
   "is_featured": false,
+  "code": "RGXHMF",
+  "track": null,
+  "state": "confirmed",
+  "duration": 45,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2020-07-29T19:30:00Z",
+   "room": {
+    "en": "BoF"
+   },
+   "end": "2020-07-29T20:15:00Z"
+  },
+  "submission_type": {
+   "en": "Birds of Feather"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Gather Town Social",
+  "abstract": "A scheduled social on Gather Town will happen after the last talk finishes\r\nPlease join then (or indeed at any time) using https://gather.town/rBrwIUqeDkb5JTxu/juliacon2020"
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
   "code": "RMGYYX",
   "track": null,
   "state": "confirmed",
@@ -4223,39 +4294,6 @@
   "do_not_record": false,
   "title": "On the State of Flux",
   "abstract": "Machine Learning is more than large complex models, it is moving towards integrating existing domain knowledge to better inform learning processes. See how Flux expresses that problem in the modern machine learning paradigm."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "RVZNV3",
-  "track": null,
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/nick-grey-2018_hPdYlm0.jpg",
-    "name": "Nick Robinson",
-    "code": "QBN9K9",
-    "biography": "Research Engineer at Invenia Labs. I have a background in machine learning, and work on a research team using Julia in production."
-   }
-  ],
-  "description": "We will give an overview [NamedDims.jl](https://github.com/invenia/NamedDims.jl), which allows you to name array dimensions and use intuitive syntax when working with arrays.  For example, letting you fetch the first timestamp with `data[time=1]`, or sum data over time with `sum(data, dims=:time)`.\r\n\r\nWe will focus on showing example where NamedDims helps solve practical problems that appear often in scientific programming.\r\n\r\nFor example, NamedDims.jl makes array operation safer by requiring dimensions to be compatible, so you don’t accidentally e.g. add `time` values to `places` values, and gives an informative error message if you try to.\r\n\r\nAnd by being a zero-cost abstraction, package developers can use NamedDims to make their code safer internally, without requiring users adopt NamedDims. For example,  taking any `AbstractArray` as input and giving the dimensions names internally with no performance hit. \r\n\r\nAnd if users do pass in `NamedDimsArray`, package developers can choose to use that information. For example this opens up the possibility of knowing which dimensions of the data stores “observations”, and allows dealing with data in any orientation.\r\n\r\nNamedDims.jl composes well with other packages, so you can use can pass `NamedDimsArray`s to your favourite machine learning package, have it train on a GPU using your favourite autodiff package, and expect everything to work the same as a plain, unnamed array. And if you pass `NamedDimsArray`s through FFTs you may even get cute `∿`s added to the names of the result!",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2020-07-31T17:10:00Z",
-   "room": {
-    "en": "Red Track"
-   },
-   "end": "2020-07-31T17:20:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "NamedDims.jl: Work with array dimensions by name at no cost",
-  "abstract": "This talk will show how you can work with dimensions by name, to make scientific programming both safer and more readable, with no performance cost."
  },
  {
   "content_locale": "en",
@@ -4361,18 +4399,37 @@
  {
   "content_locale": "en",
   "is_featured": false,
+  "code": "S9TDNB",
+  "track": null,
+  "state": "confirmed",
+  "duration": 5,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2020-07-31T17:10:00Z",
+   "room": {
+    "en": "Red Track"
+   },
+   "end": "2020-07-31T17:15:00Z"
+  },
+  "submission_type": {
+   "en": "Sponsor Talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Invenia",
+  "abstract": "A message from our sponsor: https://www.invenia.ca/"
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
   "code": "SA8M93",
   "track": null,
   "state": "confirmed",
   "duration": 45,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "JuliaCon Committee",
-    "code": "M9YRTS",
-    "biography": null
-   }
-  ],
+  "speakers": [],
   "description": "",
   "image": null,
   "slot_count": 1,
@@ -4423,6 +4480,32 @@
   "do_not_record": false,
   "title": "Terminal User Interfaces in Julia",
   "abstract": "Have you ever wondered how htop, vim or other terminal applications work? Do you want to add color, or formatting to the terminal output from your Julia application? Are you interested in building interactive terminal user interfaces for your users? Well, this is the talk for you! \r\n\r\nWe will discuss how terminal emulators work, features they make available and how you can leverage these features to create the best experience for you and your users in the terminal for a Julia application."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "T7VKHM",
+  "track": null,
+  "state": "confirmed",
+  "duration": 5,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2020-07-31T17:15:00Z",
+   "room": {
+    "en": "Red Track"
+   },
+   "end": "2020-07-31T17:20:00Z"
+  },
+  "submission_type": {
+   "en": "Sponsor Talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Pumas",
+  "abstract": "A message from our sponsor. https://pumas.ai/"
  },
  {
   "content_locale": "en",
@@ -4579,11 +4662,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2020-07-29T15:10:00Z",
+   "start": "2020-07-29T15:05:00Z",
    "room": {
     "en": "Red Track"
    },
-   "end": "2020-07-29T15:20:00Z"
+   "end": "2020-07-29T15:15:00Z"
   },
   "submission_type": {
    "en": "Lightning Talk"

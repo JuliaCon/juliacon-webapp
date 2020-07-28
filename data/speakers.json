@@ -917,9 +917,7 @@
   "name": "JuliaCon Committee",
   "submissions": [
    "9BNNMD",
-   "LRRAGD",
-   "CRYCPR",
-   "SA8M93"
+   "LRRAGD"
   ],
   "code": "M9YRTS",
   "biography": null
@@ -1097,15 +1095,6 @@
   ],
   "code": "QAS7GV",
   "biography": "Undergraduate student majoring in Computer Science and Engineering at Indian Institute of Technology Kharagpur."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/nick-grey-2018_hPdYlm0.jpg",
-  "name": "Nick Robinson",
-  "submissions": [
-   "RVZNV3"
-  ],
-  "code": "QBN9K9",
-  "biography": "Research Engineer at Invenia Labs. I have a background in machine learning, and work on a research team using Julia in production."
  },
  {
   "avatar": null,
