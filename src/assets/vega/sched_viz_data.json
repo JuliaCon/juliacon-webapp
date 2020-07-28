@@ -731,7 +731,7 @@
   "duration": 30,
   "location": "Purple Track",
   "id": "JEWE93",
-  "title": "Abstraction without Regret: A Cloud Knowledge Graph DB in Julia",
+  "title": "A Cloud Relational Database System for Knowledge Graphs in Julia",
   "url": "/talk/JEWE93",
   "index": 67,
   "speaker": "Molham Aref"
