@@ -2490,7 +2490,7 @@
     "biography": "Molham Aref is the Chief Executive Officer of RelationalAI. He has more than 28 years of experience in leading organisations that develop and implement high value machine learning and artificial intelligence solutions across various industries. Prior to RelationalAI he was CEO of LogicBlox and Predictix (now Infor), Optimi (now Ericsson), and co-founder of Brickstream (now FLIR). Molham held senior leadership positions at HNC Software (now FICO) and Retek (now Oracle)."
    }
   ],
-  "description": "",
+  "description": "After a brief overview of knowledge graphs and the relational paradigm we describe the foundational design principles of our system:\r\n- Leverage: how we use cloud computers and modern compilers to reduce engineering effort\r\n- Brains and brawn: how we improve the asymptotic performance of our system with new algorithms that exploit problem structure \r\n- Aggressive simplification and consolidation: how we build on 5 core capabilities that compose elegantly in ways that cover a broad range of use cases.\r\n\r\nWe then review these 5 core capabilities:\r\n- Optimal joins\r\n- Semantic optimizer\r\n- Query compiler\r\n- Incremental maintenance\r\n- Immutable structures",
   "image": null,
   "slot_count": 1,
   "slot": {
