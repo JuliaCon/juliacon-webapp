@@ -1,5 +1,4 @@
 import { addHours } from "date-fns";
-import { format } from "date-fns-tz";
 
 // This has the unfortunate side effect of causing the server rendered content
 // and the browser rendered content to disagree since we can't access
@@ -23,5 +22,5 @@ export function now() {
 }
 
 export function getDayString(date: Date) {
-  return format(date, `yyyy-MM-dd`, { timeZone: "+00:00" });
+  return date.toISOString().substr(0, 10);
 }
