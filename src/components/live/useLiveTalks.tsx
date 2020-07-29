@@ -17,7 +17,7 @@ export function useLiveTalks(time: Date) {
     const start = new Date(talk.startTime).getTime();
 
     // Workshops are live, and frequently go a bit over time. Since there is
-    // nothing that comes after, we're just going to artifically extend the
+    // nothing that comes after, we're just going to artificially extend the
     // end time by thirty minutes to allow for the workshop to wrap up instead
     // of chopping it off exactly when the scheduled time ends.
     let endDate = new Date(talk.endTime);

@@ -200,6 +200,35 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
         </div>
       </>
     );
+
+  const nextTalk = talk.nextTalk && (
+    <>
+      <VSpace height={"2rem"} />
+
+      <div
+        className={css`
+          width: 20rem;
+
+          margin-left: auto;
+          border-left: 0.5rem solid var(--julia-purple);
+          padding: 0.5rem;
+        `}
+      >
+        <p>Up Next:</p>
+        <VSpace height={"0.5rem"} />
+        <p
+          className={css`
+            padding-left: 1rem;
+          `}
+        >
+          <Link href={"/talk/[id]"} as={`/talk/${talk.nextTalk.id}`}>
+            {talk.nextTalk.title}
+          </Link>
+        </p>
+      </div>
+    </>
+  );
+
   return (
     <div
       className={css`
@@ -229,6 +258,7 @@ const TalkPanel = ({ active, talk }: TalkPanelProps) => {
       <VSpace />
       {talk.abstract && <StyledMarkdown source={talk.abstract} />}
       {zoomReminder || null}
+      {nextTalk}
     </div>
   );
 };

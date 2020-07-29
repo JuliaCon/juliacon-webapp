@@ -115,7 +115,15 @@ export type Talk = {
   readonly endTime: Scalars["String"];
   readonly speakers: ReadonlyArray<Speaker>;
   readonly room: Room;
+  /** The ID of the YouTube video associated with this talk (if any). */
   readonly videoCode?: Maybe<Scalars["String"]>;
+  /**
+   * The talk that is immediately after this talk (if any) in the same room as
+   * the talk.
+   *
+   * If there is a gap before the next talk, this will be null.
+   */
+  readonly nextTalk?: Maybe<Talk>;
 };
 
 export enum TalkType {
@@ -406,6 +414,7 @@ export type TalkResolvers<
     ParentType,
     ContextType
   >;
+  nextTalk?: Resolver<Maybe<ResolversTypes["Talk"]>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType>;
 };
 

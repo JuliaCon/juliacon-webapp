@@ -40,7 +40,18 @@ export const typeDefs = gql`
     speakers: [Speaker!]!
     room: Room!
 
+    """
+    The ID of the YouTube video associated with this talk (if any).
+    """
     videoCode: String
+
+    """
+    The talk that is immediately after this talk (if any) in the same room as
+    the talk.
+
+    If there is a gap before the next talk, this will be null.
+    """
+    nextTalk: Talk
   }
 
   type Speaker {

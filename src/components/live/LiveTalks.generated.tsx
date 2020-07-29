@@ -31,6 +31,9 @@ export type LiveTalksTalkFragment = { readonly __typename?: "Talk" } & Pick<
       Types.Room,
       "id" | "color" | "name"
     >;
+    readonly nextTalk?: Types.Maybe<
+      { readonly __typename?: "Talk" } & Pick<Types.Talk, "id" | "title">
+    >;
   } & TalkBylineFragment;
 
 export const LiveTalksTalkFragmentDoc = gql`
@@ -47,6 +50,10 @@ export const LiveTalksTalkFragmentDoc = gql`
       id
       color
       name
+    }
+    nextTalk {
+      id
+      title
     }
     ...TalkByline
   }

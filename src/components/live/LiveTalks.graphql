@@ -19,5 +19,10 @@ fragment LiveTalksTalk on Talk {
     name
   }
 
+  nextTalk {
+    id
+    title
+  }
+
   ...TalkByline
 }

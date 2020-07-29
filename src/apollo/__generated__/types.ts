@@ -103,7 +103,15 @@ export type Talk = {
   endTime: Scalars["String"];
   speakers: Array<Speaker>;
   room: Room;
+  /** The ID of the YouTube video associated with this talk (if any). */
   videoCode?: Maybe<Scalars["String"]>;
+  /**
+   * The talk that is immediately after this talk (if any) in the same room as
+   * the talk.
+   *
+   * If there is a gap before the next talk, this will be null.
+   */
+  nextTalk?: Maybe<Talk>;
 };
 
 export enum TalkType {

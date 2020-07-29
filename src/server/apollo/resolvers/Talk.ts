@@ -4,6 +4,7 @@ import { isNonNull } from "../../../utils/null";
 import { submissionTypeToTalkType, TalkType } from "../utils";
 import { TalkResolvers } from "./__types__";
 import { getDayString } from "../../../utils/time";
+import { filterTalks } from "../../pretalx";
 
 export const Talk: TalkResolvers = {
   speakers: async (root, _args, { dataSources }) => {
@@ -38,5 +39,12 @@ export const Talk: TalkResolvers = {
     return (
       submissionTypeToTalkType(root.submissionType) === TalkType.WorkshopHalfDay
     );
+  },
+
+  nextTalk: async (root, _args, { dataSources }) => {
+    const roomTalks = filterTalks(await dataSources.pretalx.getAllTalks(), {
+      roomId: root.roomId,
+    });
+    return roomTalks.find((talk) => talk.startTime === root.endTime);
   },
 };
