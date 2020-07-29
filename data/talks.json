@@ -3968,7 +3968,12 @@
   "submission_type": {
    "en": "Lightning Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Slides",
+    "resource": "/media/juliacon2020/submissions/PUHBMG/resources/JuliaCon2020_final_7r6kBS4.pptx"
+   }
+  ],
   "do_not_record": false,
   "title": "Applying Differentiable Programming to the Dark Channel Prior",
   "abstract": "The Dark Channel Prior was introduced by He, et al. as a method to dehaze a single image. Since its publication in 2010, other authors have sought to improve this dehazing method. Using the parameters that other authors have tuned as a guide, we parameterize the Dark Channel Prior dehazing method and utilize Zygote to apply gradient based optimization."
