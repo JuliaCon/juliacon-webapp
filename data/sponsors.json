@@ -10,7 +10,7 @@
   },
   {
     "sponsorName": "Julia Computing",
-    "blurb": "Julia Computing was founded by all the creators of Julia. We make products that make Julia easy to use, easy to deploy and easy to scale.",
+    "blurb": "Julia Computing was founded by the creators of Julia. We make products that make Julia easy to use, easy to deploy and easy to scale.\n To see our products in action, please join our demos during JuliaCon. [Register here](https://eu.jotform.com/form/201873164343453).",
     "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "https://tawk.to/chat/5ce3a59ad07d7e0c6394955f/default",
@@ -45,7 +45,7 @@
   },
   {
     "sponsorName": "Juspay",
-    "blurb": "We are a team of engineers and designers working passionately to revolutionize digital payments in India with secure, reliable, efficient and cost effective solutions.",
+    "blurb": "Juspay is the leading mobile payments platform in India, processing >4 million txns/day with 200 million SDK installs. We are heavily invested using functional programming techniques using Haskell and using data science techniques for intelligent ops using Julia. ",
     "moreInfoURL": "https://juspay.in/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
