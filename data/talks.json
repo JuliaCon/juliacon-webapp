@@ -3580,7 +3580,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julia for scripting",
-  "abstract": "Julia is often not recommended for a \"scripting workflow\", i.e. starting Julia, execute a code snippet, and exit. This especially applies to short tasks where most of the time will be spent on compiling the code instead of running it. The recommended workflow is instead to keep the Julia session alive for as long as possible in order to benefit from already compiled methods. This talk will discuss how Julia can be used for scripting and, in particular, present some tips and tricks on how to redu"
+  "abstract": "Julia is often not recommended for a \"scripting workflow\", i.e. starting Julia, execute a code snippet, and exit. This especially applies to short tasks where most of the time will be spent on compiling the code instead of running it. The recommended workflow is instead to keep the Julia session alive for as long as possible in order to benefit from already compiled methods. This talk will discuss how Julia can be used for scripting and present some tips on how to reduce compilation time."
  },
  {
   "content_locale": "en",

@@ -1065,7 +1065,7 @@
  },
  {
   "text": "particular",
-  "count": 16,
+  "count": 15,
   "talks": [
    1,
    8,
@@ -1079,7 +1079,6 @@
    69,
    75,
    90,
-   99,
    112
   ]
  },
@@ -5026,7 +5025,7 @@
  },
  {
   "text": "compilation",
-  "count": 6,
+  "count": 7,
   "talks": [
    1,
    37,
@@ -5512,11 +5511,12 @@
  },
  {
   "text": "reduce",
-  "count": 10,
+  "count": 11,
   "talks": [
    67,
    70,
    96,
+   99,
    107,
    128,
    133,
@@ -9314,7 +9314,7 @@
  },
  {
   "text": "tricks",
-  "count": 7,
+  "count": 6,
   "talks": [
    30,
    33,
@@ -13053,14 +13053,6 @@
   ]
  },
  {
-  "text": "tips tricks",
-  "count": 12,
-  "talks": [
-   33,
-   99
-  ]
- },
- {
   "text": "labelled",
   "count": 3,
   "talks": [
@@ -16178,7 +16170,7 @@
  },
  {
   "text": "time",
-  "count": 92,
+  "count": 93,
   "talks": [
    1,
    8,
