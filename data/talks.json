@@ -1105,39 +1105,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "AWYKZL",
-  "track": null,
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/tyler-brough_19wOtDX.jpg",
-    "name": "Tyler Brough",
-    "code": "QVSUAG",
-    "biography": "Dr. Tyler J. Brough is an Associate Professor of Finance in the Jon M. Huntsman School of Business at Utah State University. He earned a Ph.D. in Finance at the University of Arizona in 2010, an MS in Finance at the University of Illinois Urbana-Champaign in 2004, and a BS in Economics at Brigham Young University in 2000. He teaches business statistics in the Huntsman Scholars Program to undergraduates, and Derivatives Markets, Computational Financial Modeling, and Financial Econometrics to graduate students in the MSFE and MDATA programs. His scholarship is focused on computational finance and econometrics."
-   }
-  ],
-  "description": "We will give an overview of the new package `Bruno.jl` for financial\r\noption analytics. This package approaches option pricing and hedging\r\nfrom the perspective of the derivatives market-maker who is modeled\r\nas a Bayesian agent. The problem of hedging is viewed as an optimal\r\nstatistical decision under the agent's posterior predictive\r\ndistribution.\r\n\r\nCrucially, option pricing and hedging are performed under the\r\nreal-world pricing distribution and do not rely upon assumptions\r\nof risk neutrality. While we do not rely upon risk-neutral\r\nassumptions, conditions of risk-neutrality are obtained in the limit\r\nin the absence of market frictions. The arbitrage trading strategy\r\nof the market-maker is modeled directly. This avoids the assumption\r\nof ideal markets in the form of standard \"No-arbitrage\" conditions.\r\n\r\nOne important benefit of this approach is that we need only use\r\nhistorically observed underlying asset prices. Additionally, we\r\ncan easily accommodate market frictions such as transaction costs,\r\nindivisibilities, discrete rebalancing effects and uncertainties\r\nin volatility. These every-day market realities have proven extremely\r\nchallenging to include in the standard equilibrium modeling paradigm.\r\n\r\nWe will demonstrate the approach using historical data for the Standard\r\n& Poor's 500 index.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2020-07-29T16:20:00Z",
-   "room": {
-    "en": "Green Track"
-   },
-   "end": "2020-07-29T16:30:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Bayesian Agent-Based Monte Carlo Option Pricing with Julia",
-  "abstract": "We will demonstrate the efficacy of pricing and hedging financial options\r\nvia a new method called Bayesian Agent-Based Monte Carlo (BABMC). This\r\nmethod nests the cananonical Black-Scholes-Merton approach to option\r\npricing and hedging, but can readily deal with transactions costs,\r\nindivisibilities, discrete rebalancing and uncertain volatilities."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "B3VAGU",
   "track": null,
   "state": "confirmed",
@@ -2352,7 +2319,7 @@
     "biography": "Together with Station B at Microsoft Research Cambridge and the Randall Division of Cell and Molecular Biophysics at King's College London we aim to create tools that can make biochemical manufacturing more efficient, with efforts towards combating Eroom's law of drug discovery and addressing the reproducibility crisis in biotechnology. My current research focus is the development of novel parameter inference procedures for differential equation models where data had been obtained by flow cytometry or fluorescence microscopy."
    }
   ],
-  "description": "This project uses functionality of parameter continuation library BifurcationKit.jl to work with automatic differentiation library Zygote.jl. This talk would be interesting to anyone who infers parameters of differential equation models, users of DifferentialEquations.jl, Flux.jl and FluxDiffEq.jl",
+  "description": "This project uses functionality of parameter continuation library BifurcationKit.jl to work with automatic differentiation library Zygote.jl. This talk would be interesting to anyone who infers parameters of differential equation models, users of DifferentialEquations.jl, Flux.jl and FluxDiffEq.jl. Repository: github.com/gszep/FluxContinuation",
   "image": null,
   "slot_count": 1,
   "slot": {
