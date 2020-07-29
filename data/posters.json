@@ -172,7 +172,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Fast global optimization on the GPU",
-  "abstract": "We will show how to globally optimize multivariable functions on the GPU by exploiting Julia's unique capabilities in that area, using an algorithm of branch-and-bound type. We obtain up to 500x speedups on hard instances over a single CPU processor."
+  "abstract": "We will show how to globally optimize multivariable functions on the GPU by exploiting Julia's unique capabilities in that area, using an algorithm of branch-and-bound type. We obtain up to 100x speedups on hard instances over a single CPU processor."
  },
  {
   "content_locale": "en",
@@ -453,6 +453,14 @@
    {
     "description": "Poster",
     "resource": "/media/juliacon2020/submissions/CXAYML/resources/BioMakie_RjHgcTk.pdf"
+   },
+   {
+    "description": "structure view",
+    "resource": "/media/juliacon2020/submissions/CXAYML/resources/2vb1_HkqWHdE.png"
+   },
+   {
+    "description": "shape animation",
+    "resource": "/media/juliacon2020/submissions/CXAYML/resources/shapeanimation_KE2Pujj.webm"
    }
   ],
   "do_not_record": false,
