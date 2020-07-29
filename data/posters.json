@@ -141,6 +141,41 @@
  },
  {
   "content_locale": "en",
+  "is_featured": false,
+  "code": "8K8P7R",
+  "track": null,
+  "state": "confirmed",
+  "duration": 5,
+  "speakers": [
+   {
+    "avatar": null,
+    "name": "David P. Sanders",
+    "code": "TJJRTG",
+    "biography": "Full professor in the Faculty of Sciences, Universidad Nacional Autónoma de México (UNAM) and visiting professor at MIT.\r\n\r\nJulia user, tutorial developer and package author since 2014. Co-creator of the JuliaIntervals suite of tools for interval arithmetic in Julia."
+   }
+  ],
+  "internal_notes": "",
+  "notes": "",
+  "created": "2020-03-03T18:49:06.354844+00:00",
+  "description": "We will show how to obtain fast global optimization of difficult\r\nunconstrained and constrained nonlinear programming problems in low and medium\r\ndimension, using branch-and-bound type, which is naturally highly parallelizable. To do so, we exploit some of Julia's unique features to transfer algorithms from the CPU over to the GPU.  We will discuss some of those features in detail and show how to combine them into different algorithms.",
+  "answers": [],
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": null,
+   "room": null,
+   "end": null
+  },
+  "submission_type": {
+   "en": "Poster"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Fast global optimization on the GPU",
+  "abstract": "We will show how to globally optimize multivariable functions on the GPU by exploiting Julia's unique capabilities in that area, using an algorithm of branch-and-bound type. We obtain up to 500x speedups on hard instances over a single CPU processor."
+ },
+ {
+  "content_locale": "en",
   "is_featured": true,
   "code": "9JCCV8",
   "track": null,
