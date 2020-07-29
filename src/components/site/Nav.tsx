@@ -61,7 +61,11 @@ const NavLink = ({ children, href, as, external }: NavLinkProps) => {
 
   const anchorElement = (
     <a
-      href={external ? href : undefined}
+      // We can't just set href=undefined here, since that will prevent NextJS
+      // from setting the URL itself (it seems to differentiate "unset" from
+      // "set but undefined"). Instead we either spread an object with the href
+      // if we want to set it, or any empty object if we dont.
+      {...(external ? { href } : {})}
       className={cx(
         css`
           height: 100%;
