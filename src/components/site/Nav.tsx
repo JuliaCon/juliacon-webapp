@@ -6,12 +6,20 @@ import { mobileOnly } from "../../utils/css";
 export const Nav = () => {
   return (
     <nav
-      className={css`
-        height: 100%;
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-      `}
+      className={cx(
+        css`
+          height: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+        `,
+        mobileOnly(
+          css`
+            flex-flow: row wrap;
+            justify-content: center;
+          `
+        )
+      )}
     >
       <NavLink href={"https://juliacon.org/2020/tickets/"} external>
         Register
@@ -54,34 +62,41 @@ const NavLink = ({ children, href, as, external }: NavLinkProps) => {
   const anchorElement = (
     <a
       href={external ? href : undefined}
-      className={css`
-        height: 100%;
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-        transition: background-color 0.3s;
-        position: relative;
-        text-decoration: none;
+      className={cx(
+        css`
+          height: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          transition: background-color 0.3s;
+          position: relative;
+          text-decoration: none;
 
-        &:hover {
-          background-color: rgba(0, 0, 0, 0.05);
-        }
+          &:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+          }
 
-        &::after {
-          position: absolute;
-          bottom: -1px;
-          width: 100%;
-          height: 4px;
-          background-color: var(--julia-purple);
-          content: " ";
-          opacity: 0;
-          transition: opacity 0.3s;
-        }
+          &::after {
+            position: absolute;
+            bottom: -1px;
+            width: 100%;
+            height: 4px;
+            background-color: var(--julia-purple);
+            content: " ";
+            opacity: 0;
+            transition: opacity 0.3s;
+          }
 
-        &:hover::after {
-          opacity: 1;
-        }
-      `}
+          &:hover::after {
+            opacity: 1;
+          }
+        `,
+        mobileOnly(
+          css`
+            text-decoration: underline;
+          `
+        )
+      )}
     >
       <span
         className={css`
