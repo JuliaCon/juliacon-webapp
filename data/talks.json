@@ -61,7 +61,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julia in Production",
-  "abstract": "An informal conversation about problems and solutions related to running Julia in a production environment."
+  "abstract": "An informal conversation about problems and solutions related to running Julia in a production environment. Join the BoF channel on Discord."
  },
  {
   "content_locale": "en",
@@ -511,7 +511,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julia For Quantum Physics",
-  "abstract": "Chat about Yao, ITensor, TensorOperations, OMEinsum and development on common infrastructure such as lattices, sparse tensor, domain specific automatic differentiation etc. in Quantum Physics."
+  "abstract": "Chat about Yao, ITensor, TensorOperations, OMEinsum and development on common infrastructure such as lattices, sparse tensor, domain specific automatic differentiation etc. in Quantum Physics. Join the BoF channel on Discord."
  },
  {
   "content_locale": "en",
@@ -874,7 +874,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "JuliaGPU",
-  "abstract": "Bird of a feather for the JuliaGPU ecosystem"
+  "abstract": "Bird of a feather for the JuliaGPU ecosystem. Join the BoF channel on Discord."
  },
  {
   "content_locale": "en",
@@ -1263,7 +1263,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julia & Data: An Evolving Ecosystem",
-  "abstract": "Come join authors and fellow users of many of Julia's most popular data-related packages to discuss what works, what doesn't, and how current roadmaps can reconcile the two."
+  "abstract": "Come join authors and fellow users of many of Julia's most popular data-related packages to discuss what works, what doesn't, and how current roadmaps can reconcile the two. Join the BoF channel on Discord."
  },
  {
   "content_locale": "en",
@@ -2935,7 +2935,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Transitioning Code From Closed To Open",
-  "abstract": "Within private companies/institutions, it can be difficult to implement effective internal practices that enable internal code to smoothly transition into high quality, open-source contributions. In this BoF, we'll swap techniques for maximizing open-source impact in the Julia ecosystem while minimizing refactor time/effort and code churn."
+  "abstract": "Within private companies/institutions, it can be difficult to implement effective internal practices that enable internal code to smoothly transition into high quality, open-source contributions. In this BoF, we'll swap techniques for maximizing open-source impact in the Julia ecosystem while minimizing refactor time/effort and code churn. Join the BoF channel on Discord."
  },
  {
   "content_locale": "en",
@@ -3606,7 +3606,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Number Theory and Computer Algebra in Julia",
-  "abstract": "We will review existing computer algebra packages, discuss what new packages could be written, and look at existing C/C++ libraries like NTL that we might provide Julia wrappers for."
+  "abstract": "We will review existing computer algebra packages, discuss what new packages could be written, and look at existing C/C++ libraries like NTL that we might provide Julia wrappers for. Join the BoF channel on Discord."
  },
  {
   "content_locale": "en",
@@ -4170,7 +4170,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Probabilistic Programming in Julia",
-  "abstract": "Julia's PPL community is strong and growing. The various groups already have a strong professional relationship, but a BoF would help to formalize this somewhat, as well as being a good introduction for newcomers to the community"
+  "abstract": "Julia's PPL community is strong and growing. The various groups already have a strong professional relationship, but a BoF would help to formalize this somewhat, as well as being a good introduction for newcomers to the community. Join the BoF channel on Discord."
  },
  {
   "content_locale": "en",
@@ -5266,7 +5266,7 @@
     "biography": "Avik Sengupta is VP Engineering and head of Julia Computing's European headquarters in London. Avik is the head of product development and software engineering at Julia Computing, contributor to open source Julia and maintainer of several Julia packages. Avik is the author of Julia High Performance, co-founder of two artificial intelligence startups in the financial services sector and creator of large complex trading systems for the world's leading investment banks. Prior to Julia Computing, Avik was co-founder and CTO at AlgoCircle and at Itellix, director at Lab49 and head of algorithmic solutions at Decimal Point Analytics. Avik earned his MS in Computational Finance at Carnegie Mellon and MBA Finance at the Indian Institute of Management in Bangalore."
    }
   ],
-  "description": "Income for the Julia project comes primarily from JuliaCon sponsorships, and some individual contributions. Expenditures is primarily the organisation of JuliaCon, as well as smaller events and hackathon.",
+  "description": "Income for the Julia project comes primarily from JuliaCon sponsorships, and some individual contributions. Expenditures is primarily the organisation of JuliaCon, as well as smaller events and hackathon. Join the BoF channel on Discord.",
   "image": "https://pretalx.com/media/juliacon2020/submissions/YPT9CQ/optNumFocus_LRG_PoEyme2.png",
   "slot_count": 1,
   "slot": {
@@ -5385,7 +5385,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "What's Next For Dynamical Modeling In Julia?",
-  "abstract": "Dynamical modeling is arguably one of the biggest strengths of the Julia programming language. With DifferentialEquations.jl, DynamicalSystems.jl, RigidBodyDynamics.jl, ModelingToolkit.jl, DiffEqBiological.jl, Pumas.jl, etc. (the list keeps going), there are many state-of-the-art award winning projects. However, ,what's missing? What's next? Let's discuss and figure out some next steps."
+  "abstract": "Dynamical modeling is arguably one of the biggest strengths of the Julia programming language. With DifferentialEquations.jl, DynamicalSystems.jl, RigidBodyDynamics.jl, ModelingToolkit.jl, DiffEqBiological.jl, Pumas.jl, etc. (the list keeps going), there are many state-of-the-art award winning projects. However, ,what's missing? What's next? Let's discuss and figure out some next steps. Join the BoF channel on Discord."
  },
  {
   "content_locale": "en",
