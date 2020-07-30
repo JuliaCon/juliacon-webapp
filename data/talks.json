@@ -1607,39 +1607,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "E98QKR",
-  "track": null,
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Samuel Kapembe",
-    "code": "AVK3DX",
-    "biography": "I am Samuel Stallin Kapembe. I am a Master of Science student at Namibia University of Science and Technology. I have done research in Virtual Learning Environments, Distributed Systems and Recommender Systems. I am have chosen to do my Master's research using Julia as the language is perfectly suited for the task."
-   }
-  ],
-  "description": "This talk will provide an in-depth analysis of constructs in Julia to support program parallelism and contrast them with two tools used in high-performance computing (HPC) environments (MPI and OpenMP). First, we present the constructs introduced by Julia to support program parallelism both on a simple computer and on a traditional cluster. Then, we discuss how these constructs can be extended to cope with a software stack in an HPC. Our analysis will focus on both the architectural perspective as well as performance. Throughout our presentation, we will use the case of personalised learning object recommender system intended for students based on their performance and individual aptitudes using a computational and Deep Learning model. We will discuss the challenges for parallelising the recommender system and how we  leveraged modern Julia constructs and prepared the experiment for both a traditional cluster and a High-Performance Computing (HPC) infrastructure.\r\n\r\nThe presentation will be based on practical implementation and experience.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2020-07-30T12:50:00Z",
-   "room": {
-    "en": "Purple Track"
-   },
-   "end": "2020-07-30T13:00:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Comparative study of parallelism in Julia and an HPC environment",
-  "abstract": "We will present a comparative play-by-play walkthrough of how we parallelised a personalised learning object recommender system intended for students based on their performance and individual aptitudes using a computational and Deep Learning model. We show how we leveraged modern Julia constructs and prepared the experiment for both a traditional cluster and a High-Performance Computing (HPC) infrastructure."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "ELQ8A8",
   "track": null,
   "state": "confirmed",
@@ -2134,32 +2101,6 @@
   "do_not_record": false,
   "title": "GeoInterface: bringing geospatial packages together",
   "abstract": "The GeoInterface, a package for interoperability of geospatial geometries, has been completely redesigned. Formerly it forced geometries to subtype abstract interface types. Now it is much more flexible, allowing packages to hook in using traits, and support methods based on the Simple Features standard. This talk will show why this is important for the JuliaGeo ecosystem, and what it enables you to do."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "GSXV8H",
-  "track": null,
-  "state": "withdrawn",
-  "duration": 10,
-  "speakers": [],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2020-07-29T18:30:00Z",
-   "room": {
-    "en": "Purple Track"
-   },
-   "end": "2020-07-29T18:40:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Accelerating Tensor Computations in Julia on the GPU",
-  "abstract": "GPU programming is very powerful but sometimes rather opaque to new users. In this talk, I'll show how I took a CPU based code for performing tensor (multi-linear algebra) computations, moved it over to the GPU, and then used some of Julia and NVIDIA's tools to accelerate the code even further. Then I'll talk about other classes of problems that might benefit from this approach."
  },
  {
   "content_locale": "en",

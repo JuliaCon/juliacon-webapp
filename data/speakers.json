@@ -271,15 +271,6 @@
  },
  {
   "avatar": null,
-  "name": "Samuel Kapembe",
-  "submissions": [
-   "E98QKR"
-  ],
-  "code": "AVK3DX",
-  "biography": "I am Samuel Stallin Kapembe. I am a Master of Science student at Namibia University of Science and Technology. I have done research in Virtual Learning Environments, Distributed Systems and Recommender Systems. I am have chosen to do my Master's research using Julia as the language is perfectly suited for the task."
- },
- {
-  "avatar": null,
   "name": "Miroslav Kratochvíl",
   "submissions": [
    "UPHPAT"
@@ -1564,15 +1555,6 @@
   ],
   "code": "YXRYYS",
   "biography": "Chris is the organizer of the SF [Bay Area Julia users group](https://www.meetup.com/Bay-Area-Julia-Users/)."
- },
- {
-  "avatar": null,
-  "name": "Katharine Hyatt",
-  "submissions": [
-   "GSXV8H"
-  ],
-  "code": "YYDPCZ",
-  "biography": "Katharine Hyatt is a postdoc, working in the Center for Computational Quantum Physics at the Flatiron Institute, a division of the Simons Foundation. Her research focuses on developing new numerical methods to understand 2D correlated electronic systems, and finding interesting applications in condensed matter physics for these methods."
  },
  {
   "avatar": null,
