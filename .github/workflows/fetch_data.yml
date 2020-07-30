@@ -1,7 +1,7 @@
 name: Fetch Data
 on:
   schedule:
-    - cron:  '0 * * * *' # every hour
+    - cron:  '40 * * * *' # every hour
   push:
     paths:
      - '.github/workflows/fetch_data.yml'
