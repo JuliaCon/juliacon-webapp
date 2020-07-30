@@ -808,7 +808,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Bijectors.jl: Transforming probability distributions in Julia",
-  "abstract": "Transforming one probability distribution to another is a powerful tool in Bayesian inference and machine learning, e.g. constrained-to-unconstrained transformations of distributions for use in Hamiltonian Monte Carlo or constructing flexible and learnable densities such as normalizing flows.\r\n\r\nIn this talk we'll have a look at how we can use Bijectors.jl to do all of the above and more!"
+  "abstract": "Transforming one probability distribution to another is a powerful tool in Bayesian inference and machine learning, e.g. constrained-to-unconstrained transformations of distributions for use in Hamiltonian Monte Carlo or constructing flexible and learnable densities such as normalizing flows.\r\n\r\nIn this talk we'll have a look at how we can use Bijectors.jl to do all of the above and more!\r\n\r\nThe slides can be bound at https://torfjelde.github.io/presentations/juliacon-2020-bijectors/."
  },
  {
   "content_locale": "en",
