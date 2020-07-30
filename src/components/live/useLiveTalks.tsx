@@ -20,9 +20,17 @@ export function useLiveTalks(time: Date) {
     // nothing that comes after, we're just going to artificially extend the
     // end time by thirty minutes to allow for the workshop to wrap up instead
     // of chopping it off exactly when the scheduled time ends.
+    const paddingMinutes = (() => {
+      if (talk.type === TalkType.WorkshopHalfDay) {
+        return 30;
+      } else if (talk.isLive && !talk.nextTalk) {
+        return 5;
+      }
+    })();
+
     let endDate = new Date(talk.endTime);
-    if (talk.type === TalkType.WorkshopHalfDay) {
-      endDate = addMinutes(endDate, 30);
+    if (paddingMinutes) {
+      endDate = addMinutes(endDate, paddingMinutes);
     }
     const end = endDate.getTime();
 

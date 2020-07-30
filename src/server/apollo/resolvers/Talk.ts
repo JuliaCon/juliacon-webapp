@@ -35,9 +35,11 @@ export const Talk: TalkResolvers = {
     return dataSources.videoCodes.getTalkVideoCode(root.id);
   },
 
-  isLive: (root) => {
+  isLive: (root, _args, { dataSources }) => {
     return (
-      submissionTypeToTalkType(root.submissionType) === TalkType.WorkshopHalfDay
+      submissionTypeToTalkType(root.submissionType) ===
+        TalkType.WorkshopHalfDay ||
+      dataSources.videoCodes.getTalkIsLive(root.id)
     );
   },
 
