@@ -1075,7 +1075,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Parallel Implementation of Monte Carlo-Markov Chain Algorithm",
-  "abstract": "This work presents a parallel implementation  of Monte Carlo-Markov Chain method for solving systems of linear algebraic equations using Julia and GPU accelerator. Julia 1.1.0 + CUDAnative.jl  provide several advantages regarding development and performance which help to delve  into  convergence and precision analysis."
+  "abstract": "This work presents a parallel implementation  of Monte Carlo-Markov Chain method for solving systems of linear algebraic equations using Julia and GPU accelerator. Julia 1.1.0 + CUDAnative.jl  provide several advantages regarding development and performance which help to delve  into  convergence and precision analysis. This work is supported by PAPIIT-IA104720."
  },
  {
   "content_locale": "en",
