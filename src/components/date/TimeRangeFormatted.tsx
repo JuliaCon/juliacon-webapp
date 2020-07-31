@@ -1,35 +1,32 @@
-import React, { useContext } from "react";
-import { format, isSameDay, parseISO } from "date-fns";
-import { utcToZonedTime } from "date-fns-tz";
-import { TimezoneContext } from "../../const";
+import React from "react";
+import { parseISO } from "date-fns";
+import { format } from "date-fns-tz";
 
 export interface TimeRangeFormattedProps {
   start: string;
   end: string;
+  collapseDay?: boolean;
 }
 export const TimeRangeFormatted: React.FC<TimeRangeFormattedProps> = ({
   start,
   end,
+  collapseDay = false,
 }) => {
   const startTime = parseISO(start);
   const endTime = parseISO(end);
-  const timezoneContext = useContext(TimezoneContext);
 
-  let offsetedStartTime = utcToZonedTime(startTime, timezoneContext.timezone);
-  let offsetedEndTime = utcToZonedTime(endTime, timezoneContext.timezone);
-
-  if (isSameDay(offsetedStartTime, offsetedEndTime)) {
+  if (collapseDay) {
     return (
       <span>
-        {formatTimeOnly(offsetedStartTime)} &mdash;{" "}
-        {formatTimeOnly(offsetedEndTime)}
+        {formatTimeOnly(startTime)} &mdash; {formatTimeOnly(endTime)}{" "}
+        {format(endTime, "zzz")}
       </span>
     );
   }
 
   return (
     <span>
-      {format(offsetedStartTime, "Pp")} &mdash; {format(offsetedEndTime, "Pp")}
+      {format(startTime, "Pp")} &mdash; {format(endTime, "p zzz")}
     </span>
   );
 };

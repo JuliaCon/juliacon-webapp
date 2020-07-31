@@ -1,8 +1,8 @@
 import { useLiveTalksQuery } from "./LiveTalks.generated";
-import { format } from "date-fns";
+import { getDayString } from "../../utils/time";
 
 export function useLiveTalks(time: Date) {
-  const day = format(time, `yyyy-MM-dd`);
+  const day = getDayString(time);
   const { data, error } = useLiveTalksQuery({
     variables: {
       day,

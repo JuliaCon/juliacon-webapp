@@ -1,29 +1,24 @@
 import * as React from "react";
-import { useContext } from "react";
-import { parseISO, format, isSameDay, isBefore, isAfter } from "date-fns";
-import { utcToZonedTime } from "date-fns-tz";
-import { TimezoneContext } from "../../const";
+import { parseISO, isSameDay, isBefore, isAfter } from "date-fns";
+import { format, utcToZonedTime } from "date-fns-tz";
 
 /**
  * Display a specific time.
- *
- * In the future, we might consider adding support for timezones (though that
- * gets complicated since talks on (e.g.) July 27 might roll over July 28 for
- * some timezones (though I don't think this is actually an issue for JuliaCon
- * since we're targeting PST to IST and everything fits within those timezones
- * in the same day).
  */
 export const Time = ({ time }: { time: Date | string }) => {
   const date = typeof time === "string" ? parseISO(time) : time;
-  const timezoneContext = useContext(TimezoneContext);
-  const offsetedTime = utcToZonedTime(date, timezoneContext.timezone);
+
+  // Compute the date with the timezone added so that we can figure out if the
+  // date rolls over (relative to UTC). e.g., 3am utc becomes 8pm pdt (prev day)
+  const tz = format(new Date(), "zz");
+  const offsetedTime = utcToZonedTime(date, tz);
 
   function rolloverText() {
     if (!isSameDay(date, offsetedTime) && isBefore(date, offsetedTime)) {
-      return "The next day";
+      return " (next day)";
     }
     if (!isSameDay(date, offsetedTime) && isAfter(date, offsetedTime)) {
-      return "The previous day";
+      return " (prev day)";
     }
 
     return "";
@@ -31,9 +26,7 @@ export const Time = ({ time }: { time: Date | string }) => {
 
   return (
     <>
-      {format(offsetedTime, "HH:mm")} <br />
-      UTC{timezoneContext.timezone}
-      <br />
+      {format(date, "HH:mm zzz")}
       {rolloverText()}
     </>
   );

@@ -1,4 +1,5 @@
 import { addHours } from "date-fns";
+import { format } from "date-fns-tz";
 
 // This has the unfortunate side effect of causing the server rendered content
 // and the browser rendered content to disagree since we can't access
@@ -19,4 +20,8 @@ export function createDate(timestamp: string | Date) {
 
 export function now() {
   return createDate(new Date());
+}
+
+export function getDayString(date: Date) {
+  return format(date, `yyyy-MM-dd`, { timeZone: "+00:00" });
 }

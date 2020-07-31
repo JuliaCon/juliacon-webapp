@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { NextPage } from "next";
 import { withApollo } from "../../apollo";
 import { AgendaTalksList } from "../../components/agenda";
@@ -11,15 +11,9 @@ import {
   AgendaTalksListQuery,
   AgendaTalksListQueryVariables,
 } from "../../components/agenda/AgendaTalksList.generated";
-import {
-  ConferenceDay,
-  isConferenceDay,
-  timezoneOptions,
-  TimezoneContext,
-} from "../../const";
+import { ConferenceDay, isConferenceDay } from "../../const";
 import { useRouter } from "next/router";
 import Error from "next/error";
-import Select from "react-select";
 
 const Agenda: NextPage = () => {
   const router = useRouter();
@@ -38,18 +32,8 @@ const Agenda: NextPage = () => {
     [apollo]
   );
 
-  const timezoneContext = useContext(TimezoneContext);
-  const timezoneOption = {
-    value: timezoneContext.timezone,
-    label: "UTC" + timezoneContext.timezone,
-  };
-
   if (typeof day !== "string" || !isConferenceDay(day)) {
     return <Error statusCode={404} />;
-  }
-
-  function onChange(option: any) {
-    timezoneContext.changeTimezone(option.value);
   }
 
   return (
@@ -61,14 +45,6 @@ const Agenda: NextPage = () => {
           onNavIntent={onNavIntent}
         />
       </Center>
-      <VSpace />
-      <Center>Choose your timezone</Center>
-      <Select
-        options={timezoneOptions}
-        onChange={onChange}
-        value={timezoneOption}
-        placeholder="Choose a timezone"
-      />
       <VSpace />
       <AgendaTalksList conferenceDay={day} />
     </Page>

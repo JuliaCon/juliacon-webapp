@@ -1,10 +1,9 @@
-import { format } from "date-fns";
-
 import { asyncMap } from "../../../utils/async";
 import { isNonNull } from "../../../utils/null";
 
 import { submissionTypeToTalkType } from "../utils";
 import { TalkResolvers } from "./__types__";
+import { getDayString } from "../../../utils/time";
 
 export const Talk: TalkResolvers = {
   speakers: async (root, _args, { dataSources }) => {
@@ -24,7 +23,7 @@ export const Talk: TalkResolvers = {
 
   day: (root) => {
     const date = new Date(root.startTime);
-    return format(date, `yyyy-MM-dd`);
+    return getDayString(date);
   },
 
   type: (root) => {

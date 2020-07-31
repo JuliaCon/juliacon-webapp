@@ -1,5 +1,6 @@
 import * as React from "react";
-import { format, parseISO } from "date-fns";
+import { parseISO } from "date-fns";
+import { format } from "date-fns-tz";
 import { css } from "emotion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretLeft } from "@fortawesome/free-solid-svg-icons/faCaretLeft";
@@ -41,7 +42,9 @@ export const ConferenceDayPicker = ({
   // timezone, but that seems a bit fragile, especially because everything in
   // Node land is done in UTC while everything in the frontend is done in the
   // browser's timezone.
-  const dateFormatted = format(parseISO(day), "EEEE, MMMM d, yyyy");
+  const dateFormatted = format(parseISO(day), "EEEE, MMMM d, yyyy", {
+    timeZone: "+00:00",
+  });
 
   const arrowStyle = css`
     font-size: 1.5em;
