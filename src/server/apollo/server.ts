@@ -10,6 +10,11 @@ export const apolloSchema = makeExecutableSchema({
 
 export const apolloServer = new ApolloServer({
   dataSources,
-  playground: true,
   schema: apolloSchema,
+
+  // Normally, the GraphQL playground and schema introspection are disabled in
+  // prod, but due to the community nature of this project, we don't need to do
+  // that.
+  playground: true,
+  introspection: true,
 });
