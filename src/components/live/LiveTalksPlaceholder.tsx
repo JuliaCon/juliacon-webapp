@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "../core";
 import { useLiveTalksQuery } from "./LiveTalks.generated";
 import { getDayString } from "../../utils/time";
-import { isAfter, isBefore, isFuture, isPast, parseISO } from "date-fns";
+import { isBefore, isFuture, isPast, parseISO } from "date-fns";
 import { css } from "emotion";
 import { Time } from "../date";
 import { CONFERENCE_DAYS } from "../../const";
@@ -13,10 +13,7 @@ export const LiveTalksPlaceholder = () => {
   const day = getDayString(time);
 
   const isBeforeConference = isBefore(time, parseISO(CONFERENCE_DAYS[0]));
-  const isAfterConference = isAfter(
-    time,
-    parseISO(CONFERENCE_DAYS[CONFERENCE_DAYS.length - 1])
-  );
+  const isAfterConference: boolean = false as boolean;
 
   const { data, error } = useLiveTalksQuery({ variables: { day } });
   if (error) throw error;
