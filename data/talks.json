@@ -3656,7 +3656,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "A Computational Textbook for Teaching Data Science with Julia",
-  "abstract": "Data science and machine learning courses are in high demand with growing enrollments. We discuss our experience teaching a computational DS&ML course with 250+ students that is designed to scale and accommodate hundreds more. We highlight the use of experiential learning, just-in-time presentation of key concepts, and near real-time feedback on students’ understanding. We will demo a computational textbook that makes teaching a scalable DS&ML course enjoyably easy."
+  "abstract": "Data science and machine learning courses are in high demand with growing enrollments. We discuss our experience teaching a computational DS&ML course with 250+ students that is designed to scale. We highlight the use of experiential learning, just-in-time presentation of key concepts, and real-time feedback on students’ understanding. We demo a computational textbook to make teaching a scalable DS&ML course easy. \r\n\r\nDEMO: https://mynerva.io/courses/register, code `juliacon2020`"
  },
  {
   "content_locale": "en",
