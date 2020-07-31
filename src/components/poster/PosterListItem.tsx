@@ -1,8 +1,9 @@
 import React from "react";
 import { usePosterListItemQuery } from "./PosterListItem.generated";
-import { css } from "emotion";
 import { VSpace } from "../layout";
 import { SpeakerListInline } from "../speaker";
+import { StyledMarkdown } from "../core";
+import { TextHeading } from "../content";
 export const PosterListItem = ({ posterId }: { posterId: string }) => {
   const { data, error, loading } = usePosterListItemQuery({
     variables: { id: posterId },
@@ -17,19 +18,14 @@ export const PosterListItem = ({ posterId }: { posterId: string }) => {
 
   return (
     <div>
-      <h4
-        className={css`
-          font-weight: bold;
-        `}
-      >
+      <TextHeading level={"h3"}>
         <a href={pdflink} target="_blank" rel="noopener noreferrer">
           {title}
         </a>
-      </h4>
+      </TextHeading>
+      <VSpace height={"0.5rem"} />
       <SpeakerListInline speakers={speakers} />
-      <VSpace />
-      <p>{abstract}</p>
-      <VSpace />
+      <StyledMarkdown source={abstract} />
     </div>
   );
 };

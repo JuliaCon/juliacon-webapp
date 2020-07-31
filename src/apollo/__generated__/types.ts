@@ -13,12 +13,17 @@ export type Poster = {
   __typename?: "Poster";
   id: Scalars["ID"];
   title: Scalars["String"];
-  abstract?: Maybe<Scalars["String"]>;
+  abstract: Scalars["String"];
   description?: Maybe<Scalars["String"]>;
-  day: Scalars["String"];
+  day: PosterDay;
   pdflink?: Maybe<Scalars["String"]>;
   speakers: Array<Speaker>;
 };
+
+export enum PosterDay {
+  One = "One",
+  Two = "Two",
+}
 
 export type Query = {
   __typename?: "Query";

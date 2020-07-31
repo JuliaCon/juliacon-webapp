@@ -25,12 +25,17 @@ export type Poster = {
   readonly __typename?: "Poster";
   readonly id: Scalars["ID"];
   readonly title: Scalars["String"];
-  readonly abstract?: Maybe<Scalars["String"]>;
+  readonly abstract: Scalars["String"];
   readonly description?: Maybe<Scalars["String"]>;
-  readonly day: Scalars["String"];
+  readonly day: PosterDay;
   readonly pdflink?: Maybe<Scalars["String"]>;
   readonly speakers: ReadonlyArray<Speaker>;
 };
+
+export enum PosterDay {
+  One = "One",
+  Two = "Two",
+}
 
 export type Query = {
   readonly __typename?: "Query";
@@ -262,6 +267,7 @@ export type ResolversTypes = {
   Speaker: ResolverTypeWrapper<PretalxAPISpeaker>;
   Room: ResolverTypeWrapper<PretalxAPIRoom>;
   Poster: ResolverTypeWrapper<PretalxAPIPoster>;
+  PosterDay: PosterDay;
 };
 
 /** Mapping between all available schema types and the resolvers parents */
@@ -282,13 +288,13 @@ export type PosterResolvers<
 > = {
   id?: Resolver<ResolversTypes["ID"], ParentType, ContextType>;
   title?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
-  abstract?: Resolver<Maybe<ResolversTypes["String"]>, ParentType, ContextType>;
+  abstract?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
   description?: Resolver<
     Maybe<ResolversTypes["String"]>,
     ParentType,
     ContextType
   >;
-  day?: Resolver<ResolversTypes["String"], ParentType, ContextType>;
+  day?: Resolver<ResolversTypes["PosterDay"], ParentType, ContextType>;
   pdflink?: Resolver<Maybe<ResolversTypes["String"]>, ParentType, ContextType>;
   speakers?: Resolver<
     ReadonlyArray<ResolversTypes["Speaker"]>,

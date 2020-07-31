@@ -18,7 +18,7 @@ export type PosterListItemQuery = { readonly __typename?: "Query" } & {
 
 export type PosterListItemFragment = { readonly __typename?: "Poster" } & Pick<
   Types.Poster,
-  "id" | "title" | "abstract" | "description" | "pdflink"
+  "id" | "title" | "abstract" | "description" | "pdflink" | "day"
 > & {
     readonly speakers: ReadonlyArray<
       { readonly __typename?: "Speaker" } & SpeakerListInlineFragment
@@ -32,6 +32,7 @@ export const PosterListItemFragmentDoc = gql`
     abstract
     description
     pdflink
+    day
     speakers {
       ...SpeakerListInline
     }

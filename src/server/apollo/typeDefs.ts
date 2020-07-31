@@ -85,9 +85,9 @@ export const typeDefs = gql`
   type Poster {
     id: ID!
     title: String!
-    abstract: String
+    abstract: String!
     description: String
-    day: String!
+    day: PosterDay!
     pdflink: String
     speakers: [Speaker!]!
   }
@@ -102,5 +102,10 @@ export const typeDefs = gql`
     TALK
     WORKSHOP_FULL_DAY
     WORKSHOP_HALF_DAY
+  }
+
+  enum PosterDay {
+    One
+    Two
   }
 `;

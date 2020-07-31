@@ -6,7 +6,7 @@ interface HSpaceProps {
 }
 export const HSpace: React.FC<HSpaceProps> = ({ width = "1em" }) => {
   return (
-    <div
+    <span
       className={css`
         display: inline-block;
         width: ${width};
