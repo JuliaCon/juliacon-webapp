@@ -1071,47 +1071,6 @@
  {
   "content_locale": "en",
   "is_featured": true,
-  "code": "SEGNUF",
-  "track": null,
-  "state": "confirmed",
-  "duration": 5,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Nafiz",
-    "code": "FA9CHZ",
-    "biography": "I am an university student from bangladesh"
-   },
-   {
-    "avatar": "https://pretalx.com/media/avatars/36087372_10212016198824348_3346868688635559936_n_zvNoLVS.jpg",
-    "name": "Saiful Islam",
-    "code": "PZUNH9",
-    "biography": "Currently working as a Lecturer, Dept. of Information and Communication Technology, Bangladesh University of Professionals."
-   }
-  ],
-  "internal_notes": "",
-  "notes": "",
-  "created": "2020-03-12T15:54:49.640936+00:00",
-  "description": "Peoples with hearing disabilities, i.e. mute-deaf peoples, communicate with the normal peoples\r\nusing sign language. In Sign language hand gestures, orientation and movements of the hands,\r\narms or body, facial expressions, and lip patterns are used for conveying messages that require a\r\ntrained interpreter. This results in the development of a real-time sign language recognition\r\nsystem which can be used to translate the sign into text or voice without the help of interpreters.\r\nThe objective of this work is to develop a deep learning-based system where real-time Bangla\r\nSign Language (BSL) gestures will be converted to natural text.\r\nTo convert captured sign images into a natural text &#39;Tensorflow&#39; a deep learning library will be\r\nused. An image dataset containing sign language with their corresponding meaning will be\r\nrequired to train and test the OCR (Optical Character Recognition) model. And for the reverse\r\nprocess (natural language to sign images) we may use &#39;Text-to-picture synthesis system&#39;/\r\n&#39;word2image system&#39;/&#39;Chat with illustration (CWI)&#39; etc.",
-  "answers": [],
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": null,
-   "room": null,
-   "end": null
-  },
-  "submission_type": {
-   "en": "Poster"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "A two way real time communication for mute and deaf people",
-  "abstract": "Interaction between mute-deaf and normal peoples through sign language has always been a\r\nchallenging task. To assist hearing to disable peoples, we aim to develop a deep learning-based\r\nsystem where real-time Bangla Sign Language (BSL) gestures will be captured and converted to\r\nnatural text. Then, system will take this text (speech) as input and convert it to images containing\r\nthe corresponding BSL gestures."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
   "code": "SNDBVR",
   "track": null,
   "state": "confirmed",
