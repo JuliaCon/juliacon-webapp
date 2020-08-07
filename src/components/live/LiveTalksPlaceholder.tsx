@@ -13,7 +13,7 @@ export const LiveTalksPlaceholder = () => {
   const day = getDayString(time);
 
   const isBeforeConference = isBefore(time, parseISO(CONFERENCE_DAYS[0]));
-  const isAfterConference: boolean = false as boolean;
+  const isAfterConference: boolean = true as boolean;
 
   const { data, error } = useLiveTalksQuery({ variables: { day } });
   if (error) throw error;
