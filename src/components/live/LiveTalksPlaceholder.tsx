@@ -42,7 +42,7 @@ export const LiveTalksPlaceholder = () => {
       case isBeforeConference:
         return "The conference hasn't started yet.";
       case isAfterConference:
-        return "The conference is now over. Thank you to everyone who made this JuliaCon awesome!";
+        return "The conference is now over. Thank you to everyone who made this JuliaCon awesome! Visit <Link href={"https://www.youtube.com/playlist?list=PLP8iPy9hna6Tl2UHTrm4jnIYrLkIcAROR"}> the Julia Language's YouTube</Link> to watch all of the conference's talks, workshops, and keynotes.";
       case data?.talks?.length === 0:
         return "There are no talks scheduled for today.";
       case dayHasEnded:
