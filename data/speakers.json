@@ -19,7 +19,7 @@
   "biography": "PhD Student at MIT"
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/202c4eb67c7d82d4a4e97f5a03ebd850",
   "name": "Phillip Alday",
   "submissions": [
    "8VUMUA"
@@ -94,7 +94,7 @@
   "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. He co-develops the integrated assessment model FUND that is used widely in academic research and in policy analysis. His research has appeared in Science, the Journal of Environmental Economics and Management, Environmental and Resource Economics, the Oxford Review of Economic Policy and other academic journals. He contributed a background research paper to the Stern Review and has advised numerous organizations (including US EPA and the Canadian National Round Table on the Environment and the Economy) on the economics of climate change.\r\n\r\nHe is an assistant professor in the Energy and Resources Group at the University of California, Berkeley. Previously he was an assistant professor in the School of Natural Resources and the Environment of the University of Michigan, a postdoc at the University of California, Berkeley and a postdoc at the Economic and Social Research Institute in Ireland. He also was a visiting research fellow at the Smith School of Enterprise and the Environment, University of Oxford.\r\n\r\nHe holds a PhD (Dr. rer. pol.) in economics from the University of Hamburg (Germany) and the International Max Planck Research School on Earth System Modelling, a MSc in Environmental Change and Management from the University of Oxford (UK) and a M.Phil. in philosophy, logic and philosophy of science from Ludwig-Maximilians-Universität München (Munich, Germany)."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/48b10d61719bf9ca5ae839dc50a0fb61",
   "name": "Dai ZJ",
   "submissions": [
    "3NWY7V"
@@ -186,7 +186,7 @@
   "biography": "Co-founder at KEF Robotics. Formerly R&D at Astrobotic. B.S. in Computer Science and Robotics at Carnegie Mellon University."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/21aeae1f260365557523718bc19640f7",
   "name": "Stefan Karpinski",
   "submissions": [
    "MASLPF",
@@ -205,7 +205,7 @@
   "biography": "I am a 14-year-old student, currently attending the City of London School. I have always had a deep interest in programming, first starting with Scratch when I was quite young, then moving onto Python, then finally, a few years ago, Julia. I have since presented at JuliaCon 2018 and 2019 and therefore have some experience with the language."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/1c72ab08b1cb2d891e1c24f05d9010f1",
   "name": "Chad Scherrer",
   "submissions": [
    "R7EPKS"
@@ -250,7 +250,7 @@
   "biography": "."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/1506e2ffef965e15f915733e0711ecfd",
   "name": "Curtis Vogt",
   "submissions": [
    "3AGJ3V"
@@ -270,7 +270,7 @@
   "biography": "- Contributor to Base and many packages (Pkg.jl, OhMyREPL.jl, PGFPlotsX.jl, TimerOutputs.jl, JuAFEM.jl,  NearestNeighbors.jl, etc)\r\n- Release manager for Julia.\r\n- Software engineer at Julia Computing.\r\n- PhD-student in mechanical engineering at Chalmers University of Technology, Sweden."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/14929e6d5974f98b82bea621ad874207",
   "name": "Miroslav Kratochvíl",
   "submissions": [
    "UPHPAT"
@@ -459,7 +459,7 @@
   "biography": "Mathieu is a PhD candidate in a double program between Polytechnique Montreal & INRIA Lille. His research focuses on mathematical optimization models and applications for power grids. Outside research, he also works on open-source projects around mathematical optimization, graphs and statistics."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/2b95a888fb9175553ad9797d1aa1b316",
   "name": "Martijn Visser",
   "submissions": [
    "GR9TZH"
@@ -496,7 +496,7 @@
   "biography": "PhD student at The University of Vermont's Complex Systems Center as part of the Neurobotics Lab.\r\nFormer Data Scientist at the Mexican Department of Social Development.\r\nInterested in complex networks, machine learning and statistics."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/91baf55727753211641974a7a6be5f48",
   "name": "Daniel Kool",
   "submissions": [
    "CXAYML"
@@ -541,7 +541,7 @@
   "biography": "Charles is a software engineer at Caltech, working on a new climate model, CLIMA, intended to learn from a diverse set of data. This climate model is implementing novel sub-grid scale models for resolving turbulence and cloud processes. The code, developed by a distributed team, will be made capable to run on CPU and GPU architectures.\r\n\r\nPreviously, during his Ph.D., Charles developed a liquid-metal magnetohydrodynamic (MHD) solver and framework for simulating liquid-metal MHD flows for fusion energy applications, in particular, for accident scenarios involving loss of plasma confinement, resulting in electromagnetic interactions between the plasma and liquid-metal breeding blanket.\r\n\r\nCharles has a passion for developing HPC software for simulating physical phenomena."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/f0aa406188ec55a18281bdb7457212ec",
   "name": "Fons van der Plas",
   "submissions": [
    "WNBYW8"
@@ -655,7 +655,7 @@
   "biography": "PhD student studying quantum information theory at Cambridge University"
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/8a523816c38831c2124ae847f6d9844a",
   "name": "Irene Ndindabahizi",
   "submissions": [
    "3LZQXH"
@@ -673,7 +673,7 @@
   "biography": "I am the founder of Julia's AMDGPU stack, and interested in helping users make use of every bit of computing power they have available. I am interested in using GPUs to accelerate real-time execution of spiking neural networks, as well as other machine learning algorithms."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/647909bd95accb7b1192bc5979f29d9b",
   "name": "Jiahao Chen",
   "submissions": [
    "AQMLUC"
@@ -692,7 +692,7 @@
   "biography": "Oscar A.  Esquivel-Flores received his Bachelor's degree in Applied Mathematics and Computing from Universidad Nacional Autónoma de México (UNAM). M.S. degree in Computer Sciences from Universidad Autónoma Metropolitana, México and PhD degree in Computer Engineering from UNAM in 2013. He has working on parallel and high performance computing as part of a posdoctoral position at the Barcelona Supercomputing Center as an international agreement with National Council of Science and Technology of México. He currently helds a research position in Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas at Universidad Nacional Autónoma de México developing parallel algorithms regard matrix computations, machine learning and optimization."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/7e76579d61a3dabf3576b93f7f078806",
   "name": "Bart Janssens",
   "submissions": [
    "3ZTCWX",
@@ -703,7 +703,7 @@
   "biography": "Bart Janssens is a military associate professor at the mechanics department of the [Royal Military Academy](https://www.rma.ac.be), with a passion for computer graphics, high performance computing and fluid mechanics. For performance reasons, he used C++ until being introduced to Julia. His current work focuses on making scientific C++ libraries such as Trilinos interoperate with Julia, with the ultimate objective of developing CFD code for Julia."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/a565749fba4782b717234da670b273fd",
   "name": "Yueh-Hua Tu",
   "submissions": [
    "9A8DCP"
@@ -749,7 +749,7 @@
   "biography": "Pamela Bustamante is a PhD student from Pontificia Universidad Católica de Chile. She has been using Julia since her undergraduate days at Universidad del Bío-Bío, Chile. Co-author of IntroAJulia.jl"
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/2989a078f4caff6fb86fa30e59bd9aa9",
   "name": "Tim Holy",
   "submissions": [
    "LSYN8F"
@@ -794,7 +794,7 @@
   "biography": "Avik Sengupta is VP Engineering and head of Julia Computing's European headquarters in London. Avik is the head of product development and software engineering at Julia Computing, contributor to open source Julia and maintainer of several Julia packages. Avik is the author of Julia High Performance, co-founder of two artificial intelligence startups in the financial services sector and creator of large complex trading systems for the world's leading investment banks. Prior to Julia Computing, Avik was co-founder and CTO at AlgoCircle and at Itellix, director at Lab49 and head of algorithmic solutions at Decimal Point Analytics. Avik earned his MS in Computational Finance at Carnegie Mellon and MBA Finance at the Indian Institute of Management in Bangalore."
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/index.png",
+  "avatar": "https://www.gravatar.com/avatar/832d10ca3b2825c42d2280cbeca6fef6",
   "name": "Simon Danisch",
   "submissions": [
    "GFE3DB",
@@ -933,7 +933,7 @@
   "biography": "Stephan Sahm is senior consultant at Machine Learning Reply for Data Science and Data Engineering. As an outstanding\r\nmaster of cognitive science, master of stochastics, as well as a\r\npassionate professional programmer he strives towards bringing tomorrow’s Data Science into today’s business.\r\n\r\nHe launched and organizes the Julia User Group Munich, the main driver for establishing Julia within Munich's Data Science community."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/d788bf7fd037ebef5798d8881c5faa2f",
   "name": "Jacob Quinn",
   "submissions": [
    "Y3H7FG",
@@ -1042,7 +1042,7 @@
   "biography": "I am a PhD student at UNSW Canberra working on topology optimization. I have 2 seemingly unrelated interests that I hope to combine one day: topology optimization and Bayesian inference. This talk is all about the latter, so let's focus on that. I joined the TuringLang development team 1-2 years ago. Since then, my main goal has been to make Turing as fast as possible without sacrificing usability. In this talk, I share some of the work I have done towards that goal and give an overview of the present and future of Turing and DynamicPPL including features, short-term goals and bottlenecks.\r\n\r\nGitHub: https://github.com/mohamed82008"
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/136cb6a0f69c7c42d2988ef7175b886e",
   "name": "Aaron Christianson",
   "submissions": [
    "JYNERU",
@@ -1052,7 +1052,7 @@
   "biography": "Aaron works at the Goethe University Library in Frankfurt on problems related writing systems of natural languages. Most of the work is in Python, but he enjoys sneaking in bits and bobs in Julia and OCaml when no one is looking. Outside of work, he has contributed to a refreshed C-calling interface for Julia 1.5 and answers way, way too many questions about Julia on Quora."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/5ac7b1da0f2e9107b5020f88023a15e5",
   "name": "Simon Byrne",
   "submissions": [
    "3NXGGJ"
@@ -1234,7 +1234,7 @@
   "biography": "Molham Aref is the Chief Executive Officer of RelationalAI. He has more than 28 years of experience in leading organisations that develop and implement high value machine learning and artificial intelligence solutions across various industries. Prior to RelationalAI he was CEO of LogicBlox and Predictix (now Infor), Optimi (now Ericsson), and co-founder of Brickstream (now FLIR). Molham held senior leadership positions at HNC Software (now FICO) and Retek (now Oracle)."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/b1b9938790729d96af6f168d8ce0f917",
   "name": "Mosè Giordano",
   "submissions": [
    "9WMAVU"
@@ -1290,7 +1290,7 @@
   "biography": "Roberto Bernal received his Bachelor in Science in Physics from Universidad Nacional Autonoma de Mexico (UNAM), and his his PhD in Physics from Universidad Autonoma del Estado de Morelos-Nuclear Sciences Institute(UNAM) Mexico (2006). He was postdoc at the Departamento de Fisica of the UAEM (2006-2007) and in the Theoretical Chemistry Group - University of Turin in Italy from 2007- 2008. Actually he is full professor at the Departamento de Matematicas Aplicadas y Sistemas, of the UAM-Cuajimalpa in Mexico. \r\n\r\nHis research interests are mainly focus on algebraic methods in chemical-physics, mathematical-physics, nonlinear dynamics, and complex networks."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/330a9f403561af8751c1fe0178f043e2",
   "name": "Huda Nassar",
   "submissions": [
    "F7DKF8",
@@ -1390,7 +1390,7 @@
   "biography": "CTO @ Beacon Biosignals"
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/c0d60e9cebf22b77e94c2d2eb4386539",
   "name": "Joris Kraak",
   "submissions": [
    "M8KTBL"
@@ -1473,7 +1473,7 @@
   "biography": "James is a Research Engineer at the Georgia Tech Research Institute in the High Performance Computing and Data Analytics Branch. His current research involves mathematical and computational formalisms in scientific computing. Where his lab applies techniques from Machine Learning, Numerical Methods, and Applied Category Theory to analyze scientific and engineering systems."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/0649583d75adfd14d9473c89f356e173",
   "name": "Chris Rackauckas",
   "submissions": [
    "B3VAGU",
@@ -1520,7 +1520,7 @@
   "biography": "PhD student in biological sciences in the computational ecology lab of Timothée Poisot (University of Montreal) and the integrative ecology lab of Dominique Gravel (University of Sherbrooke)."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/464b7b10228b176c8a359cb281727c80",
   "name": "Harrison Grodin",
   "submissions": [
    "CHJ9ZK"
@@ -1629,7 +1629,7 @@
   "biography": "Name          : Dr.-Ing. Henki Wibowo Ashadi\r\noccupation : Lecture at universitas indonesia\r\nborn            : 9 july, 1964\r\nAdress        : Civil Engineering Department, Faculty of Engineering,\r\n                       Universitas Indonesia\r\n                      Kampus UI Depok, Depok 16424, Indonesia\r\nEmail          : henki@eng.ui.ac.id; henki.wibowo@ui.ac.id; henki.ashadi@gmail.com"
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/c269cad9c318d5b14eaf6a07d2e6fded",
   "name": "François Févotte",
   "submissions": [
    "LEADQ7"
@@ -1666,7 +1666,7 @@
   "biography": "Tom Kwong, CFA, is an experienced software engineer with over 25 years of industry programming experience. He has spent the majority of his career in the financial services industry. His expertise includes software architecture, design, and the development of trading/risk systems. \r\n\r\nSince 2017, he has uncovered the Julia language and has worked on several open source packages, including SASLib.jl. He is also the author of the book Design Patterns and Best Practices with Julia, published by Packt in January 2020.\r\n\r\nHe currently works at Western Asset Management Company, a prestigious asset management company that specializes in fixed income investment services. He holds an MS degree in computer science from the University of California, Santa Barbara (from 1993), and he holds the Chartered Financial Analyst® designation since 2009."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/0857902b3ed99084e80ece0da08b334d",
   "name": "Dheepak Krishnamurthy",
   "submissions": [
    "SD8PSC",
