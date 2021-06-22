@@ -1,39 +1,41 @@
-import * as Types from "../../apollo/__generated__/types";
+import * as Types from '../../apollo/__generated__/types';
 
-import gql from "graphql-tag";
-import * as ApolloReactCommon from "@apollo/client";
-import * as ApolloReactHooks from "@apollo/client";
+import gql from 'graphql-tag';
+import * as ApolloReactCommon from '@apollo/client';
+import * as ApolloReactHooks from '@apollo/client';
 
 export type SpeakerInfoQueryVariables = Types.Exact<{
-  id: Types.Scalars["ID"];
+  id: Types.Scalars['ID'];
 }>;
 
-export type SpeakerInfoQuery = { readonly __typename?: "Query" } & {
-  readonly speaker?: Types.Maybe<
-    { readonly __typename?: "Speaker" } & SpeakerInfoFragment
-  >;
-};
 
-export type SpeakerInfoFragment = { readonly __typename?: "Speaker" } & Pick<
-  Types.Speaker,
-  "id" | "name" | "avatar"
->;
+export type SpeakerInfoQuery = (
+  { readonly __typename?: 'Query' }
+  & { readonly speaker?: Types.Maybe<(
+    { readonly __typename?: 'Speaker' }
+    & SpeakerInfoFragment
+  )> }
+);
+
+export type SpeakerInfoFragment = (
+  { readonly __typename?: 'Speaker' }
+  & Pick<Types.Speaker, 'id' | 'name' | 'avatar'>
+);
 
 export const SpeakerInfoFragmentDoc = gql`
-  fragment SpeakerInfo on Speaker {
-    id
-    name
-    avatar
-  }
-`;
+    fragment SpeakerInfo on Speaker {
+  id
+  name
+  avatar
+}
+    `;
 export const SpeakerInfoDocument = gql`
-  query SpeakerInfo($id: ID!) {
-    speaker(id: $id) {
-      ...SpeakerInfo
-    }
+    query SpeakerInfo($id: ID!) {
+  speaker(id: $id) {
+    ...SpeakerInfo
   }
-  ${SpeakerInfoFragmentDoc}
-`;
+}
+    ${SpeakerInfoFragmentDoc}`;
 
 /**
  * __useSpeakerInfoQuery__
@@ -51,33 +53,12 @@ export const SpeakerInfoDocument = gql`
  *   },
  * });
  */
-export function useSpeakerInfoQuery(
-  baseOptions?: ApolloReactHooks.QueryHookOptions<
-    SpeakerInfoQuery,
-    SpeakerInfoQueryVariables
-  >
-) {
-  return ApolloReactHooks.useQuery<SpeakerInfoQuery, SpeakerInfoQueryVariables>(
-    SpeakerInfoDocument,
-    baseOptions
-  );
-}
-export function useSpeakerInfoLazyQuery(
-  baseOptions?: ApolloReactHooks.LazyQueryHookOptions<
-    SpeakerInfoQuery,
-    SpeakerInfoQueryVariables
-  >
-) {
-  return ApolloReactHooks.useLazyQuery<
-    SpeakerInfoQuery,
-    SpeakerInfoQueryVariables
-  >(SpeakerInfoDocument, baseOptions);
-}
+export function useSpeakerInfoQuery(baseOptions?: ApolloReactHooks.QueryHookOptions<SpeakerInfoQuery, SpeakerInfoQueryVariables>) {
+        return ApolloReactHooks.useQuery<SpeakerInfoQuery, SpeakerInfoQueryVariables>(SpeakerInfoDocument, baseOptions);
+      }
+export function useSpeakerInfoLazyQuery(baseOptions?: ApolloReactHooks.LazyQueryHookOptions<SpeakerInfoQuery, SpeakerInfoQueryVariables>) {
+          return ApolloReactHooks.useLazyQuery<SpeakerInfoQuery, SpeakerInfoQueryVariables>(SpeakerInfoDocument, baseOptions);
+        }
 export type SpeakerInfoQueryHookResult = ReturnType<typeof useSpeakerInfoQuery>;
-export type SpeakerInfoLazyQueryHookResult = ReturnType<
-  typeof useSpeakerInfoLazyQuery
->;
-export type SpeakerInfoQueryResult = ApolloReactCommon.QueryResult<
-  SpeakerInfoQuery,
-  SpeakerInfoQueryVariables
->;
+export type SpeakerInfoLazyQueryHookResult = ReturnType<typeof useSpeakerInfoLazyQuery>;
+export type SpeakerInfoQueryResult = ApolloReactCommon.QueryResult<SpeakerInfoQuery, SpeakerInfoQueryVariables>;

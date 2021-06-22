@@ -27,6 +27,7 @@ export default SponsorsPage;
 
 const SponsorsInner = () => {
   const sponsorsRendered = [
+    SponsorTier.Platinum,
     SponsorTier.Gold,
     SponsorTier.Silver,
     SponsorTier.MediaPartner,

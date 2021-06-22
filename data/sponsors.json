@@ -1,23 +1,32 @@
 [
   {
+    "sponsorName": "Julia Computing",
+    "blurb": "The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements and preservation of the special character of the Bay Area.",
+    "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon", 
+    "videoURL": "",
+    "chatChannelName": "#juliacomputing",
+    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/jclogo.png",
+    "tier": "Platinum"
+  },
+  {
     "sponsorName": "Gordon and Betty Moore Foundation",
     "blurb": "The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements and preservation of the special character of the Bay Area.",
     "moreInfoURL": "https://www.moore.org/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/moore.jpg",
+    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/moore.jpg",
     "tier": "Gold"
   },
   {
-    "sponsorName": "Julia Computing",
-    "blurb": "Julia Computing was founded by the creators of Julia. We make products that make Julia easy to use, easy to deploy and easy to scale.\n To see our products in action, please join our demos during JuliaCon. [Register here](https://eu.jotform.com/form/201873164343453).",
-    "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon",
+    "sponsorName": "Relational AI",
+    "blurb": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason.",
+    "moreInfoURL": "https://www.relational.ai?utm_source=juliacon",
     "videoURL": "",
-    "chatChannelName": "https://tawk.to/chat/5ce3a59ad07d7e0c6394955f/default",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/julia.png",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/relational_ai.jpeg",
     "tier": "Gold",
     "discord": {
-      "channel": "#juliacomputing",
+      "channel": "#relational-ai",
       "url": "https://discord.com/channels/709438882504245358/736564526467645451"
     }
   },

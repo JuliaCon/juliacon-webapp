@@ -8,6 +8,7 @@ import { Link } from "../core";
 import { getSponsorsByTier, SponsorTier } from "./utils";
 
 export const SponsorSidebar = () => {
+  const platinumSponsors = sponsors.filter((sponsor) => sponsor.tier === "Platinum");
   const goldSponsors = sponsors.filter((sponsor) => sponsor.tier === "Gold");
   const silverSponsors = sponsors.filter(
     (sponsor) => sponsor.tier === "Silver"
@@ -53,6 +54,25 @@ export const SponsorSidebar = () => {
                 text-align: center;
                 border-bottom: 1px solid #ccc;
                 display: block;
+                width: 100%;
+              `}
+            >
+              Platinum sponsors
+            </h2>
+            <VSpace />
+            {platinumSponsors.map((sponsor, i) => (
+              <SponsorSidebarItem key={i} sponsor={sponsor} />
+            ))}
+
+            <VSpace height={"3rem"} />
+
+            <h2
+              className={css`
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-align: center;
+                border-bottom: 1px solid #ccc;
+
                 width: 100%;
               `}
             >
