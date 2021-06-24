@@ -1,55 +1,53 @@
-import * as Types from '../../apollo/__generated__/types';
+import * as Types from "../../apollo/__generated__/types";
 
-import { TalkBylineFragment } from '../talk/TalkByline.generated';
-import gql from 'graphql-tag';
-import { TalkBylineFragmentDoc } from '../talk/TalkByline.generated';
-import * as ApolloReactCommon from '@apollo/client';
-import * as ApolloReactHooks from '@apollo/client';
+import { TalkBylineFragment } from "../talk/TalkByline.generated";
+import gql from "graphql-tag";
+import { TalkBylineFragmentDoc } from "../talk/TalkByline.generated";
+import * as ApolloReactCommon from "@apollo/client";
+import * as ApolloReactHooks from "@apollo/client";
 
 export type AgendaTalksListItemQueryVariables = Types.Exact<{
-  id: Types.Scalars['ID'];
+  id: Types.Scalars["ID"];
 }>;
 
+export type AgendaTalksListItemQuery = { readonly __typename?: "Query" } & {
+  readonly talk?: Types.Maybe<
+    { readonly __typename?: "Talk" } & AgendaTalksListItemFragment
+  >;
+};
 
-export type AgendaTalksListItemQuery = (
-  { readonly __typename?: 'Query' }
-  & { readonly talk?: Types.Maybe<(
-    { readonly __typename?: 'Talk' }
-    & AgendaTalksListItemFragment
-  )> }
-);
-
-export type AgendaTalksListItemFragment = (
-  { readonly __typename?: 'Talk' }
-  & Pick<Types.Talk, 'id' | 'title' | 'abstract' | 'description' | 'type' | 'startTime'>
-  & { readonly room: (
-    { readonly __typename?: 'Room' }
-    & Pick<Types.Room, 'name'>
-  ) }
-  & TalkBylineFragment
-);
+export type AgendaTalksListItemFragment = {
+  readonly __typename?: "Talk";
+} & Pick<
+  Types.Talk,
+  "id" | "title" | "abstract" | "description" | "type" | "startTime"
+> & {
+    readonly room: { readonly __typename?: "Room" } & Pick<Types.Room, "name">;
+  } & TalkBylineFragment;
 
 export const AgendaTalksListItemFragmentDoc = gql`
-    fragment AgendaTalksListItem on Talk {
-  id
-  title
-  abstract
-  description
-  type
-  startTime
-  room {
-    name
+  fragment AgendaTalksListItem on Talk {
+    id
+    title
+    abstract
+    description
+    type
+    startTime
+    room {
+      name
+    }
+    ...TalkByline
   }
-  ...TalkByline
-}
-    ${TalkBylineFragmentDoc}`;
+  ${TalkBylineFragmentDoc}
+`;
 export const AgendaTalksListItemDocument = gql`
-    query AgendaTalksListItem($id: ID!) {
-  talk(id: $id) {
-    ...AgendaTalksListItem
+  query AgendaTalksListItem($id: ID!) {
+    talk(id: $id) {
+      ...AgendaTalksListItem
+    }
   }
-}
-    ${AgendaTalksListItemFragmentDoc}`;
+  ${AgendaTalksListItemFragmentDoc}
+`;
 
 /**
  * __useAgendaTalksListItemQuery__
@@ -67,12 +65,35 @@ export const AgendaTalksListItemDocument = gql`
  *   },
  * });
  */
-export function useAgendaTalksListItemQuery(baseOptions?: ApolloReactHooks.QueryHookOptions<AgendaTalksListItemQuery, AgendaTalksListItemQueryVariables>) {
-        return ApolloReactHooks.useQuery<AgendaTalksListItemQuery, AgendaTalksListItemQueryVariables>(AgendaTalksListItemDocument, baseOptions);
-      }
-export function useAgendaTalksListItemLazyQuery(baseOptions?: ApolloReactHooks.LazyQueryHookOptions<AgendaTalksListItemQuery, AgendaTalksListItemQueryVariables>) {
-          return ApolloReactHooks.useLazyQuery<AgendaTalksListItemQuery, AgendaTalksListItemQueryVariables>(AgendaTalksListItemDocument, baseOptions);
-        }
-export type AgendaTalksListItemQueryHookResult = ReturnType<typeof useAgendaTalksListItemQuery>;
-export type AgendaTalksListItemLazyQueryHookResult = ReturnType<typeof useAgendaTalksListItemLazyQuery>;
-export type AgendaTalksListItemQueryResult = ApolloReactCommon.QueryResult<AgendaTalksListItemQuery, AgendaTalksListItemQueryVariables>;
+export function useAgendaTalksListItemQuery(
+  baseOptions?: ApolloReactHooks.QueryHookOptions<
+    AgendaTalksListItemQuery,
+    AgendaTalksListItemQueryVariables
+  >
+) {
+  return ApolloReactHooks.useQuery<
+    AgendaTalksListItemQuery,
+    AgendaTalksListItemQueryVariables
+  >(AgendaTalksListItemDocument, baseOptions);
+}
+export function useAgendaTalksListItemLazyQuery(
+  baseOptions?: ApolloReactHooks.LazyQueryHookOptions<
+    AgendaTalksListItemQuery,
+    AgendaTalksListItemQueryVariables
+  >
+) {
+  return ApolloReactHooks.useLazyQuery<
+    AgendaTalksListItemQuery,
+    AgendaTalksListItemQueryVariables
+  >(AgendaTalksListItemDocument, baseOptions);
+}
+export type AgendaTalksListItemQueryHookResult = ReturnType<
+  typeof useAgendaTalksListItemQuery
+>;
+export type AgendaTalksListItemLazyQueryHookResult = ReturnType<
+  typeof useAgendaTalksListItemLazyQuery
+>;
+export type AgendaTalksListItemQueryResult = ApolloReactCommon.QueryResult<
+  AgendaTalksListItemQuery,
+  AgendaTalksListItemQueryVariables
+>;

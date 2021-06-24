@@ -1,66 +1,72 @@
-import * as Types from '../../apollo/__generated__/types';
+import * as Types from "../../apollo/__generated__/types";
 
-import { TalkBylineFragment } from '../talk/TalkByline.generated';
-import gql from 'graphql-tag';
-import { TalkBylineFragmentDoc } from '../talk/TalkByline.generated';
-import * as ApolloReactCommon from '@apollo/client';
-import * as ApolloReactHooks from '@apollo/client';
+import { TalkBylineFragment } from "../talk/TalkByline.generated";
+import gql from "graphql-tag";
+import { TalkBylineFragmentDoc } from "../talk/TalkByline.generated";
+import * as ApolloReactCommon from "@apollo/client";
+import * as ApolloReactHooks from "@apollo/client";
 
 export type LiveTalksQueryVariables = Types.Exact<{
-  day: Types.Scalars['String'];
+  day: Types.Scalars["String"];
 }>;
 
+export type LiveTalksQuery = { readonly __typename?: "Query" } & {
+  readonly talks: ReadonlyArray<
+    { readonly __typename?: "Talk" } & LiveTalksTalkFragment
+  >;
+};
 
-export type LiveTalksQuery = (
-  { readonly __typename?: 'Query' }
-  & { readonly talks: ReadonlyArray<(
-    { readonly __typename?: 'Talk' }
-    & LiveTalksTalkFragment
-  )> }
-);
-
-export type LiveTalksTalkFragment = (
-  { readonly __typename?: 'Talk' }
-  & Pick<Types.Talk, 'id' | 'title' | 'startTime' | 'endTime' | 'videoCode' | 'abstract' | 'isLive' | 'type'>
-  & { readonly room: (
-    { readonly __typename?: 'Room' }
-    & Pick<Types.Room, 'id' | 'color' | 'name'>
-  ), readonly nextTalk?: Types.Maybe<(
-    { readonly __typename?: 'Talk' }
-    & Pick<Types.Talk, 'id' | 'title'>
-  )> }
-  & TalkBylineFragment
-);
+export type LiveTalksTalkFragment = { readonly __typename?: "Talk" } & Pick<
+  Types.Talk,
+  | "id"
+  | "title"
+  | "startTime"
+  | "endTime"
+  | "videoCode"
+  | "abstract"
+  | "isLive"
+  | "type"
+> & {
+    readonly room: { readonly __typename?: "Room" } & Pick<
+      Types.Room,
+      "id" | "color" | "name"
+    >;
+    readonly nextTalk?: Types.Maybe<
+      { readonly __typename?: "Talk" } & Pick<Types.Talk, "id" | "title">
+    >;
+  } & TalkBylineFragment;
 
 export const LiveTalksTalkFragmentDoc = gql`
-    fragment LiveTalksTalk on Talk {
-  id
-  title
-  startTime
-  endTime
-  videoCode
-  abstract
-  isLive
-  type
-  room {
-    id
-    color
-    name
-  }
-  nextTalk {
+  fragment LiveTalksTalk on Talk {
     id
     title
+    startTime
+    endTime
+    videoCode
+    abstract
+    isLive
+    type
+    room {
+      id
+      color
+      name
+    }
+    nextTalk {
+      id
+      title
+    }
+    ...TalkByline
   }
-  ...TalkByline
-}
-    ${TalkBylineFragmentDoc}`;
+  ${TalkBylineFragmentDoc}
+`;
 export const LiveTalksDocument = gql`
-    query LiveTalks($day: String!) {
-  talks(day: $day) {
-    ...LiveTalksTalk
+  query LiveTalks($day: String!) {
+    talks(day: $day) {
+      ...LiveTalksTalk
+    }
   }
-}
-    ${LiveTalksTalkFragmentDoc}`;
+  ${LiveTalksTalkFragmentDoc}
+`;
 
 /**
  * __useLiveTalksQuery__
@@ -78,12 +84,33 @@ export const LiveTalksDocument = gql`
  *   },
  * });
  */
-export function useLiveTalksQuery(baseOptions?: ApolloReactHooks.QueryHookOptions<LiveTalksQuery, LiveTalksQueryVariables>) {
-        return ApolloReactHooks.useQuery<LiveTalksQuery, LiveTalksQueryVariables>(LiveTalksDocument, baseOptions);
-      }
-export function useLiveTalksLazyQuery(baseOptions?: ApolloReactHooks.LazyQueryHookOptions<LiveTalksQuery, LiveTalksQueryVariables>) {
-          return ApolloReactHooks.useLazyQuery<LiveTalksQuery, LiveTalksQueryVariables>(LiveTalksDocument, baseOptions);
-        }
+export function useLiveTalksQuery(
+  baseOptions?: ApolloReactHooks.QueryHookOptions<
+    LiveTalksQuery,
+    LiveTalksQueryVariables
+  >
+) {
+  return ApolloReactHooks.useQuery<LiveTalksQuery, LiveTalksQueryVariables>(
+    LiveTalksDocument,
+    baseOptions
+  );
+}
+export function useLiveTalksLazyQuery(
+  baseOptions?: ApolloReactHooks.LazyQueryHookOptions<
+    LiveTalksQuery,
+    LiveTalksQueryVariables
+  >
+) {
+  return ApolloReactHooks.useLazyQuery<LiveTalksQuery, LiveTalksQueryVariables>(
+    LiveTalksDocument,
+    baseOptions
+  );
+}
 export type LiveTalksQueryHookResult = ReturnType<typeof useLiveTalksQuery>;
-export type LiveTalksLazyQueryHookResult = ReturnType<typeof useLiveTalksLazyQuery>;
-export type LiveTalksQueryResult = ApolloReactCommon.QueryResult<LiveTalksQuery, LiveTalksQueryVariables>;
+export type LiveTalksLazyQueryHookResult = ReturnType<
+  typeof useLiveTalksLazyQuery
+>;
+export type LiveTalksQueryResult = ApolloReactCommon.QueryResult<
+  LiveTalksQuery,
+  LiveTalksQueryVariables
+>;

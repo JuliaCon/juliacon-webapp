@@ -1,30 +1,27 @@
-import * as Types from '../../apollo/__generated__/types';
+import * as Types from "../../apollo/__generated__/types";
 
-import { PosterListItemFragment } from './PosterListItem.generated';
-import gql from 'graphql-tag';
-import { PosterListItemFragmentDoc } from './PosterListItem.generated';
-import * as ApolloReactCommon from '@apollo/client';
-import * as ApolloReactHooks from '@apollo/client';
+import { PosterListItemFragment } from "./PosterListItem.generated";
+import gql from "graphql-tag";
+import { PosterListItemFragmentDoc } from "./PosterListItem.generated";
+import * as ApolloReactCommon from "@apollo/client";
+import * as ApolloReactHooks from "@apollo/client";
 
-export type PosterListQueryVariables = Types.Exact<{ [key: string]: never; }>;
+export type PosterListQueryVariables = Types.Exact<{ [key: string]: never }>;
 
-
-export type PosterListQuery = (
-  { readonly __typename?: 'Query' }
-  & { readonly posters: ReadonlyArray<(
-    { readonly __typename?: 'Poster' }
-    & PosterListItemFragment
-  )> }
-);
-
+export type PosterListQuery = { readonly __typename?: "Query" } & {
+  readonly posters: ReadonlyArray<
+    { readonly __typename?: "Poster" } & PosterListItemFragment
+  >;
+};
 
 export const PosterListDocument = gql`
-    query PosterList {
-  posters {
-    ...PosterListItem
+  query PosterList {
+    posters {
+      ...PosterListItem
+    }
   }
-}
-    ${PosterListItemFragmentDoc}`;
+  ${PosterListItemFragmentDoc}
+`;
 
 /**
  * __usePosterListQuery__
@@ -41,12 +38,33 @@ export const PosterListDocument = gql`
  *   },
  * });
  */
-export function usePosterListQuery(baseOptions?: ApolloReactHooks.QueryHookOptions<PosterListQuery, PosterListQueryVariables>) {
-        return ApolloReactHooks.useQuery<PosterListQuery, PosterListQueryVariables>(PosterListDocument, baseOptions);
-      }
-export function usePosterListLazyQuery(baseOptions?: ApolloReactHooks.LazyQueryHookOptions<PosterListQuery, PosterListQueryVariables>) {
-          return ApolloReactHooks.useLazyQuery<PosterListQuery, PosterListQueryVariables>(PosterListDocument, baseOptions);
-        }
+export function usePosterListQuery(
+  baseOptions?: ApolloReactHooks.QueryHookOptions<
+    PosterListQuery,
+    PosterListQueryVariables
+  >
+) {
+  return ApolloReactHooks.useQuery<PosterListQuery, PosterListQueryVariables>(
+    PosterListDocument,
+    baseOptions
+  );
+}
+export function usePosterListLazyQuery(
+  baseOptions?: ApolloReactHooks.LazyQueryHookOptions<
+    PosterListQuery,
+    PosterListQueryVariables
+  >
+) {
+  return ApolloReactHooks.useLazyQuery<
+    PosterListQuery,
+    PosterListQueryVariables
+  >(PosterListDocument, baseOptions);
+}
 export type PosterListQueryHookResult = ReturnType<typeof usePosterListQuery>;
-export type PosterListLazyQueryHookResult = ReturnType<typeof usePosterListLazyQuery>;
-export type PosterListQueryResult = ApolloReactCommon.QueryResult<PosterListQuery, PosterListQueryVariables>;
+export type PosterListLazyQueryHookResult = ReturnType<
+  typeof usePosterListLazyQuery
+>;
+export type PosterListQueryResult = ApolloReactCommon.QueryResult<
+  PosterListQuery,
+  PosterListQueryVariables
+>;

@@ -1,53 +1,52 @@
-import * as Types from '../../apollo/__generated__/types';
+import * as Types from "../../apollo/__generated__/types";
 
-import { SpeakerListInlineFragment } from '../speaker/SpeakerListInline.generated';
-import gql from 'graphql-tag';
-import { SpeakerListInlineFragmentDoc } from '../speaker/SpeakerListInline.generated';
-import * as ApolloReactCommon from '@apollo/client';
-import * as ApolloReactHooks from '@apollo/client';
+import { SpeakerListInlineFragment } from "../speaker/SpeakerListInline.generated";
+import gql from "graphql-tag";
+import { SpeakerListInlineFragmentDoc } from "../speaker/SpeakerListInline.generated";
+import * as ApolloReactCommon from "@apollo/client";
+import * as ApolloReactHooks from "@apollo/client";
 
 export type PosterListItemQueryVariables = Types.Exact<{
-  id: Types.Scalars['ID'];
+  id: Types.Scalars["ID"];
 }>;
 
+export type PosterListItemQuery = { readonly __typename?: "Query" } & {
+  readonly poster?: Types.Maybe<
+    { readonly __typename?: "Poster" } & PosterListItemFragment
+  >;
+};
 
-export type PosterListItemQuery = (
-  { readonly __typename?: 'Query' }
-  & { readonly poster?: Types.Maybe<(
-    { readonly __typename?: 'Poster' }
-    & PosterListItemFragment
-  )> }
-);
-
-export type PosterListItemFragment = (
-  { readonly __typename?: 'Poster' }
-  & Pick<Types.Poster, 'id' | 'title' | 'abstract' | 'description' | 'pdflink' | 'day'>
-  & { readonly speakers: ReadonlyArray<(
-    { readonly __typename?: 'Speaker' }
-    & SpeakerListInlineFragment
-  )> }
-);
+export type PosterListItemFragment = { readonly __typename?: "Poster" } & Pick<
+  Types.Poster,
+  "id" | "title" | "abstract" | "description" | "pdflink" | "day"
+> & {
+    readonly speakers: ReadonlyArray<
+      { readonly __typename?: "Speaker" } & SpeakerListInlineFragment
+    >;
+  };
 
 export const PosterListItemFragmentDoc = gql`
-    fragment PosterListItem on Poster {
-  id
-  title
-  abstract
-  description
-  pdflink
-  day
-  speakers {
-    ...SpeakerListInline
+  fragment PosterListItem on Poster {
+    id
+    title
+    abstract
+    description
+    pdflink
+    day
+    speakers {
+      ...SpeakerListInline
+    }
   }
-}
-    ${SpeakerListInlineFragmentDoc}`;
+  ${SpeakerListInlineFragmentDoc}
+`;
 export const PosterListItemDocument = gql`
-    query PosterListItem($id: ID!) {
-  poster(id: $id) {
-    ...PosterListItem
+  query PosterListItem($id: ID!) {
+    poster(id: $id) {
+      ...PosterListItem
+    }
   }
-}
-    ${PosterListItemFragmentDoc}`;
+  ${PosterListItemFragmentDoc}
+`;
 
 /**
  * __usePosterListItemQuery__
@@ -65,12 +64,35 @@ export const PosterListItemDocument = gql`
  *   },
  * });
  */
-export function usePosterListItemQuery(baseOptions?: ApolloReactHooks.QueryHookOptions<PosterListItemQuery, PosterListItemQueryVariables>) {
-        return ApolloReactHooks.useQuery<PosterListItemQuery, PosterListItemQueryVariables>(PosterListItemDocument, baseOptions);
-      }
-export function usePosterListItemLazyQuery(baseOptions?: ApolloReactHooks.LazyQueryHookOptions<PosterListItemQuery, PosterListItemQueryVariables>) {
-          return ApolloReactHooks.useLazyQuery<PosterListItemQuery, PosterListItemQueryVariables>(PosterListItemDocument, baseOptions);
-        }
-export type PosterListItemQueryHookResult = ReturnType<typeof usePosterListItemQuery>;
-export type PosterListItemLazyQueryHookResult = ReturnType<typeof usePosterListItemLazyQuery>;
-export type PosterListItemQueryResult = ApolloReactCommon.QueryResult<PosterListItemQuery, PosterListItemQueryVariables>;
+export function usePosterListItemQuery(
+  baseOptions?: ApolloReactHooks.QueryHookOptions<
+    PosterListItemQuery,
+    PosterListItemQueryVariables
+  >
+) {
+  return ApolloReactHooks.useQuery<
+    PosterListItemQuery,
+    PosterListItemQueryVariables
+  >(PosterListItemDocument, baseOptions);
+}
+export function usePosterListItemLazyQuery(
+  baseOptions?: ApolloReactHooks.LazyQueryHookOptions<
+    PosterListItemQuery,
+    PosterListItemQueryVariables
+  >
+) {
+  return ApolloReactHooks.useLazyQuery<
+    PosterListItemQuery,
+    PosterListItemQueryVariables
+  >(PosterListItemDocument, baseOptions);
+}
+export type PosterListItemQueryHookResult = ReturnType<
+  typeof usePosterListItemQuery
+>;
+export type PosterListItemLazyQueryHookResult = ReturnType<
+  typeof usePosterListItemLazyQuery
+>;
+export type PosterListItemQueryResult = ApolloReactCommon.QueryResult<
+  PosterListItemQuery,
+  PosterListItemQueryVariables
+>;

@@ -1,49 +1,48 @@
-import * as Types from '../../apollo/__generated__/types';
+import * as Types from "../../apollo/__generated__/types";
 
-import { SpeakerInfoFragment } from './SpeakerInfo.generated';
-import { AgendaTalksListItemFragment } from '../agenda/AgendaTalksListItem.generated';
-import gql from 'graphql-tag';
-import { SpeakerInfoFragmentDoc } from './SpeakerInfo.generated';
-import { AgendaTalksListItemFragmentDoc } from '../agenda/AgendaTalksListItem.generated';
-import * as ApolloReactCommon from '@apollo/client';
-import * as ApolloReactHooks from '@apollo/client';
+import { SpeakerInfoFragment } from "./SpeakerInfo.generated";
+import { AgendaTalksListItemFragment } from "../agenda/AgendaTalksListItem.generated";
+import gql from "graphql-tag";
+import { SpeakerInfoFragmentDoc } from "./SpeakerInfo.generated";
+import { AgendaTalksListItemFragmentDoc } from "../agenda/AgendaTalksListItem.generated";
+import * as ApolloReactCommon from "@apollo/client";
+import * as ApolloReactHooks from "@apollo/client";
 
 export type SpeakerDetailsQueryVariables = Types.Exact<{
-  id: Types.Scalars['ID'];
+  id: Types.Scalars["ID"];
 }>;
 
-
-export type SpeakerDetailsQuery = (
-  { readonly __typename?: 'Query' }
-  & { readonly speaker?: Types.Maybe<(
-    { readonly __typename?: 'Speaker' }
-    & Pick<Types.Speaker, 'id' | 'avatar' | 'name' | 'biography'>
-    & { readonly talks: ReadonlyArray<(
-      { readonly __typename?: 'Talk' }
-      & Pick<Types.Talk, 'id'>
-      & AgendaTalksListItemFragment
-    )> }
-    & SpeakerInfoFragment
-  )> }
-);
-
+export type SpeakerDetailsQuery = { readonly __typename?: "Query" } & {
+  readonly speaker?: Types.Maybe<
+    { readonly __typename?: "Speaker" } & Pick<
+      Types.Speaker,
+      "id" | "avatar" | "name" | "biography"
+    > & {
+        readonly talks: ReadonlyArray<
+          { readonly __typename?: "Talk" } & Pick<Types.Talk, "id"> &
+            AgendaTalksListItemFragment
+        >;
+      } & SpeakerInfoFragment
+  >;
+};
 
 export const SpeakerDetailsDocument = gql`
-    query SpeakerDetails($id: ID!) {
-  speaker(id: $id) {
-    ...SpeakerInfo
-    id
-    avatar
-    name
-    biography
-    talks {
+  query SpeakerDetails($id: ID!) {
+    speaker(id: $id) {
+      ...SpeakerInfo
       id
-      ...AgendaTalksListItem
+      avatar
+      name
+      biography
+      talks {
+        id
+        ...AgendaTalksListItem
+      }
     }
   }
-}
-    ${SpeakerInfoFragmentDoc}
-${AgendaTalksListItemFragmentDoc}`;
+  ${SpeakerInfoFragmentDoc}
+  ${AgendaTalksListItemFragmentDoc}
+`;
 
 /**
  * __useSpeakerDetailsQuery__
@@ -61,12 +60,35 @@ ${AgendaTalksListItemFragmentDoc}`;
  *   },
  * });
  */
-export function useSpeakerDetailsQuery(baseOptions?: ApolloReactHooks.QueryHookOptions<SpeakerDetailsQuery, SpeakerDetailsQueryVariables>) {
-        return ApolloReactHooks.useQuery<SpeakerDetailsQuery, SpeakerDetailsQueryVariables>(SpeakerDetailsDocument, baseOptions);
-      }
-export function useSpeakerDetailsLazyQuery(baseOptions?: ApolloReactHooks.LazyQueryHookOptions<SpeakerDetailsQuery, SpeakerDetailsQueryVariables>) {
-          return ApolloReactHooks.useLazyQuery<SpeakerDetailsQuery, SpeakerDetailsQueryVariables>(SpeakerDetailsDocument, baseOptions);
-        }
-export type SpeakerDetailsQueryHookResult = ReturnType<typeof useSpeakerDetailsQuery>;
-export type SpeakerDetailsLazyQueryHookResult = ReturnType<typeof useSpeakerDetailsLazyQuery>;
-export type SpeakerDetailsQueryResult = ApolloReactCommon.QueryResult<SpeakerDetailsQuery, SpeakerDetailsQueryVariables>;
+export function useSpeakerDetailsQuery(
+  baseOptions?: ApolloReactHooks.QueryHookOptions<
+    SpeakerDetailsQuery,
+    SpeakerDetailsQueryVariables
+  >
+) {
+  return ApolloReactHooks.useQuery<
+    SpeakerDetailsQuery,
+    SpeakerDetailsQueryVariables
+  >(SpeakerDetailsDocument, baseOptions);
+}
+export function useSpeakerDetailsLazyQuery(
+  baseOptions?: ApolloReactHooks.LazyQueryHookOptions<
+    SpeakerDetailsQuery,
+    SpeakerDetailsQueryVariables
+  >
+) {
+  return ApolloReactHooks.useLazyQuery<
+    SpeakerDetailsQuery,
+    SpeakerDetailsQueryVariables
+  >(SpeakerDetailsDocument, baseOptions);
+}
+export type SpeakerDetailsQueryHookResult = ReturnType<
+  typeof useSpeakerDetailsQuery
+>;
+export type SpeakerDetailsLazyQueryHookResult = ReturnType<
+  typeof useSpeakerDetailsLazyQuery
+>;
+export type SpeakerDetailsQueryResult = ApolloReactCommon.QueryResult<
+  SpeakerDetailsQuery,
+  SpeakerDetailsQueryVariables
+>;
