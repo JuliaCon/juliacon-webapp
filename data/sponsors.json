@@ -5,7 +5,7 @@
     "moreInfoURL": "https://www.moore.org/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/moore.jpg",
+    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/moore.jpg",
     "tier": "Gold"
   },
   {
@@ -14,7 +14,7 @@
     "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "https://tawk.to/chat/5ce3a59ad07d7e0c6394955f/default",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/julia.png",
+    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/julia.png",
     "tier": "Gold",
     "discord": {
       "channel": "#juliacomputing",
@@ -27,7 +27,7 @@
     "moreInfoURL": "https://www.invenia.ca/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/invenia-labs.png",
+    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/invenia-labs.png",
     "tier": "Silver",
     "discord": {
       "channel": "#invenia",
@@ -40,7 +40,7 @@
     "moreInfoURL": "https://www.zapatacomputing.com/?utm_source=juliacon",
     "videoURL": "https://youtu.be/-6VfSgPXe4s",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/zapata.png",
+    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/zapata.png",
     "tier": "Silver"
   },
   {
@@ -49,7 +49,7 @@
     "moreInfoURL": "https://juspay.in/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/juspay.png",
+    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/juspay.png",
     "tier": "Silver"
   },
   {
@@ -58,7 +58,7 @@
     "moreInfoURL": "",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/sarnoff.png",
+    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/sarnoff.png",
     "tier": "Silver"
   },
   {
@@ -67,7 +67,7 @@
     "moreInfoURL": "https://repl.it/claim?code=JuliaCon2020&utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "https://discord.com/widget?id=437048931827056642",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/repl-it.png",
+    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/repl-it.png",
     "tier": "Silver"
   },
   {
@@ -76,7 +76,7 @@
     "moreInfoURL": "https://pumas.ai/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/pumas.png",
+    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/pumas.png",
     "tier": "Silver"
   },
   {
@@ -85,7 +85,7 @@
     "moreInfoURL": "http://stickermule.com/juliacon20?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/sticker-mule.png",
+    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/sticker-mule.png",
     "tier": "Media Partner"
   },
   {
@@ -94,7 +94,7 @@
     "moreInfoURL": "https://www.amazon.com/stores/page/B332E0D1-AECD-4D89-9DDE-FB67C0E7073A?ingress=0&visitId=53ed5a7b-8bf7-4661-af38-c482a3a1ddb7",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/packt.png",
+    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/packt.png",
     "tier": "Media Partner",
     "discord": {
       "channel": "#packt",
@@ -116,7 +116,7 @@
     "moreInfoURL": "https://numfocus.org/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/2020/assets/img/sponsors/numfocus.png",
+    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/numfocus.png",
     "tier": "Fiscal Sponsor"
   }
 ]
