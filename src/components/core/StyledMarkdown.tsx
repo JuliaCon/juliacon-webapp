@@ -4,7 +4,7 @@ import Markdown from "react-markdown";
 export const StyledMarkdown = ({ source }: { source: string }) => {
   return (
     <div className="styled-markdown">
-      <Markdown source={source} />
+      <Markdown children={source} />
     </div>
   );
 };
