@@ -1,29 +1,51 @@
 import * as React from "react";
-import { NextPage } from "next";
-import { useRouter } from "next/router";
-import Error from "next/error";
+import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 
-import { withApollo } from "../../apollo";
 import { Page } from "../../components/site";
 import { SpeakerDetails } from "../../components/speaker";
+import {
+  getAllSpeakerIds,
+  getSpeakerDetails,
+  SpeakerDetailsData,
+} from "../../data/speaker";
 
-export const SpeakerDetailsPage: NextPage = () => {
-  const router = useRouter();
-  const { id } = router.query;
+interface SpeakerDetailsPageProps {
+  speaker: SpeakerDetailsData;
+}
 
-  if (!id || typeof id !== "string") {
-    return null;
-  }
-
-  if (!id) {
-    return <Error statusCode={404} />;
-  }
-
+export const SpeakerDetailsPage: NextPage<SpeakerDetailsPageProps> = ({
+  speaker,
+}) => {
   return (
     <Page>
-      <SpeakerDetails id={id} />
+      <SpeakerDetails speaker={speaker} />
     </Page>
   );
 };
 
-export default withApollo()(SpeakerDetailsPage);
+export const getStaticPaths: GetStaticPaths = () => {
+  return {
+    paths: getAllSpeakerIds().map((id) => ({
+      params: { id },
+    })),
+    fallback: false,
+  };
+};
+
+export const getStaticProps: GetStaticProps<SpeakerDetailsPageProps> = async (
+  ctx
+) => {
+  const id = ctx.params!.id as string;
+  const speaker = getSpeakerDetails(id);
+  if (!speaker) {
+    throw new Error(`failed to get data for speaker: ${id}`);
+  }
+
+  const props: SpeakerDetailsPageProps = {
+    speaker,
+  };
+
+  return { props };
+};
+
+export default SpeakerDetailsPage;

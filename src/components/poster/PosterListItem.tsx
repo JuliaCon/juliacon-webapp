@@ -1,21 +1,13 @@
 import React from "react";
-import { usePosterListItemQuery } from "./PosterListItem.generated";
+
+import { PosterData } from "../../data/poster";
+import { TextHeading } from "../content";
+import { StyledMarkdown } from "../core";
 import { VSpace } from "../layout";
 import { SpeakerListInline } from "../speaker";
-import { StyledMarkdown } from "../core";
-import { TextHeading } from "../content";
-export const PosterListItem = ({ posterId }: { posterId: string }) => {
-  const { data, error, loading } = usePosterListItemQuery({
-    variables: { id: posterId },
-  });
 
-  if (error) throw error;
-  if (loading) return <p>Loading...</p>;
-  if (!data?.poster) return <p>Couldn't load this poster...</p>;
-
-  const { title, abstract, speakers } = data.poster;
-  const pdflink = String(data.poster.pdflink);
-
+export const PosterListItem = ({ poster }: { poster: PosterData }) => {
+  const { title, abstract, speakers, pdflink } = poster;
   return (
     <div>
       <TextHeading level={"h3"}>

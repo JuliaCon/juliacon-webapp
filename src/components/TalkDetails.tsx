@@ -1,26 +1,15 @@
 import React from "react";
-import { isPast } from "date-fns";
+import { isPast, parseISO } from "date-fns";
 import { css } from "emotion";
+import { TalkOverviewData } from "../data/talk";
 
 import { StyledMarkdown } from "./core";
 import { Center, VSpace } from "./layout";
 import { PageHeading } from "./page";
 import { TalkByline, TalkYouTubeEmbed } from "./talk";
 
-import { useTalkDetailsQuery } from "./TalkDetails.generated";
-
-export const TalkDetails: React.FC<{ id: string }> = ({ id }) => {
-  const { data, error, loading } = useTalkDetailsQuery({
-    variables: { id: id },
-  });
-
-  if (error) throw error;
-  if (loading) return <p>"Loading"</p>;
-  if (!data) throw new Error(`Failed to load data`);
-  const talk = data.talk;
-  if (!talk) return <p>"Not Found"</p>;
-
-  const startTime = new Date(talk.startTime);
+export const TalkDetails = ({ talk }: { talk: TalkOverviewData }) => {
+  const startTime = parseISO(talk.startTime);
   const video = talk.videoCode && isPast(startTime) && (
     <>
       <VSpace />

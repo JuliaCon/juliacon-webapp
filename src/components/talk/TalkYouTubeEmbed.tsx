@@ -1,11 +1,12 @@
-import { LiveTalksTalkFragment } from "../live/LiveTalks.generated";
-import React from "react";
-import { now } from "../../utils/time";
-import YouTube from "react-youtube";
 import { isPast } from "date-fns";
+import React from "react";
+import YouTube from "react-youtube";
+
+import { TalkOverviewData } from "../../data/talk";
+import { now } from "../../utils/time";
 
 interface TalkYouTubeEmbedProps {
-  talk: LiveTalksTalkFragment;
+  talk: TalkOverviewData;
   autoplay?: boolean;
 }
 export const TalkYouTubeEmbed = ({ autoplay, talk }: TalkYouTubeEmbedProps) => {

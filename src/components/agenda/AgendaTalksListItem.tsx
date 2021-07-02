@@ -1,30 +1,21 @@
 import * as React from "react";
 import { css, cx } from "emotion";
+import { TalkOverviewData } from "../../data/talk";
 
 import { desktopOnly, mobileOnly } from "../../utils/css";
 import { Link, StyledMarkdown } from "../core";
 import { Time } from "../date";
 import { VSpace } from "../layout";
 
-import { useAgendaTalksListItemQuery } from "./AgendaTalksListItem.generated";
 import { TalkByline } from "../talk";
 
 export const AgendaTalksListItem = ({
-  talkId,
+  talk,
   noTopBorder,
 }: {
-  talkId: string;
+  talk: TalkOverviewData;
   noTopBorder?: boolean;
 }) => {
-  const { data, error, loading } = useAgendaTalksListItemQuery({
-    variables: { id: talkId },
-  });
-
-  if (error) throw error;
-  if (loading) return <p>Loading...</p>;
-  if (!data?.talk) return <p>Couldn't load this talk...</p>;
-
-  const { talk } = data;
   const { title, abstract, startTime } = talk;
 
   const commonStyle =
@@ -70,7 +61,7 @@ export const AgendaTalksListItem = ({
           flex: 1;
         `}
       >
-        <Link href="/talk/[id]" as={`/talk/${talkId}`}>
+        <Link href="/talk/[id]" as={`/talk/${talk.id}`}>
           <h4
             className={css`
               font-family: "Patua One", sans-serif;

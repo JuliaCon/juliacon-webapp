@@ -1,9 +1,9 @@
 import React from "react";
-import { PosterListItem } from "./PosterListItem";
-import { usePosterListQuery } from "./PosterList.generated";
 import Select from "react-select";
-import { PosterDay } from "../../apollo/__generated__/types";
+
+import { PosterData } from "../../data/poster";
 import { VSpaceBetween } from "../layout";
+import { PosterListItem } from "./PosterListItem";
 
 const selectOptions = [
   {
@@ -12,34 +12,31 @@ const selectOptions = [
   },
   {
     label: "Poster Session One",
-    value: PosterDay.One,
+    value: "1",
   },
   {
     label: "Poster Session Two",
-    value: PosterDay.Two,
+    value: "2",
   },
 ];
 
-export const PosterList = () => {
-  const { data, error, loading } = usePosterListQuery();
-
+export const PosterList = ({
+  posters: allPosters,
+}: {
+  posters: ReadonlyArray<PosterData>;
+}) => {
   const [day, setDay] = React.useState(selectOptions[0]);
   const posters = React.useMemo(() => {
-    const allPosters = data?.posters;
     if (!allPosters) return [];
     if (!day.value) return allPosters;
-    return allPosters.filter((p) => p.day === day.value);
-  }, [data?.posters, day.value]);
-
-  if (error) throw error;
-  if (loading) return <p>Loading...</p>;
-  if (!data?.posters) return <p>Couldn't load the posters </p>;
+    return allPosters.filter((p) => p.session === day.value);
+  }, [allPosters, day.value]);
 
   return (
     <VSpaceBetween space={"1.5rem"}>
       <Select options={selectOptions} value={day} onChange={setDay as any} />
       {posters.map((poster) => (
-        <PosterListItem posterId={poster.id} key={poster.id} />
+        <PosterListItem poster={poster} key={poster.id} />
       ))}
     </VSpaceBetween>
   );

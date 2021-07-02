@@ -1,19 +1,23 @@
 import * as React from "react";
-import { NextPage } from "next";
-
-import { Page } from "../components/site";
-import { PosterList } from "../components/poster";
-import { withApollo } from "../apollo";
-import { PageHeading } from "../components/page";
-import { VSpace } from "../components/layout";
+import { GetStaticProps, NextPage } from "next";
 import Link from "next/link";
+
+import { VSpace } from "../components/layout";
+import { PageHeading } from "../components/page";
+import { PosterList } from "../components/poster";
+import { Page } from "../components/site";
+import { getPosters, PosterData } from "../data/poster";
+
+interface PostersPageProps {
+  posters: ReadonlyArray<PosterData>;
+}
 
 /**
  * An overview of all of the poster submissions for the conference.
  *
  * See https://github.com/JuliaCon/juliacon-webapp/issues/2 for details.
  */
-const PostersPage: NextPage = () => {
+const PostersPage: NextPage<PostersPageProps> = ({ posters }) => {
   return (
     <Page title={"Posters"}>
       <PageHeading>Posters</PageHeading>
@@ -26,9 +30,13 @@ const PostersPage: NextPage = () => {
         the channels devoted to each specific poster.
       </p>
       <VSpace />
-      <PosterList />
+      <PosterList posters={posters} />
     </Page>
   );
 };
 
-export default withApollo()(PostersPage);
+export const getStaticProps: GetStaticProps<PostersPageProps> = async () => {
+  return { props: { posters: getPosters() } };
+};
+
+export default PostersPage;

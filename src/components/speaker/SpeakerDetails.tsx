@@ -1,28 +1,15 @@
 import * as React from "react";
 import { css } from "emotion";
+import { SpeakerDetailsData } from "../../data/speaker";
 import { AgendaTalksListItem } from "../agenda/AgendaTalksListItem";
-import {
-  SpeakerDetailsQuery,
-  useSpeakerDetailsQuery,
-} from "./SpeakerDetails.generated";
 import { HSpace, VSpace } from "../layout";
 import { StyledMarkdown } from "../core";
 
-type SpeakerData = NonNullable<SpeakerDetailsQuery["speaker"]>;
-
-export const SpeakerDetails = ({ id }: { id: string }) => {
-  const { data, error, loading } = useSpeakerDetailsQuery({
-    variables: { id },
-  });
-
-  if (error) throw error;
-  if (loading) return null;
-
-  const { speaker } = data || {};
-  if (!speaker) {
-    return <p>Couldn't load this speaker...</p>;
-  }
-
+export const SpeakerDetails = ({
+  speaker,
+}: {
+  speaker: SpeakerDetailsData;
+}) => {
   const { biography, talks } = speaker;
 
   return (
@@ -43,7 +30,7 @@ export const SpeakerDetails = ({ id }: { id: string }) => {
       <div>
         {talks.map((talk, index) => (
           <AgendaTalksListItem
-            talkId={talk.id}
+            talk={talk}
             key={talk.id}
             noTopBorder={index === 0}
           />
@@ -53,7 +40,11 @@ export const SpeakerDetails = ({ id }: { id: string }) => {
   );
 };
 
-const SpeakerDetailsHeading = ({ speaker }: { speaker: SpeakerData }) => {
+const SpeakerDetailsHeading = ({
+  speaker,
+}: {
+  speaker: SpeakerDetailsData;
+}) => {
   const avatar = speaker.avatar ? (
     <>
       <SpeakerAvatar src={speaker.avatar} />

@@ -1,8 +1,8 @@
 import * as React from "react";
+import { SpeakerOverviewData } from "../../data/speaker";
 import { interleaveMap } from "../../utils/array";
 import { arrayToFragment } from "../../utils/react";
 import { Link } from "../core";
-import { SpeakerListInlineFragment } from "./SpeakerListInline.generated";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUsers } from "@fortawesome/free-solid-svg-icons/faUsers";
 import { HSpace } from "../layout";
@@ -10,7 +10,7 @@ import { HSpace } from "../layout";
 export const SpeakerListInline = ({
   speakers,
 }: {
-  speakers: readonly SpeakerListInlineFragment[];
+  speakers: ReadonlyArray<SpeakerOverviewData>;
 }) => {
   // Interleave the speaker links with commas
   const speakersRendered = interleaveMap(

@@ -3,14 +3,14 @@ import { css } from "emotion";
 import { faClock } from "@fortawesome/free-solid-svg-icons/faClock";
 import { faCompass } from "@fortawesome/free-solid-svg-icons/faCompass";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { TalkOverviewData } from "../../data/talk";
 
 import { HSpace, VSpace } from "../layout";
 import { SpeakerListInline } from "../speaker";
 import { TimeRangeFormatted } from "../date";
-import { TalkBylineFragment } from "./TalkByline.generated";
 
 export interface TalkBylineProps {
-  talk: TalkBylineFragment;
+  talk: TalkOverviewData;
   vertical?: boolean;
 }
 

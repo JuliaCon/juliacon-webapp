@@ -14,17 +14,3 @@ const Agenda: NextPage = () => {
 };
 
 export default Agenda;
-
-Agenda.getInitialProps = async ({ res }) => {
-  // Normally, the user will make an HTTP request to / and then we can just
-  // return an HTTP 302 to redirect them to the appropriate page (instead of
-  // loading the page **then** getting a redirect, which negates the benefits
-  // of SSR).
-  if (!res) return {};
-  const day = getClosestConferenceDay();
-  res.writeHead(
-    302, // Found (non-permanent redirect),
-    { Location: `/agenda/${day}` }
-  );
-  res.end();
-};

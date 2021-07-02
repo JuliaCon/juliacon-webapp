@@ -1,4 +1,7 @@
+const path = require("path");
 const webpack = require("webpack");
+
+const srcDir = path.join(process.cwd(), "src");
 
 module.exports = {
   webpack: (config, { isServer, dev }) => {
@@ -18,7 +21,19 @@ module.exports = {
     if (!isServer) {
       config.plugins.push(
         new webpack.IgnorePlugin({
-          resourceRegExp: /\/server\//,
+          /**
+           *
+           * @param r {string}
+           * @param ctx {string}
+           * @returns {boolean}
+           */
+          checkResource(r, ctx) {
+            if (r.includes("server") && ctx.startsWith(srcDir)) {
+              console.log(r, ctx);
+              return true;
+            }
+            return false;
+          },
         })
       );
     }

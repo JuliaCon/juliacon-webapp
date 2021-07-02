@@ -3,8 +3,8 @@ import { parseISO } from "date-fns";
 import { format } from "date-fns-tz";
 
 export interface TimeRangeFormattedProps {
-  start: string;
-  end: string;
+  start: Date | string;
+  end: Date | string;
   collapseDay?: boolean;
 }
 export const TimeRangeFormatted: React.FC<TimeRangeFormattedProps> = ({
@@ -12,21 +12,21 @@ export const TimeRangeFormatted: React.FC<TimeRangeFormattedProps> = ({
   end,
   collapseDay = false,
 }) => {
-  const startTime = parseISO(start);
-  const endTime = parseISO(end);
+  start = typeof start === "string" ? parseISO(start) : start;
+  end = typeof end === "string" ? parseISO(end) : end;
 
   if (collapseDay) {
     return (
       <span>
-        {formatTimeOnly(startTime)} &mdash; {formatTimeOnly(endTime)}{" "}
-        {format(endTime, "zzz")}
+        {formatTimeOnly(start)} &mdash; {formatTimeOnly(end)}{" "}
+        {format(end, "zzz")}
       </span>
     );
   }
 
   return (
     <span>
-      {format(startTime, "Pp")} &mdash; {format(endTime, "p zzz")}
+      {format(start, "Pp")} &mdash; {format(end, "p zzz")}
     </span>
   );
 };

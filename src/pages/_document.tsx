@@ -3,6 +3,7 @@ import Document, {
   NextScript,
   Head,
   DocumentContext,
+  Html,
 } from "next/document";
 import React from "react";
 import { extractCritical } from "emotion-server";
@@ -27,7 +28,7 @@ class AppDocument extends Document {
 
   render() {
     return (
-      <html>
+      <Html>
         <Head>
           <script dangerouslySetInnerHTML={{ __html: gaScript }} />
         </Head>
@@ -35,7 +36,7 @@ class AppDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }

@@ -1,58 +1,34 @@
 import React from "react";
-import { NextPage } from "next";
-import { withApollo } from "../../apollo";
+import { GetStaticPaths, GetStaticProps, NextPage } from "next";
+
 import { AgendaTalksList } from "../../components/agenda";
 import { ConferenceDayPicker } from "../../components/date";
-import { Page } from "../../components/site";
 import { Center, VSpace } from "../../components/layout";
-import { useApolloClient } from "@apollo/client";
-import {
-  AgendaTalksListDocument,
-  AgendaTalksListQuery,
-  AgendaTalksListQueryVariables,
-} from "../../components/agenda/AgendaTalksList.generated";
-import { ConferenceDay, isConferenceDay } from "../../const";
-import { useRouter } from "next/router";
-import Error from "next/error";
 import { PageHeading } from "../../components/page";
+import { Page } from "../../components/site";
+import { CONFERENCE_DAYS, ConferenceDay } from "../../const";
+import { getTalksForDay, TalkOverviewData } from "../../data/talk";
 
-const Agenda: NextPage = () => {
-  const router = useRouter();
-  const { day } = router.query;
-  const apollo = useApolloClient();
+interface AgendaProps {
+  day: ConferenceDay;
+  talks: ReadonlyArray<TalkOverviewData>;
+}
 
-  const onNavIntent = React.useCallback(
-    (day: ConferenceDay) => {
-      apollo.query<AgendaTalksListQuery, AgendaTalksListQueryVariables>({
-        query: AgendaTalksListDocument,
-        variables: {
-          conferenceDay: day,
-        },
-      });
-    },
-    [apollo]
-  );
-
-  if (typeof day !== "string" || !isConferenceDay(day)) {
-    return <Error statusCode={404} />;
-  }
-
+const Agenda: NextPage<AgendaProps> = ({ day, talks }) => {
   return (
     <Page title={"Agenda"}>
       <PageHeading>Conference Agenda</PageHeading>
       <VSpace />
       <Center>
-        <ConferenceDayPicker
-          day={day}
-          linkHrefFn={linkHrefFn}
-          onNavIntent={onNavIntent}
-        />
+        <ConferenceDayPicker day={day} linkHrefFn={linkHrefFn} />
       </Center>
       <VSpace />
-      <AgendaTalksList conferenceDay={day} />
+      <AgendaTalksList talks={talks} />
     </Page>
   );
 };
+
+export default Agenda;
 
 function linkHrefFn(day: ConferenceDay) {
   return {
@@ -61,4 +37,22 @@ function linkHrefFn(day: ConferenceDay) {
   };
 }
 
-export default withApollo()(Agenda);
+export const getStaticProps: GetStaticProps<AgendaProps> = async (ctx) => {
+  const day = ctx.params?.["day"] as ConferenceDay;
+
+  const props: AgendaProps = {
+    day,
+    talks: getTalksForDay(day),
+  };
+
+  return { props };
+};
+
+export const getStaticPaths: GetStaticPaths = async (ctx) => {
+  return {
+    paths: CONFERENCE_DAYS.map((day) => ({
+      params: { day },
+    })),
+    fallback: false,
+  };
+};
