@@ -28,7 +28,7 @@ function fetch_pretalx(filter_fn::Function, resource; out_file=resource, token=n
     []
   end
   resp = HTTP.get(
-    "https://pretalx.com/api/events/juliacon2020/$(resource)?limit=500",
+    "https://pretalx.com/api/events/juliacon2021/$(resource)?limit=500",
     headers,
   )
   data = JSON.parse(String(resp.body))
