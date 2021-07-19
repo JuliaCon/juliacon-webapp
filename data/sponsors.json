@@ -1,5 +1,14 @@
 [
   {
+    "sponsorName": "Julia Computing",
+    "blurb": "The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements and preservation of the special character of the Bay Area.",
+    "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon", 
+    "videoURL": "",
+    "chatChannelName": "#juliacomputing",
+    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/jclogo.png",
+    "tier": "Platinum"
+  },
+  {
     "sponsorName": "Gordon and Betty Moore Foundation",
     "blurb": "The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements and preservation of the special character of the Bay Area.",
     "moreInfoURL": "https://www.moore.org/?utm_source=juliacon",
@@ -9,15 +18,15 @@
     "tier": "Gold"
   },
   {
-    "sponsorName": "Julia Computing",
-    "blurb": "Julia Computing was founded by the creators of Julia. We make products that make Julia easy to use, easy to deploy and easy to scale.\n To see our products in action, please join our demos during JuliaCon. [Register here](https://eu.jotform.com/form/201873164343453).",
-    "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon",
+    "sponsorName": "Relational AI",
+    "blurb": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason.",
+    "moreInfoURL": "https://www.relational.ai?utm_source=juliacon",
     "videoURL": "",
-    "chatChannelName": "https://tawk.to/chat/5ce3a59ad07d7e0c6394955f/default",
-    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/julia.png",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/relational_ai.jpeg",
     "tier": "Gold",
     "discord": {
-      "channel": "#juliacomputing",
+      "channel": "#relational-ai",
       "url": "https://discord.com/channels/709438882504245358/736564526467645451"
     }
   },
@@ -27,7 +36,7 @@
     "moreInfoURL": "https://www.invenia.ca/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/invenia-labs.png",
+    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/invenia-labs.png",
     "tier": "Silver",
     "discord": {
       "channel": "#invenia",
@@ -35,58 +44,39 @@
     }
   },
   {
-    "sponsorName": "Zapata Computing",
-    "blurb": "Zapata Computing, Inc. is the quantum software company for near-term/NISQ-based quantum applications empowering enterprise teams to accelerate quantum solutions, innovation and transformation.",
-    "moreInfoURL": "https://www.zapatacomputing.com/?utm_source=juliacon",
-    "videoURL": "https://youtu.be/-6VfSgPXe4s",
+    "sponsorName": "Conning",
+    "blurb": "We develop customized investment strategies that address our clients’ unique objectives, requirements and tolerance for risk. We develop solutions by leveraging Conning’s risk management tools and utilizing a highly disciplined investment process that relies on fundamental analysis.",
+    "moreInfoURL": "https://www.conning.com/?utm_source=juliacon",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/zapata.png",
+    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/conning.png",
     "tier": "Silver"
   },
   {
-    "sponsorName": "Juspay",
-    "blurb": "Juspay is the leading mobile payments platform in India, processing >4 million txns/day with 200 million SDK installs. We are heavily invested using functional programming techniques using Haskell and using data science techniques for intelligent ops using Julia. ",
-    "moreInfoURL": "https://juspay.in/?utm_source=juliacon",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/juspay.png",
-    "tier": "Silver"
-  },
-  {
-    "sponsorName": "Jeffrey Sarnoff",
-    "blurb": "",
-    "moreInfoURL": "",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/sarnoff.png",
-    "tier": "Silver"
-  },
-  {
-    "sponsorName": "repl.it",
-    "blurb": "Repl.it is the easiest, fastest, and most collaborative way to code in Julia and 50+ other languages online. We make programming, rapid prototyping, and sharing easier with multiplayer, no-setup, automatic hosting, and more. Start coding (in Julia) now!",
-    "moreInfoURL": "https://repl.it/claim?code=JuliaCon2020&utm_source=juliacon",
-    "videoURL": "",
-    "chatChannelName": "https://discord.com/widget?id=437048931827056642",
-    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/repl-it.png",
-    "tier": "Silver"
-  },
-  {
-    "sponsorName": "Pumas",
-    "blurb": "Pumas is a Julia-based comprehensive platform for pharmaceutical modeling and simulation",
+    "sponsorName": "Pumas AI",
+    "blurb": "With deep expertise in allied fields of clinical pharmacology, pharmacometrics, drug development, regulations and advanced data analytics including machine learning, Pumas-AI works with companies, laboratories and universities as their healthcare intelligence partner. Our proprietary solutions tap the potential of data with the power of advanced scientific analytics. We help scientists, healthcare providers, biotechnology and pharmaceutical businesses as well as regulatory bodies plan, develop, test and deliver better.",
     "moreInfoURL": "https://pumas.ai/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/pumas.png",
+    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/pumas-ai.png",
     "tier": "Silver"
   },
   {
-    "sponsorName": "Sticker Mule",
-    "blurb": "Sticker Mule is the fastest and easiest way to buy custom printed products. Order in 60 seconds and we'll turn your designs and illustrations into custom stickers, magnets, buttons, labels and packaging in days. We offer free online proofs, free worldwide shipping and super fast turnaround.",
-    "moreInfoURL": "http://stickermule.com/juliacon20?utm_source=juliacon",
+    "sponsorName": "QuEra Computing Inc.",
+    "blurb": "QuEra is a neutral-atom based quantum computing startup located in the heart of Boston near Harvard University. The company is founded on pioneering research by world-renowned scientists Mikhail Lukin, Vladan Vuletic, and Markus Greiner at Harvard and MIT. At QuEra, our mission is to build the most scalable quantum computers to date to tackle useful but classically intractable problems for commercially relevant applications in optimization, simulation, materials-science, pharmaceuticals, and more. To do so, we are assembling a world-class team of scientists and engineers to bring quantum computing from promise to reality.",
+    "moreInfoURL": "https://www.quera-computing.com/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/sticker-mule.png",
-    "tier": "Media Partner"
+    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/quera logo white.png",
+    "tier": "Silver"
+  },
+  {
+    "sponsorName": "King Abdullah University of Science and Technology",
+    "blurb": "KAUST advances science and technology through distinctive and collaborative research integrated with graduate education. We are a catalyst for innovation, economic development and social prosperity in Saudi Arabia and the world",
+    "moreInfoURL": "https://www.kaust.edu.sa/en/?utm_source=juliacon",
+    "videoURL": "",
+    "chatChannelName": "https://discord.com/widget?id=437048931827056642",
+    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/kaust.png",
+    "tier": "Silver"
   },
   {
     "sponsorName": "Packt Publication",
@@ -100,15 +90,6 @@
       "channel": "#packt",
       "url": "https://discord.com/channels/709438882504245358/736564992811204619"
     }
-  },
-  {
-    "sponsorName": "Vercel",
-    "blurb": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
-    "moreInfoURL": "https://vercel.com/?utm_source=juliacon",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "/vercel.svg",
-    "tier": "Media Partner"
   },
   {
     "sponsorName": "NumFOCUS",

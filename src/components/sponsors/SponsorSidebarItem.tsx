@@ -6,10 +6,7 @@ import { css, cx } from "emotion";
 export const SponsorSidebarItem = (sponsor: {
   sponsor: {
     sponsorName: string;
-    blurb: string;
     moreInfoURL: string;
-    videoURL: string;
-    chatChannelName: string;
     logoURL: string;
     tier: string;
   };
@@ -45,13 +42,11 @@ export const SponsorSidebarItem = (sponsor: {
       `
   );
 
-  const imgElt = (
+  return (
     <img
       src={sponsorObj.logoURL}
       alt={sponsorObj.sponsorName}
       className={imgStyle}
     />
   );
-
-  return imgElt;
 };

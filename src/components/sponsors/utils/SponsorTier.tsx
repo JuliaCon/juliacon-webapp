@@ -3,6 +3,7 @@ import { SponsorData } from "./Sponsor";
 import sponsorsData from "../../../../data/sponsors.json";
 
 export enum SponsorTier {
+  Platinum = "Platinum",
   Gold = "Gold",
   Silver = "Silver",
   MediaPartner = "Media Partner",
@@ -11,6 +12,8 @@ export enum SponsorTier {
 
 export function sponsorTier(sponsor: SponsorData) {
   switch (sponsor.tier) {
+    case "Platinum":
+      return SponsorTier.Platinum;
     case "Gold":
       return SponsorTier.Gold;
     case "Silver":
@@ -30,6 +33,8 @@ export function getSponsorsByTier(tier: SponsorTier) {
 
 export function sponsorTierColor(tier: SponsorTier) {
   switch (tier) {
+    case SponsorTier.Platinum:
+      return "#e5e4e2";
     case SponsorTier.Gold:
       return "gold";
     case SponsorTier.Silver:
