@@ -79,6 +79,15 @@
     "tier": "Silver"
   },
   {
+    "sponsorName": "DataChef,
+    "blurb": " DataChef is a boutique big data consultancy, based in Amsterdam. We are specialists in helping modern marketing and sales teams by demystifying data and simplifying information for them.". 
+    "moreInfoURL": "https://datachef.co/?utm_source=juliacon",
+    "videoURL": "",
+    "chatChannelName": "https://discord.com/widget?id=437048931827056642",
+    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/datachef.png",
+    "tier": "Silver"
+  },
+  {
     "sponsorName": "Packt Publication",
     "blurb": "Packt is the online library and learning platform for professional developers. Learn Julia, Python, Angular and more with eBooks, videos and courses.",
     "moreInfoURL": "https://www.amazon.com/stores/page/B332E0D1-AECD-4D89-9DDE-FB67C0E7073A?ingress=0&visitId=53ed5a7b-8bf7-4661-af38-c482a3a1ddb7",
