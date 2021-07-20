@@ -876,7 +876,7 @@
  },
  {
   "text": "time",
-  "count": 76,
+  "count": 77,
   "talks": [
    2,
    3,
@@ -901,6 +901,7 @@
    87,
    88,
    89,
+   90,
    91,
    93,
    98,
@@ -1048,9 +1049,8 @@
  },
  {
   "text": "explain",
-  "count": 21,
+  "count": 20,
   "talks": [
-   13,
    29,
    43,
    52,
@@ -2531,7 +2531,7 @@
  },
  {
   "text": "workshop",
-  "count": 48,
+  "count": 49,
   "talks": [
    16,
    29,
@@ -3210,7 +3210,7 @@
  },
  {
   "text": "data",
-  "count": 174,
+  "count": 175,
   "talks": [
    1,
    4,
@@ -3580,8 +3580,9 @@
  },
  {
   "text": "jupyter notebook",
-  "count": 16,
+  "count": 20,
   "talks": [
+   37,
    40,
    138,
    161,
@@ -5553,10 +5554,11 @@
  },
  {
   "text": "file",
-  "count": 19,
+  "count": 20,
   "talks": [
    8,
    31,
+   37,
    61,
    64,
    96,
@@ -6801,7 +6803,7 @@
  },
  {
   "text": "library",
-  "count": 55,
+  "count": 54,
   "talks": [
    1,
    9,

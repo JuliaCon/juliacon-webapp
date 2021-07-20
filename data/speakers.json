@@ -462,7 +462,7 @@
    "RXBMHE"
   ],
   "code": "9YQMAK",
-  "biography": "Software engineer at Julia Computing, working on the Julia compiler and its support for various GPU platforms. Maintains several GPU-related Julia packages, including CUDA.jl, oneAPI.jl, GPUArrays.jl, GPUCompiler.jl and LLVM.jl. Received a PhD in computer science engineering from Ghent University, Belgium."
+  "biography": "I'm a software engineer at Julia Computing, working on Julia's GPU packages and compilers."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/logo_YZnDt1D.png",
@@ -2638,7 +2638,7 @@
    "7GYDRZ"
   ],
   "code": "VQFKCJ",
-  "biography": null
+  "biography": "I am an AI Researcher at Ericsson Research. My research interests lie in reinforcement learning, planning under uncertainty, and AI safety. Prior to joining Ericsson I completed my PhD at Stanford University under the supervision of Prof. Mykel Kochenderfer. My thesis was about safe and scalable planning under uncertainty for autonomous driving and all the code was written in Julia. At Juliacon 2021 I will present work I did during my thesis."
  },
  {
   "avatar": null,
