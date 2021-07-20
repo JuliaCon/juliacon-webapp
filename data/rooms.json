@@ -1,44 +1,62 @@
 [
  {
   "name": {
-   "en": "Red Track"
+   "en": "Blue"
   },
-  "id": 379,
-  "position": 0,
-  "description": {},
-  "url": "/orga/event/juliacon2020/schedule/rooms/379/",
-  "capacity": null
- },
- {
-  "name": {
-   "en": "Green Track"
-  },
-  "id": 380,
-  "position": 1,
-  "description": {},
-  "url": "/orga/event/juliacon2020/schedule/rooms/380/",
-  "capacity": null
- },
- {
-  "name": {
-   "en": "Purple Track"
-  },
-  "id": 381,
+  "id": 882,
   "position": 2,
   "description": {},
-  "url": "/orga/event/juliacon2020/schedule/rooms/381/",
+  "url": "/orga/event/juliacon2021/schedule/rooms/882/",
   "capacity": null
  },
  {
   "name": {
-   "en": "BoF"
+   "en": "Green"
   },
-  "id": 382,
+  "id": 883,
+  "position": 0,
+  "description": {},
+  "url": "/orga/event/juliacon2021/schedule/rooms/883/",
+  "capacity": null
+ },
+ {
+  "name": {
+   "en": "Red"
+  },
+  "id": 884,
+  "position": 1,
+  "description": {},
+  "url": "/orga/event/juliacon2021/schedule/rooms/884/",
+  "capacity": null
+ },
+ {
+  "name": {
+   "en": "Purple"
+  },
+  "id": 888,
   "position": 3,
-  "description": {
-   "en": "Birds of a Feather"
+  "description": {},
+  "url": "/orga/event/juliacon2021/schedule/rooms/888/",
+  "capacity": null
+ },
+ {
+  "name": {
+   "en": "JuMP Track"
   },
-  "url": "/orga/event/juliacon2020/schedule/rooms/382/",
+  "id": 889,
+  "position": 5,
+  "description": {},
+  "url": "/orga/event/juliacon2021/schedule/rooms/889/",
+  "capacity": null
+ },
+ {
+  "name": {
+   "en": "BoF/Mini Track"
+  },
+  "id": 890,
+  "position": 4,
+  "description": {},
+  "url": "/orga/event/juliacon2021/schedule/rooms/890/",
   "capacity": null
  }
 ]
