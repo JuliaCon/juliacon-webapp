@@ -6381,7 +6381,24 @@
   "submission_type": {
    "en": "Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Presentation part1",
+    "resource": "/media/juliacon2021/submissions/UKASBZ/resources/juliacon2021p1_vckClFx.pdf"
+   },
+   {
+    "description": "Presentation part2",
+    "resource": "/media/juliacon2021/submissions/UKASBZ/resources/juliacon2021p2_7xjbHKd.pdf"
+   },
+   {
+    "description": "Presentation part3",
+    "resource": "/media/juliacon2021/submissions/UKASBZ/resources/juliacon2021p3_mlPbtGg.pdf"
+   },
+   {
+    "description": "Presentation part4",
+    "resource": "/media/juliacon2021/submissions/UKASBZ/resources/juliacon2021p4_6mcrjbf.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "SmartTensors: Unsupervised Machine Learning",
   "abstract": "Demonstrate SmartTensors (http://tensors.lanl.gov; https://github.com/SmartTensors): a toolbox for unsupervised machine learning based on matrix/tensor factorization constrained by penalties enforcing robustness and interpretability (e.g., nonnegativity; physics and mathematical constraints; etc.). SmartTensors has been applied to analyze diverse datasets related to a wide range of problems: from COVID-19 to wildfires and climate."
