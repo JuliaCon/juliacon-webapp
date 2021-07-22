@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import POSTERS from "../../data/posters.json";
 import POSTER_SESSIONS from "../../data/postersessions.json";
 
@@ -23,34 +25,38 @@ export interface PosterFilterCriteria {
 export function getPosters({
   session,
 }: PosterFilterCriteria = {}): ReadonlyArray<PosterData> {
-  type FilterFn = (p: PosterRawData) => boolean;
-  let filters: FilterFn[] = [];
-  if (session) {
-    filters.push((p) => getPosterSession(p.code) === session);
-  }
-  return POSTERS.filter((p) => filters.every((filter) => filter(p))).map(
-    (p): PosterData => {
-      // TypeScript gets a bit confused in the type inference for the speakers
-      // field here, so we have to help it a bit
-      interface RawSpeakerData {
-        code: string;
-        name: string;
-      }
-      const speakers = (p.speakers as RawSpeakerData[]).map(
-        (s): SpeakerOverviewData => ({ id: s.code, name: s.name })
-      );
+  // TODO:
+  //    There are currently no posted posters. Update this once we have posters.
+  return [];
 
-      return {
-        id: p.code,
-        title: p.title,
-        abstract: p.abstract,
-        description: p.description,
-        session: getPosterSession(p.code),
-        pdflink: `/uploads/posters/${p.code}.pdf`,
-        speakers,
-      };
-    }
-  );
+  // type FilterFn = (p: PosterRawData) => boolean;
+  // let filters: FilterFn[] = [];
+  // if (session) {
+  //   filters.push((p) => getPosterSession(p.code) === session);
+  // }
+  // return POSTERS.filter((p) => filters.every((filter) => filter(p))).map(
+  //   (p): PosterData => {
+  //     // TypeScript gets a bit confused in the type inference for the speakers
+  //     // field here, so we have to help it a bit
+  //     interface RawSpeakerData {
+  //       code: string;
+  //       name: string;
+  //     }
+  //     const speakers = (p.speakers as RawSpeakerData[]).map(
+  //       (s): SpeakerOverviewData => ({ id: s.code, name: s.name })
+  //     );
+  //
+  //     return {
+  //       id: p.code,
+  //       title: p.title,
+  //       abstract: p.abstract,
+  //       description: p.description,
+  //       session: getPosterSession(p.code),
+  //       pdflink: `/uploads/posters/${p.code}.pdf`,
+  //       speakers,
+  //     };
+  //   }
+  // );
 }
 
 const SESSION_ONE = POSTER_SESSIONS.find((s) => s.code === "9BNNMD")!;
