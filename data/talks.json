@@ -2755,7 +2755,7 @@
   "duration": 30,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/witte_profile_picture_GwOx8ka.png",
     "name": "Philipp A. Witte",
     "code": "LSJRYM",
     "biography": "Philipp A. Witte is a researcher at Microsoft Research for Industry (RFI), a new initiative within Microsoft for developing innovative research solutions for industry-related problems ranging from AI/ML to edge- and high-performance computing. Prior to Microsoft, Philipp received his B.Sc. and M.Sc. in Geophysics from the University of Hamburg and his Ph.D. in Computational Science and Engineering from the Georgia Institute of Technology. During his Ph.D., Philipp worked with Professor Felix J. Herrmann at the Seismic Laboratory for Imaging and Modeling (SLIM) on computational aspects of least squares seismic imaging and full-waveform inversion. He has authored and contributed to multiple open-source software packages, including Devito, the Julia Devito Inversion framework (JUDI) and InvertibleNetworks.jl, a Julia framework for deep learning with normalizing flows."
@@ -6074,7 +6074,7 @@
   "duration": 30,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/witte_profile_picture_GwOx8ka.png",
     "name": "Philipp A. Witte",
     "code": "LSJRYM",
     "biography": "Philipp A. Witte is a researcher at Microsoft Research for Industry (RFI), a new initiative within Microsoft for developing innovative research solutions for industry-related problems ranging from AI/ML to edge- and high-performance computing. Prior to Microsoft, Philipp received his B.Sc. and M.Sc. in Geophysics from the University of Hamburg and his Ph.D. in Computational Science and Engineering from the Georgia Institute of Technology. During his Ph.D., Philipp worked with Professor Felix J. Herrmann at the Seismic Laboratory for Imaging and Modeling (SLIM) on computational aspects of least squares seismic imaging and full-waveform inversion. He has authored and contributed to multiple open-source software packages, including Devito, the Julia Devito Inversion framework (JUDI) and InvertibleNetworks.jl, a Julia framework for deep learning with normalizing flows."
