@@ -5545,7 +5545,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Game development in Julia with GameZero.jl",
-  "abstract": "A game development workshop where participants will create a few simple games, inspired by classic games from the early days of computing. This workshop is suitable for beginner programmers, or for experienced coders hoping to teach programming to younger people. Or for anyone wanting to have some fun while programming."
+  "abstract": "A game development workshop where participants will create a few simple games, inspired by classic games from the early days of computing. This workshop is suitable for beginner programmers, or for experienced coders hoping to teach programming to younger people. Or for anyone wanting to have some fun while programming.\r\n\r\nPlease add the GameZero and Colors package to a julia environment."
  },
  {
   "content_locale": "en",
