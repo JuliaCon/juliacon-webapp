@@ -33,6 +33,13 @@
       "color": 3447003,
       "description": "The Discord channel for discussion of talks happening in the \"Blue\" track. During the conference, this channel should only be used to discuss talks as they're occurring.",
       "roomId": 382
+    },
+    {
+      "name": "JuMP Track",
+      "channelId": "868218059872145418",
+      "color": 15105570,
+      "description": "The Discord channel for JuMP-dev colocated conference.",
+      "roomId": 383
     }
   ]
 }
