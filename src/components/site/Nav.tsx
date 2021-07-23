@@ -28,7 +28,7 @@ export const Nav = () => {
       {/*<NavLink href={"/discord/join"}>Join Discord</NavLink>*/}
       <NavLink href={"/agenda"}>Agenda</NavLink>
       {/*<NavLink href={"/live"}>Live Schedule</NavLink>*/}
-      <NavLink href={"/posters"}>Posters</NavLink>
+      {/*<NavLink href={"/posters"}>Posters</NavLink>*/}
       <NavLink href={"/sponsors"}>Sponsors</NavLink>
       <div
         className={cx(
