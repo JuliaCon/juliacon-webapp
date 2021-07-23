@@ -52,23 +52,15 @@ const DiscordJoinPage: NextPage = () => {
       </p>
       <VSpace />
       <p>
-        If you’re comfortable using the designated hallway channels to direct
-        questions to presenters, please do so. This way everyone can benefit
-        from the answer you get! Attendees are encouraged to request new
+        If you’re comfortable using the designated main track/hallway channels
+        to direct questions to presenters, please do so. This way everyone can
+        benefit from the answer you get! Attendees are encouraged to request new
         channels to create gathering places for those with specific interests
         (e.g., #web for attendees interested in applications of Julia to the
-        web). Let us know in #channel-requests if you’d like a new text or voice
-        channel. To report issues, please contact an admin (red) or organizer
-        (blue) on Discord. Organizers are identifiable in the user list on
-        Discord.
-      </p>
-      <VSpace />
-      <p>
-        Note that if you asked for you ticket to be refunded, you will need to{" "}
-        <a href={"https://juliacon.org/2020/tickets/"}>
-          re-register for the conference
-        </a>{" "}
-        (at no cost).
+        web). Let us know in #request-a-channel if you’d like a new text or
+        voice channel. To report issues, please contact an admin (dark gray) or
+        organizer (blue) on Discord. Organizers are identifiable in the user
+        list on Discord.
       </p>
       <VSpace height={"2rem"} />
       <div
@@ -162,10 +154,10 @@ const DiscordRules = () => {
   return (
     <>
       <p>
-        As a reminder, discussion in the JuliaCon 2020 Discord server must
+        As a reminder, discussion in the JuliaCon 2021 Discord server must
         adhere to the{" "}
         <a
-          href={"https://juliacon.org/2020/coc"}
+          href={"https://juliacon.org/2021/coc"}
           target={"_blank"}
           rel={"noopener noreferrer"}
         >
@@ -177,7 +169,7 @@ const DiscordRules = () => {
           target={"_blank"}
           rel={"noopener noreferrer"}
         >
-          JuliaCon Code of Conduct
+          Julia Community Standards
         </a>{" "}
         . Please also observe these expectations for the server:
       </p>
@@ -192,8 +184,8 @@ const DiscordRules = () => {
         `}
       >
         <li>
-          Discussion in the conference track channels (#red, #green, and
-          #purple) should pertain to the talk currently airing in the
+          Discussion in the conference track channels (#red, #green, #purple,
+          and #blue) should pertain to the talk currently airing in the
           corresponding track.
         </li>
         <li>
