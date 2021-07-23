@@ -1660,7 +1660,7 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Publish your research software: Journal of Open Source Software",
+  "title": "Publish your research code: The Journal of Open Source Software",
   "abstract": "JOSS, the Journal of Open Source Software (https://joss.theoj.org/) is a venue for publishing research software packages.  This provides a mechanism for the large time investment required to develop open-source research software to be included within traditional systems for academic credit.\r\n\r\nA JOSS paper is meant to be a short description of the contribution provided by the research software,\r\nwith the main content being in the (archived) software repository itself."
  },
  {
