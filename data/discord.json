@@ -2,30 +2,37 @@
   "channels": [
     {
       "name": "General",
-      "channelId": "736586325079228426",
+      "channelId": "859573366942990378",
       "color": 4219864,
       "description": "The Discord channel for general discussion about JuliaCon."
     },
     {
-      "name": "Red Track",
-      "channelId": "732263253811658783",
+      "name": "Red",
+      "channelId": "867219931318059069",
       "color": 13319219,
       "description": "The Discord channel for discussion of talks happening in the \"Red\" track. During the conference, this channel should only be used to discuss talks as they're occurring.",
       "roomId": 379
     },
     {
-      "name": "Green Track",
-      "channelId": "732263286812442665",
+      "name": "Green",
+      "channelId": "867219956378632222",
       "color": 3708966,
       "description": "The Discord channel for discussion of talks happening in the \"Green\" track. During the conference, this channel should only be used to discuss talks as they're occurring.",
       "roomId": 380
     },
     {
-      "name": "Purple Track",
-      "channelId": "732263307880431667",
+      "name": "Purple",
+      "channelId": "867219972730912828",
       "color": 9787570,
       "description": "The Discord channel for discussion of talks happening in the \"Purple\" track. During the conference, this channel should only be used to discuss talks as they're occurring.",
       "roomId": 381
+    },
+    {
+      "name": "Blue",
+      "channelId": "867219982072676382",
+      "color": 3447003,
+      "description": "The Discord channel for discussion of talks happening in the \"Blue\" track. During the conference, this channel should only be used to discuss talks as they're occurring.",
+      "roomId": 382
     }
   ]
 }
