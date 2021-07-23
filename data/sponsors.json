@@ -1,7 +1,7 @@
 [
   {
     "sponsorName": "Julia Computing",
-    "blurb": "The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements and preservation of the special character of the Bay Area.",
+    "blurb": "Julia Computing's mission is to develop products that make Julia easy to use, easy to deploy and easy to scale. Julia Computing provides secure and scalable enterprise computing solutions through its JuliaHub platform. The company also creates a suite of modern ML-enhanced modeling and simulation tools, such as JuliaSim for multi-physics simulation, and JuliaSPICE for circuit simulation.",
     "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon", 
     "videoURL": "",
     "chatChannelName": "#juliacomputing",
