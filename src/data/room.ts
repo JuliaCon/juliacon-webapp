@@ -10,14 +10,14 @@ export interface RoomData {
 const colors: Record<string, string | undefined> = {
   "Red": "#cb3c33",
   "Red Track": "#cb3c33",
-  "Green": "#389826",
-  "Green Track": "#389826",
+  "Green": "#318722",
+  "Green Track": "#318722",
   "Purple": "#9558B2",
   "Purple Track": "#9558B2",
   "Blue": "#4063D8",
   "Blue Track": "#4063D8",
-  "BoF/Mini Track": "#fc7412",
-  "JuMP Track": "#80FFC8",
+  "JuMP Track": "#3E7E93",
+  "BoF/Mini Track": "#757575",
 };
 
 const ALL_ROOMS = roomsData.map((data): RoomData => {

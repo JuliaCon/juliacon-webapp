@@ -10,14 +10,19 @@ import { isAfter, isBefore, parseISO } from "date-fns";
 import { css } from "emotion";
 import { GetServerSideProps, NextPage } from "next";
 import React from "react";
+import { StyledMarkdown } from "../components/core";
 
-import { VSpace } from "../components/layout";
+import { VSpace, VSpaceBetween } from "../components/layout";
 import { PageHeading } from "../components/page";
 import { Page } from "../components/site";
+import { TalkByline, TalkYouTubeEmbed } from "../components/talk";
 import { findTalks, TalkOverviewData } from "../data/talk";
+import { invariant } from "../utils/invariant";
+
+type TalkList = ReadonlyArray<TalkOverviewData>;
 
 interface LivePageProps {
-  talks: ReadonlyArray<TalkOverviewData>;
+  talks: TalkList;
 }
 
 const LivePage: NextPage<LivePageProps> = ({ talks }) => {
@@ -46,10 +51,33 @@ export const getServerSideProps: GetServerSideProps<LivePageProps> =
     };
   };
 
-const TalkTabs = ({ talks }: { talks: ReadonlyArray<TalkOverviewData> }) => {
+const TalkTabs = ({ talks }: { talks: TalkList }) => {
+  invariant(talks.length > 0, `TalkTabs requires talks array to be non-empty`);
+  const fallbackRoomId = talks[0].room.id;
+  const [roomId, setRoomId] = React.useState<string>(fallbackRoomId);
+
+  const tabIndex = getIndexFromRoomId(talks, roomId);
+
+  // If the room goes idle, tabIndex becomes null (since the roomId doesn't
+  // correspond to a tab that actually exists). In that case, we just want to
+  // set the active room to the first room in the list.
+  React.useEffect(() => {
+    if (tabIndex === null) {
+      setRoomId(fallbackRoomId);
+    }
+  }, [fallbackRoomId, tabIndex]);
+
+  const onTabChange = React.useCallback(
+    (index) => {
+      setRoomId(getRoomIdFromIndex(talks, index) || fallbackRoomId);
+    },
+    [fallbackRoomId, talks]
+  );
+
   return (
     <Tabs
       orientation={TabsOrientation.Vertical}
+      onChange={onTabChange}
       className={css`
         &[data-reach-tabs] {
           display: grid;
@@ -68,12 +96,27 @@ const TalkTabs = ({ talks }: { talks: ReadonlyArray<TalkOverviewData> }) => {
       </TabList>
       <TabPanels>
         {talks.map((t) => (
-          <TalkPanel key={t.id} talk={t} />
+          <TalkPanel key={t.id} talk={t} active={t.room.id === roomId} />
         ))}
       </TabPanels>
     </Tabs>
   );
 };
+
+function getIndexFromRoomId(
+  talks: TalkList,
+  roomId: string | null
+): number | null {
+  const index = talks.findIndex((t) => t.room.id === roomId);
+  if (index === -1) return null;
+  return index;
+}
+
+function getRoomIdFromIndex(talks: TalkList, index: number): string | null {
+  if (!talks.length) return null;
+  const talk = talks[index] || talks[0];
+  return talk.room.id;
+}
 
 const TalkTab = ({ talk }: { talk: TalkOverviewData }) => {
   return (
@@ -112,16 +155,41 @@ const TalkTab = ({ talk }: { talk: TalkOverviewData }) => {
   );
 };
 
-const TalkPanel = ({ talk }: { talk: TalkOverviewData }) => {
+const TalkPanel = ({
+  talk,
+  active,
+}: {
+  talk: TalkOverviewData;
+  active: boolean;
+}) => {
   return (
-    <TabPanel>
-      <pre
-        className={css`
-          white-space: pre-line;
-        `}
-      >
-        <code>{JSON.stringify(talk, null, 1)}</code>
-      </pre>
+    <TabPanel
+      className={css`
+        padding: 0 1rem;
+      `}
+    >
+      <VSpaceBetween space={"2rem"}>
+        <h2
+          className={css`
+            font-size: 1.75rem;
+            font-family: "Patua One", sans-serif;
+          `}
+        >
+          {talk.title}
+        </h2>
+        <div>
+          <TalkYouTubeEmbed talk={talk} autoplay />
+        </div>
+        <TalkByline talk={talk} />
+        {talk.abstract && <StyledMarkdown source={talk.abstract} />}
+        {/*<pre*/}
+        {/*  className={css`*/}
+        {/*    white-space: pre-wrap;*/}
+        {/*  `}*/}
+        {/*>*/}
+        {/*  <code>{JSON.stringify(talk, null, 1)}</code>*/}
+        {/*</pre>*/}
+      </VSpaceBetween>
     </TabPanel>
   );
 };
@@ -148,9 +216,7 @@ function compareRoom(a: string, b: string): number {
 /**
  * Return the set of talks that are happening right this very second.
  */
-function useLiveTalks(
-  talks: ReadonlyArray<TalkOverviewData>
-): ReadonlyArray<TalkOverviewData> {
+function useLiveTalks(talks: TalkList): TalkList {
   const now = useNow();
   const happeningNow = talks.filter((talk) => {
     return (
