@@ -5252,7 +5252,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Generative Models with Latent Differential Equations in Julia",
-  "abstract": "Scientific Machine Learning (SciML) is the branch of scientific computing that combines domain-aware and interpretable models with robust machine learning techniques. The Julia language has been a key enabler of this burgeoning field, thanks to its unique SciML ecosystem. However, there are no ready-to-use implementations of generative models with latent differential equations. Here, we present an addition to the DiffEqFlux.jl package that offers easy and flexible access to this class of models."
+  "abstract": "Scientific Machine Learning (SciML) is the branch of scientific computing that combines domain-aware and interpretable models with robust machine learning techniques. The Julia language has been a key enabler of this burgeoning field, thanks to its unique SciML ecosystem. In this talk, we will present a contribution in this direction: an easy and flexible implementation of generative latent differential equations models."
  },
  {
   "content_locale": "en",
