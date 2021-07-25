@@ -51,6 +51,7 @@ export const JobsPage: NextPage = () => {
           <TextHeading level={"h3"}>DataChef</TextHeading>
           <VSpaceBetween space={"0.5rem"} spaceAbove>
             <p>
+              We are hiring <ExternalLink href="https://www.notion.so/Data-Engineer-872d13c58766443d809dce3c6bd3a5af"> data engineers</ExternalLink>. 
             </p>
           </VSpaceBetween>
         </div>
