@@ -30,6 +30,7 @@ export const Nav = () => {
       {/*<NavLink href={"/live"}>Live Schedule</NavLink>*/}
       {/*<NavLink href={"/posters"}>Posters</NavLink>*/}
       <NavLink href={"/sponsors"}>Sponsors</NavLink>
+      <NavLink href={"/jobs"}>Jobs Board</NavLink>
       <div
         className={cx(
           css`
