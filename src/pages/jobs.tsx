@@ -44,6 +44,16 @@ export const JobsPage: NextPage = () => {
           <TextHeading level={"h3"}>King Abdullah University of Science and Technology (KAUST)</TextHeading>
           <VSpaceBetween space={"0.5rem"} spaceAbove>
             <p>
+            We have:
+
+            <ol>
+                <li><ExternalLink href="https://www.kaust.edu.sa/en/about/faculty-positions">Faculty Openings</ExternalLink> </li>
+                <li><ExternalLink href="https://www.kaust.edu.sa/en/about/postdoc-researcher-positions">PostDoc and Research Scientist Openings</ExternalLink> </li>
+                <li><ExternalLink href="https://admissions.kaust.edu.sa/">Student Admissions</ExternalLink> </li>
+            </ol>
+
+            If you have questions, reach out to the appropriate e-mail and contacts listed on the KAUST website.
+
             </p>
           </VSpaceBetween>
         </div>
