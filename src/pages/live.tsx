@@ -6,7 +6,14 @@ import {
   Tabs,
   TabsOrientation,
 } from "@reach/tabs";
-import { isAfter, isBefore, parseISO } from "date-fns";
+import {
+  addHours,
+  addMinutes,
+  addSeconds,
+  isAfter,
+  isBefore,
+  parseISO,
+} from "date-fns";
 import { css } from "emotion";
 import { GetServerSideProps, NextPage } from "next";
 import React from "react";
@@ -26,18 +33,25 @@ interface LivePageProps {
 }
 
 const LivePage: NextPage<LivePageProps> = ({ talks }) => {
-  const happeningNow = useLiveTalks(talks);
   return (
-    <Page title="Live Overview">
-      <PageHeading>Live Overview</PageHeading>
-      <VSpace />
-      {happeningNow.length ? (
-        <TalkTabs talks={happeningNow} />
-      ) : (
-        <p>No talks are happening right now.</p>
-      )}
-    </Page>
+    <NowOverrideProvider initialValue="2021-07-28T13:25:11.834Z">
+      <Page title="Live Overview">
+        <PageHeading>Live Overview</PageHeading>
+        <VSpace />
+        {__DEV__ && <NowManipulator />}
+        <Inner talks={talks} />
+      </Page>
+    </NowOverrideProvider>
   );
+};
+
+const Inner = ({ talks }: { talks: TalkList }) => {
+  const happeningNow = useLiveTalks(talks);
+  if (happeningNow.length) {
+    return <TalkTabs talks={happeningNow} />;
+  } else {
+    return <p>No talks are happening right now.</p>;
+  }
 };
 
 export default LivePage;
@@ -177,18 +191,36 @@ const TalkPanel = ({
         >
           {talk.title}
         </h2>
-        <div>
-          <TalkYouTubeEmbed talk={talk} autoplay />
-        </div>
+        <div>{active && <TalkYouTubeEmbed talk={talk} autoplay />}</div>
         <TalkByline talk={talk} />
-        {talk.abstract && <StyledMarkdown source={talk.abstract} />}
-        {/*<pre*/}
-        {/*  className={css`*/}
-        {/*    white-space: pre-wrap;*/}
-        {/*  `}*/}
-        {/*>*/}
-        {/*  <code>{JSON.stringify(talk, null, 1)}</code>*/}
-        {/*</pre>*/}
+        {talk.abstract && (
+          <>
+            <h3
+              className={css`
+                font-size: 1.25rem;
+                font-family: "Patua One", sans-serif;
+                margin-bottom: 1rem;
+              `}
+            >
+              Abstract
+            </h3>
+            <StyledMarkdown source={talk.abstract} />
+          </>
+        )}
+        {talk.description && (
+          <>
+            <h3
+              className={css`
+                font-size: 1.25rem;
+                font-family: "Patua One", sans-serif;
+                margin-bottom: 1rem;
+              `}
+            >
+              Description
+            </h3>
+            <StyledMarkdown source={talk.description} />
+          </>
+        )}
       </VSpaceBetween>
     </TabPanel>
   );
@@ -218,6 +250,7 @@ function compareRoom(a: string, b: string): number {
  */
 function useLiveTalks(talks: TalkList): TalkList {
   const now = useNow();
+  console.log({ now });
   const happeningNow = talks.filter((talk) => {
     return (
       isBefore(parseISO(talk.startTime), now) &&
@@ -228,14 +261,118 @@ function useLiveTalks(talks: TalkList): TalkList {
   return happeningNow;
 }
 
+interface NowContext {
+  now: Date;
+  setNow(d: Date | ((d: Date) => Date)): void;
+  advancing: boolean;
+  setAdvancing(advancing: boolean): void;
+}
+const NowOverrideContext = React.createContext<NowContext | null>(null);
+
+const NowOverrideProvider = ({
+  children,
+  initialValue,
+}: {
+  children: React.ReactNode;
+  initialValue?: string;
+}) => {
+  const [now, setNow] = React.useState(() =>
+    initialValue ? parseISO(initialValue) : new Date()
+  );
+  console.log({ now });
+  const [advancing, setAdvancing] = React.useState(true);
+
+  React.useEffect(() => {
+    if (!advancing) return;
+
+    // Note: This interval won't actually be exactly every second (due to
+    // various latencies) so it will advance slightly slower than 1 second.
+    // That's fine since this is only really for testing purposes.
+    const interval = setInterval(() => {
+      setNow((now) => addSeconds(now, 1));
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [advancing]);
+
+  const ctx: NowContext = {
+    now,
+    setNow,
+    advancing,
+    setAdvancing,
+  };
+  return (
+    <NowOverrideContext.Provider value={ctx}>
+      {children}
+    </NowOverrideContext.Provider>
+  );
+};
+
+const NowManipulator = () => {
+  const ctx = React.useContext(NowOverrideContext);
+  if (!ctx) return null;
+
+  let nowstr = ctx.now.toISOString();
+  nowstr = nowstr.substr(0, nowstr.length - 1);
+
+  return (
+    <div>
+      <div>
+        <input
+          type="datetime-local"
+          value={nowstr}
+          onChange={(e) => {
+            const val = e.currentTarget.value;
+            const newNow = parseISO(val + "Z");
+            console.log({ nowstr, val, newNow });
+            if (Number.isNaN(newNow.getTime())) {
+              // skip update
+              return;
+            }
+            ctx.setNow(newNow);
+          }}
+        />
+        <button onClick={() => ctx.setAdvancing(!ctx.advancing)}>
+          {ctx.advancing ? "Pause" : "Play"}
+        </button>
+      </div>
+      <div
+        className={css`
+          button {
+            padding: 0.25rem;
+            margin: 0.5rem;
+          }
+        `}
+      >
+        <button onClick={() => ctx.setNow((d) => addMinutes(d, -1))}>
+          - minute
+        </button>
+        <button onClick={() => ctx.setNow((d) => addMinutes(d, 1))}>
+          + minute
+        </button>
+        <button onClick={() => ctx.setNow((d) => addHours(d, -1))}>
+          - hour
+        </button>
+        <button onClick={() => ctx.setNow((d) => addHours(d, 1))}>
+          + hour
+        </button>
+      </div>
+    </div>
+  );
+};
+
 function useNow(): Date {
-  return parseISO("2021-07-28T13:25:11.834Z");
-  // const [now, setNow] = React.useState(() => new Date());
-  // React.useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setNow(new Date());
-  //   }, 5 * 1000);
-  //   return () => clearInterval(interval);
-  // }, []);
-  // return now;
+  const override = React.useContext(NowOverrideContext);
+  const [now, setNow] = React.useState(() => new Date());
+
+  React.useEffect(() => {
+    if (override) return;
+    const interval = setInterval(() => {
+      setNow(new Date());
+    }, 5 * 1000);
+    return () => clearInterval(interval);
+  }, [override]);
+
+  if (override) return override.now;
+  return now;
 }
