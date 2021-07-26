@@ -58,8 +58,8 @@ const DiscordJoinPage: NextPage = () => {
         channels to create gathering places for those with specific interests
         (e.g., #web for attendees interested in applications of Julia to the
         web). Let us know in #request-a-channel if you’d like a new text or
-        voice channel. To report issues, please contact an admin (dark gray) or
-        organizer (blue) on Discord. Organizers are identifiable in the user
+        voice channel. To report issues, please contact an organizer (blue) or 
+        moderator (green) on Discord. Organizers are identifiable in the user
         list on Discord.
       </p>
       <VSpace height={"2rem"} />
