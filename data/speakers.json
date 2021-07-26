@@ -2550,15 +2550,6 @@
   "biography": null
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/AZ_HeadShot_0fSjyJn.jpg",
-  "name": "Albert Zevelev",
-  "submissions": [
-   "DUPLEQ"
-  ],
-  "code": "UUMSPV",
-  "biography": "Assistant Professor, Baruch College. \r\nPhD, Wharton. \r\nBA, Brandeis."
- },
- {
   "avatar": "https://pretalx.com/media/avatars/IMG_0628-2_KSwS1fR.jpeg",
   "name": "Manuela Vanegas Ferro",
   "submissions": [
@@ -2860,15 +2851,6 @@
  },
  {
   "avatar": null,
-  "name": "Didier ROBBES",
-  "submissions": [
-   "DX39KW"
-  ],
-  "code": "Y7DBV9",
-  "biography": "Computer Science teacher in Nantes University, current PhD student under Xavier Gandibleux's supervision.\r\nhttps://sciences-techniques.univ-nantes.fr/didier-robbes"
- },
- {
-  "avatar": null,
   "name": "LI TANG",
   "submissions": [
    "GJRKY3"
@@ -2965,15 +2947,6 @@
   ],
   "code": "YYDPCZ",
   "biography": "I am a longtime Julia contributor with a special interest in GPU programming and HPC. I currently work at Amazon Braket as a scientist."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/9IJfQV41SZK-etvkFNEPpQ_1_Ou0YjXT.jpeg",
-  "name": "Harsha Nagarajan",
-  "submissions": [
-   "KBJG3X"
-  ],
-  "code": "YZAWN9",
-  "biography": "http://harshanagarajan.com"
  },
  {
   "avatar": null,
@@ -3159,14 +3132,5 @@
   ],
   "code": "ZY8YGR",
   "biography": "A random Julia enthusiast, occasional contributor."
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/%C3%ADndice_yUuDMkO.jpeg",
-  "name": "Óscar Alvarado",
-  "submissions": [
-   "999RJ7"
-  ],
-  "code": "ZZTWND",
-  "biography": null
  }
 ]
