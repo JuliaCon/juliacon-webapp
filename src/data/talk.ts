@@ -44,6 +44,7 @@ ALL_TALKS.sort(
 
 export interface TalkOverviewData {
   id: string;
+  type: string;
   title: string;
   description: string;
   videoCode: string | null;
@@ -58,6 +59,11 @@ export interface TalkOverviewData {
 
   room: RoomData;
   speakers: ReadonlyArray<SpeakerOverviewData>;
+
+  nextTalk: null | {
+    id: string;
+    title: string;
+  };
 }
 
 export function getAllTalkIds(): ReadonlyArray<string> {
@@ -118,6 +124,10 @@ function normalizeTalkOverview(t: typeof ALL_TALKS[number]): TalkOverviewData {
     throw new Error(`failed to load room: ${t.roomId} (for talk: ${t.id}`);
   }
 
+  const nextTalk = ALL_TALKS.find(
+    (other) => other.roomId === t.roomId && other.startTime === t.endTime
+  );
+
   return {
     ...pick(t, [
       "id",
@@ -128,12 +138,20 @@ function normalizeTalkOverview(t: typeof ALL_TALKS[number]): TalkOverviewData {
       "startTime",
       "endTime",
     ]),
+    type: t.submissionType,
     day: talkDay(t),
     room,
     speakers,
 
-    videoCode: video?.code || null,
+    videoCode: video?.code || "dQw4w9WgXcQ",
     isLive: video?.isLive || false,
+
+    nextTalk: nextTalk
+      ? {
+          id: nextTalk.id,
+          title: nextTalk.title,
+        }
+      : null,
   };
 }
 

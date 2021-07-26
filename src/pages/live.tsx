@@ -17,7 +17,7 @@ import {
 import { css } from "emotion";
 import { GetServerSideProps, NextPage } from "next";
 import React from "react";
-import { StyledMarkdown } from "../components/core";
+import { Link, StyledMarkdown } from "../components/core";
 
 import { VSpace, VSpaceBetween } from "../components/layout";
 import { PageHeading } from "../components/page";
@@ -38,7 +38,8 @@ const LivePage: NextPage<LivePageProps> = ({ talks }) => {
       <Page title="Live Overview">
         <PageHeading>Live Overview</PageHeading>
         <VSpace />
-        {__DEV__ && <NowManipulator />}
+        <NowManipulator />
+        <VSpace />
         <Inner talks={talks} />
       </Page>
     </NowOverrideProvider>
@@ -105,12 +106,18 @@ const TalkTabs = ({ talks }: { talks: TalkList }) => {
         `}
       >
         {talks.map((t) => (
-          <TalkTab key={t.id} talk={t} />
+          // NOTE: We make the key the room id here to prevent the YouTube video
+          // from dismounting between subsequent live talks (i.e., to avoid
+          // disrupting the livestreams). This is required since otherwise,
+          // between two live talks (e.g., successive keynotes), React will see
+          // that the key changed and re-create the whole DOM tree from this
+          // node (which will re-trigger the YouTube video to autoplay).
+          <TalkTab key={t.room.id} talk={t} />
         ))}
       </TabList>
       <TabPanels>
         {talks.map((t) => (
-          <TalkPanel key={t.id} talk={t} active={t.room.id === roomId} />
+          <TalkPanel key={t.room.id} talk={t} active={t.room.id === roomId} />
         ))}
       </TabPanels>
     </Tabs>
@@ -221,6 +228,28 @@ const TalkPanel = ({
             <StyledMarkdown source={talk.description} />
           </>
         )}
+        {talk.nextTalk && (
+          <div
+            className={css`
+              width: 20rem;
+              margin-left: auto;
+              border-left: 0.5rem solid ${talk.room.color || "#cccccc"};
+              padding: 0.5rem;
+            `}
+          >
+            <p>Up Next:</p>
+            <VSpace height={"0.5rem"} />
+            <p
+              className={css`
+                padding-left: 1rem;
+              `}
+            >
+              <Link href={"/talk/[id]"} as={`/talk/${talk.nextTalk.id}`}>
+                {talk.nextTalk.title}
+              </Link>
+            </p>
+          </div>
+        )}
       </VSpaceBetween>
     </TabPanel>
   );
@@ -250,14 +279,23 @@ function compareRoom(a: string, b: string): number {
  */
 function useLiveTalks(talks: TalkList): TalkList {
   const now = useNow();
-  console.log({ now });
-  const happeningNow = talks.filter((talk) => {
-    return (
-      isBefore(parseISO(talk.startTime), now) &&
-      isAfter(parseISO(talk.endTime), now)
-    );
-  });
-  happeningNow.sort((a, b) => compareRoom(a.room.name, b.room.name));
+  const happeningNow = React.useMemo(() => {
+    const happeningNow = talks.filter((talk) => {
+      if (talk.type === "Keynote" && !talk.nextTalk) {
+        // For keynotes (which are live), we pad the end of the session to allow
+        // for when they (inevitably) go over time.
+        const endTime = addMinutes(parseISO(talk.endTime), 15);
+        return isBefore(parseISO(talk.startTime), now) && isAfter(endTime, now);
+      }
+      return (
+        isBefore(parseISO(talk.startTime), now) &&
+        isAfter(parseISO(talk.endTime), now)
+      );
+    });
+
+    happeningNow.sort((a, b) => compareRoom(a.room.name, b.room.name));
+    return happeningNow;
+  }, [now, talks]);
   return happeningNow;
 }
 
@@ -279,7 +317,6 @@ const NowOverrideProvider = ({
   const [now, setNow] = React.useState(() =>
     initialValue ? parseISO(initialValue) : new Date()
   );
-  console.log({ now });
   const [advancing, setAdvancing] = React.useState(true);
 
   React.useEffect(() => {
@@ -316,7 +353,15 @@ const NowManipulator = () => {
   nowstr = nowstr.substr(0, nowstr.length - 1);
 
   return (
-    <div>
+    <div
+      className={css`
+        button {
+          padding: 0.5rem;
+          margin: 0.25rem 0.5rem;
+          border-radius: 1rem;
+        }
+      `}
+    >
       <div>
         <input
           type="datetime-local"
@@ -324,7 +369,6 @@ const NowManipulator = () => {
           onChange={(e) => {
             const val = e.currentTarget.value;
             const newNow = parseISO(val + "Z");
-            console.log({ nowstr, val, newNow });
             if (Number.isNaN(newNow.getTime())) {
               // skip update
               return;
@@ -336,26 +380,21 @@ const NowManipulator = () => {
           {ctx.advancing ? "Pause" : "Play"}
         </button>
       </div>
-      <div
-        className={css`
-          button {
-            padding: 0.25rem;
-            margin: 0.5rem;
-          }
-        `}
-      >
+      <div>
+        <button onClick={() => ctx.setNow((d) => addHours(d, -1))}>- 1h</button>
+        <button onClick={() => ctx.setNow((d) => addMinutes(d, -5))}>
+          - 5m
+        </button>
         <button onClick={() => ctx.setNow((d) => addMinutes(d, -1))}>
-          - minute
+          - 1m
         </button>
         <button onClick={() => ctx.setNow((d) => addMinutes(d, 1))}>
-          + minute
+          + 1m
         </button>
-        <button onClick={() => ctx.setNow((d) => addHours(d, -1))}>
-          - hour
+        <button onClick={() => ctx.setNow((d) => addMinutes(d, 5))}>
+          + 5m
         </button>
-        <button onClick={() => ctx.setNow((d) => addHours(d, 1))}>
-          + hour
-        </button>
+        <button onClick={() => ctx.setNow((d) => addHours(d, 1))}>+ 1h</button>
       </div>
     </div>
   );
@@ -369,7 +408,7 @@ function useNow(): Date {
     if (override) return;
     const interval = setInterval(() => {
       setNow(new Date());
-    }, 5 * 1000);
+    }, 1000);
     return () => clearInterval(interval);
   }, [override]);
 
