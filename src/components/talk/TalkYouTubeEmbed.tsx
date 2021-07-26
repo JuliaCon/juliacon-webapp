@@ -4,14 +4,13 @@ import React from "react";
 import YouTube from "react-youtube";
 
 import { TalkOverviewData } from "../../data/talk";
-import { now } from "../../utils/time";
 
 interface TalkYouTubeEmbedProps {
   talk: TalkOverviewData;
   autoplay?: boolean;
 }
 export const TalkYouTubeEmbed = ({ autoplay, talk }: TalkYouTubeEmbedProps) => {
-  const [mountTime] = React.useState<Date>(() => now());
+  const [mountTime] = React.useState<Date>(() => new Date());
 
   /*
    * When the YouTube player is mounted, we seek to the position in the video

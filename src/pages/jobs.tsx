@@ -5,7 +5,6 @@ import { Page } from "../components/site";
 import { PageHeading } from "../components/page";
 import { VSpace, VSpaceBetween } from "../components/layout";
 import { ExternalLink, TextHeading } from "../components/content";
-import { Link } from "../components/core";
 
 export const JobsPage: NextPage = () => {
   return (

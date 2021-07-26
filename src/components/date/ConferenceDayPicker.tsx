@@ -8,7 +8,6 @@ import { faCaretRight } from "@fortawesome/free-solid-svg-icons/faCaretRight";
 
 import { CONFERENCE_DAYS, ConferenceDay, isConferenceDay } from "../../const";
 import { MouseoverAction, UnstyledLink } from "../core";
-import { now } from "../../utils/time";
 
 interface ConferenceDayPickerProps {
   day: ConferenceDay;
@@ -111,7 +110,7 @@ export const ConferenceDayPicker = ({
 };
 
 export function getClosestConferenceDay(): ConferenceDay {
-  const today = format(now(), `yyyy-MM-dd`);
+  const today = format(new Date(), `yyyy-MM-dd`);
 
   if (isConferenceDay(today)) {
     return today;
