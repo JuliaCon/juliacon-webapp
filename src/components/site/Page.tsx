@@ -23,7 +23,7 @@ export const Page: React.FC<PageProps> = ({
       `}
     >
       <Head>
-        <title>{title && `${title} | `}JuliaCon 2020</title>
+        <title>{title && `${title} | `}JuliaCon 2021</title>
       </Head>
       <Header />
       <MainContentContainer hideSponsorSidebar={hideSponsorSidebar}>

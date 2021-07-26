@@ -25,6 +25,7 @@ const DiscordAuthHandler: NextApiHandler = async (req, res) => {
       orderId: eventbriteCode,
     });
   } catch (e) {
+    console.log(`error while getting eventbrite order details`, e);
     res.status(302);
     res.setHeader(
       "Location",

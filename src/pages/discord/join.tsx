@@ -115,7 +115,7 @@ const DiscordJoinForm = ({ status }: DiscordJoinFormProps) => {
       <DiscordRules />
       <VSpace />
       <p>
-        By joining the JuliaCon 2020 Discord server, you are acknowledging the
+        By joining the JuliaCon 2021 Discord server, you are acknowledging the
         rules above and are agreeing to follow them.
       </p>
       <VSpace />
@@ -138,7 +138,7 @@ const DiscordJoinSuccess = () => {
       </Center>
       <VSpace />
       <p>
-        You have been sucessfully added to the JuliaCon 2020 Discord server.
+        You have been sucessfully added to the JuliaCon 2021 Discord server.
         Please download the{" "}
         <a href="https://discord.com/new">Discord native client</a> or use the{" "}
         <a href="https://discord.com/app">Discord web app</a> (in browser) to

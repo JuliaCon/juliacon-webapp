@@ -17,7 +17,7 @@ const VizPage: NextPage = () => {
       <VSpace />
       <Center>
         <p>
-          JuliaCon 2020 talks by time and virtual room, or topic - hover over a
+          JuliaCon 2021 talks by time and virtual room, or topic - hover over a
           point or word to explore!
         </p>
       </Center>
