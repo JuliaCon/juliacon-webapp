@@ -2135,8 +2135,8 @@
  },
  {
   "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:45:00Z",
-  "duration": 30,
+  "end_datetime": "2021-07-30T18:00:00Z",
+  "duration": 45,
   "location": "BoF/Mini Track",
   "id": "P7BSFC",
   "title": "The virtual poster session be hosted on gathertown.",
@@ -3157,10 +3157,10 @@
   "speaker": "Alinson Santos Xavier"
  },
  {
-  "start_datetime": "2021-07-30T14:50:00Z",
-  "end_datetime": "2021-07-30T14:53:00Z",
+  "start_datetime": "2021-07-30T17:15:00Z",
+  "end_datetime": "2021-07-30T17:18:00Z",
   "duration": 3,
-  "location": "JuMP Track",
+  "location": "BoF/Mini Track",
   "id": "XR9MLU",
   "title": "Yawipa: a comprehensive and extensible Wiktionary parser",
   "url": "/talk/XR9MLU",

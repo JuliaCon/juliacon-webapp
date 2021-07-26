@@ -7076,7 +7076,7 @@
   "code": "P7BSFC",
   "track": null,
   "state": "confirmed",
-  "duration": 30,
+  "duration": 45,
   "speakers": [],
   "description": "",
   "image": null,
@@ -7086,7 +7086,7 @@
    "room": {
     "en": "BoF/Mini Track"
    },
-   "end": "2021-07-30T17:45:00Z"
+   "end": "2021-07-30T18:00:00Z"
   },
   "submission_type": {
    "en": "Virtual Poster"
@@ -10520,11 +10520,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2021-07-30T14:50:00Z",
+   "start": "2021-07-30T17:15:00Z",
    "room": {
-    "en": "JuMP Track"
+    "en": "BoF/Mini Track"
    },
-   "end": "2021-07-30T14:53:00Z"
+   "end": "2021-07-30T17:18:00Z"
   },
   "submission_type": {
    "en": "Experience"
