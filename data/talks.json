@@ -5263,8 +5263,8 @@
   "duration": 10,
   "speakers": [
    {
-    "avatar": null,
-    "name": "Gregory Szep",
+    "avatar": "https://pretalx.com/media/avatars/mug_Vl6jeo0.png",
+    "name": "Grisha Szep",
     "code": "ZBMJRN",
     "biography": "Russian/Hungarian biophysics and machine learning PhD student at King's College London, collaborating with Microsoft Research Cambridge. Born in Vienna. Wanted to become an actor but luckily landed in research"
    }
@@ -6047,7 +6047,7 @@
     "biography": "I am a physicist studying exotic matter formation via resonance phenomena of the QCD.\r\n\r\nField: elementary particles, hadron spectroscopy\r\n\r\nOrganizations: CERN (LHCb, COMPASS), JPAC, ORIGINS Cluster"
    }
   ],
-  "description": "The field of High Energy Physics (HEP) is a natural place to take great benefits of Julia language. The adaptation of Julia in HEP, however, has been slow and the HEP ecosystem stays a promising place for future development. In the talk, I will present an example of the data analysis in LHCb, a large collaboration of 1000 scientists, that pioneers an application of Julia to the typical HEP problems. The central part of the analysis is the study of a multi-particle spectrum by building a customary Mixture Model PDF based on the particle-scattering amplitude, extended-likelihood fitting, and spin-hypotheses testing using sets of pseudo experiments.",
+  "description": "The field of High Energy Physics (HEP) is a natural place to take great benefits of Julia language. The adaptation of Julia in HEP, however, has been slow and the HEP ecosystem stays a promising place for future development. In the talk, I will present [an example of the data analysis in LHCb](https://inspirehep.net/literature/1879440), a large collaboration of 1000 scientists, that pioneers an application of Julia to the typical HEP problems. The central part of the analysis is the study of a multi-particle spectrum by building a customary Mixture Model PDF based on the particle-scattering amplitude using [AlgebraPDF.jl](https://github.com/mmikhasenko/AlgebraPDF.jl), extended-likelihood fitting, and spin-hypotheses testing using sets of pseudo experiments.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -6060,10 +6060,15 @@
   "submission_type": {
    "en": "Lightning talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "slides",
+    "resource": "/media/juliacon2021/submissions/TRMZFB/resources/talk-at-juliahep_kkQ09fl.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "Julia for data analysis in High Energy Physics",
-  "abstract": "The talk presents the first data analysis in the LHCb experiment performed in Julia. The analysis includes data selection, building and combining complex PDFs (`AlgebraPDF.jl`), likelihood fitting, angular analysis (`FourVectors.jl`, `ThreeBodyDecay.jl`, `PartialWaveFunctions.jl`), hypotheses testing, and running pseudo experiments. New packages enrich Julia ecosystem fostering the adoption of the language in the High Energy Physics community."
+  "abstract": "The talk presents the first data analysis in the LHCb experiment performed in Julia (arXiv:2107.03419). The analysis includes data selection, building and combining complex PDFs (`AlgebraPDF.jl`), likelihood fitting, angular analysis (`FourVectors.jl`, `ThreeBodyDecay.jl`, `PartialWaveFunctions.jl`), hypotheses testing, and running pseudo experiments. New packages enrich Julia ecosystem fostering the adoption of the language in the High Energy Physics community."
  },
  {
   "content_locale": "en",
