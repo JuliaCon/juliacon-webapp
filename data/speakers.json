@@ -2225,15 +2225,6 @@
  },
  {
   "avatar": null,
-  "name": "Keno Fischer",
-  "submissions": [
-   "7SQHJH"
-  ],
-  "code": "S8LPFH",
-  "biography": "Keno Fischer is one of the core developers of the Julia programming language and co-founder and CTO at Julia Computing. His earliest involvement with the Julia project was the port of Julia to Windows, the creation of (the current iteration of) the Julia REPL, the Julia optimizer, Julia’s `--bug-report` feature as well as numerous other language features and packages. Within the Julia community, he is known for creating packages that push the boundary of possibilities of the language and ability to debug even the thorniest of issues. His recent work has focused on improving the foundations of Julia’s support for Modeling and Simulation, as well as Machine Learning. In 2018 Keno was recognized by Forbes for their 30 under 30 list of thought leaders in Enterprise Technology. He holds an A.M. degree in Physics from Harvard University."
- },
- {
-  "avatar": null,
   "name": "Megan Franke",
   "submissions": [
    "YKHNVR"
@@ -2805,7 +2796,7 @@
   "biography": "Forest Engineer, from the Federal University of Santa Maria (UFSM) Frederico Westphalen Campus. Currently a Master's student in the Graduate Program in Agronomy: Agriculture and Environment at UFSM - FW. He develops works in the areas of Forest Engineering, Agrometeorology, Vegetable Production, Forest Biomass, Agroforestry Systems and Julia Language applied in the Forest Inventory."
  },
  {
-  "avatar": null,
+  "avatar": "https://pretalx.com/media/avatars/personal_atco_cropped_face_jD3SRX6.png",
   "name": "Ilya Orson Sandoval",
   "submissions": [
    "TJ3J79"

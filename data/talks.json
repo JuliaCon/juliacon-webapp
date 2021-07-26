@@ -759,39 +759,6 @@
  {
   "content_locale": "en",
   "is_featured": true,
-  "code": "7SQHJH",
-  "track": null,
-  "state": "confirmed",
-  "duration": 180,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Keno Fischer",
-    "code": "S8LPFH",
-    "biography": "Keno Fischer is one of the core developers of the Julia programming language and co-founder and CTO at Julia Computing. His earliest involvement with the Julia project was the port of Julia to Windows, the creation of (the current iteration of) the Julia REPL, the Julia optimizer, Julia’s `--bug-report` feature as well as numerous other language features and packages. Within the Julia community, he is known for creating packages that push the boundary of possibilities of the language and ability to debug even the thorniest of issues. His recent work has focused on improving the foundations of Julia’s support for Modeling and Simulation, as well as Machine Learning. In 2018 Keno was recognized by Forbes for their 30 under 30 list of thought leaders in Enterprise Technology. He holds an A.M. degree in Physics from Harvard University."
-   }
-  ],
-  "description": "Improvement of support for Automatic Differentiation has been a multi-year project for the Julia community. There are more than 10 separate AD packages in wide-spread use in the Julia community, each targeting different niches and uses cases. Of these, Zygote.jl features the most advanced use of the Julia compiler itself. It takes advantage of generated functions and the Cassette mechanism to perform reverse-mode AD on lowered code. However, neither generated functions nor the Cassette mechanism were ever really designed to support this use case, and as such Zygote is showing limitations in both flexibility and performance.\r\n\r\nDiffractor is the next generation AD tool for Julia, built with the experience gained from earlier AD tools and intended to address their limitations. Several new language features have been or are being introduced in Julia to support Diffractor (as well as other use cases), in particular Opaque Closures (recently completed for 1.7), as well a more general compiler plugin framework (in the process of being designed as of the writing of this description). As such, Diffractor represents a significant step for Julia, the language, over and on top of any improvements to the Julia AD ecosystem.\r\n\r\nThis workshop will be split into four general parts. Each part will feature a pre-recorded lecture to give an overview of the topic, as well as a hands-on portion to explore the relevant APIs in more detail.\r\n\r\n- Diffractor and how to use it from the end-user perspective\r\n- An overview of the Julia language features created to support Diffractor, with particular emphasis on tips and tricks for debugging Diffractor's implementation\r\n- An exploration of the theory and philosophy underlying Diffractor\r\n- The Diffractor Roadmap, a look at advanced applications and open discussion\r\n\r\nThe idea of the workshop is to give the audience a full crash course on how Diffractor works and to enable them to participate in the future development and direction setting of the package.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-27T14:00:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2021-07-27T17:00:00Z"
-  },
-  "submission_type": {
-   "en": "Workshop"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Diffractor: Next-Gen AD for Julia",
-  "abstract": "Diffractor.jl is Julia's next-gen package for automatic differentiation, built upon significant improvements to the Julia compiler as well as refinements to our understanding of the structural properties of AD-transformed code, particularly at higher orders. This workshop will feature a deep-dive of Diffractor, the Julia language features that were developed to support it, as well as the theoretical considerations that underpin the package through a mixture of lecture and interactive exploration"
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
   "code": "7VNJWV",
   "track": null,
   "state": "confirmed",
@@ -6769,6 +6736,32 @@
  },
  {
   "content_locale": "en",
+  "is_featured": false,
+  "code": "NKSCDS",
+  "track": null,
+  "state": "confirmed",
+  "duration": 5,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2021-07-28T17:50:00Z",
+   "room": {
+    "en": "Blue"
+   },
+   "end": "2021-07-28T17:55:00Z"
+  },
+  "submission_type": {
+   "en": "Keynote"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Sponsor talk (Pumas AI)",
+  "abstract": "Sponsor talk."
+ },
+ {
+  "content_locale": "en",
   "is_featured": true,
   "code": "NLG9FQ",
   "track": null,
@@ -7069,32 +7062,6 @@
   "do_not_record": false,
   "title": "Airborne Magnetic Navigation Enhanced with Neural Networks",
   "abstract": "Using the earth’s magnetic field for navigation of aircraft has shown promise as a viable alternative to GPS. An airborne magnetic navigation system collects magnetic field data and uses predetermined magnetic maps to estimate location. A challenge arises when the measured data contains magnetic signals from both the (desired) earth field and (undesired) aircraft field. This work explores several approaches for obtaining a clean magnetic signal that is usable for navigation."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "P7BSFC",
-  "track": null,
-  "state": "confirmed",
-  "duration": 45,
-  "speakers": [],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-30T17:15:00Z",
-   "room": {
-    "en": "BoF/Mini Track"
-   },
-   "end": "2021-07-30T18:00:00Z"
-  },
-  "submission_type": {
-   "en": "Virtual Poster"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "The virtual poster session be hosted on gathertown.",
-  "abstract": "The virtual poster session will include 100 posters hosted on gathertown. Link to all the posters: https://juliacon.org/2021/posters/."
  },
  {
   "content_locale": "en",
@@ -7970,6 +7937,32 @@
  {
   "content_locale": "en",
   "is_featured": false,
+  "code": "RSPXSS",
+  "track": null,
+  "state": "confirmed",
+  "duration": 5,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2021-07-28T17:55:00Z",
+   "room": {
+    "en": "Blue"
+   },
+   "end": "2021-07-28T18:00:00Z"
+  },
+  "submission_type": {
+   "en": "Keynote"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Sponsor talk (Quera)",
+  "abstract": "Sponsor talk."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
   "code": "RXBMHE",
   "track": null,
   "state": "confirmed",
@@ -8532,14 +8525,14 @@
   "duration": 3,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/personal_atco_cropped_face_jD3SRX6.png",
     "name": "Ilya Orson Sandoval",
     "code": "XMHEGM",
     "biography": "I am a PhD student in Imperial College working at the intersection of reinforcement learning, optimal control and process systems engineering. Previously, I worked in data science and software engineering within the energy and food industries in Mexico. I have a background in physics."
    }
   ],
   "description": "We explore the differentiable control approach implemented in DiffEqFlux for solving general constrained nonlinear optimal control problems with neural network controllers.\r\nThe original control variables of the problem are substituted for the output of an embedded neural controller, turning the weights of the neural network the time-independent optimization variables.\r\nThe controller is of closed-loop form, being only a function of time through its feedback dependence on state at each timepoint.\r\nLeveraging DiffEqFlux, adjoint sensitivity analysis is used to estimate the gradient of the Bolza-type optimal control problem with respect to the parametrization of the neural network and first order optimization methods are then used to iteratively approximate an optimal solution.\r\nWe emphasize the relation of this problem setting with the origins of the backpropagation algorithm through the Kelley-Bryson gradient procedure and with control vector iteration as its continuum time counterpart in the numerical optimal control literature.\r\nThe capabilities of the technique to handle state constraints are explored through relaxed logarithmic barrier functions that act as a running penalty functional, while the control constraints are naturally enforced through saturation from the final activation function of the neural network policy.\r\nThe effectiveness of the technique is showcased with nonlinear control problems in bioprocesses, including setpoint tracking objectives and economic running costs.",
-  "image": "https://pretalx.com/media/juliacon2021/submissions/TJ3J79/personal_atco_cropped_face_OrJoOP9.png",
+  "image": "https://pretalx.com/media/juliacon2021/submissions/TJ3J79/bioreactor_constraints_x2_result_L590mP1.png",
   "slot_count": 1,
   "slot": {
    "start": "2021-07-30T17:15:00Z",
