@@ -1,5 +1,5 @@
 import React from "react";
-import { NextPage } from "next";
+import { GetServerSideProps, NextPage } from "next";
 
 import { getClosestConferenceDay } from "../../components/date";
 import { useRouter } from "next/router";
@@ -10,7 +10,16 @@ const Agenda: NextPage = () => {
   React.useEffect(() => {
     router.replace("/agenda/[day]", `/agenda/${day}`);
   });
-  return null;
+  return <noscript>Please enable JavaScript.</noscript>;
+};
+
+export const getServerSideProps: GetServerSideProps = async () => {
+  return {
+    redirect: {
+      permanent: false,
+      destination: `/agenda/${getClosestConferenceDay()}`,
+    },
+  };
 };
 
 export default Agenda;

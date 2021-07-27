@@ -38,6 +38,19 @@ const LivePage: NextPage<LivePageProps> = ({ talks }) => {
     <Page title="Live Overview">
       <PageHeading>Live Overview</PageHeading>
       <VSpace />
+      <noscript>
+        <p
+          className={css`
+            border-left: 0.5rem solid var(--julia-purple);
+            padding: 1rem 1rem 1rem 2rem;
+            font-weight: bold;
+            max-width: 400px;
+            margin: 0 auto;
+          `}
+        >
+          JavaScript is required for the live overview to work.
+        </p>
+      </noscript>
       {__DEV__ ? <NowManipulator /> : null}
       <VSpace />
       <Inner talks={talks} />
