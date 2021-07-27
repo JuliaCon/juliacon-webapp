@@ -70,23 +70,4 @@ else
   end
 end
 
-using CSV
-
-youtube_code(url::String) = split(url, "/")[end]
-youtube_code(::Missing) = nothing
-
-video_codes = Dict(
-    v.code => Dict(
-        "youtubeCode" => youtube_code(v.youtube_url),
-        "isLive" => v.In_S3_ == "Live",
-    )
-    for v in CSV.File("videos.csv", normalizenames=true)
-)
-open("videocodes.json", "w") do io
-    data = Dict(
-        "videoCodes" => video_codes,
-    )
-    JSON.print(io, data, 1)
-end
-
 @info "Success!"

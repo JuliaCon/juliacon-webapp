@@ -44,8 +44,9 @@ ALL_TALKS.sort(
 
 export interface TalkOverviewData {
   id: string;
+  type: string;
   title: string;
-  description: string;
+  description?: string;
   videoCode: string | null;
   abstract: string;
   day: ConferenceDay;
@@ -58,6 +59,11 @@ export interface TalkOverviewData {
 
   room: RoomData;
   speakers: ReadonlyArray<SpeakerOverviewData>;
+
+  nextTalk: null | {
+    id: string;
+    title: string;
+  };
 }
 
 export function getAllTalkIds(): ReadonlyArray<string> {
@@ -83,7 +89,8 @@ export interface FindTalksCriteria {
   speakerId?: string;
 }
 export function findTalks(
-  criteria: FindTalksCriteria
+  criteria: FindTalksCriteria,
+  opts?: TalkOptions
 ): ReadonlyArray<TalkOverviewData> {
   return ALL_TALKS.filter((talk) => {
     if (criteria.day && talkDay(talk) !== criteria.day) {
@@ -93,7 +100,7 @@ export function findTalks(
       return false;
     }
     return true;
-  }).map((t) => normalizeTalkOverview(t));
+  }).map((t) => normalizeTalkOverview(t, opts));
 }
 
 export function getTalksForDay(
@@ -102,7 +109,14 @@ export function getTalksForDay(
   return findTalks({ day });
 }
 
-function normalizeTalkOverview(t: typeof ALL_TALKS[number]): TalkOverviewData {
+export interface TalkOptions {
+  includeDescription?: boolean;
+}
+
+function normalizeTalkOverview(
+  t: typeof ALL_TALKS[number],
+  { includeDescription = true }: TalkOptions = {}
+): TalkOverviewData {
   const speakers = t.speakerIds.map((s) => {
     const speaker = getSpeaker(s);
     if (!speaker) {
@@ -118,23 +132,33 @@ function normalizeTalkOverview(t: typeof ALL_TALKS[number]): TalkOverviewData {
     throw new Error(`failed to load room: ${t.roomId} (for talk: ${t.id}`);
   }
 
-  return {
-    ...pick(t, [
-      "id",
-      "title",
-      "abstract",
-      "description",
-      "description",
-      "startTime",
-      "endTime",
-    ]),
+  const nextTalk = ALL_TALKS.find(
+    (other) => other.roomId === t.roomId && other.startTime === t.endTime
+  );
+
+  const talk: TalkOverviewData = {
+    ...pick(t, ["id", "title", "abstract", "startTime", "endTime"]),
+    type: t.submissionType,
     day: talkDay(t),
     room,
     speakers,
 
     videoCode: video?.code || null,
     isLive: video?.isLive || false,
+
+    nextTalk: nextTalk
+      ? {
+          id: nextTalk.id,
+          title: nextTalk.title,
+        }
+      : null,
   };
+
+  if (includeDescription) {
+    talk.description = t.description;
+  }
+
+  return talk;
 }
 
 function talkDay(t: { startTime: string }): ConferenceDay {
