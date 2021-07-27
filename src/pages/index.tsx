@@ -60,7 +60,28 @@ const Inner = ({ talks }: { talks: TalkList }) => {
   if (happeningNow.length) {
     return <TalkTabs talks={happeningNow} />;
   } else {
-    return <p>No talks are happening right now.</p>;
+    return (
+      <div
+        className={css`
+          max-width: 400px;
+          margin: 0 auto;
+
+          & > p {
+            margin: 1rem 0;
+          }
+        `}
+      >
+        <p>
+          No talks are happening right now. This page will automatically update
+          when talks resume. <Link href={"/agenda"}>Check the schedule</Link> to
+          see when the next talks are happening!
+        </p>
+        <p>
+          <Link href={"/discord/join"}>Join the Discord server</Link> to join
+          the conversation and get your JuliaCon fix in the meantime!
+        </p>
+      </div>
+    );
   }
 };
 
