@@ -5,6 +5,7 @@ on:
   push:
     paths:
      - '.github/workflows/fetch_data.yml'
+  workflow_dispatch: {}
 
 jobs:
   fetch_data:
