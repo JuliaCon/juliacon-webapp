@@ -1663,6 +1663,12 @@
     "name": "Lyndon White",
     "code": "ECUZBT",
     "biography": "Lyndon White (@oxinabox) is a research software engineer at Invenia Labs (Cambridge, UK). He helps researchers use machine learning, constrained optimization, and generally tools from the technical computing domain to optimize the power grid. He get to do all the best parts of being a software developer and all the best parts of being a researcher, its great.\r\nHe works a lot on the Julia AutoDIff code, and is the leader of the ChainRules project."
+   },
+   {
+    "avatar": null,
+    "name": "Rory Finnegan",
+    "code": "UAYRQP",
+    "biography": null
    }
   ],
   "description": "Notes from [last years discussions can be found here](https://docs.google.com/document/d/1imBX3k0EEejauWVyXONZDRj8LTr0PeLOJNGEgo6ow1g/edit#heading=h.qrm4q6q56yxm).\r\n\r\nSince then it has emerged clarity of 3 packages that can basically replace AxisArrays.jl with a more modern and idiomatic interface. \\\r\nIn approximate order of power and also complexity (both for users and for maintainers) they are:  [AxisKeys.jl](https://github.com/mcabbott/AxisKeys.jl), [AxisIndices.jl](https://github.com/Tokazama/AxisIndices.jl/), and [DimensionalData.jl](https://github.com/rafaqz/DimensionalData.jl) (the former two building upon [NamedDims.jl](https://github.com/invenia/NamedDims.jl/) for naming axes). \\\r\nSince last year, [IndexedDims.jl](https://github.com/invenia/IndexedDims.jl/) has been deprecated in favour of  [AxisKeys.jl](https://github.com/mcabbott/AxisKeys.jl).\r\n\r\nAn ideal outcome of this BoF session would be an agreement to deprecate an additional package for one of  the others, or even deprecating two leaving one. \\\r\nA less ideal, but still very good outcome of the BoF is to discuss a common API (like [Tables.jl](https://github.com/JuliaData/Tables.jl)), which each package can extend, and to direct someone to lead the establishment of this API, and ensure that it gets rolled out.",
