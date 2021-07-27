@@ -12,6 +12,8 @@
     format("woff2");
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 html {
   box-sizing: border-box;
 }
