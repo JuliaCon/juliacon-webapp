@@ -1,7 +1,7 @@
 [
   {
     "sponsorName": "Julia Computing",
-    "blurb": "Julia Computing's mission is to develop products that bring Julia's superpowers to its customers. Julia Computing's flagship product is JuliaHub, a secure, software-as-a-service platform for developing Julia programs, deploying them, and scaling to thousands of nodes. It provides the power of a supercomputer at the fingertips of every data scientist and engineer. In addition to data science workflows, JuliaHub also provides access to cutting-edge products such as Pumas for pharmaceutical modeling and simulation, JuliaSim for multi-physics modeling and simulation, and JuliaSPICE for electronic circuit simulation, combining traditional simulation with modern SciML approaches. ",
+    "blurb": "Julia Computing's mission is to develop products that bring Julia's superpowers to its customers. Julia Computing's flagship product is JuliaHub, a secure, software-as-a-service platform for developing Julia programs, deploying them, and scaling to thousands of nodes. It provides the power of a supercomputer at the fingertips of every data scientist and engineer. In addition to data science workflows, JuliaHub also provides access to cutting-edge products such as Pumas for pharmaceutical modeling and simulation, JuliaSim for multi-physics modeling and simulation, and JuliaSPICE for electronic circuit simulation, combining traditional simulation with modern SciML approaches. Checkout Julia Computing's [JuliaSim](/uploads/sponsordocs/JuliaComputing_JuliaSim_v2.pdf) and [JuliaHub](/uploads/sponsordocs/JuliaComputing_JuliaHub_v3.pdf) brochures. Additionally, catch them for their live demo at JuliaCon!",
     "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon", 
     "videoURL": "",
     "chatChannelName": "",
@@ -77,16 +77,16 @@
     "blurb": "KAUST advances science and technology through distinctive and collaborative research integrated with graduate education. We are a catalyst for innovation, economic development and social prosperity in Saudi Arabia and the world",
     "moreInfoURL": "https://www.kaust.edu.sa/en/?utm_source=juliacon",
     "videoURL": "",
-    "chatChannelName": "https://discord.com/widget?id=437048931827056642",
+    "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2021/img/sponsors/kaust.png",
     "tier": "Silver"
   },
   {
-    "sponsorName": "DataChef",
+    "sponsorName": "DataChef.co",
     "blurb": " DataChef is a boutique big data consultancy, based in Amsterdam. We are specialists in helping modern marketing and sales teams by demystifying data and simplifying information for them.", 
     "moreInfoURL": "https://datachef.co/?utm_source=juliacon",
     "videoURL": "",
-    "chatChannelName": "https://discord.com/widget?id=437048931827056642",
+    "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2021/img/sponsors/datachef.png",
     "tier": "Silver",
     "discord": {
