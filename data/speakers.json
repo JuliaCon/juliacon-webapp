@@ -2180,12 +2180,12 @@
  },
  {
   "avatar": "https://pretalx.com/media/avatars/schaefer_41ZPk7D.png",
-  "name": "Frank Schäfer (@frankschae)",
+  "name": "Frank Schäfer",
   "submissions": [
    "ZLXBVA"
   ],
   "code": "RFETFM",
-  "biography": "PhD candidate in physics at the University of Basel.\r\n\r\nMember of the SciML open source software organization for scientific machine learning.\r\n\r\nGoogle Summer of Code 2020 student with the project: High weak order SDE solvers and their utility in neural SDEs."
+  "biography": "PhD candidate in physics at the University of Basel.\r\nMember of the SciML open source software organization for scientific machine learning.\r\nGoogle Summer of Code 2020 student with the project: High weak order SDE solvers and their utility in neural SDEs. Google Summer of Code 2021 student with the project: Neural Hybrid Differential Equations and Adjoint Sensitivity Analysis.\r\n\r\nGithub & Slack: @frankschae"
  },
  {
   "avatar": null,
@@ -2212,7 +2212,7 @@
    "L8DTE3"
   ],
   "code": "RYTVJE",
-  "biography": "I'm a mathematician, researcher in geometric group theory at KIT (Karlsruhe, Germany); I received my PhD in pure mathematics in 2014 and since then changed my scientific focus to aspects including more computational problems. I've been coding in julia for since 2016 mostly around group theory, mathematical optimization and certified computation."
+  "biography": "I'm a mathematician, researcher in geometric group theory at KIT (Karlsruhe, Germany); I received my PhD in pure mathematics in 2014 and since then changed my scientific focus to aspects including more computational problems. I've been coding in julia since 2016, mostly around group theory, mathematical optimization and certified computation."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/IMG-20190211-WA0020_Dt5Ya7S.jpg",
