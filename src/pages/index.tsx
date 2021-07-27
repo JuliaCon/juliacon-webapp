@@ -65,21 +65,6 @@ export const IndexPage: NextPage = () => {
               >
                 Julia Bonfire store
               </ExternalLink>
-              . JuliaCon is also proud to be sponsored by{" "}
-              <ExternalLink
-                href={"http://stickermule.com/juliacon20?utm_source=juliacon"}
-              >
-                Sticker Mule
-              </ExternalLink>
-              ! Head to their site to get 10 Julia stickers for only one 1 Euro
-              (plus free shipping!). You can find the Julia Language logo{" "}
-              <ExternalLink
-                href={
-                  "https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia-logo-color.png"
-                }
-              >
-                here
-              </ExternalLink>
               .
             </p>
           </VSpaceBetween>
