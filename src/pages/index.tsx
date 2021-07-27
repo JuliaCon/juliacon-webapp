@@ -69,7 +69,7 @@ export const IndexPage: NextPage = () => {
               <ExternalLink
                 href={"https://www.redbubble.com/people/JuliaLanguage/shop?asc=u"}
               >
-                RedBubble
+                RedBubble 
               </ExternalLink>
                shop!
             </p>
