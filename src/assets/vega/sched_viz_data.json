@@ -33,10 +33,10 @@
   "speaker": "Simon Schoelly"
  },
  {
-  "start_datetime": "2021-07-28T20:10:00Z",
-  "end_datetime": "2021-07-28T20:20:00Z",
+  "start_datetime": "2021-07-28T20:20:00Z",
+  "end_datetime": "2021-07-28T20:30:00Z",
   "duration": 10,
-  "location": "Blue",
+  "location": "Red",
   "id": "39ZFBF",
   "title": "Pluto.jl Notebooks are Web APIs!",
   "url": "/talk/39ZFBF",
@@ -506,8 +506,8 @@
   "speaker": "Richard Weinhold"
  },
  {
-  "start_datetime": "2021-07-28T20:05:00Z",
-  "end_datetime": "2021-07-28T20:15:00Z",
+  "start_datetime": "2021-07-28T20:10:00Z",
+  "end_datetime": "2021-07-28T20:20:00Z",
   "duration": 10,
   "location": "Red",
   "id": "9XJTRW",
@@ -1672,8 +1672,8 @@
   "speaker": "Shivay Lamba"
  },
  {
-  "start_datetime": "2021-07-28T19:55:00Z",
-  "end_datetime": "2021-07-28T20:05:00Z",
+  "start_datetime": "2021-07-28T20:00:00Z",
+  "end_datetime": "2021-07-28T20:10:00Z",
   "duration": 10,
   "location": "Red",
   "id": "KD7MR7",
