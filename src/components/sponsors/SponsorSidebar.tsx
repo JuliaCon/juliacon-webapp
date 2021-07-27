@@ -8,7 +8,9 @@ import { Link } from "../core";
 import { getSponsorsByTier, SponsorTier } from "./utils";
 
 export const SponsorSidebar = () => {
-  const platinumSponsors = sponsors.filter((sponsor) => sponsor.tier === "Platinum");
+  const platinumSponsors = sponsors.filter(
+    (sponsor) => sponsor.tier === "Platinum"
+  );
   const goldSponsors = sponsors.filter((sponsor) => sponsor.tier === "Gold");
   const silverSponsors = sponsors.filter(
     (sponsor) => sponsor.tier === "Silver"

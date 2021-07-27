@@ -1,12 +1,12 @@
-import { SponsorData, SponsorTier, sponsorTier } from "./utils";
-import React from "react";
-import { css, cx } from "emotion";
-import { ExternalLink, MaybeExternalLink, TextHeading } from "../content";
-import { VSpace } from "../layout";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faComments } from "@fortawesome/free-solid-svg-icons/faComments";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons/faDiscord";
+import { faComments } from "@fortawesome/free-solid-svg-icons/faComments";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { css, cx } from "emotion";
+import React from "react";
+import { ExternalLink, MaybeExternalLink, TextHeading } from "../content";
 import { Link, StyledMarkdown } from "../core";
+import { VSpace } from "../layout";
+import { SponsorData, SponsorTier, sponsorTier } from "./utils";
 
 export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
   const tier = sponsorTier(sponsor);
@@ -39,7 +39,7 @@ export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
               css`
                 max-width: 150px;
               `,
-            tier === SponsorTier.Gold &&
+            (tier === SponsorTier.Gold || tier === SponsorTier.Platinum) &&
               css`
                 max-width: 200px;
               `

@@ -25,6 +25,11 @@ export const SponsorSidebarItem = (sponsor: {
       display: block;
       width: auto;
     `,
+    sponsorObj.tier === "Platinum" &&
+      css`
+        max-width: 200px;
+        max-height: 150px;
+      `,
     sponsorObj.tier === "Gold" &&
       css`
         max-width: 200px;
