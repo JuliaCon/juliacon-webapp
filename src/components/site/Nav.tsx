@@ -21,13 +21,13 @@ export const Nav = () => {
         )
       )}
     >
+      <NavLink href={"/live"}>Live Talks!</NavLink>
       <NavLink href={"https://juliacon.org/2021/tickets/"} external>
         Register
       </NavLink>
       <NavLink href={"/"}>About</NavLink>
       <NavLink href={"/discord/join"}>Join Discord</NavLink>
       <NavLink href={"/agenda"}>Schedule</NavLink>
-      <NavLink href={"/live"}>Live Schedule</NavLink>
       {/*<NavLink href={"/posters"}>Posters</NavLink>*/}
       <NavLink href={"/sponsors"}>Sponsors</NavLink>
       <NavLink href={"/jobs"}>Jobs Board</NavLink>
