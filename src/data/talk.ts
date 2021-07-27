@@ -1,6 +1,7 @@
 import { parseISO } from "date-fns";
 
 import talksData from "../../data/talks.json";
+import minisymposiaData from "../../data/minisymposia.json";
 
 import { assertConferenceDay, ConferenceDay } from "../const";
 import { pick } from "../utils/pick";
@@ -52,6 +53,8 @@ export interface TalkOverviewData {
   day: ConferenceDay;
   isLive: boolean;
 
+  minisymposium?: MinisymposiumData;
+
   // Note: these both have to be strings (not Dates) since they need to be
   // serialized as JSON (which you can't do with vanilla Dates)
   startTime: string;
@@ -64,6 +67,13 @@ export interface TalkOverviewData {
     id: string;
     title: string;
   };
+}
+
+export interface MinisymposiumData {
+  talks: ReadonlyArray<{
+    title: string;
+    videoCode: string;
+  }>;
 }
 
 export function getAllTalkIds(): ReadonlyArray<string> {
@@ -156,6 +166,25 @@ function normalizeTalkOverview(
 
   if (includeDescription) {
     talk.description = t.description;
+  }
+
+  // Special case: add minisymposium data if the talk is one
+  const minisymposium = minisymposiaData.find((d) => d.id === t.id);
+  if (minisymposium) {
+    talk.minisymposium = {
+      talks: minisymposium.videos.map((t) => ({
+        title: t.title,
+        videoCode: t.videoCode,
+      })),
+    };
+
+    // HACK:
+    // The live view only includes the abstracts (to save bandwidth), but for
+    // the minisymposium, we REALLY want to include the description since it
+    // contains details about all the individual talks.
+    if (!includeDescription) {
+      talk.abstract = t.description;
+    }
   }
 
   return talk;

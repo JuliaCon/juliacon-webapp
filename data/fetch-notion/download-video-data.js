@@ -22,8 +22,13 @@ function getNotionCheckbox(page, key) {
   return page.properties[key]?.checkbox;
 }
 
+function getNotionSelect(page, key) {
+  return page.properties[key]?.select?.name;
+}
+
 async function main() {
   const pages = await getPages();
+
   const videos = [];
 
   for (const [i, page] of Object.entries(pages)) {
@@ -33,6 +38,13 @@ async function main() {
     if (!code) {
       throw new Error(`${title} has no Pretalx Code`);
     }
+
+    if (code === "DRMPLU") {
+      // Minisymposium: Set Propagation Methods in Julia: Techniques and Applications
+      // This has special (manual) handling, so skip it here.
+      continue;
+    }
+
     const yt = getNotionUrl(page, "[internal] YouTube URL");
     if (!yt) {
       continue;
@@ -43,11 +55,11 @@ async function main() {
     let ytCode;
     if (yt.startsWith("https://youtu.be/")) {
       ytCode = yt.substr("https://youtu.be/".length);
-    } else if (yt.startsWith("https://www.youtube.com/watch?v=")) {
-      ytCode = yt.substr(
-        "https://www.youtube.com/watch?v=".length,
-        "G4siuvNMj0c".length
-      );
+
+      // quick heuristic to detect bad urls
+      if (ytCode.length > 15) {
+        throw new Error(`bad youtube URL: ${yt}`);
+      }
     } else {
       throw new Error(`don't know how to parse YouTube URL: ${title} ${yt}`);
     }

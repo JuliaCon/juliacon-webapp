@@ -7,6 +7,7 @@ import { StyledMarkdown } from "./core";
 import { Center, VSpace } from "./layout";
 import { PageHeading } from "./page";
 import { TalkByline, TalkYouTubeEmbed } from "./talk";
+import { MinisymposiumDetails } from "./talk/MinisymposiumDetails";
 
 export const TalkDetails = ({ talk }: { talk: TalkOverviewData }) => {
   const startTime = parseISO(talk.startTime);
@@ -26,6 +27,12 @@ export const TalkDetails = ({ talk }: { talk: TalkOverviewData }) => {
       <TalkByline vertical talk={talk} />
       {video}
       <VSpace />
+      {talk.minisymposium ? (
+        <>
+          <MinisymposiumDetails data={talk.minisymposium} />
+          <VSpace />
+        </>
+      ) : null}
       {talk.abstract && (
         <div>
           <h4

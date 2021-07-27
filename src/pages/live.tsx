@@ -23,6 +23,7 @@ import { VSpace, VSpaceBetween } from "../components/layout";
 import { PageHeading } from "../components/page";
 import { Page } from "../components/site";
 import { TalkByline, TalkYouTubeEmbed } from "../components/talk";
+import { MinisymposiumDetails } from "../components/talk/MinisymposiumDetails";
 import { findTalks, TalkOverviewData } from "../data/talk";
 import { invariant } from "../utils/invariant";
 
@@ -69,7 +70,7 @@ export const getServerSideProps: GetServerSideProps<LivePageProps> =
   async () => {
     return {
       props: {
-        talks: findTalks({}),
+        talks: findTalks({}, { includeDescription: false }),
       },
     };
   };
@@ -208,6 +209,9 @@ const TalkPanel = ({
         </h2>
         <div>{active && <TalkYouTubeEmbed talk={talk} autoplay />}</div>
         <TalkByline talk={talk} />
+        {talk.minisymposium ? (
+          <MinisymposiumDetails data={talk.minisymposium} />
+        ) : null}
         {talk.abstract && (
           <>
             <h3

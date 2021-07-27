@@ -5,7 +5,7 @@ import { faCompass } from "@fortawesome/free-solid-svg-icons/faCompass";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { TalkOverviewData } from "../../data/talk";
 
-import { HSpace, VSpace } from "../layout";
+import { HSpace } from "../layout";
 import { SpeakerListInline } from "../speaker";
 import { TimeRangeFormatted } from "../date";
 
@@ -15,7 +15,6 @@ export interface TalkBylineProps {
 }
 
 export const TalkByline = ({ talk, vertical = false }: TalkBylineProps) => {
-  const spacer = () => (vertical ? <VSpace height={"0.5rem"} /> : <HSpace />);
   return (
     <div
       className={css`
@@ -27,26 +26,29 @@ export const TalkByline = ({ talk, vertical = false }: TalkBylineProps) => {
         className={css`
           display: flex;
           flex-flow: row wrap;
+          padding: 0.25rem;
         `}
       >
         <SpeakerListInline speakers={talk.speakers} />
       </div>
-      {spacer()}
       <div
         className={css`
           display: flex;
           flex-flow: row nowrap;
+          align-items: center;
+          padding: 0.25rem;
         `}
       >
         <FontAwesomeIcon icon={faClock} fixedWidth />
         <HSpace width={"0.5rem"} />
         <TimeRangeFormatted start={talk.startTime} end={talk.endTime} />
       </div>
-      {spacer()}
       <div
         className={css`
           color: ${talk.room.color || "#444444"};
           display: flex;
+          align-items: center;
+          padding: 0.25rem;
         `}
       >
         <FontAwesomeIcon icon={faCompass} fixedWidth />

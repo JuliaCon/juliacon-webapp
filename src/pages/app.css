@@ -27,8 +27,8 @@ a {
   cursor: pointer;
 }
 
-.styled-markdown {
-  line-height: 1.25em;
+body {
+  line-height: 1.4;
 }
 
 .styled-markdown > * {
@@ -81,11 +81,17 @@ samp {
 }
 
 .styled-markdown ul {
-  list-style: disc inside none;
+  list-style: disc outside none;
+  padding-left: 1.5rem;
 }
 
 .styled-markdown ol {
-  list-style: decimal inside none;
+  list-style: decimal outside none;
+  padding-left: 1.5rem;
+}
+
+.styled-markdown p {
+  margin: 0.5rem 0;
 }
 
 body {

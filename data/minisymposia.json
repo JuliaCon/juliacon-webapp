@@ -1,0 +1,37 @@
+[
+  {
+    "id": "DRMPLU",
+    "videos": [
+      {
+        "videoCode": "MQM9U0hiLks",
+        "videoUrl": "https://youtu.be/MQM9U0hiLks",
+        "title": "Using Set Propagation and the Finite Element Method For Time Integration in Transient Solid Mechanics Problems"
+      },
+      {
+        "videoCode": "fQvAjcknMIw",
+        "videoUrl": "https://youtu.be/fQvAjcknMIw",
+        "title": "Dionysos.jl: Optimal Control"
+      },
+      {
+        "videoCode": "i4Op_8pFSvg",
+        "videoUrl": "https://youtu.be/i4Op_8pFSvg",
+        "title": "Solving Optimization Problems with Embedded Dynamical Systems"
+      },
+      {
+        "videoCode": "ZndC2YXa-t0",
+        "videoUrl": "https://youtu.be/ZndC2YXa-t0",
+        "title": "Computing with sets of probabilities in Julia"
+      },
+      {
+        "videoCode": "jyC2fVmHcF8",
+        "videoUrl": "https://youtu.be/jyC2fVmHcF8",
+        "title": "Methods to Soundly Verify Deep Neural Network"
+      },
+      {
+        "videoCode": "yl4ZKi6EGhw",
+        "videoUrl": "https://youtu.be/yl4ZKi6EGhw",
+        "title": "Set Propagation for Verifying Safe Behaviour in Cyber-Physical Systems"
+      }
+    ]
+  }
+]
