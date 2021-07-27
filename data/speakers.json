@@ -116,15 +116,6 @@
   "biography": null
  },
  {
-  "avatar": null,
-  "name": "Jeffrey Varner",
-  "submissions": [
-   "D8MDNG"
-  ],
-  "code": "3ZDSWJ",
-  "biography": "I'm a Chemical Engineering faculty member at Cornell. I've been using Julia in my Cornell life (both teaching and research) since the 0.3 timeframe. I've also in the last year started a small consulting company which uses Julia to develop server side applications for data science applications."
- },
- {
   "avatar": "https://pretalx.com/media/avatars/yoniImage_CtxIvlZ.jpg",
   "name": "Yoni Nazarathy",
   "submissions": [

@@ -117,11 +117,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2021-07-28T20:00:00Z",
+   "start": "2021-07-28T20:10:00Z",
    "room": {
-    "en": "Red"
+    "en": "Blue"
    },
-   "end": "2021-07-28T20:10:00Z"
+   "end": "2021-07-28T20:20:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -1570,11 +1570,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2021-07-28T20:20:00Z",
+   "start": "2021-07-28T20:05:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2021-07-28T20:30:00Z"
+   "end": "2021-07-28T20:15:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -1897,6 +1897,32 @@
   "do_not_record": false,
   "title": "GerryChain.jl: detecting gerrymandering with Markov chains",
   "abstract": "Markov chain-based sampling is an increasingly popular method for detecting gerrymandering of voting districts. GerryChain.jl implements optimized versions of the flip chain and the ReCom chain (DeFord, Duchin, Solomon 2019) for sampling large ensembles of districting plans that satisfy legal criteria. The package also provides a suite of tools for preprocessing geospatial data and computing statistics over ensembles of districting plans."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "AKRLTA",
+  "track": null,
+  "state": "confirmed",
+  "duration": 5,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2021-07-29T17:50:00Z",
+   "room": {
+    "en": "Blue"
+   },
+   "end": "2021-07-29T17:55:00Z"
+  },
+  "submission_type": {
+   "en": "Keynote"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Sponsor talk (Datachef)",
+  "abstract": "Sponsor talk."
  },
  {
   "content_locale": "en",
@@ -3206,39 +3232,6 @@
   "do_not_record": false,
   "title": "HssMatrices.jl",
   "abstract": "Hierarchically semi-separable (HSS) matrices are a type of structured matrix that arise in a range of scientific computing and engineering problems. Most notably, they have been used to develop novel direct and approximate high-performance solvers for linear systems. HssMatrices.jl provides HSS compression algorithms, arithmetic and visualisation tools. This allows Julia users to easily experiment with HSS matrices and corresponding algorithms."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "code": "D8MDNG",
-  "track": null,
-  "state": "withdrawn",
-  "duration": 3,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Jeffrey Varner",
-    "code": "3ZDSWJ",
-    "biography": "I'm a Chemical Engineering faculty member at Cornell. I've been using Julia in my Cornell life (both teaching and research) since the 0.3 timeframe. I've also in the last year started a small consulting company which uses Julia to develop server side applications for data science applications."
-   }
-  ],
-  "description": "Aspirar Medical Labs is a small family owned medical testing business based in the Raleigh-Durham area. Aspirar processes approximately 2000 COVID-19 samples per week at several testing sites spread across two state. Aspirar used Julia and its rich ecosystem of high quality packages such HTTP.jl or Julia RDMS tools to develop a web-based QR code patient registration system, a TextMessaging tool to communicate patient results and a web-portal to for patents to download dynamically generated testing reports. In each of these cases, the user interface was written in PHP which interacts with Julia-based microservices potentially on different EC2 instances. The overall experience of using Julia for server-side application development as been overwhelming positive.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-30T17:15:00Z",
-   "room": {
-    "en": "BoF/Mini Track"
-   },
-   "end": "2021-07-30T17:18:00Z"
-  },
-  "submission_type": {
-   "en": "Experience"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Case Study: Server Side Julia for COVID-19 Patient Workflows",
-  "abstract": "In this talk we will discuss lessons learned from developing and deploying Julia-based server side tools to automate COVID-19 patient workflows in the Raleigh-Durham area of North Carolina. Aspirar Medical Labs is a small family owned medical testing business based in the Raleigh-Durham area. Aspirar developed several Julia solutions (running on Amazon Web Services EC2 instances) to automate the registration, testing, and patient notification of COVID-19 results."
  },
  {
   "content_locale": "en",
@@ -5561,11 +5554,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2021-07-28T20:10:00Z",
+   "start": "2021-07-28T19:55:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2021-07-28T20:20:00Z"
+   "end": "2021-07-28T20:05:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
