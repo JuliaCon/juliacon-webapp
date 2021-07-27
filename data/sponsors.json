@@ -1,7 +1,7 @@
 [
   {
     "sponsorName": "Julia Computing",
-    "blurb": "Julia Computing's mission is to develop products that bring Julia's superpowers to its customers. Julia Computing's flagship product is JuliaHub, a secure, software-as-a-service platform for developing Julia programs, deploying them, and scaling to thousands of nodes. It provides the power of a supercomputer at the fingertips of every data scientist and engineer. In addition to data science workflows, JuliaHub also provides access to cutting-edge products such as Pumas for pharmaceutical modeling and simulation, JuliaSim for multi-physics modeling and simulation, and JuliaSPICE for electronic circuit simulation, combining traditional simulation with modern SciML approaches. Checkout Julia Computing's [JuliaSim](/uploads/sponsordocs/JuliaComputing_JuliaSim_v2.pdf) and [JuliaHub](/uploads/sponsordocs/JuliaComputing_JuliaHub_v3.pdf) brochures. Additionally, catch them for their live demo at JuliaCon!",
+    "blurb": "Julia Computing's mission is to develop products that bring Julia's superpowers to its customers. Julia Computing's flagship product is JuliaHub, a secure, software-as-a-service platform for developing Julia programs, deploying them, and scaling to thousands of nodes. It provides the power of a supercomputer at the fingertips of every data scientist and engineer. In addition to data science workflows, JuliaHub also provides access to cutting-edge products such as Pumas for pharmaceutical modeling and simulation, JuliaSim for multi-physics modeling and simulation, and JuliaSPICE for electronic circuit simulation, combining traditional simulation with modern SciML approaches. Check out Julia Computing's [JuliaSim](/uploads/sponsordocs/JuliaComputing_JuliaSim_v2.pdf) and [JuliaHub](/uploads/sponsordocs/JuliaComputing_JuliaHub_v3.pdf) brochures. Additionally, catch their [live demo](https://youtu.be/6V6jk_OdH-w) during JuliaCon!",
     "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon", 
     "videoURL": "",
     "chatChannelName": "",
@@ -14,7 +14,7 @@
   },
   {
     "sponsorName": "Relational AI",
-    "blurb": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason.",
+    "blurb": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason. Check out their case studies and demos: [introduction](https://www.relational.ai/blog/introduction) to and [overview](https://www.relational.ai/blog/relationalai-overview) of Relational AI's breakthrough Relational Knowledge Graph Management System, a [demo](https://www.relational.ai/blog/demo-highlights) of it in action, and a [tax analysis case study](https://www.relational.ai/learn#tax). Catch their [live demo](https://youtu.be/6V6jk_OdH-w) at JuliaCon!",
     "moreInfoURL": "https://www.relational.ai?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
