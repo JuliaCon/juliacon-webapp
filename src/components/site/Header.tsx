@@ -13,14 +13,8 @@ export const Header: React.FC = () => {
     <header
       className={cx(
         css`
-          height: 4rem;
           border-bottom: 1px solid #ccc;
-        `,
-        mobileOnly(
-          css`
-            height: auto;
-          `
-        )
+        `
       )}
     >
       <div
