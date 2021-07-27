@@ -17,7 +17,11 @@ export const JobsPage: NextPage = () => {
           <TextHeading level={"h3"}>Julia Computing</TextHeading>
           <VSpace height={"0.5rem"} />
           <p>
-            Apply for jobs{" "}
+            Julia Computing is expanding its team to provide the best possible
+            Julia experience to its customers. We are hiring product managers,
+            cloud engineers, sales engineers, compiler experts, ML
+            practitioners, application developers, at all levels of seniority.
+            Check out our jobs page{" "}
             <ExternalLink href={"https://juliacomputing.com/jobs"}>
               {" "}
               here.{" "}
