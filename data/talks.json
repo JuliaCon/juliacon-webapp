@@ -1285,7 +1285,7 @@
   "duration": 3,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/monty20210529-body_XPwmcCJ.jpg",
     "name": "Velimir Vesselinov",
     "code": "PMRGDL",
     "biography": "My expertise is in applied mathematics, computer science and engineering. My research is in the general area of data analytics, model diagnostics and machine learning. I am the inventor and lead developer of a series of novel theoretical methods and computational related to machine learning, data analytics, model diagnostics, and data inference tools. I am also a co-inventor of LANL-patented machine-leaning methodology. Over the years, I have been the principal investigator of several projects for machine learning, model development, model analyses, uncertainty quantification and decision support"
@@ -3212,7 +3212,7 @@
   "is_featured": true,
   "code": "D8MDNG",
   "track": null,
-  "state": "confirmed",
+  "state": "withdrawn",
   "duration": 3,
   "speakers": [
    {
@@ -3612,7 +3612,7 @@
   "duration": 3,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/monty20210529-body_XPwmcCJ.jpg",
     "name": "Velimir Vesselinov",
     "code": "PMRGDL",
     "biography": "My expertise is in applied mathematics, computer science and engineering. My research is in the general area of data analytics, model diagnostics and machine learning. I am the inventor and lead developer of a series of novel theoretical methods and computational related to machine learning, data analytics, model diagnostics, and data inference tools. I am also a co-inventor of LANL-patented machine-leaning methodology. Over the years, I have been the principal investigator of several projects for machine learning, model development, model analyses, uncertainty quantification and decision support"
@@ -9100,7 +9100,7 @@
   "duration": 30,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/monty20210529-body_XPwmcCJ.jpg",
     "name": "Velimir Vesselinov",
     "code": "PMRGDL",
     "biography": "My expertise is in applied mathematics, computer science and engineering. My research is in the general area of data analytics, model diagnostics and machine learning. I am the inventor and lead developer of a series of novel theoretical methods and computational related to machine learning, data analytics, model diagnostics, and data inference tools. I am also a co-inventor of LANL-patented machine-leaning methodology. Over the years, I have been the principal investigator of several projects for machine learning, model development, model analyses, uncertainty quantification and decision support"
