@@ -1345,15 +1345,6 @@
   "biography": "Alissa is a first year research analyst at the Federal Reserve Bank of New York. She has a B.A. from Grinnell College, double-major in Economics and Computer Science."
  },
  {
-  "avatar": null,
-  "name": "Marek Kaluba",
-  "submissions": [
-   "L8DTE3"
-  ],
-  "code": "JARUYR",
-  "biography": null
- },
- {
   "avatar": "https://www.gravatar.com/avatar/d99ee1f43735c47968810bad35938825",
   "name": "Miguel Raz Guzmán Macedo",
   "submissions": [
@@ -2222,6 +2213,15 @@
   ],
   "code": "RUJKSU",
   "biography": null
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/m_8HO5O7S.png",
+  "name": "Marek Kaluba",
+  "submissions": [
+   "L8DTE3"
+  ],
+  "code": "RYTVJE",
+  "biography": "I'm a mathematician, researcher in geometric group theory at KIT (Karlsruhe, Germany); I received my PhD in pure mathematics in 2014 and since then changed my scientific focus to aspects including more computational problems. I've been coding in julia for since 2016 mostly around group theory, mathematical optimization and certified computation."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/IMG-20190211-WA0020_Dt5Ya7S.jpg",

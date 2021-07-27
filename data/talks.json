@@ -5951,10 +5951,10 @@
     "biography": "Benoît Legat is a postdoctoral associate at MIT with Prof. Pablo Parrilo\r\nin the Laboratory for Information and Decision Systems (LIDS).\r\nHe received his Ph.D. degree in applied mathematics from the UCLouvain, Belgium, in 2020.\r\nHis research interests include mathematical optimization, invariant set computation and\r\noptimal control."
    },
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/m_8HO5O7S.png",
     "name": "Marek Kaluba",
-    "code": "JARUYR",
-    "biography": null
+    "code": "RYTVJE",
+    "biography": "I'm a mathematician, researcher in geometric group theory at KIT (Karlsruhe, Germany); I received my PhD in pure mathematics in 2014 and since then changed my scientific focus to aspects including more computational problems. I've been coding in julia for since 2016 mostly around group theory, mathematical optimization and certified computation."
    }
   ],
   "description": "Sum-of-Squares or semidefinite programming allows to provide guaranteed bounds on remarkably many problems. Although several efficient algorithms exist to solve these programs, their space and time complexity and even their numerical robustness do not scale well with the size of the polynomial basis or semidefinite matrix. To alleviate this problem different methods have been developed to reduce constraints with a large basis or matrix into smaller ones.\r\nThese exploit sign symmetry or sparsity structure using chordal decomposition.",
