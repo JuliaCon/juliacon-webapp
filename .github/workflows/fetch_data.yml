@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      # Fetch talk/speaker/etc. data from Pretalx
       - name: Cache Julia Packages
         uses: actions/cache@v2
         env:
@@ -29,7 +31,22 @@ jobs:
           cd ..
         env:
           PRETALX_TOKEN: ${{ secrets.PRETALX_TOKEN }}
+      
+      # Fetch video data from Notion
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: |
+          cd data/fetch-notion
+          npm ci
+          node ./download-video-data.js
+          cd ../..
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+
+      # Commit all the changes
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: fetch data
+ 
