@@ -48,7 +48,12 @@ export const SponsorSidebar = () => {
             align-items: center;
           `}
         >
-          <div>
+          <div
+            className={css`
+              width: 200px;
+              max-width: 200px;
+            `}
+          >
             <h2
               className={css`
                 font-size: 1.5rem;
