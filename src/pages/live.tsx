@@ -33,17 +33,25 @@ interface LivePageProps {
 }
 
 const LivePage: NextPage<LivePageProps> = ({ talks }) => {
-  return (
-    <NowOverrideProvider initialValue="2021-07-28T13:25:11.834Z">
-      <Page title="Live Overview">
-        <PageHeading>Live Overview</PageHeading>
-        <VSpace />
-        <NowManipulator />
-        <VSpace />
-        <Inner talks={talks} />
-      </Page>
-    </NowOverrideProvider>
+  const page = (
+    <Page title="Live Overview">
+      <PageHeading>Live Overview</PageHeading>
+      <VSpace />
+      {__DEV__ ? <NowManipulator /> : null}
+      <VSpace />
+      <Inner talks={talks} />
+    </Page>
   );
+
+  if (__DEV__) {
+    return (
+      <NowOverrideProvider initialValue="2021-07-28T13:25:11.834Z">
+        {page}
+      </NowOverrideProvider>
+    );
+  }
+
+  return page;
 };
 
 const Inner = ({ talks }: { talks: TalkList }) => {
@@ -212,20 +220,6 @@ const TalkPanel = ({
               Abstract
             </h3>
             <StyledMarkdown source={talk.abstract} />
-          </>
-        )}
-        {talk.description && (
-          <>
-            <h3
-              className={css`
-                font-size: 1.25rem;
-                font-family: "Patua One", sans-serif;
-                margin-bottom: 1rem;
-              `}
-            >
-              Description
-            </h3>
-            <StyledMarkdown source={talk.description} />
           </>
         )}
         {talk.nextTalk && (
