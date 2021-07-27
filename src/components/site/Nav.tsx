@@ -21,11 +21,14 @@ export const Nav = () => {
         )
       )}
     >
-      <NavLink href={"/live"}>Live Talks!</NavLink>
+      <NavLink href={"/"}>
+        <span aria-hidden="true">🎉</span> Live Talks!{" "}
+        <span aria-hidden={"true"}>🎉</span>
+      </NavLink>
       <NavLink href={"https://juliacon.org/2021/tickets/"} external>
         Register
       </NavLink>
-      <NavLink href={"/"}>About</NavLink>
+      <NavLink href={"/about"}>About</NavLink>
       <NavLink href={"/discord/join"}>Join Discord</NavLink>
       <NavLink href={"/agenda"}>Schedule</NavLink>
       {/*<NavLink href={"/posters"}>Posters</NavLink>*/}
@@ -50,7 +53,7 @@ export const Nav = () => {
 };
 
 interface NavLinkProps {
-  children: string;
+  children: React.ReactNode;
   href: string;
   as?: string;
   external?: boolean;

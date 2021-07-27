@@ -7,7 +7,7 @@ using JSON3: JSON3
 
 const DATA_DIR = joinpath(@__DIR__, "..", "..", "data")
 const DATETIME_FORMAT = dateformat"yyyy-mm-ddTHH:MM:SSZ"
-const LIVE_URL = "https://live.juliacon.org/live"
+const LIVE_URL = "https://live.juliacon.org/"
 
 discord_client() = BotClient(ENV["DISCORD_TOKEN"])
 
