@@ -84,11 +84,11 @@ const DiscordJoinForm = ({ status }: DiscordJoinFormProps) => {
   const errorMessage = (() => {
     switch (status) {
       case DiscordJoinStatus.InvalidEventbriteCode:
-        return "The Eventbrite confirmation code that you entered is not valid.";
+        return "The Eventbrite order code that you entered is not valid.";
       case DiscordJoinStatus.EventbriteError:
         return (
           "Something went wrong while trying to confirm your registration. " +
-          "Please make sure that you are using the correct confirmation code. " +
+          "Please make sure that you are using the correct order code. " +
           "If you continue to have issues, please reach out to the JuliaCon organizers."
         );
     }
@@ -97,10 +97,10 @@ const DiscordJoinForm = ({ status }: DiscordJoinFormProps) => {
   return (
     <form action={"/api/discord/join"} method={"post"}>
       <FormInput
-        label={"eventbrite confirmation"}
+        label={"eventbrite order code"}
         description={
           <>
-            We need your Eventbrite confirmation code to make sure that you are
+            We need your Eventbrite order code to make sure that you are
             registered for the conference.
             <br />
             You can find the code in the email confirmation from Eventbrite,
