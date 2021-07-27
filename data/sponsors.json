@@ -4,18 +4,9 @@
     "blurb": "Julia Computing's mission is to develop products that bring Julia's superpowers to its customers. Julia Computing's flagship product is JuliaHub, a secure, software-as-a-service platform for developing Julia programs, deploying them, and scaling to thousands of nodes. It provides the power of a supercomputer at the fingertips of every data scientist and engineer. In addition to data science workflows, JuliaHub also provides access to cutting-edge products such as Pumas for pharmaceutical modeling and simulation, JuliaSim for multi-physics modeling and simulation, and JuliaSPICE for electronic circuit simulation, combining traditional simulation with modern SciML approaches.",
     "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon", 
     "videoURL": "",
-    "chatChannelName": "#juliacomputing",
+    "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2021/img/sponsors/jclogo.png",
     "tier": "Platinum"
-  },
-  {
-    "sponsorName": "Gordon and Betty Moore Foundation",
-    "blurb": "The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements and preservation of the special character of the Bay Area.",
-    "moreInfoURL": "https://www.moore.org/?utm_source=juliacon",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/moore.jpg",
-    "tier": "Gold"
   },
   {
     "sponsorName": "Relational AI",
@@ -27,7 +18,7 @@
     "tier": "Gold",
     "discord": {
       "channel": "#relational-ai",
-      "url": "https://discord.com/channels/709438882504245358/736564526467645451"
+      "url": "https://discord.com/channels/859573366477029389/867581293449314364"
     }
   },
   {
@@ -40,7 +31,7 @@
     "tier": "Silver",
     "discord": {
       "channel": "#invenia",
-      "url": "https://discord.com/channels/709438882504245358/736635771993456743"
+      "url": "https://discord.com/channels/859573366477029389/867581477936037918"
     }
   },
   {
@@ -58,7 +49,11 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2021/img/sponsors/pumas-ai.png",
-    "tier": "Silver"
+    "tier": "Silver",
+    "discord": {
+      "channel": "#pumas-ai",
+      "url": "https://discord.com/channels/859573366477029389/867581324428312576"
+    }
   },
   {
     "sponsorName": "QuEra Computing Inc.",
@@ -67,7 +62,11 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2021/img/sponsors/quera logo white.png",
-    "tier": "Silver"
+    "tier": "Silver",
+    "discord": {
+      "channel": "#quera",
+      "url": "https://discord.com/channels/859573366477029389/867581522059853855"
+    }
   },
   {
     "sponsorName": "King Abdullah University of Science and Technology",
@@ -85,7 +84,11 @@
     "videoURL": "",
     "chatChannelName": "https://discord.com/widget?id=437048931827056642",
     "logoURL": "https://juliacon.org/assets/2021/img/sponsors/datachef.png",
-    "tier": "Silver"
+    "tier": "Silver",
+    "discord": {
+      "channel": "#datachef",
+      "url": "https://discord.com/channels/859573366477029389/867581570260271114"
+    }
   },
   {
     "sponsorName": "Packt Publication",
@@ -97,7 +100,7 @@
     "tier": "Media Partner",
     "discord": {
       "channel": "#packt",
-      "url": "https://discord.com/channels/709438882504245358/736564992811204619"
+      "url": "https://discord.com/channels/859573366477029389/869587233865363538"
     }
   },
   {
