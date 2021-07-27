@@ -1,15 +1,4 @@
-import _data from "../../data/videocodes.json";
-
-// We need this here to make TypeScript treat our JSON file as a having an index
-// signature
-type VideoCodesMap = Record<
-  string,
-  {
-    youtubeCode: string | null;
-    isLive: boolean | null;
-  }
->;
-const VIDEOCODES: VideoCodesMap = _data.videoCodes;
+import DATA from "../../data/videos.json";
 
 export interface VideoData {
   code: string | null;
@@ -24,10 +13,10 @@ export interface VideoData {
  * not be located.
  */
 export function getVideoDataForTalk(talkId: string): VideoData | null {
-  const data = VIDEOCODES[talkId];
+  const data = DATA.find((t) => t.id === talkId);
   if (!data) return null;
   return {
     code: data.youtubeCode,
-    isLive: data.isLive || false,
+    isLive: data.live || false,
   };
 }

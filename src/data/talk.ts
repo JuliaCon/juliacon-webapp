@@ -143,7 +143,7 @@ function normalizeTalkOverview(t: typeof ALL_TALKS[number]): TalkOverviewData {
     room,
     speakers,
 
-    videoCode: video?.code || "dQw4w9WgXcQ",
+    videoCode: video?.code || null,
     isLive: video?.isLive || false,
 
     nextTalk: nextTalk
