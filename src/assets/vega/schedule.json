@@ -9,6 +9,10 @@
       "source": "talks",
       "transform": [
         {
+          "type": "filter",
+          "expr": "datum.start_datetime !== null && datum.end_datetime !== null"
+        },
+        {
           "type": "formula",
           "expr": "toDate(datum[\"start_datetime\"])",
           "as": "start_datetime"
