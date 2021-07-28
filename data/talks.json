@@ -9148,7 +9148,7 @@
   "state": "confirmed",
   "duration": 40,
   "speakers": [],
-  "description": "",
+  "description": "William Kahan was instrumental in creating the IEEE 754-1985 standard for floating-point computation in the late 1970s and early 1980s. He developed a program called “paranoia’ in the 1980s to test for potential floating point bugs and developed the Kahan summation algorithm which helps minimize errors introduced when adding a sequence of finite precision floating-point numbers. Kahan won the ACM A.M. Turing Award in 1989.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -9164,7 +9164,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Keynote: William Kahan - Debugging Tools for Floating-Point Code",
-  "abstract": "William Kahan was instrumental in creating the IEEE 754-1985 standard for floating-point computation in the late 1970s and early 1980s. He developed a program called \"paranoia' in the 1980s to test for potential floating point bugs and developed the Kaham summation algorithm which helps minimize errors introduced when adding a sequences of finite precision floating point numbers. Kahan won the ACM A.M. Turing Award in 1989."
+  "abstract": "Debugging tools widely used for almost all other programs are inadequate\r\nfor floating-point programs because these are so different. Suitable tools\r\nappeared in 1980 with IEEE Standard 754 for Floating-Point Hardware,\r\nbut such tools have gone largely undemandeded by customers who pay for\r\ndesigners and implementors of languages and operating systems. These\r\nalmost never support such tools. Their value has gone unappreciated.\r\nMAYBE A FEW EXAMPLES WILL CHANGE SOME MINDS."
  },
  {
   "content_locale": "en",
