@@ -14,6 +14,7 @@ export const Page: React.FC<PageProps> = ({
   title,
   hideSponsorSidebar,
 }) => {
+  const fullTitle = `${title ? `${title} | ` : ""}JuliaCon 2021`;
   return (
     <div
       className={css`
@@ -23,7 +24,22 @@ export const Page: React.FC<PageProps> = ({
       `}
     >
       <Head>
-        <title>{title && `${title} | `}JuliaCon 2021</title>
+        <title>{fullTitle}</title>
+        <meta name="description" content={metaDescription} />
+        <meta property="og:title" content={fullTitle} key="ogtitle" />
+        <meta
+          property="og:description"
+          content={metaDescription}
+          key="ogdesc"
+        />
+        <meta name="twitter:card" content="summary" key="twcard" />
+        <meta name="twitter:creator" content={twitterHandle} key="twhandle" />
+        <meta property="og:image" content={previewImage} key="ogimage" />
+        <meta
+          property="og:site_name"
+          content="JuliaCon 2021: Online and Everywhere"
+          key="ogsitename"
+        />
       </Head>
       <Header />
       <MainContentContainer hideSponsorSidebar={hideSponsorSidebar}>
@@ -32,3 +48,9 @@ export const Page: React.FC<PageProps> = ({
     </div>
   );
 };
+
+const twitterHandle = "JuliaConOrg";
+const metaDescription =
+  `JuliaCon 2021 (with JuMP-dev) is online and everywhere! ` +
+  `Join us to learn about the cool and exciting things happening within the Julia & JuMP ecosystems!`;
+const previewImage = "https://juliacon.org/assets/2021/img/world_2800.png";
