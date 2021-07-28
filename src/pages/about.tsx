@@ -24,7 +24,7 @@ export const IndexPage: NextPage = () => {
           </p>
           <p>
             This year, JuMP-dev, the annual developer workshop for the JuMP 
-            mathamatical optimization ecosystem is co-located with JuliaCon. 
+            mathematical optimization ecosystem is co-located with JuliaCon. 
           </p>
         </div>
         <div>
