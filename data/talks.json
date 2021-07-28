@@ -2250,39 +2250,6 @@
  {
   "content_locale": "en",
   "is_featured": true,
-  "code": "BJZVLV",
-  "track": null,
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Cong Van",
-    "code": "YECHQU",
-    "biography": "Dr. Cong Van is a mathematician, currently a Postdoc fellow at FedEx Institute of Technology, working on Structured Illumination Microscopy (SIM), one type of super-resolution fluorescence microscopes. Dr. Cong Van used Julia during his PhD and during his previous position at Mitsubishi Electric Research Labs (MERL) for thermodynamic property models."
-   }
-  ],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-28T17:00:00Z",
-   "room": {
-    "en": "Purple"
-   },
-   "end": "2021-07-28T17:10:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Using Julia in microscope image processing",
-  "abstract": "Computational methods are generally essential in super-resolution microscope techniques. ImageJ and its plugins have been used by the microscope community to do microscope image processing, but there has been no library/package for microscope image processing in any programming language. In this talk, I would like to present how I use Julia in structured illumination microscopy (SIM) and how I extend it to a Julia package Microscopes.jl to support microscope image processing in Julia."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
   "code": "BMMEGV",
   "track": null,
   "state": "confirmed",
@@ -7995,6 +7962,12 @@
     "name": "Chandrasekhar Ramakrishnan",
     "code": "89TPKE",
     "biography": "Chandrasekhar Ramakrishnan studied mathematics at the University of California, Berkeley (B.A. 1997) and art and computer science at the University of California, Santa Barbara (M.A. 2003). He has worked as a software developer and data-science consultant for companies, research institutions, and NGOs in the US, Germany, and Switzerland. Since 2009, he has been at **ETH Zürich** supporting projects by developing software solutions for data management, analysis, and visualization."
+   },
+   {
+    "avatar": null,
+    "name": "Gavin Lee",
+    "code": "ME3HKJ",
+    "biography": null
    }
   ],
   "description": "Doing data science effectively means working reproducibly. Although commitment to reproducibility as an ideal is non-controversial, in practice, it can be challenging to achieve. Many know this from their own experience, and the disconnect between ideal and reality has been well documented in recent years (see the [Fall 2020 issue of the Harvard Data Science Review](https://hdsr.mitpress.mit.edu/pub/hn51kn68/release/3) for just one recent example).\r\n\r\n**Renku** is open-source software being developed at the **Swiss Data Science Center** as a solution for making reproducible data science easier to achieve. It builds upon established software such as *git*, *Docker*, and *Kubernetes* to provide tools necessary to work reproducibly, while offering the flexibility to support a variety of use cases and users working in any language they choose, including *Python*, *R*, and, of course, **Julia**.\r\n\r\nIn this presentation, we will explain the architecture of the Renku platform and show how it can interact with Julia tools, in particular the `Pkg` package manager, to provide scaffolding for portable, reproducible Julia projects. Once we have a project set up, we will work through an example of building a reproducible workflow in Julia using Renku.\r\n\r\nThe same tools that support an individual working reproducibly can be used to [solve some of the hurdles that are encountered teaching a class to many students](https://discourse.julialang.org/t/issues-encountered-teaching-classes-with-julia-for-the-first-time/56553/8). As an example, we will present a set-up that could be used for teaching a class with Julia and provide a comparison of Renku vs. alternatives like Binder for this purpose.\r\n\r\nWe will conclude by looking at some more advanced topics for customizing a Julia-based environment for reproducibility by combining Renku with tools like VSCode, [Dr.Watson](https://juliadynamics.github.io/DrWatson.jl/dev/), or [Pluto.jl](https://github.com/fonsp/Pluto.jl).",
@@ -9141,39 +9114,6 @@
  {
   "content_locale": "en",
   "is_featured": true,
-  "code": "V3FWTU",
-  "track": null,
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Gillot",
-    "code": "YMLF99",
-    "biography": "Frédéric Gillot is Assistant Professor at École Centrale de Lyon within the Department of Solid Mechanics, Mechanical Engineering and Civil Engineering. He carries out his research at the Tribology and System Dynamics Laboratory (LTDS), a French CNRS joint research unit (no. 5513). He graduated in Engineering from École nationale supérieure des arts et métiers (ENSAM) and the University of Wien, Austria. An alumnus of École normale supérieure, he holds an agrégation in Mechanical Engineering, a research master and a PhD from École Centrale de Nantes and the University of Nantes. He pursued post-doctoral research for two years at the University of Tokyo (Todai) with funding from the Japan Society for the Promotion of Science. His current research interests address parametric shape optimisation, multi-objective optimisation and robust optimisation."
-   }
-  ],
-  "description": "We will first introduce the mechanical model, the equations, then the way we implement the Julia code to solve this kind of problem. Results will be analysed in term of software capabilities as well as their physical soundness",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-28T19:30:00Z",
-   "room": {
-    "en": "Blue"
-   },
-   "end": "2021-07-28T19:40:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Non-linear SDE mechanical simulations",
-  "abstract": "We have been using Julia to perform simulations of non-linear behavior of mechanical structures under sismic excitation. Formalism used in Julia make it possible to quickly build the model and generate outputs to be analysed and/or confronted to experimental results. The aim of this talk is to present the kind of problem we faced and to present the way we implemented it in Julia, which can be of special interest for Julia developers as well as from mechanical engineers"
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
   "code": "V3N73B",
   "track": null,
   "state": "confirmed",
@@ -9389,39 +9329,6 @@
  {
   "content_locale": "en",
   "is_featured": true,
-  "code": "VLVRKK",
-  "track": null,
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/zoe_2021_headshot_4pd2EIw.jpg",
-    "name": "Zoe McCarthy",
-    "code": "LRPXDZ",
-    "biography": "Zoe McCarthy is a research engineer with a background in robotics, deep learning, reinforcement learning, and virtual reality.  She is currently working at the MIT Julia Lab to make extensions and maintenance in the SciML ecosystem."
-   }
-  ],
-  "description": "Physics-informed Neural Networks (PINNs) are an emerging and flexible way to solve many Partial Differential Equation (PDE) problems.  PINNs train a neural network to solve a PDE by sampling points from the domain and boundary of the PDE and minimizing the magnitude of the error of the PDE equations for the current neural network approximate solution on those sampled points.  The exact error terms used and the strategy for sampling the points in the domain and boundary are variable choices which each come with advantages and disadvantages.  PINNs train a continuous approximate PDE solution on the domain instead of a solution at discrete grid points or mesh points.  \r\n\r\nIn this talk, I will give a brief tutorial on how to define a PDESystem using ModelingToolkit.jl and use NeuralPDE.jl to train PINNs for several PDE types.  I will discuss pitfalls and how to use different choices of architecture and training strategy, and their resulting influence on trained solution quality.  I will introduce new features and plans for the project.\r\n\r\nGithub repository: https://github.com/SciML/NeuralPDE.jl",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-28T20:00:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2021-07-28T20:10:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Easy and Customizable PINN PDE Solving with NeuralPDE.jl",
-  "abstract": "Learn how to easily train Physics Informed Neural Networks (PINNs) to solve Partial Differential Equations (PDEs) in NeuralPDE.jl using a symbolic description of the PDE from ModelingToolkit.jl."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
   "code": "VM7PSF",
   "track": null,
   "state": "confirmed",
@@ -9600,39 +9507,6 @@
   "do_not_record": false,
   "title": "Package development in VSCode",
   "abstract": "The [Julia extension for VSCode](https://www.julia-vscode.org/) provides a multitude of tools and commands to make package development and interactive coding easy. We'll provide an overview on how to develop a Julia package from scratch and show how to use the debugger and profiler efficiently to find and fix faulty logic or performance issues."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "code": "WDAW7R",
-  "track": null,
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Peter Bräuer",
-    "code": "UTNWKL",
-    "biography": "Scientific programmer at University of Leipzig."
-   }
-  ],
-  "description": "We will give an overview of the package’s capabilities and evaluate the performance and quality of results. \r\nSome applications in atmospheric research are highlighted to demonstrate the tool’s ability in matching aircraft flight tracks or cloud paths with satellite ground tracks and extracting auxiliary data in the vicinity of the intercept point. \r\n\r\nWhile the main TrackMatcher package (https://github.com/LIM-AeroCloud/TrackMatcher.jl) is a special use case that demonstrates Julia’s capabilities in the geosciences, we hope the community will broadly benefit from PCHIP.jl (https://github.com/LIM-AeroCloud/PCHIP.jl), a Julia implementation of the Peace-wise Cubic Hermite Interpolating Polynomial. The latter was developed within the TrackMatcher project to ensure best results in track interpolation by reducing artificial oscillation of cubic spines at discontinuous sites of trajectories, e.g., at sharp turns in aircraft flight paths.\r\n\r\nWe will introduce both packages and explain the type tree that is used to store datasets of trajectories and computed intersections as well as auxiliary data needed for scientific analysis. We will cover the basic usage of the tool and describe parameters to influence data storage, performance, and accuracy of results. Sensitivity studies of the parameters and limitations of the current version will be discussed and an outlook is given of possible future developments.\r\n\r\nAll software is available at GitHub under the GNU general public license version 3 or higher at https://github.com/LIM-AeroCloud.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-28T17:30:00Z",
-   "room": {
-    "en": "Purple"
-   },
-   "end": "2021-07-28T17:40:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Intercepts in pairs of geographical tracks from TrackMatcher",
-  "abstract": "TrackMatcher is a pure Julia package for finding intercept points between two tracks of arbitrarily spaced geographical locations (trajectories). Trajectories are interpolated using a Peace-wise Cubic Hermite Interpolating Polynomial (PCHIP) as part of a separate package within the TrackMatcher framework. Intercept points are calculated by minimising the distance between two trajectories using the IntervalRootFinding package. TrackMatcher was developed for scientific applications in the field of"
  },
  {
   "content_locale": "en",
@@ -10221,11 +10095,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2021-07-28T17:00:00Z",
+   "start": "2021-07-28T20:20:00Z",
    "room": {
     "en": "JuMP Track"
    },
-   "end": "2021-07-28T17:10:00Z"
+   "end": "2021-07-28T20:30:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"

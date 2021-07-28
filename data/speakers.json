@@ -1600,15 +1600,6 @@
   "biography": null
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/zoe_2021_headshot_4pd2EIw.jpg",
-  "name": "Zoe McCarthy",
-  "submissions": [
-   "VLVRKK"
-  ],
-  "code": "LRPXDZ",
-  "biography": "Zoe McCarthy is a research engineer with a background in robotics, deep learning, reinforcement learning, and virtual reality.  She is currently working at the MIT Julia Lab to make extensions and maintenance in the SciML ecosystem."
- },
- {
   "avatar": "https://pretalx.com/media/avatars/witte_profile_picture_GwOx8ka.png",
   "name": "Philipp A. Witte",
   "submissions": [
@@ -1725,6 +1716,15 @@
   ],
   "code": "MDTTZU",
   "biography": "Second year undergraduate at MIT studying Computer Science and Engineering.\r\n\r\ndegreeff@mit.edu\r\nhttps://github.com/jrdegreeff"
+ },
+ {
+  "avatar": null,
+  "name": "Gavin Lee",
+  "submissions": [
+   "SBLEKM"
+  ],
+  "code": "ME3HKJ",
+  "biography": null
  },
  {
   "avatar": null,
@@ -2515,15 +2515,6 @@
  },
  {
   "avatar": null,
-  "name": "Peter Bräuer",
-  "submissions": [
-   "WDAW7R"
-  ],
-  "code": "UTNWKL",
-  "biography": "Scientific programmer at University of Leipzig."
- },
- {
-  "avatar": null,
   "name": "Mathias Louboutin",
   "submissions": [
    "EVR3HZ"
@@ -2850,15 +2841,6 @@
   "biography": "www.github.com/gstavrinos"
  },
  {
-  "avatar": null,
-  "name": "Cong Van",
-  "submissions": [
-   "BJZVLV"
-  ],
-  "code": "YECHQU",
-  "biography": "Dr. Cong Van is a mathematician, currently a Postdoc fellow at FedEx Institute of Technology, working on Structured Illumination Microscopy (SIM), one type of super-resolution fluorescence microscopes. Dr. Cong Van used Julia during his PhD and during his previous position at Mitsubishi Electric Research Labs (MERL) for thermodynamic property models."
- },
- {
   "avatar": "https://pretalx.com/media/avatars/26233299_1989868764374810_9003691900656884808_o_1_Jhptxwf.jpg",
   "name": "José Pereira",
   "submissions": [
@@ -2875,15 +2857,6 @@
   ],
   "code": "YK9PFQ",
   "biography": "Mathematics undergraduate student and Economics graduate. I love playing computational statistics using Julia."
- },
- {
-  "avatar": "https://www.gravatar.com/avatar/1311bb150d2c7a24d22ded286b2e7d51",
-  "name": "Gillot",
-  "submissions": [
-   "V3FWTU"
-  ],
-  "code": "YMLF99",
-  "biography": "Frédéric Gillot is Assistant Professor at École Centrale de Lyon within the Department of Solid Mechanics, Mechanical Engineering and Civil Engineering. He carries out his research at the Tribology and System Dynamics Laboratory (LTDS), a French CNRS joint research unit (no. 5513). He graduated in Engineering from École nationale supérieure des arts et métiers (ENSAM) and the University of Wien, Austria. An alumnus of École normale supérieure, he holds an agrégation in Mechanical Engineering, a research master and a PhD from École Centrale de Nantes and the University of Nantes. He pursued post-doctoral research for two years at the University of Tokyo (Todai) with funding from the Japan Society for the Promotion of Science. His current research interests address parametric shape optimisation, multi-objective optimisation and robust optimisation."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/icon_HyrctTY.png",
