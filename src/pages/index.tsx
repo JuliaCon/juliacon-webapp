@@ -226,6 +226,24 @@ const TalkPanel = ({
   talk: TalkOverviewData;
   active: boolean;
 }) => {
+  const video = (() => {
+    if (talk.room.id === "890" && !talk.videoCode) {
+      return (
+        <p
+          className={css`
+            border-left: 0.5rem solid var(--julia-purple);
+            padding: 1rem 1rem 1rem 2rem;
+          `}
+        >
+          Make sure to <Link href={"/discord/join"}>Join Discord</Link> to
+          participate in BoF sessions. BoF's are held in the <code>#BoF</code>{" "}
+          voice channel during their scheduled time.
+        </p>
+      );
+    }
+    return <TalkYouTubeEmbed talk={talk} autoplay />;
+  })();
+
   return (
     <TabPanel
       className={css`
@@ -241,7 +259,7 @@ const TalkPanel = ({
         >
           {talk.title}
         </h2>
-        <div>{active && <TalkYouTubeEmbed talk={talk} autoplay />}</div>
+        <div>{active ? video : null}</div>
         <TalkByline talk={talk} />
         {talk.minisymposium ? (
           <MinisymposiumDetails data={talk.minisymposium} />
