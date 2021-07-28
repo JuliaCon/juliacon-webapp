@@ -15,13 +15,18 @@ export const IndexPage: NextPage = () => {
       <VSpaceBetween space={"2rem"}>
         <div>
           <TextHeading level={"h3"}>What is JuliaCon?</TextHeading>
-          <VSpace height={"0.5rem"} />
-          <p>
-            JuliaCon is the conference dedicated to the Julia programming
-            language. The conference is fully virtual this year and talks run
-            from July 28th through July 30th, 2021 with workshops running the
-            previous week.
-          </p>
+          <VSpaceBetween space={"0.5rem"} spaceAbove>
+            <p>
+              JuliaCon is the conference dedicated to the Julia programming
+              language. The conference is fully virtual this year and talks run
+              from July 28th through July 30th, 2021 with workshops running the
+              previous week.
+            </p>
+            <p>
+              This year, JuMP-dev, the annual developer workshop for the JuMP 
+              mathematical optimization ecosystem is co-located with JuliaCon. 
+            </p>
+          </VSpaceBetween>
         </div>
         <div>
           <TextHeading level={"h3"}>How do I register?</TextHeading>
