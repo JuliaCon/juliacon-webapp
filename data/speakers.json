@@ -578,13 +578,13 @@
   "biography": "I'm a contributor to the Julia language and many packages."
  },
  {
-  "avatar": null,
+  "avatar": "https://pretalx.com/media/avatars/Profilbild_WjBX4gT.jpg",
   "name": "Andrea Neumayr",
   "submissions": [
    "YGWUVE"
   ],
   "code": "ATAFQL",
-  "biography": null
+  "biography": "I am a PhD student and I've studied Mathematics. I am working with Julia since 2017. I'm a developer of a modeling and simulation environment of 3D-systems called Modia3D. Our Julia package is https://github.com/ModiaSim/Modia3D.jl.\r\nI'm interested modeling and numerical analysis in general and I want to learn more about Julia."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/Nicolas_TSE_sq_small_u0epcQv.jpg",
