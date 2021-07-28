@@ -70,7 +70,7 @@
   "is_featured": false,
   "code": "39QSBR",
   "track": null,
-  "state": "confirmed",
+  "state": "withdrawn",
   "duration": 3,
   "speakers": [
    {
@@ -1083,7 +1083,7 @@
   "is_featured": true,
   "code": "8HRTW8",
   "track": null,
-  "state": "confirmed",
+  "state": "withdrawn",
   "duration": 30,
   "speakers": [
    {
@@ -2615,7 +2615,7 @@
   "is_featured": true,
   "code": "BX9YY3",
   "track": null,
-  "state": "confirmed",
+  "state": "withdrawn",
   "duration": 30,
   "speakers": [
    {
@@ -5064,7 +5064,7 @@
     "biography": "Professor of Computational Science at the Universidad Nacional Autónoma de México and visiting professor at MIT.\r\n\r\nInterested in computational science, interval arithmetic, and numeric-symbolic computing.\r\n\r\nAuthor of the JuliaIntervals suite of packages for interval arithmetic, and various tutorials on Julia."
    }
   ],
-  "description": "Many discrete problems in computer science can be encoded into Boolean satisfiability (SAT) problems. In such problems, all variables are Boolean (true or false), but are restricted by *constraints* between the Boolean variables. \r\n\r\nOver the last 50 years there have been remarkable developments in understanding how to solve these constraint satisfaction problems, and many open-source solvers have been developed, some of which have been wrapped in Julia, which are capable of solving problems with millions of variables. However, their code is often difficult to understand and modify.\r\n\r\nIn order to increase the awareness and accessibility of SAT solvers in the community, and to encourage experimentation, we developed a simple solver in pure Julia that is performant for small systems. \r\n\r\nWe also have developed a tool that allows us to write down discrete problems, such as sudoku, symbolically in Julia, and encode them into SAT.\r\n\r\nWe will soon create a JuliaSatisfiability GitHub organization with a SatisfiabilityBase package defining the basic types and input/output capabilities, in order to facilitate inter-operability between different solvers, and to provide a uniform and easy-to-use interface to make these solvers more widely available.",
+  "description": "Many discrete problems in computer science can be encoded into Boolean satisfiability (SAT) problems. In such problems, all variables are Boolean (true or false), but are restricted by *constraints* between the Boolean variables. \r\n\r\nOver the last 50 years there have been remarkable developments in understanding how to solve these constraint satisfaction problems, and many open-source solvers have been developed, some of which have been wrapped in Julia, which are capable of solving problems with millions of variables. However, their code is often difficult to understand and modify.\r\n\r\nIn order to increase the awareness and accessibility of SAT solvers in the community, and to encourage experimentation, we developed a simple solver in pure Julia that is performant for small systems. \r\n\r\nWe also have developed a tool that allows us to write down discrete problems, such as sudoku, symbolically in Julia, and encode them into SAT.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -6715,10 +6715,10 @@
   "duration": 10,
   "speakers": [
    {
-    "avatar": "https://pretalx.com/media/avatars/profilepic_nNdbcSl.jpg",
+    "avatar": "https://pretalx.com/media/avatars/profilepiczoom_X7T6rib.jpg",
     "name": "Francesco Martinuzzi",
     "code": "NGLZHC",
-    "biography": "Physics graduate student interested in Scientific Machine Learning."
+    "biography": "I am a PhD student enrolled at the University of Leipzig working with the Remote Sensing Center for Earth System Research and funded by the Center for Scalable Data Analytics and Artificial Intelligence. I am interested in data-driven exploration of extreme events and their consequences. At the moment my focus is mainly in Reservoir Computing approaches."
    }
   ],
   "description": "Chaoticity is by definition hard to predict or to reproduce using forecasting models. With the advent of Deep Learning (DL) a lot of effort has been dedicated to this problem, with the default approaches being represented by Recurrent Neural Networks (RNNs) and Long Short Term Memory networks (LSTMs). More recently a new family of models has proved more effective in tackling chaotic systems, namely Reservoir Computing (RC) models. Given the relative infancy of the RC paradigm it is not simple to find an implementation of such models, let alone a full library. With ReservorComputing.jl we want to propose a Julia package that allows the user to quickly get started with a fast growing range of RC models, ranging from the standard Echo State Networks (ESNs) to the more exotic Reservoir Computing with Cellular Automata (RECA). In this talk a brief introduction to the concept of RC will be given and afterwards the capabilities of ReservoirComputing.jl will be illustrated using interactive examples.\r\n\r\nReservoir Computing models work by expanding the input data into a higher dimensional space, called reservoir. After this expansion the resulting states are collected and the model is trained against the desired input as a linear regression problem. This approach allows for fast training times, and solves several problems of Neural Networks training, like the vanishing gradient. Not only are the models in the RC family faster and safer to train, but, as mentioned before, it has been shown that they are also better in the prediction and reproduction of chaotic systems. RC models are mainly composed of three sections: an input to reservoir coupler, the reservoir, and a reservoir to output coupler. The last section is the result of the training process, and is dependent on the training method that one chooses to utilize. It is easy to see that using different constructions for these elements is possible to obtain different results in the task at hand. To properly explore the RC models a quick way to access these layers is needed in their implementation. \r\n\r\nAt a high level, the implementation of ReservoirComputing.jl gives the user the appropriate tools needed for a quick setup of the desired model, allowing an exploration of these family of models for the prediction of a given time series. Otherwise if one chooses to delve more deeply into the customization of the model, the implementation of ReservoirComputing.jl follows a modularity designed to leave users with the freedom to fully customize the system they intend to train and use for predictions. This not only helps with possible recombinations of layers already implemented in the library, but allows for expansions with the aid of external libraries or custom code. Leveraging the great package ecosystem of Julia the user could decide to train the RC system using not yet implemented regression approaches with an external package. At the same time it is possible to use a reservoir matrix construction not present in the library, either by custom construction, or again by using other packages, like LightGraphs.jl. \r\n\r\nAfter the brief introduction of the RC paradigm the talk intends to illustrate the concepts defined above using concrete examples. It will be shown both the ease of use of the package and some of the possible variations included that can be explored. Finally a demonstration of possible customizations will be illustrated, both by custom defined layers and by leveraging other libraries of the Julia ecosystem.",
@@ -6737,7 +6737,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Chaotic time series predictions with ReservoirComputing.jl",
-  "abstract": "Are you interested in how machine learning can be used to predict the behavior of the \"unpredictable\" chaotic systems? This talk will be a deep dive into ReservoirComputing.jl, a package in the SciML ecosystem focused on a class of stabilized machine learning specialized for handling learning these difficult dynamical systems."
+  "abstract": "Are you interested in how machine learning can be used to predict the behavior of the \"unpredictable\" chaotic systems? This talk will be a deep dive into ReservoirComputing.jl (https://github.com/SciML/ReservoirComputing.jl), a package in the SciML ecosystem focused on a class of stabilized machine learning specialized for handling learning these difficult dynamical systems."
  },
  {
   "content_locale": "en",
