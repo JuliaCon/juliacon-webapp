@@ -1,4 +1,4 @@
-import { parseISO } from "date-fns";
+import { addHours, parseISO } from "date-fns";
 
 import talksData from "../../data/talks.json";
 import minisymposiaData from "../../data/minisymposia.json";
@@ -32,7 +32,9 @@ export const ALL_TALKS = talksData.map((talk) => {
     description: talk.description,
     duration: talk.duration,
     startTime: talk.slot.start,
-    endTime: talk.slot.end,
+    // HACK
+    endTime:
+      talk.slot.end || addHours(parseISO(talk.slot.start), 1).toISOString(),
     isFeatured: talk.is_featured,
     submissionType: getText(talk.submission_type),
     roomId,
