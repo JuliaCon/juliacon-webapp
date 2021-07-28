@@ -1573,32 +1573,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "9ZBYGS",
-  "track": null,
-  "state": "confirmed",
-  "duration": 60,
-  "speakers": [],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-28T20:30:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": null
-  },
-  "submission_type": {
-   "en": "Social hour"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "GatherTown -- Social break",
-  "abstract": "Join us on Gather.town for a social hour.\r\n\r\nIt is a virtual location where we will facilitate the poster sessions, social gatherings, and hackathon. You can join the space using the URL: https://gather.town/invite?token=3QYkt8gX.\r\n\r\nYou should have received the password through Eventbrite"
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "A3FSL3",
   "track": null,
   "state": "confirmed",
@@ -10908,6 +10882,32 @@
   "do_not_record": false,
   "title": "Infinite-Dimensional Optimization with InfiniteOpt.jl",
   "abstract": "We present InfiniteOpt.jl which facilitates a coherent unifying abstraction for characterizing infinite-dimensional optimization problems rigorously through a common lens. This decouples models from discretized forms and promotes the use of novel transformations. This new perspective encourages new theoretical crossover and novel problem formulations (creating new disciplines like random field optimization)."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "YXJ8YQ",
+  "track": null,
+  "state": "confirmed",
+  "duration": 60,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2021-07-28T20:30:00Z",
+   "room": {
+    "en": "Green"
+   },
+   "end": null
+  },
+  "submission_type": {
+   "en": "Social hour"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "GatherTown -- Social break",
+  "abstract": "Join us on Gather.town for a social hour.\r\n\r\nIt is a virtual location where we will facilitate the poster sessions, social gatherings, and hackathon. You can join the space using the URL: https://gather.town/invite?token=3QYkt8gX.\r\n\r\nYou should have received the password through Eventbrite"
  },
  {
   "content_locale": "en",
