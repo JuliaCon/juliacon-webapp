@@ -67,39 +67,6 @@
  },
  {
   "content_locale": "en",
-  "is_featured": false,
-  "code": "39QSBR",
-  "track": null,
-  "state": "withdrawn",
-  "duration": 3,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Simon Schoelly",
-    "code": "ZCWVXE",
-    "biography": "Simon is a Software Engineer from Switzerland. Most of Julia contributions are related the the JuliaGraphs ecosystem."
-   }
-  ],
-  "description": "The content of this talks will be roughly as follows:\r\n\r\n1. Very brief introduction to what kernel functions are, with classification with Support Vector Machines as an example.\r\n\r\n2. An example of a graph classification problem on a data set of molecules and how such molecules are mapped to graphs with attributes.\r\n\r\n3. Introduction of graph kernels and what special properties they need to have in addition to the properties that all kernel functions need to have.\r\n\r\n4. An explicit example of a graph in form of the \"Shortest path kernel\" and a demonstration how this graph kernel can be calculated with GraphKernels.jl. If time permits, I will also introduce the \"Weisfeiler-Leman graph kernel\".\r\n\r\n5. Show how GraphKernels.jl is connected to the rest of the Julia ecosystem, where it fits well and where there are some pain points. Namely I will mention:\r\n- The JuliaGraphs ecosystem\r\n- KernelFunctions.jl\r\n- The MLJ ecosystem\r\nI will also quickly introduce the packages SimpleValueGraphs.jl and GraphDatasets.jl that I developed- the former package provides  the necessary graph data structures and the second package allows one to download commonly used graph data sets.\r\n\r\n6. Mention GeometricFlux.jl - a package that uses deep learning to solve graph machine learning problems and give a quick overview of the currently best performing methods.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-30T17:15:00Z",
-   "room": {
-    "en": "BoF/Mini Track"
-   },
-   "end": "2021-07-30T17:18:00Z"
-  },
-  "submission_type": {
-   "en": "Virtual Poster"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Graph Machine Learning with GraphKernels.jl",
-  "abstract": "Graph kernels are similarity functions between graphs. With these kernel functions, graphs can be used as input features for various machine learning algorithms such as Support Vector Machines, Principal Component Analysis or Kernel Ridge Regression.\r\n\r\nThis lightning talk will introduce GraphKernels.jl, a package that allows one to efficiently calculate graph kernels and will explain how these kernels fit into the rest of the Julia ecosystem."
- },
- {
-  "content_locale": "en",
   "is_featured": true,
   "code": "39ZFBF",
   "track": null,
@@ -1077,39 +1044,6 @@
   "do_not_record": false,
   "title": "Sparse Matrix Decomposition and Completion with Chordal.jl",
   "abstract": "We will introduce Chordal.jl, which includes several extensible algorithms for sparse matrices with a chordal sparsity pattern. We will overview the algorithms in this package and showcase their application in sparse semidefinite programming."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "code": "8HRTW8",
-  "track": null,
-  "state": "withdrawn",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Simon Schoelly",
-    "code": "ZCWVXE",
-    "biography": "Simon is a Software Engineer from Switzerland. Most of Julia contributions are related the the JuliaGraphs ecosystem."
-   }
-  ],
-  "description": "#### Outline of this talk:\r\n\r\n##### A quick survey of existing graph data packages in Julia\r\nI will not only mention packages from the JuliaGraphs ecosystem, but also other packages unrelated to JuliaGraphs that have their own graph data structures.\r\n\r\n##### An overview how many graph algorithms work\r\nA lot of graph algorithms are based on the same similar operations. I will mention some of the most important operations for querying and modifying graphs.\r\n\r\n##### An overview of common graph data structures\r\nI will discuss common graph data structures such as adjacency matrices, adjacency lists and edge lists, and the specific data structure that is implemented by LightGraphs.jl\r\n\r\n##### Graph data structures with metadata\r\nGraphs with metadata introduce additional tradeofs. I will discuss how metadata is handled by the packages SimpleWeightedGraphs.jl, MetaGraphs,jl and SimpleValueGraphs.jl and discuss an anti-pattern that currently exists in the JuliaGraphs ecosystem.\r\n\r\n##### Geometric graphs,\r\nGeometric meshes can be seen as graphs. I will discuss half edge data structures (also known as DECL) such as the one implement in HalfEdges.j\r\n\r\n##### Multigraphs and Hypergraphs\r\nMultigraphs are graphs with multiple edges between vertices, hypergraphs are graphs where an edge can have more than one or two vertices. There are already implementations in Julia in the packages multigraphs,jl and hypergraphs.jl - but there is the potential for a lot more data structures and the JuliaGraphs api does curently not fit exactly to these types of graphs.\r\n\r\n##### Dynamic graphs\r\nCurrently, there are multiple graph data structures in Julia that can be modified after creation, but these modifications might be quite slow. There is some potential for developing graph data structres that are optimized for fast modification.\r\n\r\n##### Compressed graphs\r\nToday's computer architectures relay heavily on caching.  Therefore one can gain a lot of performance by keeping graph data structures as small as possible. This might be an interesting project idea to implement in Julia, so I will mention some research.\r\n\r\n##### The matrix view of graphs:\r\nAs graphs can been interpreted as matrices, it is also possible to use matrix algorithms and data structures for graph processing. There has been some effort into the development of an API called GraphBLAS in the recent years and nowadays we even have Julia packages for interacting with GraphBLAS. I will introduce this paradigm and give my opinion on it.\r\n\r\n##### Graphs on the GPU:\r\nThe non-uniform structure of graphs makes it difficult to efficiently run graph algorithms in parallel on GPUs. Nevertheless, the development of libraries such as Gunrock in the recent years shows that this is not impossible.\r\n\r\n##### Distributed graphs:\r\nFor very large graphs it is difficult or impossible to keep them in memory on a single machine. I will discuss how such graphs can be distributed on multiple machines with either vertex and edge partitions and the *bulk synchronous parallel* model for graph processing polarized by Google's Pregel.\r\n\r\n##### NP-hard graph problems:\r\nThere is currently a lack of algorithms to solve NP-hard graph problems in Julia. There are several graph problems that are quite important and fall into this category, such as \r\n- Graph (subgraph)-isomomorphism\r\n- Vertex/edge coloring\r\n- Route planning\r\nWhile there exist some solution in Julia, they are far the best that we could have. I will therefore discuss some ideas such has parallel brute-force search, tree-decomposition for fixed parameter tractability and the application of deep-learning algorithms on such problems.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-28T13:00:00Z",
-   "room": {
-    "en": "Purple"
-   },
-   "end": "2021-07-28T13:30:00Z"
-  },
-  "submission_type": {
-   "en": "Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Efficient graph data structures: What we have and what could be",
-  "abstract": "In this talk I want to give an overview of the various graph related packages that can be found in the Julia ecosystem.\r\n\r\nIn particular I will focus on discussing what various (and conflicting) requirements we have for processing graphs efficiently  and how these requirements are fulfilled by existing graph data structures.\r\n\r\nA second focus will be on giving project ideas for new graph data structures and algorithms from literature and recent research."
  },
  {
   "content_locale": "en",
@@ -2612,39 +2546,6 @@
  },
  {
   "content_locale": "en",
-  "is_featured": true,
-  "code": "BX9YY3",
-  "track": null,
-  "state": "withdrawn",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Simon Schoelly",
-    "code": "ZCWVXE",
-    "biography": "Simon is a Software Engineer from Switzerland. Most of Julia contributions are related the the JuliaGraphs ecosystem."
-   }
-  ],
-  "description": "The talk starts with a quick introduction into the memory hierarchy and instruction pipelining on modern computer architectures and will demonstrate how these concepts influence the performance of Julia code.\r\nI will also go into Julia specifics such as: Type instability, garbage collection, mutable vs. immutable struct, code inlining, array layouts.\r\nI will discuss row vs. column based memory layouts and discuss data-oriented design.\r\n\r\nIn a second part, I will show various tools for benchmarking and profiling Julia code, such as BenchmarkTools.jl, Profile, ProfileView.jl, LinuxPerf.jl, and I give some general benchmark guidelines.\r\n\r\nIn a third part, I will show tools for analyzing Julia code, such as the @code_warntype and @code_native macros, and the package Cthulhu.jl. I will also give some guidelines on how to interpret lowered Julia code and assembly and how to spot parts that are problematic for performance.\r\n\r\nThis talk will purposely not focus on parallel code.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-28T20:00:00Z",
-   "room": {
-    "en": "Purple"
-   },
-   "end": "2021-07-28T20:30:00Z"
-  },
-  "submission_type": {
-   "en": "Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Writing fast sequential Julia Code",
-  "abstract": "In this talk I will explain how one can write fast Julia code. I will mainly focus only on these two points:\r\n- Keep your data close together\r\n- Avoid branches\r\n\r\nI will explain how keeping these two concepts in mind can help improve the performance of your Julia code and how to analyze and benchmark your code.\r\n\r\nTarget audience: People who are interested in writing fast Julia code, but might not have  a computer science education."
- },
- {
-  "content_locale": "en",
   "is_featured": false,
   "code": "BXEZAQ",
   "track": null,
@@ -2772,11 +2673,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2021-07-28T16:30:00Z",
+   "start": "2021-07-28T16:00:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Green"
    },
-   "end": "2021-07-28T17:00:00Z"
+   "end": "2021-07-28T16:30:00Z"
   },
   "submission_type": {
    "en": "Talk"
@@ -2784,7 +2685,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "JuliaCon Trivia",
-  "abstract": "JuliaCon Trivia"
+  "abstract": "Trivia questions related to Julia -- this is a fun optional activity for our first break."
  },
  {
   "content_locale": "en",
@@ -5280,7 +5181,7 @@
     "biography": "Research Software Developer at UCL during the day, binary builder during the night."
    },
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/me_LYJ45T1.jpg",
     "name": "Eric P. Hanson",
     "code": "GBSYWE",
     "biography": "I recently finished my PhD in quantum information theory at the University of Cambridge. I’m now a Research Scientist working at Beacon Biosignals, trying to make brain monitoring easily accessible, interpretable, and actionable."
@@ -5507,39 +5408,6 @@
   "do_not_record": false,
   "title": "Distributed Quantum Circuit Simulation",
   "abstract": "In this talk we present a framework called [QuantEx](https://github.com/JuliaQX/QXSim.jl). This framework is designed to make it easy to perform simulations of quantum circuits on large distributed compute clusters. It users tensor network approaches and makes use of the excellent OMEinsum.jl, TensorOperations.jl and ITensors.jl packages along with MPI.jl to distribute the work across large numbers of distributed nodes."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "KAJGA9",
-  "track": null,
-  "state": "withdrawn",
-  "duration": 3,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Shivay Lamba",
-    "code": "T9TYF8",
-    "biography": "Shivay Lamba is a software developer specializing in DevOps, Machine Learning and Full Stack Development. \r\n\r\nHe is an Open Source Enthusiast and has been part of various programs like Google Code In and Google Summer of Code as a Mentor and is currently a MLH Fellow. He has also worked at organizations like Amazon, EY, Genpact. He is a Tensorflow.JS SIG member and community lead from India."
-   }
-  ],
-  "description": "An introduction about GADM.jl. \r\n\r\nThis package provides polygons/multipolygons for all countries and their sub-divisions from the GADM dataset. It fetches the data dynamically from the officially hosted database using DataDeps.jl and provides a minimal wrapper API to get the coordinates of the requested geometries.\r\n\r\nGADM, the Database of Global Administrative Areas, is a high-resolution database of country administrative areas, with a goal of \"all countries, at all levels, at any time period.\" The database is available in a few export formats, including shapefiles that are used in most common GIS applications.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-30T17:15:00Z",
-   "room": {
-    "en": "BoF/Mini Track"
-   },
-   "end": "2021-07-30T17:18:00Z"
-  },
-  "submission_type": {
-   "en": "Virtual Poster"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "GADM.jl : Julia Package for Polygon Provision from GADM Dataset",
-  "abstract": "This package provides polygons/multipolygons for all countries and their sub-divisions from the GADM dataset. It fetches the data dynamically from the officially hosted database using DataDeps.jl and provides a minimal wrapper API to get the coordinates of the requested geometries."
  },
  {
   "content_locale": "en",

@@ -1123,7 +1123,7 @@
   "biography": "Postdoc in climate physics in the MPI for Meteorology (Hamburg) and professional drummer. Lead dev for JuliaDynamics and JuliaMusic."
  },
  {
-  "avatar": null,
+  "avatar": "https://pretalx.com/media/avatars/me_LYJ45T1.jpg",
   "name": "Eric P. Hanson",
   "submissions": [
    "HVSAW9"
@@ -1206,15 +1206,6 @@
   ],
   "code": "GUDMS8",
   "biography": "Dr. Júlio Hoffimann is a research scientist with more than 10 years of experience in advanced statistical theories for geosciences. He is the author and lead developer of the [GeoStats.jl](https://github.com/JuliaEarth/GeoStats.jl) framework, as well as various other [open source projects](https://github.com/JuliaEarth) that are widely used by geoscientists around the world: https://juliohm.github.io"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Clayton_Artsy_3hVzSOX.jpg",
-  "name": "Clayton E. Tillman",
-  "submissions": [
-   "M7WHPU"
-  ],
-  "code": "GUVNAG",
-  "biography": "Highly trained and experienced analytics expert using proven and state-of-the-science statistical methods and machine learning to help eliminate waste, maximize return on investment, and improve business processes.\r\n\r\nExperienced .NET specialist specializing in custom Windows or Web-based applications that help make better decisions, track inventory and increase efficiency, improve marketing efforts, manage supply chain, and provide other analytics-based solutions.\r\n\r\nWhat I am really, really interested in is machine-learning created music. I am new to Julia and extremely excited to leverage the elegant language in my pursuit of human-machine musical collaboration."
  },
  {
   "avatar": "https://www.gravatar.com/avatar/7e76579d61a3dabf3576b93f7f078806",
@@ -2315,15 +2306,6 @@
   "biography": "Senior Machine Learning Engineer at Second Spectrum."
  },
  {
-  "avatar": null,
-  "name": "Shivay Lamba",
-  "submissions": [
-   "KAJGA9"
-  ],
-  "code": "T9TYF8",
-  "biography": "Shivay Lamba is a software developer specializing in DevOps, Machine Learning and Full Stack Development. \r\n\r\nHe is an Open Source Enthusiast and has been part of various programs like Google Code In and Google Summer of Code as a Mentor and is currently a MLH Fellow. He has also worked at organizations like Amazon, EY, Genpact. He is a Tensorflow.JS SIG member and community lead from India."
- },
- {
   "avatar": "https://pretalx.com/media/avatars/93312757_10222780446325975_8387414832315367424_n1_a2V6O6Y.jpg",
   "name": "Ayush Patnaik",
   "submissions": [
@@ -3004,17 +2986,6 @@
   ],
   "code": "ZBXW73",
   "biography": null
- },
- {
-  "avatar": null,
-  "name": "Simon Schoelly",
-  "submissions": [
-   "39QSBR",
-   "8HRTW8",
-   "BX9YY3"
-  ],
-  "code": "ZCWVXE",
-  "biography": "Simon is a Software Engineer from Switzerland. Most of Julia contributions are related the the JuliaGraphs ecosystem."
  },
  {
   "avatar": null,
