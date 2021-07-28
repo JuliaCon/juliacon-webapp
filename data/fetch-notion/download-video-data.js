@@ -42,6 +42,11 @@ async function main() {
     if (code === "DRMPLU") {
       // Minisymposium: Set Propagation Methods in Julia: Techniques and Applications
       // This has special (manual) handling, so skip it here.
+      videos.push({
+        youtubeCode: "4xni8HBmalE",
+        youtubeUrl: "https://youtu.be/4xni8HBmalE",
+        id: code,
+      });
       continue;
     }
 
