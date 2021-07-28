@@ -641,14 +641,14 @@
   "biography": "I am a PhD student at the University of Victoria and Canada's National Research Council working on astronomy instrumentation and the science of exoplanet direct imaging."
  },
  {
-  "avatar": null,
+  "avatar": "https://pretalx.com/media/avatars/profile_small_K5Yq0Pk.jpg",
   "name": "David Widmann",
   "submissions": [
    "WPUYVZ",
    "8BWJXP"
   ],
   "code": "BKDQGH",
-  "biography": "I am a PhD student at the [Division of Systems and Control](https://www.it.uu.se/research/systems_and_control)\r\nwithin the [Department of Information Technology](https://www.it.uu.se) and the\r\n[Centre for Interdisciplinary Mathematics](https://www.math.uu.se/CIM) in Uppsala,\r\nsupervised by [Fredrik Lindsten](https://liu.se/en/employee/freli29),\r\n[Dave Zachariah](http://www.it.uu.se/katalog/davza513), and Erik Sjöblom. The main focus of my PhD studies is [uncertainty-aware deep learning](http://www.math.uu.se/digitalAssets/396/c_396868-l_1-k_lindsten.pdf). Currently, I\r\nam particularly interested in analyzing and evaluating\r\n[calibration](https://en.wikipedia.org/wiki/Calibration_(statistics)) of\r\nprobabilistic models. Please visit [my webpage](https://widmann.dev/research/) for more information.\r\n\r\n[My GitHub profile](https://github.com/devmotion/) provides an overview of my contributions to the Julia ecosystem. Currently, I am a member of the [steering council of SciML](https://sciml.ai/governance.html) and the [Turing team](https://turing.ml/dev/team/)."
+  "biography": "I am a PhD student at the [Division of Systems and Control](https://www.it.uu.se/research/systems_and_control) within the [Department of Information Technology](https://www.it.uu.se) and the [Centre for Interdisciplinary Mathematics](https://www.math.uu.se/CIM) in Uppsala, supervised by [Fredrik Lindsten](https://liu.se/en/employee/freli29), [Dave Zachariah](http://www.it.uu.se/katalog/davza513), and Erik Sjöblom. The main focus of my PhD studies is [uncertainty-aware deep learning](http://www.math.uu.se/digitalAssets/396/c_396868-l_1-k_lindsten.pdf). Currently, I am particularly interested in analyzing and evaluating [calibration](https://en.wikipedia.org/wiki/Calibration_(statistics)) of probabilistic models. Please visit [my webpage](https://widmann.dev/research/) for more information.\r\n\r\n[My GitHub profile](https://github.com/devmotion/) provides an overview of my contributions to the Julia ecosystem. Currently, I am a member of the [steering council of SciML](https://sciml.ai/governance.html) and the [Turing team](https://turing.ml/dev/team/)."
  },
  {
   "avatar": null,
