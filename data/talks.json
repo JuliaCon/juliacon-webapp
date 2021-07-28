@@ -1080,6 +1080,32 @@
  },
  {
   "content_locale": "en",
+  "is_featured": false,
+  "code": "8LK7KU",
+  "track": null,
+  "state": "confirmed",
+  "duration": 60,
+  "speakers": [],
+  "description": "It is a virtual location where we will facilitate the poster sessions, social gatherings, and hackathon. You can join the space using the URL: https://gather.town/invite?token=3QYkt8gX.\r\n\r\nYou should have received the password through Eventbrite",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2021-07-30T20:30:00Z",
+   "room": {
+    "en": "Green"
+   },
+   "end": "2021-07-30T21:30:00Z"
+  },
+  "submission_type": {
+   "en": "Social hour"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "GatherTown -- Social break",
+  "abstract": "Join us on Gather.town for a social hour."
+ },
+ {
+  "content_locale": "en",
   "is_featured": true,
   "code": "8LL9QH",
   "track": null,
@@ -8278,7 +8304,7 @@
     "biography": "Senior Lecturer (associate professor) with the University of Cambridge Department of Computer Science."
    }
   ],
-  "description": "In hardware security, side-channel attackers can monitor analog signals, like the per-instruction power consumed. They can record this data during the execution of a cryptographic algorithm to gain additional information. Such leakage data can depend on intermediate values of the cipher, which themselves depend on the secret key. Hence, with such side-channel data, reconstructing the key of the cipher may become feasible.\r\n\r\nIn this talk, we focus on using Julia’s type system to create a framework for generating, analyzing and protecting such side-channel data. For this purpose, we create custom types that behave like integers or arrays. When passing values of these types to a Julia implementation of a cryptographic algorithm, multiple dispatch automatically produces an instrumented or transformed version of that algorithm. Usually, this process does not require modifications to the algorithm’s original implementation.\r\n\r\nWe look in particular at two different functionalities that we can integrate via such custom types:\r\n- To simulate potential side-channel attacks, it is useful to generate data traces that depend on intermediate values. We will show how to construct types that log a trace of information about the values processed. This reduces the need for access to analog recording hardware, which is particularly useful when teaching side-channel security concepts in student practicals.\r\n- To explore protection against side-channel attacks, values that depend on the secret key should never appear in memory without protection. We explore how integer and array-like types can be created to implement a range of techniques for splitting register values into multiple shares, to reduce the dependence of leakage data on the actual values processed.\r\n\r\nJulia’s parametric type system allows us to arbitrarily stack those types on top of each other. For instance, protection types can be stacked on top of logging types. This construction allows us to conveniently collect traces of protected data which can be, for example, used to verify the effectiveness of the protection.",
+  "description": "In hardware security, side-channel attackers can monitor analog signals, like the per-instruction power consumed. They can record this data during the execution of a cryptographic algorithm to gain additional information. Such leakage data can depend on intermediate values of the cipher, which themselves depend on the secret key. Hence, with such side-channel data, reconstructing the key of the cipher may become feasible.\r\n\r\nIn this talk, we focus on using Julia’s type system to create a framework for generating, analyzing and protecting such side-channel data. For this purpose, we create custom types that behave like integers or arrays. When passing values of these types to a Julia implementation of a cryptographic algorithm, multiple dispatch automatically produces an instrumented or transformed version of that algorithm. Usually, this process does not require modifications to the algorithm’s original implementation.\r\n\r\nWe look in particular at two different functionalities that we can integrate via such custom types:\r\n- To simulate potential side-channel attacks, it is useful to generate data traces that depend on intermediate values. We will show how to construct types that log a trace of information about the values processed. This reduces the need for access to analog recording hardware, which is particularly useful when teaching side-channel security concepts in student practicals.\r\n- To explore protection against side-channel attacks, values that depend on the secret key should never appear in memory without protection. We explore how integer and array-like types can be created to implement a range of techniques for splitting register values into multiple shares, to reduce the dependence of leakage data on the actual values processed.\r\n\r\nJulia’s parametric type system allows us to arbitrarily stack those types on top of each other. For instance, protection types can be stacked on top of logging types. This construction allows us to conveniently collect traces of protected data which can be, for example, used to verify the effectiveness of the protection.\r\n\r\nPackage: https://github.com/parablack/CryptoSideChannel.jl\r\n<br>Documentation: https://parablack.github.io/CryptoSideChannel.jl/dev/\r\n<br>Dissertation: https://github.com/parablack/CryptoSideChannel.jl/raw/master/diss.pdf",
   "image": null,
   "slot_count": 1,
   "slot": {
