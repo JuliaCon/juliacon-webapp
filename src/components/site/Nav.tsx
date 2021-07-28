@@ -28,6 +28,9 @@ export const Nav = () => {
       <NavLink href={"https://juliacon.org/2021/tickets/"} external>
         Register
       </NavLink>
+      <NavLink href={"https://julialang.org/juliacon/"} external>
+        Important Links
+      </NavLink>
       <NavLink href={"/about"}>About</NavLink>
       <NavLink href={"/discord/join"}>Join Discord</NavLink>
       <NavLink href={"/agenda"}>Schedule</NavLink>
@@ -69,7 +72,9 @@ const NavLink = ({ children, href, as, external }: NavLinkProps) => {
       // from setting the URL itself (it seems to differentiate "unset" from
       // "set but undefined"). Instead we either spread an object with the href
       // if we want to set it, or any empty object if we dont.
-      {...(external ? { href } : {})}
+      {...(external
+        ? { href, target: "_blank", rel: "noopener nofollower" }
+        : {})}
       className={cx(
         css`
           height: 100%;
