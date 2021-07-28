@@ -8277,7 +8277,7 @@
     "biography": null
    }
   ],
-  "description": "A wide range of nonconvex learning problems have this structure including (but not limited to) sparse and low-rank optimization problems. In spite of being general purpose, NExOS.jl is able to compute high quality solutions to a wide range of nonconvex learning problems very quickly and is competitive with specialized algorithms.",
+  "description": "We consider the problem of minimizing a convex cost function over a nonconvex constraint set, where projection onto the constraint set is single-valued around points of interest. A wide range of nonconvex learning problems have this structure including (but not limited to) sparse and low-rank optimization problems.\r\n\r\nBy exploiting the underlying geometry of the constraint set, NExOS finds a locally optimal point by solving a sequence of penalized problems with strictly decreasing penalty parameters. NExOS solves each penalized problem by applying an outer iteration operator splitting algorithm, which converges linearly to a local minimum of the corresponding penalized formulation under regularity conditions. Furthermore, the local minima of the penalized problems converge to a local minimum of the original problem as the penalty parameter goes to zero.\r\n\r\nNExOS.jl has been extensively tested on many instances from a wide variety of learning problems. In spite of being general-purpose, NExOS is able to compute high-quality solutions very quickly and is competitive with specialized algorithms.",
   "image": null,
   "slot_count": 1,
   "slot": {
