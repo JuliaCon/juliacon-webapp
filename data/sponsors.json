@@ -91,6 +91,15 @@
     }
   },
   {
+    "sponsorName": "Jeffrey Sarnoff",
+    "blurb": "Jeffrey Sarnoff is avid contributor and supporter of the Julia ecosystem for many years.", 
+    "moreInfoURL": "https://github.com/JeffreySarnoff",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/sarnoff.png",
+    "tier": "Silver"
+  },
+  {
     "sponsorName": "Packt Publication",
     "blurb": "Packt is the online library and learning platform for professional developers. Learn Julia, Python, Angular and more with eBooks, videos and courses.",
     "moreInfoURL": "https://www.amazon.com/stores/page/B332E0D1-AECD-4D89-9DDE-FB67C0E7073A?ingress=0&visitId=53ed5a7b-8bf7-4661-af38-c482a3a1ddb7",
