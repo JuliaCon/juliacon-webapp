@@ -22,6 +22,10 @@ export const IndexPage: NextPage = () => {
             from July 28th through July 30th, 2021 with workshops running the
             previous week.
           </p>
+          <p>
+            This year, JuMP-dev, the annual developer workshop for the JuMP 
+            mathamatical optimization ecosystem is co-located with JuliaCon. 
+          </p>
         </div>
         <div>
           <TextHeading level={"h3"}>How do I register?</TextHeading>
