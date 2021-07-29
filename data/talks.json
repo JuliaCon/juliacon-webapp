@@ -6950,11 +6950,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2021-07-29T20:10:00Z",
+   "start": "2021-07-30T12:55:00Z",
    "room": {
     "en": "Green"
    },
-   "end": "2021-07-29T20:20:00Z"
+   "end": "2021-07-30T13:05:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
