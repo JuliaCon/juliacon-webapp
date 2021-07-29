@@ -33,7 +33,7 @@ export const JobsPage: NextPage = () => {
           <p>
             We have <ExternalLink href="https://www.relational.ai/job-julia-ecosystem-engineer">a job posting available</ExternalLink> for anyone interested in 
             working with us on our integration with the Julia language and package ecosystem. Other job openings can be found{" "}
-            <ExternalLink href="https://www.relational.ai/careers">. 
+            <ExternalLink href="https://www.relational.ai/careers">
               here{" "}
             </ExternalLink>
             .
