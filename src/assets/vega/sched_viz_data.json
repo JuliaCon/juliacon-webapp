@@ -1,16 +1,5 @@
 [
  {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "38TG38",
-  "title": "Introducing QXGraphDecompositions",
-  "url": "/talk/38TG38",
-  "index": 1,
-  "speaker": "John Brennan"
- },
- {
   "start_datetime": "2021-07-30T13:30:00Z",
   "end_datetime": "2021-07-30T14:00:00Z",
   "duration": 30,
@@ -18,7 +7,7 @@
   "id": "39HB9T",
   "title": "What's new in ITensors.jl",
   "url": "/talk/39HB9T",
-  "index": 2,
+  "index": 1,
   "speaker": "Matthew Fishman"
  },
  {
@@ -29,7 +18,7 @@
   "id": "39ZFBF",
   "title": "Pluto.jl Notebooks are Web APIs!",
   "url": "/talk/39ZFBF",
-  "index": 3,
+  "index": 2,
   "speaker": "Connor Burns"
  },
  {
@@ -40,30 +29,8 @@
   "id": "3BBA7L",
   "title": "The Design of the MiniZinc Modelling Language",
   "url": "/talk/3BBA7L",
-  "index": 4,
+  "index": 3,
   "speaker": "Gleb Belov"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "3BFJZ7",
-  "title": "ParameterHandling.jl",
-  "url": "/talk/3BFJZ7",
-  "index": 5,
-  "speaker": "Will Tebbutt"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "3CJQWH",
-  "title": "Auto-Parallelization at Cloud Scale with Banyan",
-  "url": "/talk/3CJQWH",
-  "index": 6,
-  "speaker": "Caleb Winston"
  },
  {
   "start_datetime": "2021-07-28T20:10:00Z",
@@ -73,7 +40,7 @@
   "id": "3F88PP",
   "title": "Solving optimization problems at Fonterra",
   "url": "/talk/3F88PP",
-  "index": 7,
+  "index": 4,
   "speaker": "Oleg Barbin"
  },
  {
@@ -84,7 +51,7 @@
   "id": "3JQKRW",
   "title": "JuliaFolds: Structured parallelism for Julia",
   "url": "/talk/3JQKRW",
-  "index": 8,
+  "index": 5,
   "speaker": "Takafumi Arakaki"
  },
  {
@@ -95,7 +62,7 @@
   "id": "3JYPC9",
   "title": "Opening remarks",
   "url": "/talk/3JYPC9",
-  "index": 9,
+  "index": 6,
   "speaker": ""
  },
  {
@@ -106,7 +73,7 @@
   "id": "3LMU3W",
   "title": "Using optimization to make good guesses for test cases",
   "url": "/talk/3LMU3W",
-  "index": 10,
+  "index": 7,
   "speaker": "Andrew Dolgert"
  },
  {
@@ -117,7 +84,7 @@
   "id": "3PCHLJ",
   "title": "Types from JSON",
   "url": "/talk/3PCHLJ",
-  "index": 11,
+  "index": 8,
   "speaker": "Mary McGrath"
  },
  {
@@ -128,7 +95,7 @@
   "id": "3PGHMY",
   "title": "Julog.jl: Prolog-like Logic Programming in Julia",
   "url": "/talk/3PGHMY",
-  "index": 12,
+  "index": 9,
   "speaker": "Xuan (Tan Zhi Xuan)"
  },
  {
@@ -139,7 +106,7 @@
   "id": "3S8DGW",
   "title": "A deep dive into MakieLayout",
   "url": "/talk/3S8DGW",
-  "index": 13,
+  "index": 10,
   "speaker": "Julius Krumbiegel"
  },
  {
@@ -150,7 +117,7 @@
   "id": "3TLU8P",
   "title": "Easy, Featureful Parallelism with Dagger.jl",
   "url": "/talk/3TLU8P",
-  "index": 14,
+  "index": 11,
   "speaker": "Julian P Samaroo"
  },
  {
@@ -161,41 +128,8 @@
   "id": "73XKCM",
   "title": "DataSets.jl: A bridge between code and data",
   "url": "/talk/73XKCM",
-  "index": 15,
+  "index": 12,
   "speaker": "Chris Foster"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "78L3MP",
-  "title": "Optimal control problems in Chemical Engineering with Julia",
-  "url": "/talk/78L3MP",
-  "index": 16,
-  "speaker": "Oswaldo A.M"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "7BDGGA",
-  "title": "Surrogate Models of Multiscale Dynamical Systems",
-  "url": "/talk/7BDGGA",
-  "index": 17,
-  "speaker": "Ranjan Anantharaman"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "7CQYQB",
-  "title": "Fast Simulation-Based Power Analyses for Mixed-Effects Models",
-  "url": "/talk/7CQYQB",
-  "index": 18,
-  "speaker": "Phillip Alday"
  },
  {
   "start_datetime": "2021-07-28T20:20:00Z",
@@ -205,7 +139,7 @@
   "id": "7GYDRZ",
   "title": "Probabilistic Model Checking using POMDPModelChecking.jl",
   "url": "/talk/7GYDRZ",
-  "index": 19,
+  "index": 13,
   "speaker": "Maxime Bouton"
  },
  {
@@ -216,7 +150,7 @@
   "id": "7KECGM",
   "title": "Conic optimization example problems in Hypatia's examples folder",
   "url": "/talk/7KECGM",
-  "index": 20,
+  "index": 14,
   "speaker": "Chris Coey"
  },
  {
@@ -227,7 +161,7 @@
   "id": "7PVG8Z",
   "title": "Clapeyron.jl: An Extensible Implementation of Equations of State",
   "url": "/talk/7PVG8Z",
-  "index": 21,
+  "index": 15,
   "speaker": "Paul Yew, Pierre Walker, Andrés Riedemann"
  },
  {
@@ -238,30 +172,8 @@
   "id": "7Q8P9D",
   "title": "Sponsor Talk (Invenia)",
   "url": "/talk/7Q8P9D",
-  "index": 22,
+  "index": 16,
   "speaker": ""
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "7VNJWV",
-  "title": "Fitting Plate-reader Curves with Julia",
-  "url": "/talk/7VNJWV",
-  "index": 23,
-  "speaker": "Thomas A. Poulsen"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "7WWKSK",
-  "title": "Probabilistic K-Nearest Neighbours",
-  "url": "/talk/7WWKSK",
-  "index": 24,
-  "speaker": "Gerardo Duran-Martin"
  },
  {
   "start_datetime": "2021-07-28T14:35:00Z",
@@ -271,7 +183,7 @@
   "id": "7WYDH3",
   "title": "Keynote (Jan Vitek)",
   "url": "/talk/7WYDH3",
-  "index": 25,
+  "index": 17,
   "speaker": ""
  },
  {
@@ -282,7 +194,7 @@
   "id": "7XFSZB",
   "title": "Lattice Reduction using LLLplus.jl",
   "url": "/talk/7XFSZB",
-  "index": 26,
+  "index": 18,
   "speaker": "Chris Peel"
  },
  {
@@ -293,30 +205,8 @@
   "id": "88EDGD",
   "title": "Scalable Power System Modeling and Analaysis",
   "url": "/talk/88EDGD",
-  "index": 27,
+  "index": 19,
   "speaker": "Dheepak Krishnamurthy, Clayton Barrows"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "88MYCE",
-  "title": "View5D.jl",
-  "url": "/talk/88MYCE",
-  "index": 28,
-  "speaker": "Rainer Heintzmann"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "8ATSN3",
-  "title": "Speeding up cosmological data analysis with Julia",
-  "url": "/talk/8ATSN3",
-  "index": 29,
-  "speaker": "Marco Bonici"
  },
  {
   "start_datetime": "2021-07-30T12:30:00Z",
@@ -326,7 +216,7 @@
   "id": "8BWJXP",
   "title": "Calibration analysis of probabilistic models in Julia",
   "url": "/talk/8BWJXP",
-  "index": 30,
+  "index": 20,
   "speaker": "David Widmann"
  },
  {
@@ -337,7 +227,7 @@
   "id": "8CMRGC",
   "title": "Sponsor talk - RelationalAI",
   "url": "/talk/8CMRGC",
-  "index": 31,
+  "index": 21,
   "speaker": ""
  },
  {
@@ -348,19 +238,8 @@
   "id": "8E9BAK",
   "title": "Sparse Matrix Decomposition and Completion with Chordal.jl",
   "url": "/talk/8E9BAK",
-  "index": 32,
+  "index": 22,
   "speaker": "Theo Diamandis"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "8KCB3E",
-  "title": "[Canceled] The wonderfully helpful Julia community",
-  "url": "/talk/8KCB3E",
-  "index": 33,
-  "speaker": "Kim Paolo Laberinto"
  },
  {
   "start_datetime": "2021-07-30T20:30:00Z",
@@ -370,7 +249,7 @@
   "id": "8LK7KU",
   "title": "GatherTown -- Social break",
   "url": "/talk/8LK7KU",
-  "index": 34,
+  "index": 23,
   "speaker": ""
  },
  {
@@ -381,7 +260,7 @@
   "id": "8LL9QH",
   "title": "Put some constraints into your life with JuliaCon(straints)",
   "url": "/talk/8LL9QH",
-  "index": 35,
+  "index": 24,
   "speaker": "Jean-François BAFFIER (azzaare@github)"
  },
  {
@@ -392,7 +271,7 @@
   "id": "8UR3U3",
   "title": "DeconvOptim.jl: Microscopy Image Deconvolution",
   "url": "/talk/8UR3U3",
-  "index": 36,
+  "index": 25,
   "speaker": "Felix Wechsler"
  },
  {
@@ -403,7 +282,7 @@
   "id": "8VL9R7",
   "title": "TiledViews.jl",
   "url": "/talk/8VL9R7",
-  "index": 37,
+  "index": 26,
   "speaker": "Rainer Heintzmann"
  },
  {
@@ -414,19 +293,8 @@
   "id": "8YGNYU",
   "title": "Automatic dualization with Dualization.jl",
   "url": "/talk/8YGNYU",
-  "index": 38,
+  "index": 27,
   "speaker": "Guilherme Bodin"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "93E8GZ",
-  "title": "ML4Geo: Machine Learning for Geosciences",
-  "url": "/talk/93E8GZ",
-  "index": 39,
-  "speaker": "Velimir Vesselinov"
  },
  {
   "start_datetime": "2021-07-28T17:00:00Z",
@@ -436,7 +304,7 @@
   "id": "99GSDN",
   "title": "FrankWolfe.jl: scalable constrained optimization",
   "url": "/talk/99GSDN",
-  "index": 40,
+  "index": 28,
   "speaker": "Mathieu Besançon"
  },
  {
@@ -447,7 +315,7 @@
   "id": "9KTFNJ",
   "title": "ConstraintSolver.jl - First constraint solver written in Julia",
   "url": "/talk/9KTFNJ",
-  "index": 41,
+  "index": 29,
   "speaker": "Ole Kröger"
  },
  {
@@ -458,7 +326,7 @@
   "id": "9LCKEQ",
   "title": "kubernetes-native julia development",
   "url": "/talk/9LCKEQ",
-  "index": 42,
+  "index": 30,
   "speaker": "Kolia Sadeghi"
  },
  {
@@ -469,19 +337,8 @@
   "id": "9MGDGG",
   "title": "Julia Admittance: A Toolbox for Admittance Extraction",
   "url": "/talk/9MGDGG",
-  "index": 43,
+  "index": 31,
   "speaker": "Lingling Fan"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "9PXXFE",
-  "title": "Feasible nonlinear optimization with LFP-SQP",
-  "url": "/talk/9PXXFE",
-  "index": 44,
-  "speaker": "Kevin Silmore"
  },
  {
   "start_datetime": "2021-07-30T12:50:00Z",
@@ -491,7 +348,7 @@
   "id": "9SVMZ3",
   "title": "Power Market Tool (POMATO)",
   "url": "/talk/9SVMZ3",
-  "index": 45,
+  "index": 32,
   "speaker": "Richard Weinhold"
  },
  {
@@ -502,7 +359,7 @@
   "id": "9TYSM9",
   "title": "GatherTown -- Social break",
   "url": "/talk/9TYSM9",
-  "index": 46,
+  "index": 33,
   "speaker": ""
  },
  {
@@ -513,19 +370,8 @@
   "id": "9XJTRW",
   "title": "HypertextLiteral : performant string interpolation for HTML/SVG",
   "url": "/talk/9XJTRW",
-  "index": 47,
+  "index": 34,
   "speaker": "Clark C. Evans"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "A3FSL3",
-  "title": "Non-parametric Methods for Mixed-Effects Models of EEG Data",
-  "url": "/talk/A3FSL3",
-  "index": 48,
-  "speaker": "Phillip Alday"
  },
  {
   "start_datetime": "2021-07-29T17:00:00Z",
@@ -535,7 +381,7 @@
   "id": "A3Z33C",
   "title": "MadNLP.jl: A Mad Nonlinear Programming Solver.",
   "url": "/talk/A3Z33C",
-  "index": 49,
+  "index": 35,
   "speaker": "Sungho Shin"
  },
  {
@@ -546,63 +392,8 @@
   "id": "A93QFU",
   "title": "Fancy Arrays BoF 2",
   "url": "/talk/A93QFU",
-  "index": 50,
+  "index": 36,
   "speaker": "Lyndon White, Rory Finnegan"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ACFGRM",
-  "title": "ML for GL, Machine Learning for General Ledger using Julia",
-  "url": "/talk/ACFGRM",
-  "index": 51,
-  "speaker": "Amit Shukla"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ACVGEZ",
-  "title": "Gasmodels,jl: Optimization for Natural Gas Systems in Julia",
-  "url": "/talk/ACVGEZ",
-  "index": 52,
-  "speaker": "Russell Bent"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ADKMPS",
-  "title": "SpaceLiDAR.jl: Processing ICESat-2 & GEDI satellite LiDAR data",
-  "url": "/talk/ADKMPS",
-  "index": 53,
-  "speaker": "Maarten Pronk"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "AEP3PA",
-  "title": "Learn about Blockchain Development in Julia",
-  "url": "/talk/AEP3PA",
-  "index": 54,
-  "speaker": "Logan Kilpatrick"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "AGCHEV",
-  "title": "GerryChain.jl: detecting gerrymandering with Markov chains",
-  "url": "/talk/AGCHEV",
-  "index": 55,
-  "speaker": "Parker J. Rule, Bhushan Suwal, Matthew Sun"
  },
  {
   "start_datetime": "2021-07-29T17:50:00Z",
@@ -612,19 +403,8 @@
   "id": "AKRLTA",
   "title": "Sponsor talk (Datachef)",
   "url": "/talk/AKRLTA",
-  "index": 56,
+  "index": 37,
   "speaker": ""
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ALS3ZQ",
-  "title": "DeferredAcceptance: Solving and analyzing school-choice problems",
-  "url": "/talk/ALS3ZQ",
-  "index": 57,
-  "speaker": "Max Kapur"
  },
  {
   "start_datetime": "2021-07-30T19:00:00Z",
@@ -634,7 +414,7 @@
   "id": "ANYQTY",
   "title": "Linear programming by first-order methods",
   "url": "/talk/ANYQTY",
-  "index": 58,
+  "index": 38,
   "speaker": "Miles Lubin"
  },
  {
@@ -645,19 +425,8 @@
   "id": "ARURL8",
   "title": "AlgebraicDynamics: Compositional dynamical systems",
   "url": "/talk/ARURL8",
-  "index": 59,
+  "index": 39,
   "speaker": "James Fairbanks, Sophie Libkind"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ATNVGH",
-  "title": "Soft Realtime Control of an Exoplanet Imaging Instrument",
-  "url": "/talk/ATNVGH",
-  "index": 60,
-  "speaker": "William Thompson"
  },
  {
   "start_datetime": "2021-07-28T19:30:00Z",
@@ -667,19 +436,8 @@
   "id": "AUYF3X",
   "title": "Julia in VS Code - What's New",
   "url": "/talk/AUYF3X",
-  "index": 61,
+  "index": 40,
   "speaker": "David Anthoff, Zac Nugent"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "AVZECZ",
-  "title": "Training deep learners and other iterative models with MLJ",
-  "url": "/talk/AVZECZ",
-  "index": 62,
-  "speaker": "Anthony Blaom"
  },
  {
   "start_datetime": "2021-07-30T15:40:00Z",
@@ -689,7 +447,7 @@
   "id": "AX3VYR",
   "title": "Sponsor talk - JuliaComputing",
   "url": "/talk/AX3VYR",
-  "index": 63,
+  "index": 41,
   "speaker": ""
  },
  {
@@ -700,19 +458,8 @@
   "id": "BB97DT",
   "title": "Monads 2.0, aka Algebraic Effects: ExtensibleEffects.jl",
   "url": "/talk/BB97DT",
-  "index": 64,
+  "index": 42,
   "speaker": "Stephan Sahm"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "BBDRQ3",
-  "title": "Fermi.jl: A modern design for quantum chemistry",
-  "url": "/talk/BBDRQ3",
-  "index": 65,
-  "speaker": "Gustavo Aroeira"
  },
  {
   "start_datetime": "2021-07-29T19:00:00Z",
@@ -722,7 +469,7 @@
   "id": "BEEHC8",
   "title": "Modeling the Economy During the Pandemic",
   "url": "/talk/BEEHC8",
-  "index": 66,
+  "index": 43,
   "speaker": "Shlok Goyal, Alissa Johnson"
  },
  {
@@ -733,7 +480,7 @@
   "id": "BGLQ3U",
   "title": "🎈 Pluto.jl — one year later",
   "url": "/talk/BGLQ3U",
-  "index": 67,
+  "index": 44,
   "speaker": "Fons van der Plas"
  },
  {
@@ -744,7 +491,7 @@
   "id": "BMMEGV",
   "title": "Effects.jl: Effectively Understand Effects in Regression Models",
   "url": "/talk/BMMEGV",
-  "index": 68,
+  "index": 45,
   "speaker": "Phillip Alday"
  },
  {
@@ -755,19 +502,8 @@
   "id": "BNB888",
   "title": "JET.jl: The next generation of code checker for Julia",
   "url": "/talk/BNB888",
-  "index": 69,
+  "index": 46,
   "speaker": "Shuhei Kadowaki"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "BNUBRB",
-  "title": "Decomposition Physics-Informed Neural Networks (PINNs)",
-  "url": "/talk/BNUBRB",
-  "index": 70,
-  "speaker": "Kirill Zubov"
  },
  {
   "start_datetime": "2021-07-30T19:30:00Z",
@@ -777,7 +513,7 @@
   "id": "BPJ3N7",
   "title": "Going to Jupiter with Julia",
   "url": "/talk/BPJ3N7",
-  "index": 71,
+  "index": 47,
   "speaker": "Joe Carpinelli"
  },
  {
@@ -788,7 +524,7 @@
   "id": "BR7WG8",
   "title": "Global constrained nonlinear optimisation with interval methods",
   "url": "/talk/BR7WG8",
-  "index": 72,
+  "index": 48,
   "speaker": "David P. Sanders"
  },
  {
@@ -799,19 +535,8 @@
   "id": "BRG8Z3",
   "title": "Publish your research code: The Journal of Open Source Software",
   "url": "/talk/BRG8Z3",
-  "index": 73,
+  "index": 49,
   "speaker": "David P. Sanders"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "BRTTKB",
-  "title": "A new OpenStreetMap interface: LightOSM.jl",
-  "url": "/talk/BRTTKB",
-  "index": 74,
-  "speaker": "Jack Chan"
  },
  {
   "start_datetime": "2021-07-29T17:50:00Z",
@@ -821,30 +546,8 @@
   "id": "BSTFEQ",
   "title": "CompositionalNetworks.jl: a scaling glass-box neural network",
   "url": "/talk/BSTFEQ",
-  "index": 75,
+  "index": 50,
   "speaker": "Khalil CHRIT"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "BXEZAQ",
-  "title": "Multiplying monochrome images as matrices: A*B and softmax",
-  "url": "/talk/BXEZAQ",
-  "index": 76,
-  "speaker": "Mishka (Michael Bukatin)"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "BYW9KR",
-  "title": "Julia for end to end financial analysis",
-  "url": "/talk/BYW9KR",
-  "index": 77,
-  "speaker": "Mohamed Zahran"
  },
  {
   "start_datetime": "2021-07-29T16:30:00Z",
@@ -854,7 +557,7 @@
   "id": "C3EBJM",
   "title": "Julia in High-Performance Computing",
   "url": "/talk/C3EBJM",
-  "index": 78,
+  "index": 51,
   "speaker": "Valentin Churavy, Simon Byrne, Carsten Bauer, Michael Schlottke-Lakemper"
  },
  {
@@ -865,7 +568,7 @@
   "id": "C9VRY3",
   "title": "JuliaCon Trivia",
   "url": "/talk/C9VRY3",
-  "index": 79,
+  "index": 52,
   "speaker": ""
  },
  {
@@ -876,7 +579,7 @@
   "id": "CAMR3P",
   "title": "Vectorized Query Evaluation in Julia",
   "url": "/talk/CAMR3P",
-  "index": 80,
+  "index": 53,
   "speaker": "Richard Gankema, Alex Hall"
  },
  {
@@ -887,7 +590,7 @@
   "id": "CBDFPN",
   "title": "Structural lambdas for generic code and delayed evaluation",
   "url": "/talk/CBDFPN",
-  "index": 81,
+  "index": 54,
   "speaker": "Gustavo Nunes Goretkin"
  },
  {
@@ -898,7 +601,7 @@
   "id": "CEFANG",
   "title": "Hybrid Strategies using Piecewise-Linear Decision Rules",
   "url": "/talk/CEFANG",
-  "index": 82,
+  "index": 55,
   "speaker": "Said Rahal"
  },
  {
@@ -909,7 +612,7 @@
   "id": "CLKYFN",
   "title": "Global Sensitivity Analysis for SciML models in Julia",
   "url": "/talk/CLKYFN",
-  "index": 83,
+  "index": 56,
   "speaker": "Vaibhav Dixit"
  },
  {
@@ -920,30 +623,8 @@
   "id": "CLRKFC",
   "title": "Improving Gender Diversity in the Julia Community",
   "url": "/talk/CLRKFC",
-  "index": 84,
+  "index": 57,
   "speaker": "Xuan (Tan Zhi Xuan), Kim Louisa Auth"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "CMPNPF",
-  "title": "Musical Julia",
-  "url": "/talk/CMPNPF",
-  "index": 85,
-  "speaker": "Radhika Ivaturi"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "CMYWPV",
-  "title": "Bayesian network regression with applications to microbiome data",
-  "url": "/talk/CMYWPV",
-  "index": 86,
-  "speaker": "Samuel Ozminkowski"
  },
  {
   "start_datetime": "2021-07-29T19:40:00Z",
@@ -953,19 +634,8 @@
   "id": "CPDWCV",
   "title": "PGFPlotsX.jl - Plotting with LaTeX, directly from Julia",
   "url": "/talk/CPDWCV",
-  "index": 87,
+  "index": 58,
   "speaker": "Kristoffer Carlsson"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "CQ9F37",
-  "title": "Theory is (nearly) implementation with julia types",
-  "url": "/talk/CQ9F37",
-  "index": 88,
-  "speaker": "Gregor Kappler"
  },
  {
   "start_datetime": "2021-07-29T19:40:00Z",
@@ -975,19 +645,8 @@
   "id": "CY88QP",
   "title": "Semantically Releasing Julia Packages",
   "url": "/talk/CY88QP",
-  "index": 89,
+  "index": 59,
   "speaker": "Joris Kraak"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "D8E9HH",
-  "title": "HssMatrices.jl",
-  "url": "/talk/D8E9HH",
-  "index": 90,
-  "speaker": "Boris Bonev"
  },
  {
   "start_datetime": "2021-07-30T13:40:00Z",
@@ -997,7 +656,7 @@
   "id": "DAQSUR",
   "title": "BPFnative.jl: eBPF programming in Julia",
   "url": "/talk/DAQSUR",
-  "index": 91,
+  "index": 60,
   "speaker": "Julian P Samaroo"
  },
  {
@@ -1008,7 +667,7 @@
   "id": "DMTYDS",
   "title": "Javis.jl - Julia Animations and Visualizations",
   "url": "/talk/DMTYDS",
-  "index": 92,
+  "index": 61,
   "speaker": "Jacob Zelko, Ole Kröger"
  },
  {
@@ -1019,7 +678,7 @@
   "id": "DQJNVA",
   "title": "PhyloNetworks: a Julia package for phylogenetic networks",
   "url": "/talk/DQJNVA",
-  "index": 93,
+  "index": 62,
   "speaker": "Claudia Solis-Lemus"
  },
  {
@@ -1030,7 +689,7 @@
   "id": "DRMPLU",
   "title": "Set Propagation Methods in Julia: Techniques and Applications",
   "url": "/talk/DRMPLU",
-  "index": 94,
+  "index": 63,
   "speaker": "Marcelo Forets, Christian Schilling, Ander Gray, David P. Sanders, Matthew Wilhelm, Goran Frehse, Jorge Pérez Zerpa, Deleted User, Julien Calbert, Tomer Arnon"
  },
  {
@@ -1041,19 +700,8 @@
   "id": "DTJYAC",
   "title": "LatticeQCD.jl: Simulation of quantum gauge fields",
   "url": "/talk/DTJYAC",
-  "index": 95,
+  "index": 64,
   "speaker": "Akio Tomiya, Yuki Nagai"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "DV3UWZ",
-  "title": "Julia and Tensor Networks for Statistical Physics",
-  "url": "/talk/DV3UWZ",
-  "index": 96,
-  "speaker": "Afonso Rufino"
  },
  {
   "start_datetime": "2021-07-28T19:40:00Z",
@@ -1063,19 +711,8 @@
   "id": "DX7DCQ",
   "title": "Building Interactive REPL-based Visualizations in GridWorlds.jl",
   "url": "/talk/DX7DCQ",
-  "index": 97,
+  "index": 65,
   "speaker": "Siddharth Bhatia"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "DXEEDM",
-  "title": "GeoThermalCloud: Fusion of Big Data and Multi-Physics Models",
-  "url": "/talk/DXEEDM",
-  "index": 98,
-  "speaker": "Velimir Vesselinov"
  },
  {
   "start_datetime": "2021-07-29T13:00:00Z",
@@ -1085,7 +722,7 @@
   "id": "DZC7HN",
   "title": "Scaling of Oceananigans.jl on multi GPU and CPU systems",
   "url": "/talk/DZC7HN",
-  "index": 99,
+  "index": 66,
   "speaker": "Valentin Churavy, Ali Ramadhan, Chris Hill, Francis Poulin, Gregory Wagner"
  },
  {
@@ -1096,7 +733,7 @@
   "id": "E3MWHZ",
   "title": "Space Engineering in Julia",
   "url": "/talk/E3MWHZ",
-  "index": 100,
+  "index": 67,
   "speaker": "Dr. Ronan Arraes Jardim Chagas"
  },
  {
@@ -1107,7 +744,7 @@
   "id": "E7HKVW",
   "title": "3.6x speedup on A64FX by squeezing ShallowWaters.jl into Float16",
   "url": "/talk/E7HKVW",
-  "index": 101,
+  "index": 68,
   "speaker": "Milan Klöwer"
  },
  {
@@ -1118,19 +755,8 @@
   "id": "E8SVYT",
   "title": "Agents.jl and the next chapter in agent based modelling",
   "url": "/talk/E8SVYT",
-  "index": 102,
+  "index": 69,
   "speaker": "Tim DuBois"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "E9PXP9",
-  "title": "Pebble games - Time and space to differentiate a program",
-  "url": "/talk/E9PXP9",
-  "index": 103,
-  "speaker": "JinGuo Liu"
  },
  {
   "start_datetime": "2021-07-28T13:40:00Z",
@@ -1140,7 +766,7 @@
   "id": "ECKGDE",
   "title": "hPF-MD.jl: Hybrid Particle-Field Molecular-Dynamics Simulation",
   "url": "/talk/ECKGDE",
-  "index": 104,
+  "index": 70,
   "speaker": "Zhenghao Wu"
  },
  {
@@ -1151,7 +777,7 @@
   "id": "EFYMME",
   "title": "Enhanced Sampling in Molecular Dynamics Simulations with Julia",
   "url": "/talk/EFYMME",
-  "index": 105,
+  "index": 71,
   "speaker": "Pablo Zubieta"
  },
  {
@@ -1162,19 +788,8 @@
   "id": "EHUKWK",
   "title": "ConstraintProgrammingExtensions.jl",
   "url": "/talk/EHUKWK",
-  "index": 106,
+  "index": 72,
   "speaker": "Thibaut Cuvelier"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "EJASMD",
-  "title": "Build your own fast, multi-user Jupyter and Pluto server",
-  "url": "/talk/EJASMD",
-  "index": 107,
-  "speaker": "Bart Janssens"
  },
  {
   "start_datetime": "2021-07-28T17:45:00Z",
@@ -1184,7 +799,7 @@
   "id": "EJP7SS",
   "title": "Sponsor talk (KAUST)",
   "url": "/talk/EJP7SS",
-  "index": 108,
+  "index": 73,
   "speaker": ""
  },
  {
@@ -1195,7 +810,7 @@
   "id": "ETY3B7",
   "title": "JuliaSim: Machine Learning Accelerated Modeling and Simulation",
   "url": "/talk/ETY3B7",
-  "index": 109,
+  "index": 74,
   "speaker": "Chris Rackauckas"
  },
  {
@@ -1206,7 +821,7 @@
   "id": "EUVCJY",
   "title": "AnyMOD.jl: A Julia package for creating energy system models",
   "url": "/talk/EUVCJY",
-  "index": 110,
+  "index": 75,
   "speaker": "Leonard Göke"
  },
  {
@@ -1217,7 +832,7 @@
   "id": "EVR3HZ",
   "title": "InvertibleNetworks.jl - Memory efficient deep learning in Julia",
   "url": "/talk/EVR3HZ",
-  "index": 111,
+  "index": 76,
   "speaker": "Philipp A. Witte, Mathias Louboutin, Ali Siahkoohi, Felix J. Herrmann, Gabrio Rizzuti, Bas Peters"
  },
  {
@@ -1228,19 +843,8 @@
   "id": "EWFRHW",
   "title": "SpeedMapping.jl: Implementing Alternating cyclic extrapolations",
   "url": "/talk/EWFRHW",
-  "index": 112,
+  "index": 77,
   "speaker": "Nicolas Lepage-Saucier"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "EWMZKD",
-  "title": "Vine-Copula package for the analysis of non-Gaussian processes",
-  "url": "/talk/EWMZKD",
-  "index": 113,
-  "speaker": "Andrei Sarychev"
  },
  {
   "start_datetime": "2021-07-29T13:10:00Z",
@@ -1250,7 +854,7 @@
   "id": "EWWNFZ",
   "title": "Designing ecologically optimized vaccines",
   "url": "/talk/EWWNFZ",
-  "index": 114,
+  "index": 78,
   "speaker": "Kusti Skytén"
  },
  {
@@ -1261,7 +865,7 @@
   "id": "EZHEQL",
   "title": "Systems Biology in ModelingToolkit",
   "url": "/talk/EZHEQL",
-  "index": 115,
+  "index": 79,
   "speaker": "Anand Jain, Shahriar Iravanian, Paul Lang"
  },
  {
@@ -1272,7 +876,7 @@
   "id": "F8BBVZ",
   "title": "Unbalanced Power Flow Optimization with PowerModelsDistribution",
   "url": "/talk/F8BBVZ",
-  "index": 116,
+  "index": 80,
   "speaker": "David M Fobes"
  },
  {
@@ -1283,7 +887,7 @@
   "id": "F9PLVY",
   "title": "Unleashing Algebraic Metaprogramming in Julia with Metatheory.jl",
   "url": "/talk/F9PLVY",
-  "index": 117,
+  "index": 81,
   "speaker": "Alessandro Cheli, Philip Zucker"
  },
  {
@@ -1294,7 +898,7 @@
   "id": "FBTSYM",
   "title": "Julia for Biologists",
   "url": "/talk/FBTSYM",
-  "index": 118,
+  "index": 82,
   "speaker": "Elisabeth Roesch"
  },
  {
@@ -1305,7 +909,7 @@
   "id": "FEEV9A",
   "title": "ExprTools: Metaprogramming from reflection",
   "url": "/talk/FEEV9A",
-  "index": 119,
+  "index": 83,
   "speaker": "Lyndon White"
  },
  {
@@ -1316,7 +920,7 @@
   "id": "FEG39B",
   "title": "FunSQL: a library for compositional construction of SQL queries",
   "url": "/talk/FEG39B",
-  "index": 120,
+  "index": 84,
   "speaker": "Clark C. Evans, Kyrylo Simonov"
  },
  {
@@ -1327,7 +931,7 @@
   "id": "FGUEAM",
   "title": "Linearly Constrained Separable Optimization",
   "url": "/talk/FGUEAM",
-  "index": 121,
+  "index": 85,
   "speaker": "Ellis Brown"
  },
  {
@@ -1338,7 +942,7 @@
   "id": "FHGWBQ",
   "title": "Finding an Effective Strategy for AutoML Pipeline Optimization",
   "url": "/talk/FHGWBQ",
-  "index": 122,
+  "index": 86,
   "speaker": "Paulito Palmes, PhD"
  },
  {
@@ -1349,7 +953,7 @@
   "id": "FHWUR9",
   "title": "HiGHS",
   "url": "/talk/FHWUR9",
-  "index": 123,
+  "index": 87,
   "speaker": "Ivet Galabova"
  },
  {
@@ -1360,41 +964,8 @@
   "id": "FJLE7U",
   "title": "Bayesian Neural Ordinary Differential Equations",
   "url": "/talk/FJLE7U",
-  "index": 124,
+  "index": 88,
   "speaker": "Raj Dandekar"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "FLLZNF",
-  "title": "Flywheel: 1-D Finite element tool for gyroscopic systems",
-  "url": "/talk/FLLZNF",
-  "index": 125,
-  "speaker": "Lysandros Anastasopoulos"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "FLQBDG",
-  "title": "Makie showcases and future",
-  "url": "/talk/FLQBDG",
-  "index": 126,
-  "speaker": "Simon Danisch"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "FRTBV8",
-  "title": "Processing Light-Sheet Microscopy Data Using Julia",
-  "url": "/talk/FRTBV8",
-  "index": 127,
-  "speaker": "Mark Kittisopikul, Ph.D."
  },
  {
   "start_datetime": "2021-07-28T19:50:00Z",
@@ -1404,7 +975,7 @@
   "id": "FZ99RD",
   "title": "Catwalk.jl: A profile guided dispatch optimizer",
   "url": "/talk/FZ99RD",
-  "index": 128,
+  "index": 89,
   "speaker": "Krisztián Schäffer"
  },
  {
@@ -1415,7 +986,7 @@
   "id": "G8LARY",
   "title": "Towards a symbolic integrator with Rubin.jl",
   "url": "/talk/G8LARY",
-  "index": 129,
+  "index": 90,
   "speaker": "Miguel Raz Guzmán Macedo"
  },
  {
@@ -1426,30 +997,8 @@
   "id": "GBJ3HG",
   "title": "ClimateModels.jl -- A Simple Interface To Climate Models",
   "url": "/talk/GBJ3HG",
-  "index": 130,
+  "index": 91,
   "speaker": "Gael Forget"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "GD99DH",
-  "title": "My experience trying to reinvent the FluxML website",
-  "url": "/talk/GD99DH",
-  "index": 131,
-  "speaker": "Liliana Badillo Sanchez"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "GFEPY7",
-  "title": "Watching earth at night",
-  "url": "/talk/GFEPY7",
-  "index": 132,
-  "speaker": "Ayush Patnaik"
  },
  {
   "start_datetime": "2021-07-28T12:30:00Z",
@@ -1459,19 +1008,8 @@
   "id": "GFHKV7",
   "title": "Clearing the Pipeline Jungle with FeatureTransforms.jl",
   "url": "/talk/GFHKV7",
-  "index": 133,
+  "index": 92,
   "speaker": "Glenn Moynihan"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "GJQWXN",
-  "title": "Arrhenius.jl: A Differentiable Combustion Simulation Package",
-  "url": "/talk/GJQWXN",
-  "index": 134,
-  "speaker": "Weiqi Ji"
  },
  {
   "start_datetime": "2021-07-30T20:10:00Z",
@@ -1481,19 +1019,8 @@
   "id": "GJRKY3",
   "title": "In-Situ Data Analysis with Julia for E3SM at Large Scale",
   "url": "/talk/GJRKY3",
-  "index": 135,
+  "index": 93,
   "speaker": "LI TANG, Earl Lawrence"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "GLTEMP",
-  "title": "To the Moon and Beyond with Julia",
-  "url": "/talk/GLTEMP",
-  "index": 136,
-  "speaker": "Helge Eichhorn"
  },
  {
   "start_datetime": "2021-07-28T13:10:00Z",
@@ -1503,7 +1030,7 @@
   "id": "GNB93V",
   "title": "Solving discrete problems via Boolean satisfiability with Julia",
   "url": "/talk/GNB93V",
-  "index": 137,
+  "index": 94,
   "speaker": "David P. Sanders"
  },
  {
@@ -1514,7 +1041,7 @@
   "id": "GWRZPV",
   "title": "Julia in Private Organizations",
   "url": "/talk/GWRZPV",
-  "index": 138,
+  "index": 95,
   "speaker": "Curtis Vogt"
  },
  {
@@ -1525,7 +1052,7 @@
   "id": "GXLNHG",
   "title": "Rewriting Pieces of a Python Codebase in Julia",
   "url": "/talk/GXLNHG",
-  "index": 139,
+  "index": 96,
   "speaker": "Satvik Souza Beri"
  },
  {
@@ -1536,7 +1063,7 @@
   "id": "HFHLDS",
   "title": "New tools to solve PDEs in Julia with Gridap.jl",
   "url": "/talk/HFHLDS",
-  "index": 140,
+  "index": 97,
   "speaker": "Francesc Verdugo, Eric Neiva, Oriol Colomes, Santiago Badia"
  },
  {
@@ -1547,19 +1074,8 @@
   "id": "HLFY9G",
   "title": "POMDPs.jl and Interactive Assignments in Julia",
   "url": "/talk/HLFY9G",
-  "index": 141,
+  "index": 98,
   "speaker": "Zachary Sunberg"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "HUUC3C",
-  "title": "Bounding the Moments of Polynomial Jump-Diffusion Processes",
-  "url": "/talk/HUUC3C",
-  "index": 142,
-  "speaker": "Flemming Holtorf"
  },
  {
   "start_datetime": "2021-07-28T19:00:00Z",
@@ -1569,7 +1085,7 @@
   "id": "HVSAW9",
   "title": "Code, docs, and tests: what's in the General registry?",
   "url": "/talk/HVSAW9",
-  "index": 143,
+  "index": 99,
   "speaker": "Mosè Giordano, Eric P. Hanson"
  },
  {
@@ -1580,7 +1096,7 @@
   "id": "HWSUQN",
   "title": "PrettyPrinting: optimal layout for code and data",
   "url": "/talk/HWSUQN",
-  "index": 144,
+  "index": 100,
   "speaker": "Kyrylo Simonov"
  },
  {
@@ -1591,7 +1107,7 @@
   "id": "J7Z9PL",
   "title": "ReactiveMP.jl: Reactive Message Passing-based Bayesian Inference",
   "url": "/talk/J7Z9PL",
-  "index": 145,
+  "index": 101,
   "speaker": "Dmitry Bagaev"
  },
  {
@@ -1602,30 +1118,8 @@
   "id": "J8CRXY",
   "title": "FourierTools.jl | Working with the Frequency Space",
   "url": "/talk/J8CRXY",
-  "index": 146,
+  "index": 102,
   "speaker": "Felix Wechsler, Rainer Heintzmann"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "JC8S3R",
-  "title": "HoJBot: a community-driven Discord bot",
-  "url": "/talk/JC8S3R",
-  "index": 147,
-  "speaker": "Tom Kwong"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "JFDMPR",
-  "title": "Distributed Quantum Circuit Simulation",
-  "url": "/talk/JFDMPR",
-  "index": 148,
-  "speaker": "Niall Moran"
  },
  {
   "start_datetime": "2021-07-28T20:00:00Z",
@@ -1635,7 +1129,7 @@
   "id": "KD7MR7",
   "title": "Web application for atmospheric dispersion modeling.",
   "url": "/talk/KD7MR7",
-  "index": 149,
+  "index": 103,
   "speaker": "Tristan Carion"
  },
  {
@@ -1646,30 +1140,8 @@
   "id": "KHK7PA",
   "title": "Creating a Shared Library Bundle with Package Compiler",
   "url": "/talk/KHK7PA",
-  "index": 150,
+  "index": 104,
   "speaker": "Kristoffer Carlsson, Simon Byrne, Kevin Squire"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "KJNRGA",
-  "title": "Faster scripts in Julia with DaemonMode.jl",
-  "url": "/talk/KJNRGA",
-  "index": 151,
-  "speaker": "Daniel Molina"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "KLPEG3",
-  "title": "Composite Interfaces for Bioinformatics",
-  "url": "/talk/KLPEG3",
-  "index": 152,
-  "speaker": "Daniel Kool"
  },
  {
   "start_datetime": "2021-07-29T13:40:00Z",
@@ -1679,7 +1151,7 @@
   "id": "KNDFHC",
   "title": "Bias Audit and Mitigation in Julia",
   "url": "/talk/KNDFHC",
-  "index": 153,
+  "index": 105,
   "speaker": "Ashrya Agrawal"
  },
  {
@@ -1690,30 +1162,8 @@
   "id": "KNWNHJ",
   "title": "Changing Physics education with Julia",
   "url": "/talk/KNWNHJ",
-  "index": 154,
+  "index": 106,
   "speaker": "George Datseris"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "KQAN8F",
-  "title": "Lale in Julia: A package for semi-automated data science",
-  "url": "/talk/KQAN8F",
-  "index": 155,
-  "speaker": "Paulito Palmes, PhD, Kiran Kate"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "KTDNM8",
-  "title": "Learning during the pandemic",
-  "url": "/talk/KTDNM8",
-  "index": 156,
-  "speaker": "Krithika Natarajan"
  },
  {
   "start_datetime": "2021-07-28T17:30:00Z",
@@ -1723,19 +1173,8 @@
   "id": "KUVB9C",
   "title": "ReTest.jl - more productive testing",
   "url": "/talk/KUVB9C",
-  "index": 157,
+  "index": 107,
   "speaker": "Rafael Fourquet"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "KWNMHU",
-  "title": "Strengths and Challenges of Julia for learning Linear Algebra",
-  "url": "/talk/KWNMHU",
-  "index": 158,
-  "speaker": "John Woolverton"
  },
  {
   "start_datetime": "2021-07-28T16:30:00Z",
@@ -1745,19 +1184,8 @@
   "id": "L8DTE3",
   "title": "Symmetry reduction for Sum-of-Squares programming",
   "url": "/talk/L8DTE3",
-  "index": 159,
+  "index": 108,
   "speaker": "Benoît Legat, Marek Kaluba"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "L9EAPP",
-  "title": "BellScenario.jl - Computing Quantum Nonlocalty",
-  "url": "/talk/L9EAPP",
-  "index": 160,
-  "speaker": "Brian Doolittle"
  },
  {
   "start_datetime": "2021-07-29T19:00:00Z",
@@ -1767,7 +1195,7 @@
   "id": "LE38LV",
   "title": "Package latency and what developers can do to reduce it",
   "url": "/talk/LE38LV",
-  "index": 161,
+  "index": 109,
   "speaker": "Tim Holy"
  },
  {
@@ -1778,7 +1206,7 @@
   "id": "LHQEPZ",
   "title": "An individual-based model to simulate Coffee Leaf Rust epidemics",
   "url": "/talk/LHQEPZ",
-  "index": 162,
+  "index": 110,
   "speaker": "Manuela Vanegas Ferro"
  },
  {
@@ -1789,19 +1217,8 @@
   "id": "LMLJS8",
   "title": "ExaTron.jl: a scalable GPU-MPI-based batch solver for small NLPs",
   "url": "/talk/LMLJS8",
-  "index": 163,
+  "index": 111,
   "speaker": "Youngdae Kim"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "LNPMBP",
-  "title": "Jumping into the Julia Community via Advent Of Code",
-  "url": "/talk/LNPMBP",
-  "index": 164,
-  "speaker": "Jasmine Hughes"
  },
  {
   "start_datetime": "2021-07-28T13:20:00Z",
@@ -1811,7 +1228,7 @@
   "id": "LRHPUH",
   "title": "Running Programs Forwards, Backwards, and Everything In Between",
   "url": "/talk/LRHPUH",
-  "index": 165,
+  "index": 112,
   "speaker": "Zenna Tavares"
  },
  {
@@ -1822,7 +1239,7 @@
   "id": "LUVWJZ",
   "title": "ZigZagBoomerang.jl - parallel inference and variable selection",
   "url": "/talk/LUVWJZ",
-  "index": 166,
+  "index": 113,
   "speaker": "Moritz Schauer"
  },
  {
@@ -1833,7 +1250,7 @@
   "id": "LWVB39",
   "title": "Everything you need to know about ChainRules 1.0",
   "url": "/talk/LWVB39",
-  "index": 167,
+  "index": 114,
   "speaker": "Miha Zgubic"
  },
  {
@@ -1844,7 +1261,7 @@
   "id": "LXATFU",
   "title": "Exploiting Structure in Kernel Matrices",
   "url": "/talk/LXATFU",
-  "index": 168,
+  "index": 115,
   "speaker": "Sebastian Ament, John Paul Ryan"
  },
  {
@@ -1855,7 +1272,7 @@
   "id": "MAUPF9",
   "title": "Experiences session",
   "url": "/talk/MAUPF9",
-  "index": 169,
+  "index": 116,
   "speaker": ""
  },
  {
@@ -1866,7 +1283,7 @@
   "id": "ME7JE9",
   "title": "Simulating Chemical Kinetics with ReactionMechanismSimulator.jl",
   "url": "/talk/ME7JE9",
-  "index": 170,
+  "index": 117,
   "speaker": "Matthew S Johnson"
  },
  {
@@ -1877,30 +1294,8 @@
   "id": "MENJSR",
   "title": "Teaching parallelism to the Julia compiler",
   "url": "/talk/MENJSR",
-  "index": 171,
+  "index": 118,
   "speaker": "Takafumi Arakaki"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "MFAQKW",
-  "title": "Use of Julia Language in the Forest Inventory",
-  "url": "/talk/MFAQKW",
-  "index": 172,
-  "speaker": "Claiton Nardini"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "MHNZUS",
-  "title": "COBREXA.jl: COnstraint-Based Reconstruction & EXa-scale Analysis",
-  "url": "/talk/MHNZUS",
-  "index": 173,
-  "speaker": "Miroslav Kratochvíl"
  },
  {
   "start_datetime": "2021-07-30T19:50:00Z",
@@ -1910,7 +1305,7 @@
   "id": "MSTYCZ",
   "title": "Julia in the Windows Store",
   "url": "/talk/MSTYCZ",
-  "index": 174,
+  "index": 119,
   "speaker": "David Anthoff"
  },
  {
@@ -1921,19 +1316,8 @@
   "id": "MVCXHB",
   "title": "Nonconvex.jl",
   "url": "/talk/MVCXHB",
-  "index": 175,
+  "index": 120,
   "speaker": "Mohamed Tarek"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "MVZKVK",
-  "title": "ROS.jl beta release: The C++ Robot Operating System wrapper",
-  "url": "/talk/MVZKVK",
-  "index": 176,
-  "speaker": "George Stavrinos"
  },
  {
   "start_datetime": "2021-07-30T19:40:00Z",
@@ -1943,19 +1327,8 @@
   "id": "MXSRY8",
   "title": "ClimaCore.jl: Tools for building spatial discretizations",
   "url": "/talk/MXSRY8",
-  "index": 177,
+  "index": 121,
   "speaker": "Simon Byrne"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "N3ANEL",
-  "title": "Three mini-utilities to manage computing resources",
-  "url": "/talk/N3ANEL",
-  "index": 178,
-  "speaker": "Colin Beckingham"
  },
  {
   "start_datetime": "2021-07-29T12:30:00Z",
@@ -1965,7 +1338,7 @@
   "id": "N7REEK",
   "title": "Live Coding: Outreach and Beyond",
   "url": "/talk/N7REEK",
-  "index": 179,
+  "index": 122,
   "speaker": "Jacob Zelko"
  },
  {
@@ -1976,7 +1349,7 @@
   "id": "N9JPV7",
   "title": "Tomographic Image Reconstruction with Julia",
   "url": "/talk/N9JPV7",
-  "index": 180,
+  "index": 123,
   "speaker": "Tobias Knopp"
  },
  {
@@ -1987,7 +1360,7 @@
   "id": "NBER8M",
   "title": "Virtual posters session",
   "url": "/talk/NBER8M",
-  "index": 181,
+  "index": 124,
   "speaker": ""
  },
  {
@@ -1998,7 +1371,7 @@
   "id": "NDQTSP",
   "title": "Chaotic time series predictions with ReservoirComputing.jl",
   "url": "/talk/NDQTSP",
-  "index": 182,
+  "index": 125,
   "speaker": "Francesco Martinuzzi"
  },
  {
@@ -2009,7 +1382,7 @@
   "id": "NKSCDS",
   "title": "Sponsor talk (Pumas AI)",
   "url": "/talk/NKSCDS",
-  "index": 183,
+  "index": 126,
   "speaker": ""
  },
  {
@@ -2020,7 +1393,7 @@
   "id": "NLG9FQ",
   "title": "Building on AlphaZero with Julia",
   "url": "/talk/NLG9FQ",
-  "index": 184,
+  "index": 127,
   "speaker": "Jonathan Laurent"
  },
  {
@@ -2031,7 +1404,7 @@
   "id": "NUFWBU",
   "title": "Solving Pokemon Go Battles using Julia",
   "url": "/talk/NUFWBU",
-  "index": 185,
+  "index": 128,
   "speaker": "Ian Slagle"
  },
  {
@@ -2042,7 +1415,7 @@
   "id": "NVLQT7",
   "title": "Julia and deploying complex graphical applications for laypeople",
   "url": "/talk/NVLQT7",
-  "index": 186,
+  "index": 129,
   "speaker": "Vexatos, Cruor"
  },
  {
@@ -2053,7 +1426,7 @@
   "id": "NVSXHU",
   "title": "Simulating a public transportation system with OpenStreetMapX.jl",
   "url": "/talk/NVSXHU",
-  "index": 187,
+  "index": 130,
   "speaker": "Przemysław Szufel"
  },
  {
@@ -2064,7 +1437,7 @@
   "id": "NWFRP9",
   "title": "ZXCalculus.jl: A Julia package for the ZX-calculus",
   "url": "/talk/NWFRP9",
-  "index": 188,
+  "index": 131,
   "speaker": "Chen Zhao"
  },
  {
@@ -2075,7 +1448,7 @@
   "id": "NWRPGY",
   "title": "Shaped Data with Acsets",
   "url": "/talk/NWRPGY",
-  "index": 189,
+  "index": 132,
   "speaker": "Owen Lynch"
  },
  {
@@ -2086,7 +1459,7 @@
   "id": "NXJYHT",
   "title": "HighFrequencyCovariance: Estimating Covariance Matrices in Julia",
   "url": "/talk/NXJYHT",
-  "index": 190,
+  "index": 133,
   "speaker": "Stuart Baumann"
  },
  {
@@ -2097,7 +1470,7 @@
   "id": "NYNJMJ",
   "title": "Airborne Magnetic Navigation Enhanced with Neural Networks",
   "url": "/talk/NYNJMJ",
-  "index": 191,
+  "index": 134,
   "speaker": "Albert Gnadt"
  },
  {
@@ -2108,7 +1481,7 @@
   "id": "P7KQMT",
   "title": "AtomicSets.jl",
   "url": "/talk/P7KQMT",
-  "index": 192,
+  "index": 135,
   "speaker": "Mia Kramer"
  },
  {
@@ -2119,19 +1492,8 @@
   "id": "P8KJSW",
   "title": "Nonlinear programming on the GPU",
   "url": "/talk/P8KJSW",
-  "index": 193,
+  "index": 136,
   "speaker": "François Pacaud"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "P8ZEEB",
-  "title": "Scalable Material Simulations in a Julia Infrastructure",
-  "url": "/talk/P8ZEEB",
-  "index": 194,
-  "speaker": "Jeremiah DeGreeff"
  },
  {
   "start_datetime": "2021-07-29T13:20:00Z",
@@ -2141,7 +1503,7 @@
   "id": "PDMYDR",
   "title": "PRS.jl: Fast Polygenic Risk Scores",
   "url": "/talk/PDMYDR",
-  "index": 195,
+  "index": 137,
   "speaker": "Annika Faucon"
  },
  {
@@ -2152,19 +1514,8 @@
   "id": "PFWXF9",
   "title": "Actors.jl: Concurrent Computing with the Actor Model",
   "url": "/talk/PFWXF9",
-  "index": 196,
+  "index": 138,
   "speaker": "Paul Bayer"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "PLBXYX",
-  "title": "Building the BestX Event Risk Model using HawkesProcesses.jl",
-  "url": "/talk/PLBXYX",
-  "index": 197,
-  "speaker": "Dean Markwick"
  },
  {
   "start_datetime": "2021-07-28T17:40:00Z",
@@ -2174,7 +1525,7 @@
   "id": "PPG3CY",
   "title": "Genify.jl: Transforming Julia into Gen for Bayesian inference",
   "url": "/talk/PPG3CY",
-  "index": 198,
+  "index": 139,
   "speaker": "Xuan (Tan Zhi Xuan)"
  },
  {
@@ -2185,7 +1536,7 @@
   "id": "PRFW3N",
   "title": "MutableArithmetics: An API for mutable operations",
   "url": "/talk/PRFW3N",
-  "index": 199,
+  "index": 140,
   "speaker": "Benoît Legat"
  },
  {
@@ -2196,19 +1547,8 @@
   "id": "Q78RW3",
   "title": "GatherTown -- Social break",
   "url": "/talk/Q78RW3",
-  "index": 200,
+  "index": 141,
   "speaker": ""
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "Q7WXPH",
-  "title": "In-Situ Inference for Exascale Simulations with Julia",
-  "url": "/talk/Q7WXPH",
-  "index": 201,
-  "speaker": "Ayan Biswas, Earl Lawrence"
  },
  {
   "start_datetime": "2021-07-28T17:40:00Z",
@@ -2218,19 +1558,8 @@
   "id": "QB8EC8",
   "title": "Learning to align with differentiable dynamic programming",
   "url": "/talk/QB8EC8",
-  "index": 202,
+  "index": 142,
   "speaker": "Michiel Stock"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "QCR9JA",
-  "title": "Parameter Identifiability in Ordinary Differential Equations",
-  "url": "/talk/QCR9JA",
-  "index": 203,
-  "speaker": "Ilia Ilmer"
  },
  {
   "start_datetime": "2021-07-29T19:30:00Z",
@@ -2240,19 +1569,8 @@
   "id": "QDBNXV",
   "title": "Roadmap to Julia BLAS and LinearAlgebra",
   "url": "/talk/QDBNXV",
-  "index": 204,
+  "index": 143,
   "speaker": "Chris Elrod"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "QDHGNV",
-  "title": "Deploying Julia on a Brand New Supercomputer at NERSC",
-  "url": "/talk/QDHGNV",
-  "index": 205,
-  "speaker": "Johannes Blaschke"
  },
  {
   "start_datetime": "2021-07-29T17:40:00Z",
@@ -2262,30 +1580,8 @@
   "id": "QEANKW",
   "title": "Generative Models with Latent Differential Equations in Julia",
   "url": "/talk/QEANKW",
-  "index": 206,
+  "index": 144,
   "speaker": "Germán Abrevaya"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "QLSE8R",
-  "title": "Visualization storytelling",
-  "url": "/talk/QLSE8R",
-  "index": 207,
-  "speaker": "Dr.Aftab Ara"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "QNWEDW",
-  "title": "Applications of Julia for Network Science Text Analysis",
-  "url": "/talk/QNWEDW",
-  "index": 208,
-  "speaker": "Mira Tellegen"
  },
  {
   "start_datetime": "2021-07-29T13:00:00Z",
@@ -2295,7 +1591,7 @@
   "id": "QTLENJ",
   "title": "FlowAtlas.jl: interactive exploration of phenotypes in cytometry",
   "url": "/talk/QTLENJ",
-  "index": 209,
+  "index": 145,
   "speaker": "Grisha Szep"
  },
  {
@@ -2306,19 +1602,8 @@
   "id": "QUCAK3",
   "title": "JuliaSPICE: A Composable ML Accelerated Analog Circuit Simulator",
   "url": "/talk/QUCAK3",
-  "index": 210,
+  "index": 146,
   "speaker": "Glen Hertz, Pepijn de Vos"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "R7G87P",
-  "title": "Bootstrapping Data Science and Diversity",
-  "url": "/talk/R7G87P",
-  "index": 211,
-  "speaker": "Matthew A Tillman-Hart, Sam Urmy"
  },
  {
   "start_datetime": "2021-07-30T19:00:00Z",
@@ -2328,7 +1613,7 @@
   "id": "RAFSMK",
   "title": "Discussing Gender Diversity in the Julia Community",
   "url": "/talk/RAFSMK",
-  "index": 212,
+  "index": 147,
   "speaker": "Xuan (Tan Zhi Xuan), Kim Louisa Auth, Laura Ventosa"
  },
  {
@@ -2339,7 +1624,7 @@
   "id": "REKLVV",
   "title": "Cerberus: A solver for mixed-integer programs with disjunctions",
   "url": "/talk/REKLVV",
-  "index": 213,
+  "index": 148,
   "speaker": "Joey Huchette"
  },
  {
@@ -2350,7 +1635,7 @@
   "id": "RERJWC",
   "title": "BifurcationKit.jl: bifurcation analysis of large scale systems",
   "url": "/talk/RERJWC",
-  "index": 214,
+  "index": 149,
   "speaker": "Romain VELTZ"
  },
  {
@@ -2361,7 +1646,7 @@
   "id": "RJE93F",
   "title": "Release management - lessons learned in JuliaData ecosystem",
   "url": "/talk/RJE93F",
-  "index": 215,
+  "index": 150,
   "speaker": "Bogumił Kamiński"
  },
  {
@@ -2372,7 +1657,7 @@
   "id": "RPBHWE",
   "title": "WaterLily.jl: Real-time fluid simulation in pure Julia",
   "url": "/talk/RPBHWE",
-  "index": 216,
+  "index": 151,
   "speaker": "Gabriel Weymouth"
  },
  {
@@ -2383,7 +1668,7 @@
   "id": "RSPXSS",
   "title": "Sponsor talk (Quera)",
   "url": "/talk/RSPXSS",
-  "index": 217,
+  "index": 152,
   "speaker": ""
  },
  {
@@ -2394,7 +1679,7 @@
   "id": "RXBMHE",
   "title": "GPU programming in Julia BoF",
   "url": "/talk/RXBMHE",
-  "index": 218,
+  "index": 153,
   "speaker": "Valentin Churavy, Tim Besard, Julian P Samaroo"
  },
  {
@@ -2405,7 +1690,7 @@
   "id": "RXF8UK",
   "title": "Open and interactive Computational Thinking with Julia and Pluto",
   "url": "/talk/RXF8UK",
-  "index": 219,
+  "index": 154,
   "speaker": "David P. Sanders, Fons van der Plas, Alan Edelman"
  },
  {
@@ -2416,7 +1701,7 @@
   "id": "S3RH8Z",
   "title": "Keynote (Soumith Chintala)",
   "url": "/talk/S3RH8Z",
-  "index": 220,
+  "index": 155,
   "speaker": ""
  },
  {
@@ -2427,19 +1712,8 @@
   "id": "SB7HWT",
   "title": "Designing Spacecraft Trajectories with Julia",
   "url": "/talk/SB7HWT",
-  "index": 221,
+  "index": 156,
   "speaker": "Dan Padilha"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "SBLEKM",
-  "title": "Reproducibility, Julia, and Renku",
-  "url": "/talk/SBLEKM",
-  "index": 222,
-  "speaker": "Chandrasekhar Ramakrishnan, Gavin Lee"
  },
  {
   "start_datetime": "2021-07-30T19:00:00Z",
@@ -2449,19 +1723,8 @@
   "id": "SHHKEM",
   "title": "Enabling Rapid Microservice Development with a Julia SDK",
   "url": "/talk/SHHKEM",
-  "index": 223,
+  "index": 157,
   "speaker": "Malcolm Miller"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "SKNH7J",
-  "title": "Algorithmic Variants of Nested Sampling",
-  "url": "/talk/SKNH7J",
-  "index": 224,
-  "speaker": "Saranjeet Kaur Bhogal"
  },
  {
   "start_datetime": "2021-07-28T18:00:00Z",
@@ -2471,7 +1734,7 @@
   "id": "SLGTWB",
   "title": "GatherTown -- Social break",
   "url": "/talk/SLGTWB",
-  "index": 225,
+  "index": 158,
   "speaker": ""
  },
  {
@@ -2482,7 +1745,7 @@
   "id": "SLHLHX",
   "title": "Composable Bayesian Modeling with Soss.jl",
   "url": "/talk/SLHLHX",
-  "index": 226,
+  "index": 159,
   "speaker": "Chad Scherrer"
  },
  {
@@ -2493,19 +1756,8 @@
   "id": "SLUMQM",
   "title": "Geostatistical Learning",
   "url": "/talk/SLUMQM",
-  "index": 227,
+  "index": 160,
   "speaker": "Júlio Hoffimann"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "STAZ9L",
-  "title": "Modeling species co-occurrence with Turing.jl",
-  "url": "/talk/STAZ9L",
-  "index": 228,
-  "speaker": "Juan M Requena-Mullor"
  },
  {
   "start_datetime": "2021-07-29T19:00:00Z",
@@ -2515,7 +1767,7 @@
   "id": "SWBYRL",
   "title": "NExOS.jl for Nonconvex Exterior-point Operator Splitting",
   "url": "/talk/SWBYRL",
-  "index": 229,
+  "index": 161,
   "speaker": "Shuvomoy Das Gupta"
  },
  {
@@ -2526,19 +1778,8 @@
   "id": "T7UFDU",
   "title": "Introducing Chemellia: Machine Learning, with Atoms!",
   "url": "/talk/T7UFDU",
-  "index": 230,
+  "index": 162,
   "speaker": "Rachel Kurchin"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "TCBRVL",
-  "title": "Disrupting Esoteric Language Microbenchmarks with an 80-line JIT",
-  "url": "/talk/TCBRVL",
-  "index": 231,
-  "speaker": "Seth Chapman"
  },
  {
   "start_datetime": "2021-07-28T17:30:00Z",
@@ -2548,7 +1789,7 @@
   "id": "TEKDX9",
   "title": "Modelling cryptographic side-channels with Julia types",
   "url": "/talk/TEKDX9",
-  "index": 232,
+  "index": 163,
   "speaker": "Simon Schwarz, Markus Kuhn"
  },
  {
@@ -2559,7 +1800,7 @@
   "id": "THTPGL",
   "title": "Using Julia to study economic inequality and taxation",
   "url": "/talk/THTPGL",
-  "index": 233,
+  "index": 164,
   "speaker": "Johannes Fleck"
  },
  {
@@ -2570,30 +1811,8 @@
   "id": "TJ3FNS",
   "title": "A Short History of AstroTime.jl",
   "url": "/talk/TJ3FNS",
-  "index": 234,
+  "index": 165,
   "speaker": "Helge Eichhorn"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "TJ3J79",
-  "title": "Constrained Control with Neural Feedback Policies in DiffEqFlux",
-  "url": "/talk/TJ3J79",
-  "index": 235,
-  "speaker": "Ilya Orson Sandoval"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "TLGXCD",
-  "title": "Julia & Healthcare Technology Assessment Analytics",
-  "url": "/talk/TLGXCD",
-  "index": 236,
-  "speaker": "Erik J Dasbach"
  },
  {
   "start_datetime": "2021-07-30T12:30:00Z",
@@ -2603,7 +1822,7 @@
   "id": "TMXKDM",
   "title": "Modelling Australia's National Electricity Market with JuMP",
   "url": "/talk/TMXKDM",
-  "index": 237,
+  "index": 166,
   "speaker": "James D Foster"
  },
  {
@@ -2614,19 +1833,8 @@
   "id": "TP88SL",
   "title": "vOptSolver: an ecosystem for multi-objective linear optimization",
   "url": "/talk/TP88SL",
-  "index": 238,
+  "index": 167,
   "speaker": "Xavier Gandibleux"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "TQ8GS3",
-  "title": "Simulation of additive manufacturing processes in Julia",
-  "url": "/talk/TQ8GS3",
-  "index": 239,
-  "speaker": "Luca Lubeto"
  },
  {
   "start_datetime": "2021-07-29T13:50:00Z",
@@ -2636,7 +1844,7 @@
   "id": "TRMZFB",
   "title": "Julia for data analysis in High Energy Physics",
   "url": "/talk/TRMZFB",
-  "index": 240,
+  "index": 168,
   "speaker": "Mikhail Mikhasenko"
  },
  {
@@ -2647,30 +1855,8 @@
   "id": "TXAWKU",
   "title": "Redwood: A framework for clusterless supercomputing in the cloud",
   "url": "/talk/TXAWKU",
-  "index": 241,
+  "index": 169,
   "speaker": "Philipp A. Witte"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "TYJXFL",
-  "title": "Early adopters jumping the adoption chasm in a company",
-  "url": "/talk/TYJXFL",
-  "index": 242,
-  "speaker": "Jorge Alberto Vieyra Salas, Evangelos Paradas"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "TZUQYY",
-  "title": "Julia managed sensor - actuator network for Antarctic studies",
-  "url": "/talk/TZUQYY",
-  "index": 243,
-  "speaker": "Mauricio Montanares, Krzysztof Herman"
  },
  {
   "start_datetime": "2021-07-30T19:00:00Z",
@@ -2680,7 +1866,7 @@
   "id": "U7AM33",
   "title": "Applied Measure Theory for Probabilistic Modeling",
   "url": "/talk/U7AM33",
-  "index": 244,
+  "index": 170,
   "speaker": "Chad Scherrer"
  },
  {
@@ -2691,7 +1877,7 @@
   "id": "U9SZZU",
   "title": "Deep Dive: Creating Shared Libraries with PackageCompiler.jl",
   "url": "/talk/U9SZZU",
-  "index": 245,
+  "index": 171,
   "speaker": "Kristoffer Carlsson, Simon Byrne, Kevin Squire, Nikhil Mitra"
  },
  {
@@ -2702,7 +1888,7 @@
   "id": "UDJ7SJ",
   "title": "Enzyme.jl -- Reverse mode differentiation on LLVM IR for Julia",
   "url": "/talk/UDJ7SJ",
-  "index": 246,
+  "index": 172,
   "speaker": "Valentin Churavy, William Moses"
  },
  {
@@ -2713,7 +1899,7 @@
   "id": "UDTRW3",
   "title": "PowerModelsDistributionStateEstimation.jl",
   "url": "/talk/UDTRW3",
-  "index": 247,
+  "index": 173,
   "speaker": "Marta"
  },
  {
@@ -2724,7 +1910,7 @@
   "id": "UDWSEC",
   "title": "What's new in COSMO?",
   "url": "/talk/UDWSEC",
-  "index": 248,
+  "index": 174,
   "speaker": "Michael Garstka"
  },
  {
@@ -2735,7 +1921,7 @@
   "id": "UGX8YR",
   "title": "CUDA.jl 3.0",
   "url": "/talk/UGX8YR",
-  "index": 249,
+  "index": 175,
   "speaker": "Tim Besard"
  },
  {
@@ -2746,7 +1932,7 @@
   "id": "UJUE8P",
   "title": "State of Julia",
   "url": "/talk/UJUE8P",
-  "index": 250,
+  "index": 176,
   "speaker": "Stefan Karpinski"
  },
  {
@@ -2757,7 +1943,7 @@
   "id": "UKASBZ",
   "title": "SmartTensors: Unsupervised Machine Learning",
   "url": "/talk/UKASBZ",
-  "index": 251,
+  "index": 177,
   "speaker": "Velimir Vesselinov"
  },
  {
@@ -2768,19 +1954,8 @@
   "id": "UKVUHW",
   "title": "Keynote: William Kahan - Debugging Tools for Floating-Point Code",
   "url": "/talk/UKVUHW",
-  "index": 252,
+  "index": 178,
   "speaker": ""
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "UQGV9C",
-  "title": "Monads in Julia: TypeClasses.jl and DataTypesBasic.jl",
-  "url": "/talk/UQGV9C",
-  "index": 253,
-  "speaker": "Stephan Sahm"
  },
  {
   "start_datetime": "2021-07-29T17:20:00Z",
@@ -2790,19 +1965,8 @@
   "id": "UZJWTT",
   "title": "NOMAD.jl",
   "url": "/talk/UZJWTT",
-  "index": 254,
+  "index": 179,
   "speaker": "Ludovic Salomon"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "UZXFSE",
-  "title": "DesignByContract.jl: Enforcing interfaces between functions",
-  "url": "/talk/UZXFSE",
-  "index": 255,
-  "speaker": "Guilherme Gomes Haetinger"
  },
  {
   "start_datetime": "2021-07-30T12:30:00Z",
@@ -2812,30 +1976,8 @@
   "id": "VAGFD7",
   "title": "Adaptive and extendable numerical simulations with Trixi.jl",
   "url": "/talk/VAGFD7",
-  "index": 256,
+  "index": 180,
   "speaker": "Michael Schlottke-Lakemper, Hendrik Ranocha"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "VDMLMY",
-  "title": "TypeDBClient.jl - interface to a strongly-typed database",
-  "url": "/talk/VDMLMY",
-  "index": 257,
-  "speaker": "Mark Schulze"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "VEUKD9",
-  "title": "OceanRobots.jl -- Ocean Robots Simulation And Data Ingestion",
-  "url": "/talk/VEUKD9",
-  "index": 258,
-  "speaker": "Gael Forget"
  },
  {
   "start_datetime": "2021-07-29T18:00:00Z",
@@ -2845,7 +1987,7 @@
   "id": "VGHALK",
   "title": "GatherTown -- Social break",
   "url": "/talk/VGHALK",
-  "index": 259,
+  "index": 181,
   "speaker": ""
  },
  {
@@ -2856,7 +1998,7 @@
   "id": "VJEVMQ",
   "title": "Closing remarks",
   "url": "/talk/VJEVMQ",
-  "index": 260,
+  "index": 182,
   "speaker": ""
  },
  {
@@ -2867,7 +2009,7 @@
   "id": "VM7PSF",
   "title": "Diversity and Inclusion in the Julia community",
   "url": "/talk/VM7PSF",
-  "index": 261,
+  "index": 183,
   "speaker": "Logan Kilpatrick"
  },
  {
@@ -2878,7 +2020,7 @@
   "id": "VSMCQG",
   "title": "The state of DataFrames.jl",
   "url": "/talk/VSMCQG",
-  "index": 262,
+  "index": 184,
   "speaker": "Bogumił Kamiński"
  },
  {
@@ -2889,7 +2031,7 @@
   "id": "WA7BP8",
   "title": "IntervalLinearAlgebra.jl: Linear algebra done rigorously",
   "url": "/talk/WA7BP8",
-  "index": 263,
+  "index": 185,
   "speaker": "Luca Ferranti"
  },
  {
@@ -2900,52 +2042,8 @@
   "id": "WDFZWG",
   "title": "Julia Developer Survey Results",
   "url": "/talk/WDFZWG",
-  "index": 264,
+  "index": 186,
   "speaker": "Viral B. Shah"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "WHD7HK",
-  "title": "Optimization-based gap finding and filling in Julia",
-  "url": "/talk/WHD7HK",
-  "index": 265,
-  "speaker": "Peter Zhiping Zhang"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "WJEXYM",
-  "title": "Detection of tear film breakup using Julia",
-  "url": "/talk/WJEXYM",
-  "index": 266,
-  "speaker": "Toby Driscoll"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "WJTAME",
-  "title": "High Performance Tsunami Forecasting",
-  "url": "/talk/WJTAME",
-  "index": 267,
-  "speaker": "Tuomas Koskela"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "WPUYVZ",
-  "title": "EllipticalSliceSampling.jl: MCMC with Gaussian priors",
-  "url": "/talk/WPUYVZ",
-  "index": 268,
-  "speaker": "David Widmann"
  },
  {
   "start_datetime": "2021-07-30T13:50:00Z",
@@ -2955,7 +2053,7 @@
   "id": "WQ8MJK",
   "title": "The OSCAR Computer Algebra System",
   "url": "/talk/WQ8MJK",
-  "index": 269,
+  "index": 187,
   "speaker": "Max Horn, Claus Fieker"
  },
  {
@@ -2966,7 +2064,7 @@
   "id": "WRNAEN",
   "title": "Dictionaries.jl - for improved productivity and performance",
   "url": "/talk/WRNAEN",
-  "index": 270,
+  "index": 188,
   "speaker": "Andy Ferris"
  },
  {
@@ -2977,7 +2075,7 @@
   "id": "WT8PHT",
   "title": "Matlab to Julia: Hours to Minutes for MRI Image Analysis",
   "url": "/talk/WT8PHT",
-  "index": 271,
+  "index": 189,
   "speaker": "Jonathan Doucette"
  },
  {
@@ -2988,7 +2086,7 @@
   "id": "WULB78",
   "title": "Modeling Bilevel optimization problems with BilevelJuMP.jl",
   "url": "/talk/WULB78",
-  "index": 272,
+  "index": 190,
   "speaker": "Joaquim Dias Garcia"
  },
  {
@@ -2999,7 +2097,7 @@
   "id": "WWP7DR",
   "title": "SciML for Structures: Predicting Bridge Behavior",
   "url": "/talk/WWP7DR",
-  "index": 273,
+  "index": 191,
   "speaker": "Axel Larsson"
  },
  {
@@ -3010,7 +2108,7 @@
   "id": "WZ7YM9",
   "title": "Symbolics.jl - fast and flexible symbolic programming",
   "url": "/talk/WZ7YM9",
-  "index": 274,
+  "index": 192,
   "speaker": "Shashi Gowda, Yingbo Ma"
  },
  {
@@ -3021,7 +2119,7 @@
   "id": "X3SAWW",
   "title": "Optical simulation with the OpticSim.jl package",
   "url": "/talk/X3SAWW",
-  "index": 275,
+  "index": 193,
   "speaker": "Brian Guenter, Charlie Hewitt"
  },
  {
@@ -3032,7 +2130,7 @@
   "id": "X7QCPU",
   "title": "The state of JuMP",
   "url": "/talk/X7QCPU",
-  "index": 276,
+  "index": 194,
   "speaker": "Oscar Dowson"
  },
  {
@@ -3043,7 +2141,7 @@
   "id": "X9BNQV",
   "title": "Flexible set projections with MathOptInterface",
   "url": "/talk/X9BNQV",
-  "index": 277,
+  "index": 195,
   "speaker": "Mathieu Besançon"
  },
  {
@@ -3054,7 +2152,7 @@
   "id": "X9RATL",
   "title": "Physics-Informed ML Simulator for Wildfire Propagation",
   "url": "/talk/X9RATL",
-  "index": 278,
+  "index": 196,
   "speaker": "Francesco Calisto, Simone Azeglio, Valerio Pagliarino, Luca Bottero"
  },
  {
@@ -3065,7 +2163,7 @@
   "id": "XDX3SQ",
   "title": "Towards an increased code-creativity harmony in Javis",
   "url": "/talk/XDX3SQ",
-  "index": 279,
+  "index": 197,
   "speaker": "Arsh Sharma"
  },
  {
@@ -3076,7 +2174,7 @@
   "id": "XFC73Y",
   "title": "TSSOS.jl: exploiting sparsity in polynomial optimization",
   "url": "/talk/XFC73Y",
-  "index": 280,
+  "index": 198,
   "speaker": "Jie Wang"
  },
  {
@@ -3087,7 +2185,7 @@
   "id": "XFZWWA",
   "title": "Hierarchical Multiple Instance Learning",
   "url": "/talk/XFZWWA",
-  "index": 281,
+  "index": 199,
   "speaker": "Tomas Pevny"
  },
  {
@@ -3098,19 +2196,8 @@
   "id": "XGCJBA",
   "title": "A Brief Introduction to InfrastructureModels",
   "url": "/talk/XGCJBA",
-  "index": 282,
+  "index": 200,
   "speaker": "Carleton Coffrin"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "XKJKTB",
-  "title": "Sonification: Exploring streaming data using live music coding",
-  "url": "/talk/XKJKTB",
-  "index": 283,
-  "speaker": "Nicki Cartlidge"
  },
  {
   "start_datetime": "2021-07-30T13:30:00Z",
@@ -3120,30 +2207,8 @@
   "id": "XNVLKH",
   "title": "UnitCommitment.jl: Security-Constrained Unit Commitment in JuMP",
   "url": "/talk/XNVLKH",
-  "index": 284,
+  "index": 201,
   "speaker": "Alinson Santos Xavier"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "XR9MLU",
-  "title": "Yawipa: a comprehensive and extensible Wiktionary parser",
-  "url": "/talk/XR9MLU",
-  "index": 285,
-  "speaker": "Winston Wu"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "XU9DTB",
-  "title": "ProtoSyn: a Julia based platform for molecular modelling",
-  "url": "/talk/XU9DTB",
-  "index": 286,
-  "speaker": "José Pereira"
  },
  {
   "start_datetime": "2021-07-28T16:30:00Z",
@@ -3153,41 +2218,8 @@
   "id": "XV3AH8",
   "title": "TopOpt.jl: topology optimization software done right!",
   "url": "/talk/XV3AH8",
-  "index": 287,
+  "index": 202,
   "speaker": "Mohamed Tarek"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "XWXEH3",
-  "title": "IndexFunArrays.jl | Fun with indices (and functions on them)",
-  "url": "/talk/XWXEH3",
-  "index": 288,
-  "speaker": "Felix Wechsler, Rainer Heintzmann"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "Y3DRKK",
-  "title": "Transpilers.jl - Transpile all the things",
-  "url": "/talk/Y3DRKK",
-  "index": 289,
-  "speaker": "Kusti Skytén"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "Y7ENBL",
-  "title": "Julia as a framework for a Theoretical Physics PhD",
-  "url": "/talk/Y7ENBL",
-  "index": 290,
-  "speaker": "Alejandro R. Urzúa"
  },
  {
   "start_datetime": "2021-07-29T13:50:00Z",
@@ -3197,7 +2229,7 @@
   "id": "Y9XWLM",
   "title": "Data driven insight into fish behaviour for aquaculture",
   "url": "/talk/Y9XWLM",
-  "index": 291,
+  "index": 203,
   "speaker": "Paulito Palmes, PhD, Fearghal O'Donncha"
  },
  {
@@ -3208,7 +2240,7 @@
   "id": "YFCXJD",
   "title": "Atomic fields: the new primitives on the block",
   "url": "/talk/YFCXJD",
-  "index": 292,
+  "index": 204,
   "speaker": "Jameson Nash"
  },
  {
@@ -3219,19 +2251,8 @@
   "id": "YFPXCU",
   "title": "SuiteSparseGraphBLAS.jl",
   "url": "/talk/YFPXCU",
-  "index": 293,
+  "index": 205,
   "speaker": "William Kimmerer"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "YGLES8",
-  "title": "PeriDyn: A Peridynamics Package",
-  "url": "/talk/YGLES8",
-  "index": 294,
-  "speaker": "Ravinder Bhattoo"
  },
  {
   "start_datetime": "2021-07-30T20:10:00Z",
@@ -3241,19 +2262,8 @@
   "id": "YGWUVE",
   "title": "Modia – Modeling Multidomain Engineering Systems with Julia",
   "url": "/talk/YGWUVE",
-  "index": 295,
+  "index": 206,
   "speaker": "Andrea Neumayr, Martin Otter, Hilding Elmqvist"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "YJACBJ",
-  "title": "Standardize your predictors with StandardizedPredictors.jl",
-  "url": "/talk/YJACBJ",
-  "index": 296,
-  "speaker": "Dave Kleinschmidt"
  },
  {
   "start_datetime": "2021-07-29T12:50:00Z",
@@ -3263,7 +2273,7 @@
   "id": "YKHNVR",
   "title": "Single-cell resolved cell-cell communication modeling in Julia",
   "url": "/talk/YKHNVR",
-  "index": 297,
+  "index": 207,
   "speaker": "Megan Franke"
  },
  {
@@ -3274,7 +2284,7 @@
   "id": "YS9RUZ",
   "title": "Keynote (Xiaoye (Sherry) Li)",
   "url": "/talk/YS9RUZ",
-  "index": 298,
+  "index": 208,
   "speaker": ""
  },
  {
@@ -3285,7 +2295,7 @@
   "id": "YVCM8B",
   "title": "Infinite-Dimensional Optimization with InfiniteOpt.jl",
   "url": "/talk/YVCM8B",
-  "index": 299,
+  "index": 209,
   "speaker": "Joshua Pulsipher"
  },
  {
@@ -3296,41 +2306,8 @@
   "id": "YXJ8YQ",
   "title": "GatherTown -- Social break",
   "url": "/talk/YXJ8YQ",
-  "index": 300,
+  "index": 210,
   "speaker": ""
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "YYJCM8",
-  "title": "Gift orders of magnitude of speed up to random strangers",
-  "url": "/talk/YYJCM8",
-  "index": 301,
-  "speaker": "Johann-Tobias Schäg"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "YZSNLC",
-  "title": "Sampling Live Visualizations with Turkie and TuringCallbacks",
-  "url": "/talk/YZSNLC",
-  "index": 302,
-  "speaker": "Théo Galy-Fajou"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "Z7X3DP",
-  "title": "BioProfiling.jl: Profiling for high-content cell imaging",
-  "url": "/talk/Z7X3DP",
-  "index": 303,
-  "speaker": "Loan Vulliard"
  },
  {
   "start_datetime": "2021-07-28T17:50:00Z",
@@ -3340,7 +2317,7 @@
   "id": "Z7ZLTP",
   "title": "Partitions and chains: enabling batch processing for your data",
   "url": "/talk/Z7ZLTP",
-  "index": 304,
+  "index": 211,
   "speaker": "Jacob Quinn"
  },
  {
@@ -3351,19 +2328,8 @@
   "id": "Z8AJ9J",
   "title": "A Derivative-Free Local Optimizer for Multi-Objective Problems",
   "url": "/talk/Z8AJ9J",
-  "index": 305,
+  "index": 212,
   "speaker": "Manuel Berkemeier"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "Z9UL8P",
-  "title": "Distributed Computing using AWSClusterManagers.jl",
-  "url": "/talk/Z9UL8P",
-  "index": 306,
-  "speaker": "Matt Brzezinski"
  },
  {
   "start_datetime": "2021-07-28T17:30:00Z",
@@ -3373,30 +2339,8 @@
   "id": "ZEV3MR",
   "title": "A Tour of the differentiable programming landscape with Flux.jl",
   "url": "/talk/ZEV3MR",
-  "index": 307,
+  "index": 213,
   "speaker": "Dhairya Gandhi"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ZHJ9SD",
-  "title": "Awesome Computer Vision Done Quick",
-  "url": "/talk/ZHJ9SD",
-  "index": 308,
-  "speaker": "Bishmer Sekaran"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ZLXBVA",
-  "title": "MitosisStochasticDiffEq.jl - Filtering & Guiding for SDEs",
-  "url": "/talk/ZLXBVA",
-  "index": 309,
-  "speaker": "Frank Schäfer"
  },
  {
   "start_datetime": "2021-07-28T12:30:00Z",
@@ -3406,41 +2350,8 @@
   "id": "ZQJAW3",
   "title": "Building a Chemistry and Materials Science Ecosystem in Julia",
   "url": "/talk/ZQJAW3",
-  "index": 310,
+  "index": 214,
   "speaker": "Michael F. Herbst, Rachel Kurchin"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ZRWZJW",
-  "title": "Using Julia to simulate non-linearity in photon counters",
-  "url": "/talk/ZRWZJW",
-  "index": 311,
-  "speaker": "Dino Butron"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ZS9XPN",
-  "title": "A Tool for Julia Bloggers",
-  "url": "/talk/ZS9XPN",
-  "index": 312,
-  "speaker": "Mike Klepper"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ZSCFTW",
-  "title": "Towards MDP.jl: The Julia Library of MD Potentials",
-  "url": "/talk/ZSCFTW",
-  "index": 313,
-  "speaker": "Emmanuel Lujan"
  },
  {
   "start_datetime": "2021-07-29T19:50:00Z",
@@ -3450,41 +2361,8 @@
   "id": "ZSPVMT",
   "title": "Runtime-switchable BLAS/LAPACK backends via libblastrampoline",
   "url": "/talk/ZSPVMT",
-  "index": 314,
+  "index": 215,
   "speaker": "Elliot Saba, Mosè Giordano"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ZTDMHC",
-  "title": "Probabilistic Numerics for Differential Equations",
-  "url": "/talk/ZTDMHC",
-  "index": 315,
-  "speaker": "Nathanael Bosch"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ZUPX83",
-  "title": "ComposableCommunities.jl: Evolving Julia package communities",
-  "url": "/talk/ZUPX83",
-  "index": 316,
-  "speaker": "Jeremiah Lewis"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ZVAKDW",
-  "title": "DoctorDocstrings.jl - an interactive docstrings worfklow tool",
-  "url": "/talk/ZVAKDW",
-  "index": 317,
-  "speaker": "Miguel Raz Guzmán Macedo"
  },
  {
   "start_datetime": "2021-07-29T13:10:00Z",
@@ -3494,29 +2372,7 @@
   "id": "ZYPPNH",
   "title": "Calculating a million stationary points in a second on the GPU",
   "url": "/talk/ZYPPNH",
-  "index": 318,
+  "index": 216,
   "speaker": "David P. Sanders, Valentin Churavy"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ZZ8KFP",
-  "title": "A quick dive into Julia's type inference algorithm",
-  "url": "/talk/ZZ8KFP",
-  "index": 319,
-  "speaker": "Shuhei Kadowaki"
- },
- {
-  "start_datetime": "2021-07-30T17:15:00Z",
-  "end_datetime": "2021-07-30T17:18:00Z",
-  "duration": 3,
-  "location": "BoF/Mini Track",
-  "id": "ZZTJ3U",
-  "title": "Julia for Charge Transport in Condensed Matter",
-  "url": "/talk/ZZTJ3U",
-  "index": 320,
-  "speaker": "Jürgen Fuhrmann"
  }
 ]
