@@ -2511,7 +2511,7 @@
    "EVR3HZ"
   ],
   "code": "UUDHSP",
-  "biography": null
+  "biography": "Post Docotoral Fellow at Georgia Institute of technology. \r\nMy main research focuses on high-performance computing for large-scale PDE constraints optimization (medical imaging, seismic imaging) on standard clusters and in the Cloud. In particular I work intensively on open source solutions in Julia and Python and high-level abstractions for high-performance computing such as Devito (Finite difference DSL) or JUDI.jl (linear algebra abstraction for PDE constraint optimization).\r\nMy secondary research project is aimed at computational and algorithmic solutions for large-scale machine learning."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/IMG_0628-2_KSwS1fR.jpeg",
