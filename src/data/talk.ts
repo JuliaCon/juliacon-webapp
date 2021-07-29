@@ -2,6 +2,7 @@ import { addHours, parseISO } from "date-fns";
 
 import talksData from "../../data/talks.json";
 import minisymposiaData from "../../data/minisymposia.json";
+import experiencesData from "../../data/experiences.json";
 
 import { assertConferenceDay, ConferenceDay } from "../const";
 import { pick } from "../utils/pick";
@@ -56,6 +57,7 @@ export interface TalkOverviewData {
   isLive: boolean;
 
   minisymposium?: MinisymposiumData;
+  experiences?: ExperiencesData;
 
   // Note: these both have to be strings (not Dates) since they need to be
   // serialized as JSON (which you can't do with vanilla Dates)
@@ -75,6 +77,17 @@ export interface MinisymposiumData {
   talks: ReadonlyArray<{
     title: string;
     videoCode: string;
+  }>;
+}
+
+export interface ExperiencesData {
+  talks: ReadonlyArray<{
+    title: string;
+    videoCode: string;
+    startTime: string;
+    endTime: string;
+    abstract: string;
+    speakerIds: ReadonlyArray<string>;
   }>;
 }
 
@@ -187,6 +200,13 @@ function normalizeTalkOverview(
     if (!includeDescription) {
       talk.abstract = t.description;
     }
+  }
+
+  // Yet another special case: experiences
+  if (talk.id === "MAUPF9") {
+    talk.experiences = {
+      talks: experiencesData,
+    };
   }
 
   return talk;

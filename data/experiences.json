@@ -1,0 +1,201 @@
+[
+  {
+    "id": "7VNJWV",
+    "title": "Fitting Plate-reader Curves with Julia",
+    "videoCode": "eNGPMIqhiPI",
+    "abstract": "PlateReaderCore and PlateReaderCurves are Julia packages for fitting and visualizing results from optical plate-readers and similar equipment. The presentation will introduce these packages and describe my experience developing and deploying them.",
+    "speakerIds": [
+      "UPFEMA"
+    ],
+    "startTime": "2021-07-29T16:30:00.000Z",
+    "endTime": "2021-07-29T16:34:00.000Z"
+  },
+  {
+    "id": "7WWKSK",
+    "title": "Probabilistic K-Nearest Neighbours",
+    "videoCode": "zVXaA6-noXA",
+    "abstract": "In this presentation, I talk about my experience creating the Pknn.jl library for modelling probabilistic K-nearest neighbours and how Julia solved running a sampling an algorithm in Python for hours to only a couple of minutes.",
+    "speakerIds": [
+      "3FK7YD"
+    ],
+    "startTime": "2021-07-29T16:34:00.000Z",
+    "endTime": "2021-07-29T16:38:00.000Z"
+  },
+  {
+    "id": "8ATSN3",
+    "title": "Speeding up cosmological data analysis with Julia",
+    "videoCode": "9fisnTYCx54",
+    "abstract": "In the next few years, upcoming cosmological survey are going to produce a large amount of data. In order to extract as much information as possible, we need adequate software tools to analyze data. I translated my Python3 code, that I use to predict cosmological observable, in Julia. After a month of work, with no previous Julia exposure, I obtained a speed up of about 20. Now I am looking further to extend my Julia code and to apply extensively it in my research.",
+    "speakerIds": [
+      "PPMTQ9"
+    ],
+    "startTime": "2021-07-29T16:38:00.000Z",
+    "endTime": "2021-07-29T16:42:00.000Z"
+  },
+  {
+    "id": "BYW9KR",
+    "title": "Julia for end to end financial analysis",
+    "videoCode": "5Vk8D_gCwCc",
+    "abstract": "This session will give a quick demo of how we used Julia for our workflow of a financial analysis application. The application itself performs multi-objective optimization on historical stock data to create a pareto frontier of optimal risk - return combinations. We will talk about Julia's optimization packages such as JuMP and MultiJuMP, as well as its easy to use reporting and visualization packages such as Weave and Plots that help us communicate and visualize results.",
+    "speakerIds": [
+      "HFKJQF"
+    ],
+    "startTime": "2021-07-29T16:42:00.000Z",
+    "endTime": "2021-07-29T16:46:00.000Z"
+  },
+  {
+    "id": "CMPNPF",
+    "title": "Musical Julia",
+    "videoCode": "S2DgKcndHr0",
+    "abstract": "Why would a 6th grader like myself learn about Julia? I had heard of a language called Julia and started programming in Julia with the help of an amazing book called the \"Little Book of Julia Algorithms\". Programming in Julia was great fun and made me perceive things from a coding point of view and I want to share my experiences as I begin my journey in Julia with my first project-A Musical Note Convertor.",
+    "speakerIds": [
+      "ZAHQEL"
+    ],
+    "startTime": "2021-07-29T16:46:00.000Z",
+    "endTime": "2021-07-29T16:50:00.000Z"
+  },
+  {
+    "id": "CQ9F37",
+    "title": "Theory is (nearly) implementation with julia types",
+    "videoCode": "nuphNnjmkKQ",
+    "abstract": "Data paradigms are metaphors we think with.\r\nThis talk describes how julia re-united a psychometrician's probability theoretical and technical thinking in \"data\".\r\n\r\nI have thought in terms of\r\nboxes, registers and memory adresses,\r\nvalue bundles with C structures and Pascal records,\r\nobjects with inheritance in C++ and java,\r\nvectors and data frames in R.\r\nAll useful but oblique.\r\n\r\nFinally julia types liberated from tediously translating theory to implemetation.\r\nMore clarity, less mistakes.",
+    "speakerIds": [
+      "ABRWNH"
+    ],
+    "startTime": "2021-07-29T16:50:00.000Z",
+    "endTime": "2021-07-29T16:54:00.000Z"
+  },
+  {
+    "id": "FRTBV8",
+    "title": "Processing Light-Sheet Microscopy Data Using Julia",
+    "videoCode": "4MiynAo2M3c",
+    "abstract": "Light-sheet microscopy is a technique that volumetrically scans fluorescently tagged biological specimens efficiently at high rates of speed. This data consists of three dimensional data collected over time across color channels and multiple views and results in a data flow of tens of gigabytes per second. I will discuss using Julia to meet the near acquisition demands of handling such data including 1) unpacking 12-bit integers, 2) compression, 3) chunking into subvolumes, and 4) storage.",
+    "speakerIds": [
+      "USMVVE"
+    ],
+    "startTime": "2021-07-29T16:54:00.000Z",
+    "endTime": "2021-07-29T16:58:00.000Z"
+  },
+  {
+    "id": "KTDNM8",
+    "title": "Learning during the pandemic",
+    "videoCode": "S-2aLXV03gM",
+    "abstract": "Learning Julia takes time. Unfortunately, as a high schooler balancing school and extracurriculars, time is a hard resource to find. Combining learning Julia and chemistry/calculus with Pluto notebooks works around that constraint. At first, the programs were basic but as time passed, the notebooks became more advanced through packages like Catalyst.jl and DifferentialEquations.jl. The next step is to learn more specifics about these packages as I learn more chemistry/calculus.",
+    "speakerIds": [
+      "EVDMDJ"
+    ],
+    "startTime": "2021-07-29T16:58:00.000Z",
+    "endTime": "2021-07-29T17:02:00.000Z"
+  },
+  {
+    "id": "KWNMHU",
+    "title": "Strengths and Challenges of Julia for learning Linear Algebra",
+    "videoCode": "S-2aLXV03gM",
+    "abstract": "Julia notebooks seem like the perfect foundation for learning and teaching linear algebra, but\r\nthe feature sets of the competition (python, Matlab) are deep, and as the concepts get more\r\ninvolved, the functionality involved challenges the capabilities of Julia and its ecosystem of\r\nmodules and visualizations.  The strengths however shine through, making this a platform\r\nworth fighting for.",
+    "speakerIds": [
+      "7VQBNR"
+    ],
+    "startTime": "2021-07-29T17:02:00.000Z",
+    "endTime": "2021-07-29T17:06:00.000Z"
+  },
+  {
+    "id": "LNPMBP",
+    "title": "Jumping into the Julia Community via Advent Of Code",
+    "videoCode": "336gAu7PAlI",
+    "abstract": "Learning a new language is a lot of fun when it comes with reindeer and peer support! Every December, thousands of developers take part in Advent of Code (AoC), a free, elf-themed series of 25 daily programming puzzles. These challenges ramp up in difficulty over the month, making it a great opportunity to try out Julia. The most valuable resource for learning and for developing confidence is the Julia AoC community on Twitter and Zulip, a welcoming space to explore the richness of the language.",
+    "speakerIds": [
+      "FPS93N"
+    ],
+    "startTime": "2021-07-29T17:06:00.000Z",
+    "endTime": "2021-07-29T17:10:00.000Z"
+  },
+  {
+    "id": "QNWEDW",
+    "title": "Applications of Julia for Network Science Text Analysis",
+    "videoCode": "xSRCDpJFKX4",
+    "abstract": "I will discuss my experience using Julia to perform semantic text processing on short texts, which was a lot of firsts for me: my first time using Julia, and first project tracked through Github. I will talk through how we used Julia specifically to perform the text analysis, my experience trying to troubleshoot and find Julia documentation online (which can be difficult yet rewarding!), and in particular, the ways in which Julia allowed us to vary our use of methods and display of our results.",
+    "speakerIds": [
+      "ABQCVC"
+    ],
+    "startTime": "2021-07-29T17:10:00.000Z",
+    "endTime": "2021-07-29T17:14:00.000Z"
+  },
+  {
+    "id": "R7G87P",
+    "title": "Bootstrapping Data Science and Diversity",
+    "videoCode": "EeeccR9tuF0",
+    "abstract": "The JuliaLang Survey results highlighted lack of Black representation in the Julia community. Learning Data Science on your own can be intimidating, especially coming from a nontraditional career path, and formal tutoring is expensive. Luckily, Julia’s community is willing to help! We are a mentor and mentee who met on Julia Discourse in 2018 and have been working together since. Our experience shows the value of mentorship when bootstrapping your data science career—and how fun and rewarding it",
+    "speakerIds": [
+      "GJP3ZR",
+      "QJ98Z7"
+    ],
+    "startTime": "2021-07-29T17:14:00.000Z",
+    "endTime": "2021-07-29T17:18:00.000Z"
+  },
+  {
+    "id": "TCBRVL",
+    "title": "Disrupting Esoteric Language Microbenchmarks with an 70-line JIT",
+    "videoCode": "P5gUzzX1O8A",
+    "abstract": "When Julia 1.6 is released, a concerned Hacker News commenter wonders if Julia's performance claims are overblown, citing a series of microbenchmarks that measure the speed with which a language can interpret the esoteric programming language Brainfuck. Using powerful metaprogramming utilities, 80 lines of Julia are enough to transpile Brainfuck to a native Julia function instead, resulting in performance times that outpace every other language in the test suite.",
+    "speakerIds": [
+      "YMTEYP"
+    ],
+    "startTime": "2021-07-29T17:18:00.000Z",
+    "endTime": "2021-07-29T17:22:00.000Z"
+  },
+  {
+    "id": "TQ8GS3",
+    "title": "Simulation of additive manufacturing processes in Julia",
+    "videoCode": "VHwecfVGiYU",
+    "abstract": "Illustrated on the example of a heat transfer problem (Additive manufcaturing process simulation) where individual voxels are actived over time, we review the porting from MATLAB Code to Julia. Furthermore, we investigate the resulting increase of performance, emerging challenges, GPU usage and newly created opportunities.",
+    "speakerIds": [
+      "GEKS77"
+    ],
+    "startTime": "2021-07-29T17:22:00.000Z",
+    "endTime": "2021-07-29T17:26:00.000Z"
+  },
+  {
+    "id": "WJTAME",
+    "title": "High Performance Tsunami Forecasting",
+    "videoCode": "z_5bdPo42Ck",
+    "abstract": "We are developing a particle filter data assimilation package in Julia. The primary use case is forecasting tsunamis using data from a sparse set of observations and a numerical model. The application is designed to run in parallel on multiple nodes of HPC clusters and interface with third-party numerical models. Using Julia has benefited us in many ways, including high performance, fast development, testing, and leveraging open-source libraries.",
+    "speakerIds": [
+      "8DCCQ8"
+    ],
+    "startTime": "2021-07-29T17:26:00.000Z",
+    "endTime": "2021-07-29T17:30:00.000Z"
+  },
+  {
+    "id": "XKJKTB",
+    "title": "Sonification: Exploring streaming data using live music coding",
+    "videoCode": "XQPcwS5TQI4",
+    "abstract": "Hooks is a new package exploring Sonification (representing data as audio) using Julia and Pluto integrated with SuperCollider, processing streaming data to create music using live music coding techniques. The presentation also includes brief observations as a first-time Julia coder.",
+    "speakerIds": [
+      "G39NKQ"
+    ],
+    "startTime": "2021-07-29T17:30:00.000Z",
+    "endTime": "2021-07-29T17:34:00.000Z"
+  },
+  {
+    "id": "Y7ENBL",
+    "title": "Julia as a framework for a Theoretical Physics PhD",
+    "videoCode": "_tMDHBkdyts",
+    "abstract": "I started used Julia as a backup language, soon became my first and unique programming language for doing my numerical checks of my theoretical findings. My theoretical physics PhD gone easy after I known about Julia and their wonderfulness.",
+    "speakerIds": [
+      "EEVZ3F"
+    ],
+    "startTime": "2021-07-29T17:34:00.000Z",
+    "endTime": "2021-07-29T17:38:00.000Z"
+  },
+  {
+    "id": "ZHJ9SD",
+    "title": "Awesome Computer Vision Done Quick",
+    "videoCode": "9pKGqXPMgYE",
+    "abstract": "AI researcher Bishmer Sekaran demonstrates how Julia is:\r\n\r\n* easy \r\n* fast\r\n* powerful \r\n\r\n when performing sophisticated Computer Vision image classification tasks using the [SSDMNV2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7775036/) masked/unmasked image dataset.",
+    "speakerIds": [
+      "X3PWGN"
+    ],
+    "startTime": "2021-07-29T17:38:00.000Z",
+    "endTime": "2021-07-29T17:42:00.000Z"
+  }
+]

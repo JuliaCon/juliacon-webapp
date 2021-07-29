@@ -24,7 +24,7 @@ import { PageHeading } from "../components/page";
 import { Page } from "../components/site";
 import { TalkByline, TalkYouTubeEmbed } from "../components/talk";
 import { MinisymposiumDetails } from "../components/talk/MinisymposiumDetails";
-import { findTalks, TalkOverviewData } from "../data/talk";
+import { ExperiencesData, findTalks, TalkOverviewData } from "../data/talk";
 import { invariant } from "../utils/invariant";
 
 type TalkList = ReadonlyArray<TalkOverviewData>;
@@ -59,7 +59,7 @@ const LivePage: NextPage<LivePageProps> = ({ talks }) => {
 
   if (__DEV__) {
     return (
-      <NowOverrideProvider initialValue="2021-07-28T13:25:11.834Z">
+      <NowOverrideProvider initialValue="2021-07-29T17:25:49.834Z">
         {page}
       </NowOverrideProvider>
     );
@@ -241,6 +241,9 @@ const TalkPanel = ({
         </p>
       );
     }
+    if (talk.experiences) {
+      return <Experiences experiences={talk.experiences} />;
+    }
     return <TalkYouTubeEmbed talk={talk} autoplay />;
   })();
 
@@ -302,6 +305,43 @@ const TalkPanel = ({
         )}
       </VSpaceBetween>
     </TabPanel>
+  );
+};
+
+const Experiences = ({ experiences }: { experiences: ExperiencesData }) => {
+  const now = useNow();
+  const current = experiences.talks.find(
+    (e) =>
+      isAfter(now, parseISO(e.startTime)) && isBefore(now, parseISO(e.endTime))
+  );
+
+  if (!current) {
+    return (
+      <div>
+        <p>
+          The experiences session has concluded. Please feel free to engage with
+          presenters on Discord if you'd like to ask any questions!
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <h3
+        className={css`
+          font-size: 1.25rem;
+          font-family: "Patua One", sans-serif;
+          margin-bottom: 1rem;
+        `}
+      >
+        {current.title}
+      </h3>
+      <VSpace />
+      <TalkYouTubeEmbed talk={current} autoplay />
+      <VSpace />
+      <StyledMarkdown source={current.abstract} />
+    </div>
   );
 };
 

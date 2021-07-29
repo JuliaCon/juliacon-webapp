@@ -3,10 +3,13 @@ import { css } from "emotion";
 import React from "react";
 import YouTube from "react-youtube";
 
-import { TalkOverviewData } from "../../data/talk";
-
 interface TalkYouTubeEmbedProps {
-  talk: TalkOverviewData;
+  talk: {
+    isLive?: boolean;
+    startTime: string;
+    endTime: string;
+    videoCode: string | null;
+  };
   autoplay?: boolean;
 }
 export const TalkYouTubeEmbed = ({ autoplay, talk }: TalkYouTubeEmbedProps) => {
