@@ -44,8 +44,8 @@ export const JobsPage: NextPage = () => {
             <p>
               Invenia is a machine learning lab based in Cambridge, UK and
               Winnipeg, Manitoba. We’re using Julia to optimise complex systems.
-              For more information about Invenia, please visit
-              https://www.invenia.ca/ We are currently hiring Developers and
+              For more information about Invenia, please visit <ExternalLink href="
+              https://www.invenia.ca/">invenia.ca</ExternalLink>. We are currently hiring Developers and
               Researchers with a wide range of expertise, including machine
               learning, data science, power systems, and research software
               engineering. For details about current opportunities available,
