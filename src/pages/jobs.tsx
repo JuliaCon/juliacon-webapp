@@ -39,6 +39,25 @@ export const JobsPage: NextPage = () => {
           </p>
         </div>
         <div>
+          <TextHeading level={"h3"}>Invenia</TextHeading>
+          <VSpaceBetween space={"0.5rem"} spaceAbove>
+            <p>
+              Invenia is a machine learning lab based in Cambridge, UK and
+              Winnipeg, Manitoba. We’re using Julia to optimise complex systems.
+              For more information about Invenia, please visit <ExternalLink href="
+              https://www.invenia.ca/">invenia.ca</ExternalLink>. We are currently hiring Developers and
+              Researchers with a wide range of expertise, including machine
+              learning, data science, power systems, and research software
+              engineering. For details about current opportunities available,
+              please visit{" "}
+              <ExternalLink href="joininvenia.com">
+                joininvenia.com
+              </ExternalLink>
+              .
+            </p>
+          </VSpaceBetween>
+        </div>
+        <div>
           <TextHeading level={"h3"}>Pumas AI</TextHeading>
           <VSpaceBetween space={"0.5rem"} spaceAbove>
             <p>
