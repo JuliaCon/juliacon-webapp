@@ -3063,39 +3063,6 @@
  {
   "content_locale": "en",
   "is_featured": true,
-  "code": "CQVK8D",
-  "track": null,
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Gajendra Deshpande",
-    "code": "CPJQQS",
-    "biography": "I hold Post Graduate Diploma in Cyber Laws and Cyber Forensics from National Law School of India University Bangalore. I have presented talks many conferences including PyData Global, JuliaCon 2018 and 2020, PyCon FR/HK/TW/ID/TZ/AU, COSCUP Taiwan, FOSDEM 2021, FOSSASIA 2021, PyCon Africa, BuzzConf, EuroPython, PiterPy Russia, SciPy India. Worked as a Reviewer and Program Committee member for reputed International conferences including SciPy USA, SciPy Japan, JuliaCon, JupyterCon, PyData Global, and PyCon India, and publishers include Manning USA and Oxford Univesity Press. I am also a GitHub Certified Campus Advisor. I lead the PyData Belagavi chapter and the OWASP Belagavi chapter. I am working as CFP Co-Chair for PyCon India 2021."
-   }
-  ],
-  "description": "Natural Language Processing(NLP) is an interesting and challenging field. It becomes even more interesting and challenging when we take into consideration more than one human language. when we perform an NLP on a single language there is a possibility that the interesting insights from another human language might be missed out. The interesting and valuable information may be available in other human languages such as Spanish, Chinese, French, Hindi, and other major languages of the world. Also, the information may be available in various formats such as text, images, audio, and video.\r\n\r\nIn this talk, I will discuss techniques and methods that will help perform NLP tasks on multi-source and multilingual information. The talk begins with an introduction to natural language processing and its concepts. Then it addresses the challenges with respect to multilingual and multi-source NLP. Next, I will discuss various techniques and tools to extract information from audio, video, images, and other types of files using PyCall.jl  to access the functionalities of Python packages such as PyScreenshot, and SpeechRecognition. Also, extracting the information from web pages and source code using HTTP.jl and Gumbo.jl. Next, I will discuss concepts such as translation and transliteration that help to bring the information into a common language format. Once the language is in a common language format it becomes easy to perform NLP tasks. Next, I will explain with the help of code walkthrough generating a summary from multi-source and multi lingual information into a specific language using TextAnalysis.jl, TextModels.jl, and Languages.jl package. Finally the talk ends with a brief discussion on evaluation metrics such as ROUGE-N and ROUGE-L.\r\n\r\nOutline\r\n1. Introduction to NLP and concepts (05 Minutes)\r\n2. Challenges in Multi source multilingual NLP (02 Minutes)\r\n3. Tools for extracting information from various file formats (03 Minutes)\r\n4. Extract information from web pages and source code (03 Minutes)\r\n5. Methods to convert information into common language format (03 Minutes)\r\n6. Code walkthrough for multi source and multi lingual summary generation (07 Minutes)\r\n7. Evaluation Metrics and Conclusion(02 Minutes)",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2021-07-30T13:00:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2021-07-30T13:10:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Multilingual Natural Language Processing using Julia",
-  "abstract": "Natural Language Processing(NLP) is an interesting and challenging field. In this talk, I will discuss techniques and methods that will help perform NLP tasks on multi-source and multilingual information."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
   "code": "CY88QP",
   "track": null,
   "state": "confirmed",

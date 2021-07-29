@@ -811,15 +811,6 @@
  },
  {
   "avatar": null,
-  "name": "Gajendra Deshpande",
-  "submissions": [
-   "CQVK8D"
-  ],
-  "code": "CPJQQS",
-  "biography": "I hold Post Graduate Diploma in Cyber Laws and Cyber Forensics from National Law School of India University Bangalore. I have presented talks many conferences including PyData Global, JuliaCon 2018 and 2020, PyCon FR/HK/TW/ID/TZ/AU, COSCUP Taiwan, FOSDEM 2021, FOSSASIA 2021, PyCon Africa, BuzzConf, EuroPython, PiterPy Russia, SciPy India. Worked as a Reviewer and Program Committee member for reputed International conferences including SciPy USA, SciPy Japan, JuliaCon, JupyterCon, PyData Global, and PyCon India, and publishers include Manning USA and Oxford Univesity Press. I am also a GitHub Certified Campus Advisor. I lead the PyData Belagavi chapter and the OWASP Belagavi chapter. I am working as CFP Co-Chair for PyCon India 2021."
- },
- {
-  "avatar": null,
   "name": "Colin Beckingham",
   "submissions": [
    "N3ANEL"
