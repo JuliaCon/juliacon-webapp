@@ -1075,7 +1075,7 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "The wonderfully helpful Julia community",
+  "title": "[Canceled] The wonderfully helpful Julia community",
   "abstract": "This short session will share the wonderful experience I've had engaging with the Julia community as a new Julia learner. Overall, I want to share these experiences as a way to celebrate it but also to encourage other new Julia learners to connect and engage with this friendly community. Topics include what one can expect on the various platforms as well as how I got help on some of my projects like getting help to accelerate my Julia image processing code that I use to make art."
  },
  {
@@ -4079,7 +4079,7 @@
     "biography": "A Biostatistics PhD student from the University of Oslo. I'm working on combining computer simulations with Bayesian statistical models. I have been a big fan of Julia since version 0.4. My research interests are Bayesian statistics, symbolic computing and applied category theory."
    }
   ],
-  "description": "Streptococcus pneumoniae (the pneumococcus) is a common nasopharyngeal bacterium that can cause invasive pneumococcal disease (IPD). Each component of current vaccines generally induce immunity to one of the approximately 100 pneumococcal types. Overall carriage rates remain similar to pre-vaccination as the serotypes not affected by the vaccine will replace the affected ones. Selecting which serotypes to target to minimize the post-vaccine IPD burden is a challenging combinatorial problem involving a large ODE system describing the population dynamics of the bacteria in response to each proposed vaccine. This talk describes how I have approached this problem using automatic differentiation, parallelized evaluation of the ODEs, stochastic search and Bayesian optimization.",
+  "description": "Streptococcus pneumoniae (the pneumococcus) is a common nasopharyngeal bacterium that can cause invasive pneumococcal disease (IPD). Each component of current vaccines generally induce immunity to one of the approximately 100 pneumococcal types. Overall carriage rates remain similar to pre-vaccination as the serotypes not affected by the vaccine will replace the affected ones. Selecting which serotypes to target to minimize the post-vaccine IPD burden is a challenging combinatorial problem involving a large ODE system describing the population dynamics of the bacteria in response to each proposed vaccine. This talk describes how I have approached this problem using automatic differentiation, parallelized evaluation of the ODEs, stochastic search and Bayesian optimization. Here is a link to the paper this work is based on: https://www.nature.com/articles/s41564-019-0651-y.",
   "image": null,
   "slot_count": 1,
   "slot": {
