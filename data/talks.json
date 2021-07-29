@@ -813,7 +813,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Keynote (Jan Vitek)",
-  "abstract": "Keynote"
+  "abstract": "Julia - Is it a great language, or it is the greatest language!"
  },
  {
   "content_locale": "en",
@@ -3950,7 +3950,7 @@
     "biography": "Philipp A. Witte is a researcher at Microsoft Research for Industry (RFI), a new initiative within Microsoft for developing innovative research solutions for industry-related problems ranging from AI/ML to edge- and high-performance computing. Prior to Microsoft, Philipp received his B.Sc. and M.Sc. in Geophysics from the University of Hamburg and his Ph.D. in Computational Science and Engineering from the Georgia Institute of Technology. During his Ph.D., Philipp worked with Professor Felix J. Herrmann at the Seismic Laboratory for Imaging and Modeling (SLIM) on computational aspects of least squares seismic imaging and full-waveform inversion. He has authored and contributed to multiple open-source software packages, including Devito, the Julia Devito Inversion framework (JUDI) and InvertibleNetworks.jl, a Julia framework for deep learning with normalizing flows."
    },
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/Screenshot_2021-07-29_094356_faiEe0c.png",
     "name": "Mathias Louboutin",
     "code": "UUDHSP",
     "biography": "Post Docotoral Fellow at Georgia Institute of technology. \r\nMy main research focuses on high-performance computing for large-scale PDE constraints optimization (medical imaging, seismic imaging) on standard clusters and in the Cloud. In particular I work intensively on open source solutions in Julia and Python and high-level abstractions for high-performance computing such as Devito (Finite difference DSL) or JUDI.jl (linear algebra abstraction for PDE constraint optimization).\r\nMy secondary research project is aimed at computational and algorithmic solutions for large-scale machine learning."
@@ -10799,7 +10799,7 @@
   "state": "confirmed",
   "duration": 45,
   "speakers": [],
-  "description": "",
+  "description": "In recent years, we have seen a large body of research using hierarchical\r\nmatrix algebra to construct low complexity linear solvers and preconditioners.\r\nNot only can these fast solvers significantly accelerate the speed of\r\nlarge scale PDE based simulations, but also they can speed up many AI and\r\nmachine learning algorithms which are often matrix-computation-bound.\r\nOn the other hand, statistical and machine learning methods can be used\r\nto help select best solvers or solvers' configurations for specific problems\r\nand computer platforms. In both of these fields, high performance computing\r\nbecomes an indispensable cross-cutting tool for achieving real-time solution\r\nfor big data problems. In this talk, we will show our recent developments\r\nin the intersection of these areas.\r\n\r\n\r\nBIO\r\nSherry Li is a Senior Scientist in the Computational Research Division,\r\nLawrence Berkeley National Laboratory. She has worked on diverse problems\r\nin high performance scientific computations, including parallel computing,\r\nsparse matrix computations, high precision arithmetic, and combinatorial\r\nscientific computing. She is the lead developer of SuperLU, a widely-used\r\nsparse direct solver, and has contributed to the development of several other\r\nmathematical libraries, including ARPREC, LAPACK, PDSLin, STRUMPACK, and XBLAS. She earned Ph.D. in Computer Science from UC Berkeley and B.S. in Computer Science from Tsinghua Univ. in China. She has served on the editorial boards of the SIAM J. Scientific Comput. and ACM Trans. Math. Software, as well as many program committees of the scientific conferences. She is a Fellow of SIAM and a Senior Member of ACM.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -10815,7 +10815,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Keynote (Xiaoye (Sherry) Li)",
-  "abstract": "Keynote"
+  "abstract": "Interplay of linear algebra, machine learning, and HPC"
  },
  {
   "content_locale": "en",
