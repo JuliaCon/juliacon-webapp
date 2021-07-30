@@ -2024,6 +2024,17 @@
   "speaker": "Bogumił Kamiński"
  },
  {
+  "start_datetime": "2021-07-30T21:30:00Z",
+  "end_datetime": "2021-07-31T21:30:00Z",
+  "duration": 1440,
+  "location": "Green",
+  "id": "W7RT9F",
+  "title": "JuliaCon Hackathon",
+  "url": "/talk/W7RT9F",
+  "index": 185,
+  "speaker": ""
+ },
+ {
   "start_datetime": "2021-07-30T19:40:00Z",
   "end_datetime": "2021-07-30T19:50:00Z",
   "duration": 10,
@@ -2031,7 +2042,7 @@
   "id": "WA7BP8",
   "title": "IntervalLinearAlgebra.jl: Linear algebra done rigorously",
   "url": "/talk/WA7BP8",
-  "index": 185,
+  "index": 186,
   "speaker": "Luca Ferranti"
  },
  {
@@ -2042,7 +2053,7 @@
   "id": "WDFZWG",
   "title": "Julia Developer Survey Results",
   "url": "/talk/WDFZWG",
-  "index": 186,
+  "index": 187,
   "speaker": "Viral B. Shah"
  },
  {
@@ -2053,7 +2064,7 @@
   "id": "WQ8MJK",
   "title": "The OSCAR Computer Algebra System",
   "url": "/talk/WQ8MJK",
-  "index": 187,
+  "index": 188,
   "speaker": "Max Horn, Claus Fieker"
  },
  {
@@ -2064,7 +2075,7 @@
   "id": "WRNAEN",
   "title": "Dictionaries.jl - for improved productivity and performance",
   "url": "/talk/WRNAEN",
-  "index": 188,
+  "index": 189,
   "speaker": "Andy Ferris"
  },
  {
@@ -2075,7 +2086,7 @@
   "id": "WT8PHT",
   "title": "Matlab to Julia: Hours to Minutes for MRI Image Analysis",
   "url": "/talk/WT8PHT",
-  "index": 189,
+  "index": 190,
   "speaker": "Jonathan Doucette"
  },
  {
@@ -2086,7 +2097,7 @@
   "id": "WULB78",
   "title": "Modeling Bilevel optimization problems with BilevelJuMP.jl",
   "url": "/talk/WULB78",
-  "index": 190,
+  "index": 191,
   "speaker": "Joaquim Dias Garcia"
  },
  {
@@ -2097,7 +2108,7 @@
   "id": "WWP7DR",
   "title": "SciML for Structures: Predicting Bridge Behavior",
   "url": "/talk/WWP7DR",
-  "index": 191,
+  "index": 192,
   "speaker": "Axel Larsson"
  },
  {
@@ -2108,7 +2119,7 @@
   "id": "WZ7YM9",
   "title": "Symbolics.jl - fast and flexible symbolic programming",
   "url": "/talk/WZ7YM9",
-  "index": 192,
+  "index": 193,
   "speaker": "Shashi Gowda, Yingbo Ma"
  },
  {
@@ -2119,7 +2130,7 @@
   "id": "X3SAWW",
   "title": "Optical simulation with the OpticSim.jl package",
   "url": "/talk/X3SAWW",
-  "index": 193,
+  "index": 194,
   "speaker": "Brian Guenter, Charlie Hewitt"
  },
  {
@@ -2130,7 +2141,7 @@
   "id": "X7QCPU",
   "title": "The state of JuMP",
   "url": "/talk/X7QCPU",
-  "index": 194,
+  "index": 195,
   "speaker": "Oscar Dowson"
  },
  {
@@ -2141,7 +2152,7 @@
   "id": "X9BNQV",
   "title": "Flexible set projections with MathOptInterface",
   "url": "/talk/X9BNQV",
-  "index": 195,
+  "index": 196,
   "speaker": "Mathieu Besançon"
  },
  {
@@ -2152,7 +2163,7 @@
   "id": "X9RATL",
   "title": "Physics-Informed ML Simulator for Wildfire Propagation",
   "url": "/talk/X9RATL",
-  "index": 196,
+  "index": 197,
   "speaker": "Francesco Calisto, Simone Azeglio, Valerio Pagliarino, Luca Bottero"
  },
  {
@@ -2163,7 +2174,7 @@
   "id": "XDX3SQ",
   "title": "Towards an increased code-creativity harmony in Javis",
   "url": "/talk/XDX3SQ",
-  "index": 197,
+  "index": 198,
   "speaker": "Arsh Sharma"
  },
  {
@@ -2174,7 +2185,7 @@
   "id": "XFC73Y",
   "title": "TSSOS.jl: exploiting sparsity in polynomial optimization",
   "url": "/talk/XFC73Y",
-  "index": 198,
+  "index": 199,
   "speaker": "Jie Wang"
  },
  {
@@ -2185,7 +2196,7 @@
   "id": "XFZWWA",
   "title": "Hierarchical Multiple Instance Learning",
   "url": "/talk/XFZWWA",
-  "index": 199,
+  "index": 200,
   "speaker": "Tomas Pevny"
  },
  {
@@ -2196,7 +2207,7 @@
   "id": "XGCJBA",
   "title": "A Brief Introduction to InfrastructureModels",
   "url": "/talk/XGCJBA",
-  "index": 200,
+  "index": 201,
   "speaker": "Carleton Coffrin"
  },
  {
@@ -2207,7 +2218,7 @@
   "id": "XNVLKH",
   "title": "UnitCommitment.jl: Security-Constrained Unit Commitment in JuMP",
   "url": "/talk/XNVLKH",
-  "index": 201,
+  "index": 202,
   "speaker": "Alinson Santos Xavier"
  },
  {
@@ -2218,7 +2229,7 @@
   "id": "XV3AH8",
   "title": "TopOpt.jl: topology optimization software done right!",
   "url": "/talk/XV3AH8",
-  "index": 202,
+  "index": 203,
   "speaker": "Mohamed Tarek"
  },
  {
@@ -2229,7 +2240,7 @@
   "id": "Y9XWLM",
   "title": "Data driven insight into fish behaviour for aquaculture",
   "url": "/talk/Y9XWLM",
-  "index": 203,
+  "index": 204,
   "speaker": "Paulito Palmes, PhD, Fearghal O'Donncha"
  },
  {
@@ -2240,7 +2251,7 @@
   "id": "YFCXJD",
   "title": "Atomic fields: the new primitives on the block",
   "url": "/talk/YFCXJD",
-  "index": 204,
+  "index": 205,
   "speaker": "Jameson Nash"
  },
  {
@@ -2251,7 +2262,7 @@
   "id": "YFPXCU",
   "title": "SuiteSparseGraphBLAS.jl",
   "url": "/talk/YFPXCU",
-  "index": 205,
+  "index": 206,
   "speaker": "William Kimmerer"
  },
  {
@@ -2262,7 +2273,7 @@
   "id": "YGWUVE",
   "title": "Modia – Modeling Multidomain Engineering Systems with Julia",
   "url": "/talk/YGWUVE",
-  "index": 206,
+  "index": 207,
   "speaker": "Andrea Neumayr, Martin Otter, Hilding Elmqvist"
  },
  {
@@ -2273,7 +2284,7 @@
   "id": "YKHNVR",
   "title": "Single-cell resolved cell-cell communication modeling in Julia",
   "url": "/talk/YKHNVR",
-  "index": 207,
+  "index": 208,
   "speaker": "Megan Franke"
  },
  {
@@ -2284,7 +2295,7 @@
   "id": "YS9RUZ",
   "title": "Keynote (Xiaoye (Sherry) Li)",
   "url": "/talk/YS9RUZ",
-  "index": 208,
+  "index": 209,
   "speaker": ""
  },
  {
@@ -2295,7 +2306,7 @@
   "id": "YVCM8B",
   "title": "Infinite-Dimensional Optimization with InfiniteOpt.jl",
   "url": "/talk/YVCM8B",
-  "index": 209,
+  "index": 210,
   "speaker": "Joshua Pulsipher"
  },
  {
@@ -2306,7 +2317,7 @@
   "id": "YXJ8YQ",
   "title": "GatherTown -- Social break",
   "url": "/talk/YXJ8YQ",
-  "index": 210,
+  "index": 211,
   "speaker": ""
  },
  {
@@ -2317,7 +2328,7 @@
   "id": "Z7ZLTP",
   "title": "Partitions and chains: enabling batch processing for your data",
   "url": "/talk/Z7ZLTP",
-  "index": 211,
+  "index": 212,
   "speaker": "Jacob Quinn"
  },
  {
@@ -2328,7 +2339,7 @@
   "id": "Z8AJ9J",
   "title": "A Derivative-Free Local Optimizer for Multi-Objective Problems",
   "url": "/talk/Z8AJ9J",
-  "index": 212,
+  "index": 213,
   "speaker": "Manuel Berkemeier"
  },
  {
@@ -2339,7 +2350,7 @@
   "id": "ZEV3MR",
   "title": "A Tour of the differentiable programming landscape with Flux.jl",
   "url": "/talk/ZEV3MR",
-  "index": 213,
+  "index": 214,
   "speaker": "Dhairya Gandhi"
  },
  {
@@ -2350,7 +2361,7 @@
   "id": "ZQJAW3",
   "title": "Building a Chemistry and Materials Science Ecosystem in Julia",
   "url": "/talk/ZQJAW3",
-  "index": 214,
+  "index": 215,
   "speaker": "Michael F. Herbst, Rachel Kurchin"
  },
  {
@@ -2361,7 +2372,7 @@
   "id": "ZSPVMT",
   "title": "Runtime-switchable BLAS/LAPACK backends via libblastrampoline",
   "url": "/talk/ZSPVMT",
-  "index": 215,
+  "index": 216,
   "speaker": "Elliot Saba, Mosè Giordano"
  },
  {
@@ -2372,7 +2383,7 @@
   "id": "ZYPPNH",
   "title": "Calculating a million stationary points in a second on the GPU",
   "url": "/talk/ZYPPNH",
-  "index": 216,
+  "index": 217,
   "speaker": "David P. Sanders, Valentin Churavy"
  }
 ]

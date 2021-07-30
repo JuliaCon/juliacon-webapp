@@ -3198,7 +3198,7 @@
     "biography": "I am a research scientist at the IBM Research working on the following areas: AutoML, AutoAI, RL/ML Optimization, and Decision Optimization."
    }
   ],
-  "description": "The CASH problem can be decomposed into three major components:\r\n- searching the optimal __m__ model with n(m) search space\r\n- searching the optimal order of __p__ preprocessing elements with n(p) search space\r\n- searching the optimal __h__ hyperparameters with n(h) search space \r\n\r\nThe most popular approaches involve simultaneous search of these three components with time complexity of n(p) x n(m) x n(h). An alternative method is to perform the search sequentially starting with __m__ using surrogates __p__ and __h__ followed by searching for __p__ using optimal __m__ and surrogate __h__, and finally searching for __h__ using optimal __p__ and __m__ found. This alternative technique only involves n(p) + n(m) + n(h) search space which is significantly smaller than simultaneously searching __p__, __m__, and __h__. We find in our experiments using the [AutoMLPipeline](https://github.com/IBM/AutoMLPipeline.jl) package, that in many cases, it is sufficient to just search for __m__ and __p__ to achieve competitive performance with those of other optimal algorithms that searches all three components simultaneously.\r\n\r\nRelevant Julia Packages used in the talk:\r\n- [AutoMLPipeline.jl](https://github.com/IBM/AutoMLPipeline.jl)\r\n- [AMLPipelineBase.jl](https://github.com/IBM/AMLPipelineBase.jl)\r\n- [Lale.jl](https://github.com/IBM/Lale.jl)\r\n- [Hyperopt.jl](https://github.com/baggepinnen/Hyperopt.jl)",
+  "description": "The CASH problem can be decomposed into three major components:\r\n- searching the optimal __m__ model with n(m) search space\r\n- searching the optimal order of __p__ preprocessing elements with n(p) search space\r\n- searching the optimal __h__ hyperparameters with n(h) search space \r\n\r\nThe most popular approaches involve simultaneous search of these three components with time complexity of n(p) x n(m) x n(h). An alternative method is to perform the search sequentially starting with __m__ using surrogates __p__ and __h__ followed by searching for __p__ using optimal __m__ and surrogate __h__, and finally searching for __h__ using optimal __p__ and __m__ found. This alternative technique only involves n(p) + n(m) + n(h) search space which is significantly smaller than simultaneously searching __p__, __m__, and __h__. We find in our experiments using the [AutoMLPipeline](https://github.com/IBM/AutoMLPipeline.jl) package, that in many cases, it is sufficient to just search for __m__ and __p__ to achieve competitive performance with those of other optimal algorithms that searches all three components simultaneously.\r\n\r\nRelevant paper: https://arxiv.org/abs/2107.01253\r\n\r\nRelevant Julia Packages used in the talk:\r\n- [AutoMLPipeline.jl](https://github.com/IBM/AutoMLPipeline.jl)\r\n- [AMLPipelineBase.jl](https://github.com/IBM/AMLPipelineBase.jl)\r\n- [Lale.jl](https://github.com/IBM/Lale.jl)\r\n- [Hyperopt.jl](https://github.com/baggepinnen/Hyperopt.jl)",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -6858,6 +6858,32 @@
   "do_not_record": false,
   "title": "Package development: improving engineering quality & latency",
   "abstract": "Julia holds immense promise for a composable package ecosystem. Potential obstacles to achieving this promise include missing methods for unanticipated types, unwitting type-piracy, poor performance due to inference failures, method ambiguities, and latency due to long compilation times and/or invalidation of previously-compiled code.\r\n\r\nThis workshop will tutor developers on the use of some recently-developed tools for detecting, diagnosing, and fixing such problems."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "W7RT9F",
+  "track": null,
+  "state": "confirmed",
+  "duration": 1440,
+  "speakers": [],
+  "description": "The event will take place for 24 hours! Join us to built something you are excited about in Julia. We will also have mentors available to help if you run into issues.",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2021-07-30T21:30:00Z",
+   "room": {
+    "en": "Green"
+   },
+   "end": "2021-07-31T21:30:00Z"
+  },
+  "submission_type": {
+   "en": "Social hour"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "JuliaCon Hackathon",
+  "abstract": "Join us on Gather.town for a 24 hour hackathon!\r\n\r\nIt is a virtual location where we will facilitate the poster sessions, social gatherings, and hackathon. You can join the space using the URL: https://gather.town/invite?token=3QYkt8gX.\r\n\r\nYou should have received the password through Eventbrite"
  },
  {
   "content_locale": "en",
