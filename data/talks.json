@@ -1587,7 +1587,7 @@
     "avatar": "https://pretalx.com/media/avatars/image_6483441_5257qOG.JPG",
     "name": "Joe Carpinelli",
     "code": "ZR87UR",
-    "biography": "I'm an aerospace engineering MS student who will be graduating in May 2021. My academic research has primarily been space robotics software development. I've worked on an open source Julia package, `UnitfulAstrodynamics.jl`, throughout my graduate astrodynamics courses. I'll be working as an aerospace controls engineer on the Orion project starting in July 2021."
+    "biography": "I'm a dynamics and controls engineer who recently completed his MS in aerospace engineering at the University of Maryland. My research largely focused in space robotics and astrodynamics. I'm the package developer for several open source astrodynamics package, including the superpackage `GeneralAstrodynamics.jl`."
    }
   ],
   "description": "",
