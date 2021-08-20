@@ -6441,7 +6441,7 @@
   "duration": 45,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/headshot_b9LOjYE.jpeg",
     "name": "Stefan Karpinski",
     "code": "9NNRE7",
     "biography": "Julia co-creator & co-founder of [Julia Computing](https://juliacomputing.com)."
