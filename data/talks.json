@@ -1970,7 +1970,7 @@
   "duration": 10,
   "speakers": [
    {
-    "avatar": "https://pretalx.com/media/avatars/1282691_g7HPUjM.jpeg",
+    "avatar": null,
     "name": "Kristoffer Carlsson",
     "code": "AS3MKE",
     "biography": "I'm a contributor to the Julia language and many packages."
@@ -3888,7 +3888,7 @@
   "duration": 10,
   "speakers": [
    {
-    "avatar": "https://pretalx.com/media/avatars/1282691_g7HPUjM.jpeg",
+    "avatar": null,
     "name": "Kristoffer Carlsson",
     "code": "AS3MKE",
     "biography": "I'm a contributor to the Julia language and many packages."
@@ -6252,7 +6252,7 @@
   "duration": 30,
   "speakers": [
    {
-    "avatar": "https://pretalx.com/media/avatars/1282691_g7HPUjM.jpeg",
+    "avatar": null,
     "name": "Kristoffer Carlsson",
     "code": "AS3MKE",
     "biography": "I'm a contributor to the Julia language and many packages."
