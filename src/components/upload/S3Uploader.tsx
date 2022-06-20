@@ -91,7 +91,7 @@ export const S3Uploader = () => {
 
       const talkName = talkNameInputRef.current?.value;
       if (!talkName) {
-        setErrorMessage("Please include the title of your talk.");
+        setErrorMessage("Please include the Pretalx ID of your talk.");
         return;
       }
 
@@ -150,12 +150,12 @@ export const S3Uploader = () => {
         <FormInput
           disabled={disabled}
           inputRef={talkNameInputRef}
-          label={"Talk or Poster Title"}
+          label={"Pretalx ID"}
           description={
             <>
-              Please use the exact title that you used when submitting on{" "}
+              Please use the talk pretalx ID you you see on {" "}
               <a
-                href={"https://pretalx.com/juliacon2021/me/submissions/"}
+                href={"https://pretalx.com/juliacon2022/me/submissions/"}
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >
