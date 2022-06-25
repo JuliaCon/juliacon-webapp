@@ -107,14 +107,14 @@ export const S3Uploader = () => {
         return;
       }
       
-      const pretalxId = pretlaxIdInputRef.current?.value;
+      const pretalxId = pretalxIdInputRef.current?.value;
       if (!pretalxId) {
         setErrorMessage("Please include the pretalx ID of your talk or poster.");
         return;
       }
 
       const file = files[0];
-      const promise = Storage.put(`$pretalxId-${talkName}: ${file.name}`, file, {
+      const promise = Storage.put(`${pretalxId}-${talkName}: ${file.name}`, file, {
         contentType: file.type,
         // NOTE: When using S3 and REST, we have to encode everything as ascii.
         // URI-encoding seems to me the simplest workaround for now.
