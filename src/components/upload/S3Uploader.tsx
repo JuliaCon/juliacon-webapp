@@ -106,9 +106,15 @@ export const S3Uploader = () => {
         setErrorMessage("Please include your name.");
         return;
       }
+      
+      const pretalxId = pretlaxIdInputRef.current?.value;
+      if (!pretalxId) {
+        setErrorMessage("Please include the pretalx ID of your talk or poster.");
+        return;
+      }
 
       const file = files[0];
-      const promise = Storage.put(`${talkName}: ${file.name}`, file, {
+      const promise = Storage.put(`$pretalxId-${talkName}: ${file.name}`, file, {
         contentType: file.type,
         // NOTE: When using S3 and REST, we have to encode everything as ascii.
         // URI-encoding seems to me the simplest workaround for now.
@@ -149,13 +155,33 @@ export const S3Uploader = () => {
         <VSpace />
         <FormInput
           disabled={disabled}
+          inputRef={pretalxIdInputRef}
+          label={"Pretalx Talk ID"}
+                    description={
+            <>
+              Please use the ID shown on{" "}
+              <a
+                href={"https://pretalx.com/juliacon2022/me/submissions/"}
+                target={"_blank"}
+                rel={"noopener noreferrer"}
+              >
+                Pretalx
+              </a>
+              .
+            </>
+          }
+          type={"text"}
+        />
+        <VSpace />
+        <FormInput
+          disabled={disabled}
           inputRef={talkNameInputRef}
           label={"Talk or Poster Title"}
           description={
             <>
               Please use the exact title that you used when submitting on{" "}
               <a
-                href={"https://pretalx.com/juliacon2021/me/submissions/"}
+                href={"https://pretalx.com/juliacon2022/me/submissions/"}
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >
