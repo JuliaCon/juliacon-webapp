@@ -32,9 +32,8 @@ if (!__SERVER__) {
 
 export const S3Uploader = () => {
   const [errorMessage, setErrorMessage] = React.useState("");
-  const [uploadPromise, setUploadPromise] = React.useState<Promise<
-    unknown
-  > | null>(null);
+  const [uploadPromise, setUploadPromise] =
+    React.useState<Promise<unknown> | null>(null);
 
   // We need to have a ref since we need to be able to check this inside of the
   // form submit callback (since the AWS amplify API is all async)
@@ -81,6 +80,7 @@ export const S3Uploader = () => {
   );
 
   const yourNameInputRef = useInputRef();
+  const pretalxIdInputRef = useInputRef();
   const talkNameInputRef = useInputRef();
   const fileInputRef = useInputRef();
 
@@ -107,25 +107,33 @@ export const S3Uploader = () => {
         return;
       }
 
+      const pretalxId = pretalxIdInputRef.current?.value
+        ? pretalxIdInputRef.current?.value
+        : "UNKNWN";
+
       const file = files[0];
-      const promise = Storage.put(`${talkName}: ${file.name}`, file, {
-        contentType: file.type,
-        // NOTE: When using S3 and REST, we have to encode everything as ascii.
-        // URI-encoding seems to me the simplest workaround for now.
-        metadata: {
-          talkName: encodeURIComponent(talkName),
-          uploaderName: encodeURIComponent(uploaderName),
-        },
-        progressCallback: (event: ProgressEvent) => {
-          if (uploadPromiseRef.current !== promise) return;
-          setUploadProgress(event.loaded / event.total);
-        },
-      });
+      const promise = Storage.put(
+        `${pretalxId}:${talkName}:${file.name}`,
+        file,
+        {
+          contentType: file.type,
+          // NOTE: When using S3 and REST, we have to encode everything as ascii.
+          // URI-encoding seems to me the simplest workaround for now.
+          metadata: {
+            talkName: encodeURIComponent(talkName),
+            uploaderName: encodeURIComponent(uploaderName),
+          },
+          progressCallback: (event: ProgressEvent) => {
+            if (uploadPromiseRef.current !== promise) return;
+            setUploadProgress(event.loaded / event.total);
+          },
+        }
+      );
 
       setUploadPromise(promise);
       setUploadProgress(0);
     },
-    [fileInputRef, talkNameInputRef, yourNameInputRef]
+    [fileInputRef, talkNameInputRef, yourNameInputRef, pretalxIdInputRef]
   );
 
   const disabled = uploadState === "pending";
@@ -149,13 +157,34 @@ export const S3Uploader = () => {
         <VSpace />
         <FormInput
           disabled={disabled}
+          inputRef={pretalxIdInputRef}
+          label={"Pretalx Talk ID"}
+          description={
+            <>
+              (Optional) The ID is the six character slug at the end of the url
+              of your talk page. Navigate to it from{" "}
+              <a
+                href={"https://pretalx.com/juliacon2022/me/submissions/"}
+                target={"_blank"}
+                rel={"noopener noreferrer"}
+              >
+                Pretalx
+              </a>
+              .
+            </>
+          }
+          type={"text"}
+        />
+        <VSpace />
+        <FormInput
+          disabled={disabled}
           inputRef={talkNameInputRef}
           label={"Talk or Poster Title"}
           description={
             <>
               Please use the exact title that you used when submitting on{" "}
               <a
-                href={"https://pretalx.com/juliacon2021/me/submissions/"}
+                href={"https://pretalx.com/juliacon2022/me/submissions/"}
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >
