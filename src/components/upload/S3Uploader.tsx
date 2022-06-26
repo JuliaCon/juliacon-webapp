@@ -108,11 +108,7 @@ export const S3Uploader = () => {
         return;
       }
       
-      const pretalxId = pretalxIdInputRef.current?.value;
-      if (!pretalxId) {
-        pretalxId = "UNKNWN"
-        return;
-      }
+      const pretalxId = ( (pretalxIdInputRef.current?.value) ? pretalxIdInputRef.current?.value : "UNKNWN" ) ;
 
       const file = files[0];
       const promise = Storage.put(`${pretalxId}-${talkName}: ${file.name}`, file, {
