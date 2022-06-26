@@ -81,6 +81,7 @@ export const S3Uploader = () => {
   );
 
   const yourNameInputRef = useInputRef();
+  const pretalxIdInputRef = useInputRef();
   const talkNameInputRef = useInputRef();
   const fileInputRef = useInputRef();
 
@@ -159,7 +160,7 @@ export const S3Uploader = () => {
           label={"Pretalx Talk ID"}
                     description={
             <>
-              Please use the ID shown on{" "}
+              (Optional) The ID is the six character slug at the end of the url of your talk page. Navigate to it from {" "}
               <a
                 href={"https://pretalx.com/juliacon2022/me/submissions/"}
                 target={"_blank"}
