@@ -110,7 +110,7 @@ export const S3Uploader = () => {
       
       const pretalxId = pretalxIdInputRef.current?.value;
       if (!pretalxId) {
-        setErrorMessage("Please include the pretalx ID of your talk or poster.");
+        pretalxId = "UNKNWN"
         return;
       }
 
