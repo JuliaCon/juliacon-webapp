@@ -184,7 +184,7 @@ export const S3Uploader = () => {
             <>
               Please use the exact title that you used when submitting on{" "}
               <a
-                href={"https://pretalx.com/juliacon2022/me/submissions/"}
+                href={"https://pretalx.com/juliacon-2022/me/submissions/"}
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >
