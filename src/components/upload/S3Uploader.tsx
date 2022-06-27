@@ -164,13 +164,13 @@ export const S3Uploader = () => {
               (Optional) The ID is the six character slug at the end of the url
               of your talk page. Navigate to it from{" "}
               <a
-                href={"https://pretalx.com/juliacon2022/me/submissions/"}
+                href={"https://pretalx.com/juliacon-2022/me/submissions/"}
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >
                 Pretalx
               </a>
-              .
+              (must be signed in to view).
             </>
           }
           type={"text"}
@@ -184,7 +184,7 @@ export const S3Uploader = () => {
             <>
               Please use the exact title that you used when submitting on{" "}
               <a
-                href={"https://pretalx.com/juliacon2022/me/submissions/"}
+                href={"https://pretalx.com/juliacon-2022/me/submissions/"}
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >
