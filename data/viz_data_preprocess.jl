@@ -6,7 +6,7 @@ function viz_data_preprocess(data)
     talks = []
     index = 1
     for talk in data
-        if Date(talk["slot"]["start"][1:10]) >= Date("2021-07-28")
+        if Date(talk["slot"]["start"][1:10]) >= Date("2022-07-27")
             push!(talks, parse_talk(talk, index))
             index += 1
         end
