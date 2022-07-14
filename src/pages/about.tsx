@@ -19,12 +19,12 @@ export const IndexPage: NextPage = () => {
             <p>
               JuliaCon is the conference dedicated to the Julia programming
               language. The conference is fully virtual this year and talks run
-              from July 28th through July 30th, 2021 with workshops running the
+              from July 27th through July 29th, 2022 with workshops running the
               previous week.
             </p>
             <p>
-              This year, JuMP-dev, the annual developer workshop for the JuMP 
-              mathematical optimization ecosystem is co-located with JuliaCon. 
+              This year, JuMP-dev, the annual developer workshop for the JuMP
+              mathematical optimization ecosystem is co-located with JuliaCon.
             </p>
           </VSpaceBetween>
         </div>
@@ -35,8 +35,8 @@ export const IndexPage: NextPage = () => {
             All of the conference materials are available here for free, but
             registration is required (don't worry, it's free!). You can register
             on the{" "}
-            <ExternalLink href={"https://juliacon.org/2021/tickets/"}>
-              JuliaCon 2021 site
+            <ExternalLink href={"https://juliacon.org/2022/tickets/"}>
+              JuliaCon 2022 site
             </ExternalLink>
             .
           </p>
