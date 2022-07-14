@@ -18,6 +18,9 @@ export const SponsorSidebar = () => {
   const mediaPartners = sponsors.filter(
     (sponsor) => sponsor.tier === "Media Partner"
   );
+  const communityPartners = sponsors.filter(
+    (sponsor) => sponsor.tier === "Community Partner"
+  );
   return (
     <Link
       href={"/sponsors"}
@@ -126,6 +129,26 @@ export const SponsorSidebar = () => {
             </h2>
             <VSpace />
             {mediaPartners.map((sponsor, i) => (
+              <SponsorSidebarItem sponsor={sponsor} key={i} />
+            ))}
+
+            <VSpace height={"3rem"} />
+
+            <h2
+              className={css`
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-align: center;
+                border-bottom: 1px solid #ccc;
+
+                display: block;
+                width: 100%;
+              `}
+            >
+              Community partners
+            </h2>
+            <VSpace />
+            {communityPartners.map((sponsor, i) => (
               <SponsorSidebarItem sponsor={sponsor} key={i} />
             ))}
           </div>

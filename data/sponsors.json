@@ -5,7 +5,7 @@
     "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon", 
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/jclogo.png",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/jclogo.png",
     "tier": "Platinum",
     "discord": {
       "channel": "#julia-computing",
@@ -18,10 +18,36 @@
     "moreInfoURL": "https://www.relational.ai?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/relational_ai.jpeg",
-    "tier": "Gold",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/rai-logo.svg",
+    "tier": "Platinum",
     "discord": {
       "channel": "#relational-ai",
+      "url": "https://discord.com/channels/859573366477029389/867581293449314364"
+    }
+  },
+  {
+    "sponsorName": "Julius Technology",
+    "blurb": "Julius is an auto-scaling, low code and visual graph computing solution that allows firms to quickly build transparent and adaptable data and analytical pipelines",
+    "moreInfoURL": "https://www.juliustech.co/",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/juliustech.png",
+    "tier": "Platinum",
+    "discord": {
+      "channel": "#julius-tech",
+      "url": "https://discord.com/channels/859573366477029389/867581293449314364"
+    }
+  },
+  {
+    "sponsorName": "Intel",
+    "blurb": "We create world-changing technology that improves the life of every person on the planet.",
+    "moreInfoURL": "https://www.intel.com/",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/intel.png",
+    "tier": "Gold",
+    "discord": {
+      "channel": "#intel",
       "url": "https://discord.com/channels/859573366477029389/867581293449314364"
     }
   },
@@ -37,6 +63,38 @@
       "channel": "#invenia",
       "url": "https://discord.com/channels/859573366477029389/867581477936037918"
     }
+  },
+  {
+    "sponsorName": "Beacon Biosignals",
+    "blurb": "Beacon’s EEG neurobiomarker platform is engineered to accelerate clinical trials and enable new treatments for patients with neurological and psychiatric disease",
+    "moreInfoURL": "https://beacon.bio/?utm_source=juliacon",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/beacon_logo.svg",
+    "tier": "Silver"
+  },
+  {
+    "sponsorName": "Metalenz",
+    "blurb": "We are a a fabless semiconductor company on a mission to revolutionize optical sensing.",
+    "moreInfoURL": "https://www.metalenz.com/?utm_source=juliacon",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/metalenz-logo.png",
+    "tier": "Silver"
+  },
+  {
+    "sponsorName": "ASML",
+    "blurb": "ASML gives the world's leading chipmakers the power to mass produce patterns on silicon.",
+    "moreInfoURL": "https://www.asml.com/?utm_source=juliacon",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/asml.png",
+    "tier": "Silver"
+  },
+  {
+    "sponsorName": "G-Research",
+    "blurb": "G-Research is Europe’s leading quantitative finance research firm",
+    "moreInfoURL": "https://www.gresearch.co.uk/?utm_source=juliacon",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/gross.png",
+    "tier": "Silver"
   },
   {
     "sponsorName": "Conning",
@@ -69,28 +127,6 @@
     "tier": "Silver"
   },
   {
-    "sponsorName": "King Abdullah University of Science and Technology",
-    "blurb": "KAUST advances science and technology through distinctive and collaborative research integrated with graduate education. We are a catalyst for innovation, economic development and social prosperity in Saudi Arabia and the world. Check out their [video](https://www.youtube.com/watch?v=z_83-OO-Fck) at JuliaCon!",
-    "moreInfoURL": "https://www.kaust.edu.sa/en/?utm_source=juliacon",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/kaust.png",
-    "tier": "Silver"
-  },
-  {
-    "sponsorName": "DataChef.co",
-    "blurb": " DataChef is a boutique big data consultancy, based in Amsterdam. We are specialists in helping modern marketing and sales teams by demystifying data and simplifying information for them. Check out [their talk](https://www.youtube.com/watch?v=dIFEhnTc0ps) at JuliaCon!", 
-    "moreInfoURL": "https://datachef.co/?utm_source=juliacon",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/datachef.png",
-    "tier": "Silver",
-    "discord": {
-      "channel": "#datachef",
-      "url": "https://discord.com/channels/859573366477029389/867581570260271114"
-    }
-  },
-  {
     "sponsorName": "Jeffrey Sarnoff",
     "blurb": "Jeffrey Sarnoff is avid contributor and supporter of the Julia language and community for many years.", 
     "moreInfoURL": "https://github.com/JeffreySarnoff",
@@ -111,6 +147,33 @@
       "channel": "#packt",
       "url": "https://discord.com/channels/859573366477029389/869587233865363538"
     }
+  },
+  {
+    "sponsorName": "Gather Town",
+    "blurb": "Centered around fully customizable spaces, Gather makes spending time with your communities just as easy as real life.",
+    "moreInfoURL": "https://gather.town?utm_source=juliacon",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/gather.png",
+    "tier": "Media Partner"
+  },
+  {
+    "sponsorName": "Data Umbrella",
+    "blurb": "Our mission is to provide a welcoming and educational space for under-represented persons in the fields of ML/DS/AI (machine learning, data science, artificial intelligence).  All skill levels are welcome.",
+    "moreInfoURL": "https://www.dataumbrella.org?utm_source=juliacon",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/data-umbrella.png",
+    "tier": "Community Partner"
+  },
+  {
+    "sponsorName": "WiMLDS",
+    "blurb": "Our mission is to support and promote women and gender minorities who are practicing, studying or are interested in the fields of machine learning and data science.",
+    "moreInfoURL": "http://wimlds.org/?utm_source=juliacon",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/wimlds.png",
+    "tier": "Community Partner"
   },
   {
     "sponsorName": "NumFOCUS",
