@@ -58,7 +58,7 @@ const DiscordJoinPage: NextPage = () => {
         channels to create gathering places for those with specific interests
         (e.g., #web for attendees interested in applications of Julia to the
         web). Let us know in #request-a-channel if you’d like a new text or
-        voice channel. To report issues, please contact an organizer (blue) or 
+        voice channel. To report issues, please contact an organizer (blue) or
         moderator (green) on Discord. Organizers are identifiable in the user
         list on Discord.
       </p>
@@ -115,7 +115,7 @@ const DiscordJoinForm = ({ status }: DiscordJoinFormProps) => {
       <DiscordRules />
       <VSpace />
       <p>
-        By joining the JuliaCon 2021 Discord server, you are acknowledging the
+        By joining the JuliaCon 2022 Discord server, you are acknowledging the
         rules above and are agreeing to follow them.
       </p>
       <VSpace />
@@ -138,7 +138,7 @@ const DiscordJoinSuccess = () => {
       </Center>
       <VSpace />
       <p>
-        You have been sucessfully added to the JuliaCon 2021 Discord server.
+        You have been sucessfully added to the JuliaCon 2022 Discord server.
         Please download the{" "}
         <a href="https://discord.com/new">Discord native client</a> or use the{" "}
         <a href="https://discord.com/app">Discord web app</a> (in browser) to
@@ -154,10 +154,10 @@ const DiscordRules = () => {
   return (
     <>
       <p>
-        As a reminder, discussion in the JuliaCon 2021 Discord server must
+        As a reminder, discussion in the JuliaCon 2022 Discord server must
         adhere to the{" "}
         <a
-          href={"https://juliacon.org/2021/coc"}
+          href={"https://juliacon.org/2022/coc"}
           target={"_blank"}
           rel={"noopener noreferrer"}
         >
