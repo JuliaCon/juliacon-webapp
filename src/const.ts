@@ -1,4 +1,5 @@
 export const CONFERENCE_DAYS = [
+  `2022-07-19`,
   `2022-07-20`,
   `2022-07-21`,
   `2022-07-22`,
@@ -9,7 +10,6 @@ export const CONFERENCE_DAYS = [
   `2022-07-27`,
   `2022-07-28`,
   `2022-07-29`,
-  `2022-07-30`,
 ] as const;
 export type ConferenceDay = typeof CONFERENCE_DAYS[number];
 
