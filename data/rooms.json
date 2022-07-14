@@ -3,60 +3,451 @@
   "name": {
    "en": "Blue"
   },
-  "id": 882,
-  "position": 2,
+  "speaker_info": {},
+  "id": 1613,
+  "availabilities": [
+   {
+    "allDay": false,
+    "start": "2022-07-27T12:30:00Z",
+    "id": 55813,
+    "end": "2022-07-27T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T12:30:00Z",
+    "id": 55814,
+    "end": "2022-07-28T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T12:30:00Z",
+    "id": 55815,
+    "end": "2022-07-29T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T14:30:00Z",
+    "id": 55816,
+    "end": "2022-07-27T16:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T16:30:00Z",
+    "id": 55817,
+    "end": "2022-07-28T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T16:30:00Z",
+    "id": 55818,
+    "end": "2022-07-29T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T19:00:00Z",
+    "id": 55819,
+    "end": "2022-07-27T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T19:00:00Z",
+    "id": 55820,
+    "end": "2022-07-28T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T19:00:00Z",
+    "id": 55821,
+    "end": "2022-07-29T20:30:00Z"
+   }
+  ],
+  "position": 3,
+  "guid": null,
   "description": {},
-  "url": "/orga/event/juliacon2021/schedule/rooms/882/",
+  "url": "/orga/event/juliacon-2022/schedule/rooms/1613/",
   "capacity": null
  },
  {
   "name": {
    "en": "Green"
   },
-  "id": 883,
+  "speaker_info": {},
+  "id": 1614,
+  "availabilities": [
+   {
+    "allDay": false,
+    "start": "2022-07-27T12:30:00Z",
+    "id": 55882,
+    "end": "2022-07-27T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T12:30:00Z",
+    "id": 55883,
+    "end": "2022-07-28T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T12:30:00Z",
+    "id": 55884,
+    "end": "2022-07-29T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T14:30:00Z",
+    "id": 55885,
+    "end": "2022-07-27T16:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T14:30:00Z",
+    "id": 55886,
+    "end": "2022-07-28T16:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T14:30:00Z",
+    "id": 55887,
+    "end": "2022-07-29T16:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T16:30:00Z",
+    "id": 55888,
+    "end": "2022-07-27T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T16:30:00Z",
+    "id": 55889,
+    "end": "2022-07-28T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T16:30:00Z",
+    "id": 55890,
+    "end": "2022-07-29T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T19:00:00Z",
+    "id": 55891,
+    "end": "2022-07-27T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T19:00:00Z",
+    "id": 55892,
+    "end": "2022-07-28T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T19:00:00Z",
+    "id": 55893,
+    "end": "2022-07-29T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T09:00:00Z",
+    "id": 55894,
+    "end": "2022-07-28T10:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T10:30:00Z",
+    "id": 55895,
+    "end": "2022-07-28T12:00:00Z"
+   }
+  ],
   "position": 0,
+  "guid": null,
   "description": {},
-  "url": "/orga/event/juliacon2021/schedule/rooms/883/",
+  "url": "/orga/event/juliacon-2022/schedule/rooms/1614/",
   "capacity": null
  },
  {
   "name": {
    "en": "Red"
   },
-  "id": 884,
+  "speaker_info": {},
+  "id": 1615,
+  "availabilities": [
+   {
+    "allDay": false,
+    "start": "2022-07-27T12:30:00Z",
+    "id": 55795,
+    "end": "2022-07-27T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T12:30:00Z",
+    "id": 55796,
+    "end": "2022-07-28T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T12:30:00Z",
+    "id": 55797,
+    "end": "2022-07-29T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T14:30:00Z",
+    "id": 55798,
+    "end": "2022-07-27T16:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T16:30:00Z",
+    "id": 55799,
+    "end": "2022-07-28T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T16:30:00Z",
+    "id": 55800,
+    "end": "2022-07-29T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T19:00:00Z",
+    "id": 55801,
+    "end": "2022-07-27T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T19:00:00Z",
+    "id": 55802,
+    "end": "2022-07-28T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T19:00:00Z",
+    "id": 55803,
+    "end": "2022-07-29T20:30:00Z"
+   }
+  ],
   "position": 1,
+  "guid": null,
   "description": {},
-  "url": "/orga/event/juliacon2021/schedule/rooms/884/",
+  "url": "/orga/event/juliacon-2022/schedule/rooms/1615/",
   "capacity": null
  },
  {
   "name": {
    "en": "Purple"
   },
-  "id": 888,
-  "position": 3,
+  "speaker_info": {},
+  "id": 1616,
+  "availabilities": [
+   {
+    "allDay": false,
+    "start": "2022-07-27T12:30:00Z",
+    "id": 55804,
+    "end": "2022-07-27T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T12:30:00Z",
+    "id": 55805,
+    "end": "2022-07-28T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T12:30:00Z",
+    "id": 55806,
+    "end": "2022-07-29T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T14:30:00Z",
+    "id": 55807,
+    "end": "2022-07-27T16:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T16:30:00Z",
+    "id": 55808,
+    "end": "2022-07-28T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T16:30:00Z",
+    "id": 55809,
+    "end": "2022-07-29T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T19:00:00Z",
+    "id": 55810,
+    "end": "2022-07-27T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T19:00:00Z",
+    "id": 55811,
+    "end": "2022-07-28T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T19:00:00Z",
+    "id": 55812,
+    "end": "2022-07-29T20:30:00Z"
+   }
+  ],
+  "position": 2,
+  "guid": null,
   "description": {},
-  "url": "/orga/event/juliacon2021/schedule/rooms/888/",
+  "url": "/orga/event/juliacon-2022/schedule/rooms/1616/",
   "capacity": null
  },
  {
   "name": {
-   "en": "JuMP Track"
+   "en": "BoF"
   },
-  "id": 889,
-  "position": 5,
-  "description": {},
-  "url": "/orga/event/juliacon2021/schedule/rooms/889/",
-  "capacity": null
- },
- {
-  "name": {
-   "en": "BoF/Mini Track"
-  },
-  "id": 890,
+  "speaker_info": {},
+  "id": 1617,
+  "availabilities": [
+   {
+    "allDay": false,
+    "start": "2022-07-27T12:30:00Z",
+    "id": 55822,
+    "end": "2022-07-27T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T12:30:00Z",
+    "id": 55823,
+    "end": "2022-07-28T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T12:30:00Z",
+    "id": 55824,
+    "end": "2022-07-29T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T14:30:00Z",
+    "id": 55825,
+    "end": "2022-07-27T16:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T16:30:00Z",
+    "id": 55826,
+    "end": "2022-07-28T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T16:30:00Z",
+    "id": 55827,
+    "end": "2022-07-29T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T19:00:00Z",
+    "id": 55828,
+    "end": "2022-07-27T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T19:00:00Z",
+    "id": 55829,
+    "end": "2022-07-28T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T19:00:00Z",
+    "id": 55830,
+    "end": "2022-07-29T20:30:00Z"
+   }
+  ],
   "position": 4,
+  "guid": null,
   "description": {},
-  "url": "/orga/event/juliacon2021/schedule/rooms/890/",
+  "url": "/orga/event/juliacon-2022/schedule/rooms/1617/",
+  "capacity": null
+ },
+ {
+  "name": {
+   "en": "JuMP"
+  },
+  "speaker_info": {},
+  "id": 1618,
+  "availabilities": [
+   {
+    "allDay": false,
+    "start": "2022-07-27T12:30:00Z",
+    "id": 55831,
+    "end": "2022-07-27T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T12:30:00Z",
+    "id": 55832,
+    "end": "2022-07-28T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T12:30:00Z",
+    "id": 55833,
+    "end": "2022-07-29T14:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T14:30:00Z",
+    "id": 55834,
+    "end": "2022-07-27T16:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T16:30:00Z",
+    "id": 55835,
+    "end": "2022-07-28T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T16:30:00Z",
+    "id": 55836,
+    "end": "2022-07-29T18:00:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-27T19:00:00Z",
+    "id": 55837,
+    "end": "2022-07-27T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-28T19:00:00Z",
+    "id": 55838,
+    "end": "2022-07-28T20:30:00Z"
+   },
+   {
+    "allDay": false,
+    "start": "2022-07-29T19:00:00Z",
+    "id": 55839,
+    "end": "2022-07-29T20:30:00Z"
+   }
+  ],
+  "position": 5,
+  "guid": null,
+  "description": {},
+  "url": "/orga/event/juliacon-2022/schedule/rooms/1618/",
+  "capacity": null
+ },
+ {
+  "name": {
+   "en": "Sponsored forums"
+  },
+  "speaker_info": {},
+  "id": 1622,
+  "availabilities": [],
+  "position": null,
+  "guid": null,
+  "description": {},
+  "url": "/orga/event/juliacon-2022/schedule/rooms/1622/",
   "capacity": null
  }
 ]

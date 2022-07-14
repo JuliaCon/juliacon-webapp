@@ -46,13 +46,14 @@ function fetch_pretalx(filter_fn::Function, resource; out_file=resource, token=n
   @info "Got $(length(results)) $(out_file)"
   return results
 end
+token = get(ENV, "PRETALX_TOKEN", nothing)
 
-fetch_pretalx(resource) = fetch_pretalx((elt) -> true, resource)
+fetch_pretalx(resource; kw...) = fetch_pretalx((elt) -> true, resource; kw...)
 
-fetch_pretalx("rooms")
-fetch_pretalx("speakers")
+fetch_pretalx("rooms"; token=token)
+fetch_pretalx("speakers"; token=token)
 
-talks = fetch_pretalx("talks") do talk
+talks = fetch_pretalx("talks"; token=token) do talk
   talk_type = normalize_string(talk["submission_type"])
   return talk_type !== "Poster"
 end
@@ -60,7 +61,7 @@ viz_data_preprocess(talks)
 
 # For now, posters aren't officially published, so we're we can't access them
 # from the Pretalx public API.
-token = get(ENV, "PRETALX_TOKEN", nothing)
+
 if token === nothing
     @warn "Skipping updating posters..."
 else
