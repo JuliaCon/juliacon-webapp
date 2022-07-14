@@ -31,6 +31,7 @@ const SponsorsInner = () => {
     SponsorTier.Gold,
     SponsorTier.Silver,
     SponsorTier.MediaPartner,
+    SponsorTier.CommunityPartner,
     SponsorTier.FiscalSponsor,
   ].map((tier, i) => {
     const sponsors = getSponsorsByTier(tier);

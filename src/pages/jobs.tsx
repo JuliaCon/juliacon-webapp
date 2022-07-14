@@ -31,8 +31,13 @@ export const JobsPage: NextPage = () => {
           <TextHeading level={"h3"}>Relational AI</TextHeading>
           <VSpace height={"0.5rem"} />
           <p>
-            We have <ExternalLink href="https://www.relational.ai/job-julia-ecosystem-engineer">a job posting available</ExternalLink> for anyone interested in 
-            working with us on our integration with the Julia language and package ecosystem. Other job openings can be found{" "}
+            We have{" "}
+            <ExternalLink href="https://www.relational.ai/job-julia-ecosystem-engineer">
+              a job posting available
+            </ExternalLink>{" "}
+            for anyone interested in working with us on our integration with the
+            Julia language and package ecosystem. Other job openings can be
+            found{" "}
             <ExternalLink href="https://www.relational.ai/careers">
               here{" "}
             </ExternalLink>
@@ -45,12 +50,17 @@ export const JobsPage: NextPage = () => {
             <p>
               Invenia is a machine learning lab based in Cambridge, UK and
               Winnipeg, Manitoba. We’re using Julia to optimise complex systems.
-              For more information about Invenia, please visit <ExternalLink href="
-              https://www.invenia.ca/">invenia.ca</ExternalLink>. We are currently hiring Developers and
-              Researchers with a wide range of expertise, including machine
-              learning, data science, power systems, and research software
-              engineering. For details about current opportunities available,
-              please visit{" "}
+              For more information about Invenia, please visit{" "}
+              <ExternalLink
+                href="
+              https://www.invenia.ca/"
+              >
+                invenia.ca
+              </ExternalLink>
+              . We are currently hiring Developers and Researchers with a wide
+              range of expertise, including machine learning, data science,
+              power systems, and research software engineering. For details
+              about current opportunities available, please visit{" "}
               <ExternalLink href="joininvenia.com">
                 joininvenia.com
               </ExternalLink>
@@ -82,54 +92,18 @@ export const JobsPage: NextPage = () => {
           </VSpaceBetween>
         </div>
         <div>
-          <TextHeading level={"h3"}>
-            King Abdullah University of Science and Technology (KAUST)
-          </TextHeading>
-          <VSpaceBetween space={"0.5rem"} spaceAbove>
-            <p>
-              We have:
-              <ol>
-                <li>
-                  <ExternalLink href="https://www.kaust.edu.sa/en/about/faculty-positions">
-                    Faculty Openings
-                  </ExternalLink>{" "}
-                </li>
-                <li>
-                  <ExternalLink href="https://www.kaust.edu.sa/en/about/postdoc-researcher-positions">
-                    PostDoc and Research Scientist Openings
-                  </ExternalLink>{" "}
-                </li>
-                <li>
-                  <ExternalLink href="https://admissions.kaust.edu.sa/">
-                    Student Admissions
-                  </ExternalLink>{" "}
-                </li>
-              </ol>
-              If you have questions, reach out to the appropriate e-mail and
-              contacts listed on the KAUST website.
-            </p>
-          </VSpaceBetween>
-        </div>
-        <div>
-          <TextHeading level={"h3"}>DataChef.co</TextHeading>
-          <VSpaceBetween space={"0.5rem"} spaceAbove>
-            <p>
-              We are hiring{" "}
-              <ExternalLink href="https://www.notion.so/Data-Engineer-872d13c58766443d809dce3c6bd3a5af">
-                {" "}
-                data engineers
-              </ExternalLink>
-              .
-            </p>
-          </VSpaceBetween>
-        </div>
-        <div>
           <TextHeading level={"h3"}>Community</TextHeading>
           <VSpaceBetween space={"0.5rem"} spaceAbove>
-            <p> Massachusetts Institute of Technology, Preclinical I&T  is hiring a Julia 
-              developer to join our mission of evaluating new therapies using high throughput 
-              imaging analytics and transfer learning between clinical and preclinical data. 
-              If interested, please check out <ExternalLink href="https://careers.peopleclick.com/careerscp/client_mit/external/en_US/gateway/viewFromLink.html?localeCode=en-us&jobPostId=21084">this job posting.</ExternalLink>
+            <p>
+              {" "}
+              Massachusetts Institute of Technology, Preclinical I&T is hiring a
+              Julia developer to join our mission of evaluating new therapies
+              using high throughput imaging analytics and transfer learning
+              between clinical and preclinical data. If interested, please check
+              out{" "}
+              <ExternalLink href="https://careers.peopleclick.com/careerscp/client_mit/external/en_US/gateway/viewFromLink.html?localeCode=en-us&jobPostId=21084">
+                this job posting.
+              </ExternalLink>
             </p>
           </VSpaceBetween>
         </div>
