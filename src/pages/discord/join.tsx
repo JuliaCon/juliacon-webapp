@@ -43,6 +43,12 @@ const DiscordJoinPage: NextPage = () => {
       </h1>
       <VSpace />
       <p>
+        The Discord server is still in the process of being set up. The ability
+        to join the server will be turned on closer to the event. For now, this
+        page is just a placeholder. 
+      </p>
+      <VSpace />
+      <p>
         Discord is where all the discussion around JuliaCon will take place.
         You'll need to make a Discord account if you don't have one (the process
         below will prompt you to login to or register for Discord). Your Discord
