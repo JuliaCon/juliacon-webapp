@@ -6995,7 +6995,7 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Hands-on ocean modeling and machine learning with Oceananigans.j",
+  "title": "Hands-on ocean modeling and ML with Oceananigans.jl",
   "abstract": "Come get your feet wet with Oceananigans.jl, a native Julia, fast, friendly, flexible and fun ocean model. In the first half of this workshop participants will be helped to run and analyze one of several simple ocean problems. The problems relate to state-of-the-art challenges in climate science and computational science. In the second half we will examine Julia language features, packages and design choices that enable Oceananigans.jl."
  },
  {
