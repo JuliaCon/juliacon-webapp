@@ -8,6 +8,7 @@ function download_videos()
     base = AirBase(base_id)
     tbl = AirTable("Video data", base)
     r = Airtable.query(tbl)
+    @info "Read $(length(r)) records from Airtable"
     results = []
     for i in 1:length(r)
       x = r[i]
@@ -18,7 +19,7 @@ function download_videos()
           push!(results, Dict("id"=>id, "youtubeCode"=>youtubeCode, "live"=>live))
       end
     end
-
+    @info "Fetched $(length(results)) video entries"
     json_string=json(results, 1)
     json_string = replace(json_string, "\u2028" => "")
     open("videos.json", "w") do io
