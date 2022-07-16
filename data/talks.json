@@ -932,7 +932,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "GPU accelerated medical image segmentation framework",
-  "abstract": "Programming framework presented is a set of tools for medical image segmentation. Packages are implemented with GPU acceleration.For convenient rapid prototyping all of the programming process together with visualisation and annotation can be done with the help of Julia REPL . What is also worth pointing out is a fact that multiple metrics implemented in the presented software are to the best knowledge author are characterised by shortest execution time among all popular open source solutions."
+  "abstract": "Participants can download data before task 9 from https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2 \r\nProgramming framework presented is a set of tools for medical image segmentation. Packages are implemented with GPU acceleration.For convenient rapid prototyping all of the programming process together with visualisation and annotation can be done with the help of Julia REPL ."
  },
  {
   "content_locale": "en",
