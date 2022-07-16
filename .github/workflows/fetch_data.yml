@@ -32,6 +32,14 @@ jobs:
           cd ..
         env:
           PRETALX_TOKEN: ${{ secrets.PRETALX_TOKEN }}
+      
+      - name: Update Video Data
+        run: |
+          cd data
+          julia --project -e 'import Pkg; Pkg.instantiate(); include("fetch_videos.jl");'
+          cd ..
+        env:
+          AIRTABLE_KEY: ${{ secrets.AIRTABLE_KEY }}
 
       # Commit all the changes
       - name: Commit and Push
