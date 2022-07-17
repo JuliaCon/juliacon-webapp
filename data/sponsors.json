@@ -158,6 +158,15 @@
     "tier": "Media Partner"
   },
   {
+    "sponsorName": "Vercel",
+    "blurb": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+    "moreInfoURL": "https://vercel.com?utm_source=juliacon",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/vercel.png",
+    "tier": "Media Partner"
+  },
+  {
     "sponsorName": "Data Umbrella",
     "blurb": "Our mission is to provide a welcoming and educational space for under-represented persons in the fields of ML/DS/AI (machine learning, data science, artificial intelligence).  All skill levels are welcome.",
     "moreInfoURL": "https://www.dataumbrella.org?utm_source=juliacon",
