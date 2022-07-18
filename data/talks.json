@@ -3575,7 +3575,7 @@
     "biography": "I am a research scientist at the IBM Research Europe (Dublin Research Lab) working in the areas of analytics, datamining, machine learning, reinforcement learning, automated decisions, and AI.\r\n\r\nI finished my Doctor of Engineering degree from the Toyohashi University of Technology in Japan (2005). I have a Master's degree in Computer Science majoring in Artificial Intelligence (Ateneo de Manila University, 1995) and a Bachelor's degree in Applied Mathematics (cum laude, valedictorian) at the University of the Philippines in the Visayas (1991).\r\n\r\nI created and maintain the following Julia packages:\r\n- [AutoMLPipeline (Automated Machine Learning Pipeline)](https://github.com/IBM/AutoMLPipeline.jl)\r\n- [TSML (Time Series Machine Learning)](https://github.com/IBM/TSML.jl)\r\n- [Julia wrapper for Lale in Python](https://github.com/IBM/Lale.jl)"
    }
   ],
-  "description": "There is a growing need for low-power computing devices due to their minimal thermal and energy footprint to be used in many HPC applications such as weather forecasting, ocean engineering, smarthome computing, biocomputing, AI modeling, etc.  Arm-based processors such RaspberryPis provide an attractive solution because they are cheap, versatile, and has great Linux hardware support as well as stable Julia releases. Due to its full Linux compatibility, making a K8s cluster from a bunch of Raspis become a trivial exercise as well as running Julia's cluster manager on top of K8s. This talk will provide some use-cases how to leverage Julia+Raspis+K8s combinations to solve certain ML pipeline optimization tasks.",
+  "description": "There is a growing need for low-power computing devices due to their minimal thermal and energy footprint to be used in many HPC applications such as weather forecasting, ocean engineering, smarthome computing, biocomputing, AI modeling, etc.  ARM-based processors such RasPis provide an attractive solution because they are cheap, versatile, and has great Linux hardware support as well as stable Julia releases. Due to its full Linux compatibility, making a K8s cluster from a bunch of RasPis become a trivial exercise as well as running Julia's cluster manager on top of K8s. This talk will provide an overview and an example walk-through how to leverage Julia+Raspis+K8s combinations to solve certain ML pipeline optimization tasks.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -3591,7 +3591,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Distributed AutoML Pipeline Search in PC/RasPi K8s Cluster",
-  "abstract": "In this lightning talk, I will discuss my experience in leveraging the Kubernetes cluster of Raspberry Pis to perform parallel search in finding the best AutoML pipeline in a given classification task. While many applications of Raspis are targeted for IOT usage, a K8s cluster of Raspis running Julia can be targeted to solve more complex problems and I will provide examples of the cluster performance running AutoMLPipeline applications."
+  "abstract": "In this lightning talk, I will present an example workflow in leveraging the Kubernetes cluster of RaspberryPis to perform parallel search in finding the best AutoML pipeline in a given classification task. While many applications of RasPis are targeted for IOT usage, a K8s cluster of RasPis running Julia can be targeted to solve more complex problems and I will provide examples of the cluster performance running AutoMLPipeline applications."
  },
  {
   "content_locale": "en",
