@@ -19,7 +19,7 @@
  },
  {
   "text": "complex",
-  "count": 46,
+  "count": 47,
   "talks": [
    5,
    6,
@@ -681,7 +681,7 @@
  },
  {
   "text": "support",
-  "count": 84,
+  "count": 85,
   "talks": [
    6,
    8,
@@ -753,7 +753,7 @@
  },
  {
   "text": "time",
-  "count": 88,
+  "count": 85,
   "talks": [
    2,
    10,
@@ -842,7 +842,7 @@
  },
  {
   "text": "computational",
-  "count": 45,
+  "count": 46,
   "talks": [
    1,
    5,
@@ -1489,6 +1489,7 @@
    124,
    128,
    132,
+   149,
    164,
    176,
    179,
@@ -1836,18 +1837,18 @@
   ]
  },
  {
+  "text": "classical decision tree",
+  "count": 36,
+  "talks": [
+   149
+  ]
+ },
+ {
   "text": "hierarchical model",
   "count": 16,
   "talks": [
    14,
    20
-  ]
- },
- {
-  "text": "tensor network algorithm",
-  "count": 27,
-  "talks": [
-   43
   ]
  },
  {
@@ -1890,12 +1891,10 @@
   ]
  },
  {
-  "text": "memory management",
-  "count": 24,
+  "text": "tensor network algorithm",
+  "count": 27,
   "talks": [
-   3,
-   19,
-   75
+   43
   ]
  },
  {
@@ -1939,6 +1938,15 @@
    202,
    213,
    221
+  ]
+ },
+ {
+  "text": "memory management",
+  "count": 24,
+  "talks": [
+   3,
+   19,
+   75
   ]
  },
  {
@@ -2139,7 +2147,7 @@
  },
  {
   "text": "choice",
-  "count": 23,
+  "count": 22,
   "talks": [
    36,
    49,
@@ -2150,7 +2158,6 @@
    111,
    129,
    140,
-   149,
    163,
    179,
    189
@@ -2314,7 +2321,7 @@
  },
  {
   "text": "single",
-  "count": 25,
+  "count": 24,
   "talks": [
    1,
    2,
@@ -2511,7 +2518,7 @@
  },
  {
   "text": "simple",
-  "count": 49,
+  "count": 50,
   "talks": [
    20,
    23,
@@ -2573,19 +2580,34 @@
   ]
  },
  {
-  "text": "partial differential equation",
-  "count": 63,
+  "text": "easy",
+  "count": 19,
   "talks": [
-   12,
-   90,
-   169,
-   225,
-   231
+   9,
+   14,
+   35,
+   38,
+   45,
+   61,
+   79,
+   86,
+   110,
+   111,
+   148,
+   149,
+   152,
+   155,
+   157,
+   162,
+   167,
+   186,
+   201,
+   228
   ]
  },
  {
   "text": "feature",
-  "count": 87,
+  "count": 88,
   "talks": [
    1,
    3,
@@ -2645,6 +2667,17 @@
   ]
  },
  {
+  "text": "partial differential equation",
+  "count": 63,
+  "talks": [
+   12,
+   90,
+   169,
+   225,
+   231
+  ]
+ },
+ {
   "text": "run compile time",
   "count": 27,
   "talks": [
@@ -2656,16 +2689,6 @@
   "count": 16,
   "talks": [
    50
-  ]
- },
- {
-  "text": "forest snow landscape",
-  "count": 36,
-  "talks": [
-   5,
-   29,
-   147,
-   215
   ]
  },
  {
@@ -2689,10 +2712,13 @@
   ]
  },
  {
-  "text": "residual force vector",
-  "count": 27,
+  "text": "forest snow landscape",
+  "count": 36,
   "talks": [
-   172
+   5,
+   29,
+   147,
+   215
   ]
  },
  {
@@ -2733,6 +2759,13 @@
    222,
    228,
    231
+  ]
+ },
+ {
+  "text": "residual force vector",
+  "count": 27,
+  "talks": [
+   172
   ]
  },
  {
@@ -3067,7 +3100,7 @@
  },
  {
   "text": "data",
-  "count": 159,
+  "count": 162,
   "talks": [
    1,
    10,
@@ -3616,7 +3649,7 @@
  },
  {
   "text": "method",
-  "count": 126,
+  "count": 128,
   "talks": [
    1,
    2,
@@ -3656,6 +3689,7 @@
    128,
    130,
    138,
+   149,
    150,
    152,
    154,
@@ -4145,7 +4179,7 @@
  },
  {
   "text": "machine learning",
-  "count": 88,
+  "count": 96,
   "talks": [
    23,
    34,
@@ -4313,7 +4347,7 @@
  },
  {
   "text": "modal logic",
-  "count": 16,
+  "count": 20,
   "talks": [
    149
   ]
@@ -5068,7 +5102,7 @@
  },
  {
   "text": "framework",
-  "count": 57,
+  "count": 58,
   "talks": [
    3,
    8,
@@ -5094,6 +5128,7 @@
    132,
    135,
    138,
+   149,
    167,
    189,
    194,
@@ -5350,7 +5385,7 @@
  },
  {
   "text": "technique",
-  "count": 35,
+  "count": 34,
   "talks": [
    33,
    34,
@@ -5366,7 +5401,6 @@
    105,
    110,
    119,
-   149,
    154,
    155,
    157,
@@ -5740,7 +5774,7 @@
  },
  {
   "text": "provide",
-  "count": 105,
+  "count": 104,
   "talks": [
    1,
    3,
@@ -5898,7 +5932,7 @@
  },
  {
   "text": "set",
-  "count": 43,
+  "count": 44,
   "talks": [
    2,
    8,
@@ -5956,7 +5990,7 @@
  },
  {
   "text": "context",
-  "count": 20,
+  "count": 19,
   "talks": [
    8,
    26,
@@ -5971,7 +6005,6 @@
    135,
    138,
    139,
-   149,
    151,
    187,
    220
@@ -6627,7 +6660,7 @@
  },
  {
   "text": "term",
-  "count": 41,
+  "count": 43,
   "talks": [
    2,
    12,
@@ -6715,7 +6748,7 @@
  },
  {
   "text": "model",
-  "count": 191,
+  "count": 190,
   "talks": [
    1,
    5,
@@ -7455,7 +7488,7 @@
  },
  {
   "text": "algorithm",
-  "count": 98,
+  "count": 95,
   "talks": [
    6,
    9,
@@ -7511,7 +7544,7 @@
  },
  {
   "text": "image",
-  "count": 30,
+  "count": 32,
   "talks": [
    1,
    54,
@@ -7603,6 +7636,16 @@
    227,
    230,
    231
+  ]
+ },
+ {
+  "text": "time series",
+  "count": 16,
+  "talks": [
+   36,
+   138,
+   149,
+   220
   ]
  },
  {
@@ -8035,6 +8078,27 @@
   ]
  },
  {
+  "text": "symbolic",
+  "count": 19,
+  "talks": [
+   12,
+   20,
+   24,
+   31,
+   64,
+   102,
+   105,
+   107,
+   129,
+   130,
+   139,
+   149,
+   152,
+   170,
+   229
+  ]
+ },
+ {
   "text": "tsunami model",
   "count": 16,
   "talks": [
@@ -8414,7 +8478,7 @@
  },
  {
   "text": "approach",
-  "count": 63,
+  "count": 62,
   "talks": [
    1,
    3,
@@ -8446,7 +8510,6 @@
    140,
    142,
    147,
-   149,
    160,
    165,
    170,
@@ -8670,7 +8733,7 @@
  },
  {
   "text": "allow",
-  "count": 41,
+  "count": 42,
   "talks": [
    6,
    9,
@@ -8783,7 +8846,7 @@
  },
  {
   "text": "modeling",
-  "count": 55,
+  "count": 54,
   "talks": [
    1,
    34,
@@ -8815,7 +8878,7 @@
  },
  {
   "text": "offer",
-  "count": 19,
+  "count": 20,
   "talks": [
    2,
    28,
@@ -9172,7 +9235,7 @@
  },
  {
   "text": "leverage",
-  "count": 21,
+  "count": 22,
   "talks": [
    5,
    9,
@@ -9349,10 +9412,11 @@
  },
  {
   "text": "tabular data",
-  "count": 20,
+  "count": 24,
   "talks": [
    84,
    135,
+   149,
    222,
    224
   ]
@@ -9915,7 +9979,7 @@
  },
  {
   "text": "decision tree",
-  "count": 24,
+  "count": 16,
   "talks": [
    149
   ]
@@ -9986,7 +10050,7 @@
  },
  {
   "text": "neural network",
-  "count": 100,
+  "count": 104,
   "talks": [
    9,
    23,
@@ -10000,6 +10064,7 @@
    124,
    128,
    132,
+   149,
    164,
    176,
    179,
@@ -10043,6 +10108,14 @@
   "count": 28,
   "talks": [
    86
+  ]
+ },
+ {
+  "text": "learning algorithm",
+  "count": 20,
+  "talks": [
+   117,
+   149
   ]
  },
  {
