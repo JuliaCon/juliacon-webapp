@@ -2009,11 +2009,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-27T20:00:00Z",
+   "start": "2022-07-27T19:30:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-27T20:30:00Z"
+   "end": "2022-07-27T20:00:00Z"
   },
   "submission_type": {
    "en": "Talk"
@@ -2585,11 +2585,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/FLB8G9/cutebanner_0Bjgd4Z.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:10:00Z",
+   "start": "2022-07-28T19:50:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Red"
    },
-   "end": "2022-07-29T19:20:00Z"
+   "end": "2022-07-28T20:00:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -2713,41 +2713,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "FX788D",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "withdrawn",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Simon Danisch",
-    "code": "JSJDXE",
-    "biography": "Simon is a freelance software engineer who has been part of the Julia community for more than 9 years and is the author of many Julia packages:\r\n* Makie\r\n* GeometryBasics\r\n* GPUArrays\r\n* PackageCompiler\r\n* JSServe\r\n* FileIO"
-   }
-  ],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-29T12:50:00Z",
-   "room": {
-    "en": "Blue"
-   },
-   "end": "2022-07-29T13:00:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Best of Makie",
-  "abstract": "Explaining and showing off the latest Makie features with the best showcases from the Makieverse."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "FXMQPQ",
   "track": {
    "en": "JuliaCon"
@@ -2807,11 +2772,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/FZ38VW/Plate_25_old_4KYrheV.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T13:00:00Z",
+   "start": "2022-07-29T12:50:00Z",
    "room": {
     "en": "Blue"
    },
-   "end": "2022-07-29T13:10:00Z"
+   "end": "2022-07-29T13:00:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -3276,11 +3241,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-27T22:00:00Z",
+   "start": "2022-07-27T20:30:00Z",
    "room": {
     "en": "Green"
    },
-   "end": "2022-07-27T23:00:00Z"
+   "end": "2022-07-27T21:30:00Z"
   },
   "submission_type": {
    "en": "Social hour"
@@ -4370,11 +4335,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-27T20:30:00Z",
+   "start": "2022-07-27T18:00:00Z",
    "room": {
-    "en": "Green"
+    "en": "BoF"
    },
-   "end": "2022-07-27T22:00:00Z"
+   "end": "2022-07-27T19:30:00Z"
   },
   "submission_type": {
    "en": "Virtual poster session"
@@ -4731,41 +4696,6 @@
   "do_not_record": false,
   "title": "Keynote #1 (Wednesday)",
   "abstract": "TODO"
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "NZGX7D",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "withdrawn",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Simon Byrne",
-    "code": "PKSECG",
-    "biography": "Dr Simon Byrne is the lead software engineer on the CliMA project, and has been using and contributing to Julia since 2012."
-   }
-  ],
-  "description": "d\r\nEarth system models are extremely complex: they involve a plethora of complicated physical processes, across multiple domains, using a variety of spatial and temporal discretizations, which need to interoperat, and scale to a large to large number of parallel processes.\r\n\r\nThis talk will describe some of the approaches and abstractions we’ve built to manage this complexity, including low-level memory layouts, coordinate systems and vector bases, function spaces and differential operators, and different modes of parallelism.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-27T19:30:00Z",
-   "room": {
-    "en": "Red"
-   },
-   "end": "2022-07-27T20:00:00Z"
-  },
-  "submission_type": {
-   "en": "Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Software abstractions for Earth System Modeling",
-  "abstract": "The CliMA (Climate Modeling Alliance) project is building a next-generation earth system model (ESM) in Julia. In this talk we will discuss some of the significant challenges from a software engineering point of view, and some of the approaches we used."
  },
  {
   "content_locale": "en",
@@ -5223,11 +5153,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:40:00Z",
+   "start": "2022-07-28T20:20:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Red"
    },
-   "end": "2022-07-29T19:50:00Z"
+   "end": "2022-07-28T20:30:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -5236,32 +5166,6 @@
   "do_not_record": false,
   "title": "Microbiome.jl & BiobakeryUtils.jl for analyzing metagenomic data",
   "abstract": "Microbiome.jl is a Julia package to facilitate analysis of microbial community data. BiobakeryUtils.jl is built on top of Microbiome.jl, and provides utilities for working with a suite of command line tools (the bioBakery) that are widely used for converting raw metagenomic sequencing data into tables of taxon and gene function counts. Together, these packages provide an effective way to link microbial community data with the power of Julia’s numerical, statistical, and plotting libraries."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "PXX9ZM",
-  "track": null,
-  "state": "confirmed",
-  "duration": 60,
-  "speakers": [],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-27T18:00:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2022-07-27T19:00:00Z"
-  },
-  "submission_type": {
-   "en": "Social hour"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "GatherTown -- Social break",
-  "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
  },
  {
   "content_locale": "en",
@@ -6053,11 +5957,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:20:00Z",
+   "start": "2022-07-28T20:00:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Red"
    },
-   "end": "2022-07-29T19:30:00Z"
+   "end": "2022-07-28T20:10:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -6711,41 +6615,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "USY3RX",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "withdrawn",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/IMG_0030_mAKR9Oi.JPG",
-    "name": "Fons van der Plas",
-    "code": "ECC83Q",
-    "biography": "Excited about making scientific computing more accessible and fun! Looking forward to meet you!"
-   }
-  ],
-  "description": "We are the developers of Pluto.jl, and this is a recap of our work in the past year!\r\n\r\nSome of the new features include:\r\n- New showcase for awesome Julia notebooks, available online and inside Pluto! Submit your notebooks!\r\n- New interactive video format (longer discussion in separate talk)\r\n- From notebook to dashboard in 10 lines of code!",
-  "image": "https://pretalx.com/media/juliacon-2022/submissions/USY3RX/cutebanner_MoDSR3x.png",
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-29T13:30:00Z",
-   "room": {
-    "en": "Red"
-   },
-   "end": "2022-07-29T14:00:00Z"
-  },
-  "submission_type": {
-   "en": "Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "🎈 Pluto.jl — two years later",
-  "abstract": "[Pluto.jl](https://github.com/fonsp/Pluto.jl) is a notebook IDE for Julia, with a focus on interactivity and education. In this talk, you'll learn about our work during the past year, and our future plans."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "UTT8SE",
   "track": {
    "en": "JuliaCon"
@@ -6868,11 +6737,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/V3NPES/aog_demo_YKNlEXE.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T13:10:00Z",
+   "start": "2022-07-29T13:00:00Z",
    "room": {
     "en": "Blue"
    },
-   "end": "2022-07-29T13:20:00Z"
+   "end": "2022-07-29T13:10:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -7224,11 +7093,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/VVPY9G/JuliaCon_2022_Talk_Image_BtwALWa.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:30:00Z",
+   "start": "2022-07-28T20:10:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Red"
    },
-   "end": "2022-07-29T19:40:00Z"
+   "end": "2022-07-28T20:20:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -8622,11 +8491,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:00:00Z",
+   "start": "2022-07-28T19:40:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Red"
    },
-   "end": "2022-07-29T19:10:00Z"
+   "end": "2022-07-28T19:50:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"

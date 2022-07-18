@@ -818,8 +818,7 @@
   "avatar": "https://www.gravatar.com/avatar/f0aa406188ec55a18281bdb7457212ec",
   "name": "Fons van der Plas",
   "submissions": [
-   "FLB8G9",
-   "USY3RX"
+   "FLB8G9"
   ],
   "code": "ECC83Q",
   "biography": "Excited about making scientific computing more accessible and fun! Looking forward to meet you!"
@@ -1219,7 +1218,6 @@
   "avatar": "https://www.gravatar.com/avatar/832d10ca3b2825c42d2280cbeca6fef6",
   "name": "Simon Danisch",
   "submissions": [
-   "FX788D",
    "FBLWD3"
   ],
   "code": "JSJDXE",
@@ -1696,15 +1694,6 @@
   ],
   "code": "PJVBLC",
   "biography": "PhD student at École des Ponts (France), working on machine learning and operations research with applications to railway planning."
- },
- {
-  "avatar": "https://www.gravatar.com/avatar/5ac7b1da0f2e9107b5020f88023a15e5",
-  "name": "Simon Byrne",
-  "submissions": [
-   "NZGX7D"
-  ],
-  "code": "PKSECG",
-  "biography": "Dr Simon Byrne is the lead software engineer on the CliMA project, and has been using and contributing to Julia since 2012."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/TobiasKnopp_L0XxMX2.jpg",
