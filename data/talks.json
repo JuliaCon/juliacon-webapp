@@ -932,7 +932,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "GPU accelerated medical image segmentation framework",
-  "abstract": "Participants can download data before task 9 from https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2 \r\nProgramming framework presented is a set of tools for medical image segmentation. Packages are implemented with GPU acceleration.For convenient rapid prototyping all of the programming process together with visualisation and annotation can be done with the help of Julia REPL ."
+  "abstract": "Medical image segmentation with Julia \r\nParticipants can download data before task 9 from https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2 \r\nAdditionally tou can download required libraries to your enviroment\r\n]add ProgressMeter StaticArrays BSON Distributed Flux Hyperopt Plots MedEye3d Distributions Clustering IrrationalConstants ParallelStencil CUDA HDF5 MedEval3D Colors"
  },
  {
   "content_locale": "en",
