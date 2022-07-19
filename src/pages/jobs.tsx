@@ -45,6 +45,27 @@ export const JobsPage: NextPage = () => {
           </p>
         </div>
         <div>
+          <TextHeading level={"h3"}>Beacon Biosignals</TextHeading>
+          <VSpaceBetween space={"0.5rem"} spaceAbove>
+            <p>
+            Want to build open-source tools for distributed DSP/ML (Julia/K8s/Arrow/more)? 
+            What about robust data-intensive products that massively accelerate 
+            the precision medicine development for various neurological 
+            conditions (Typescript/PostgreSQL/Metabase/more)?
+            Want to work at a fast-paced startup that executes world-class 
+            neuroscience atop a strong engineering culture? 
+            Come join Beacon's Platform team to help us engineer the 
+            future of brain health analytics! For more info, visit{" "}
+              <ExternalLink
+                href="
+              https://beacon.bio/careers"
+              >
+                beacon.bio/careers
+              </ExternalLink>
+            </p>
+          </VSpaceBetween>
+        </div>
+        <div>
           <TextHeading level={"h3"}>Invenia</TextHeading>
           <VSpaceBetween space={"0.5rem"} spaceAbove>
             <p>
