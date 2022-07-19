@@ -5206,7 +5206,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Getting started with Julia and Machine Learning",
-  "abstract": "A three-hour introductory workshop for newcomers to Julia and machine\r\nlearning. Participants will have training in some technical domain,\r\nfor example, in science, economics or engineering. While, no prior\r\nexperience with Julia or machine learning is needed, it is assumed \r\nparticipants have Julia 1.7 installed on their computer."
+  "abstract": "A three-hour introductory workshop for newcomers to Julia and machine\r\nlearning. Participants will have training in some technical domain,\r\nfor example, in science, economics or engineering. While no prior\r\nexperience with Julia or machine learning is needed, it is assumed \r\nparticipants have Julia 1.7 installed on their computer."
  },
  {
   "content_locale": "en",
