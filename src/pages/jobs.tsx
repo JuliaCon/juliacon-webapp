@@ -78,7 +78,6 @@ export const JobsPage: NextPage = () => {
           </VSpaceBetween>
         </div>
         <div>
-        <div>
           <TextHeading level={"h3"}>ASML</TextHeading>
           <VSpaceBetween space={"0.5rem"} spaceAbove>
             <p>ASML gives the world's leading chipmakers the power to mass produce patterns on silicon. Our tailor made machines can image billions of structures in a few seconds with an accuracy of a few silicon atoms. To print microchips that are smaller, faster and more energy-efficient, the demands on these systems go beyond hardware. Software can bring our machines to the next level, and therefore software design is vital for our evolution. We use traditional and modern languages to build very complex software scripts, such as: C++, C#, Java, Python, JavaScript and Julia.</p>
