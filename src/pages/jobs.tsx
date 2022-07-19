@@ -81,19 +81,14 @@ export const JobsPage: NextPage = () => {
         <div>
           <TextHeading level={"h3"}>ASML</TextHeading>
           <VSpaceBetween space={"0.5rem"} spaceAbove>
-            <p>
-            ASML gives the world's leading chipmakers the power to mass produce patterns on silicon. Our tailor made machines can image billions of structures in a few seconds with an accuracy of a few silicon atoms. To print microchips that are smaller, faster and more energy-efficient, the demands on these systems go beyond hardware. Software can bring our machines to the next level, and therefore software design is vital for our evolution. We use traditional and modern languages to build very complex software scripts, such as: C++, C#, Java, Python, JavaScript and Julia.
- 
-            C++ Software Engineers - Metrology
-            https://www.asml.com/en/careers/find-your-job/2/3/0/c-software-engineers-metrology-req23063
-            C++ Software Engineers - Metrology - Jobs | ASML
-            Learn more about the C++ Software Engineers - Metrology position in Veldhoven, Netherlands at ASML or check out other open jobs at ASML in Research & development.
+            <p>ASML gives the world's leading chipmakers the power to mass produce patterns on silicon. Our tailor made machines can image billions of structures in a few seconds with an accuracy of a few silicon atoms. To print microchips that are smaller, faster and more energy-efficient, the demands on these systems go beyond hardware. Software can bring our machines to the next level, and therefore software design is vital for our evolution. We use traditional and modern languages to build very complex software scripts, such as: C++, C#, Java, Python, JavaScript and Julia.</p>
+            <TextHeading level={"h4"}><a href="https://www.asml.com/en/careers/find-your-job/2/3/0/c-software-engineers-metrology-req23063">C++ Software Engineers - Metrology</a></TextHeading>
+            
+            <p>Learn more about the C++ Software Engineers - Metrology position in Veldhoven, Netherlands at ASML or check out other open jobs at ASML in Research & development.</p>
   
-            Patterning/Imaging Control Engineer – Product Realization
- 
-            https://www.asml.com/en/careers/find-your-job/4/2/0/patterningimaging-control-engineer--product-realization-req42018
-            Patterning/Imaging Control Engineer – Product Realization - Jobs | ASML
-            Learn more about the Patterning/Imaging Control Engineer – Product Realization position in Veldhoven, Netherlands at ASML.
+            <TextHeading level={"h4"}><a href="https://www.asml.com/en/careers/find-your-job/4/2/0/patterningimaging-control-engineer--product-realization-req42018">Patterning/Imaging Control Engineer – Product Realization</a></TextHeading>
+
+            <p>Learn more about the Patterning/Imaging Control Engineer – Product Realization position in Veldhoven, Netherlands at ASML.
             </p>
           </VSpaceBetween>
         </div>
