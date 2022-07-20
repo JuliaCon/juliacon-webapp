@@ -90,7 +90,7 @@ const Inner = ({ talks }: { talks: TalkList }) => {
           see when the next talks are happening!
         </p>
         <p>
-          <Link href={"https://juliacon.org/2022/tickets/"}>Join the Discord server (by registering on Eventbrite)</Link> to jump into
+          <Link href={"/discord/join"}>Join the Discord server</Link> to join
           the conversation and get your JuliaCon fix in the meantime!
         </p>
       </div>
