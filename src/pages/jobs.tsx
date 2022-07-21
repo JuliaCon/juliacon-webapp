@@ -105,6 +105,7 @@ export const JobsPage: NextPage = () => {
             <p><a href="https://www.asml.com/en/careers/find-your-job/2/3/0/c-software-engineers-metrology-req23063">C++ Software Engineers - Metrology</a>: Learn more about the C++ Software Engineers - Metrology position in Veldhoven, Netherlands at ASML or check out other open jobs at ASML in Research & development.</p>
   
             <p><a href="https://www.asml.com/en/careers/find-your-job/4/2/0/patterningimaging-control-engineer--product-realization-req42018">Patterning/Imaging Control Engineer – Product Realization</a>: Learn more about the Patterning/Imaging Control Engineer – Product Realization position in Veldhoven, Netherlands at ASML.</p>
+            If you are not looking for a new opportunity right now, but want to stay connected and learn about Software at ASML. Join the <a href = "https://www.linkedin.com/groups/8679460/">ASML Software and AI community</a>.
           </VSpaceBetween>
         </div>
         <div>       
