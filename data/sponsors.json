@@ -27,7 +27,7 @@
   },
   {
     "sponsorName": "Julius Technology",
-    "blurb": "Julius is an auto-scaling, low code and visual graph computing solution that allows firms to quickly build transparent and adaptable data and analytical pipelines",
+    "blurb": "Julius offers an auto-scaling, low code graph computing solution that allows firms to quickly build transparent and adaptable data analytics pipelines. Graph computing is an innovative technology that enables developers to organize pipelines as directed acyclic graphs (DAGs). With Julius, DAGs representing complex workflows are created by composing smaller modular DAGs, and can be applied to many enterprise use cases including: explainable ML, data processing and transformation, AAD, and more. \n\n For Julia users, we provide a dynamic platform to help developers make Julia more manageable and adoptable for enterprise computing. Engineers can produce enterprise scale solutions in a fraction of the time and cost. \n\n Check out their workshop and demos: [Workshop](https://www.youtube.com/watch?v=pxs7ysnb15A)",
     "moreInfoURL": "https://www.juliustech.co/",
     "videoURL": "",
     "chatChannelName": "",
