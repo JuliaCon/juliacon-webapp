@@ -2009,11 +2009,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-27T19:30:00Z",
+   "start": "2022-07-27T20:00:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-27T20:00:00Z"
+   "end": "2022-07-27T20:30:00Z"
   },
   "submission_type": {
    "en": "Talk"
@@ -2249,11 +2249,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-27T19:00:00Z",
+   "start": "2022-07-27T19:30:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-27T19:30:00Z"
+   "end": "2022-07-27T20:00:00Z"
   },
   "submission_type": {
    "en": "Talk"
@@ -5439,6 +5439,34 @@
  {
   "content_locale": "en",
   "is_featured": false,
+  "code": "R7AYWY",
+  "track": {
+   "en": "JuliaCon"
+  },
+  "state": "confirmed",
+  "duration": 10,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2022-07-27T17:40:00Z",
+   "room": {
+    "en": "Green"
+   },
+   "end": "2022-07-27T17:50:00Z"
+  },
+  "submission_type": {
+   "en": "Gold sponsor talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "AWS Sponsor Talk",
+  "abstract": "TBD"
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
   "code": "R8VHSS",
   "track": null,
   "state": "confirmed",
@@ -6381,11 +6409,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-23T14:00:00Z",
+   "start": "2022-07-26T14:00:00Z",
    "room": {
-    "en": "Red"
+    "en": "Purple"
    },
-   "end": "2022-07-23T17:00:00Z"
+   "end": "2022-07-26T17:00:00Z"
   },
   "submission_type": {
    "en": "Workshop"
@@ -7010,6 +7038,41 @@
   "do_not_record": false,
   "title": "Text Segmentation with Julia",
   "abstract": "Introducing TextSegmentation.jl, a package for Text Segmentation with Julia. Text Segmentation is a method of dividing an unstructured document including various contents into several parts according to its topics. So it is an important technique that supports various natural language processing tasks such as summarization, extraction, and question answering. If the audience listen to this presentation, they will learn Text Segmentation and how to use packages and be able to perform it easily."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "VGSB89",
+  "track": {
+   "en": "JuMP"
+  },
+  "state": "confirmed",
+  "duration": 30,
+  "speakers": [
+   {
+    "avatar": null,
+    "name": "Geoffroy Leconte",
+    "code": "RT9N7T",
+    "biography": "Phd student at Polytechnique Montréal supervised by Dominique Orban. I am developing RipQP.jl, a package for solving convex quadratic problems and I also contribute to the organization JuliaSmoothOptimizers."
+   }
+  ],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2022-07-27T13:00:00Z",
+   "room": {
+    "en": "JuMP"
+   },
+   "end": "2022-07-27T13:30:00Z"
+  },
+  "submission_type": {
+   "en": "Talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "A multi-precision algorithm for convex quadratic optimization",
+  "abstract": "In this talk, we describe a Julia implementation of RipQP, a regularized interior-point method for convex quadratic optimization. RipQP is able to solve problems in several floating-point formats, and can also start in a lower precision as a form of warm-start. The algorithm uses sparse factorizations or Krylov methods from the Julia package Krylov.jl. We present an easy way to use RipQP to solve problems modeled with QuadraticModels.jl and LLSModels.jl."
  },
  {
   "content_locale": "en",
@@ -8033,11 +8096,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-27T19:00:00Z",
+   "start": "2022-07-27T19:30:00Z",
    "room": {
     "en": "Sponsored forums"
    },
-   "end": "2022-07-27T19:45:00Z"
+   "end": "2022-07-27T20:15:00Z"
   },
   "submission_type": {
    "en": "Sponsor forum"
