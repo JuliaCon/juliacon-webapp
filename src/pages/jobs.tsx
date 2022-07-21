@@ -82,7 +82,7 @@ export const JobsPage: NextPage = () => {
               range of expertise, including machine learning, data science,
               power systems, and research software engineering. For details
               about current opportunities available, please visit{" "}
-              <ExternalLink href="joininvenia.com">
+              <ExternalLink href="https://jobs.lever.co/invenia">
                 joininvenia.com
               </ExternalLink>
               .
