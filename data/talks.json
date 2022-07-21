@@ -3033,7 +3033,7 @@
     "biography": "I am a post-doc at \"La Sapienza\" University of Rome, working in the group of Giorgio Parisi. I mostly study disordered systems like amorphous solids, but I am interested in several topics related to statistical physics. I am Mexican and obtained my BSc and MSc degrees in the National University of Mexico, and then moved to Rome for my PhD."
    }
   ],
-  "description": "",
+  "description": "You can find the complete description of our algorithm in [this preprint](https://arxiv.org/abs/2203.05654). \r\nThe package can be installed directly from Julila's package manager, and the documentation is available [here](https://rdhr.github.io/CALiPPSO.jl/dev/index.html)",
   "image": "https://pretalx.com/media/juliacon-2022/submissions/HCEGRV/CanicasEnRCP_yLvoHXh.png",
   "slot_count": 1,
   "slot": {
@@ -3049,7 +3049,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "CALiPPSO.jl: Jamming of Hard-Spheres via Linear Optimization",
-  "abstract": "I will describe the CALiPPSO.jl package, which implements a new algorithm for producing [disordered packings spheres](shorturl.at/hOS47)with very high accuracy. Our method maps the packing problem of hard spheres into a chain of constrained linear optimization problems. CALiPPSO.jl exploits the functionality of JuMP for modelling and is thus compatible with several optimizers in Julia (Gurobi, GLPK, etc.). In collaboration with C. Artiaco, G. Parisi and F. Ricci Tersenghi."
+  "abstract": "The CALiPPSO.jl package implements a new algorithm for producing *disordered* [spheres packings](https://en.wikipedia.org/wiki/Sphere_packing) with very high accuracy. The algorithm reaches the critical jamming point of hard spheres through a chain of constrained linear optimization problems. CALiPPSO.jl exploits the functionality of JuMP for modelling and is thus compatible with several optimizers. In collaboration with C. Artiaco, G. Parisi, and F. Ricci Tersenghi."
  },
  {
   "content_locale": "en",
