@@ -32,7 +32,7 @@ export const JobsPage: NextPage = () => {
           <VSpace height={"0.5rem"} />
           <p>
             We have{" "}
-            <ExternalLink href="https://www.relational.ai/job-julia-ecosystem-engineer">
+            <ExternalLink href="https://boards.greenhouse.io/relationalai/jobs/4225730004">
               a job posting available
             </ExternalLink>{" "}
             for anyone interested in working with us on our integration with the
