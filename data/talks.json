@@ -6603,7 +6603,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Validating a tsunami model for coastal inundation",
-  "abstract": "How do we trust that a given fluid model is suitable for simulating water waves as they approach and wash over the land? This talk presents some of the benchmark tests used to validate a tsunami model. Using our Julia implementation of a [fluid model](https://doi.org/10.1002/fld.1952), we check how well it conserves mass, matches analytical solutions, and reproduces laboratory experiments."
+  "abstract": "How do we trust that a given fluid model is suitable for simulating water waves as they approach and wash over the land? This talk presents some of the benchmark tests used to validate a tsunami model. Using our [Julia implementation of a fluid model](https://github.com/justinmimbs/WaveTank.jl), we check how well it conserves mass, matches analytical solutions, and reproduces laboratory experiments."
  },
  {
   "content_locale": "en",
@@ -6726,7 +6726,7 @@
     "biography": "Ph.D. in Cognitive Computational Neuroscience at the Max Planck Institute for Psycholinguistics.\r\n\r\nInterested in dendrites, spikes, and sequences."
    }
   ],
-  "description": "Spiking neural networks are gathering increasing interest from several scientific fields, such as computational and experimental neuroscience, machine learning, and cognitive science. However, SNNs are highly variable in terms of their actual implementation. The models' spatial and temporal resolution, the type of implemented equations, the dynamics and the size of the networks, and the learning schemes investigated differ enormously among the studies and are usually tailored to answer a specific scientific question. \r\n\r\nThe variability of SNN models asks for flexible implementations, where each component of the network has to be modifiable. Simulators such as NEST, Brian, and Neuron let the users define the set of equations to be integrated and deploy GPU computations or event-driven and parallelized simulations. However, implementing models that do not follow the integration schemes of the specific simulator requires a lot of expertise and writing code in unfriendly backends.\r\nOn the contrary, Julia can be very fast while remaining flexible; it has been the language of choice for several works in computational neuroscience that could not be implemented right away on other simulators. The price for flexibility is that most researchers write their custom simulators. This scientific practice results in scarcely reusable code, unoptimized integration schemes, and inconsistent data structures\r\n\r\nFor this BoF, I would like to invite researchers and developers in computational neuroscience to gather and discuss whether it is possible to develop a unified ecosystem for the simulation of Spiking Neural Networks in Julia. I would open the discussion with a brief introductory talk summarizing the active projects and their bottlenecks. \r\nFor the introductory talk, I would start from the discussion already ongoing on Discourse [1] and attempt to make a selection of the most critical points that have to be addressed for creating a Julia SNN ecosystem.\r\n\r\n[1] https://discourse.julialang.org/t/spiking-neural-networks/63270",
+  "description": "Julia’s software ecosystem certainly lessens the technical burden for computational neuroscientists—it boasts federated development of high-quality packages for solving differential equations, machine learning, automatic differentiation, and symbolic algebra. Deep language support for multithreaded, distributed, and GPU parallelism also makes the case for models that can span multiple scales, both in biological detail and overall network size. \r\n\r\nCome join us for a community discussion about what a fresh Julian take on modeling the brain might look like. Together we will lay out an initial set of goals for building up a domain-specific ecosystem of packages for computational neuroscience.\r\n\r\nThe discussion will be moderated by Wiktor Phillips, Alessio Quaresima, and Tushar Chauhan.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -6742,7 +6742,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Spiking Neural Networks in Julia",
-  "abstract": "Spiking neural networks (SNN) are connectionist systems characterized by a low-frequency message passing between the component nodes, usually in the form of all-or-none signals. Despite the increasing academic and industrial interest in SNN, there is little consensus on the best scheme to implement them in Julia, resulting in promising but under-maintained packages. This BoF aims to prompt a community discussion on how to step toward an SNN ecosystem in Julia."
+  "abstract": "Could Julia be uniquely well-suited for rapidly developing new approaches to simulate the brain ? What if neuroscientists could use a composable set of tools to craft models of ion channels, compartmentalized neuronal morphology, networks of LIF or conductance-based neurons, reinforcement learning, and everything in-between?"
  },
  {
   "content_locale": "en",
