@@ -1013,15 +1013,6 @@
   "biography": "Research Software Engineer at MIT's JuliaLab.\r\n\r\nI'm the maintainer of Dagger.jl, AMDGPU.jl, and BPFnative.jl, and am dedicated to making Julia's heterogeneous computing support powerful and productive."
  },
  {
-  "avatar": null,
-  "name": "Alexis Montoison",
-  "submissions": [
-   "U3M9XK"
-  ],
-  "code": "GWJSF8",
-  "biography": "Alexis Montoison\r\n\r\nPhD student, GERAD and Polytechnique Montréal\r\n\r\nMontréal, Canada\r\n\r\nalexis.montoison@polymtl.ca"
- },
- {
   "avatar": "https://www.gravatar.com/avatar/7e76579d61a3dabf3576b93f7f078806",
   "name": "Bart Janssens",
   "submissions": [
@@ -1621,15 +1612,6 @@
   ],
   "code": "NHMXEV",
   "biography": "Computational geodynamicist at the University of Mainz, Germany"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/JAR00701_small_Sn3Dzze.jpeg",
-  "name": "Forrest Laine",
-  "submissions": [
-   "LKHHEX"
-  ],
-  "code": "NJWMSK",
-  "biography": "Forrest Laine is an Assistant Professor of Computer Science at Vanderbilt University. He completed his PhD and B.S. from UC Berkeley in 2021 and 2015, respectively. His research includes game-theoretic methods for multi-agent decision making, and methods for solving various extended mathematical programming problems. He has worked at several autonomous vehicle companies, and continues to perform research on autonomous systems and robotics in general."
  },
  {
   "avatar": null,

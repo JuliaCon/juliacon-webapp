@@ -4129,41 +4129,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "LKHHEX",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "withdrawn",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/JAR00701_small_Sn3Dzze.jpeg",
-    "name": "Forrest Laine",
-    "code": "NJWMSK",
-    "biography": "Forrest Laine is an Assistant Professor of Computer Science at Vanderbilt University. He completed his PhD and B.S. from UC Berkeley in 2021 and 2015, respectively. His research includes game-theoretic methods for multi-agent decision making, and methods for solving various extended mathematical programming problems. He has worked at several autonomous vehicle companies, and continues to perform research on autonomous systems and robotics in general."
-   }
-  ],
-  "description": "There currently exist great autonomous driving simulators, such as the well-known simulator CARLA. However, CARLA requires either a Linux or Windows machine to run, a GPU with 6GB of memory, and takes up about 20GB of disk-space. These requirements are needed for the realistic rendering that CARLA provides, but can be prohibitive for users looking to get started with autonomous driving. As a professor teaching a course on Autonomous Driving, using CARLA was not an option for my course, since only about one third of the students in the class had the necessary computing resources to run CARLA. Furthermore, since all the programming assignments in the class were given in Julia, I decided to write Interstate.jl, so that students could perform their class project all in Julia as well. \r\n\r\nInterstate.jl is built upon Julia's multi-threading capabilities. Launch files specify the simulation environment (world configuration, number of non-ego agents, sensor configurations, control schemes, etc.), and then spin up a series of tasks which run on separate threads. The primary task is the main simulation task, which is responsible for forward integrating all dynamic object in the scene (called Movables), and if requested by the scenario configuration, performing collision checking and road boundary violations. The \"simulation state\" is then broadcast on a channel so that downstream tasks have access to the state of the world. \r\n\r\nSensors process their measurements in their own tasks. Sensors can be grouped together so that they run in the same task, or can be split up, each into their own task. This can be useful for sensors which require expensive computations, like simulated Lidars. A suite of sensors are already provided in the simulator, including Lidar, Camera, GPS, and Oracle (full state) sensors, and more can easily be added by extending the \"get_meas\" function for your custom sensor. Sensor measurements are then broadcast on their own dedicated channel, which can be ingested by visualization or control tasks.\r\n\r\nMovables are defined by a controllable ODE and geometric properties, and listen in on a dedicated channel to retrieve updated control inputs. Unicycle and Kinematic Bicycle models are included for representing vehicles, and currently all movables are represented as 3D boxes. Other types of movables can easily be added if needed. Control tasks are used to listen to sensor information from the sensing tasks, and publish updated control signals to each independent movable. Currently two simple control schemes are implemented: A keyboard control task, which listens to keyboard input to drive the autonomous vehicle, and a simple lane-keeping controller which keeps vehicles in their target lane and at their desired speed (used for all non-ego agents).\r\n\r\nA suite of world environments are provided which can be used when configuring simulation environments. These currently include an infinite loop, randomly generated long-windy roads, and randomly-generated city environments. The simulated city environments are most useful for localization and mapping pipelines, whereas the loop and windy roads are designed for decision-making and multi-agent interaction problems.  \r\n\r\nFinally, all simulation rendering is done via GLMakie, using a dedicated task for updating observables based on simulation state and sensor inputs. The visualization can be configured for the needs of the simulation at hand. \r\n\r\nGIFs demonstrating some of the basic functionality of the simulator can be seen in the README file of the  simulator repository: https://github.com/4estlaine/Interstate.jl. The simulator is currently not registered on the official Julia registry, although a full release is planned in the coming month after the completion of the school year. Planned features include a more intelligent non-ego driving model, baseline methods for online localization and perception, simulated pedestrians, and more interesting urban/suburban environments. The hope is that this simulator can be widely used by other teachers, students, researchers, and Julia users who work on autonomous driving.",
-  "image": "https://pretalx.com/media/juliacon-2022/submissions/LKHHEX/Interstate.jl_cover_X56plVj.png",
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-28T20:10:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2022-07-28T20:20:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Interstate.jl: A lightweight autonomous driving simulator",
-  "abstract": "Interstate.jl is a lightweight autonomous driving simulator, written entirely in Julia.  Designed for research and teaching students about autonomous vehicles, this simulator can run on any machine, and requires almost no setup to get working. It comes with existing challenge scenarios for student projects, but can easily be extended to other situations for research purposes. Interstate.jl will make it easier for researchers and students to work on autonomous vehicles using Julia."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "LSUKYX",
   "track": {
    "en": "JuMP"
@@ -6247,41 +6212,6 @@
   "do_not_record": false,
   "title": "How to be an effective Julia advocate?",
   "abstract": "A major part of Julia's success as a language has come from a large community of user advocates. User advocacy continues to be one of the most effective outreach mechanisms and this talk aims to help improve the approach of those seeking to advocate for Julia."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "U3M9XK",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "withdrawn",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Alexis Montoison",
-    "code": "GWJSF8",
-    "biography": "Alexis Montoison\r\n\r\nPhD student, GERAD and Polytechnique Montréal\r\n\r\nMontréal, Canada\r\n\r\nalexis.montoison@polymtl.ca"
-   }
-  ],
-  "description": "",
-  "image": "https://pretalx.com/media/juliacon-2022/submissions/U3M9XK/logo_Q7xGdlX.png",
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-28T16:30:00Z",
-   "room": {
-    "en": "Red"
-   },
-   "end": "2022-07-28T16:40:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Krylov.jl: A Julia basket of hand-picked Krylov solvers",
-  "abstract": "Krylov.jl provides Julia implementations of some of the most useful Krylov method\r\nfor linear systems, least-squares problems, least-norm problems, adjoint systems,\r\ntogether with facilities for saddle-point systems.\r\n\r\nThe solvers in Krylov.jl have been optimized (for time and memory),\r\nhave an in-place version, are compatible with GPU, and work in any precision (real and complex numbers).\r\nAn overview of these features of Krylov.jl is presented."
  },
  {
   "content_locale": "en",
@@ -8844,11 +8774,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/ZZ3HGF/logo_EjpCY6N.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T17:40:00Z",
+   "start": "2022-07-28T16:30:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-28T17:50:00Z"
+   "end": "2022-07-28T16:40:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
