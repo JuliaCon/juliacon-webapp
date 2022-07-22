@@ -2640,7 +2640,7 @@
   "state": "confirmed",
   "duration": 45,
   "speakers": [],
-  "description": "",
+  "description": "Enterprise adoption for Julia can be a difficult process for developers and engineers alike. In this sponsored forum, we invite leading industry experts to talk about the common challenges organizations face when bringing Julia and Julia based solutions onboard. We will also discuss best practices and practical ways to approach integration. The audience will be provided the opportunity to submit questions as well.\r\n\r\nJames Lee, Julius Technologies\r\nTom Kwong, Meta \r\nDr. Chris Rackauckas, Julia Computing\r\nJarrett Revels, Beacon Biosignals",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -2656,7 +2656,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julius Tech Sponsored Forum",
-  "abstract": "TODO"
+  "abstract": "Enterprise adoption for Julia can be a difficult process for developers and engineers alike. In this sponsored forum, we invite leading industry experts to talk about the common challenges organizations face when bringing Julia and Julia based solutions onboard. We will also discuss best practices and practical ways to approach integration."
  },
  {
   "content_locale": "en",
