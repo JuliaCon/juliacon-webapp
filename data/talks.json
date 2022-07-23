@@ -2495,7 +2495,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Introduction to Julia with a focus on statistics (in Hebrew)",
-  "abstract": "This (Hebrew language) workshop provides an introduction to the Julia language for machine learning engineers, data-scientists, and statisticians. No prior experience with Julia is assumed. Attendees will gain a solid entry point for using Julia as their preferred data analysis tool. If don't speak Hebrew and still want to learn about statistics with Julia, you can follow a [similar workshop in English](https://www.youtube.com/watch?v=IlPoU5Yr2QI) that was presented at the 2021 JuliaCon."
+  "abstract": "This session has moved to Zoom. Please join with Zoom ID: 6376486897 at 2PM Israel time. \r\n\r\nThis (Hebrew language) workshop provides an introduction to the Julia language for machine learning engineers, data-scientists, and statisticians. Attendees will gain a solid entry point for using Julia as their preferred data analysis tool."
  },
  {
   "content_locale": "en",
