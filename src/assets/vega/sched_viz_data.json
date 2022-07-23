@@ -2095,7 +2095,7 @@
   "duration": 30,
   "location": "Red",
   "id": "X89FYS",
-  "title": "PSFs.jl - calculating optical point spread functions",
+  "title": "PointSpreadFunctions.jl - optical point spread functions",
   "url": "/talk/X89FYS",
   "index": 191,
   "speaker": "Felix Wechsler, Rainer Heintzmann"

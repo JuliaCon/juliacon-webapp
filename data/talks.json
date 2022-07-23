@@ -7513,7 +7513,7 @@
     "biography": "Rainer Heintzmann works as a research head and university professor at the Leibniz Institute of Photonic Technology and the Friedrich Schiller University Jena.\r\nHis research focuses on imaging cellular function at high resolution. His group develops techniques to measure multidimensional information in small biological objects such as cells, cellular organelles or other small structures of interest. A further interest is in computer-based reconstruction methods.\r\nSoftware packages in Julia and other languages are developed for scientific computing and visualization with a special focus on optics and deconvolution."
    }
   ],
-  "description": "Methods of calculating PSFs calculated by the toolbox https://github.com/RainerHeintzmann/PSFs.jl\r\nare presented. These methods range from propagating field components via the angular spectrum method using Fourier-transforms to a version that applies spatial constraints in each propagation step to avoid wrap-around effects. Another method starts with the analytical solution, sinc(r), with r denoting the distance to the focus, of a related scalar problem, which is then modified to account for various influences of high-NA aplanatic optical systems.\r\nThe toolbox supports aberrations as specified via Zernike coefficients.\r\n\r\nThe toolbox also contains practical tools such as a PSF distillation tool which automatically identifies single point sources and averages their measured images with sub-pixel precision.\r\n\r\nFuture directions may include ways to identify aberrations from measured PSFs. \r\nThe toolbox will also be extended towards supporting a wider range of microscopy modes.",
+  "description": "Methods of calculating optical point spread functions (PSFs) calculated by the toolbox https://github.com/RainerHeintzmann/PointSpreadFunctions.jl\r\nare presented. These methods range from propagating field components via the angular spectrum method using Fourier-transforms to a version that applies spatial constraints in each propagation step to avoid wrap-around effects. Another method starts with the analytical solution, sinc(r), with r denoting the distance to the focus, of a related scalar problem, which is then modified to account for various influences of high-NA aplanatic optical systems.\r\nThe toolbox supports aberrations as specified via Zernike coefficients.\r\n\r\nThe toolbox also contains practical tools such as a PSF distillation tool which automatically identifies single point sources and averages their measured images with sub-pixel precision.\r\n\r\nFuture directions may include ways to identify aberrations from measured PSFs. \r\nThe toolbox will also be extended towards supporting a wider range of microscopy modes.",
   "image": "https://pretalx.com/media/juliacon-2022/submissions/X89FYS/PSFs.jl_Demo_ldm8gKK.png",
   "slot_count": 1,
   "slot": {
@@ -7528,7 +7528,7 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "PSFs.jl - calculating optical point spread functions",
+  "title": "PointSpreadFunctions.jl - optical point spread functions",
   "abstract": "Various ways of calculating three-dimensional optical point spread functions (PSFs) are presented. The methods account for the vector nature of the optical field as well as phase aberrations. Quantitative comparisons in terms of speed and accuracy will be presented."
  },
  {
