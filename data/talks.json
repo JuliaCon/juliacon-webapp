@@ -5437,7 +5437,7 @@
   "state": "confirmed",
   "duration": 15,
   "speakers": [],
-  "description": "",
+  "description": "Julius offers an auto-scaling, low code graph computing solution that allows firms to quickly build transparent and adaptable data analytics pipelines. Graph computing is an innovative technology that enables developers to organize pipelines as directed acyclic graphs (DAGs). With Julius, DAGs representing complex workflows are created by composing smaller modular DAGs, and can be applied to many enterprise use cases including: explainable ML, big data analytics, data visualization and transformation, AAD, and more.\r\n\r\nFor Julia users, we provide a dynamic platform to help developers make Julia more manageable and adoptable for enterprise computing. Engineers can produce enterprise scale solutions in a fraction of the time and cost.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -5453,7 +5453,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julius Tech Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "Julius offers an auto-scaling, low code graph computing solution that allows firms to quickly build transparent and adaptable data analytics pipelines."
  },
  {
   "content_locale": "en",
