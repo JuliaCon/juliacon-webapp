@@ -6724,6 +6724,12 @@
     "name": "Alessio Quaresima",
     "code": "XHDSBZ",
     "biography": "Ph.D. in Cognitive Computational Neuroscience at the Max Planck Institute for Psycholinguistics.\r\n\r\nInterested in dendrites, spikes, and sequences."
+   },
+   {
+    "avatar": null,
+    "name": "Wiktor Phillips",
+    "code": "Z99LJL",
+    "biography": "Postdoc in the Julia Lab at MIT"
    }
   ],
   "description": "Julia’s software ecosystem certainly lessens the technical burden for computational neuroscientists—it boasts federated development of high-quality packages for solving differential equations, machine learning, automatic differentiation, and symbolic algebra. Deep language support for multithreaded, distributed, and GPU parallelism also makes the case for models that can span multiple scales, both in biological detail and overall network size. \r\n\r\nCome join us for a community discussion about what a fresh Julian take on modeling the brain might look like. Together we will lay out an initial set of goals for building up a domain-specific ecosystem of packages for computational neuroscience.\r\n\r\nThe discussion will be moderated by Wiktor Phillips, Alessio Quaresima, and Tushar Chauhan.",
@@ -6741,7 +6747,7 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Spiking Neural Networks in Julia",
+  "title": "Simulating neural physiology & networks in Julia",
   "abstract": "Could Julia be uniquely well-suited for rapidly developing new approaches to simulate the brain ? What if neuroscientists could use a composable set of tools to craft models of ion channels, compartmentalized neuronal morphology, networks of LIF or conductance-based neurons, reinforcement learning, and everything in-between?"
  },
  {

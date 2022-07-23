@@ -1908,10 +1908,10 @@
   "duration": 90,
   "location": "BoF",
   "id": "V7CCYF",
-  "title": "Spiking Neural Networks in Julia",
+  "title": "Simulating neural physiology & networks in Julia",
   "url": "/talk/V7CCYF",
   "index": 174,
-  "speaker": "Alessio Quaresima"
+  "speaker": "Alessio Quaresima, Wiktor Phillips"
  },
  {
   "start_datetime": "2022-07-28T19:10:00Z",
