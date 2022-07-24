@@ -6740,7 +6740,7 @@
     "avatar": null,
     "name": "Tushar Chauhan",
     "code": "KHAHJ7",
-    "biography": null
+    "biography": "Tushar Chauhan is a neuroscientist with a keen interest in bio-inspired AI. His work focusses on understanding computations in sensory cortices - both for placing sensory computation in an evolutionary context, as well as drawing inspiration from biological solutions to create highly efficient, robust artificial systems. His methodology is versatile, and an important part of his toolkit includes simulations of neural circuits at various levels of abstraction. \r\n\r\nHe is a Postdoctoral Research Associate at the Bear Lab, Picower Institute of Learning and Memory, MIT."
    }
   ],
   "description": "Julia’s software ecosystem certainly lessens the technical burden for computational neuroscientists—it boasts federated development of high-quality packages for solving differential equations, machine learning, automatic differentiation, and symbolic algebra. Deep language support for multithreaded, distributed, and GPU parallelism also makes the case for models that can span multiple scales, both in biological detail and overall network size. \r\n\r\nCome join us for a community discussion about what a fresh Julian take on modeling the brain might look like. Together we will lay out an initial set of goals for building up a domain-specific ecosystem of packages for computational neuroscience.\r\n\r\nThe discussion will be moderated by Wiktor Phillips, Alessio Quaresima, and Tushar Chauhan.",
