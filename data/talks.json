@@ -6735,6 +6735,12 @@
     "name": "Wiktor Phillips",
     "code": "Z99LJL",
     "biography": "Postdoc in the Julia Lab at MIT"
+   },
+   {
+    "avatar": null,
+    "name": "Tushar Chauhan",
+    "code": "KHAHJ7",
+    "biography": null
    }
   ],
   "description": "Julia’s software ecosystem certainly lessens the technical burden for computational neuroscientists—it boasts federated development of high-quality packages for solving differential equations, machine learning, automatic differentiation, and symbolic algebra. Deep language support for multithreaded, distributed, and GPU parallelism also makes the case for models that can span multiple scales, both in biological detail and overall network size. \r\n\r\nCome join us for a community discussion about what a fresh Julian take on modeling the brain might look like. Together we will lay out an initial set of goals for building up a domain-specific ecosystem of packages for computational neuroscience.\r\n\r\nThe discussion will be moderated by Wiktor Phillips, Alessio Quaresima, and Tushar Chauhan.",
@@ -7477,7 +7483,7 @@
     "biography": "Grad Student at TU Munich"
    },
    {
-    "avatar": "https://pretalx.com/media/avatars/IMG_0711_nM3MhzB.jpeg",
+    "avatar": "https://pretalx.com/media/avatars/IMG_2621_1_trfDAaW.jpeg",
     "name": "Tim Gymnich",
     "code": "9LZBUX",
     "biography": "Tim is a postgraduate student at TU Munich, where he is studying for his M.Sc. in Computer Science. His main interests are in compiler optimizations for high performance computing and programming languages."
