@@ -2293,7 +2293,12 @@
   "submission_type": {
    "en": "Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Slides",
+    "resource": "/media/juliacon-2022/submissions/EA7NVT/resources/JuliaCon-pgras-20220727_tIsG1cQ.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "Automatic generation of C++ -- Julia bindings",
   "abstract": "Interporability of Julia with C++ is essential for the use of the Julia programming language in fields with a large legacy of code written in this language. We will show how the generation of a Julia interface to a C++ library can be automatized using CxxWrap.jl and a tool that generates the required C++ glue code. The concept is demonstrated with a prototype called WrapIt!, https://www.github.com/grasph/wrapit, based on clang and which is already well advanced."
