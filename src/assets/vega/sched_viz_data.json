@@ -38,7 +38,7 @@
   "duration": 45,
   "location": "Green",
   "id": "78XMRJ",
-  "title": "Keynote #2 (Thursday)",
+  "title": "Keynote - Jeremy Howard",
   "url": "/talk/78XMRJ",
   "index": 4,
   "speaker": "Jeremy Howard"
@@ -236,10 +236,10 @@
   "duration": 45,
   "location": "Green",
   "id": "9N9HZ3",
-  "title": "Keynote #3 (Friday)",
+  "title": "Keynote  - Husain Attarwala",
   "url": "/talk/9N9HZ3",
   "index": 22,
-  "speaker": ""
+  "speaker": "Husain Attarwala"
  },
  {
   "start_datetime": "2022-07-28T17:40:00Z",
@@ -1369,7 +1369,7 @@
   "duration": 45,
   "location": "Green",
   "id": "NPPKUW",
-  "title": "Keynote #1 (Wednesday)",
+  "title": "Keynote- Erin LeDell",
   "url": "/talk/NPPKUW",
   "index": 125,
   "speaker": "Erin LeDell"
@@ -1886,7 +1886,7 @@
   "duration": 45,
   "location": "Green",
   "id": "UZBZRQ",
-  "title": "Restreaming of Keynote #1 (Howard)",
+  "title": "Restreaming of Jeremy Howard Keynote",
   "url": "/talk/UZBZRQ",
   "index": 172,
   "speaker": ""
