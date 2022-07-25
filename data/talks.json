@@ -126,7 +126,7 @@
     "biography": "Jeremy Howard is a data scientist, researcher, developer, educator, and entrepreneur. Jeremy is a founding researcher at fast.ai, a research institute dedicated to making deep learning more accessible, and is an honorary professor at the University of Queensland. Previously, Jeremy was a Distinguished Research Scientist at the University of San Francisco, where he was the founding chair of the Wicklow Artificial Intelligence in Medical Research Initiative, the founding CEO of Enlitic, President and Chief Scientist of Kaggle, and CEO of FastMail as well as Optimal Decisions Group."
    }
   ],
-  "description": "TODO",
+  "description": "Keynote - Jeremy Howard",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -142,7 +142,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Keynote - Jeremy Howard",
-  "abstract": "TODO"
+  "abstract": "Keynote - Jeremy Howard"
  },
  {
   "content_locale": "en",
@@ -888,7 +888,7 @@
     "biography": "Husain Attarwala is a clinical pharmacologist, pharmacometrician and a researcher in drug development. Currently, he is serving as Head of Clinical Pharmacology and Pharmacometrics at Moderna. His research focus on developing predictive models to guide clinical dose decisions for mRNA vaccines and therapeutics. Previously, Husain was a Principal Scientist at Alnylam Pharmaceuticals where his research helped guide dose selection for various novel siRNA therapeutics, 5 of which have received global regulatory approvals. He has obtained PhD and MS degrees in Pharmaceutical Sciences and Drug Delivery Systems from Northeastern University, and a Bachelors in Pharmacy from Al-Ameen college of pharmacy."
    }
   ],
-  "description": "",
+  "description": "Keynote  - Husain Attarwala, Moderna",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -904,7 +904,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Keynote  - Husain Attarwala",
-  "abstract": "TODO"
+  "abstract": "Keynote  - Husain Attarwala, Moderna"
  },
  {
   "content_locale": "en",
@@ -1228,7 +1228,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julia Computing Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "Julia Computing's mission is to develop products that bring Julia's superpowers to its customers. Julia Computing's flagship product is JuliaHub, a secure, software-as-a-service platform for developing Julia programs, deploying them, and scaling to thousands of nodes."
  },
  {
   "content_locale": "en",
@@ -2163,7 +2163,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Intel Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "We create world-changing technology that improves the life of every person on the planet."
  },
  {
   "content_locale": "en",
@@ -2404,7 +2404,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "QuEra Computing Sponsor Talk",
-  "abstract": "TODO"
+  "abstract": "QuEra is a neutral-atom based quantum computing startup located in the heart of Boston near Harvard University."
  },
  {
   "content_locale": "en",
@@ -2574,7 +2574,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "ASML Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "We make machines that make chips; the hearts of the devices that keep us informed, entertained and safe."
  },
  {
   "content_locale": "en",
@@ -2720,7 +2720,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Invenia Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "We are a team of scientists and engineers working together to solve the social, economic and environmental issues that we face in the world today."
  },
  {
   "content_locale": "en",
@@ -2967,7 +2967,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Relational AI Sponsored Forum",
-  "abstract": "TODO"
+  "abstract": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason."
  },
  {
   "content_locale": "en",
@@ -3396,7 +3396,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Pumas Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "With deep expertise in allied fields of clinical pharmacology, pharmacometrics, drug development, regulations and advanced data analytics including machine learning, Pumas-AI works with companies, laboratories and universities as their healthcare intelligence partner."
  },
  {
   "content_locale": "en",
@@ -3422,7 +3422,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "G Research Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "G-Research is Europe’s leading quantitative finance research firm"
  },
  {
   "content_locale": "en",
@@ -4691,7 +4691,7 @@
     "biography": "Dr. Erin LeDell is the Chief Machine Learning Scientist at H2O.ai, where she develops the open source, distributed machine learning platform, H2O, and is the founder of the H2O AutoML project. She has a Ph.D. in Biostatistics with a Designated Emphasis in Computational Science and Engineering from University of California, Berkeley. Her research focuses on automatic machine learning, ensemble machine learning and statistical computing. She also holds a B.S. and M.A. in Mathematics.\r\n\r\nBefore joining H2O.ai, she was the Principal Data Scientist at Wise.io and Marvin Mobile Security, and the founder of DataScientific, Inc. She is also founder of the Women in Machine Learning and Data Science (WiMLDS) organization (wimlds.org) and co-founder of R-Ladies Global (rladies.org)."
    }
   ],
-  "description": "",
+  "description": "Keynote- Erin LeDell",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -4707,7 +4707,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Keynote- Erin LeDell",
-  "abstract": "TODO"
+  "abstract": "Keynote- Erin LeDell"
  },
  {
   "content_locale": "en",
@@ -5474,7 +5474,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "AWS Sponsor Talk",
-  "abstract": "TBD"
+  "abstract": "Amazon Web Services sponsor Talk"
  },
  {
   "content_locale": "en",
@@ -5939,7 +5939,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Relational AI Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason."
  },
  {
   "content_locale": "en",
@@ -6921,7 +6921,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "MetaLenz Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "Metalenz is commercializing metasurface technology and transforming optical sensing in consumer electronics and automotive markets."
  },
  {
   "content_locale": "en",
