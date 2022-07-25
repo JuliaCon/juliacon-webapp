@@ -1389,10 +1389,10 @@
     "biography": "Computer Scientists and software developer with over 20 years of experience creating full stack web and data centric applications. Creator of Genie, the highly productive Julia web application. Julia open source contributor since 2017. Author of \"Julia Programming Projects\" (Packt, 2018) and co-author \"Julia Programming Complete Reference Guide\" (Packt, 2019)."
    },
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/Haensel_Helmut_600x600_dInXmFK.jpg",
     "name": "Helmut Hänsel",
     "code": "WHHKUJ",
-    "biography": null
+    "biography": "I am a data scientist for process development at Merck KGaA (Darmstadt, Germany). In this function I use Genie/Stipple in two major projects. This allows me to contribute to the Stipple packages from time to time."
    }
   ],
   "description": "Building upon over 5 years of experience with open source web development with Julia, Genie's powerful dashboarding features allow Julia users to develop and publish data apps without needing to use any web development techniques. Genie exposes a smooth workflow and rich programming APIs that allow data and research scientists to control all the aspects of building and deploying data apps and dashboards using only their favourite programming language: Julia.",
