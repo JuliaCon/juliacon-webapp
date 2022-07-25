@@ -475,11 +475,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:30:00Z",
+   "start": "2022-07-29T19:00:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-29T19:40:00Z"
+   "end": "2022-07-29T19:10:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -2590,11 +2590,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/FLB8G9/cutebanner_0Bjgd4Z.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T19:50:00Z",
+   "start": "2022-07-28T20:10:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-28T20:00:00Z"
+   "end": "2022-07-28T20:20:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -3309,7 +3309,7 @@
     "avatar": null,
     "name": "David Anthoff",
     "code": "7JQFVF",
-    "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. He co-develops the integrated assessment model FUND that is used widely in academic research and in policy analysis. His research has appeared in Nature, Science, the American Economic Review, Nature Climate Change, the Journal of the Association of Environmental and Resource Economists and other academic journals. He contributed a background research paper to the Stern Review and has advised numerous organizations (including US EPA, the German Bundesumweltamt and the Canadian National Round Table on the Environment and the Economy) on the economics of climate change.\r\n\r\nHe is an associate professor in the Energy and Resources Group at the University of California, Berkeley. Previously he was an assistant professor in the School of Natural Resources and the Environment of the University of Michigan, a postdoc at the University of California, Berkeley and a postdoc at the Economic and Social Research Institute in Ireland. He also was a visiting research fellow at the Smith School of Enterprise and the Environment, University of Oxford.\r\n\r\nHe holds a PhD (Dr. rer. pol.) in economics from the University of Hamburg (Germany) and the International Max Planck Research School on Earth System Modelling, a MSc in Environmental Change and Management from the University of Oxford (UK) and a M.Phil. in philosophy, logic and philosophy of science from Ludwig-Maximilians-Universität München (Munich, Germany)."
+    "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. His research has appeared in Nature, Science, the American Economic Review, Nature Climate Change, the Journal of the Association of Environmental and Resource Economists and other academic journals. He is an associate professor in the Energy and Resources Group at the University of California, Berkeley."
    }
   ],
   "description": "",
@@ -3466,7 +3466,7 @@
     "avatar": null,
     "name": "David Anthoff",
     "code": "7JQFVF",
-    "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. He co-develops the integrated assessment model FUND that is used widely in academic research and in policy analysis. His research has appeared in Nature, Science, the American Economic Review, Nature Climate Change, the Journal of the Association of Environmental and Resource Economists and other academic journals. He contributed a background research paper to the Stern Review and has advised numerous organizations (including US EPA, the German Bundesumweltamt and the Canadian National Round Table on the Environment and the Economy) on the economics of climate change.\r\n\r\nHe is an associate professor in the Energy and Resources Group at the University of California, Berkeley. Previously he was an assistant professor in the School of Natural Resources and the Environment of the University of Michigan, a postdoc at the University of California, Berkeley and a postdoc at the Economic and Social Research Institute in Ireland. He also was a visiting research fellow at the Smith School of Enterprise and the Environment, University of Oxford.\r\n\r\nHe holds a PhD (Dr. rer. pol.) in economics from the University of Hamburg (Germany) and the International Max Planck Research School on Earth System Modelling, a MSc in Environmental Change and Management from the University of Oxford (UK) and a M.Phil. in philosophy, logic and philosophy of science from Ludwig-Maximilians-Universität München (Munich, Germany)."
+    "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. His research has appeared in Nature, Science, the American Economic Review, Nature Climate Change, the Journal of the Association of Environmental and Resource Economists and other academic journals. He is an associate professor in the Energy and Resources Group at the University of California, Berkeley."
    },
    {
     "avatar": null,
@@ -4515,11 +4515,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:50:00Z",
+   "start": "2022-07-29T19:20:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-29T20:00:00Z"
+   "end": "2022-07-29T19:30:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -4563,6 +4563,41 @@
   "do_not_record": false,
   "title": "Julia Gaussian Processes",
   "abstract": "Julia Gaussian Processes (Julia GPs) is home to an ecosystem of packages whose aim is to enable research and modelling using GPs in Julia. It specifies a variety of interfaces, code which implements these interfaces in standard settings, and code built on top of these interfaces (e.g. plotting). The composability and modularity of these interfaces distinguishes it from other GP software. This talk will explore the things that you can currently do with the ecosystem, and where it’s heading."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "NEKFDC",
+  "track": {
+   "en": "JuliaCon"
+  },
+  "state": "confirmed",
+  "duration": 10,
+  "speakers": [
+   {
+    "avatar": null,
+    "name": "Prem Chintalapudi",
+    "code": "CVAUHS",
+    "biography": "M. Eng. student at MIT"
+   }
+  ],
+  "description": "Julia's JIT compiler converts Julia IR to LLVM IR, optimizes it, and converts it to machine code for efficient subsequent execution. However, much of this process relies on shared global resources, such as a global LLVM context, the pass manager that runs the optimization, and various data caches. This has necessitated the presence of a global lock to prevent multiple threads from simultaneously modifying this data. Furthermore, as generation of LLVM IR and type inference may co-recurse indefinitely, type inference also acquires and holds the same lock during its execution. This serialized compilation process increases the startup time of multithreaded environments (often referred to as time-to-first-plot, TTFP) and prevents our execution environment from performing more complex transformations, such as speculative and parallel compilation. \r\n\r\nThus far, refactorings of our IR generation pipeline have reduced the number of global variables used in the compiler and added finer grained locks to our JIT stack in preparation for removing the global locks. At this stage, much of the remaining challenge in removing the global lock is in proving thread safety and progressively reducing the scope of the lock until the minimum amount of critical code is protected. Once that work has completed, work on speculative optimization and IR generation can begin, which should bring additional improvements to TTFP for situations without multiple contending compilation threads.",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2022-07-28T16:30:00Z",
+   "room": {
+    "en": "Purple"
+   },
+   "end": "2022-07-28T16:40:00Z"
+  },
+  "submission_type": {
+   "en": "Lightning talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Unlocking Julia's LLVM JIT Compiler",
+  "abstract": "Julia's compiler spends almost all of its time generating, optimizing, and compiling LLVM IR. Currently, much of this work is done under one giant lock, which is also held during type inference, reducing compiler throughput in a multithreaded environment. By using finer-grained locking and handling LLVM IR in a threadsafe manner, we can reduce contention of compilation resources. This work also leads into future JIT optimizations such as lazy, parallel, and speculative compilation of Julia code."
  },
  {
   "content_locale": "en",
@@ -5123,11 +5158,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T20:20:00Z",
+   "start": "2022-07-28T20:00:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-28T20:30:00Z"
+   "end": "2022-07-28T20:10:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -5955,11 +5990,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T20:00:00Z",
+   "start": "2022-07-28T19:40:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-28T20:10:00Z"
+   "end": "2022-07-28T19:50:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -6256,41 +6291,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "U8EC39",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "William Kimmerer",
-    "code": "D8TKR8",
-    "biography": "Research Software Engineer at the MIT JuliaLab. Focused on the Julia sparse ecosystem, and graph algorithms!"
-   }
-  ],
-  "description": "SuiteSparseGraphBLAS.jl is the core package for a new sparse and graph ecosystem in Julia. It wraps the highly performant SuiteSparse:GraphBLAS C library with all of the features a Julia user expects. While SuiteSparseGraphBLAS.jl is highly capable on its own, it intentionally provides only the basic linear algebra routines along with automatic differentiation support. A number of extension packages provide higher level functionality: GBGraphs.jl is a Graphs.jl implementation harnessing the speed of linear-algebraic graph algorithms. GBPirate.jl accelerates packages using SparseArrays without any modifications. And the GraphBLAS.jl meta-package supports integration with the wider Julia ecosystem including SuiteSparse.jl, plotting packages, and more.",
-  "image": "https://pretalx.com/media/juliacon-2022/submissions/U8EC39/grb_QsPsOna.png",
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-29T19:00:00Z",
-   "room": {
-    "en": "Red"
-   },
-   "end": "2022-07-29T19:30:00Z"
-  },
-  "submission_type": {
-   "en": "Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "The GraphBLAS Ecosystem in Julia",
-  "abstract": "Performant sparse linear algebra is a fundamental tool in the scientific computing toolbox. This talk gives an overview of the growing GraphBLAS ecosystem in Julia which provides fast operations on sparse matrices, extended to support graph algorithms. We highlight the GBGraphs.jl implementation of the Graphs.jl interface, the use of GBPirate.jl to accelerate the SparseArrays standard library, and using SuiteSparse solvers on GraphBLAS matrices all built on SuiteSparseGraphBLAS.jl"
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "UDKTPD",
   "track": {
    "en": "JuMP"
@@ -6322,41 +6322,6 @@
   "do_not_record": false,
   "title": "PDE-constrained optimization using JuliaSmoothOptimizers",
   "abstract": "In this presentation, we showcase a new optimization infrastructure within JuliaSmoothOptimizers for PDE-constrained optimization problems in Julia. We introduce PDENLPModels.jl a package that discretizes PDE-constrained optimization problems using finite elements methods via Gridap.jl. The resulting problem can then be solved by solvers tailored for large-scale optimization implemented in pure Julia such as DCISolver.jl and FletcherPenaltyNLPSolver.jl."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "code": "UDLRAS",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 180,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "William Kimmerer",
-    "code": "D8TKR8",
-    "biography": "Research Software Engineer at the MIT JuliaLab. Focused on the Julia sparse ecosystem, and graph algorithms!"
-   }
-  ],
-  "description": "SuiteSparseGraphBLAS.jl and the surrounding Julia GraphBLAS ecosystem allow Julia users to succinctly express graph and sparse matrix algorithms without sacrificing speed. In this workshop we will introduce the basic usage, terminology, and features of the package by building several graph and sparse matrix algorithms. \r\n\r\nThese graph algorithms take advantage of graph matrix duality to express basic graph operations like breadth first search as a matrix-vector multiplication under a particular semiring. We will start with a simple breadth first search implementation before moving on to a few increasingly complex functions including a centrality measure (triangle centrality) and one or more larger algorithms like PageRank or a message passing neural network.\r\n\r\nThe last problem we will workshop involves using either iterative solvers like Krylov.jl or the direct solvers from SuiteSparse.jl, showcasing the unique ability to use these solvers on GraphBLAS matrices.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-26T14:00:00Z",
-   "room": {
-    "en": "Purple"
-   },
-   "end": "2022-07-26T17:00:00Z"
-  },
-  "submission_type": {
-   "en": "Workshop"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Graph Algorithms in SuiteSparseGraphBLAS.jl",
-  "abstract": "GraphBLAS is a powerful toolkit for building out graph algorithms. We’ll build out a couple commonly used graph algorithms including some centrality estimating methods, and a more complex algorithm such as PageRank. Finally, we’ll work on a problem which harnesses either iterative solvers or the direct solvers from SuiteSparse."
  },
  {
   "content_locale": "en",
@@ -7103,11 +7068,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/VVPY9G/JuliaCon_2022_Talk_Image_BtwALWa.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T20:10:00Z",
+   "start": "2022-07-28T19:50:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-28T20:20:00Z"
+   "end": "2022-07-28T20:00:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -8468,11 +8433,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:40:00Z",
+   "start": "2022-07-29T19:10:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-29T19:50:00Z"
+   "end": "2022-07-29T19:20:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -8501,11 +8466,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T19:40:00Z",
+   "start": "2022-07-27T13:30:00Z",
    "room": {
-    "en": "Red"
+    "en": "Green"
    },
-   "end": "2022-07-28T19:50:00Z"
+   "end": "2022-07-27T13:40:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
