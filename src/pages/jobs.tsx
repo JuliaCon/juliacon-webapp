@@ -136,6 +136,33 @@ export const JobsPage: NextPage = () => {
                 this job posting.
               </ExternalLink>
             </p>
+            <VSpaceBetween space={"0.5rem"} spaceAbove>
+            <p>
+              {" "}
+              The National Energy Research Scientific Computing Center (NERSC),
+              is hiring postdocs and HPC performance engineers to join our NESAP
+              program. The NERSC Exascale Science Applications Program, NESAP,
+              is a collaborative effort in which NERSC partners with code teams,
+              vendors, and library and tools developers to prepare for advanced
+              architectures and new systems. If interested, please check out
+              this link describing
+              {" "}
+              <ExternalLink href="https://www.nersc.gov/research-and-development/nesap/">
+                the NESAP program.
+              </ExternalLink>
+              {" "}
+              To apply, please visit our
+              {" "}
+              <ExternalLink href="https://www.nersc.gov/research-and-development/nesap/nesap-postdoctoral-fellowships/"
+                list of currently open postdoctoral fellowships.
+              </ExternalLink>
+              {" "}
+              or our currently open
+              {" "}
+              <ExternalLink href="https://lbl.referrals.selectminds.com/jobs/hpc-performance-engineer-4041">
+                HPC Performance Engineer postion.
+              </ExternalLink>
+            </p>
           </VSpaceBetween>
         </div>
       </VSpaceBetween>
