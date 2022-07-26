@@ -45,6 +45,34 @@ export const JobsPage: NextPage = () => {
           </p>
         </div>
         <div>
+          <TextHeading level={"h3"}>Julius Technologies</TextHeading>
+          <VSpace height={"0.5rem"} />
+          <p>
+            Software Developer - Julius Technologies
+
+            Location: Anywhere, 100% remote working. Your working hours need to have some overlap with the day time in the US Eastern time zone.
+            Julius Technologies is a New York based startup. We offer a low-code visual graph computing solution that allows firms to create sophisticated, scalable, transparent and compliant data and analytics software, systems and services in a fraction of the time and cost of traditional methods.
+
+            Job Description:   We are looking for talented developers at all experience levels. We have multiple openings in the areas of core platform, data science/AI applications, trading/risk management systems and frontend/web UI. Successful candidates will be working with the best developers and researchers in the industry, and join the exciting journey to revolutionize enterprise data and analytics.
+            Types of Roles: full time, part-time and internship. We offer competitive compensation based on candidates’ experience.
+
+            Required Skills/Experiences:
+            Experience in any major programming languages
+            Experience in Jupyter notebook
+            College degree in Science/Engineering or college students looking for internships/part time.
+
+            Preferred Skills/Experience:
+            Julia programming experience
+            Data science, machine learning experience
+            Web front end development 
+            Containers and cloud computing 
+            Advanced degree in Science and Engineering
+
+            Contact:
+            If interested, please email your resume to devjobs@julustech.co
+          </p>
+        </div>
+        <div>
           <TextHeading level={"h3"}>Beacon Biosignals</TextHeading>
           <VSpaceBetween space={"0.5rem"} spaceAbove>
             <p>
