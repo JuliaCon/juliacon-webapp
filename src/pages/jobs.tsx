@@ -125,17 +125,9 @@ export const JobsPage: NextPage = () => {
         <div>
           <TextHeading level={"h3"}>Community</TextHeading>
           <VSpaceBetween space={"0.5rem"} spaceAbove>
-            <p>
-              {" "}
-              Massachusetts Institute of Technology, Preclinical I&T is hiring a
-              Julia developer to join our mission of evaluating new therapies
-              using high throughput imaging analytics and transfer learning
-              between clinical and preclinical data. If interested, please check
-              out{" "}
-              <ExternalLink href="https://careers.peopleclick.com/careerscp/client_mit/external/en_US/gateway/viewFromLink.html?localeCode=en-us&jobPostId=21084">
-                this job posting.
-              </ExternalLink>
-            </p>
+            <p><ul>
+              <li><ExternalLink href = "https://discourse.julialang.org/t/jobs-at-nersc/84840"> NERSC is hiring postdocs and HPC engineers </ExternalLink></li>
+             </ul></p>
           </VSpaceBetween>
         </div>
       </VSpaceBetween>
