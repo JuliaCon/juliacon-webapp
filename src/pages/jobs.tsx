@@ -49,7 +49,7 @@ export const JobsPage: NextPage = () => {
           <VSpace height={"0.5rem"} />
           <p>Software Developer - Julius Technologies</p>
 
-          <p><b>Location:</b> Anywhere, 100% remote working. Your working hours need to have some overlap with the day time in the US Eastern time zone. </p><br>
+          <p><b>Location:</b> Anywhere, 100% remote working. Your working hours need to have some overlap with the day time in the US Eastern time zone. </p>
             <p>Julius Technologies is a New York based startup. We offer a low-code visual graph computing solution that allows firms to create sophisticated, scalable, transparent and compliant data and analytics software, systems and services in a fraction of the time and cost of traditional methods.</p>
 
             <p><b>Job Description:</b>   We are looking for talented developers at all experience levels. We have multiple openings in the areas of core platform, data science/AI applications, trading/risk management systems and frontend/web UI. Successful candidates will be working with the best developers and researchers in the industry, and join the exciting journey to revolutionize enterprise data and analytics.</p>
