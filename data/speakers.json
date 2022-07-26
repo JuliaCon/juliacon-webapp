@@ -160,7 +160,7 @@
    "J9AX9Y"
   ],
   "code": "7JQFVF",
-  "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. He co-develops the integrated assessment model FUND that is used widely in academic research and in policy analysis. His research has appeared in Nature, Science, the American Economic Review, Nature Climate Change, the Journal of the Association of Environmental and Resource Economists and other academic journals. He contributed a background research paper to the Stern Review and has advised numerous organizations (including US EPA, the German Bundesumweltamt and the Canadian National Round Table on the Environment and the Economy) on the economics of climate change.\r\n\r\nHe is an associate professor in the Energy and Resources Group at the University of California, Berkeley. Previously he was an assistant professor in the School of Natural Resources and the Environment of the University of Michigan, a postdoc at the University of California, Berkeley and a postdoc at the Economic and Social Research Institute in Ireland. He also was a visiting research fellow at the Smith School of Enterprise and the Environment, University of Oxford.\r\n\r\nHe holds a PhD (Dr. rer. pol.) in economics from the University of Hamburg (Germany) and the International Max Planck Research School on Earth System Modelling, a MSc in Environmental Change and Management from the University of Oxford (UK) and a M.Phil. in philosophy, logic and philosophy of science from Ludwig-Maximilians-Universität München (Munich, Germany)."
+  "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. His research has appeared in Nature, Science, the American Economic Review, Nature Climate Change, the Journal of the Association of Environmental and Resource Economists and other academic journals. He is an associate professor in the Energy and Resources Group at the University of California, Berkeley."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/CGeoga_4LR_C1LSp8W.jpg",
@@ -284,7 +284,7 @@
   "biography": "I am a researcher and also a hobby programmer. I think (non-computer) scientists should now produce code that is not only functional, but also elegant as well."
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/IMG_0711_nM3MhzB.jpeg",
+  "avatar": "https://pretalx.com/media/avatars/IMG_2621_1_trfDAaW.jpeg",
   "name": "Tim Gymnich",
   "submissions": [
    "X3UUFD"
@@ -682,7 +682,7 @@
    "NPPKUW"
   ],
   "code": "CZATPB",
-  "biography": null
+  "biography": "Dr. Erin LeDell is the Chief Machine Learning Scientist at H2O.ai, where she develops the open source, distributed machine learning platform, H2O, and is the founder of the H2O AutoML project. She has a Ph.D. in Biostatistics with a Designated Emphasis in Computational Science and Engineering from University of California, Berkeley. Her research focuses on automatic machine learning, ensemble machine learning and statistical computing. She also holds a B.S. and M.A. in Mathematics.\r\n\r\nBefore joining H2O.ai, she was the Principal Data Scientist at Wise.io and Marvin Mobile Security, and the founder of DataScientific, Inc. She is also founder of the Women in Machine Learning and Data Science (WiMLDS) organization (wimlds.org) and co-founder of R-Ladies Global (rladies.org)."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/me_oXcoH4m.png",
@@ -692,16 +692,6 @@
   ],
   "code": "D3QNBC",
   "biography": null
- },
- {
-  "avatar": null,
-  "name": "William Kimmerer",
-  "submissions": [
-   "U8EC39",
-   "UDLRAS"
-  ],
-  "code": "D8TKR8",
-  "biography": "Research Software Engineer at the MIT JuliaLab. Focused on the Julia sparse ecosystem, and graph algorithms!"
  },
  {
   "avatar": "https://www.gravatar.com/avatar/0451cf68d776e5f47ba103445dbcaccd",
@@ -818,8 +808,7 @@
   "avatar": "https://www.gravatar.com/avatar/f0aa406188ec55a18281bdb7457212ec",
   "name": "Fons van der Plas",
   "submissions": [
-   "FLB8G9",
-   "USY3RX"
+   "FLB8G9"
   ],
   "code": "ECC83Q",
   "biography": "Excited about making scientific computing more accessible and fun! Looking forward to meet you!"
@@ -1014,15 +1003,6 @@
   "biography": "Research Software Engineer at MIT's JuliaLab.\r\n\r\nI'm the maintainer of Dagger.jl, AMDGPU.jl, and BPFnative.jl, and am dedicated to making Julia's heterogeneous computing support powerful and productive."
  },
  {
-  "avatar": null,
-  "name": "Alexis Montoison",
-  "submissions": [
-   "U3M9XK"
-  ],
-  "code": "GWJSF8",
-  "biography": "Alexis Montoison\r\n\r\nPhD student, GERAD and Polytechnique Montréal\r\n\r\nMontréal, Canada\r\n\r\nalexis.montoison@polymtl.ca"
- },
- {
   "avatar": "https://www.gravatar.com/avatar/7e76579d61a3dabf3576b93f7f078806",
   "name": "Bart Janssens",
   "submissions": [
@@ -1198,7 +1178,7 @@
   "biography": "Julian"
  },
  {
-  "avatar": "https://www.gravatar.com/avatar/02ad7828db7cfbf5a1f63c4f0161553e",
+  "avatar": "https://pretalx.com/media/avatars/portrait_latest_gCshG7F.jpg",
   "name": "Patrick Fournier",
   "submissions": [
    "U7WAAD"
@@ -1219,20 +1199,19 @@
   "avatar": "https://www.gravatar.com/avatar/832d10ca3b2825c42d2280cbeca6fef6",
   "name": "Simon Danisch",
   "submissions": [
-   "FX788D",
    "FBLWD3"
   ],
   "code": "JSJDXE",
   "biography": "Simon is a freelance software engineer who has been part of the Julia community for more than 9 years and is the author of many Julia packages:\r\n* Makie\r\n* GeometryBasics\r\n* GPUArrays\r\n* PackageCompiler\r\n* JSServe\r\n* FileIO"
  },
  {
-  "avatar": null,
+  "avatar": "https://pretalx.com/media/avatars/Headshot_cropped_square_9ONQqF6.jpg",
   "name": "Anika Luo",
   "submissions": [
    "PXRENJ"
   ],
   "code": "JURY3H",
-  "biography": "Undergraduate Researcher at Wellesley College"
+  "biography": "I am a Biochemistry major and Music minor at Wellesley College, and I plan to pursue a Ph.D. in Biomedical Sciences. My career goal is to conduct research in biomedical science and advance the field of pharmaceutical medicine. As an undergraduate researcher in the Klepac-Ceraj Lab, I have worked on various engineering and computational projects with Dr. Kevin Bonham in which I have built tools to study microbial communities and to streamline analysis of metagenomic data. My current project investigates a method of using gut microbes to restore normal function in neurotransmitter deficient Caenorhabditis elegans, which may have important therapeutic implications for neurological conditions."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/clima-crop_5o14OCY.png",
@@ -1289,6 +1268,15 @@
   ],
   "code": "KFWW8C",
   "biography": null
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/profile_photo_350_350_K7NGRe1.JPG",
+  "name": "Tushar Chauhan",
+  "submissions": [
+   "V7CCYF"
+  ],
+  "code": "KHAHJ7",
+  "biography": "Tushar Chauhan is a neuroscientist with a keen interest in bio-inspired AI. His work focusses on understanding computations in sensory cortices - both for placing sensory computation in an evolutionary context, as well as drawing inspiration from biological solutions to create highly efficient, robust artificial systems. His methodology is versatile, and an important part of his toolkit includes simulations of neural circuits at various levels of abstraction. \r\n\r\nHe is a Postdoctoral Research Associate at the Bear Lab, Picower Institute of Learning and Memory, MIT."
  },
  {
   "avatar": null,
@@ -1391,13 +1379,13 @@
   "biography": "Working with Oceananigans.jl"
  },
  {
-  "avatar": null,
-  "name": "Giovanni P",
+  "avatar": "https://pretalx.com/media/avatars/23FAA3CB-1EE2-4731-A34D-4F09E47FA316_hmTqUdM.JPG",
+  "name": "Giovanni Pagliarini",
   "submissions": [
    "RQP9TG"
   ],
   "code": "LNRHHF",
-  "biography": "PhD Student in Mathematics (Logic & Computer Science)\r\nUniversity of Parma & University of Ferrara"
+  "biography": "PhD Student in Mathematics, Logic & Computer Science @ University of Ferrara & Parma, Italy.\r\n\r\nDeveloping, studying and testing new **symbolic learning** methods.\r\n\r\n\\#AI, \\#Interpretability, \\#ModalDecisionTrees!"
  },
  {
   "avatar": "https://pretalx.com/media/avatars/me_2_jjzhWud.jpg",
@@ -1510,15 +1498,6 @@
   "biography": "Stephan Sahm founded [Jolin.io](https://www.jolin.io), an IT consultancy for high-performant data/ml pipelines powered by Julia. He also organises the biggest Julia meetup in Germany, Julia-User-Group-Munich.\r\nWith 10 years experience in data science and 5 years in IT consultancy and data-startups, he strives to bring tomorrows best practice into todays business.\r\n\r\nJulia packages developed by Stephan Sahm: Continuables.jl, WhereTraits.jl, ExprParsers.jl, TypeClasses.jl, ExtensibleEffects.jl and more."
  },
  {
-  "avatar": null,
-  "name": "Pradyumna",
-  "submissions": [
-   "CY7YFB"
-  ],
-  "code": "MK7JUB",
-  "biography": null
- },
- {
   "avatar": "https://pretalx.com/media/avatars/high_FBSlmQo.jpg",
   "name": "Benoît Legat",
   "submissions": [
@@ -1625,15 +1604,6 @@
   "biography": "Computational geodynamicist at the University of Mainz, Germany"
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/JAR00701_small_Sn3Dzze.jpeg",
-  "name": "Forrest Laine",
-  "submissions": [
-   "LKHHEX"
-  ],
-  "code": "NJWMSK",
-  "biography": "Forrest Laine is an Assistant Professor of Computer Science at Vanderbilt University. He completed his PhD and B.S. from UC Berkeley in 2021 and 2015, respectively. His research includes game-theoretic methods for multi-agent decision making, and methods for solving various extended mathematical programming problems. He has worked at several autonomous vehicle companies, and continues to perform research on autonomous systems and robotics in general."
- },
- {
   "avatar": null,
   "name": "Niklas Hackelberg",
   "submissions": [
@@ -1696,15 +1666,6 @@
   ],
   "code": "PJVBLC",
   "biography": "PhD student at École des Ponts (France), working on machine learning and operations research with applications to railway planning."
- },
- {
-  "avatar": "https://www.gravatar.com/avatar/5ac7b1da0f2e9107b5020f88023a15e5",
-  "name": "Simon Byrne",
-  "submissions": [
-   "NZGX7D"
-  ],
-  "code": "PKSECG",
-  "biography": "Dr Simon Byrne is the lead software engineer on the CliMA project, and has been using and contributing to Julia since 2012."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/TobiasKnopp_L0XxMX2.jpg",
@@ -2349,7 +2310,7 @@
    "78XMRJ"
   ],
   "code": "WDGYZC",
-  "biography": null
+  "biography": "Jeremy Howard is a data scientist, researcher, developer, educator, and entrepreneur. Jeremy is a founding researcher at fast.ai, a research institute dedicated to making deep learning more accessible, and is an honorary professor at the University of Queensland. Previously, Jeremy was a Distinguished Research Scientist at the University of San Francisco, where he was the founding chair of the Wicklow Artificial Intelligence in Medical Research Initiative, the founding CEO of Enlitic, President and Chief Scientist of Kaggle, and CEO of FastMail as well as Optimal Decisions Group."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/me_Rj9VSui.jpg",
@@ -2361,13 +2322,13 @@
   "biography": "My name is Andre Macleod, 25, born in Sweden, raised in Italy, moved to New Zealand as I am half-kiwi. Passionate in mathematics, I recently completed a Masters degree in Applied Data Science, and have been working on various data science projects, including some in Julia, which I would be excited to share at JuliaCon if given the chance."
  },
  {
-  "avatar": null,
+  "avatar": "https://pretalx.com/media/avatars/Haensel_Helmut_600x600_dInXmFK.jpg",
   "name": "Helmut Hänsel",
   "submissions": [
    "BH8WSR"
   ],
   "code": "WHHKUJ",
-  "biography": null
+  "biography": "I am a data scientist for process development at Merck KGaA (Darmstadt, Germany). In this function I use Genie/Stipple in two major projects. This allows me to contribute to the Stipple packages from time to time."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/5A9602A8-CC9A-4406-B16E-18B7C2D4BAA2_1_102_o_8FWBW7y.jpeg",
@@ -2543,15 +2504,6 @@
   "biography": "Research Associate at the Department of Informatics, Systems and Communications, University of Milano-Bicocca, Italy"
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/Kishore_nawYBla.jpeg",
-  "name": "Kishore Hari",
-  "submissions": [
-   "CY7YFB"
-  ],
-  "code": "YTRPT3",
-  "biography": "I am a grad student at the Indian Institute of Science, Bangalore. I work with Prof. Mohit Kumar Jolly, toward unraveling design principles in network topologies underlying cell-fate decision networks, especially in the context of cancer metastasis."
- },
- {
   "avatar": null,
   "name": "Agustín Covarrubias",
   "submissions": [
@@ -2595,6 +2547,15 @@
   ],
   "code": "Z7MLWB",
   "biography": "Data Scientist who love in learning and sharing knowledge"
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/profilePicture_3UvJPty.jpg",
+  "name": "Wiktor Phillips",
+  "submissions": [
+   "V7CCYF"
+  ],
+  "code": "Z99LJL",
+  "biography": "Postdoc in the Julia Lab at MIT"
  },
  {
   "avatar": "https://pretalx.com/media/avatars/avatar_QXMWszG.png",
@@ -2689,6 +2650,15 @@
   ],
   "code": "ZTATFJ",
   "biography": "Geoscientist with strong interests in Julia, HPC, GPUs, and supercomputing. Applications to resolve multi-physics processes in ice dynamics and geodynamics across scales."
+ },
+ {
+  "avatar": null,
+  "name": "Husain Attarwala",
+  "submissions": [
+   "9N9HZ3"
+  ],
+  "code": "ZTUXJE",
+  "biography": "Husain Attarwala is a clinical pharmacologist, pharmacometrician and a researcher in drug development. Currently, he is serving as Head of Clinical Pharmacology and Pharmacometrics at Moderna. His research focus on developing predictive models to guide clinical dose decisions for mRNA vaccines and therapeutics. Previously, Husain was a Principal Scientist at Alnylam Pharmaceuticals where his research helped guide dose selection for various novel siRNA therapeutics, 5 of which have received global regulatory approvals. He has obtained PhD and MS degrees in Pharmaceutical Sciences and Drug Delivery Systems from Northeastern University, and a Bachelors in Pharmacy from Al-Ameen college of pharmacy."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/selfie_8dJ7WYq.jpeg",

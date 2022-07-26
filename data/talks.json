@@ -123,10 +123,10 @@
     "avatar": null,
     "name": "Jeremy Howard",
     "code": "WDGYZC",
-    "biography": null
+    "biography": "Jeremy Howard is a data scientist, researcher, developer, educator, and entrepreneur. Jeremy is a founding researcher at fast.ai, a research institute dedicated to making deep learning more accessible, and is an honorary professor at the University of Queensland. Previously, Jeremy was a Distinguished Research Scientist at the University of San Francisco, where he was the founding chair of the Wicklow Artificial Intelligence in Medical Research Initiative, the founding CEO of Enlitic, President and Chief Scientist of Kaggle, and CEO of FastMail as well as Optimal Decisions Group."
    }
   ],
-  "description": "TODO",
+  "description": "Keynote - Jeremy Howard",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -141,8 +141,8 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Keynote #2 (Thursday)",
-  "abstract": "TODO"
+  "title": "Keynote - Jeremy Howard",
+  "abstract": "Keynote - Jeremy Howard"
  },
  {
   "content_locale": "en",
@@ -440,11 +440,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/878K9K/logo_rL3VOk5.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T16:30:00Z",
+   "start": "2022-07-29T19:00:00Z",
    "room": {
-    "en": "Green"
+    "en": "Red"
    },
-   "end": "2022-07-29T17:00:00Z"
+   "end": "2022-07-29T19:30:00Z"
   },
   "submission_type": {
    "en": "Talk"
@@ -475,11 +475,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:30:00Z",
+   "start": "2022-07-29T16:30:00Z",
    "room": {
-    "en": "Red"
+    "en": "Green"
    },
-   "end": "2022-07-29T19:40:00Z"
+   "end": "2022-07-29T16:40:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -785,7 +785,7 @@
     "biography": "Torkel Loman is a PhD student at the University of Cambridge, working on mathematical modelling of biochemical reaction networks in bacterial stress response."
    }
   ],
-  "description": "At the highest level, Catalyst models can be specified via a domain-specific language (DSL), where they can be concisely written as a list of chemical reactions. Such models are converted into a Symbolics.jl-based intermediate representation (IR), represented as a ModelingToolkit.jl AbstractSystem. This IR acts as a common target for many tools within SciML, enabling them to be applied to Catalyst-based models. Symbolic models can also be directly constructed using the symbolic IR, allowing programmatic construction of CRNs or extensions of DSL-defined CRNs.\r\n\r\nIn this workshop, we will demonstrate how to generate CRN models through the Catalyst DSL and programmatically via the IR. Catalyst features such as custom rate laws, component-based modeling, and parametric stoichiometry will be explored to demonstrate the breadth of models supported by Catalyst. We will then illustrate how such models can be translated to other symbolic Modelingtoolkit-based mathematical representations, and simulated with SciML tooling. Such representations include deterministic ODE models (based on reaction rate equations), stochastic SDE models (based on chemical Langevin equations), and stochastic jump process models (based on the chemical master equation and Gillespie's method). For each of these representations, the DifferentialEquations.jl package provides a variety of solvers that can accurately and efficiently simulate the model's dynamics. We will also demonstrate further tools for analysis of CRN-based models, including methods for parameter fitting, network analysis, calculation of steady states, and bifurcation analysis (through the BifurcationKit.jl package).\r\n\r\nTo help users with real-world applicability, we will demonstrate how to appropriately use the Catalyst and SciML tooling to scale simulations to tens of thousands of reactions in ways that exploit sparsity, giving easy access to methodologies which outperform competitor packages by orders of magnitude in performance. Aspects such as parallelization of simulations, automatic differentiation usage (in model calibration), and more will be discussed throughout the various topics to give users a complete view of how Catalyst.jl can impact their modeling workflows.",
+  "description": "Workshop Pluto notebooks will be available at https://github.com/TorkelE/JuliaCon2022_Catalyst_Workshop\r\n\r\nAt the highest level, Catalyst models can be specified via a domain-specific language (DSL), where they can be concisely written as a list of chemical reactions. Such models are converted into a Symbolics.jl-based intermediate representation (IR), represented as a ModelingToolkit.jl AbstractSystem. This IR acts as a common target for many tools within SciML, enabling them to be applied to Catalyst-based models. Symbolic models can also be directly constructed using the symbolic IR, allowing programmatic construction of CRNs or extensions of DSL-defined CRNs.\r\n\r\nIn this workshop, we will demonstrate how to generate CRN models through the Catalyst DSL and programmatically via the IR. Catalyst features such as custom rate laws, component-based modeling, and parametric stoichiometry will be explored to demonstrate the breadth of models supported by Catalyst. We will then illustrate how such models can be translated to other symbolic Modelingtoolkit-based mathematical representations, and simulated with SciML tooling. Such representations include deterministic ODE models (based on reaction rate equations), stochastic SDE models (based on chemical Langevin equations), and stochastic jump process models (based on the chemical master equation and Gillespie's method). For each of these representations, the DifferentialEquations.jl package provides a variety of solvers that can accurately and efficiently simulate the model's dynamics. We will also demonstrate further tools for analysis of CRN-based models, including methods for parameter fitting, network analysis, calculation of steady states, and bifurcation analysis (through the BifurcationKit.jl package).\r\n\r\nTo help users with real-world applicability, we will demonstrate how to appropriately use the Catalyst and SciML tooling to scale simulations to tens of thousands of reactions in ways that exploit sparsity, giving easy access to methodologies which outperform competitor packages by orders of magnitude in performance. Aspects such as parallelization of simulations, automatic differentiation usage (in model calibration), and more will be discussed throughout the various topics to give users a complete view of how Catalyst.jl can impact their modeling workflows.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -880,8 +880,15 @@
   },
   "state": "confirmed",
   "duration": 45,
-  "speakers": [],
-  "description": "",
+  "speakers": [
+   {
+    "avatar": null,
+    "name": "Husain Attarwala",
+    "code": "ZTUXJE",
+    "biography": "Husain Attarwala is a clinical pharmacologist, pharmacometrician and a researcher in drug development. Currently, he is serving as Head of Clinical Pharmacology and Pharmacometrics at Moderna. His research focus on developing predictive models to guide clinical dose decisions for mRNA vaccines and therapeutics. Previously, Husain was a Principal Scientist at Alnylam Pharmaceuticals where his research helped guide dose selection for various novel siRNA therapeutics, 5 of which have received global regulatory approvals. He has obtained PhD and MS degrees in Pharmaceutical Sciences and Drug Delivery Systems from Northeastern University, and a Bachelors in Pharmacy from Al-Ameen college of pharmacy."
+   }
+  ],
+  "description": "Keynote  - Husain Attarwala, Moderna",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -896,8 +903,8 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Keynote #3 (Friday)",
-  "abstract": "TODO"
+  "title": "Keynote  - Husain Attarwala",
+  "abstract": "Keynote  - Husain Attarwala, Moderna"
  },
  {
   "content_locale": "en",
@@ -916,7 +923,7 @@
     "biography": "I am a student in my last year of MSc in Computer Science - Big Data Specialization  (graduation June 2022 r.) also a physician in the last year of nuclear medicine residency working with various modalities of medical imaging. Additionally for the last 4 years I have been a lecturer  in international programmes teaching subjects like Anatomy and Radiology in English . Simultaneously I am a junior research assistant in Medical University of Lublin and  in the final steps of acquiring a PhD in Nuclear Medicine. I already passed all examinations, and have preliminary positive reviews, formally I will acquire PhD probably on 14.04.2022"
    }
   ],
-  "description": "As the preparation for the workshop I will ask participants to load earlier  the dataset on which we would work on - Dataset can be found in link [2]. Additionally you can load required packages to the enviroment where You will work in [3]. In order to fully participate you need to have Nvidia GPU available.\r\n\r\nMedical image segmentation is a rapidly developing field of Computer Vision. This area of research requires knowledge in radiologic imaging, mathematics and computer science. In order to provide assistance to the researchers multiple software packages were developed. However because of the rapidly changing scientific environment those tools can no longer be effective for some of the users.\r\nSuch situation is present in the case of Julia language users that require support for the interactive programming development style that is not popular among traditional software tools. Another characteristic of modern programming for 3 dimensional medical imaging data is GPU acceleration which can give outstanding improvement of algorithms performance in case of working with  3D medical imaging. Hence in this work the author presents sets of new Julia language software tools that are designed to fulfil emerging needs. Those tools include GPU accelerated medical image viewer with annotation possibilities that is characterised by a very convenient programming interface. CUDA accelerated Medical segmentation metrics tool that supplies state of the art implementations of algorithms required for quantification of similarity between algorithm output and gold standard. Lastly, a set of utility tools connecting those two mentioned packages with HDF5 file system and preprocessing using MONAI and PythonCall.\r\n \r\nMain unique feature of the presented framework is ease of interoperability with other Julia packages, which in the rapidly developing ecosystem of scientific computing may spark in the opinion of the author application of multiple algorithms from fields usually not widely used in medical image segmentation like differential programming, topology etc.\r\n \r\nI am planning to conduct a workshop with the assumption of only basic knowledge of Julia programming and no medical knowledge at all. Most of the time would be devoted to walk through end to end example medical image segmentation like in the tutorial available under link below [1], with code executed live during workshop. In order to run some parts of the workshop users would need a CUDA environment. Because of the complex nature of the problem some theoretical introductions will also be needed.\r\n \r\nPlan for the workshop :\r\n \r\n1.Introduction to medical imaging data format\r\n \r\n2.Presentation of loading data and simple preprocessing using MONAI and PythonCall\r\n \r\n3.Tutorial presenting how to use MedEye3d viewer and annotator\r\n \r\n4.Implementing first phase of example algorithm on CPU showing some Julia features supporting work on multidimensional arrays\r\n \r\n5.Presenting further part of the example algorithm using GPU acceleration with CUDA.jl and ParallelStencil with short introduction to GPU programming .\r\n \r\n6.Presenting how to save and retrieve data using HDF5.jl\r\n \r\n7.Show how to apply medical segmentation metrics from MedEval3D, and some introduction how to choose properly the metric depending on the problem\r\n \r\n8.Discuss How one can improve the performance of the algorithm and what are some planned  future directions\r\n \r\n \r\n[1] https://github.com/jakubMitura14/MedPipe3DTutorial\r\n[2] https://wiki.cancerimagingarchive.net/display/Public/CT-ORG%3A+CT+volumes+with+multiple+organ+segmentations\r\n[3] ]add Flux Hyperopt Plots UNet MedEye3d Distributions Clustering IrrationalConstants ParallelStencil CUDA HDF5 MedEval3D MedPipe3D Colors",
+  "description": "As the preparation for the workshop I will ask participants to load earlier  the dataset on which we would work on - Dataset can be found in link [2]. Additionally you can load required packages to the enviroment where You will work in [3]. In order to fully participate you need to have Nvidia GPU available.\r\n\r\nMedical image segmentation is a rapidly developing field of Computer Vision. This area of research requires knowledge in radiologic imaging, mathematics and computer science. In order to provide assistance to the researchers multiple software packages were developed. However because of the rapidly changing scientific environment those tools can no longer be effective for some of the users.\r\nSuch situation is present in the case of Julia language users that require support for the interactive programming development style that is not popular among traditional software tools. Another characteristic of modern programming for 3 dimensional medical imaging data is GPU acceleration which can give outstanding improvement of algorithms performance in case of working with  3D medical imaging. Hence in this work the author presents sets of new Julia language software tools that are designed to fulfil emerging needs. Those tools include GPU accelerated medical image viewer with annotation possibilities that is characterised by a very convenient programming interface. CUDA accelerated Medical segmentation metrics tool that supplies state of the art implementations of algorithms required for quantification of similarity between algorithm output and gold standard. Lastly, a set of utility tools connecting those two mentioned packages with HDF5 file system and preprocessing using MONAI and PythonCall.\r\n \r\nMain unique feature of the presented framework is ease of interoperability with other Julia packages, which in the rapidly developing ecosystem of scientific computing may spark in the opinion of the author application of multiple algorithms from fields usually not widely used in medical image segmentation like differential programming, topology etc.\r\n \r\nI am planning to conduct a workshop with the assumption of only basic knowledge of Julia programming and no medical knowledge at all. Most of the time would be devoted to walk through end to end example medical image segmentation like in the tutorial available under link below [1], with code executed live during workshop. In order to run some parts of the workshop users would need a CUDA environment. Because of the complex nature of the problem some theoretical introductions will also be needed.\r\n \r\nPlan for the workshop :\r\n \r\n1.Introduction to medical imaging data format\r\n \r\n2.Presentation of loading data and simple preprocessing using MONAI and PythonCall\r\n \r\n3.Tutorial presenting how to use MedEye3d viewer and annotator\r\n \r\n4.Implementing first phase of example algorithm on CPU showing some Julia features supporting work on multidimensional arrays\r\n \r\n5.Presenting further part of the example algorithm using GPU acceleration with CUDA.jl and ParallelStencil with short introduction to GPU programming .\r\n \r\n6.Presenting how to save and retrieve data using HDF5.jl\r\n \r\n7.Show how to apply medical segmentation metrics from MedEval3D, and some introduction how to choose properly the metric depending on the problem\r\n \r\n8.Discuss How one can improve the performance of the algorithm and what are some planned  future directions\r\n \r\n \r\n[1] https://github.com/jakubMitura14/MedPipe3DTutorial\r\n[2]Participants can download data before task 9 from https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2 \r\n[3] ]add Flux Hyperopt Plots UNet MedEye3d Distributions Clustering IrrationalConstants ParallelStencil CUDA HDF5 MedEval3D MedPipe3D Colors",
   "image": "https://pretalx.com/media/juliacon-2022/submissions/9PKGGH/pretty_VPVkItu.png",
   "slot_count": 1,
   "slot": {
@@ -932,7 +939,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "GPU accelerated medical image segmentation framework",
-  "abstract": "Programming framework presented is a set of tools for medical image segmentation. Packages are implemented with GPU acceleration.For convenient rapid prototyping all of the programming process together with visualisation and annotation can be done with the help of Julia REPL . What is also worth pointing out is a fact that multiple metrics implemented in the presented software are to the best knowledge author are characterised by shortest execution time among all popular open source solutions."
+  "abstract": "Medical image segmentation with Julia \r\nParticipants can download data before task 9 from https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2 \r\nAdditionally tou can download required libraries to your enviroment\r\n]add ProgressMeter StaticArrays BSON Distributed Flux Hyperopt Plots MedEye3d Distributions Clustering IrrationalConstants ParallelStencil CUDA HDF5 MedEval3D Colors"
  },
  {
   "content_locale": "en",
@@ -1221,7 +1228,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julia Computing Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "Julia Computing's mission is to develop products that bring Julia's superpowers to its customers. Julia Computing's flagship product is JuliaHub, a secure, software-as-a-service platform for developing Julia programs, deploying them, and scaling to thousands of nodes."
  },
  {
   "content_locale": "en",
@@ -1382,10 +1389,10 @@
     "biography": "Computer Scientists and software developer with over 20 years of experience creating full stack web and data centric applications. Creator of Genie, the highly productive Julia web application. Julia open source contributor since 2017. Author of \"Julia Programming Projects\" (Packt, 2018) and co-author \"Julia Programming Complete Reference Guide\" (Packt, 2019)."
    },
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/Haensel_Helmut_600x600_dInXmFK.jpg",
     "name": "Helmut Hänsel",
     "code": "WHHKUJ",
-    "biography": null
+    "biography": "I am a data scientist for process development at Merck KGaA (Darmstadt, Germany). In this function I use Genie/Stipple in two major projects. This allows me to contribute to the Stipple packages from time to time."
    }
   ],
   "description": "Building upon over 5 years of experience with open source web development with Julia, Genie's powerful dashboarding features allow Julia users to develop and publish data apps without needing to use any web development techniques. Genie exposes a smooth workflow and rich programming APIs that allow data and research scientists to control all the aspects of building and deploying data apps and dashboards using only their favourite programming language: Julia.",
@@ -1736,47 +1743,6 @@
   "do_not_record": false,
   "title": "DiffOpt.jl differentiating your favorite optimization problems",
   "abstract": "DiffOpt aims at differentiating optimization problems written in MathOptInterface. Moreover, everything “just works” in JuMP. The current framework is based on existing techniques for differentiating the solution of optimization problems with respect to the input parameters. We will show the current state of the package that supports Quadratic Programs and Conic Programs. Moreover, we will highlight how other packages are used to keep the library generic and efficient."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "CY7YFB",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/Kishore_nawYBla.jpeg",
-    "name": "Kishore Hari",
-    "code": "YTRPT3",
-    "biography": "I am a grad student at the Indian Institute of Science, Bangalore. I work with Prof. Mohit Kumar Jolly, toward unraveling design principles in network topologies underlying cell-fate decision networks, especially in the context of cancer metastasis."
-   },
-   {
-    "avatar": null,
-    "name": "Pradyumna",
-    "code": "MK7JUB",
-    "biography": null
-   }
-  ],
-  "description": "Experimental investigation of biological systems is highly complex. When analysing the underlying regulatory networks to understand the experimentally observed behaviour, the parameters for the ODE systems are often unavailable. While it is relatively easy to obtain the node parameters, the edge parameters such as threshold hill coefficient require sophisticated experiments such as dosage sensitivity, which are often not feasible technically or economically, due to both the complexity of these experiments as well as the fact that due to the prevalent heterogeneity in biological systems, the estimated parameters are likely to change even within the same class of biological systems (similar mammalian cells for example).\r\nTo tackle these problems, a viable strategy can be to use the network topology and establish a parameter-phenotype map for the topology. Once the phenotypes are measured experimentally, the corresponding parameter space can be back-calculated within reasonable error. With that goal in mind, a tool called RACIPE (Huang et al., 2017) was published recently, written in C, which takes in the network topological information and generates parameter set – steady-state map for the topology, by simulating the system at multiple, randomly generated parameter sets. While this tool is handy, this has the following drawbacks:\r\n1.\tSince RACIPE is written in C, we are forced to use a second language such as Python or R for downstream data analysis and visualization.\r\n2.\tRACIPE has very limited flexibility built-in. For example, the inability to simulate externally generated parameters (which becomes essential for sensitivity analysis), lack of functionality to provide relative stability of the steady states, a limited number of ODE solvers, and the fixed structure of the ODE system generated from the networks.\r\n3.\tSince RACIPE is written in C, modifying the code to include the required functionality is complex.\r\nWhile we had tried to write the package in high-level languages (R, Python, and MATLAB), we faced massive speed loss in the simulations. Therefore, we set out to write the package in Julia, which solves the two-language problem we are facing very well. First, we used the SciML ecosystem to reproduce the functionalities of RACIPE, which fixed the issue of having a limited number of ODE solvers right away. While the numerical accuracy of the simulations has improved thanks of SciML ODE solvers, the speed of the simulations remains like that of RACIPE. \r\nExtending beyond RACIPE, we incorporated the following customizations, along with minor features such as parameter modification for selective edges/nodes in the system, relative stability, etc.\r\n1.\tA data analysis and visualization pipeline that can generate the phenotypic landscape of the system using the steady states and relative stability data.\r\n2.\tFlexibility in inputs for the network topology, the parameter sets, and the ODE system\r\n3.\tGenerates a reaction network (that is compatible with SciML ecosystem) that can be used for simulations not specific to those done in RACIPE (Huang et al., 2017) Eg: stochastic simulations, phase plane and bifurcation analysis, etc.\r\nThese modifications have made for a better tool to generate parameter-phenotype maps and have given the package the capability of being a global sensitivity analysis tool for ODE systems. We are currently adding more essential capabilities to the package. While the primary focus is on constructing a dynamics repertoire (detecting and characterizing oscillations, temporal assessment of the trajectories leading to a steady-state, etc), we are planning to incorporate various other functionalities such as expansion to agent-based modelling, network perturbation analysis and so on, using the functionalities available in the SciML ecosystem and Julia in general. We expect to show some of these capabilities during our talk.\r\n\r\nReferences: \r\nHuang, B., Lu, M., Jia, D., Ben-Jacob, E., Levine, H., & Onuchic, J. N. (2017). Interrogating the topological robustness of gene regulatory circuits by randomization. PLOS Computational Biology, 13(3), e1005456. https://doi.org/10.1371/JOURNAL.PCBI.1005456",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-28T10:40:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2022-07-28T10:50:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Constructing regulatory network landscapes via ODE simulation",
-  "abstract": "Experimental estimation of parameters for ODEs of regulatory networks is challenging. However, a map of parameter sets to dynamics will help solve this problem. We design an automated simulation package based on a previously published C-based tool (RACIPE), which takes the network, samples a large set of parameters, and outputs the ensemble of possible dynamics. Thanks to Julia, our package can solve the two-language problem of RACIPE, adding customizability and generalizability to the tool."
  },
  {
   "content_locale": "en",
@@ -2144,11 +2110,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T15:30:00Z",
+   "start": "2022-07-28T15:20:00Z",
    "room": {
     "en": "Green"
    },
-   "end": "2022-07-28T15:40:00Z"
+   "end": "2022-07-28T15:30:00Z"
   },
   "submission_type": {
    "en": "Gold sponsor talk"
@@ -2156,7 +2122,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Intel Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "We create world-changing technology that improves the life of every person on the planet."
  },
  {
   "content_locale": "en",
@@ -2249,11 +2215,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-27T19:00:00Z",
+   "start": "2022-07-27T19:30:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-27T19:30:00Z"
+   "end": "2022-07-27T20:00:00Z"
   },
   "submission_type": {
    "en": "Talk"
@@ -2293,7 +2259,12 @@
   "submission_type": {
    "en": "Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Slides",
+    "resource": "/media/juliacon-2022/submissions/EA7NVT/resources/JuliaCon-pgras-20220727_tIsG1cQ.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "Automatic generation of C++ -- Julia bindings",
   "abstract": "Interporability of Julia with C++ is essential for the use of the Julia programming language in fields with a large legacy of code written in this language. We will show how the generation of a Julia interface to a C++ library can be automatized using CxxWrap.jl and a tool that generates the required C++ glue code. The concept is demonstrated with a prototype called WrapIt!, https://www.github.com/grasph/wrapit, based on clang and which is already well advanced."
@@ -2392,7 +2363,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "QuEra Computing Sponsor Talk",
-  "abstract": "TODO"
+  "abstract": "QuEra is a neutral-atom based quantum computing startup located in the heart of Boston near Harvard University."
  },
  {
   "content_locale": "en",
@@ -2479,7 +2450,7 @@
     "biography": "Associate Professor Yoni Nazarathy from the University of Queensland Australia, specializes in data science, probability and statistics. His specific research interests include scheduling, control, queueing theory, and machine learning. He has been at The University of Queensland for over a decade, teaching courses in the Masters of Data Science program and working on research. Prior to his previous academic positions in Melbourne and the Netherlands, he worked in the aerospace industry in Israel. He is the co-author of a data science book, [Statistics with Julia: Fundamentals for Data Science, Machine Learning and Artificial Intelligence](https://statisticswithjulia.org/) as well as an ongoing book with drafts available [The Mathematical Engineering of Deep Learning](https://deeplearningmath.org/)."
    }
   ],
-  "description": "This Juliacon 2022 workshop in Hebrew (עברית) is aimed at data-scientists, machine learning engineers, and statisticians that have experience with a language like Python or R, but have not used Julia previously. In learning to use Julia, a contemporary \"stats based\" approach is taken focusing on short scripts that achieve concrete goals. This is similar to the approach of the [Statistics with Julia book](https://statisticswithjulia.org/). \r\n\r\nThe primary focus is on statistical applications and packages. The Julia language is covered as a by-product of the applications. Thus, this workshop is much more of a how to use Julia for stats course than a how to program in Julia course. This approach may be suitable for statisticians and data-scientists that tend to do their day-to-day scripting with a data and model based approach - as opposed to a software development approach.\r\n\r\nAn extensive Jupyter notebook for the workshop together with data files is [here](https://github.com/yoninazarathy/JuliaCon2021-StatisticsWithJuliaFromTheGroundUp) (2022 version to be updated soon). You can install it to follow along. The Jupyter notebook is not in Hebrew. \r\n\r\nIf you don't already have Julia with IJulia (Jupyter) installed, you can follow the instructions in [this video](https://www.youtube.com/watch?v=KJleqSITuRo). It is recommended that you have Julia 1.7.3 or higher installed.",
+  "description": "This Juliacon 2022 workshop in Hebrew (עברית) is aimed at data-scientists, machine learning engineers, and statisticians that have experience with a language like Python or R, but have not used Julia previously. In learning to use Julia, a contemporary \"stats based\" approach is taken focusing on short scripts that achieve concrete goals. This is similar to the approach of the [Statistics with Julia book](https://statisticswithjulia.org/). \r\n\r\nThe primary focus is on statistical applications and packages. The Julia language is covered as a by-product of the applications. Thus, this workshop is much more of a how to use Julia for stats course than a how to program in Julia course. This approach may be suitable for statisticians and data-scientists that tend to do their day-to-day scripting with a data and model based approach - as opposed to a software development approach.\r\n\r\nAn extensive Jupyter notebook for the workshop together with data files is [here](https://github.com/yoninazarathy/StatisticsWithJuliaFromTheGroundUp-2022). You can install it to follow along. The Jupyter notebook is not in Hebrew. \r\n\r\nIf you don't already have Julia with IJulia (Jupyter) installed, you can follow the instructions in [this video](https://www.youtube.com/watch?v=KJleqSITuRo). It is recommended that you have Julia 1.7.3 or higher installed.",
   "image": "https://pretalx.com/media/juliacon-2022/submissions/F7WDXE/statsJulia_NmURM8n.png",
   "slot_count": 1,
   "slot": {
@@ -2495,7 +2466,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Introduction to Julia with a focus on statistics (in Hebrew)",
-  "abstract": "This (Hebrew language) workshop provides an introduction to the Julia language for machine learning engineers, data-scientists, and statisticians. No prior experience with Julia is assumed. Attendees will gain a solid entry point for using Julia as their preferred data analysis tool. If don't speak Hebrew and still want to learn about statistics with Julia, you can follow a [similar workshop in English](https://www.youtube.com/watch?v=IlPoU5Yr2QI) that was presented at the 2021 JuliaCon."
+  "abstract": "This session has moved to Zoom. Please join with Zoom ID: 6376486897 at 2PM Israel time. \r\n\r\nThis (Hebrew language) workshop provides an introduction to the Julia language for machine learning engineers, data-scientists, and statisticians. Attendees will gain a solid entry point for using Julia as their preferred data analysis tool."
  },
  {
   "content_locale": "en",
@@ -2562,7 +2533,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "ASML Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "We make machines that make chips; the hearts of the devices that keep us informed, entertained and safe."
  },
  {
   "content_locale": "en",
@@ -2585,11 +2556,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/FLB8G9/cutebanner_0Bjgd4Z.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:10:00Z",
+   "start": "2022-07-28T20:10:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Red"
    },
-   "end": "2022-07-29T19:20:00Z"
+   "end": "2022-07-28T20:20:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -2640,7 +2611,7 @@
   "state": "confirmed",
   "duration": 45,
   "speakers": [],
-  "description": "",
+  "description": "Enterprise adoption for Julia can be a difficult process for developers and engineers to champion. In this sponsored forum, we invite leading industry experts to talk about the common challenges organizations face when bringing Julia and Julia based solutions onboard. We will also discuss best practices and practical ways to approach integration. The audience will be provided the opportunity to submit questions as well.\r\n\r\n1. James Lee, Julius Technologies\r\n2. Tom Kwong, Meta \r\n3. Dr. Chris Rackauckas, Julia Computing\r\n4. Jarrett Revels, Beacon Biosignals",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -2656,7 +2627,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julius Tech Sponsored Forum",
-  "abstract": "TODO"
+  "abstract": "Enterprise adoption for Julia can be a difficult process for developers and engineers to champion. In this sponsored forum, we invite leading industry experts to talk about the common challenges organizations face when bringing Julia and Julia based solutions onboard. We will also discuss best practices and practical ways to approach integration."
  },
  {
   "content_locale": "en",
@@ -2708,42 +2679,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Invenia Sponsored Talk",
-  "abstract": "TODO"
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "FX788D",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "withdrawn",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Simon Danisch",
-    "code": "JSJDXE",
-    "biography": "Simon is a freelance software engineer who has been part of the Julia community for more than 9 years and is the author of many Julia packages:\r\n* Makie\r\n* GeometryBasics\r\n* GPUArrays\r\n* PackageCompiler\r\n* JSServe\r\n* FileIO"
-   }
-  ],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-29T12:50:00Z",
-   "room": {
-    "en": "Blue"
-   },
-   "end": "2022-07-29T13:00:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Best of Makie",
-  "abstract": "Explaining and showing off the latest Makie features with the best showcases from the Makieverse."
+  "abstract": "We are a team of scientists and engineers working together to solve the social, economic and environmental issues that we face in the world today."
  },
  {
   "content_locale": "en",
@@ -2807,11 +2743,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/FZ38VW/Plate_25_old_4KYrheV.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T13:00:00Z",
+   "start": "2022-07-29T12:50:00Z",
    "room": {
     "en": "Blue"
    },
-   "end": "2022-07-29T13:10:00Z"
+   "end": "2022-07-29T13:00:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -2990,7 +2926,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Relational AI Sponsored Forum",
-  "abstract": "TODO"
+  "abstract": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason."
  },
  {
   "content_locale": "en",
@@ -3068,7 +3004,7 @@
     "biography": "I am a post-doc at \"La Sapienza\" University of Rome, working in the group of Giorgio Parisi. I mostly study disordered systems like amorphous solids, but I am interested in several topics related to statistical physics. I am Mexican and obtained my BSc and MSc degrees in the National University of Mexico, and then moved to Rome for my PhD."
    }
   ],
-  "description": "",
+  "description": "You can find the complete description of our algorithm in [this preprint](https://arxiv.org/abs/2203.05654). \r\nThe package can be installed directly from Julila's package manager, and the documentation is available [here](https://rdhr.github.io/CALiPPSO.jl/dev/index.html)",
   "image": "https://pretalx.com/media/juliacon-2022/submissions/HCEGRV/CanicasEnRCP_yLvoHXh.png",
   "slot_count": 1,
   "slot": {
@@ -3084,7 +3020,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "CALiPPSO.jl: Jamming of Hard-Spheres via Linear Optimization",
-  "abstract": "I will describe the CALiPPSO.jl package, which implements a new algorithm for producing [disordered packings spheres](shorturl.at/hOS47)with very high accuracy. Our method maps the packing problem of hard spheres into a chain of constrained linear optimization problems. CALiPPSO.jl exploits the functionality of JuMP for modelling and is thus compatible with several optimizers in Julia (Gurobi, GLPK, etc.). In collaboration with C. Artiaco, G. Parisi and F. Ricci Tersenghi."
+  "abstract": "The CALiPPSO.jl package implements a new algorithm for producing *disordered* [spheres packings](https://en.wikipedia.org/wiki/Sphere_packing) with very high accuracy. The algorithm reaches the critical jamming point of hard spheres through a chain of constrained linear optimization problems. CALiPPSO.jl exploits the functionality of JuMP for modelling and is thus compatible with several optimizers. In collaboration with C. Artiaco, G. Parisi, and F. Ricci Tersenghi."
  },
  {
   "content_locale": "en",
@@ -3276,11 +3212,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-27T22:00:00Z",
+   "start": "2022-07-27T20:30:00Z",
    "room": {
     "en": "Green"
    },
-   "end": "2022-07-27T23:00:00Z"
+   "end": "2022-07-27T21:30:00Z"
   },
   "submission_type": {
    "en": "Social hour"
@@ -3339,7 +3275,7 @@
     "avatar": null,
     "name": "David Anthoff",
     "code": "7JQFVF",
-    "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. He co-develops the integrated assessment model FUND that is used widely in academic research and in policy analysis. His research has appeared in Nature, Science, the American Economic Review, Nature Climate Change, the Journal of the Association of Environmental and Resource Economists and other academic journals. He contributed a background research paper to the Stern Review and has advised numerous organizations (including US EPA, the German Bundesumweltamt and the Canadian National Round Table on the Environment and the Economy) on the economics of climate change.\r\n\r\nHe is an associate professor in the Energy and Resources Group at the University of California, Berkeley. Previously he was an assistant professor in the School of Natural Resources and the Environment of the University of Michigan, a postdoc at the University of California, Berkeley and a postdoc at the Economic and Social Research Institute in Ireland. He also was a visiting research fellow at the Smith School of Enterprise and the Environment, University of Oxford.\r\n\r\nHe holds a PhD (Dr. rer. pol.) in economics from the University of Hamburg (Germany) and the International Max Planck Research School on Earth System Modelling, a MSc in Environmental Change and Management from the University of Oxford (UK) and a M.Phil. in philosophy, logic and philosophy of science from Ludwig-Maximilians-Universität München (Munich, Germany)."
+    "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. His research has appeared in Nature, Science, the American Economic Review, Nature Climate Change, the Journal of the Association of Environmental and Resource Economists and other academic journals. He is an associate professor in the Energy and Resources Group at the University of California, Berkeley."
    }
   ],
   "description": "",
@@ -3419,7 +3355,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Pumas Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "With deep expertise in allied fields of clinical pharmacology, pharmacometrics, drug development, regulations and advanced data analytics including machine learning, Pumas-AI works with companies, laboratories and universities as their healthcare intelligence partner."
  },
  {
   "content_locale": "en",
@@ -3445,7 +3381,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "G Research Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "G-Research is Europe’s leading quantitative finance research firm"
  },
  {
   "content_locale": "en",
@@ -3496,7 +3432,7 @@
     "avatar": null,
     "name": "David Anthoff",
     "code": "7JQFVF",
-    "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. He co-develops the integrated assessment model FUND that is used widely in academic research and in policy analysis. His research has appeared in Nature, Science, the American Economic Review, Nature Climate Change, the Journal of the Association of Environmental and Resource Economists and other academic journals. He contributed a background research paper to the Stern Review and has advised numerous organizations (including US EPA, the German Bundesumweltamt and the Canadian National Round Table on the Environment and the Economy) on the economics of climate change.\r\n\r\nHe is an associate professor in the Energy and Resources Group at the University of California, Berkeley. Previously he was an assistant professor in the School of Natural Resources and the Environment of the University of Michigan, a postdoc at the University of California, Berkeley and a postdoc at the Economic and Social Research Institute in Ireland. He also was a visiting research fellow at the Smith School of Enterprise and the Environment, University of Oxford.\r\n\r\nHe holds a PhD (Dr. rer. pol.) in economics from the University of Hamburg (Germany) and the International Max Planck Research School on Earth System Modelling, a MSc in Environmental Change and Management from the University of Oxford (UK) and a M.Phil. in philosophy, logic and philosophy of science from Ludwig-Maximilians-Universität München (Munich, Germany)."
+    "biography": "David Anthoff is an environmental economist who studies climate change and environmental policy. His research has appeared in Nature, Science, the American Economic Review, Nature Climate Change, the Journal of the Association of Environmental and Resource Economists and other academic journals. He is an associate professor in the Energy and Resources Group at the University of California, Berkeley."
    },
    {
     "avatar": null,
@@ -3575,7 +3511,7 @@
     "biography": "I am a research scientist at the IBM Research Europe (Dublin Research Lab) working in the areas of analytics, datamining, machine learning, reinforcement learning, automated decisions, and AI.\r\n\r\nI finished my Doctor of Engineering degree from the Toyohashi University of Technology in Japan (2005). I have a Master's degree in Computer Science majoring in Artificial Intelligence (Ateneo de Manila University, 1995) and a Bachelor's degree in Applied Mathematics (cum laude, valedictorian) at the University of the Philippines in the Visayas (1991).\r\n\r\nI created and maintain the following Julia packages:\r\n- [AutoMLPipeline (Automated Machine Learning Pipeline)](https://github.com/IBM/AutoMLPipeline.jl)\r\n- [TSML (Time Series Machine Learning)](https://github.com/IBM/TSML.jl)\r\n- [Julia wrapper for Lale in Python](https://github.com/IBM/Lale.jl)"
    }
   ],
-  "description": "There is a growing need for low-power computing devices due to their minimal thermal and energy footprint to be used in many HPC applications such as weather forecasting, ocean engineering, smarthome computing, biocomputing, AI modeling, etc.  Arm-based processors such RaspberryPis provide an attractive solution because they are cheap, versatile, and has great Linux hardware support as well as stable Julia releases. Due to its full Linux compatibility, making a K8s cluster from a bunch of Raspis become a trivial exercise as well as running Julia's cluster manager on top of K8s. This talk will provide some use-cases how to leverage Julia+Raspis+K8s combinations to solve certain ML pipeline optimization tasks.",
+  "description": "There is a growing need for low-power computing devices due to their minimal thermal and energy footprint to be used in many HPC applications such as weather forecasting, ocean engineering, smarthome computing, biocomputing, AI modeling, etc.  ARM-based processors such RasPis provide an attractive solution because they are cheap, versatile, and has great Linux hardware support as well as stable Julia releases. Due to its full Linux compatibility, making a K8s cluster from a bunch of RasPis become a trivial exercise as well as running Julia's cluster manager on top of K8s. This talk will provide an overview and an example walk-through how to leverage Julia+Raspis+K8s combinations to solve certain ML pipeline optimization tasks.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -3591,7 +3527,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Distributed AutoML Pipeline Search in PC/RasPi K8s Cluster",
-  "abstract": "In this lightning talk, I will discuss my experience in leveraging the Kubernetes cluster of Raspberry Pis to perform parallel search in finding the best AutoML pipeline in a given classification task. While many applications of Raspis are targeted for IOT usage, a K8s cluster of Raspis running Julia can be targeted to solve more complex problems and I will provide examples of the cluster performance running AutoMLPipeline applications."
+  "abstract": "In this lightning talk, I will present an example workflow in leveraging the Kubernetes cluster of RaspberryPis to perform parallel search in finding the best AutoML pipeline in a given classification task. While many applications of RasPis are targeted for IOT usage, a K8s cluster of RasPis running Julia can be targeted to solve more complex problems and I will provide examples of the cluster performance running AutoMLPipeline applications."
  },
  {
   "content_locale": "en",
@@ -3824,11 +3760,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/KPXD3Y/ReinML_DWUFhzm.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T11:50:00Z",
+   "start": "2022-07-28T10:40:00Z",
    "room": {
     "en": "Green"
    },
-   "end": "2022-07-28T12:00:00Z"
+   "end": "2022-07-28T10:50:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -4164,41 +4100,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "LKHHEX",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/JAR00701_small_Sn3Dzze.jpeg",
-    "name": "Forrest Laine",
-    "code": "NJWMSK",
-    "biography": "Forrest Laine is an Assistant Professor of Computer Science at Vanderbilt University. He completed his PhD and B.S. from UC Berkeley in 2021 and 2015, respectively. His research includes game-theoretic methods for multi-agent decision making, and methods for solving various extended mathematical programming problems. He has worked at several autonomous vehicle companies, and continues to perform research on autonomous systems and robotics in general."
-   }
-  ],
-  "description": "There currently exist great autonomous driving simulators, such as the well-known simulator CARLA. However, CARLA requires either a Linux or Windows machine to run, a GPU with 6GB of memory, and takes up about 20GB of disk-space. These requirements are needed for the realistic rendering that CARLA provides, but can be prohibitive for users looking to get started with autonomous driving. As a professor teaching a course on Autonomous Driving, using CARLA was not an option for my course, since only about one third of the students in the class had the necessary computing resources to run CARLA. Furthermore, since all the programming assignments in the class were given in Julia, I decided to write Interstate.jl, so that students could perform their class project all in Julia as well. \r\n\r\nInterstate.jl is built upon Julia's multi-threading capabilities. Launch files specify the simulation environment (world configuration, number of non-ego agents, sensor configurations, control schemes, etc.), and then spin up a series of tasks which run on separate threads. The primary task is the main simulation task, which is responsible for forward integrating all dynamic object in the scene (called Movables), and if requested by the scenario configuration, performing collision checking and road boundary violations. The \"simulation state\" is then broadcast on a channel so that downstream tasks have access to the state of the world. \r\n\r\nSensors process their measurements in their own tasks. Sensors can be grouped together so that they run in the same task, or can be split up, each into their own task. This can be useful for sensors which require expensive computations, like simulated Lidars. A suite of sensors are already provided in the simulator, including Lidar, Camera, GPS, and Oracle (full state) sensors, and more can easily be added by extending the \"get_meas\" function for your custom sensor. Sensor measurements are then broadcast on their own dedicated channel, which can be ingested by visualization or control tasks.\r\n\r\nMovables are defined by a controllable ODE and geometric properties, and listen in on a dedicated channel to retrieve updated control inputs. Unicycle and Kinematic Bicycle models are included for representing vehicles, and currently all movables are represented as 3D boxes. Other types of movables can easily be added if needed. Control tasks are used to listen to sensor information from the sensing tasks, and publish updated control signals to each independent movable. Currently two simple control schemes are implemented: A keyboard control task, which listens to keyboard input to drive the autonomous vehicle, and a simple lane-keeping controller which keeps vehicles in their target lane and at their desired speed (used for all non-ego agents).\r\n\r\nA suite of world environments are provided which can be used when configuring simulation environments. These currently include an infinite loop, randomly generated long-windy roads, and randomly-generated city environments. The simulated city environments are most useful for localization and mapping pipelines, whereas the loop and windy roads are designed for decision-making and multi-agent interaction problems.  \r\n\r\nFinally, all simulation rendering is done via GLMakie, using a dedicated task for updating observables based on simulation state and sensor inputs. The visualization can be configured for the needs of the simulation at hand. \r\n\r\nGIFs demonstrating some of the basic functionality of the simulator can be seen in the README file of the  simulator repository: https://github.com/4estlaine/Interstate.jl. The simulator is currently not registered on the official Julia registry, although a full release is planned in the coming month after the completion of the school year. Planned features include a more intelligent non-ego driving model, baseline methods for online localization and perception, simulated pedestrians, and more interesting urban/suburban environments. The hope is that this simulator can be widely used by other teachers, students, researchers, and Julia users who work on autonomous driving.",
-  "image": "https://pretalx.com/media/juliacon-2022/submissions/LKHHEX/Interstate.jl_cover_X56plVj.png",
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-28T20:10:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2022-07-28T20:20:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Interstate.jl: A lightweight autonomous driving simulator",
-  "abstract": "Interstate.jl is a lightweight autonomous driving simulator, written entirely in Julia.  Designed for research and teaching students about autonomous vehicles, this simulator can run on any machine, and requires almost no setup to get working. It comes with existing challenge scenarios for student projects, but can easily be extended to other situations for research purposes. Interstate.jl will make it easier for researchers and students to work on autonomous vehicles using Julia."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "LSUKYX",
   "track": {
    "en": "JuMP"
@@ -4272,7 +4173,7 @@
     "biography": null
    }
   ],
-  "description": "As we approach the era of exascale computing, scalable performance and fast development on extremely heterogeneous hardware have become ever more important aspects for high-performance computing (HPC). Scientists and developers with interest in Julia for HPC need to know how to leverage the capabilities of the  language and ecosystem to address these issues and which tools and best practices can help them to achieve their performance goals.\r\n\r\nWhat do we mean by HPC? While HPC can be mainly associated with running large-scale physical simulations like computational fluid dynamics, molecular dynamics, high-energy physics, climate models etc., we use a more inclusive definition beyond the scope of computational science and engineering. More recently, rapid prototyping with high-productivity languages like Julia, machine learning training, data management, computer science research, research software engineering, large scale data visualization and in-situ analysis have expanded the scope for defining HPC. For us, the core of HPC is not to run simple test problems faster but involves everything that enables solving challenging problems in simulation or data science, on heterogeneous hardware platforms, from a high-end workstation to the world's largest supercomputers powered with different vendors CPUs and accelerators (e.g. GPUs).\r\n\r\nIn this two-hour minisymposium, we will give an overview of the current state of affairs of Julia for HPC in a series of eight 10-minute talks. The focus of these overview talks is to introduce and motivate the audience by highlighting aspects making the Julia language beneficial for scientific HPC workflows such as scalable deployments, compute accelerator support, user support, and HPC applications. In addition, we have reserved some time for participants to interact, discuss and share the current landscape of their investments in Julia HPC, while encouraging networking with their colleagues over topics of common interest.\r\n\r\nThe minisymposium schedule, with confirmed speakers and topics, is as follows:\r\n\r\n* 0:00: *William F Godoy (ORNL) & Michael Schlottke-Lakemper (U Stuttgart/HLRS):* **Julia for High-Performance Computing**\r\n* 0:05: *Samuel Omlin (CSCS):* **Scalability of the Julia/GPU stack**\r\n* 0:15: *Simon Byrne (Caltech/CliMA):* **MPI.jl**\r\n* 0:25: Q&A\r\n* 0:30: *Tim Besard (Julia Computing):* **CUDA.jl: Update on new features and developments**\r\n* 0:40: *Julian Samaroo (MIT):* **AMDGPU.jl: State of development and roadmap to the future**\r\n* 0:50: Q&A\r\n* 1:00: *Albert Reuther (MIT):* **Supporting Julia Users at MIT LL Supercomputing Center**\r\n* 1:10: *Johannes Blaschke (NERSC):* **Supporting Julia users on NERSC’s “Cori” and “Perlmutter” systems**\r\n* 1:20: Q&A\r\n* 1:25: *Michael Schlottke-Lakemper (U Stuttgart/HLRS):* **Running Julia code in parallel with MPI: Lessons learned**\r\n* 1:35: *Ludovic Räss (ETH Zurich):* **Julia and GPU-HPC for geoscience applications**\r\n* 1:45: Q&A, Discussion & Wrap up\r\n\r\nThe overall goal of the minisymposium is to identify and summarize current practices, limitations, and future developments as Julia experiences growth and positions itself in the larger HPC community due to its appeal in scientific computing. It also exemplifies the strength of the existing Julia HPC community that collaboratively prepared this event. We are an international, multi institutional, and multi disciplinary group interested in advancing Julia for HPC applications in our academic and national laboratory environments. We would like to welcome new people from multiple backgrounds sharing our interest and bring them together in this minisymposium.\r\n\r\nIn this spirit, the minisymposium will serve as a starting point for further Julia HPC activities at JuliaCon 2022. During the main conference, a Birds of Feather session will provide an opportunity to bring together the community for more discussions and to allow new HPC users to join the conversation. Furthermore, a number of talks will be dedicated to topics relevant for HPC developers and users alike.",
+  "description": "**YouTube Link:** https://www.youtube.com/watch?v=fog1x9rs71Q\r\n\r\nAs we approach the era of exascale computing, scalable performance and fast development on extremely heterogeneous hardware have become ever more important aspects for high-performance computing (HPC). Scientists and developers with interest in Julia for HPC need to know how to leverage the capabilities of the  language and ecosystem to address these issues and which tools and best practices can help them to achieve their performance goals.\r\n\r\nWhat do we mean by HPC? While HPC can be mainly associated with running large-scale physical simulations like computational fluid dynamics, molecular dynamics, high-energy physics, climate models etc., we use a more inclusive definition beyond the scope of computational science and engineering. More recently, rapid prototyping with high-productivity languages like Julia, machine learning training, data management, computer science research, research software engineering, large scale data visualization and in-situ analysis have expanded the scope for defining HPC. For us, the core of HPC is not to run simple test problems faster but involves everything that enables solving challenging problems in simulation or data science, on heterogeneous hardware platforms, from a high-end workstation to the world's largest supercomputers powered with different vendors CPUs and accelerators (e.g. GPUs).\r\n\r\nIn this two-hour minisymposium, we will give an overview of the current state of affairs of Julia for HPC in a series of eight 10-minute talks. The focus of these overview talks is to introduce and motivate the audience by highlighting aspects making the Julia language beneficial for scientific HPC workflows such as scalable deployments, compute accelerator support, user support, and HPC applications. In addition, we have reserved some time for participants to interact, discuss and share the current landscape of their investments in Julia HPC, while encouraging networking with their colleagues over topics of common interest.\r\n\r\nThe minisymposium schedule, with confirmed speakers and topics, is as follows:\r\n\r\n* 0:00: *William F Godoy (ORNL) & Michael Schlottke-Lakemper (U Stuttgart/HLRS):* **Julia for High-Performance Computing**\r\n* 0:05: *Samuel Omlin (CSCS):* **Scalability of the Julia/GPU stack**\r\n* 0:15: *Simon Byrne (Caltech/CliMA):* **MPI.jl**\r\n* 0:25: Q&A\r\n* 0:30: *Tim Besard (Julia Computing):* **CUDA.jl: Update on new features and developments**\r\n* 0:40: *Julian Samaroo (MIT):* **AMDGPU.jl: State of development and roadmap to the future**\r\n* 0:50: Q&A\r\n* 1:00: *Albert Reuther (MIT):* **Supporting Julia Users at MIT LL Supercomputing Center**\r\n* 1:10: *Johannes Blaschke (NERSC):* **Supporting Julia users on NERSC’s “Cori” and “Perlmutter” systems**\r\n* 1:20: Q&A\r\n* 1:25: *Michael Schlottke-Lakemper (U Stuttgart/HLRS):* **Running Julia code in parallel with MPI: Lessons learned**\r\n* 1:35: *Ludovic Räss (ETH Zurich):* **Julia and GPU-HPC for geoscience applications**\r\n* 1:45: Q&A, Discussion & Wrap up\r\n\r\nThe overall goal of the minisymposium is to identify and summarize current practices, limitations, and future developments as Julia experiences growth and positions itself in the larger HPC community due to its appeal in scientific computing. It also exemplifies the strength of the existing Julia HPC community that collaboratively prepared this event. We are an international, multi institutional, and multi disciplinary group interested in advancing Julia for HPC applications in our academic and national laboratory environments. We would like to welcome new people from multiple backgrounds sharing our interest and bring them together in this minisymposium.\r\n\r\nIn this spirit, the minisymposium will serve as a starting point for further Julia HPC activities at JuliaCon 2022. During the main conference, **a Birds of Feather session** will provide an opportunity to bring together the community for more discussions and to allow new HPC users to join the conversation. Furthermore, a number of talks will be dedicated to topics relevant for HPC developers and users alike.",
   "image": "https://pretalx.com/media/juliacon-2022/submissions/LUWYRJ/Julia_for_HPC-minisymposium-juliacon22_AKrxsio.png",
   "slot_count": 1,
   "slot": {
@@ -4370,11 +4271,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-27T20:30:00Z",
+   "start": "2022-07-27T18:00:00Z",
    "room": {
-    "en": "Green"
+    "en": "BoF"
    },
-   "end": "2022-07-27T22:00:00Z"
+   "end": "2022-07-27T19:30:00Z"
   },
   "submission_type": {
    "en": "Virtual poster session"
@@ -4580,11 +4481,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:50:00Z",
+   "start": "2022-07-29T16:50:00Z",
    "room": {
-    "en": "Red"
+    "en": "Green"
    },
-   "end": "2022-07-29T20:00:00Z"
+   "end": "2022-07-29T17:00:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -4628,6 +4529,41 @@
   "do_not_record": false,
   "title": "Julia Gaussian Processes",
   "abstract": "Julia Gaussian Processes (Julia GPs) is home to an ecosystem of packages whose aim is to enable research and modelling using GPs in Julia. It specifies a variety of interfaces, code which implements these interfaces in standard settings, and code built on top of these interfaces (e.g. plotting). The composability and modularity of these interfaces distinguishes it from other GP software. This talk will explore the things that you can currently do with the ecosystem, and where it’s heading."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "NEKFDC",
+  "track": {
+   "en": "JuliaCon"
+  },
+  "state": "confirmed",
+  "duration": 10,
+  "speakers": [
+   {
+    "avatar": null,
+    "name": "Prem Chintalapudi",
+    "code": "CVAUHS",
+    "biography": "M. Eng. student at MIT"
+   }
+  ],
+  "description": "Julia's JIT compiler converts Julia IR to LLVM IR, optimizes it, and converts it to machine code for efficient subsequent execution. However, much of this process relies on shared global resources, such as a global LLVM context, the pass manager that runs the optimization, and various data caches. This has necessitated the presence of a global lock to prevent multiple threads from simultaneously modifying this data. Furthermore, as generation of LLVM IR and type inference may co-recurse indefinitely, type inference also acquires and holds the same lock during its execution. This serialized compilation process increases the startup time of multithreaded environments (often referred to as time-to-first-plot, TTFP) and prevents our execution environment from performing more complex transformations, such as speculative and parallel compilation. \r\n\r\nThus far, refactorings of our IR generation pipeline have reduced the number of global variables used in the compiler and added finer grained locks to our JIT stack in preparation for removing the global locks. At this stage, much of the remaining challenge in removing the global lock is in proving thread safety and progressively reducing the scope of the lock until the minimum amount of critical code is protected. Once that work has completed, work on speculative optimization and IR generation can begin, which should bring additional improvements to TTFP for situations without multiple contending compilation threads.",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2022-07-28T16:30:00Z",
+   "room": {
+    "en": "Purple"
+   },
+   "end": "2022-07-28T16:40:00Z"
+  },
+  "submission_type": {
+   "en": "Lightning talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Unlocking Julia's LLVM JIT Compiler",
+  "abstract": "Julia's compiler spends almost all of its time generating, optimizing, and compiling LLVM IR. Currently, much of this work is done under one giant lock, which is also held during type inference, reducing compiler throughput in a multithreaded environment. By using finer-grained locking and handling LLVM IR in a threadsafe manner, we can reduce contention of compilation resources. This work also leads into future JIT optimizations such as lazy, parallel, and speculative compilation of Julia code."
  },
  {
   "content_locale": "en",
@@ -4711,10 +4647,10 @@
     "avatar": null,
     "name": "Erin LeDell",
     "code": "CZATPB",
-    "biography": null
+    "biography": "Dr. Erin LeDell is the Chief Machine Learning Scientist at H2O.ai, where she develops the open source, distributed machine learning platform, H2O, and is the founder of the H2O AutoML project. She has a Ph.D. in Biostatistics with a Designated Emphasis in Computational Science and Engineering from University of California, Berkeley. Her research focuses on automatic machine learning, ensemble machine learning and statistical computing. She also holds a B.S. and M.A. in Mathematics.\r\n\r\nBefore joining H2O.ai, she was the Principal Data Scientist at Wise.io and Marvin Mobile Security, and the founder of DataScientific, Inc. She is also founder of the Women in Machine Learning and Data Science (WiMLDS) organization (wimlds.org) and co-founder of R-Ladies Global (rladies.org)."
    }
   ],
-  "description": "",
+  "description": "Keynote- Erin LeDell",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -4729,43 +4665,8 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Keynote #1 (Wednesday)",
-  "abstract": "TODO"
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "NZGX7D",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "withdrawn",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Simon Byrne",
-    "code": "PKSECG",
-    "biography": "Dr Simon Byrne is the lead software engineer on the CliMA project, and has been using and contributing to Julia since 2012."
-   }
-  ],
-  "description": "d\r\nEarth system models are extremely complex: they involve a plethora of complicated physical processes, across multiple domains, using a variety of spatial and temporal discretizations, which need to interoperat, and scale to a large to large number of parallel processes.\r\n\r\nThis talk will describe some of the approaches and abstractions we’ve built to manage this complexity, including low-level memory layouts, coordinate systems and vector bases, function spaces and differential operators, and different modes of parallelism.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-27T19:30:00Z",
-   "room": {
-    "en": "Red"
-   },
-   "end": "2022-07-27T20:00:00Z"
-  },
-  "submission_type": {
-   "en": "Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Software abstractions for Earth System Modeling",
-  "abstract": "The CliMA (Climate Modeling Alliance) project is building a next-generation earth system model (ESM) in Julia. In this talk we will discuss some of the significant challenges from a software engineering point of view, and some of the approaches we used."
+  "title": "Keynote- Erin LeDell",
+  "abstract": "Keynote- Erin LeDell"
  },
  {
   "content_locale": "en",
@@ -5207,10 +5108,10 @@
     "biography": "Senior research scientist at Wellesley College, studying the human microbiome and its effects on cognitive development."
    },
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/Headshot_cropped_square_9ONQqF6.jpg",
     "name": "Anika Luo",
     "code": "JURY3H",
-    "biography": "Undergraduate Researcher at Wellesley College"
+    "biography": "I am a Biochemistry major and Music minor at Wellesley College, and I plan to pursue a Ph.D. in Biomedical Sciences. My career goal is to conduct research in biomedical science and advance the field of pharmaceutical medicine. As an undergraduate researcher in the Klepac-Ceraj Lab, I have worked on various engineering and computational projects with Dr. Kevin Bonham in which I have built tools to study microbial communities and to streamline analysis of metagenomic data. My current project investigates a method of using gut microbes to restore normal function in neurotransmitter deficient Caenorhabditis elegans, which may have important therapeutic implications for neurological conditions."
    },
    {
     "avatar": "https://pretalx.com/media/avatars/Annelle_sNeCOb8.png",
@@ -5223,11 +5124,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:40:00Z",
+   "start": "2022-07-28T20:00:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Red"
    },
-   "end": "2022-07-29T19:50:00Z"
+   "end": "2022-07-28T20:10:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -5236,32 +5137,6 @@
   "do_not_record": false,
   "title": "Microbiome.jl & BiobakeryUtils.jl for analyzing metagenomic data",
   "abstract": "Microbiome.jl is a Julia package to facilitate analysis of microbial community data. BiobakeryUtils.jl is built on top of Microbiome.jl, and provides utilities for working with a suite of command line tools (the bioBakery) that are widely used for converting raw metagenomic sequencing data into tables of taxon and gene function counts. Together, these packages provide an effective way to link microbial community data with the power of Julia’s numerical, statistical, and plotting libraries."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "PXX9ZM",
-  "track": null,
-  "state": "confirmed",
-  "duration": 60,
-  "speakers": [],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-27T18:00:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2022-07-27T19:00:00Z"
-  },
-  "submission_type": {
-   "en": "Social hour"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "GatherTown -- Social break",
-  "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
  },
  {
   "content_locale": "en",
@@ -5286,7 +5161,7 @@
     "biography": null
    }
   ],
-  "description": "## Overview\r\n\r\nIn their simplest manifestation, machine learning algorithms extract,\r\nor \"learn\", from historical data some essential properties enabling\r\nthem to respond intelligently to new data (typically,\r\nautomatically). For example, spam filters predict whether to designate\r\na new email as \"junk\", based on how a user previously designated a\r\nlarge number of previous messages. A property valuation site suggests\r\nthe sale price for a new home, given its location and other\r\nattributes, based on a database of previous sales.\r\n\r\nJulia is uniquely positioned to accelerate developments in machine\r\nlearning and there has been an explosion of Julia machine learning\r\nlibraries. [MLJ](https://alan-turing-institute.github.io/MLJ.jl/dev/)\r\n(Machine Learning in Julia) is a popular toolbox providing a common\r\ninterface for interacting with over 180 machine learning models\r\nwritten in Julia and other languages. This workshop will introduce\r\nbasic machine learning concepts, and walk participants through enough\r\nJulia to get started using MLJ.\r\n\r\n\r\n## Prerequisites\r\n\r\n- **Essential.** A computer with [Julia 1.7.3](https://github.com/ablaom/HelloJulia.jl/blob/dev/FIRST_STEPS.md) installed.\r\n\r\n- **Strongly recommended,** Workshop resources pre-installed. See [here](https://github.com/ablaom/HelloJulia.jl/wiki/JuliaCon-2022-workshop:-Getting-started-with-Julia-and-MLJ).\r\n\r\n- **Recommended.** Basic linear algebra and statistics, such\r\n  as covered in first year university courses.\r\n\r\n- **Recommended but not essential.** Prior experience with a scripting\r\n  language, such as python, MATLAB or R.\r\n\r\n## Objectives\r\n\r\n- Acquire an appreciation of what makes Julia different from other\r\n  scripting languages, its strengths and weaknesses\r\n\r\n- Install a working version of Julia on your computer\r\n\r\n- Be able to carry out basic mathematical operations using Julia,\r\n  perform random sampling, define and apply functions, carry out\r\n  iterative tasks\r\n\r\n- Be able to load data sets and do basic plotting\r\n\r\n- Understand what supervised learning models are, and how to evaluate\r\n  them using a holdout test set or using cross-validation\r\n\r\n- Be able to train and evaluate a supervised learning model using\r\n  the MLJ package\r\n\r\n\r\n## Resources\r\n\r\n[HelloJulia.jl](https://github.com/ablaom/HelloJulia.jl)\r\n\r\n## Format\r\n\r\nThis workshop will be a combination of formal presentation and live\r\ncoding.",
+  "description": "## Overview\r\n\r\nIn their simplest manifestation, machine learning algorithms extract,\r\nor \"learn\", from historical data some essential properties enabling\r\nthem to respond intelligently to new data (typically,\r\nautomatically). For example, spam filters predict whether to designate\r\na new email as \"junk\", based on how a user previously designated a\r\nlarge number of previous messages. A property valuation site suggests\r\nthe sale price for a new home, given its location and other\r\nattributes, based on a database of previous sales.\r\n\r\nJulia is uniquely positioned to accelerate developments in machine\r\nlearning and there has been an explosion of Julia machine learning\r\nlibraries. [MLJ](https://alan-turing-institute.github.io/MLJ.jl/dev/)\r\n(Machine Learning in Julia) is a popular toolbox providing a common\r\ninterface for interacting with over 180 machine learning models\r\nwritten in Julia and other languages. This workshop will introduce\r\nbasic machine learning concepts, and walk participants through enough\r\nJulia to get started using MLJ.\r\n\r\n\r\n## Prerequisites\r\n\r\n- **Essential.** A computer with [Julia 1.7.3](https://github.com/ablaom/HelloJulia.jl/blob/dev/FIRST_STEPS.md) installed.\r\n\r\n- **Strongly recommended,** Workshop resources pre-installed. See [here](https://github.com/ablaom/HelloJulia.jl/wiki/JuliaCon-2022-workshop:-Getting-started-with-Julia-and-MLJ).\r\n\r\n- **Recommended.** Basic linear algebra and statistics, such\r\n  as covered in first year university courses.\r\n\r\n- **Recommended but not essential.** Prior experience with a scripting\r\n  language, such as python, MATLAB or R.\r\n\r\n## Objectives\r\n\r\n- Be able to carry out basic mathematical operations using Julia,\r\n  perform random sampling, define and apply functions, carry out\r\n  iterative tasks\r\n\r\n- Be able to load data sets and do basic plotting\r\n\r\n- Understand what supervised learning models are, and how to evaluate\r\n  them using a holdout test set or using cross-validation\r\n\r\n- Be able to train and evaluate a supervised learning model using\r\n  the MLJ package\r\n\r\n\r\n## Resources\r\n\r\n[HelloJulia.jl](https://github.com/ablaom/HelloJulia.jl)\r\n\r\n## Format\r\n\r\nThis workshop will be a combination of formal presentation and live\r\ncoding.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -5302,7 +5177,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Getting started with Julia and Machine Learning",
-  "abstract": "A three-hour introductory workshop for newcomers to Julia and machine\r\nlearning. Participants will have training in some technical domain,\r\nfor example, in science, economics or engineering. However, no prior\r\nexperience with Julia or machine learning is needed."
+  "abstract": "A three-hour introductory workshop for newcomers to Julia and machine\r\nlearning. Participants will have training in some technical domain,\r\nfor example, in science, economics or engineering. While no prior\r\nexperience with Julia or machine learning is needed, it is assumed \r\nparticipants have Julia 1.7 installed on their computer."
  },
  {
   "content_locale": "en",
@@ -5535,20 +5410,48 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "R8VHSS",
-  "track": null,
+  "code": "R7AYWY",
+  "track": {
+   "en": "JuliaCon"
+  },
   "state": "confirmed",
-  "duration": 15,
+  "duration": 10,
   "speakers": [],
   "description": "",
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T15:15:00Z",
+   "start": "2022-07-27T17:40:00Z",
    "room": {
     "en": "Green"
    },
-   "end": "2022-07-28T15:30:00Z"
+   "end": "2022-07-27T17:50:00Z"
+  },
+  "submission_type": {
+   "en": "Gold sponsor talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "AWS Sponsor Talk",
+  "abstract": "Amazon Web Services sponsor Talk"
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "R8VHSS",
+  "track": null,
+  "state": "confirmed",
+  "duration": 15,
+  "speakers": [],
+  "description": "Julius offers an auto-scaling, low code graph computing solution that allows firms to quickly build transparent and adaptable data analytics pipelines. Graph computing is an innovative technology that enables developers to organize pipelines as directed acyclic graphs (DAGs). With Julius, DAGs representing complex workflows are created by composing smaller modular DAGs, and can be applied to many enterprise use cases including: explainable ML, big data analytics, data visualization and transformation, AAD, and more.\r\n\r\nFor Julia users, we provide a dynamic platform to help developers make Julia more manageable and adoptable for enterprise computing. Engineers can produce enterprise scale solutions in a fraction of the time and cost.",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2022-07-28T15:30:00Z",
+   "room": {
+    "en": "Green"
+   },
+   "end": "2022-07-28T15:45:00Z"
   },
   "submission_type": {
    "en": "Platinum sponsor talk"
@@ -5556,7 +5459,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julius Tech Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "Julius offers an auto-scaling, low code graph computing solution that allows firms to quickly build transparent and adaptable data analytics pipelines."
  },
  {
   "content_locale": "en",
@@ -5721,13 +5624,13 @@
   "duration": 10,
   "speakers": [
    {
-    "avatar": null,
-    "name": "Giovanni P",
+    "avatar": "https://pretalx.com/media/avatars/23FAA3CB-1EE2-4731-A34D-4F09E47FA316_hmTqUdM.JPG",
+    "name": "Giovanni Pagliarini",
     "code": "LNRHHF",
-    "biography": "PhD Student in Mathematics (Logic & Computer Science)\r\nUniversity of Parma & University of Ferrara"
+    "biography": "PhD Student in Mathematics, Logic & Computer Science @ University of Ferrara & Parma, Italy.\r\n\r\nDeveloping, studying and testing new **symbolic learning** methods.\r\n\r\n\\#AI, \\#Interpretability, \\#ModalDecisionTrees!"
    }
   ],
-  "description": "ModalDecisionTrees.jl offers a set of symbolic machine learning techniques based on extensions of classical decision tree learning algorithms (CART and C4.5), which can be used in contexts where transparent and interpretable modeling is needed. The peculiarity of our *Modal Decision Trees* is that they leverage modal logics to perform a rather simple (but powerful) form of entity-relation reasoning; this allows them to capture temporal, spatial, and spatio-temporal patterns, and makes them suitable to natively deal (= no need for feature extraction) with data such as multivariate time-series, images, and videos.\r\nTo fix the ideas, consider the case of time-series classification. While classical trees can only make decisions based on scalar values, and thus can only deal with time-series when they are priorly *flattenedly described* by a set of scalar descriptors (feature extraction step), a *modal* image classification rule can speak in terms of temporal patterns such as *there exists an interval in the time-series where variable i has a certain property, _containing_ another interval where variable j has another property*.\r\nModal logic can express the existence of entities (for example, a time interval, or an image region) with given properties, and properties can be *local*, such as the value of a variable being always lower than a certain threshold within the time interval, or *relational*, such as one entity being *contained* in, or *overlapping* with another one.\r\nThis process involves an intermediate step where data samples are represented as graphs (Kripke structures, in logical jargon) representing entities, their local properties, and their relations.\r\nRules and patterns can of course be as complex (and long) as the reality they try to capture; however, they can always be straightforwardly translatable into natural language, which is the essence of the *transparency* of these models, as well as the main reason why one may want to use this package.\r\nModal decision trees have been shown to achieve higher performances when compared to classical decision trees, in tasks such as multivariate time-series classification (e.g., COVID-19 diagnosis from audio recordings of coughs and breaths) and image classification (e.g., land cover classification).\r\nThe package can be used with ScikitLearn and MLJ, and provides:\r\n- Tools for inspecting models and analyzing the single rules;\r\n- Support for *bagging* (i.e, forests, ensembles of trees), as well as a *neuro-symbolic* approach where the leaf of the tree *is a model itself*, rather than a single classification/regression label.",
+  "description": "Symbolic learning provides *transparent* (or *interpretable*) models, and is becoming increasingly popular as AI permeates more and more aspects of our lives, while simultaneously raising ethical concerns. Mainly based on decision trees and rule-based models, symbolic modeling have been largely studied with either propositional or first-order logic as the underlying logical formalism. These logics are two extremes in terms of *expressive power* and *computational tractability*: on one hand, propositional logic can only express a simple form of reasoning, which makes classical decision trees easy to learn but also unable to deal with non-tabular data; on the other hand, first-order logics can express complex sentences in terms of entities and relations, but at the cost of higher computational complexities. A middle point between the two has been overlooked: modal logic.\r\nModalDecisionTrees.jl offers a set of symbolic machine learning methods based on extensions of classical decision tree learning algorithms (CART and C4.5), that leverage modal logics to perform a rather simple (but powerful) form of entity-relation reasoning; this allows *\"Modal Decision Trees\"* (MDTs) to capture temporal, spatial, and spatio-temporal patterns, and makes them suitable to natively deal (= no need for feature extraction) with data such as multivariate time-series and image data.\r\nTo fix the ideas, consider the case of time-series classification. While classical trees can only make decisions based on scalar values, and thus can only deal with time-series when they are priorly *flattenedly described* by a set of scalar descriptors (feature extraction step), a *modal* image classification rule can speak in terms of temporal patterns such as *there exists an interval in the time-series where variable i has a certain property, _containing_ another interval where variable j has another property*.\r\nModal logic can express the existence of entities (for example, a time interval, or an image region) with given properties, and properties can be *local*, such as the value of a variable being always lower than a certain threshold within the time interval, or *relational*, such as one entity being *contained* in, or *overlapping* with another one.\r\nThis process involves an intermediate step where data samples are represented as graphs (Kripke structures, in logical jargon) representing entities, their local properties, and their relations.\r\nNote how rules and patterns can, of course, be as complex as the reality they are trying to capture; however, they can always be straightforwardly translatable into natural language, which represents the essence of the *transparency* of these models, as well as the main reason why one may want to use this package.\r\nMDTs have been shown to achieve performances that are higher when compared to classical decision trees, and often comparable to those of functional gradient-based methods (e.g., Neural Networks), in tasks such as multivariate time-series classification (e.g., COVID-19 diagnosis from audio recordings of coughs and breaths) and image classification (e.g., land cover classification).\r\nDespite this package being at its infancy, ModalDecisionTrees.jl can be used with the Machine Learning Julia (MLJ) framework, and provides:\r\n- support for *bagging* (i.e, forests, ensembles of trees);\r\n- support for *multimodal* learning;\r\n- tools for inspecting models and analyzing single rules.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -5743,7 +5646,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Decision Trees, meet Modal Logics",
-  "abstract": "Symbolic learning provides *interpretable* models, and is becoming increasingly popular as AI permeates more and more aspects of our lives. Mainly based on decision trees and rule-based models, symbolic modeling have been largely studied with either propositional or predicate logic as the underlying logical formalism. These two logics provide a trade-off between expressive power and computational tractability; but a third choice, middle point between them, has been overlooked: modal logic."
+  "abstract": "ModalDecisionTrees.jl offers a set of symbolic machine learning algorithms that extend classical decision tree learning algorithms, and are able to natively handle time series and image data. *Modal Decision Trees* leverage *modal logics* to perform a primitive-but-powerful form of entity-relation reasoning; this allows them to capture temporal and spatial patterns, and makes them suitable to natively deal (= no need for feature extraction) with data such as multivariate time-series and images."
  },
  {
   "content_locale": "en",
@@ -5995,7 +5898,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Relational AI Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason."
  },
  {
   "content_locale": "en",
@@ -6053,11 +5956,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:20:00Z",
+   "start": "2022-07-28T19:40:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Red"
    },
-   "end": "2022-07-29T19:30:00Z"
+   "end": "2022-07-28T19:50:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -6264,7 +6167,7 @@
    }
   ],
   "description": "The talk is based on https://arxiv.org/abs/2202.02429",
-  "image": null,
+  "image": "https://pretalx.com/media/juliacon-2022/submissions/TSN8ZR/juliacon_talk_image_uVpYXvH.png",
   "slot_count": 1,
   "slot": {
    "start": "2022-07-27T20:00:00Z",
@@ -6319,41 +6222,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "U3M9XK",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Alexis Montoison",
-    "code": "GWJSF8",
-    "biography": "Alexis Montoison\r\n\r\nPhD student, GERAD and Polytechnique Montréal\r\n\r\nMontréal, Canada\r\n\r\nalexis.montoison@polymtl.ca"
-   }
-  ],
-  "description": "",
-  "image": "https://pretalx.com/media/juliacon-2022/submissions/U3M9XK/logo_Q7xGdlX.png",
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-28T16:30:00Z",
-   "room": {
-    "en": "Red"
-   },
-   "end": "2022-07-28T16:40:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Krylov.jl: A Julia basket of hand-picked Krylov solvers",
-  "abstract": "Krylov.jl provides Julia implementations of some of the most useful Krylov method\r\nfor linear systems, least-squares problems, least-norm problems, adjoint systems,\r\ntogether with facilities for saddle-point systems.\r\n\r\nThe solvers in Krylov.jl have been optimized (for time and memory),\r\nhave an in-place version, are compatible with GPU, and work in any precision (real and complex numbers).\r\nAn overview of these features of Krylov.jl is presented."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "U7WAAD",
   "track": {
    "en": "JuliaCon"
@@ -6362,7 +6230,7 @@
   "duration": 10,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/portrait_latest_gCshG7F.jpg",
     "name": "Patrick Fournier",
     "code": "JLHZAA",
     "biography": "PhD candidate in mathematics @ STATQAM (Université du Québec à Montréal)."
@@ -6385,41 +6253,6 @@
   "do_not_record": false,
   "title": "JCheck.jl: Randomized Property Testing Made Easy",
   "abstract": "JCheck is a native Julia implementation of a randomized property testing (RPT) framework. It aims at integrating as seamlessly as possible to the Test.jl package in order to enable developers to easily use RPT along with more \"traditional\" approaches. Although a fair number of generators are included, designing novel ones for custom data types is a straightforward process. Additional features such as shrinkage and specification of \"special\" non-random input are available."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "U8EC39",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "William Kimmerer",
-    "code": "D8TKR8",
-    "biography": "Research Software Engineer at the MIT JuliaLab. Focused on the Julia sparse ecosystem, and graph algorithms!"
-   }
-  ],
-  "description": "SuiteSparseGraphBLAS.jl is the core package for a new sparse and graph ecosystem in Julia. It wraps the highly performant SuiteSparse:GraphBLAS C library with all of the features a Julia user expects. While SuiteSparseGraphBLAS.jl is highly capable on its own, it intentionally provides only the basic linear algebra routines along with automatic differentiation support. A number of extension packages provide higher level functionality: GBGraphs.jl is a Graphs.jl implementation harnessing the speed of linear-algebraic graph algorithms. GBPirate.jl accelerates packages using SparseArrays without any modifications. And the GraphBLAS.jl meta-package supports integration with the wider Julia ecosystem including SuiteSparse.jl, plotting packages, and more.",
-  "image": "https://pretalx.com/media/juliacon-2022/submissions/U8EC39/grb_QsPsOna.png",
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-29T19:00:00Z",
-   "room": {
-    "en": "Red"
-   },
-   "end": "2022-07-29T19:30:00Z"
-  },
-  "submission_type": {
-   "en": "Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "The GraphBLAS Ecosystem in Julia",
-  "abstract": "Performant sparse linear algebra is a fundamental tool in the scientific computing toolbox. This talk gives an overview of the growing GraphBLAS ecosystem in Julia which provides fast operations on sparse matrices, extended to support graph algorithms. We highlight the GBGraphs.jl implementation of the Graphs.jl interface, the use of GBPirate.jl to accelerate the SparseArrays standard library, and using SuiteSparse solvers on GraphBLAS matrices all built on SuiteSparseGraphBLAS.jl"
  },
  {
   "content_locale": "en",
@@ -6455,41 +6288,6 @@
   "do_not_record": false,
   "title": "PDE-constrained optimization using JuliaSmoothOptimizers",
   "abstract": "In this presentation, we showcase a new optimization infrastructure within JuliaSmoothOptimizers for PDE-constrained optimization problems in Julia. We introduce PDENLPModels.jl a package that discretizes PDE-constrained optimization problems using finite elements methods via Gridap.jl. The resulting problem can then be solved by solvers tailored for large-scale optimization implemented in pure Julia such as DCISolver.jl and FletcherPenaltyNLPSolver.jl."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "code": "UDLRAS",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 180,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "William Kimmerer",
-    "code": "D8TKR8",
-    "biography": "Research Software Engineer at the MIT JuliaLab. Focused on the Julia sparse ecosystem, and graph algorithms!"
-   }
-  ],
-  "description": "SuiteSparseGraphBLAS.jl and the surrounding Julia GraphBLAS ecosystem allow Julia users to succinctly express graph and sparse matrix algorithms without sacrificing speed. In this workshop we will introduce the basic usage, terminology, and features of the package by building several graph and sparse matrix algorithms. \r\n\r\nThese graph algorithms take advantage of graph matrix duality to express basic graph operations like breadth first search as a matrix-vector multiplication under a particular semiring. We will start with a simple breadth first search implementation before moving on to a few increasingly complex functions including a centrality measure (triangle centrality) and one or more larger algorithms like PageRank or a message passing neural network.\r\n\r\nThe last problem we will workshop involves using either iterative solvers like Krylov.jl or the direct solvers from SuiteSparse.jl, showcasing the unique ability to use these solvers on GraphBLAS matrices.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-23T14:00:00Z",
-   "room": {
-    "en": "Red"
-   },
-   "end": "2022-07-23T17:00:00Z"
-  },
-  "submission_type": {
-   "en": "Workshop"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Graph Algorithms in SuiteSparseGraphBLAS.jl",
-  "abstract": "GraphBLAS is a powerful toolkit for building out graph algorithms. We’ll build out a couple commonly used graph algorithms including some centrality estimating methods, and a more complex algorithm such as PageRank. Finally, we’ll work on a problem which harnesses either iterative solvers or the direct solvers from SuiteSparse."
  },
  {
   "content_locale": "en",
@@ -6711,41 +6509,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "USY3RX",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/IMG_0030_mAKR9Oi.JPG",
-    "name": "Fons van der Plas",
-    "code": "ECC83Q",
-    "biography": "Excited about making scientific computing more accessible and fun! Looking forward to meet you!"
-   }
-  ],
-  "description": "We are the developers of Pluto.jl, and this is a recap of our work in the past year!\r\n\r\nSome of the new features include:\r\n- New showcase for awesome Julia notebooks, available online and inside Pluto! Submit your notebooks!\r\n- New interactive video format (longer discussion in separate talk)\r\n- From notebook to dashboard in 10 lines of code!",
-  "image": "https://pretalx.com/media/juliacon-2022/submissions/USY3RX/cutebanner_MoDSR3x.png",
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-29T13:30:00Z",
-   "room": {
-    "en": "Red"
-   },
-   "end": "2022-07-29T14:00:00Z"
-  },
-  "submission_type": {
-   "en": "Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "🎈 Pluto.jl — two years later",
-  "abstract": "[Pluto.jl](https://github.com/fonsp/Pluto.jl) is a notebook IDE for Julia, with a focus on interactivity and education. In this talk, you'll learn about our work during the past year, and our future plans."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "UTT8SE",
   "track": {
    "en": "JuliaCon"
@@ -6776,7 +6539,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Validating a tsunami model for coastal inundation",
-  "abstract": "How do we trust that a given fluid model is suitable for simulating water waves as they approach and wash over the land? This talk presents some of the benchmark tests used to validate a tsunami model. Using our Julia implementation of a [fluid model](https://doi.org/10.1002/fld.1952), we check how well it conserves mass, matches analytical solutions, and reproduces laboratory experiments."
+  "abstract": "How do we trust that a given fluid model is suitable for simulating water waves as they approach and wash over the land? This talk presents some of the benchmark tests used to validate a tsunami model. Using our [Julia implementation of a fluid model](https://github.com/justinmimbs/WaveTank.jl), we check how well it conserves mass, matches analytical solutions, and reproduces laboratory experiments."
  },
  {
   "content_locale": "en",
@@ -6844,8 +6607,8 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Restreaming of Keynote #1 (Howard)",
-  "abstract": "Restreaming of the earlier Keynote of this day."
+  "title": "Restreaming of Jeremy Howard Keynote",
+  "abstract": "Restreaming of the earlier Keynote by Jeremy Howard"
  },
  {
   "content_locale": "en",
@@ -6868,11 +6631,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/V3NPES/aog_demo_YKNlEXE.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T13:10:00Z",
+   "start": "2022-07-29T13:00:00Z",
    "room": {
     "en": "Blue"
    },
-   "end": "2022-07-29T13:20:00Z"
+   "end": "2022-07-29T13:10:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -6897,9 +6660,21 @@
     "name": "Alessio Quaresima",
     "code": "XHDSBZ",
     "biography": "Ph.D. in Cognitive Computational Neuroscience at the Max Planck Institute for Psycholinguistics.\r\n\r\nInterested in dendrites, spikes, and sequences."
+   },
+   {
+    "avatar": "https://pretalx.com/media/avatars/profilePicture_3UvJPty.jpg",
+    "name": "Wiktor Phillips",
+    "code": "Z99LJL",
+    "biography": "Postdoc in the Julia Lab at MIT"
+   },
+   {
+    "avatar": "https://pretalx.com/media/avatars/profile_photo_350_350_K7NGRe1.JPG",
+    "name": "Tushar Chauhan",
+    "code": "KHAHJ7",
+    "biography": "Tushar Chauhan is a neuroscientist with a keen interest in bio-inspired AI. His work focusses on understanding computations in sensory cortices - both for placing sensory computation in an evolutionary context, as well as drawing inspiration from biological solutions to create highly efficient, robust artificial systems. His methodology is versatile, and an important part of his toolkit includes simulations of neural circuits at various levels of abstraction. \r\n\r\nHe is a Postdoctoral Research Associate at the Bear Lab, Picower Institute of Learning and Memory, MIT."
    }
   ],
-  "description": "Spiking neural networks are gathering increasing interest from several scientific fields, such as computational and experimental neuroscience, machine learning, and cognitive science. However, SNNs are highly variable in terms of their actual implementation. The models' spatial and temporal resolution, the type of implemented equations, the dynamics and the size of the networks, and the learning schemes investigated differ enormously among the studies and are usually tailored to answer a specific scientific question. \r\n\r\nThe variability of SNN models asks for flexible implementations, where each component of the network has to be modifiable. Simulators such as NEST, Brian, and Neuron let the users define the set of equations to be integrated and deploy GPU computations or event-driven and parallelized simulations. However, implementing models that do not follow the integration schemes of the specific simulator requires a lot of expertise and writing code in unfriendly backends.\r\nOn the contrary, Julia can be very fast while remaining flexible; it has been the language of choice for several works in computational neuroscience that could not be implemented right away on other simulators. The price for flexibility is that most researchers write their custom simulators. This scientific practice results in scarcely reusable code, unoptimized integration schemes, and inconsistent data structures\r\n\r\nFor this BoF, I would like to invite researchers and developers in computational neuroscience to gather and discuss whether it is possible to develop a unified ecosystem for the simulation of Spiking Neural Networks in Julia. I would open the discussion with a brief introductory talk summarizing the active projects and their bottlenecks. \r\nFor the introductory talk, I would start from the discussion already ongoing on Discourse [1] and attempt to make a selection of the most critical points that have to be addressed for creating a Julia SNN ecosystem.\r\n\r\n[1] https://discourse.julialang.org/t/spiking-neural-networks/63270",
+  "description": "Julia’s software ecosystem certainly lessens the technical burden for computational neuroscientists—it boasts federated development of high-quality packages for solving differential equations, machine learning, automatic differentiation, and symbolic algebra. Deep language support for multithreaded, distributed, and GPU parallelism also makes the case for models that can span multiple scales, both in biological detail and overall network size. \r\n\r\nCome join us for a community discussion about what a fresh Julian take on modeling the brain might look like. Together we will lay out an initial set of goals for building up a domain-specific ecosystem of packages for computational neuroscience.\r\n\r\nThe discussion will be moderated by Wiktor Phillips, Alessio Quaresima, and Tushar Chauhan.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -6914,8 +6689,8 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Spiking Neural Networks in Julia",
-  "abstract": "Spiking neural networks (SNN) are connectionist systems characterized by a low-frequency message passing between the component nodes, usually in the form of all-or-none signals. Despite the increasing academic and industrial interest in SNN, there is little consensus on the best scheme to implement them in Julia, resulting in promising but under-maintained packages. This BoF aims to prompt a community discussion on how to step toward an SNN ecosystem in Julia."
+  "title": "Simulating neural physiology & networks in Julia",
+  "abstract": "Could Julia be uniquely well-suited for rapidly developing new approaches to simulate the brain ? What if neuroscientists could use a composable set of tools to craft models of ion channels, compartmentalized neuronal morphology, networks of LIF or conductance-based neurons, reinforcement learning, and everything in-between?"
  },
  {
   "content_locale": "en",
@@ -6995,7 +6770,7 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Hands-on ocean modeling and machine learning with Oceananigans.j",
+  "title": "Hands-on ocean modeling and ML with Oceananigans.jl",
   "abstract": "Come get your feet wet with Oceananigans.jl, a native Julia, fast, friendly, flexible and fun ocean model. In the first half of this workshop participants will be helped to run and analyze one of several simple ocean problems. The problems relate to state-of-the-art challenges in climate science and computational science. In the second half we will examine Julia language features, packages and design choices that enable Oceananigans.jl."
  },
  {
@@ -7105,7 +6880,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "MetaLenz Sponsored Talk",
-  "abstract": "TODO"
+  "abstract": "Metalenz is commercializing metasurface technology and transforming optical sensing in consumer electronics and automotive markets."
  },
  {
   "content_locale": "en",
@@ -7141,6 +6916,41 @@
   "do_not_record": false,
   "title": "Text Segmentation with Julia",
   "abstract": "Introducing TextSegmentation.jl, a package for Text Segmentation with Julia. Text Segmentation is a method of dividing an unstructured document including various contents into several parts according to its topics. So it is an important technique that supports various natural language processing tasks such as summarization, extraction, and question answering. If the audience listen to this presentation, they will learn Text Segmentation and how to use packages and be able to perform it easily."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "VGSB89",
+  "track": {
+   "en": "JuMP"
+  },
+  "state": "confirmed",
+  "duration": 30,
+  "speakers": [
+   {
+    "avatar": null,
+    "name": "Geoffroy Leconte",
+    "code": "RT9N7T",
+    "biography": "Phd student at Polytechnique Montréal supervised by Dominique Orban. I am developing RipQP.jl, a package for solving convex quadratic problems and I also contribute to the organization JuliaSmoothOptimizers."
+   }
+  ],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2022-07-27T13:00:00Z",
+   "room": {
+    "en": "JuMP"
+   },
+   "end": "2022-07-27T13:30:00Z"
+  },
+  "submission_type": {
+   "en": "Talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "A multi-precision algorithm for convex quadratic optimization",
+  "abstract": "In this talk, we describe a Julia implementation of RipQP, a regularized interior-point method for convex quadratic optimization. RipQP is able to solve problems in several floating-point formats, and can also start in a lower precision as a form of warm-start. The algorithm uses sparse factorizations or Krylov methods from the Julia package Krylov.jl. We present an easy way to use RipQP to solve problems modeled with QuadraticModels.jl and LLSModels.jl."
  },
  {
   "content_locale": "en",
@@ -7224,11 +7034,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/VVPY9G/JuliaCon_2022_Talk_Image_BtwALWa.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:30:00Z",
+   "start": "2022-07-28T19:50:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Red"
    },
-   "end": "2022-07-29T19:40:00Z"
+   "end": "2022-07-28T20:00:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -7604,7 +7414,7 @@
     "biography": "Grad Student at TU Munich"
    },
    {
-    "avatar": "https://pretalx.com/media/avatars/IMG_0711_nM3MhzB.jpeg",
+    "avatar": "https://pretalx.com/media/avatars/IMG_2621_1_trfDAaW.jpeg",
     "name": "Tim Gymnich",
     "code": "9LZBUX",
     "biography": "Tim is a postgraduate student at TU Munich, where he is studying for his M.Sc. in Computer Science. His main interests are in compiler optimizations for high performance computing and programming languages."
@@ -7651,7 +7461,7 @@
     "biography": "Rainer Heintzmann works as a research head and university professor at the Leibniz Institute of Photonic Technology and the Friedrich Schiller University Jena.\r\nHis research focuses on imaging cellular function at high resolution. His group develops techniques to measure multidimensional information in small biological objects such as cells, cellular organelles or other small structures of interest. A further interest is in computer-based reconstruction methods.\r\nSoftware packages in Julia and other languages are developed for scientific computing and visualization with a special focus on optics and deconvolution."
    }
   ],
-  "description": "Methods of calculating PSFs calculated by the toolbox https://github.com/RainerHeintzmann/PSFs.jl\r\nare presented. These methods range from propagating field components via the angular spectrum method using Fourier-transforms to a version that applies spatial constraints in each propagation step to avoid wrap-around effects. Another method starts with the analytical solution, sinc(r), with r denoting the distance to the focus, of a related scalar problem, which is then modified to account for various influences of high-NA aplanatic optical systems.\r\nThe toolbox supports aberrations as specified via Zernike coefficients.\r\n\r\nThe toolbox also contains practical tools such as a PSF distillation tool which automatically identifies single point sources and averages their measured images with sub-pixel precision.\r\n\r\nFuture directions may include ways to identify aberrations from measured PSFs. \r\nThe toolbox will also be extended towards supporting a wider range of microscopy modes.",
+  "description": "Methods of calculating optical point spread functions (PSFs) calculated by the toolbox https://github.com/RainerHeintzmann/PointSpreadFunctions.jl\r\nare presented. These methods range from propagating field components via the angular spectrum method using Fourier-transforms to a version that applies spatial constraints in each propagation step to avoid wrap-around effects. Another method starts with the analytical solution, sinc(r), with r denoting the distance to the focus, of a related scalar problem, which is then modified to account for various influences of high-NA aplanatic optical systems.\r\nThe toolbox supports aberrations as specified via Zernike coefficients.\r\n\r\nThe toolbox also contains practical tools such as a PSF distillation tool which automatically identifies single point sources and averages their measured images with sub-pixel precision.\r\n\r\nFuture directions may include ways to identify aberrations from measured PSFs. \r\nThe toolbox will also be extended towards supporting a wider range of microscopy modes.",
   "image": "https://pretalx.com/media/juliacon-2022/submissions/X89FYS/PSFs.jl_Demo_ldm8gKK.png",
   "slot_count": 1,
   "slot": {
@@ -7666,7 +7476,7 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "PSFs.jl - calculating optical point spread functions",
+  "title": "PointSpreadFunctions.jl - optical point spread functions",
   "abstract": "Various ways of calculating three-dimensional optical point spread functions (PSFs) are presented. The methods account for the vector nature of the optical field as well as phase aberrations. Quantitative comparisons in terms of speed and accuracy will be presented."
  },
  {
@@ -8164,11 +7974,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-27T19:00:00Z",
+   "start": "2022-07-27T19:30:00Z",
    "room": {
     "en": "Sponsored forums"
    },
-   "end": "2022-07-27T19:45:00Z"
+   "end": "2022-07-27T20:15:00Z"
   },
   "submission_type": {
    "en": "Sponsor forum"
@@ -8589,11 +8399,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:40:00Z",
+   "start": "2022-07-29T16:40:00Z",
    "room": {
-    "en": "Red"
+    "en": "Green"
    },
-   "end": "2022-07-29T19:50:00Z"
+   "end": "2022-07-29T16:50:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -8622,11 +8432,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:00:00Z",
+   "start": "2022-07-27T13:30:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Green"
    },
-   "end": "2022-07-29T19:10:00Z"
+   "end": "2022-07-27T13:40:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -8912,11 +8722,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/ZZ3HGF/logo_EjpCY6N.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T17:40:00Z",
+   "start": "2022-07-28T16:30:00Z",
    "room": {
     "en": "Red"
    },
-   "end": "2022-07-28T17:50:00Z"
+   "end": "2022-07-28T16:40:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"

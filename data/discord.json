@@ -2,41 +2,41 @@
   "channels": [
     {
       "name": "General",
-      "channelId": "859573366942990378",
+      "channelId": "995757799525056533",
       "color": 4219864,
       "description": "The Discord channel for general discussion about JuliaCon."
     },
     {
       "name": "Red",
-      "channelId": "867219931318059069",
+      "channelId": "997765546386915349",
       "color": 13319219,
       "description": "The Discord channel for discussion of talks happening in the \"Red\" track. During the conference, this channel should only be used to discuss talks as they're occurring.",
       "roomId": 379
     },
     {
       "name": "Green",
-      "channelId": "867219956378632222",
+      "channelId": "997765348373831680",
       "color": 3708966,
       "description": "The Discord channel for discussion of talks happening in the \"Green\" track. During the conference, this channel should only be used to discuss talks as they're occurring.",
       "roomId": 380
     },
     {
       "name": "Purple",
-      "channelId": "867219972730912828",
+      "channelId": "997765662577528852",
       "color": 9787570,
       "description": "The Discord channel for discussion of talks happening in the \"Purple\" track. During the conference, this channel should only be used to discuss talks as they're occurring.",
       "roomId": 381
     },
     {
       "name": "Blue",
-      "channelId": "867219982072676382",
+      "channelId": "997765456905654282",
       "color": 3447003,
       "description": "The Discord channel for discussion of talks happening in the \"Blue\" track. During the conference, this channel should only be used to discuss talks as they're occurring.",
       "roomId": 382
     },
     {
       "name": "JuMP Track",
-      "channelId": "868218059872145418",
+      "channelId": "997765767053459520",
       "color": 15105570,
       "description": "The Discord channel for JuMP-dev colocated conference.",
       "roomId": 383

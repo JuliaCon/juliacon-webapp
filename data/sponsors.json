@@ -27,7 +27,7 @@
   },
   {
     "sponsorName": "Julius Technology",
-    "blurb": "Julius is an auto-scaling, low code and visual graph computing solution that allows firms to quickly build transparent and adaptable data and analytical pipelines",
+    "blurb": "Julius offers an auto-scaling, low code graph computing solution that allows firms to quickly build transparent and adaptable data analytics pipelines. Graph computing is an innovative technology that enables developers to organize pipelines as directed acyclic graphs (DAGs). With Julius, DAGs representing complex workflows are created by composing smaller modular DAGs, and can be applied to many enterprise use cases including: explainable ML, data processing and transformation, AAD, and more. \n\n For Julia users, we provide a dynamic platform to help developers make Julia more manageable and adoptable for enterprise computing. Engineers can produce enterprise scale solutions in a fraction of the time and cost. \n\n Check out their workshop and demos: [Workshop](https://www.youtube.com/watch?v=pxs7ysnb15A)",
     "moreInfoURL": "https://www.juliustech.co/",
     "videoURL": "",
     "chatChannelName": "",
@@ -66,7 +66,7 @@
   },
   {
     "sponsorName": "Beacon Biosignals",
-    "blurb": "Beacon’s EEG neurobiomarker platform is engineered to accelerate clinical trials and enable new treatments for patients with neurological and psychiatric disease",
+    "blurb": "Founded in 2019, Beacon Biosignals' launch was propelled by the application of contemporary high-performance computing techniques to scale out the analysis of large brainwave datasets. Today, Beacon leverages Julia to interrogate brain function at unprecedented throughput and accelerate the development of new treatments for neurological disease. \n\n Beacon's Platform enables population-level analyses that aggregate insights across hundreds of thousands of clinical EEGs, capturing the wide array of features that characterize the heterogeneity of brain function across a breadth of indications, setting a new data standard for neurobiomarker design. At this scale, traditional manual feature extraction methods become intractable due to cost, inter-rater variability, and the limited availability of trained experts. Beacon overcomes this bottleneck via an ever-growing suite of machine learning models that replicate the consensus interpretation of clinical experts and exceed human capabilities over thousands of hours of biosignal recordings. Our Platform equips customers with the ability to leverage Beacon's scalable brain health analytics throughout the lifecycle of drug discovery, development, and deployment.",
     "moreInfoURL": "https://beacon.bio/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2022/img/sponsors/beacon_logo.svg",
@@ -74,7 +74,7 @@
   },
   {
     "sponsorName": "Metalenz",
-    "blurb": "We are a a fabless semiconductor company on a mission to revolutionize optical sensing.",
+    "blurb": "Metalenz is commercializing metasurface technology and transforming optical sensing in consumer electronics and automotive markets. We enable significant reduction in the complexity and size of optical modules while improving system performance and moving optics manufacturing into the semiconductor foundry. Our team solves hard, multi-scale physics problems, drawing from techniques across machine learning, optimization, and computer vision to deliver the next generation of sensing found in your pocket.",
     "moreInfoURL": "https://www.metalenz.com/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2022/img/sponsors/metalenz-logo.png",
@@ -82,7 +82,7 @@
   },
   {
     "sponsorName": "ASML",
-    "blurb": "ASML gives the world's leading chipmakers the power to mass produce patterns on silicon.",
+    "blurb": "BE PART OF PROGRESS.\n\n We make machines that make chips; the hearts of the devices that keep us informed, entertained and safe. Our key technology is the lithography system, which brings together high-tech hardware and advanced software to control the chip manufacturing process. All of the world’s top chipmakers like Samsung, Intel and TSMC use our technology, enabling the waves of innovation that help tackle the world’s toughest challenges. www.asml.com.",
     "moreInfoURL": "https://www.asml.com/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2022/img/sponsors/asml.png",
@@ -155,6 +155,15 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2022/img/sponsors/gather.png",
+    "tier": "Media Partner"
+  },
+  {
+    "sponsorName": "Vercel",
+    "blurb": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+    "moreInfoURL": "https://vercel.com?utm_source=juliacon",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/vercel.png",
     "tier": "Media Partner"
   },
   {
