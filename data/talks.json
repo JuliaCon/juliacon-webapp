@@ -440,11 +440,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/878K9K/logo_rL3VOk5.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T16:30:00Z",
+   "start": "2022-07-29T19:00:00Z",
    "room": {
-    "en": "Green"
+    "en": "Red"
    },
-   "end": "2022-07-29T17:00:00Z"
+   "end": "2022-07-29T19:30:00Z"
   },
   "submission_type": {
    "en": "Talk"
@@ -475,11 +475,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:00:00Z",
+   "start": "2022-07-29T16:30:00Z",
    "room": {
-    "en": "Red"
+    "en": "Green"
    },
-   "end": "2022-07-29T19:10:00Z"
+   "end": "2022-07-29T16:40:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -1747,47 +1747,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "CY7YFB",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/Kishore_nawYBla.jpeg",
-    "name": "Kishore Hari",
-    "code": "YTRPT3",
-    "biography": "I am a grad student at the Indian Institute of Science, Bangalore. I work with Prof. Mohit Kumar Jolly, toward unraveling design principles in network topologies underlying cell-fate decision networks, especially in the context of cancer metastasis."
-   },
-   {
-    "avatar": null,
-    "name": "Pradyumna",
-    "code": "MK7JUB",
-    "biography": null
-   }
-  ],
-  "description": "Experimental investigation of biological systems is highly complex. When analysing the underlying regulatory networks to understand the experimentally observed behaviour, the parameters for the ODE systems are often unavailable. While it is relatively easy to obtain the node parameters, the edge parameters such as threshold hill coefficient require sophisticated experiments such as dosage sensitivity, which are often not feasible technically or economically, due to both the complexity of these experiments as well as the fact that due to the prevalent heterogeneity in biological systems, the estimated parameters are likely to change even within the same class of biological systems (similar mammalian cells for example).\r\nTo tackle these problems, a viable strategy can be to use the network topology and establish a parameter-phenotype map for the topology. Once the phenotypes are measured experimentally, the corresponding parameter space can be back-calculated within reasonable error. With that goal in mind, a tool called RACIPE (Huang et al., 2017) was published recently, written in C, which takes in the network topological information and generates parameter set – steady-state map for the topology, by simulating the system at multiple, randomly generated parameter sets. While this tool is handy, this has the following drawbacks:\r\n1.\tSince RACIPE is written in C, we are forced to use a second language such as Python or R for downstream data analysis and visualization.\r\n2.\tRACIPE has very limited flexibility built-in. For example, the inability to simulate externally generated parameters (which becomes essential for sensitivity analysis), lack of functionality to provide relative stability of the steady states, a limited number of ODE solvers, and the fixed structure of the ODE system generated from the networks.\r\n3.\tSince RACIPE is written in C, modifying the code to include the required functionality is complex.\r\nWhile we had tried to write the package in high-level languages (R, Python, and MATLAB), we faced massive speed loss in the simulations. Therefore, we set out to write the package in Julia, which solves the two-language problem we are facing very well. First, we used the SciML ecosystem to reproduce the functionalities of RACIPE, which fixed the issue of having a limited number of ODE solvers right away. While the numerical accuracy of the simulations has improved thanks of SciML ODE solvers, the speed of the simulations remains like that of RACIPE. \r\nExtending beyond RACIPE, we incorporated the following customizations, along with minor features such as parameter modification for selective edges/nodes in the system, relative stability, etc.\r\n1.\tA data analysis and visualization pipeline that can generate the phenotypic landscape of the system using the steady states and relative stability data.\r\n2.\tFlexibility in inputs for the network topology, the parameter sets, and the ODE system\r\n3.\tGenerates a reaction network (that is compatible with SciML ecosystem) that can be used for simulations not specific to those done in RACIPE (Huang et al., 2017) Eg: stochastic simulations, phase plane and bifurcation analysis, etc.\r\nThese modifications have made for a better tool to generate parameter-phenotype maps and have given the package the capability of being a global sensitivity analysis tool for ODE systems. We are currently adding more essential capabilities to the package. While the primary focus is on constructing a dynamics repertoire (detecting and characterizing oscillations, temporal assessment of the trajectories leading to a steady-state, etc), we are planning to incorporate various other functionalities such as expansion to agent-based modelling, network perturbation analysis and so on, using the functionalities available in the SciML ecosystem and Julia in general. We expect to show some of these capabilities during our talk.\r\n\r\nReferences: \r\nHuang, B., Lu, M., Jia, D., Ben-Jacob, E., Levine, H., & Onuchic, J. N. (2017). Interrogating the topological robustness of gene regulatory circuits by randomization. PLOS Computational Biology, 13(3), e1005456. https://doi.org/10.1371/JOURNAL.PCBI.1005456",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-28T10:40:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2022-07-28T10:50:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Constructing regulatory network landscapes via ODE simulation",
-  "abstract": "Experimental estimation of parameters for ODEs of regulatory networks is challenging. However, a map of parameter sets to dynamics will help solve this problem. We design an automated simulation package based on a previously published C-based tool (RACIPE), which takes the network, samples a large set of parameters, and outputs the ensemble of possible dynamics. Thanks to Julia, our package can solve the two-language problem of RACIPE, adding customizability and generalizability to the tool."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "DAASVV",
   "track": {
    "en": "JuliaCon"
@@ -2151,11 +2110,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T15:30:00Z",
+   "start": "2022-07-28T15:20:00Z",
    "room": {
     "en": "Green"
    },
-   "end": "2022-07-28T15:40:00Z"
+   "end": "2022-07-28T15:30:00Z"
   },
   "submission_type": {
    "en": "Gold sponsor talk"
@@ -3801,11 +3760,11 @@
   "image": "https://pretalx.com/media/juliacon-2022/submissions/KPXD3Y/ReinML_DWUFhzm.png",
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T11:50:00Z",
+   "start": "2022-07-28T10:40:00Z",
    "room": {
     "en": "Green"
    },
-   "end": "2022-07-28T12:00:00Z"
+   "end": "2022-07-28T10:50:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -4522,11 +4481,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:20:00Z",
+   "start": "2022-07-29T16:50:00Z",
    "room": {
-    "en": "Red"
+    "en": "Green"
    },
-   "end": "2022-07-29T19:30:00Z"
+   "end": "2022-07-29T17:00:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -5488,11 +5447,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T15:15:00Z",
+   "start": "2022-07-28T15:30:00Z",
    "room": {
     "en": "Green"
    },
-   "end": "2022-07-28T15:30:00Z"
+   "end": "2022-07-28T15:45:00Z"
   },
   "submission_type": {
    "en": "Platinum sponsor talk"
@@ -8440,11 +8399,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-29T19:10:00Z",
+   "start": "2022-07-29T16:40:00Z",
    "room": {
-    "en": "Red"
+    "en": "Green"
    },
-   "end": "2022-07-29T19:20:00Z"
+   "end": "2022-07-29T16:50:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"

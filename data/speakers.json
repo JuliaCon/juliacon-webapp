@@ -1498,15 +1498,6 @@
   "biography": "Stephan Sahm founded [Jolin.io](https://www.jolin.io), an IT consultancy for high-performant data/ml pipelines powered by Julia. He also organises the biggest Julia meetup in Germany, Julia-User-Group-Munich.\r\nWith 10 years experience in data science and 5 years in IT consultancy and data-startups, he strives to bring tomorrows best practice into todays business.\r\n\r\nJulia packages developed by Stephan Sahm: Continuables.jl, WhereTraits.jl, ExprParsers.jl, TypeClasses.jl, ExtensibleEffects.jl and more."
  },
  {
-  "avatar": null,
-  "name": "Pradyumna",
-  "submissions": [
-   "CY7YFB"
-  ],
-  "code": "MK7JUB",
-  "biography": null
- },
- {
   "avatar": "https://pretalx.com/media/avatars/high_FBSlmQo.jpg",
   "name": "Benoît Legat",
   "submissions": [
@@ -2511,15 +2502,6 @@
   ],
   "code": "YRUBPT",
   "biography": "Research Associate at the Department of Informatics, Systems and Communications, University of Milano-Bicocca, Italy"
- },
- {
-  "avatar": "https://pretalx.com/media/avatars/Kishore_nawYBla.jpeg",
-  "name": "Kishore Hari",
-  "submissions": [
-   "CY7YFB"
-  ],
-  "code": "YTRPT3",
-  "biography": "I am a grad student at the Indian Institute of Science, Bangalore. I work with Prof. Mohit Kumar Jolly, toward unraveling design principles in network topologies underlying cell-fate decision networks, especially in the context of cancer metastasis."
  },
  {
   "avatar": null,
