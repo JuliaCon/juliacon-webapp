@@ -47,7 +47,7 @@ export const JobsPage: NextPage = () => {
         <div>
           <TextHeading level={"h3"}>Julius Technologies</TextHeading>
           <VSpace height={"0.5rem"} />
-          <p>Software Developer - Julius Technologies</p><
+          <p>Software Developer - Julius Technologies</p>
 
           <p><b>Location:</b> Anywhere, 100% remote working. Your working hours need to have some overlap with the day time in the US Eastern time zone. </p><br>
             <p>Julius Technologies is a New York based startup. We offer a low-code visual graph computing solution that allows firms to create sophisticated, scalable, transparent and compliant data and analytics software, systems and services in a fraction of the time and cost of traditional methods.</p>
