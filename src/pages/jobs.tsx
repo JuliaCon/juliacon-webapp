@@ -126,7 +126,7 @@ export const JobsPage: NextPage = () => {
           <TextHeading level={"h3"}>Community</TextHeading>
           <VSpaceBetween space={"0.5rem"} spaceAbove>
             <p><ul>
-              <li>NERSC: https://discourse.julialang.org/t/jobs-at-nersc/84840 </li>
+              <li><ExternalLink href = "https://discourse.julialang.org/t/jobs-at-nersc/84840"> NERSC is hiring postdocs and HPC engineers </ExternalLink></li>
              </ul></p>
           </VSpaceBetween>
         </div>
