@@ -47,30 +47,29 @@ export const JobsPage: NextPage = () => {
         <div>
           <TextHeading level={"h3"}>Julius Technologies</TextHeading>
           <VSpace height={"0.5rem"} />
-          <p>
-            Software Developer - Julius Technologies
+          <p>Software Developer - Julius Technologies</p>
 
-            Location: Anywhere, 100% remote working. Your working hours need to have some overlap with the day time in the US Eastern time zone.
-            Julius Technologies is a New York based startup. We offer a low-code visual graph computing solution that allows firms to create sophisticated, scalable, transparent and compliant data and analytics software, systems and services in a fraction of the time and cost of traditional methods.
+            <p>Location: Anywhere, 100% remote working. Your working hours need to have some overlap with the day time in the US Eastern time zone. </p>
+            <p>Julius Technologies is a New York based startup. We offer a low-code visual graph computing solution that allows firms to create sophisticated, scalable, transparent and compliant data and analytics software, systems and services in a fraction of the time and cost of traditional methods.</p>
 
-            Job Description:   We are looking for talented developers at all experience levels. We have multiple openings in the areas of core platform, data science/AI applications, trading/risk management systems and frontend/web UI. Successful candidates will be working with the best developers and researchers in the industry, and join the exciting journey to revolutionize enterprise data and analytics.
-            Types of Roles: full time, part-time and internship. We offer competitive compensation based on candidates’ experience.
+            <p>Job Description:   We are looking for talented developers at all experience levels. We have multiple openings in the areas of core platform, data science/AI applications, trading/risk management systems and frontend/web UI. Successful candidates will be working with the best developers and researchers in the industry, and join the exciting journey to revolutionize enterprise data and analytics.</p>
+            <p>Types of Roles: full time, part-time and internship. We offer competitive compensation based on candidates’ experience.</p>
 
-            Required Skills/Experiences:
-            Experience in any major programming languages
-            Experience in Jupyter notebook
-            College degree in Science/Engineering or college students looking for internships/part time.
+            <p>Required Skills/Experiences:
+            <ul><li>Experience in any major programming languages</li>
+              <li>Experience in Jupyter notebook</li>
+            <li>College degree in Science/Engineering or college students looking for internships/part time.</li></ul>
 
             Preferred Skills/Experience:
-            Julia programming experience
-            Data science, machine learning experience
-            Web front end development 
-            Containers and cloud computing 
-            Advanced degree in Science and Engineering
-
-            Contact:
-            If interested, please email your resume to devjobs@julustech.co
+              <ul><li>Julia programming experience</li>
+                <li>Data science, machine learning experience</li>
+                <li>Web front end development</li>
+                <li>Containers and cloud computing</li>
+                <li>Advanced degree in Science and Engineering</li></ul>
+              
           </p>
+
+            <p>Contact:If interested, please email your resume to devjobs@julustech.co</p>
         </div>
         <div>
           <TextHeading level={"h3"}>Beacon Biosignals</TextHeading>
