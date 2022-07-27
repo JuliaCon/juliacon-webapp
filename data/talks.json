@@ -5525,7 +5525,7 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Decision Trees, meet Modal Logics",
+  "title": "ModalDecisionTrees: Decision Trees, meet Modal Logics",
   "abstract": "ModalDecisionTrees.jl offers a set of symbolic machine learning algorithms that extend classical decision tree learning algorithms, and are able to natively handle time series and image data. *Modal Decision Trees* leverage *modal logics* to perform a primitive-but-powerful form of entity-relation reasoning; this allows them to capture temporal and spatial patterns, and makes them suitable to natively deal (= no need for feature extraction) with data such as multivariate time-series and images."
  },
  {
