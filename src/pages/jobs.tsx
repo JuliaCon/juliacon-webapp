@@ -71,6 +71,24 @@ export const JobsPage: NextPage = () => {
             <p><b>Contact: </b> If interested, please email your resume to devjobs@julustech.co</p>
         </div>
         <div>
+          <TextHeading level={"h3"}>AWS</TextHeading>
+          <VSpace height={"0.5rem"} />
+          <p>
+            
+            <ExternalLink href = "https://www.amazon.jobs/en/jobs/1973253/research-scientist-design-and-simulation">
+                Research Scientist, Design and Simulation at the AWS Center for Quantum Computing
+            </ExternalLink>{" "}
+ 
+        <ExternalLink href = "https://www.amazon.jobs/en /jobs/1557755/research-scientist-design-tools">
+                Research Scientist, Design Tools at the AWS Center for Quantum Computing
+          </ExternalLink>{" "}
+ 
+        <ExternalLink href = "https://www.amazon.jobs/en/jobs/2122080/software-development-engineer-design-and-simulation-center-for-quantum-computing">
+                Software Development Engineer, Design and Simulation at the AWS Center for Quantum Computing
+        </ExternalLink>{" "}
+          </p>
+        </div>
+        <div>
           <TextHeading level={"h3"}>Beacon Biosignals</TextHeading>
           <VSpaceBetween space={"0.5rem"} spaceAbove>
             <p>
