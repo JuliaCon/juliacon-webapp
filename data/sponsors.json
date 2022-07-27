@@ -1,7 +1,7 @@
 [
   {
     "sponsorName": "Julia Computing",
-    "blurb": "Julia Computing's mission is to develop products that bring Julia's superpowers to its customers. Julia Computing's flagship product is JuliaHub, a secure, software-as-a-service platform for developing Julia programs, deploying them, and scaling to thousands of nodes. It provides the power of a supercomputer at the fingertips of every data scientist and engineer. In addition to data science workflows, JuliaHub also provides access to cutting-edge products such as Pumas for pharmaceutical modeling and simulation, JuliaSim for multi-physics modeling and simulation, and JuliaSPICE for electronic circuit simulation, combining traditional simulation with modern SciML approaches. Check out Julia Computing's [JuliaSim](/uploads/sponsordocs/JuliaComputing_JuliaSim_v2.pdf) and [JuliaHub](/uploads/sponsordocs/JuliaComputing_JuliaHub_v3.pdf) brochures. Additionally, catch their [live demo](https://youtu.be/6V6jk_OdH-w) during JuliaCon!",
+    "blurb": "Julia Computing's mission is to develop products that bring Julia's superpowers to its customers. Julia Computing's flagship product is JuliaHub, a secure, software-as-a-service platform for developing Julia programs, deploying them, and scaling to thousands of nodes. It provides the power of a supercomputer at the fingertips of every data scientist and engineer. In addition to data science workflows, JuliaHub also provides access to cutting-edge products such as Pumas for pharmaceutical modeling and simulation, JuliaSim for multi-physics modeling and simulation, and JuliaSPICE for electronic circuit simulation, combining traditional simulation with modern SciML approaches. Check out Julia Computing's [JuliaSim](/uploads/sponsordocs/JuliaComputing_JuliaSim_v2.pdf) and [JuliaHub](/uploads/sponsordocs/JuliaComputing_JuliaHub_v3.pdf) brochures. Additionally, catch their live talk during JuliaCon!",
     "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon", 
     "videoURL": "",
     "chatChannelName": "",
@@ -9,7 +9,7 @@
     "tier": "Platinum",
     "discord": {
       "channel": "#julia-computing",
-      "url": "https://discord.com/channels/859573366477029389/867581249824751637"
+      "url": "https://discord.com/channels/995757799076282478/999380968106373200"
     }
   },
   {
@@ -22,7 +22,7 @@
     "tier": "Platinum",
     "discord": {
       "channel": "#relational-ai",
-      "url": "https://discord.com/channels/859573366477029389/867581293449314364"
+      "url": "https://discord.com/channels/995757799076282478/999381711462862929"
     }
   },
   {
@@ -35,7 +35,7 @@
     "tier": "Platinum",
     "discord": {
       "channel": "#julius-tech",
-      "url": "https://discord.com/channels/859573366477029389/867581293449314364"
+      "url": "https://discord.com/channels/995757799076282478/999381891549499472"
     }
   },
   {
@@ -48,7 +48,20 @@
     "tier": "Gold",
     "discord": {
       "channel": "#intel",
-      "url": "https://discord.com/channels/859573366477029389/867581293449314364"
+      "url": "https://discord.com/channels/995757799076282478/999381936764096573"
+    }
+  },
+  {
+    "sponsorName": "AWS",
+    "blurb": "Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.",
+    "moreInfoURL": "https://www.aws.amazon.com/",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/AWS_logo.png",
+    "tier": "Gold",
+    "discord": {
+      "channel": "#aws",
+      "url": "https://discord.com/channels/995757799076282478/999394131279351929"
     }
   },
   {
@@ -61,7 +74,7 @@
     "tier": "Silver",
     "discord": {
       "channel": "#invenia",
-      "url": "https://discord.com/channels/859573366477029389/867581477936037918"
+      "url": "https://discord.com/channels/995757799076282478/999381764134948914"
     }
   },
   {
@@ -70,7 +83,11 @@
     "moreInfoURL": "https://beacon.bio/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2022/img/sponsors/beacon_logo.svg",
-    "tier": "Silver"
+    "tier": "Silver",
+    "discord": {
+      "channel": "#beacon-biosignals",
+      "url": "https://discord.com/channels/995757799076282478/999382059820798002"
+    }
   },
   {
     "sponsorName": "Metalenz",
@@ -78,7 +95,11 @@
     "moreInfoURL": "https://www.metalenz.com/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2022/img/sponsors/metalenz-logo.png",
-    "tier": "Silver"
+    "tier": "Silver",
+    "discord": {
+      "channel": "#metalenz",
+      "url": "https://discord.com/channels/995757799076282478/999382172907610112"
+    }
   },
   {
     "sponsorName": "ASML",
@@ -86,7 +107,11 @@
     "moreInfoURL": "https://www.asml.com/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2022/img/sponsors/asml.png",
-    "tier": "Silver"
+    "tier": "Silver",
+    "discord": {
+      "channel": "#asml",
+      "url": "https://discord.com/channels/995757799076282478/999382218210279504"
+    }
   },
   {
     "sponsorName": "G-Research",
@@ -94,7 +119,11 @@
     "moreInfoURL": "https://www.gresearch.co.uk/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2022/img/sponsors/gross.png",
-    "tier": "Silver"
+    "tier": "Silver",
+        "discord": {
+      "channel": "#g-research",
+      "url": "https://discord.com/channels/995757799076282478/999382507655004241"
+    }
   },
   {
     "sponsorName": "Conning",
@@ -102,7 +131,11 @@
     "moreInfoURL": "https://www.conning.com/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2021/img/sponsors/conning.png",
-    "tier": "Silver"
+    "tier": "Silver",
+        "discord": {
+      "channel": "#conning",
+      "url": "https://discord.com/channels/995757799076282478/999381983312478318"
+    }
   },
   {
     "sponsorName": "Pumas AI",
@@ -114,7 +147,7 @@
     "tier": "Silver",
     "discord": {
       "channel": "#pumas-ai",
-      "url": "https://discord.com/channels/859573366477029389/867581324428312576"
+      "url": "https://discord.com/channels/995757799076282478/999381032937734195"
     }
   },
   {
@@ -124,7 +157,11 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2021/img/sponsors/quera logo white.png",
-    "tier": "Silver"
+    "tier": "Silver",
+    "discord": {
+      "channel": "#quera-computing",
+      "url": "https://discord.com/channels/995757799076282478/999382127999188992"
+    }
   },
   {
     "sponsorName": "Jeffrey Sarnoff",

@@ -316,7 +316,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "BoF - JuliaLang en Español",
-  "abstract": "Enhorabuena, ha llegado el momento de tener un foro dedicado para los usuarios de JuliaLang en español.\r\nDiscutiremos:\r\n- foros y centros donde se usa Julia en español\r\n- materiales educativos (cursos, libros, artículos, video tutoriales), y planes a futuro\r\n- diversidad, inclusión y apoyo de hispano-parlantes"
+  "abstract": "Enhorabuena, ha llegado el momento de tener un foro dedicado para los usuarios de JuliaLang en español.\r\nDiscutiremos:\r\n- foros y centros donde se usa Julia en español\r\n- materiales educativos (cursos, libros, artículos, video tutoriales), y planes a futuro\r\n- diversidad, inclusión y apoyo de hispano-parlantes\r\n\r\nJoin the discussion on the [bof-voice](https://discord.com/channels/995757799076282478/997898697578913853) channel in discord."
  },
  {
   "content_locale": "en",
@@ -1126,7 +1126,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julia for Space Engineering",
-  "abstract": "On paper, Julia and its ecosystem are a perfect match for space engineering. We have got all the cool tools at our disposal (DifferentialEquations.jl, ModellingToolkit.jl, SatelliteToolbox.jl, and many more). The number of people working on great Julia-based solutions for space engineering are increasing year over year. What else do we need to gain orbital velocity? More documentation? A killer app?\r\nLet's have a discussion, come up with a plan, and let's go light this candle!"
+  "abstract": "On paper, Julia and its ecosystem are a perfect match for space engineering. We have got all the cool tools at our disposal The number of people working on great Julia-based solutions for space engineering are increasing year over year. What else do we need to gain orbital velocity? \r\nLet's have a discussion, come up with a plan, and let's go light this candle!\r\n\r\nJoin the discussion on the [bof-voice](https://discord.com/channels/995757799076282478/997898697578913853) channel in discord."
  },
  {
   "content_locale": "en",
@@ -2101,32 +2101,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "DXHVBM",
-  "track": null,
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-28T15:20:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2022-07-28T15:30:00Z"
-  },
-  "submission_type": {
-   "en": "Gold sponsor talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Intel Sponsored Talk",
-  "abstract": "We create world-changing technology that improves the life of every person on the planet."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "DZFPGX",
   "track": {
    "en": "JuliaCon"
@@ -2538,41 +2512,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "FLB8G9",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/IMG_0030_mAKR9Oi.JPG",
-    "name": "Fons van der Plas",
-    "code": "ECC83Q",
-    "biography": "Excited about making scientific computing more accessible and fun! Looking forward to meet you!"
-   }
-  ],
-  "description": "Pluto Recordings can be made directly from the Pluto interface, and making a recording feels a lot like recording a screen capture with Zoom. But there are some exciting differences:\r\n- Much smaller file format, > 4K resolution!\r\n- Video is **responsive**: it looks great on all screen sizes, from mobile to desktop.\r\n- While watching a recording, you can **scroll around** the notebook to read hidden sections. You are not bound to the recorder's viewport.\r\n- The video is **executable**\r\n\r\nThis experimental new feature is great for education, and you can start using it in your course! It also opens the door even more advanced \"hybrid\" web-video ideas, which we will discuss in the talk!",
-  "image": "https://pretalx.com/media/juliacon-2022/submissions/FLB8G9/cutebanner_0Bjgd4Z.png",
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-28T20:10:00Z",
-   "room": {
-    "en": "Red"
-   },
-   "end": "2022-07-28T20:20:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "🎈 Pluto.jl Recordings — a crazy new video format",
-  "abstract": "[Pluto.jl](https://github.com/fonsp/Pluto.jl) has a new Recording feature, a hybrid format between traditional video and interactive Pluto-web-magic!"
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "FPZVML",
   "track": null,
   "state": "confirmed",
@@ -2627,7 +2566,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julius Tech Sponsored Forum",
-  "abstract": "Enterprise adoption for Julia can be a difficult process for developers and engineers to champion. In this sponsored forum, we invite leading industry experts to talk about the common challenges organizations face when bringing Julia and Julia based solutions onboard. We will also discuss best practices and practical ways to approach integration."
+  "abstract": "Enterprise adoption for Julia can be a difficult process for developers and engineers to champion. In this sponsored forum, we invite leading industry experts to talk about the common challenges organizations face when bringing Julia and Julia based solutions onboard.  Join [here](https://discord.com/channels/995757799076282478/1000106391371010259)."
  },
  {
   "content_locale": "en",
@@ -2653,7 +2592,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "GatherTown -- Social break",
-  "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
+  "abstract": "Join us on [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP) for a social hour."
  },
  {
   "content_locale": "en",
@@ -2926,7 +2865,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Relational AI Sponsored Forum",
-  "abstract": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason."
+  "abstract": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason. Join the [sponsored forum here](https://discord.com/channels/995757799076282478/1000106747232538644)."
  },
  {
   "content_locale": "en",
@@ -2987,7 +2926,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "GatherTown -- Social break",
-  "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
+  "abstract": "Join us on [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP) for a social hour."
  },
  {
   "content_locale": "en",
@@ -3224,7 +3163,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "GatherTown -- Social break",
-  "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
+  "abstract": "Join us on [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP) for a social hour."
  },
  {
   "content_locale": "en",
@@ -4283,7 +4222,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Poster session",
-  "abstract": "The virtual poster session will take place in the designated area in [Gather.town](http://gather.town/)."
+  "abstract": "The virtual poster session will take place in the designated area in [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP). See the full poster list on the [JuliaCon website](https://juliacon.org/2022/posters/)."
  },
  {
   "content_locale": "en",
@@ -4835,39 +4774,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "PJNABU",
-  "track": null,
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Srinivas Kowta",
-    "code": "VH9WW7",
-    "biography": "A data and analytics professional with 20+ years experience in marketing research & analytics, public opinion research, healthcare & pharmaceuticals, epidemiology and bioinformatics. Began my career where SAS, SPSS, and STATA were the primary tools of use and now it is R, Python, and Julia in an applied setting."
-   }
-  ],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-27T15:00:00Z",
-   "room": {
-    "en": "Blue"
-   },
-   "end": "2022-07-27T15:10:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Comparison of Julia, R, and Python for Mixed Effects Models",
-  "abstract": "Mixed effects models are ubiquitous across multiple domains and all of the prominent open-source tools of Julia, Python, and R offer the ability to run Mixed Effects Models. This presentation compares and contrasts on speed of execution and the accuracy of model results on a large real world dataset run on a laptop, typically used by modelers and researchers for every day use (4 cores, 8GB RAM)."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "PMAYRF",
   "track": {
    "en": "JuliaCon"
@@ -5089,7 +4995,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Production Data Engineering in Julia",
-  "abstract": "Many Julia community members have faced common challenges while building Julia-based distributed data processing pipelines within production contexts. Furthermore, we believe that Julia is uniquely well-positioned to pioneer new approaches to dataflow orchestration that are currently dominated by monolithic frameworks. In this BoF, Julia's nascent Data Engineering community will swap experiences and identify opportunities to collaborate on open-source next-generation data engineering tools."
+  "abstract": "We believe that Julia is uniquely well-positioned to pioneer new approaches to dataflow orchestration that are currently dominated by monolithic frameworks. In this BoF, Julia's nascent Data Engineering community will swap experiences and identify opportunities to collaborate on open-source next-generation data engineering tools.\r\n\r\nJoin the discussion on the [bof-voice](https://discord.com/channels/995757799076282478/997898697578913853) channel in discord."
  },
  {
   "content_locale": "en",
@@ -5405,7 +5311,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julia in HPC",
-  "abstract": "The Julia HPC community has been growing over the last years with monthly meetings to coordinate development and to solve problems arising in the use of Julia for HPC.\r\n\r\nThe Julia in HPC Birth of the Feather is an ideal opportunity to join the community and to discuss your experiences with using Julia in HPC"
+  "abstract": "The Julia HPC community has been growing over the last years with monthly meetings to coordinate development and to solve problems arising in the use of Julia for HPC.\r\n\r\nThe Julia in HPC Birth of the Feather is an ideal opportunity to join the community and to discuss your experiences with using Julia in HPC\r\n\r\nJoin the discussion on the [bof-voice](https://discord.com/channels/995757799076282478/997898697578913853) channel in discord."
  },
  {
   "content_locale": "en",
@@ -5535,7 +5441,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "JuliaGPU",
-  "abstract": "The JuliaGPU community welcomes both long-standing contributors and newcomers to a birth-of-the feather event on the state of the JuliaGPU ecosystem.\r\nVoice your feedback and experiences."
+  "abstract": "The JuliaGPU community welcomes both long-standing contributors and newcomers to a birth-of-the feather event on the state of the JuliaGPU ecosystem.\r\n\r\nJoin the discussion on the [bof-voice](https://discord.com/channels/995757799076282478/997898697578913853) channel in discord.\r\nVoice your feedback and experiences."
  },
  {
   "content_locale": "en",
@@ -5627,10 +5533,10 @@
     "avatar": "https://pretalx.com/media/avatars/23FAA3CB-1EE2-4731-A34D-4F09E47FA316_hmTqUdM.JPG",
     "name": "Giovanni Pagliarini",
     "code": "LNRHHF",
-    "biography": "PhD Student in Mathematics, Logic & Computer Science @ University of Ferrara & Parma, Italy.\r\n\r\nDeveloping, studying and testing new **symbolic learning** methods.\r\n\r\n\\#AI, \\#Interpretability, \\#ModalDecisionTrees!"
+    "biography": "PhD Student in Mathematics, Logic & Computer Science @ University of Ferrara & Parma, Italy.\r\n\r\nDeveloping, studying and testing new **symbolic learning** methods.\r\n\r\nCheckout ModalDecisionTrees.jl at: https://github.com/giopaglia/ModalDecisionTrees.jl\r\n\r\n\\#AI, \\#Interpretability, \\#ModalDecisionTrees!"
    }
   ],
-  "description": "Symbolic learning provides *transparent* (or *interpretable*) models, and is becoming increasingly popular as AI permeates more and more aspects of our lives, while simultaneously raising ethical concerns. Mainly based on decision trees and rule-based models, symbolic modeling have been largely studied with either propositional or first-order logic as the underlying logical formalism. These logics are two extremes in terms of *expressive power* and *computational tractability*: on one hand, propositional logic can only express a simple form of reasoning, which makes classical decision trees easy to learn but also unable to deal with non-tabular data; on the other hand, first-order logics can express complex sentences in terms of entities and relations, but at the cost of higher computational complexities. A middle point between the two has been overlooked: modal logic.\r\nModalDecisionTrees.jl offers a set of symbolic machine learning methods based on extensions of classical decision tree learning algorithms (CART and C4.5), that leverage modal logics to perform a rather simple (but powerful) form of entity-relation reasoning; this allows *\"Modal Decision Trees\"* (MDTs) to capture temporal, spatial, and spatio-temporal patterns, and makes them suitable to natively deal (= no need for feature extraction) with data such as multivariate time-series and image data.\r\nTo fix the ideas, consider the case of time-series classification. While classical trees can only make decisions based on scalar values, and thus can only deal with time-series when they are priorly *flattenedly described* by a set of scalar descriptors (feature extraction step), a *modal* image classification rule can speak in terms of temporal patterns such as *there exists an interval in the time-series where variable i has a certain property, _containing_ another interval where variable j has another property*.\r\nModal logic can express the existence of entities (for example, a time interval, or an image region) with given properties, and properties can be *local*, such as the value of a variable being always lower than a certain threshold within the time interval, or *relational*, such as one entity being *contained* in, or *overlapping* with another one.\r\nThis process involves an intermediate step where data samples are represented as graphs (Kripke structures, in logical jargon) representing entities, their local properties, and their relations.\r\nNote how rules and patterns can, of course, be as complex as the reality they are trying to capture; however, they can always be straightforwardly translatable into natural language, which represents the essence of the *transparency* of these models, as well as the main reason why one may want to use this package.\r\nMDTs have been shown to achieve performances that are higher when compared to classical decision trees, and often comparable to those of functional gradient-based methods (e.g., Neural Networks), in tasks such as multivariate time-series classification (e.g., COVID-19 diagnosis from audio recordings of coughs and breaths) and image classification (e.g., land cover classification).\r\nDespite this package being at its infancy, ModalDecisionTrees.jl can be used with the Machine Learning Julia (MLJ) framework, and provides:\r\n- support for *bagging* (i.e, forests, ensembles of trees);\r\n- support for *multimodal* learning;\r\n- tools for inspecting models and analyzing single rules.",
+  "description": "Symbolic learning provides *transparent* (or *interpretable*) models, and is becoming increasingly popular as AI permeates more and more aspects of our lives, while simultaneously raising ethical concerns. Mainly based on decision trees and rule-based models, symbolic modeling have been largely studied with either propositional or first-order logic as the underlying logical formalism. These logics are two extremes in terms of *expressive power* and *computational tractability*: on one hand, propositional logic can only express a simple form of reasoning, which makes classical decision trees easy to learn but also unable to deal with non-tabular data; on the other hand, first-order logics can express complex sentences in terms of entities and relations, but at the cost of higher computational complexities. A middle point between the two has been overlooked: modal logic.\r\nModalDecisionTrees.jl offers a set of symbolic machine learning methods based on extensions of classical decision tree learning algorithms (CART and C4.5), that leverage modal logics to perform a rather simple (but powerful) form of entity-relation reasoning; this allows *\"Modal Decision Trees\"* (MDTs) to capture temporal, spatial, and spatio-temporal patterns, and makes them suitable to natively deal (= no need for feature extraction) with data such as multivariate time-series and image data.\r\nTo fix the ideas, consider the case of time-series classification. While classical trees can only make decisions based on scalar values, and thus can only deal with time-series when they are priorly *flattenedly described* by a set of scalar descriptors (feature extraction step), a *modal* image classification rule can speak in terms of temporal patterns such as *there exists an interval in the time-series where variable i has a certain property, _containing_ another interval where variable j has another property*.\r\nModal logic can express the existence of entities (for example, a time interval, or an image region) with given properties, and properties can be *local*, such as the value of a variable being always lower than a certain threshold within the time interval, or *relational*, such as one entity being *contained* in, or *overlapping* with another one.\r\nThis process involves an intermediate step where data samples are represented as graphs (Kripke structures, in logical jargon) representing entities, their local properties, and their relations.\r\nNote how rules and patterns can, of course, be as complex as the reality they are trying to capture; however, they can always be straightforwardly translatable into natural language, which represents the essence of the *transparency* of these models, as well as the main reason why one may want to use this package.\r\nMDTs have been shown to achieve performances that are higher when compared to classical decision trees, and often comparable to those of functional gradient-based methods (e.g., Neural Networks), in tasks such as multivariate time-series classification (e.g., COVID-19 diagnosis from audio recordings of coughs and breaths) and image classification (e.g., land cover classification).\r\nDespite this package being at its infancy, ModalDecisionTrees.jl can be used with the Machine Learning Julia (MLJ) framework, and provides:\r\n- support for *bagging* (i.e, forests, ensembles of trees);\r\n- support for *multimodal* learning;\r\n- tools for inspecting models and analyzing single rules.\r\n\r\nPackage available at: https://github.com/giopaglia/ModalDecisionTrees.jl",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -5645,7 +5551,7 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Decision Trees, meet Modal Logics",
+  "title": "ModalDecisionTrees: Decision Trees, meet Modal Logics",
   "abstract": "ModalDecisionTrees.jl offers a set of symbolic machine learning algorithms that extend classical decision tree learning algorithms, and are able to natively handle time series and image data. *Modal Decision Trees* leverage *modal logics* to perform a primitive-but-powerful form of entity-relation reasoning; this allows them to capture temporal and spatial patterns, and makes them suitable to natively deal (= no need for feature extraction) with data such as multivariate time-series and images."
  },
  {
@@ -6690,7 +6596,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Simulating neural physiology & networks in Julia",
-  "abstract": "Could Julia be uniquely well-suited for rapidly developing new approaches to simulate the brain ? What if neuroscientists could use a composable set of tools to craft models of ion channels, compartmentalized neuronal morphology, networks of LIF or conductance-based neurons, reinforcement learning, and everything in-between?"
+  "abstract": "Could Julia be uniquely well-suited for rapidly developing new approaches to simulate the brain ? What if neuroscientists could use a composable set of tools to craft models of ion channels, compartmentalized neuronal morphology, networks of LIF or conductance-based neurons, reinforcement learning, and everything in-between?\r\n\r\nJoin the discussion on the [bof-voice](https://discord.com/channels/995757799076282478/997898697578913853) channel in discord."
  },
  {
   "content_locale": "en",
@@ -6976,7 +6882,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "GatherTown -- Social break",
-  "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
+  "abstract": "Join us on [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP) for a social hour."
  },
  {
   "content_locale": "en",
@@ -7570,11 +7476,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-27T13:30:00Z",
+   "start": "2022-07-28T15:20:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Green"
    },
-   "end": "2022-07-27T13:40:00Z"
+   "end": "2022-07-28T15:30:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -7608,7 +7514,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "GatherTown -- Social break",
-  "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
+  "abstract": "Join us on [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP) for a social hour."
  },
  {
   "content_locale": "en",
@@ -7986,7 +7892,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julia Computing Sponsored Forum",
-  "abstract": "TODO"
+  "abstract": "Join the sponsored forum [here](https://discord.com/channels/995757799076282478/1000106542605029416)."
  },
  {
   "content_locale": "en",
@@ -8060,7 +7966,7 @@
   "resources": [],
   "do_not_record": true,
   "title": "Discussing Gender Diversity in the Julia Community",
-  "abstract": "Julia Gender Inclusive is an initiative that supports gender diversity in the Julia community. Over the last year, we have worked toward doing so through meetups and workshops for community building and education. In this Birds-of-Feather session, we hope to discuss current and future initiatives with other people with underrepresented genders, as well as supportive allies."
+  "abstract": "Julia Gender Inclusive is an initiative that supports gender diversity in the Julia community. Over the last year, we have worked toward doing so through meetups and workshops for community building and education. In this Birds-of-Feather session, we hope to discuss current and future initiatives with other people with underrepresented genders, as well as supportive allies.\r\n\r\nJoin the discussion on the [bof-voice](https://discord.com/channels/995757799076282478/997898697578913853) channel"
  },
  {
   "content_locale": "en",
