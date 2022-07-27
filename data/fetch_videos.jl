@@ -30,3 +30,7 @@ end
 download_videos()
 
 @info "Success downloading Video data!"
+
+include("extract-experiences.jl")
+
+@info "Finished extracting experience talks!"

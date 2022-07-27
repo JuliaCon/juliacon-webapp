@@ -9,27 +9,39 @@ vids = load_json("videos.json")
 
 idset = Set(map(x->x["ID"], exs))
 
-ex_vids = [findfirst(x->x["id"] == id, vids)
+ex_vids = [vids[findfirst(x->x["id"] == id, vids)]
            for id in map(x->x["ID"], exs)]
 
 using Dates
 
 exs
-#=
 
-map(exs, ex_vids) do ex, vid
-    if vid == nothing
-        @show ex
-    end
+experience_slot = filter(load_json("talks.json")) do t
+    t["title"] == "Juliacon Experiences"
+end |> only
+
+start_time = experience_slot["slot"]["start"]
+end_time = experience_slot["slot"]["end"]
+
+experiences = sort(experiences, by=x->x["id"])
+fmt = dateformat"yyyy-mm-ddTHH:MM:SSZ"
+slots = DateTime(start_time, fmt):Dates.Minute(3):DateTime(end_time,fmt)
+
+experiences = map(exs, ex_vids, slots) do ex, vid, t
     Dict(
          "id" => vid["id"],
          "title" => ex["Proposal title"],
          "videoCode" => vid["youtubeCode"],
          "abstract" => ex["Abstract"],
-         "startTime" => now(),
-         "endTime" => now())
+         "speakerIds" => ex["Speaker IDs"],
+         "startTime" => t,
+         "endTime" => t + Dates.Minute(3))
 end
-=#
+
+open("experiences.json", "w") do io
+    write(io, JSON.json(experiences))
+end
+
 #=
   {
     "id": "7VNJWV",
