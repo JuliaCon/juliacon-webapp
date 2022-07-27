@@ -5276,7 +5276,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Julia in HPC",
-  "abstract": "The Julia HPC community has been growing over the last years with monthly meetings to coordinate development and to solve problems arising in the use of Julia for HPC.\r\n\r\nThe Julia in HPC Birth of the Feather is an ideal opportunity to join the community and to discuss your experiences with using Julia in HPC\r\n\r\nJoin the discussion on the [bof-voice](https://discord.com/channels/995757799076282478/997898697578913853) channel in discord."
+  "abstract": "The Julia HPC community has been growing over the last years with monthly meetings to coordinate development and to solve problems arising in the use of Julia for high-performance computing.\r\n\r\nThe Julia in HPC Birds of a Feather is an ideal opportunity to join the community and to discuss your experiences with using Julia in an HPC context.\r\n\r\n**Note:** We will host the BoF via Zoom and share the meeting link 15 min before start time in the #hpc channels of JuliaCon Discord and Julia Slack."
  },
  {
   "content_locale": "en",
