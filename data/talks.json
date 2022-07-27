@@ -4196,7 +4196,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Poster session",
-  "abstract": "The virtual poster session will take place in the designated area in [Gather.town](http://gather.town/)."
+  "abstract": "The virtual poster session will take place in the designated area in [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP)."
  },
  {
   "content_locale": "en",
@@ -6570,7 +6570,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Simulating neural physiology & networks in Julia",
-  "abstract": "Could Julia be uniquely well-suited for rapidly developing new approaches to simulate the brain ? What if neuroscientists could use a composable set of tools to craft models of ion channels, compartmentalized neuronal morphology, networks of LIF or conductance-based neurons, reinforcement learning, and everything in-between?"
+  "abstract": "Could Julia be uniquely well-suited for rapidly developing new approaches to simulate the brain ? What if neuroscientists could use a composable set of tools to craft models of ion channels, compartmentalized neuronal morphology, networks of LIF or conductance-based neurons, reinforcement learning, and everything in-between?\r\n\r\nJoin the discussion on the bof-voice channel in discord."
  },
  {
   "content_locale": "en",
