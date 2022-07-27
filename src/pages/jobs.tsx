@@ -77,15 +77,15 @@ export const JobsPage: NextPage = () => {
             
             <ExternalLink href = "https://www.amazon.jobs/en/jobs/1973253/research-scientist-design-and-simulation">
                 Research Scientist, Design and Simulation at the AWS Center for Quantum Computing
-            </ExternalLink>{" "}
+            </ExternalLink>{"\n"}
  
         <ExternalLink href = "https://www.amazon.jobs/en /jobs/1557755/research-scientist-design-tools">
                 Research Scientist, Design Tools at the AWS Center for Quantum Computing
-          </ExternalLink>{" "}
+          </ExternalLink>{"\n"}
  
         <ExternalLink href = "https://www.amazon.jobs/en/jobs/2122080/software-development-engineer-design-and-simulation-center-for-quantum-computing">
                 Software Development Engineer, Design and Simulation at the AWS Center for Quantum Computing
-        </ExternalLink>{" "}
+        </ExternalLink>{"\n"}
           </p>
         </div>
         <div>
