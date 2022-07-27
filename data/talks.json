@@ -2101,32 +2101,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "DXHVBM",
-  "track": null,
-  "state": "canceled",
-  "duration": 10,
-  "speakers": [],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-28T15:20:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2022-07-28T15:30:00Z"
-  },
-  "submission_type": {
-   "en": "Gold sponsor talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Intel Sponsored Talk",
-  "abstract": "We create world-changing technology that improves the life of every person on the planet."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "DZFPGX",
   "track": {
    "en": "JuliaCon"
@@ -2660,7 +2634,7 @@
   "is_featured": false,
   "code": "FTMX73",
   "track": null,
-  "state": "confirmed",
+  "state": "canceled",
   "duration": 5,
   "speakers": [],
   "description": "",
@@ -7537,11 +7511,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-27T13:30:00Z",
+   "start": "2022-07-28T15:20:00Z",
    "room": {
-    "en": "Blue"
+    "en": "Green"
    },
-   "end": "2022-07-27T13:40:00Z"
+   "end": "2022-07-28T15:30:00Z"
   },
   "submission_type": {
    "en": "Lightning talk"
