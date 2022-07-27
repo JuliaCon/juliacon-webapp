@@ -2592,7 +2592,33 @@
   "resources": [],
   "do_not_record": false,
   "title": "GatherTown -- Social break",
-  "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
+  "abstract": "Join us on [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP) for a social hour."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "FTMX73",
+  "track": null,
+  "state": "confirmed",
+  "duration": 5,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2022-07-29T13:10:00Z",
+   "room": {
+    "en": "Purple"
+   },
+   "end": "2022-07-29T13:15:00Z"
+  },
+  "submission_type": {
+   "en": "Silver sponsor talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Invenia Sponsored Talk",
+  "abstract": "We are a team of scientists and engineers working together to solve the social, economic and environmental issues that we face in the world today."
  },
  {
   "content_locale": "en",
@@ -2900,7 +2926,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "GatherTown -- Social break",
-  "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
+  "abstract": "Join us on [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP) for a social hour."
  },
  {
   "content_locale": "en",
@@ -3137,7 +3163,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "GatherTown -- Social break",
-  "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
+  "abstract": "Join us on [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP) for a social hour."
  },
  {
   "content_locale": "en",
@@ -4196,7 +4222,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Poster session",
-  "abstract": "The virtual poster session will take place in the designated area in [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP)."
+  "abstract": "The virtual poster session will take place in the designated area in [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP). See the full poster list on the [JuliaCon website](https://juliacon.org/2022/posters/)."
  },
  {
   "content_locale": "en",
@@ -6856,7 +6882,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "GatherTown -- Social break",
-  "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
+  "abstract": "Join us on [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP) for a social hour."
  },
  {
   "content_locale": "en",
@@ -7488,7 +7514,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "GatherTown -- Social break",
-  "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
+  "abstract": "Join us on [Gather.town](https://app.gather.town/invite?token=2ucLB9IpmCAXZIex4Dvh2VFCeR6QLEdP) for a social hour."
  },
  {
   "content_locale": "en",
