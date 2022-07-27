@@ -73,20 +73,20 @@ export const JobsPage: NextPage = () => {
         <div>
           <TextHeading level={"h3"}>AWS</TextHeading>
           <VSpace height={"0.5rem"} />
-          <p>
+          <p><ul>
             
-            <ExternalLink href = "https://www.amazon.jobs/en/jobs/1973253/research-scientist-design-and-simulation">
+            <li><ExternalLink href = "https://www.amazon.jobs/en/jobs/1973253/research-scientist-design-and-simulation">
                 Research Scientist, Design and Simulation at the AWS Center for Quantum Computing
-            </ExternalLink>{" "}<br>
+              </ExternalLink>{" "}</li>
  
-        <ExternalLink href = "https://www.amazon.jobs/en /jobs/1557755/research-scientist-design-tools">
+        <li><ExternalLink href = "https://www.amazon.jobs/en /jobs/1557755/research-scientist-design-tools">
                 Research Scientist, Design Tools at the AWS Center for Quantum Computing
-          </ExternalLink>{" "}<br>
+          </ExternalLink>{" "}</li>
  
-        <ExternalLink href = "https://www.amazon.jobs/en/jobs/2122080/software-development-engineer-design-and-simulation-center-for-quantum-computing">
+        <li><ExternalLink href = "https://www.amazon.jobs/en/jobs/2122080/software-development-engineer-design-and-simulation-center-for-quantum-computing">
                 Software Development Engineer, Design and Simulation at the AWS Center for Quantum Computing
-        </ExternalLink>{" "}<br>
-          </p>
+        </ExternalLink>{" "}</li>
+            </ul></p>
         </div>
         <div>
           <TextHeading level={"h3"}>Beacon Biosignals</TextHeading>
