@@ -1034,10 +1034,10 @@
   "speaker": "J.J. Allaire"
  },
  {
-  "start_datetime": "2022-07-28T12:30:00Z",
-  "end_datetime": "2022-07-28T13:00:00Z",
+  "start_datetime": "2022-07-29T12:30:00Z",
+  "end_datetime": "2022-07-29T13:00:00Z",
   "duration": 30,
-  "location": "Purple",
+  "location": "Green",
   "id": "KMHPFT",
   "title": "A Guided Tour Through Julia's Front End",
   "url": "/talk/KMHPFT",

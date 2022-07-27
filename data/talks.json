@@ -3594,11 +3594,11 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "start": "2022-07-28T12:30:00Z",
+   "start": "2022-07-29T12:30:00Z",
    "room": {
-    "en": "Purple"
+    "en": "Green"
    },
-   "end": "2022-07-28T13:00:00Z"
+   "end": "2022-07-29T13:00:00Z"
   },
   "submission_type": {
    "en": "Talk"
