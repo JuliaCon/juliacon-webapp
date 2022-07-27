@@ -2103,7 +2103,7 @@
   "is_featured": false,
   "code": "DXHVBM",
   "track": null,
-  "state": "confirmed",
+  "state": "canceled",
   "duration": 10,
   "speakers": [],
   "description": "",
@@ -4831,39 +4831,6 @@
   "do_not_record": false,
   "title": "Julia REPL Mastery Workshop",
   "abstract": "A fundamental Julia experience is feeling the power of computing at your fingertips - but how many of us squeeze the absolute most out of the Julia REPL? In this workshop, you'll go from 0 to hero in about 3 hours with a whopping collection of all the tips, tricks and goodies you could ever hope for in your Julia REPL experience."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "PJNABU",
-  "track": null,
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Srinivas Kowta",
-    "code": "VH9WW7",
-    "biography": "A data and analytics professional with 20+ years experience in marketing research & analytics, public opinion research, healthcare & pharmaceuticals, epidemiology and bioinformatics. Began my career where SAS, SPSS, and STATA were the primary tools of use and now it is R, Python, and Julia in an applied setting."
-   }
-  ],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-27T15:00:00Z",
-   "room": {
-    "en": "Blue"
-   },
-   "end": "2022-07-27T15:10:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Comparison of Julia, R, and Python for Mixed Effects Models",
-  "abstract": "Mixed effects models are ubiquitous across multiple domains and all of the prominent open-source tools of Julia, Python, and R offer the ability to run Mixed Effects Models. This presentation compares and contrasts on speed of execution and the accuracy of model results on a large real world dataset run on a laptop, typically used by modelers and researchers for every day use (4 cores, 8GB RAM)."
  },
  {
   "content_locale": "en",

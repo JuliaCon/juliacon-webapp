@@ -2092,15 +2092,6 @@
   "biography": "[Felix Wechsler](https://felixwechsler.science/) is a PhD student at the Leibniz Institute of Photonic Technology and the Friedrich Schiller University of Jena. Before that, Felix obtained Bachelor degrees in physics and informatics where he worked on Light Field Microscopy and Schlieren Imaging.\r\nIn his master thesis, he developed a novel kaleidoscopic microscope, the Kaleidomicroscope.\r\nHis recent work is implemented in Julia Lang and he is maintainer of several microscopy related packages written in Julia Lang."
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/timotheepoisot_SaBMPrI.jpg",
-  "name": "Timothée Poisot",
-  "submissions": [
-   "WWZCU3"
-  ],
-  "code": "U9NV8B",
-  "biography": "Timothée Poisot is associate professor of quantitative & computational ecology at the department of biological sciences, Université de Montréal, and a researcher with the Québec Centre for Biodiversity Science and the Viral Emergence Research Initiative; his research focuses on the search for general laws in ecological systems, and on the development of novel quantitative methods for the analysis of complex adaptive ecological systems."
- },
- {
   "avatar": "https://pretalx.com/media/avatars/20998300_V5Lu2rn.jpeg",
   "name": "Carl Julius Martensen",
   "submissions": [
@@ -2229,15 +2220,6 @@
   ],
   "code": "VFFPB7",
   "biography": "<a href=\"https://personal.psu.edu/~ebf11\">Eric Ford</a> is a Professor of <a href=\"http://astro.psu.edu/\">Astronomy & Astrophysics</a> at the Pennsylvania State University, where he is active in its <a href=\"https://www.icds.psu.edu/\">Institute for Computational & Data Sciences</a>, <a href=\"https://astrostatistics.psu.edu/\">Center for Astrostatistics</a>, and <a href=\"https://exoplanets.psu.edu/\">Center for Exoplanets & Habitable Worlds</a>.  Ford’s research focuses on detecting and characterizing planetary systems around other stars.  This often involves using Julia to apply modern Bayesian methods to improve the interpretation of exoplanet observations.  Ford has taught a graduate-level class on <a href=\"https://psuastro528.github.io/\">High-Performance Computing for Astrophysics</a> using Julia since 2014."
- },
- {
-  "avatar": null,
-  "name": "Srinivas Kowta",
-  "submissions": [
-   "PJNABU"
-  ],
-  "code": "VH9WW7",
-  "biography": "A data and analytics professional with 20+ years experience in marketing research & analytics, public opinion research, healthcare & pharmaceuticals, epidemiology and bioinformatics. Began my career where SAS, SPSS, and STATA were the primary tools of use and now it is R, Python, and Julia in an applied setting."
  },
  {
   "avatar": null,
