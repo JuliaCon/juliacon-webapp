@@ -1451,41 +1451,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "C3ZNN3",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/Dispatch_UEha6uw.png",
-    "name": "Miguel Raz Guzmán Macedo",
-    "code": "JE89PF",
-    "biography": "Miguel Raz es un estudiante de física de la UNAM."
-   }
-  ],
-  "description": "If you don't feel horrified from looking at the code snippets that I will present in this presentation, I have failed my job. WATs are code snippets that show gnarly or unfortunate corner cases of the Julia language, and how some of these surprising gotchas can arise out of multiple design constraints.\r\n\r\nThe idea of the talk is to Horrify, Explain, and Assuage viewers from as many code examples as possible and hopefully collect a few more from the community to establish a Great Julia House of Horrors.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-29T12:30:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2022-07-29T13:00:00Z"
-  },
-  "submission_type": {
-   "en": "Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Julia WATs - a most horrifying colleciton of Julia corner cases",
-  "abstract": "Everyone else in this conference will rhapsodize about how Julia is amazing and can be improved - but *not ME!* And that's only because they haven't stared deep down into the abyss of programming language implementations and have it stare right back. Inspired by the Gary Bernhard 'Javascript WATs' talk, I've collected as many Julia WATs (via community crowdsourcing) as I can and I'd love to collect even more creepy code critters into my collection and show off the ones I have."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "CB3PEY",
   "track": {
    "en": "JuliaCon"
@@ -6194,6 +6159,32 @@
   "do_not_record": false,
   "title": "PDE-constrained optimization using JuliaSmoothOptimizers",
   "abstract": "In this presentation, we showcase a new optimization infrastructure within JuliaSmoothOptimizers for PDE-constrained optimization problems in Julia. We introduce PDENLPModels.jl a package that discretizes PDE-constrained optimization problems using finite elements methods via Gridap.jl. The resulting problem can then be solved by solvers tailored for large-scale optimization implemented in pure Julia such as DCISolver.jl and FletcherPenaltyNLPSolver.jl."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "code": "UKMZJV",
+  "track": null,
+  "state": "confirmed",
+  "duration": 10,
+  "speakers": [],
+  "description": "",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "start": "2022-07-28T15:45:00Z",
+   "room": {
+    "en": "Green"
+   },
+   "end": "2022-07-28T15:55:00Z"
+  },
+  "submission_type": {
+   "en": "Lightning talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Annual Julia Developer Survey",
+  "abstract": "Results of the Julia Developer Survey 2022"
  },
  {
   "content_locale": "en",

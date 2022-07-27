@@ -1124,9 +1124,7 @@
   "name": "Miguel Raz Guzmán Macedo",
   "submissions": [
    "7M3BKA",
-   "PFUHDL",
-   "9LJV7K",
-   "C3ZNN3"
+   "PFUHDL"
   ],
   "code": "JE89PF",
   "biography": "Miguel Raz es un estudiante de física de la UNAM."
@@ -1677,6 +1675,15 @@
   "biography": null
  },
  {
+  "avatar": "https://pretalx.com/media/avatars/soeren-schoenbrod.1024x1024_ogrViN1.jpg",
+  "name": "Sören Schönbrod",
+  "submissions": [
+   "AEPDKU"
+  ],
+  "code": "PMYWA7",
+  "biography": "Wireless Systems Research Engineer at JuliaComputing"
+ },
+ {
   "avatar": "https://pretalx.com/media/avatars/photo_2021-03-30_16-40-27_1RCfOfV.jpg",
   "name": "Marco Bonici",
   "submissions": [
@@ -2044,6 +2051,15 @@
   ],
   "code": "TJKSVY",
   "biography": "Assistant Professor at the Computer Science Department at VU Amsterdam."
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/33359548_7AHLwsA.png",
+  "name": "Can Özmaden",
+  "submissions": [
+   "AEPDKU"
+  ],
+  "code": "TMGPLM",
+  "biography": "I have received my B.Sc. degree in electrical engineering from the RWTH Aachen University in 2020. My thesis was on the topic of estimation of an RF front end transfer function of a multi-antenna GNSS receiver. During the writing of the thesis I became familiar with the Julia language and have used it to accelerate the exisiting codebase with CUDA. Since then Julia became my favorite programming language. Right now I am pursuing my M.Sc. degree in electrical engineering at the RWTH Aachen University, and currently working as an intern at the German Aerospace Center (DLR)."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/portrait_gTjUlyr.PNG",
