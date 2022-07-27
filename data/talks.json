@@ -2512,41 +2512,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "FLB8G9",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/IMG_0030_mAKR9Oi.JPG",
-    "name": "Fons van der Plas",
-    "code": "ECC83Q",
-    "biography": "Excited about making scientific computing more accessible and fun! Looking forward to meet you!"
-   }
-  ],
-  "description": "Pluto Recordings can be made directly from the Pluto interface, and making a recording feels a lot like recording a screen capture with Zoom. But there are some exciting differences:\r\n- Much smaller file format, > 4K resolution!\r\n- Video is **responsive**: it looks great on all screen sizes, from mobile to desktop.\r\n- While watching a recording, you can **scroll around** the notebook to read hidden sections. You are not bound to the recorder's viewport.\r\n- The video is **executable**\r\n\r\nThis experimental new feature is great for education, and you can start using it in your course! It also opens the door even more advanced \"hybrid\" web-video ideas, which we will discuss in the talk!",
-  "image": "https://pretalx.com/media/juliacon-2022/submissions/FLB8G9/cutebanner_0Bjgd4Z.png",
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-28T20:10:00Z",
-   "room": {
-    "en": "Red"
-   },
-   "end": "2022-07-28T20:20:00Z"
-  },
-  "submission_type": {
-   "en": "Lightning talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "🎈 Pluto.jl Recordings — a crazy new video format",
-  "abstract": "[Pluto.jl](https://github.com/fonsp/Pluto.jl) has a new Recording feature, a hybrid format between traditional video and interactive Pluto-web-magic!"
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "FPZVML",
   "track": null,
   "state": "confirmed",
@@ -2628,32 +2593,6 @@
   "do_not_record": false,
   "title": "GatherTown -- Social break",
   "abstract": "Join us on [Gather.town](http://gather.town/) for a social hour."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "code": "FTMX73",
-  "track": null,
-  "state": "canceled",
-  "duration": 5,
-  "speakers": [],
-  "description": "",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-29T13:10:00Z",
-   "room": {
-    "en": "Purple"
-   },
-   "end": "2022-07-29T13:15:00Z"
-  },
-  "submission_type": {
-   "en": "Silver sponsor talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Invenia Sponsored Talk",
-  "abstract": "We are a team of scientists and engineers working together to solve the social, economic and environmental issues that we face in the world today."
  },
  {
   "content_locale": "en",
