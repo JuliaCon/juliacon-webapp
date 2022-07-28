@@ -1,156 +1,156 @@
 [
 	{
 		"videoCode": "PdbNOphAKaE",
-		"startTime": "2022-07-29T13:15:00",
+		"startTime": "2022-07-29T13:15:000Z",
 		"speakerIds": [
 			"SXHELN"
 		],
 		"id": "879SWS",
 		"title": "Populating cosmological simulations with galaxies using Julia",
 		"abstract": "In cosmology, the study of large-scale structure is related to the three-dimensional distribution of dark matter in the Universe. Dark matter has only gravitational interaction and can be easily simulated. However, what we observe are the galaxies. I translated from Python3 my code to populate dark matter simulation with galaxies in Julia. In a month, starting from no Julia experience, I obtained a speed up of about 10. Now I extensively use Julia in my work.",
-		"endTime": "2022-07-29T13:18:00"
+		"endTime": "2022-07-29T13:18:000Z"
 	},
 	{
 		"videoCode": "4SokD3Om3kc",
-		"startTime": "2022-07-29T13:18:00",
+		"startTime": "2022-07-29T13:18:000Z",
 		"speakerIds": [
 			"BQF8LN"
 		],
 		"id": "8MGPAT",
 		"title": "Analyze Your Health and Fitness Data using Julia",
 		"abstract": "I wear a Samsung smartwatch, which has various sensors to record activities such as steps, distance, climbed floors and heart rate. The data recorded by these sensors can be downloaded in the form of CSV files. \r\n\r\nI was inspired to do a fun data science project, where I could explore various packages from the Julia ecosystem. I was easily able to create interactive visualizations, which provided a lot of insight on my daily health routines and how I could improve upon them.",
-		"endTime": "2022-07-29T13:21:00"
+		"endTime": "2022-07-29T13:21:000Z"
 	},
 	{
 		"videoCode": "fmLJiiIuadE",
-		"startTime": "2022-07-29T13:21:00",
+		"startTime": "2022-07-29T13:21:000Z",
 		"speakerIds": [
 			"3EY8FS"
 		],
 		"id": "AUPPZY",
 		"title": "Agent-Based Modeling with Julia",
 		"abstract": "Julia is a promising and powerful language for agent-based modeling and it already has a fully functional agent-based modeling framework called Agents.jl. This framework is clearly faster than the other popular frameworks in use today, and also offers unique features that are difficult to replicate. At the same time, there are points of design and documentation that could still be improved, especially when it comes to addressing beginners.",
-		"endTime": "2022-07-29T13:24:00"
+		"endTime": "2022-07-29T13:24:000Z"
 	},
 	{
 		"videoCode": "Sq1X_8L7Ej0",
-		"startTime": "2022-07-29T13:24:00",
+		"startTime": "2022-07-29T13:24:000Z",
 		"speakerIds": [
 			"BVRHH3"
 		],
 		"id": "GXCNEZ",
 		"title": "Visualizando dependencia probabilística con Pluto.jl",
 		"abstract": "La rapidez de Julia combinada con los notebooks reactivos de Pluto permiten ilustrar de forma interactiva la importancia de visualizar las pseudo-observaciones de la función cópula subyacente de un vector aleatorio, y cómo los scatterplots de los datos originales pueden resultar engañosos.",
-		"endTime": "2022-07-29T13:27:00"
+		"endTime": "2022-07-29T13:27:000Z"
 	},
 	{
 		"videoCode": "GAg38PYHzMg",
-		"startTime": "2022-07-29T13:27:00",
+		"startTime": "2022-07-29T13:27:000Z",
 		"speakerIds": [
 			"JFZQZ7"
 		],
 		"id": "JXBTJF",
 		"title": "Calibrating Pedestrian Models with Turing.jl",
 		"abstract": "Pedestrian models are used by practitioners to construct safer, more comfortable, and more efficient pedestrian environments. They allow engineers to predict the impact of their design choices before costly decisions are made. To make accurate predictions the models must be calibrated. This talk covers the integration between DifferentialEquations.jl and Turing.jl and how we’ve been able to go beyond the state of the art in pedestrian model calibration by using them.",
-		"endTime": "2022-07-29T13:30:00"
+		"endTime": "2022-07-29T13:30:000Z"
 	},
 	{
 		"videoCode": "Z4qkpUxBJc0",
-		"startTime": "2022-07-29T13:30:00",
+		"startTime": "2022-07-29T13:30:000Z",
 		"speakerIds": [
 			"KE7RJF"
 		],
 		"id": "LSRMCT",
 		"title": "¿Cómo resolví un problema de precisión numérica de NIST en Julia",
 		"abstract": "I can give a Julia Experiences talk in Spanish or English, however I prefer to give it in Spanish. \r\nEl problema abordado en esta plática es difundir distintos métodos de solución a un problema de precisión numérica. El ejercicio consiste en ajustar un polinomio de grado 10 propuesto a un conjunto de 82 pares ordenados. En Julia se desarrollaron cuatro métodos de solución distintos que incluyen teoría algebraica y uso de paquetes como GLM y Polynomials.",
-		"endTime": "2022-07-29T13:33:00"
+		"endTime": "2022-07-29T13:33:000Z"
 	},
 	{
 		"videoCode": "374v9cNc03k",
-		"startTime": "2022-07-29T13:33:00",
+		"startTime": "2022-07-29T13:33:000Z",
 		"speakerIds": [
 			"AKYARE"
 		],
 		"id": "M3NG7A",
 		"title": "Combatiendo la corrupción usando Julia",
 		"abstract": "En la Fundación América Transparente, construimos plataformas código abierto que permiten acceder fácilmente a información de transparencia gubernamental, empoderando a tanto ciudadanos como periodistas a fiscalizar a sus gobiernos. \r\n\r\nPara esto, utilizamos Julia para manejar la recolección, limpieza, enriquecimiento e indexación de datos, permitiéndonos compilar información de cientos de entidades públicas.",
-		"endTime": "2022-07-29T13:36:00"
+		"endTime": "2022-07-29T13:36:000Z"
 	},
 	{
 		"videoCode": "JW8Y9JF-ucw",
-		"startTime": "2022-07-29T13:36:00",
+		"startTime": "2022-07-29T13:36:000Z",
 		"speakerIds": [
 			"LCUASZ"
 		],
 		"id": "MFYKTY",
 		"title": "Making reproducible research with Julia",
 		"abstract": "Reproducibility of data and analysis is still lacking in experimental physical chemistry. I share my experience making my PhD research reproducible using Julia after completing a months-long transition from Python. I highlight tools that should encourage experimental scientists to produce more easily shareable and readable analytic code.",
-		"endTime": "2022-07-29T13:39:00"
+		"endTime": "2022-07-29T13:39:000Z"
 	},
 	{
 		"videoCode": "Ay15dYDX1MY",
-		"startTime": "2022-07-29T13:39:00",
+		"startTime": "2022-07-29T13:39:000Z",
 		"speakerIds": [
 			"E77THB"
 		],
 		"id": "NN88VC",
 		"title": "CompatDevTools.jl: To ease managing many compat entries",
 		"abstract": "Managing many environments which have many dependencies, and therefore compat entries, can be a bit tedious. CompatDevTools.jl is a very small and simple package, for developers and maintainers, to help assist maintaining synchronized compat entries across many environments.",
-		"endTime": "2022-07-29T13:42:00"
+		"endTime": "2022-07-29T13:42:000Z"
 	},
 	{
 		"videoCode": "8SSutdRfQ4g",
-		"startTime": "2022-07-29T13:42:00",
+		"startTime": "2022-07-29T13:42:000Z",
 		"speakerIds": [
 			"MCGB3X"
 		],
 		"id": "NPRVMS",
 		"title": "Community Building using Open Science Principles",
 		"abstract": "Open science helps in creating reproducible resources in a transparent manner, which further improves inclusion and fairness in the process. In this talk I share the benefits of following open science principles in community building work that I learnt during my participation in the [Cohort-4 of the Open Life Science Programme (OLS-4)](https://openlifesci.org/ols-4/projects-participants/). These principles can be applied to research and community work in many domains.",
-		"endTime": "2022-07-29T13:45:00"
+		"endTime": "2022-07-29T13:45:000Z"
 	},
 	{
 		"videoCode": "qe0EDcjCV8g",
-		"startTime": "2022-07-29T13:45:00",
+		"startTime": "2022-07-29T13:45:000Z",
 		"speakerIds": [
 			"3FZJ7K"
 		],
 		"id": "PUN7AF",
 		"title": "Starting my journey in Julia",
 		"abstract": "As a beginner in Julia, my experience aims to get people familiar with the Julia language. Sharing the reason I started Julia, my first steps and how Julia is becoming the language of my heart.",
-		"endTime": "2022-07-29T13:48:00"
+		"endTime": "2022-07-29T13:48:000Z"
 	},
 	{
 		"videoCode": "9L5Oy3oGoTU",
-		"startTime": "2022-07-29T13:48:00",
+		"startTime": "2022-07-29T13:48:000Z",
 		"speakerIds": [
 			"8DGYCX"
 		],
 		"id": "TAYUVT",
 		"title": "Julia and Quarto: a Match Made in Heaven? 🌤",
 		"abstract": "Scientific publications come in many forms: Markdown, HTML, PDF, ePub and more. Wouldn't it be nice to have a tool that can produce all of these different output formats from the same input? With [Quarto](https://quarto.org/) scientific publishing always starts from the same place: a plain Markdown document blended with essentially any programming language of your choice and a YAML header defining your output. I would like to demonstrate its potential value for the Julia community.",
-		"endTime": "2022-07-29T13:51:00"
+		"endTime": "2022-07-29T13:51:000Z"
 	},
 	{
 		"videoCode": "08jtXsgIMfU",
-		"startTime": "2022-07-29T13:51:00",
+		"startTime": "2022-07-29T13:51:000Z",
 		"speakerIds": [
 			"NFBXZN"
 		],
 		"id": "XTKVK3",
 		"title": "Programa Agente Jovem Ambiental - AJA",
 		"abstract": "O AJA objetiva promover a inclusão social e ambiental de jovens maranhenses por meio do estímulo à participação em projetos socioambientais sustentáveis, visando contribuir com a preservação do meio ambiente além de ampliar as oportunidades de geração de renda e melhoria da qualidade de vida.",
-		"endTime": "2022-07-29T13:54:00"
+		"endTime": "2022-07-29T13:54:000Z"
 	},
 	{
 		"videoCode": "qq7v99_m2Fs",
-		"startTime": "2022-07-29T13:54:00",
+		"startTime": "2022-07-29T13:54:000Z",
 		"speakerIds": [
 			"R7DNJC"
 		],
 		"id": "ZMQBSR",
 		"title": "Why Julia is well suited for Condensed Matter Physics research",
 		"abstract": "This talk provides an example of how we use Julia in the physics of nanomagnetism research. We model a system of nanomagnets on a particular size lattice and try to obtain various physical properties of such a system. The code is then adapted to run on an HPC cluster to get the desired physical parameters.",
-		"endTime": "2022-07-29T13:57:00"
+		"endTime": "2022-07-29T13:57:000Z"
 	}
 ]
