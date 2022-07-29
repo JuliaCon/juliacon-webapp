@@ -3576,41 +3576,6 @@
  {
   "content_locale": "en",
   "is_featured": false,
-  "code": "KMHPFT",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "withdrawn",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Simeon Schaub",
-    "code": "XRD9WL",
-    "biography": "I am currently a master's student in Computational Science and Engineering at the MIT Julia Lab. I have been a Julia user since 2018 and am one of the maintainers of the Julia language. Among other parts of the language, I work on Julia's front end and contribute to packages such as Cthulhu.jl, JuliaInterpreter.jl, and ArtifactUtils.jl."
-   }
-  ],
-  "description": "My motivation for giving this talk is that there have been several talks at past JuliaCons touching various parts of Julia's compilation pipeline, but they have mostly been about the stages after lowering. I think this is a bit of a shame, since the intuitive and powerful surface syntax is a big part of what draws users to Julia – not to talk about its meta programming capabilities. Julia also inherited a lot of its syntax decisions from the Lisp family of languages and I will explain what that means for the language.\r\n\r\nI will also give some tips and tricks on how users can tinker with the actual code themselves using a bit of rudimentary Scheme. Lastly, I plan on touching on future directions for Julia's front end with a potential pure-Julia implementation in [JuliaSyntax.jl](https://github.com/c42f/JuliaSyntax.jl) on the horizon.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "start": "2022-07-29T12:30:00Z",
-   "room": {
-    "en": "Green"
-   },
-   "end": "2022-07-29T13:00:00Z"
-  },
-  "submission_type": {
-   "en": "Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "A Guided Tour Through Julia's Front End",
-  "abstract": "Although many Julia users may be familiar with functions such as `Meta.parse` and `code_lowered`, not many are familiar what actually goes on under the hood. In this talk, I aim to decipher words such as \"lexing\", \"parsing\", \"lowering\", and \"macro expansion\" and I will explain how Julia translates the literal code you write into something type inference and the optimizer understands."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
   "code": "KPRZAM",
   "track": {
    "en": "JuliaCon"

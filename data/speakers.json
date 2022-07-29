@@ -2423,8 +2423,7 @@
   "avatar": null,
   "name": "Simeon Schaub",
   "submissions": [
-   "WTPZLZ",
-   "KMHPFT"
+   "WTPZLZ"
   ],
   "code": "XRD9WL",
   "biography": "I am currently a master's student in Computational Science and Engineering at the MIT Julia Lab. I have been a Julia user since 2018 and am one of the maintainers of the Julia language. Among other parts of the language, I work on Julia's front end and contribute to packages such as Cthulhu.jl, JuliaInterpreter.jl, and ArtifactUtils.jl."
