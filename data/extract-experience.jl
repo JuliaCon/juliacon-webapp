@@ -22,8 +22,6 @@ end |> only
 
 start_time = experience_slot["slot"]["start"]
 end_time = experience_slot["slot"]["end"]
-
-experiences = sort(experiences, by=x->x["id"])
 fmt = dateformat"yyyy-mm-ddTHH:MM:SSZ"
 slots = DateTime(start_time, fmt):Dates.Minute(3):DateTime(end_time,fmt)
 
@@ -34,9 +32,11 @@ experiences = map(exs, ex_vids, slots) do ex, vid, t
          "videoCode" => vid["youtubeCode"],
          "abstract" => ex["Abstract"],
          "speakerIds" => ex["Speaker IDs"],
-         "startTime" => t,
-         "endTime" => t + Dates.Minute(3))
+         "startTime" => string(t,"Z"),
+         "endTime" => string(t + Dates.Minute(3), "Z"))
 end
+
+experiences = sort(experiences, by=x->x["id"])
 
 open("experiences.json", "w") do io
     write(io, JSON.json(experiences))
