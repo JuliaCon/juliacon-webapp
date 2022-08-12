@@ -4778,76 +4778,10 @@
   "duration": 45,
   "speakers": [
    {
-    "avatar": "https://pretalx.com/media/avatars/headshot_-_Cropped_bmH40Nn.png",
-    "name": "Charlie Kawczynski",
-    "code": "E77THB",
-    "biography": "Charlie earned his Ph.D. in mechanical engineering at UCLA, where he studied and developed software to simulate computational liquid metal magnetohydrodynamic flows for magnetic confined fusion energy reactors. Since then, he's been developing a climate model, in Julia, from the ground up at Caltech in the CliMA project. For more details, see https://clima.caltech.edu/."
-   },
-   {
-    "avatar": "https://pretalx.com/media/avatars/Saranjeet-Kaur-Bhogal_zon7FNE.jpg",
-    "name": "Saranjeet Kaur Bhogal",
-    "code": "MCGB3X",
-    "biography": "Saranjeet is a Statistician based in India. She has written the first draft of the R Development Guide under the mentorship of Heather Turner and Micheal Lawrence, funded by the R Foundation. Furthermore, she is supporting Heather Turner in the work on the outreach of the R Development Guide at the Digital Infrastructure Incubator at Code for Science & Society. Saranjeet has also worked with the Julia Language organization for Google Summer of Code 2020. She is eager to learn about open source and open science practices. Saranjeet co-founded the Research Software Engineering (RSE) Asia Association during her participation in the Cohort 4 of the Open Life Science program, to promote the RSE community and profession in the Asia region. She is being mentored by Michelle Barker to build the RSE Asia community. Recently she has been selected in the founding committee of NumFOCUS Project Incubator. This Incubator is designed to support the growth of open source scientific projects and communities.\r\nPersonal website: https://saranjeetkaur.github.io/About-Me/"
-   },
-   {
-    "avatar": "https://pretalx.com/media/avatars/avatar_K2fis16.jpeg",
-    "name": "Patrick Altmeyer",
-    "code": "8DGYCX",
-    "biography": "I am an economist and computer scientist currently studying for a PhD in Trustworthy Artificial Intelligence (AI) at Delft University of Technology. My research is on the intersection of AI and Financial Economics. In particular, I'm interested in Explainable AI, Counterfactual Explanations, Bayesian ML and Causal Inference and their applications to Financial Economics.\r\n\r\nPreviously, I worked as an economist for Bank of England where I was involved in research, monetary policy briefings and market intelligence. I hold bachelor's and master's degrees in Economics, Finance and Data Science."
-   },
-   {
-    "avatar": "https://pretalx.com/media/avatars/265266424_6834515163257241_164130782207290776_n_eBv8Zcq.jpg",
-    "name": "Olga Eleftherakou",
-    "code": "3FZJ7K",
-    "biography": "Born in 1999 in Athens, Greece. A postgraduate student in Applied Statistics (fields of Data Science and Biostatistics) with a Bachelor's degree in Statistics and Actuarial Science, University of Piraeus. Passionate about Machine Learning. Currently learning Julia language by myself."
-   },
-   {
-    "avatar": "https://pretalx.com/media/avatars/DrArturoErdely_8uujM80.jpg",
-    "name": "Arturo Erdely",
-    "code": "BVRHH3",
-    "biography": "Profesor de tiempo completo en la Universidad Nacional Autónoma de México (UNAM), miembro nivel 1 del Sistema Nacional de Investigadores (CONACYT - México), Actuario y Doctor en Ciencias Matemáticas (UNAM)."
-   },
-   {
-    "avatar": "https://pretalx.com/media/avatars/1644459184718_Q695Lrg.png",
-    "name": "Fábio Rodrigues Sodré",
-    "code": "NFBXZN",
-    "biography": "Analista programador web, gamer, apaixonado por leitura e futebol\r\nGestor da Unidade de Gestão da Informação | Secretaria Adjunta da Tecnologia da Informação do Maranhão - SEATI / MA - Brasil"
-   },
-   {
-    "avatar": "https://pretalx.com/media/avatars/106985157_282311202859595_1951602273255141840_n_2_JOqZnRx.jpg",
-    "name": "Martin Smit",
-    "code": "JFZQZ7",
-    "biography": "Hello, my name is Jacobus Smit, but you can call me Martin (derived from my second name). My pronouns are he/him. I just finished the Oxford Master's in Mathematical Sciences (OMMS) at St Cross college and will be starting my PhD in the Socially Intelligent Artificial Systems group at the University of Amsterdam.\r\n\r\nI love computational mathematics and statistics, especially their applications to social sciences such as economics and sociology. I author and maintain the TernaryPlots.jl."
-   },
-   {
-    "avatar": "https://pretalx.com/media/avatars/Vikas_profile_pic_8NMia4Z.jpeg",
-    "name": "Dr. Vikas Negi",
-    "code": "BQF8LN",
-    "biography": "I currently work as a Metrology Design Engineer at ASML in the Netherlands. I love coding, and my language of choice is Julia. Besides that, I occasionally tinker with my Raspberry Pi. My other hobbies include listening to podcasts (big fan of Lex Fridman) during long walks, running and watching new shows/documentaries on Netflix. I am also a proud owner of a custom built PC and a Xbox One S. Whenever time permits, I dabble with Web 3.0 and blockchain based technologies. Curious to know more? Feel free to visit my web3 powered [site](https://vikasnegi.eth.link/)."
-   },
-   {
-    "avatar": "https://pretalx.com/media/avatars/1583588391082_CzJE2KJ.jpg",
-    "name": "Jeremiah Lasquety-Reyes",
-    "code": "3EY8FS",
-    "biography": "Jeremiah Lasquety-Reyes is a digital market analyst based in Hamburg, Germany. He uses R and Python on a daily basis, but has recently started to turn his sights on Julia, especially for the purpose of agent-based modeling."
-   },
-   {
-    "avatar": null,
-    "name": "Garrek Stemo",
-    "code": "LCUASZ",
-    "biography": "PhD candidate in physical chemistry and molecular science at the Nara Institute of Science and Technology."
-   },
-   {
-    "avatar": null,
-    "name": "Marina Cagliari",
-    "code": "SXHELN",
-    "biography": "I am a PhD student who works in cosmology and the analysis of cosmological surveys."
-   },
-   {
-    "avatar": "https://pretalx.com/media/avatars/_MG_4356_ovFVMSr.jpg",
-    "name": "Valeria Perez",
-    "code": "KE7RJF",
-    "biography": "Valeria Pérez is a 24 year-old mexican programmer living in Monterrey, México. She studied Applied Mathematics at the Tecnológico Autónomo de México (ITAM). She graduated in 2020 and worked at the Instituto Mexicano del Seguro Social (IMSS) the largest health provider in México as a junior developer helping with models regarding the COVID-19 pandemic. Currently, she is working in her bachelor thesis and looking to work developing software for techonology companies. \r\nValeria knows how to program in R, Python and Julia. She is a fluent speaker and writer in English and Spanish. Her passions include gender equality, dance, running and reading."
+    "avatar": "https://pretalx.com/media/avatars/55e0337a-7d9d-4412-a58c-83919a107bcb_ugejzQo.jpg",
+    "name": "Julia Frank",
+    "code": "R7DNJC",
+    "biography": "Undergraduate physics student (starting an MSc Physics degree in May 2022) from Canada. \r\nBlogging about Julia Language and physics."
    },
    {
     "avatar": "https://pretalx.com/media/avatars/Foto_de_Perfil_7uGWlJr.png",
@@ -4856,10 +4790,76 @@
     "biography": "Estudiante de ingeniería en UC | Chile que hace un poco de todo, nada especialmente bien. Trabajo como Jefe de Plataformas Digitales en la Fundación América Transparente."
    },
    {
-    "avatar": "https://pretalx.com/media/avatars/55e0337a-7d9d-4412-a58c-83919a107bcb_ugejzQo.jpg",
-    "name": "Julia Frank",
-    "code": "R7DNJC",
-    "biography": "Undergraduate physics student (starting an MSc Physics degree in May 2022) from Canada. \r\nBlogging about Julia Language and physics."
+    "avatar": "https://pretalx.com/media/avatars/_MG_4356_ovFVMSr.jpg",
+    "name": "Valeria Perez",
+    "code": "KE7RJF",
+    "biography": "Valeria Pérez is a 24 year-old mexican programmer living in Monterrey, México. She studied Applied Mathematics at the Tecnológico Autónomo de México (ITAM). She graduated in 2020 and worked at the Instituto Mexicano del Seguro Social (IMSS) the largest health provider in México as a junior developer helping with models regarding the COVID-19 pandemic. Currently, she is working in her bachelor thesis and looking to work developing software for techonology companies. \r\nValeria knows how to program in R, Python and Julia. She is a fluent speaker and writer in English and Spanish. Her passions include gender equality, dance, running and reading."
+   },
+   {
+    "avatar": "https://pretalx.com/media/avatars/Saranjeet-Kaur-Bhogal_zon7FNE.jpg",
+    "name": "Saranjeet Kaur Bhogal",
+    "code": "MCGB3X",
+    "biography": "Saranjeet is a Statistician based in India. She has written the first draft of the R Development Guide under the mentorship of Heather Turner and Micheal Lawrence, funded by the R Foundation. Furthermore, she is supporting Heather Turner in the work on the outreach of the R Development Guide at the Digital Infrastructure Incubator at Code for Science & Society. Saranjeet has also worked with the Julia Language organization for Google Summer of Code 2020. She is eager to learn about open source and open science practices. Saranjeet co-founded the Research Software Engineering (RSE) Asia Association during her participation in the Cohort 4 of the Open Life Science program, to promote the RSE community and profession in the Asia region. She is being mentored by Michelle Barker to build the RSE Asia community. Recently she has been selected in the founding committee of NumFOCUS Project Incubator. This Incubator is designed to support the growth of open source scientific projects and communities.\r\nPersonal website: https://saranjeetkaur.github.io/About-Me/"
+   },
+   {
+    "avatar": null,
+    "name": "Marina Cagliari",
+    "code": "SXHELN",
+    "biography": "I am a PhD student who works in cosmology and the analysis of cosmological surveys."
+   },
+   {
+    "avatar": "https://pretalx.com/media/avatars/avatar_K2fis16.jpeg",
+    "name": "Patrick Altmeyer",
+    "code": "8DGYCX",
+    "biography": "I am an economist and computer scientist currently studying for a PhD in Trustworthy Artificial Intelligence (AI) at Delft University of Technology. My research is on the intersection of AI and Financial Economics. In particular, I'm interested in Explainable AI, Counterfactual Explanations, Bayesian ML and Causal Inference and their applications to Financial Economics.\r\n\r\nPreviously, I worked as an economist for Bank of England where I was involved in research, monetary policy briefings and market intelligence. I hold bachelor's and master's degrees in Economics, Finance and Data Science."
+   },
+   {
+    "avatar": null,
+    "name": "Garrek Stemo",
+    "code": "LCUASZ",
+    "biography": "PhD candidate in physical chemistry and molecular science at the Nara Institute of Science and Technology."
+   },
+   {
+    "avatar": "https://pretalx.com/media/avatars/1583588391082_CzJE2KJ.jpg",
+    "name": "Jeremiah Lasquety-Reyes",
+    "code": "3EY8FS",
+    "biography": "Jeremiah Lasquety-Reyes is a digital market analyst based in Hamburg, Germany. He uses R and Python on a daily basis, but has recently started to turn his sights on Julia, especially for the purpose of agent-based modeling."
+   },
+   {
+    "avatar": "https://pretalx.com/media/avatars/Vikas_profile_pic_8NMia4Z.jpeg",
+    "name": "Dr. Vikas Negi",
+    "code": "BQF8LN",
+    "biography": "I currently work as a Metrology Design Engineer at ASML in the Netherlands. I love coding, and my language of choice is Julia. Besides that, I occasionally tinker with my Raspberry Pi. My other hobbies include listening to podcasts (big fan of Lex Fridman) during long walks, running and watching new shows/documentaries on Netflix. I am also a proud owner of a custom built PC and a Xbox One S. Whenever time permits, I dabble with Web 3.0 and blockchain based technologies. Curious to know more? Feel free to visit my web3 powered [site](https://vikasnegi.eth.link/)."
+   },
+   {
+    "avatar": "https://pretalx.com/media/avatars/106985157_282311202859595_1951602273255141840_n_2_JOqZnRx.jpg",
+    "name": "Martin Smit",
+    "code": "JFZQZ7",
+    "biography": "Hello, my name is Jacobus Smit, but you can call me Martin (derived from my second name). My pronouns are he/him. I just finished the Oxford Master's in Mathematical Sciences (OMMS) at St Cross college and will be starting my PhD in the Socially Intelligent Artificial Systems group at the University of Amsterdam.\r\n\r\nI love computational mathematics and statistics, especially their applications to social sciences such as economics and sociology. I author and maintain the TernaryPlots.jl."
+   },
+   {
+    "avatar": "https://pretalx.com/media/avatars/1644459184718_Q695Lrg.png",
+    "name": "Fábio Rodrigues Sodré",
+    "code": "NFBXZN",
+    "biography": "Analista programador web, gamer, apaixonado por leitura e futebol\r\nGestor da Unidade de Gestão da Informação | Secretaria Adjunta da Tecnologia da Informação do Maranhão - SEATI / MA - Brasil"
+   },
+   {
+    "avatar": "https://pretalx.com/media/avatars/DrArturoErdely_8uujM80.jpg",
+    "name": "Arturo Erdely",
+    "code": "BVRHH3",
+    "biography": "Profesor de tiempo completo en la Universidad Nacional Autónoma de México (UNAM), miembro nivel 1 del Sistema Nacional de Investigadores (CONACYT - México), Actuario y Doctor en Ciencias Matemáticas (UNAM)."
+   },
+   {
+    "avatar": "https://pretalx.com/media/avatars/265266424_6834515163257241_164130782207290776_n_eBv8Zcq.jpg",
+    "name": "Olga Eleftherakou",
+    "code": "3FZJ7K",
+    "biography": "Born in 1999 in Athens, Greece. A postgraduate student in Applied Statistics (fields of Data Science and Biostatistics) with a Bachelor's degree in Statistics and Actuarial Science, University of Piraeus. Passionate about Machine Learning. Currently learning Julia language by myself."
+   },
+   {
+    "avatar": "https://pretalx.com/media/avatars/headshot_-_Cropped_bmH40Nn.png",
+    "name": "Charlie Kawczynski",
+    "code": "E77THB",
+    "biography": "Charlie earned his Ph.D. in mechanical engineering at UCLA, where he studied and developed software to simulate computational liquid metal magnetohydrodynamic flows for magnetic confined fusion energy reactors. Since then, he's been developing a climate model, in Julia, from the ground up at Caltech in the CliMA project. For more details, see https://clima.caltech.edu/."
    }
   ],
   "description": "",
