@@ -2229,7 +2229,7 @@
   "biography": "<a href=\"https://personal.psu.edu/~ebf11\">Eric Ford</a> is a Professor of <a href=\"http://astro.psu.edu/\">Astronomy & Astrophysics</a> at the Pennsylvania State University, where he is active in its <a href=\"https://www.icds.psu.edu/\">Institute for Computational & Data Sciences</a>, <a href=\"https://astrostatistics.psu.edu/\">Center for Astrostatistics</a>, and <a href=\"https://exoplanets.psu.edu/\">Center for Exoplanets & Habitable Worlds</a>.  Ford’s research focuses on detecting and characterizing planetary systems around other stars.  This often involves using Julia to apply modern Bayesian methods to improve the interpretation of exoplanet observations.  Ford has taught a graduate-level class on <a href=\"https://psuastro528.github.io/\">High-Performance Computing for Astrophysics</a> using Julia since 2014."
  },
  {
-  "avatar": null,
+  "avatar": "https://www.gravatar.com/avatar/16aeca0a435d95b33fbca08d6cfc2787",
   "name": "Dilum Aluthge",
   "submissions": [
    "YED3MP"
