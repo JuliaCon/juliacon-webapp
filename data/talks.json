@@ -167,7 +167,7 @@
   "duration": 10,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/Pict_LR_jwV2Krw.jpg",
     "name": "Ludovic Räss",
     "code": "ZTATFJ",
     "biography": "Geoscientist with strong interests in Julia, HPC, GPUs, and supercomputing. Applications to resolve multi-physics processes in ice dynamics and geodynamics across scales."
@@ -1270,7 +1270,7 @@
   "duration": 10,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/Pict_LR_jwV2Krw.jpg",
     "name": "Ludovic Räss",
     "code": "ZTATFJ",
     "biography": "Geoscientist with strong interests in Julia, HPC, GPUs, and supercomputing. Applications to resolve multi-physics processes in ice dynamics and geodynamics across scales."
@@ -5833,7 +5833,7 @@
   "duration": 10,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/Pict_LR_jwV2Krw.jpg",
     "name": "Ludovic Räss",
     "code": "ZTATFJ",
     "biography": "Geoscientist with strong interests in Julia, HPC, GPUs, and supercomputing. Applications to resolve multi-physics processes in ice dynamics and geodynamics across scales."
@@ -8656,7 +8656,7 @@
   "duration": 30,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/Pict_LR_jwV2Krw.jpg",
     "name": "Ludovic Räss",
     "code": "ZTATFJ",
     "biography": "Geoscientist with strong interests in Julia, HPC, GPUs, and supercomputing. Applications to resolve multi-physics processes in ice dynamics and geodynamics across scales."
