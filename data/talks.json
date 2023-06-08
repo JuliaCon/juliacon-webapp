@@ -6759,22 +6759,10 @@
   "duration": 180,
   "speakers": [
    {
-    "avatar": "https://pretalx.com/media/avatars/Chris-Hill_aVVbozz.jpg",
-    "name": "Chris Hill",
-    "code": "W7TEDS",
-    "biography": "Chris Hill is a computational scientist at MIT who has developed ocean and planetary models and modeling tools that are used by thousands of researchers yearly. He has been working with members of the Julia community from its earliest days."
-   },
-   {
     "avatar": null,
     "name": "Patrick Heimbach",
     "code": "KKHQBQ",
     "biography": "I am a computational oceanographer, professor in the Jackson School of Geosciences, and W. A. “Tex” Moncrief, Jr., chair III in Simulation-Based Engineering and Sciences in the Oden Institute at the University of Texas at Austin. At UT, I direct the CRIOS-UT.github.io group.\r\n\r\nMy research focuses on ocean and ice dynamics and their role in the global climate system. A computational focus is the use of inverse methods and automatic differentiation applied to ocean and sea ice model parameter and state estimation, uncertainty quantification and observing system design. I earned my Ph.D. from the Max-Planck-Institute for Meteorology and the University of Hamburg, Germany. Prior to joining UT, I spent 16 years at MIT. I am the lead-PI of an NSF CSSI project DJ4Earth.github.io (since 08/2021)."
-   },
-   {
-    "avatar": null,
-    "name": "Boris Kaus",
-    "code": "NHMXEV",
-    "biography": "Computational geodynamicist at the University of Mainz, Germany"
    },
    {
     "avatar": null,
@@ -6787,6 +6775,18 @@
     "name": "Mathieu Morlighem",
     "code": "89P8MK",
     "biography": null
+   },
+   {
+    "avatar": null,
+    "name": "Boris Kaus",
+    "code": "NHMXEV",
+    "biography": "Computational geodynamicist at the University of Mainz, Germany"
+   },
+   {
+    "avatar": "https://pretalx.com/media/avatars/Chris-Hill_aVVbozz.jpg",
+    "name": "Chris Hill",
+    "code": "W7TEDS",
+    "biography": "Chris Hill is a computational scientist at MIT who has developed ocean and planetary models and modeling tools that are used by thousands of researchers yearly. He has been working with members of the Julia community from its earliest days."
    },
    {
     "avatar": null,
