@@ -39,8 +39,6 @@ export const IndexPage: NextPage = () => {
             .
           </p>
         </div>
-          </VSpaceBetween>
-        </div>
       </VSpaceBetween>
     </Page>
   );
