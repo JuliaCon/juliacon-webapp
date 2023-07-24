@@ -25,7 +25,7 @@ export const Nav = () => {
         <span aria-hidden="true">🎉</span> Live Talks!{" "}
         <span aria-hidden={"true"}>🎉</span>
       </NavLink>
-      <NavLink href={"https://juliacon.org/2022/tickets/"} external>
+      <NavLink href={"https://juliacon.org/2023/tickets/"} external>
         Register
       </NavLink>
       <NavLink href={"/about"}>About</NavLink>
