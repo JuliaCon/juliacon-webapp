@@ -38,6 +38,7 @@ export const IndexPage: NextPage = () => {
             </ExternalLink>
             .
           </p>
+        </div>
           </VSpaceBetween>
         </div>
       </VSpaceBetween>
