@@ -89,10 +89,6 @@ const Inner = ({ talks }: { talks: TalkList }) => {
           when talks resume. <Link href={"/agenda"}>Check the schedule</Link> to
           see when the next talks are happening!
         </p>
-        <p>
-          <Link href={"/discord/join"}>Join the Discord server</Link> to join
-          the conversation and get your JuliaCon fix in the meantime!
-        </p>
       </div>
     );
   }
@@ -227,20 +223,6 @@ const TalkPanel = ({
   active: boolean;
 }) => {
   const video = (() => {
-    if (talk.room.id === "890" && !talk.videoCode) {
-      return (
-        <p
-          className={css`
-            border-left: 0.5rem solid var(--julia-purple);
-            padding: 1rem 1rem 1rem 2rem;
-          `}
-        >
-          Make sure to <Link href={"/discord/join"}>Join Discord</Link> to
-          participate in BoF sessions. BoF's are held in the <code>#BoF</code>{" "}
-          voice channel during their scheduled time.
-        </p>
-      );
-    }
     if (talk.experiences) {
       return <Experiences experiences={talk.experiences} />;
     }
