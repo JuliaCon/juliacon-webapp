@@ -6,8 +6,9 @@ export enum SponsorTier {
   Platinum = "Platinum",
   Gold = "Gold",
   Silver = "Silver",
-  MediaPartner = "Media Partner",
-  CommunityPartner = "Community Partner",
+  Bronze = "Bronze",
+  AcademicPartner = "Academic Partner",
+  LocalPartner = "Local Partner",
   FiscalSponsor = "Fiscal Sponsor",
 }
 
@@ -19,10 +20,12 @@ export function sponsorTier(sponsor: SponsorData) {
       return SponsorTier.Gold;
     case "Silver":
       return SponsorTier.Silver;
-    case "Media Partner":
-      return SponsorTier.MediaPartner;
-    case "Community Partner":
-      return SponsorTier.CommunityPartner;
+    case "Bronze":
+      return SponsorTier.Bronze;
+    case "Academic Partner":
+      return SponsorTier.AcademicPartner;
+    case "Local Partner":
+      return SponsorTier.LocalPartner;
     case "Fiscal Sponsor":
       return SponsorTier.FiscalSponsor;
     default:
@@ -42,9 +45,11 @@ export function sponsorTierColor(tier: SponsorTier) {
       return "gold";
     case SponsorTier.Silver:
       return "silver";
-    case SponsorTier.MediaPartner:
+    case SponsorTier.Bronze:
+      return "#b1560f";
+    case SponsorTier.AcademicPartner:
       return "#389826";
-    case SponsorTier.CommunityPartner:
+    case SponsorTier.LocalPartner:
       return "#389826";
     case SponsorTier.FiscalSponsor:
       return "#4063d8";
