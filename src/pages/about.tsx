@@ -18,13 +18,12 @@ export const IndexPage: NextPage = () => {
           <VSpaceBetween space={"0.5rem"} spaceAbove>
             <p>
               JuliaCon is the conference dedicated to the Julia programming
-              language. The conference is fully virtual this year and talks run
-              from July 27th through July 29th, 2022 with workshops running the
-              previous week.
+              language. The conference is in-person at the Ray and Maria Stata Center, MIT. Talks run
+              from July 26th through July 29th, 2023 with workshops running on the 25th. This website is
+              the conference web-app, which helps attendees easily access the online streams.
             </p>
             <p>
-              This year, JuMP-dev, the annual developer workshop for the JuMP
-              mathematical optimization ecosystem is co-located with JuliaCon.
+              This year, JuliaCon is co-located with SciMLCon, JuMP-dev and ASE-60. 
             </p>
           </VSpaceBetween>
         </div>
@@ -32,55 +31,13 @@ export const IndexPage: NextPage = () => {
           <TextHeading level={"h3"}>How do I register?</TextHeading>
           <VSpace height={"0.5rem"} />
           <p>
-            All of the conference materials are available here for free, but
-            registration is required (don't worry, it's free!). You can register
+            You can register
             on the{" "}
-            <ExternalLink href={"https://juliacon.org/2022/tickets/"}>
-              JuliaCon 2022 site
+            <ExternalLink href={"https://juliacon.org/2023/tickets/"}>
+              JuliaCon 2023 site.
             </ExternalLink>
             .
           </p>
-        </div>
-        <div>
-          <TextHeading level={"h3"}>How do I attend?</TextHeading>
-          <VSpaceBetween space={"0.5rem"} spaceAbove>
-            <p>
-              You're in the right place! Check out the{" "}
-              <Link href={"/agenda"}>conference agenda</Link> to discover
-              interesting talks and use the <Link href={"/"}>live app</Link> to
-              watch talks in real time.
-            </p>
-            <p>
-              Join the{" "}
-              <Link href={"/discord/join"}>conference Discord server</Link> to
-              engage with other attendees, ask questions to presenters, network,
-              and get familiar with the vibrant and welcoming Julia community.
-            </p>
-          </VSpaceBetween>
-        </div>
-        <div>
-          <VSpaceBetween space={"0.5rem"}>
-            <TextHeading level={"h3"}>
-              How do I get my conference swag?
-            </TextHeading>
-            <p>
-              T-shirts and mugs are available on the{" "}
-              <ExternalLink
-                href={"https://www.bonfire.com/store/the-julia-language/"}
-              >
-                Julia Bonfire store
-              </ExternalLink>
-              . You can also get Julia stickers on our{" "}
-              <ExternalLink
-                href={
-                  "https://www.redbubble.com/people/JuliaLanguage/shop?asc=u"
-                }
-              >
-                RedBubble
-              </ExternalLink>
-              &nbsp;shop!
-            </p>
-          </VSpaceBetween>
         </div>
       </VSpaceBetween>
     </Page>
