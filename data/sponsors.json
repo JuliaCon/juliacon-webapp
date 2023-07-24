@@ -6,7 +6,7 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/juliahub-logo.svg",
-    "tier": "Platinum",
+    "tier": "Platinum"
   },
   {
     "sponsorName": "ASML",
@@ -14,7 +14,7 @@
     "moreInfoURL": "https://www.asml.com/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/asml-logo.png",
-    "tier": "Gold",
+    "tier": "Gold"
   },
   {
     "sponsorName": "Pumas AI",
@@ -23,7 +23,7 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/pumas-ai-logo.png",
-    "tier": "Silver",
+    "tier": "Silver"
   },
   {
     "sponsorName": "QuEra Computing Inc.",
@@ -32,7 +32,7 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/quera-logo.png",
-    "tier": "Silver",
+    "tier": "Silver"
   },
   {
     "sponsorName": "Relational AI",
@@ -41,7 +41,7 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2022/img/sponsors/rai-logo.svg",
-    "tier": "Silver",
+    "tier": "Silver"
   },
   {
     "sponsorName": "Jeffrey Sarnoff",
@@ -67,7 +67,7 @@
     "moreInfoURL": "https://beacon.bio/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/beacon-logo.svg",
-    "tier": "Bronze",
+    "tier": "Bronze"
   },
   {
     "sponsorName": "NAWA",
