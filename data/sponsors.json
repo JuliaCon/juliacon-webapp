@@ -7,10 +7,6 @@
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/juliahub-logo.svg",
     "tier": "Platinum",
-    "discord": {
-      "channel": "#julia-computing",
-      "url": "https://discord.com/channels/995757799076282478/999380968106373200"
-    }
   },
   {
     "sponsorName": "ASML",
@@ -19,10 +15,6 @@
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/asml-logo.png",
     "tier": "Gold",
-    "discord": {
-      "channel": "#asml",
-      "url": "https://discord.com/channels/995757799076282478/999382218210279504"
-    }
   },
   {
     "sponsorName": "Pumas AI",
@@ -32,10 +24,6 @@
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/pumas-ai-logo.png",
     "tier": "Silver",
-    "discord": {
-      "channel": "#pumas-ai",
-      "url": "https://discord.com/channels/995757799076282478/999381032937734195"
-    }
   },
   {
     "sponsorName": "QuEra Computing Inc.",
@@ -45,10 +33,6 @@
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/quera-logo.png",
     "tier": "Silver",
-    "discord": {
-      "channel": "#quera-computing",
-      "url": "https://discord.com/channels/995757799076282478/999382127999188992"
-    }
   },
   {
     "sponsorName": "Relational AI",
@@ -58,10 +42,6 @@
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2022/img/sponsors/rai-logo.svg",
     "tier": "Silver",
-    "discord": {
-      "channel": "#relational-ai",
-      "url": "https://discord.com/channels/995757799076282478/999381711462862929"
-    }
   },
   {
     "sponsorName": "Jeffrey Sarnoff",
@@ -88,10 +68,6 @@
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/beacon-logo.svg",
     "tier": "Bronze",
-    "discord": {
-      "channel": "#beacon-biosignals",
-      "url": "https://discord.com/channels/995757799076282478/999382059820798002"
-    }
   },
   {
     "sponsorName": "NAWA",
