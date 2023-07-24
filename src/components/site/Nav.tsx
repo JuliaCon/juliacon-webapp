@@ -29,7 +29,6 @@ export const Nav = () => {
         Register
       </NavLink>
       <NavLink href={"/about"}>About</NavLink>
-      <NavLink href={"/discord/join"}>Join Discord</NavLink>
       <NavLink href={"/agenda"}>Schedule</NavLink>
       {/*<NavLink href={"/posters"}>Posters</NavLink>*/}
       <NavLink href={"/sponsors"}>Sponsors</NavLink>
