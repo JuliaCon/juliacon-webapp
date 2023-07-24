@@ -41,7 +41,7 @@
     "react-select": "^4.3.1",
     "react-youtube": "^7.13.1",
     "simple-oauth2": "4.2.0",
-    "vega": "^5.20.2",
+    "vega": "^5.23.0",
     "vega-embed": "^6.18.2",
     "vega-lite": "^5.1.0"
   },
