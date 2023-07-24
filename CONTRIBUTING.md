@@ -6,7 +6,7 @@ See the [Julia Community Standards](https://julialang.org/community/standards/).
 
 1. Clone the repository.
    ```bash
-   git clone git@github.com:travigd/JuliaCon2020.git
+   git clone https://github.com/JuliaCon/juliacon-webapp.git
    ```
 1. Install the dependencies.
    ```bash
@@ -47,6 +47,7 @@ Please also include a screenshot of your changes if applicable.
 Vercel will automatically generate a deploy link and people can go test out your application, but it's much easier if you just include a screenshot as well.
 
 ### Guidelines for approval
+
 I don't want to be overly authoritarian about PR approval.
 I will be looking for a few basic things:
 

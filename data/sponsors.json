@@ -1,11 +1,11 @@
 [
   {
-    "sponsorName": "Julia Computing",
-    "blurb": "Julia Computing's mission is to develop products that bring Julia's superpowers to its customers. Julia Computing's flagship product is JuliaHub, a secure, software-as-a-service platform for developing Julia programs, deploying them, and scaling to thousands of nodes. It provides the power of a supercomputer at the fingertips of every data scientist and engineer. In addition to data science workflows, JuliaHub also provides access to cutting-edge products such as Pumas for pharmaceutical modeling and simulation, JuliaSim for multi-physics modeling and simulation, and JuliaSPICE for electronic circuit simulation, combining traditional simulation with modern SciML approaches. Check out Julia Computing's [JuliaSim](/uploads/sponsordocs/JuliaComputing_JuliaSim_v2.pdf) and [JuliaHub](/uploads/sponsordocs/JuliaComputing_JuliaHub_v3.pdf) brochures. Additionally, catch their live talk during JuliaCon!",
+    "sponsorName": "JuliaHub",
+    "blurb": "JuliaHub's mission is to bring the power of Julia to the world of scientific and technical computing. To equip the brightest minds working on the world’s most challenging problems with massive computational power, unparalleled speed and efficiency in a seamless and secure environment.",
     "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon", 
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/jclogo.png",
+    "logoURL": "https://juliacon.org/assets/2023/img/sponsors/juliahub-logo.svg",
     "tier": "Platinum",
     "discord": {
       "channel": "#julia-computing",
@@ -13,128 +13,15 @@
     }
   },
   {
-    "sponsorName": "Relational AI",
-    "blurb": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason. Check out their case studies and demos: [introduction](https://www.relational.ai/blog/introduction) to and [overview](https://www.relational.ai/blog/relationalai-overview) of Relational AI's breakthrough Relational Knowledge Graph Management System, a [demo](https://www.relational.ai/blog/demo-highlights) of it in action, and a [tax analysis case study](https://www.relational.ai/learn#tax). Catch their [live demo](https://youtu.be/6V6jk_OdH-w) at JuliaCon!",
-    "moreInfoURL": "https://www.relational.ai?utm_source=juliacon",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/rai-logo.svg",
-    "tier": "Platinum",
-    "discord": {
-      "channel": "#relational-ai",
-      "url": "https://discord.com/channels/995757799076282478/999381711462862929"
-    }
-  },
-  {
-    "sponsorName": "Julius Technology",
-    "blurb": "Julius offers an auto-scaling, low code graph computing solution that allows firms to quickly build transparent and adaptable data analytics pipelines. Graph computing is an innovative technology that enables developers to organize pipelines as directed acyclic graphs (DAGs). With Julius, DAGs representing complex workflows are created by composing smaller modular DAGs, and can be applied to many enterprise use cases including: explainable ML, data processing and transformation, AAD, and more. \n\n For Julia users, we provide a dynamic platform to help developers make Julia more manageable and adoptable for enterprise computing. Engineers can produce enterprise scale solutions in a fraction of the time and cost. \n\n Check out their workshop and demos: [Workshop](https://www.youtube.com/watch?v=pxs7ysnb15A)",
-    "moreInfoURL": "https://www.juliustech.co/",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/juliustech.png",
-    "tier": "Platinum",
-    "discord": {
-      "channel": "#julius-tech",
-      "url": "https://discord.com/channels/995757799076282478/999381891549499472"
-    }
-  },
-  {
-    "sponsorName": "Intel",
-    "blurb": "We create world-changing technology that improves the life of every person on the planet.",
-    "moreInfoURL": "https://www.intel.com/",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/intel.png",
-    "tier": "Gold",
-    "discord": {
-      "channel": "#intel",
-      "url": "https://discord.com/channels/995757799076282478/999381936764096573"
-    }
-  },
-  {
-    "sponsorName": "AWS",
-    "blurb": "Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.",
-    "moreInfoURL": "https://www.aws.amazon.com/",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/AWS_logo.png",
-    "tier": "Gold",
-    "discord": {
-      "channel": "#aws",
-      "url": "https://discord.com/channels/995757799076282478/999394131279351929"
-    }
-  },
-  {
-    "sponsorName": "Invenia Labs",
-    "blurb": "We are a team of scientists and engineers working together to solve the social, economic and environmental issues that we face in the world today.\n\nWe use machine learning to optimise some of the most complex systems on earth, including one that contributes to 25% of global emissions - the electricity grid. By using machine learning, we help grid operators to improve planning for generation, flow and use of electricity ahead of real-time operation. All of this helps meet demand, while reducing cost and lowering environmental damage. Catch their [talk](https://youtu.be/T3f1qDCDzM8) at JuliaCon!",
-    "moreInfoURL": "https://www.invenia.ca/?utm_source=juliacon",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/invenia-labs.png",
-    "tier": "Silver",
-    "discord": {
-      "channel": "#invenia",
-      "url": "https://discord.com/channels/995757799076282478/999381764134948914"
-    }
-  },
-  {
-    "sponsorName": "Beacon Biosignals",
-    "blurb": "Founded in 2019, Beacon Biosignals' launch was propelled by the application of contemporary high-performance computing techniques to scale out the analysis of large brainwave datasets. Today, Beacon leverages Julia to interrogate brain function at unprecedented throughput and accelerate the development of new treatments for neurological disease. \n\n Beacon's Platform enables population-level analyses that aggregate insights across hundreds of thousands of clinical EEGs, capturing the wide array of features that characterize the heterogeneity of brain function across a breadth of indications, setting a new data standard for neurobiomarker design. At this scale, traditional manual feature extraction methods become intractable due to cost, inter-rater variability, and the limited availability of trained experts. Beacon overcomes this bottleneck via an ever-growing suite of machine learning models that replicate the consensus interpretation of clinical experts and exceed human capabilities over thousands of hours of biosignal recordings. Our Platform equips customers with the ability to leverage Beacon's scalable brain health analytics throughout the lifecycle of drug discovery, development, and deployment.",
-    "moreInfoURL": "https://beacon.bio/?utm_source=juliacon",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/beacon_logo.svg",
-    "tier": "Silver",
-    "discord": {
-      "channel": "#beacon-biosignals",
-      "url": "https://discord.com/channels/995757799076282478/999382059820798002"
-    }
-  },
-  {
-    "sponsorName": "Metalenz",
-    "blurb": "Metalenz is commercializing metasurface technology and transforming optical sensing in consumer electronics and automotive markets. We enable significant reduction in the complexity and size of optical modules while improving system performance and moving optics manufacturing into the semiconductor foundry. Our team solves hard, multi-scale physics problems, drawing from techniques across machine learning, optimization, and computer vision to deliver the next generation of sensing found in your pocket.",
-    "moreInfoURL": "https://www.metalenz.com/?utm_source=juliacon",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/metalenz-logo.png",
-    "tier": "Silver",
-    "discord": {
-      "channel": "#metalenz",
-      "url": "https://discord.com/channels/995757799076282478/999382172907610112"
-    }
-  },
-  {
     "sponsorName": "ASML",
     "blurb": "BE PART OF PROGRESS.\n\n We make machines that make chips; the hearts of the devices that keep us informed, entertained and safe. Our key technology is the lithography system, which brings together high-tech hardware and advanced software to control the chip manufacturing process. All of the world’s top chipmakers like Samsung, Intel and TSMC use our technology, enabling the waves of innovation that help tackle the world’s toughest challenges. www.asml.com.",
     "moreInfoURL": "https://www.asml.com/?utm_source=juliacon",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/asml.png",
-    "tier": "Silver",
+    "logoURL": "https://juliacon.org/assets/2023/img/sponsors/asml-logo.png",
+    "tier": "Gold",
     "discord": {
       "channel": "#asml",
       "url": "https://discord.com/channels/995757799076282478/999382218210279504"
-    }
-  },
-  {
-    "sponsorName": "G-Research",
-    "blurb": "G-Research is Europe’s leading quantitative finance research firm",
-    "moreInfoURL": "https://www.gresearch.co.uk/?utm_source=juliacon",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/gross.png",
-    "tier": "Silver",
-        "discord": {
-      "channel": "#g-research",
-      "url": "https://discord.com/channels/995757799076282478/999382507655004241"
-    }
-  },
-  {
-    "sponsorName": "Conning",
-    "blurb": "We develop customized investment strategies that address our clients’ unique objectives, requirements and tolerance for risk. We develop solutions by leveraging Conning’s risk management tools and utilizing a highly disciplined investment process that relies on fundamental analysis.",
-    "moreInfoURL": "https://www.conning.com/?utm_source=juliacon",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/conning.png",
-    "tier": "Silver",
-        "discord": {
-      "channel": "#conning",
-      "url": "https://discord.com/channels/995757799076282478/999381983312478318"
     }
   },
   {
@@ -143,7 +30,7 @@
     "moreInfoURL": "https://pumas.ai/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/pumas-ai.png",
+    "logoURL": "https://juliacon.org/assets/2023/img/sponsors/pumas-ai-logo.png",
     "tier": "Silver",
     "discord": {
       "channel": "#pumas-ai",
@@ -156,11 +43,24 @@
     "moreInfoURL": "https://www.quera-computing.com/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2021/img/sponsors/quera logo white.png",
+    "logoURL": "https://juliacon.org/assets/2023/img/sponsors/quera-logo.png",
     "tier": "Silver",
     "discord": {
       "channel": "#quera-computing",
       "url": "https://discord.com/channels/995757799076282478/999382127999188992"
+    }
+  },
+  {
+    "sponsorName": "Relational AI",
+    "blurb": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason. Check out their case studies and demos: [introduction](https://www.relational.ai/blog/introduction) to and [overview](https://www.relational.ai/blog/relationalai-overview) of Relational AI's breakthrough Relational Knowledge Graph Management System, a [demo](https://www.relational.ai/blog/demo-highlights) of it in action, and a [tax analysis case study](https://www.relational.ai/learn#tax). Catch their [live demo](https://youtu.be/6V6jk_OdH-w) at JuliaCon!",
+    "moreInfoURL": "https://www.relational.ai?utm_source=juliacon",
+    "videoURL": "",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/rai-logo.svg",
+    "tier": "Silver",
+    "discord": {
+      "channel": "#relational-ai",
+      "url": "https://discord.com/channels/995757799076282478/999381711462862929"
     }
   },
   {
@@ -173,53 +73,43 @@
     "tier": "Silver"
   },
   {
-    "sponsorName": "Packt Publication",
-    "blurb": "Packt is the online library and learning platform for professional developers. Learn Julia, Python, Angular and more with eBooks, videos and courses.",
-    "moreInfoURL": "https://www.amazon.com/stores/page/B332E0D1-AECD-4D89-9DDE-FB67C0E7073A?ingress=0&visitId=53ed5a7b-8bf7-4661-af38-c482a3a1ddb7",
+    "sponsorName": "Jolin.io",
+    "blurb": "Jolin.io is committed to a future in which data processing is not only easy and works, but also uses our energy efficiently and sparingly. They are making Julia the industry standard for modern data science technology. Being an economy for the common good Jolin.io combines excellent business with the care for our world and our society.",
+    "moreInfoURL": "https://www.juliustech.co/",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2020/img/sponsors/packt.png",
-    "tier": "Media Partner",
+    "logoURL": "https://juliacon.org/assets/2023/img/sponsors/jolin-logo.png",
+    "tier": "Bronze"
+  },
+  {
+    "sponsorName": "Beacon Biosignals",
+    "blurb": "Founded in 2019, Beacon Biosignals' launch was propelled by the application of contemporary high-performance computing techniques to scale out the analysis of large brainwave datasets. Today, Beacon leverages Julia to interrogate brain function at unprecedented throughput and accelerate the development of new treatments for neurological disease. \n\n Beacon's Platform enables population-level analyses that aggregate insights across hundreds of thousands of clinical EEGs, capturing the wide array of features that characterize the heterogeneity of brain function across a breadth of indications, setting a new data standard for neurobiomarker design. At this scale, traditional manual feature extraction methods become intractable due to cost, inter-rater variability, and the limited availability of trained experts. Beacon overcomes this bottleneck via an ever-growing suite of machine learning models that replicate the consensus interpretation of clinical experts and exceed human capabilities over thousands of hours of biosignal recordings. Our Platform equips customers with the ability to leverage Beacon's scalable brain health analytics throughout the lifecycle of drug discovery, development, and deployment.",
+    "moreInfoURL": "https://beacon.bio/?utm_source=juliacon",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2023/img/sponsors/beacon-logo.svg",
+    "tier": "Bronze",
     "discord": {
-      "channel": "#packt",
-      "url": "https://discord.com/channels/859573366477029389/869587233865363538"
+      "channel": "#beacon-biosignals",
+      "url": "https://discord.com/channels/995757799076282478/999382059820798002"
     }
   },
   {
-    "sponsorName": "Gather Town",
-    "blurb": "Centered around fully customizable spaces, Gather makes spending time with your communities just as easy as real life.",
-    "moreInfoURL": "https://gather.town?utm_source=juliacon",
+    "sponsorName": "NAWA",
+    "blurb": ".NAWA is set up to coordinate state activities driving the process of internationalization of Polish academic and research institutions. The mission of NAWA is to foster the development of Poland in the area of science and higher education.",
+    "moreInfoURL": "https://nawa.gov.pl/en/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/gather.png",
-    "tier": "Media Partner"
+    "logoURL": "https://juliacon.org/assets/2023/img/sponsors/nawa-logo.png",
+    "tier": "Academic Partner"
   },
   {
-    "sponsorName": "Vercel",
-    "blurb": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
-    "moreInfoURL": "https://vercel.com?utm_source=juliacon",
+    "sponsorName": "Postmates",
+    "blurb": "Postmates is a food delivery service, founded in 2011, and acquired by Uber in 2020. It offers local delivery of restaurant-prepared meals and other goods.",
+    "moreInfoURL": "https://postmates.com/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/vercel.png",
-    "tier": "Media Partner"
-  },
-  {
-    "sponsorName": "Data Umbrella",
-    "blurb": "Our mission is to provide a welcoming and educational space for under-represented persons in the fields of ML/DS/AI (machine learning, data science, artificial intelligence).  All skill levels are welcome.",
-    "moreInfoURL": "https://www.dataumbrella.org?utm_source=juliacon",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/data-umbrella.png",
-    "tier": "Community Partner"
-  },
-  {
-    "sponsorName": "WiMLDS",
-    "blurb": "Our mission is to support and promote women and gender minorities who are practicing, studying or are interested in the fields of machine learning and data science.",
-    "moreInfoURL": "http://wimlds.org/?utm_source=juliacon",
-    "videoURL": "",
-    "chatChannelName": "",
-    "logoURL": "https://juliacon.org/assets/2022/img/sponsors/wimlds.png",
-    "tier": "Community Partner"
+    "logoURL": "https://juliacon.org/assets/2023/img/sponsors/postmates-logo.svg",
+    "tier": "Local Partner"
   },
   {
     "sponsorName": "NumFOCUS",

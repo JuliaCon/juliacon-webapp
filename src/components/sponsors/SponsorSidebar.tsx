@@ -15,11 +15,14 @@ export const SponsorSidebar = () => {
   const silverSponsors = sponsors.filter(
     (sponsor) => sponsor.tier === "Silver"
   );
-  const mediaPartners = sponsors.filter(
-    (sponsor) => sponsor.tier === "Media Partner"
+  const bronzeSponsors = sponsors.filter(
+    (sponsor) => sponsor.tier === "Bronze"
   );
-  const communityPartners = sponsors.filter(
-    (sponsor) => sponsor.tier === "Community Partner"
+  const academicPartners = sponsors.filter(
+    (sponsor) => sponsor.tier === "Academic Partner"
+  );
+  const localPartners = sponsors.filter(
+    (sponsor) => sponsor.tier === "Local Partner"
   );
   return (
     <Link
@@ -125,10 +128,10 @@ export const SponsorSidebar = () => {
                 width: 100%;
               `}
             >
-              Media partners
+              Bronze sponsors
             </h2>
             <VSpace />
-            {mediaPartners.map((sponsor, i) => (
+            {bronzeSponsors.map((sponsor, i) => (
               <SponsorSidebarItem sponsor={sponsor} key={i} />
             ))}
 
@@ -145,10 +148,30 @@ export const SponsorSidebar = () => {
                 width: 100%;
               `}
             >
-              Community partners
+              Academic partners
             </h2>
             <VSpace />
-            {communityPartners.map((sponsor, i) => (
+            {academicPartners.map((sponsor, i) => (
+              <SponsorSidebarItem sponsor={sponsor} key={i} />
+            ))}
+
+            <VSpace height={"3rem"} />
+
+            <h2
+              className={css`
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-align: center;
+                border-bottom: 1px solid #ccc;
+
+                display: block;
+                width: 100%;
+              `}
+            >
+              Local partners
+            </h2>
+            <VSpace />
+            {localPartners.map((sponsor, i) => (
               <SponsorSidebarItem sponsor={sponsor} key={i} />
             ))}
           </div>

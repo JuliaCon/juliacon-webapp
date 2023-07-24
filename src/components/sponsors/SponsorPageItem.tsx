@@ -35,11 +35,19 @@ export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
               max-width: 100px;
               margin: 0 auto;
             `,
+            tier === SponsorTier.Bronze &&
+              css`
+                max-width: 125px;
+              `,
             tier === SponsorTier.Silver &&
               css`
                 max-width: 150px;
               `,
-            (tier === SponsorTier.Gold || tier === SponsorTier.Platinum) &&
+            tier === SponsorTier.Gold &&
+              css`
+                max-width: 175px;
+              `,
+            tier === SponsorTier.Platinum &&
               css`
                 max-width: 200px;
               `
