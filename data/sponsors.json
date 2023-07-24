@@ -7,7 +7,10 @@
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/juliahub-logo.svg",
     "tier": "Platinum",
-    "discord": ""
+    "discord": {
+      "channel":"",
+      "url":""
+    }  
   },
   {
     "sponsorName": "ASML",
@@ -15,8 +18,7 @@
     "moreInfoURL": "https://www.asml.com/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/asml-logo.png",
-    "tier": "Gold",
-    "discord": ""
+    "tier": "Gold"
   },
   {
     "sponsorName": "Pumas AI",
