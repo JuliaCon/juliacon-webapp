@@ -1,79 +1,130 @@
 [
  {
   "name": {
-   "en": "Blue"
+   "en": "26-100"
   },
-  "id": 1613,
-  "position": 3,
+  "id": 2027,
+  "position": null,
   "guid": null,
-  "description": {},
-  "url": "/orga/event/juliacon-2022/schedule/rooms/1613/",
-  "capacity": null
+  "description": {
+   "en": "500+ in tiered lecture hall in adjacent building"
+  },
+  "url": "/orga/event/juliacon2023/schedule/rooms/2027/",
+  "capacity": 500
  },
  {
   "name": {
-   "en": "Green"
+   "en": "32-082"
   },
-  "id": 1614,
-  "position": 0,
+  "id": 2028,
+  "position": null,
   "guid": null,
-  "description": {},
-  "url": "/orga/event/juliacon-2022/schedule/rooms/1614/",
-  "capacity": null
+  "description": {
+   "en": "117 at round tables in basement"
+  },
+  "url": "/orga/event/juliacon2023/schedule/rooms/2028/",
+  "capacity": 117
  },
  {
   "name": {
-   "en": "Red"
+   "en": "32-123"
   },
-  "id": 1615,
-  "position": 1,
+  "id": 2029,
+  "position": null,
   "guid": null,
-  "description": {},
-  "url": "/orga/event/juliacon-2022/schedule/rooms/1615/",
-  "capacity": null
+  "description": {
+   "en": "318 in tiered lecture hall"
+  },
+  "url": "/orga/event/juliacon2023/schedule/rooms/2029/",
+  "capacity": 318
  },
  {
   "name": {
-   "en": "Purple"
+   "en": "32-124"
   },
-  "id": 1616,
-  "position": 2,
+  "id": 2030,
+  "position": null,
   "guid": null,
-  "description": {},
-  "url": "/orga/event/juliacon-2022/schedule/rooms/1616/",
-  "capacity": null
+  "description": {
+   "en": "60 in flat classroom"
+  },
+  "url": "/orga/event/juliacon2023/schedule/rooms/2030/",
+  "capacity": 60
  },
  {
   "name": {
-   "en": "BoF"
+   "en": "32-D463 (Star)"
   },
-  "id": 1617,
-  "position": 4,
+  "id": 2031,
+  "position": null,
   "guid": null,
-  "description": {},
-  "url": "/orga/event/juliacon-2022/schedule/rooms/1617/",
-  "capacity": null
+  "description": {
+   "en": "60 in flat seminar room"
+  },
+  "url": "/orga/event/juliacon2023/schedule/rooms/2031/",
+  "capacity": 60
  },
  {
   "name": {
-   "en": "JuMP"
+   "en": "32-144"
   },
-  "id": 1618,
-  "position": 5,
+  "id": 2032,
+  "position": null,
   "guid": null,
-  "description": {},
-  "url": "/orga/event/juliacon-2022/schedule/rooms/1618/",
-  "capacity": null
+  "description": {
+   "en": "60 in flat classroom"
+  },
+  "url": "/orga/event/juliacon2023/schedule/rooms/2032/",
+  "capacity": 60
  },
  {
   "name": {
-   "en": "Sponsored forums"
+   "en": "32-G449 (Kiva)"
   },
-  "id": 1622,
+  "id": 2033,
   "position": null,
   "guid": null,
   "description": {},
-  "url": "/orga/event/juliacon-2022/schedule/rooms/1622/",
+  "url": "/orga/event/juliacon2023/schedule/rooms/2033/",
+  "capacity": 90
+ },
+ {
+  "name": {
+   "en": "Pre-Recorded Talks"
+  },
+  "id": 2231,
+  "position": null,
+  "guid": null,
+  "description": {
+   "en": "Online Talks"
+  },
+  "url": "/orga/event/juliacon2023/schedule/rooms/2231/",
   "capacity": null
+ },
+ {
+  "name": {
+   "en": "32-141"
+  },
+  "id": 2342,
+  "position": null,
+  "guid": null,
+  "description": {
+   "en": "90 in tiered classroom"
+  },
+  "url": "/orga/event/juliacon2023/schedule/rooms/2342/",
+  "capacity": 90
+ },
+ {
+  "name": {
+   "en": "32-155"
+  },
+  "id": 2343,
+  "position": null,
+  "guid": null,
+  "description": {
+   "en": "90 in tiered classroom"
+  },
+  "url": "/orga/event/juliacon2023/schedule/rooms/2343/",
+  "capacity": 90
  }
 ]
