@@ -107,18 +107,6 @@ export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
                 className={css`
                   text-decoration: none;
                 `}
-              >
-                <FontAwesomeIcon icon={faDiscord} />{" "}
-                <span
-                  className={css`
-                    text-decoration: underline;
-                  `}
-                >
-                  {sponsor.discord.channel}
-                </span>
-              </ExternalLink>{" "}
-              (make sure to{" "}
-              <Link href={"/discord/join"}>join the Discord server</Link>)
             </div>
           </>
         ) : null}
