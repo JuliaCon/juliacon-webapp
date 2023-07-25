@@ -224,7 +224,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -241,7 +241,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 1 (Room 2)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -883,7 +883,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -900,7 +900,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 1 (Room 7)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -2081,7 +2081,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -2098,7 +2098,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 3 (Room 3)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -3616,7 +3616,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -3633,7 +3633,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 3 (Room 7)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -3861,7 +3861,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -3878,7 +3878,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 3 (Room 1)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -3923,7 +3923,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -3940,7 +3940,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 1 (Room 4)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -5330,7 +5330,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -5347,7 +5347,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 2 (Room 2)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -5789,7 +5789,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -5806,7 +5806,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 2 (Room 4)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -5882,7 +5882,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -5899,7 +5899,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 2 (Room 3)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -6910,7 +6910,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -6927,7 +6927,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 2 (Room 1)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -8021,7 +8021,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -8038,7 +8038,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 2 (Room 7)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -8273,7 +8273,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -8290,7 +8290,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 3 (Room 4)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -9564,7 +9564,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -9581,7 +9581,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 1 (Room 1)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -9771,7 +9771,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -9788,7 +9788,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 2 (Room 6)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -10148,7 +10148,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -10165,7 +10165,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 3 (Room 5)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -11816,7 +11816,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -11833,7 +11833,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 1 (Room 3)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
@@ -11878,7 +11878,7 @@
   "state": "confirmed",
   "duration": 90,
   "speakers": [],
-  "description": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!",
+  "description": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -11895,7 +11895,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Lunch Day 1 (Room 6)",
-  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
+  "abstract": "We hope you're enjoying JuliaCon 2023 so far! Please find our food trucks waiting right outside venue with food available for purchase."
  },
  {
   "content_locale": "en",
