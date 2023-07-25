@@ -2622,7 +2622,7 @@
     "biography": null
    }
   ],
-  "description": "Data science pipelines created in Julia typically need to be integrated into larger workflows involving various tools and technologies. Therefore an important aspect is ensuring interoperability, especially for the case of large data that does not fit in RAM of a single machine.\r\nDuring the workshop I plan to discuss working with the following data formats (along with their pros and cons):\r\n\r\n* CSV;\r\n* Apache Arrow;\r\n* Apache Parquet;\r\n* JSON;\r\n* statistical packages; using examples of RData, Stata files;\r\n* databases; using examples of SQLite and DuckDB.\r\n\r\nAll the examples will use DataFrames.jl that provides a representative implementation of Tables.jl table.",
+  "description": "Data science pipelines created in Julia typically need to be integrated into larger workflows involving various tools and technologies. Therefore an important aspect is ensuring interoperability, especially for the case of large data that does not fit in RAM of a single machine.\r\n\r\nDuring the workshop we discuss working with the following data formats:\r\n\r\nSection 1: https://github.com/bkamins/JuliaCon2023-Tutorial\r\n\r\n* statistical packages (Stata/SAS/SPSS and RData);\r\n* databases (SQLite and DuckDB);\r\n* Apache Parquet.\r\n\r\nSection 2: https://github.com/quinnj/JuliaCon2023-Tutorial\r\n\r\n* CSV;\r\n* Apache Arrow;\r\n* JSON.\r\n\r\nThe examples will DataFrames.jl that provides a representative implementation of Tables.jl table.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -7244,7 +7244,7 @@
     "biography": null
    }
   ],
-  "description": "The proposed list of talks is as follows:\r\n\r\n* Ingesting larger data in Julia: evolution of JSON, Arrow, CSV support (Jacob Quinn)\r\n* Tidier.jl: Bringing the Tidyverse to Julia (Karandeep Singh)\r\n* What is new in DataFrames.jl - highlights of 1.4 and 1.5 releases. (Bogumił Kamiński)\r\n* Timeseries data manipulation using TSFrames.jl. (Chirag Anand)\r\n* Tips & tricks for printing tables using PrettyTables.jl. (Ronan Arraes J. Chagas)\r\n* Working with geographical data using DataFrames.jl (Przemysław Szufel)\r\n* Parallelizing your data with Dagger and DTables (Julian Samaroo)",
+  "description": "The list of talks is scheduled as follows:\r\n\r\nSession 1 (10:30-11:30):\r\n\r\n* What is new in DataFrames.jl - highlights of 1.4, 1.5, and 1.6 releases. (Bogumił Kamiński)\r\n* Parallelizing your data with Dagger and DTables (Julian Samaroo)\r\n* Working with geographical data using DataFrames.jl (Przemysław Szufel)\r\n\r\nSession 2 (11:30-12:30):\r\n\r\n* Ingesting larger data in Julia: evolution of JSON (Jacob Quinn)\r\n* Tips & tricks for printing tables using PrettyTables.jl. (Ronan Arraes J. Chagas)\r\n\r\nSession 3 (14:00-15:00):\r\n\r\n* Tidier.jl: Bringing the Tidyverse to Julia (Karandeep Singh)\r\n* Timeseries data manipulation using TSFrames.jl. (Chirag Anand)",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -9880,7 +9880,7 @@
     "biography": null
    }
   ],
-  "description": "In recent years the Julia language has seen increasing adoption in the quantum community, broadly defined. We propose to organize two back-to-back minisymposia on the theme of \"Julia and quantum,\" including quantum computing, condensed matter physics, quantum chemistry. The talks would be addressed to both current and future experts.",
+  "description": "QuantumOptics.jl is a numerical framework for simulating quantum systems. It provides a very general set of tools that go far beyond quantum optics. We recently added \"time dependent operators\", which allow easy creation and composition of time-dependent Hamiltonians and Lindbladians for use inn dynamical simulations. This talk briefly introduces the QuantumOptics.jl and these convenient new time-dependence features.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -9897,7 +9897,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Convenient time dependence in QuantumOptics.jl",
-  "abstract": "In recent years the Julia language has seen increasing adoption in the quantum community, broadly defined. We propose to organize two back-to-back minisymposia on the theme of \"Julia and quantum,\" including quantum computing, condensed matter physics, quantum chemistry. The talks would be addressed to both current and future experts."
+  "abstract": "QuantumOptics.jl is a numerical framework for simulating quantum systems. It provides a very general set of tools that go far beyond quantum optics. We recently added \"time dependent operators\", which allow easy creation and composition of time-dependent Hamiltonians and Lindbladians for use inn dynamical simulations. This talk briefly introduces the QuantumOptics.jl and these convenient new time-dependence features."
  },
  {
   "content_locale": "en",
