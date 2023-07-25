@@ -9081,7 +9081,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Tenet.jl: Composable Tensor Network Library",
-  "abstract": "In this talk, I present 2 of a list of Julia packages developed for Tensor Network simulation experiments. We examine what Julia features and design choices enabled us to offer an intuitive interface for users, increasing tunability and flexibility without loss of performance."
+  "abstract": "In this talk, I present a collection of Julia packages developed for Tensor Network simulation experiments (Tenet.jl and EinExprs.jl). We examine which Julia features and design choices enabled us to offer an intuitive interface for users, increasing the tunability and flexibility without loss of performance."
  },
  {
   "content_locale": "en",
@@ -9401,6 +9401,10 @@
    {
     "description": "Notebooks",
     "resource": "https://github.com/JuliaImages/JuliaCon23_ImageProcessingWorkshop"
+   },
+   {
+    "description": "Segmentation demo video",
+    "resource": "https://youtu.be/1wA3sV3-keo?t=26"
    }
   ],
   "do_not_record": false,
