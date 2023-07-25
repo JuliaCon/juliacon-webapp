@@ -27,6 +27,64 @@ function download_videos()
     end
 end
 
-download_videos()
+const YOUTUBE_CODES_2023 = [
+  Dict(  # Day 1
+    "32-144" => "x9d6WtePul0",
+    "32-141" => "rMrHCM1Etng",
+    "32-D463 (Star)" => "gpo1FUXCcJE",
+    "32-124" => "Hkta_AEv5sA",
+    "32-123" => "CrIAsPmG2a0",
+    "32-G449 (Kiva)" => "CoY5XwmFkF4",
+    "26-100" => "vG6ZLhe9Hns",
+  ),
+  Dict(  # Day 2
+    "32-144" => "x9d6WtePul0",
+    "32-082" => "rMrHCM1Etng",
+    "32-D463 (Star)" => "gpo1FUXCcJE",
+    "32-124" => "Hkta_AEv5sA",
+    "32-123" => "CrIAsPmG2a0",
+    "32-G449 (Kiva)" => "CoY5XwmFkF4",
+    "26-100" => "vG6ZLhe9Hns",
+  ),
+  Dict(  # Day 3
+    "32-144" => "x9d6WtePul0",
+    "32-155" => "rMrHCM1Etng",
+    "32-D463 (Star)" => "gpo1FUXCcJE",
+    "32-124" => "Hkta_AEv5sA",
+    "32-123" => "CrIAsPmG2a0",
+    "32-G449 (Kiva)" => "CoY5XwmFkF4",
+    "26-100" => "vG6ZLhe9Hns",
+  ),
+]
+
+function download_videos_2023()
+    talks = open("talks.json", "r") do io
+        JSON.parse(io)
+    end
+    results = []
+    for x in talks
+      slot = x["slot"]
+      day_id = parse(Int, slot["end"][9:10]) - 25
+      if day_id == 0 || day_id > 3
+          continue
+      end
+      is_talk = x["submission_type"]["en"] in ("Keynote", "Talk", "Lightning Talk")
+      if is_talk && x["track"]["en"] != "ASE60"
+        id = x["code"]
+        room = slot["room"]["en"]
+        youtubeCode = YOUTUBE_CODES_2023[day_id][room]
+        push!(results, Dict("id"=>id, "youtubeCode"=>youtubeCode, "live"=>true))
+      end
+    end
+    @info "Fetched $(length(results)) video entries"
+    json_string=json(results, 1)
+    json_string = replace(json_string, "\u2028" => "")
+    open("videos.json", "w") do io
+      write(io, json_string)
+    end
+end
+
+# download_videos()
+download_videos_2023()
 
 @info "Success downloading Video data!"
