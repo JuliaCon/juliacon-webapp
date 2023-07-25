@@ -94,22 +94,6 @@ export const SponsorPageItem = ({ sponsor }: { sponsor: SponsorData }) => {
             </div>
           </>
         ) : null}
-        {sponsor.discord ? (
-          <>
-            <VSpace height={"0.5rem"} />
-            <div
-              className={css`
-                padding-left: 1rem;
-              `}
-            >
-              <ExternalLink
-                href={sponsor.discord.url}
-                className={css`
-                  text-decoration: none;
-                `}
-            </div>
-          </>
-        ) : null}
       </div>
     </div>
   );
