@@ -277,44 +277,6 @@
  {
   "content_locale": "en",
   "is_featured": true,
-  "track_id": 3245,
-  "submission_type_id": 2768,
-  "code": "7AYUSN",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 3,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/headshotcic_hSDWHRY.jpeg",
-    "name": "Saransh Chopra",
-    "code": "T8FLGG",
-    "biography": "Saransh is an engineering junior at the Cluster Innovation Center, University of Delhi, pursuing a major in Information Technology and Mathematics. In daylight, he works on his academic skills and professional commitments, and by night, he develops and maintains Open-Source Research Software, which he believes are the key to collaborative and reproducible research."
-   }
-  ],
-  "description": "This short talk will explain why working on documentation is not just writing content. We will walk through design ideas, implementations, user feedback, as well as failures. We will discuss how to write clear and maintainable documentation for users and how to make the documentation development process seamless for developers. As a final goal, this talk aims to enhance a user's journey through reading documentation and a developer's journey through developing documentation.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T15:40:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T15:43:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Lightning Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Lessons learned while working as a technical writer at FluxML",
-  "abstract": "Working as a technical writer at FluxML for the past six months has taught me some tips and tricks for writing and maintaining user-centric documentation. Documentation not only requires writing clear and concise content but also building infrastructures, testing, and a lot of discussions. This talk takes all the lessons I learned (myself and through FluxML maintainers) in the past six months and condenses it into 3 minutes!"
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
   "track_id": 3758,
   "submission_type_id": 2429,
   "code": "7BCPNX",
@@ -694,44 +656,6 @@
   "do_not_record": false,
   "title": "AdaptiveHierarchicalRegularBinning",
   "abstract": "[`AdaptiveHierarchicalRegularBinning.jl`](https://github.com/pitsianis/AdaptiveHierarchicalRegularBinning.jl) computes a hierarchical space-partitioning tree for a given set of points of arbitrary dimensions, that divides the space and stores the reordered points offering efficient access. Space-partitioning data structures are vital for algorithms that exploit spatial distance to reduce computational complexity, see for example the Fast Multipole Method and Nearest Neighbors."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3245,
-  "submission_type_id": 2768,
-  "code": "8DFWR3",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Ruize Ren",
-    "code": "NBA3LP",
-    "biography": null
-   }
-  ],
-  "description": "This section will introduce our process for selecting cloud service providers and data sources, compare various system backend implementations, and conclude with a system evaluation. \r\n\r\n**Reasons for AWS cloud**\r\n\r\nInitially, we deployed our program on the Amazon Web Services (AWS) cloud because it offers scalable data storage and can handle concurrent requests from multiple customers/agents. Among the leading cloud service providers (such as Microsoft Azure or Google Cloud), AWS is currently the market leader and provides one-third of the world's cloud infrastructure services.\r\n\r\n**Data Source**\r\n\r\nWe chose [Polygon](https://polygon.io/) as the data source for our data feed, and particularly, their WebSocket data feed mechanism. Polygon is a leading financial market data platform that supplies market data for stocks, options, futures, and cryptocurrencies. Their aggregated data have up to a second resolution. \r\n\r\n**Key implementation**\r\n\r\nThe backend, the main part of this talk, was implemented in Julia using existing packages. We explored two ways to do this; the first is to use various AWS services via [AWS.jl](https://github.com/JuliaCloud/AWS.jl), [LambdaMaker.jl](https://github.com/JuliaCloud/LambdaMaker.jl), etc. Those packages provide different microservices to build up our system. The second approach was to set up EC2 (Amazon Elastic Compute Cloud) instances and deploy the program to these instances. The first approach was the easiest to develop but strongly depended on AWS solutions. For example, we used DynamoDb (an AWS NoSQL database service) to store real-time market data for certain tickers. However, if Amazon shuts down DynamoDb or migrates to another service, we must make changes accordingly. Hence the second approach is not constrained by particular Amazon services;  it requires virtual machines to be configured by users and does not lead to vendor lock-in issues.\r\n\r\nAs for the frontend, we display real-time data from the data source. This component was constructed as a Typescript React App.\r\n\r\nThe following diagram describes how the frontend client/user interacts with the backend AWS services.\r\n\r\n**Evaluations**\r\n\r\nWe considered several key factors when evaluating the real-time data storage system: latency, scalability, accuracy, reliability, and throughput. Of these, scalability and throughput may be influenced by our choice of cloud service. We have preliminary implemented the first backend using AWS solutions, and the frontend is a React application deployed on AWS Amplify service. The frontend does not have a limit on concurrency but has some constraints such as total data transfer, request duration, and the total number of requests in the free tier. We will be able to determine which one reaches the limit first after building the frontend features. Our backend service DynamoDB has limitations on concurrency, which is 25 read requests per second. If we consider each request of historical data requires one read from the database, our free tier supports a maximum of 25 concurrent requests at the same time.\r\n\r\nLatency can be measured in various ways, including end-to-end latency and processing latency. End-to-end latency measures the time taken from a request to be made to a response to be received. In this scenario, it measures the data processing time from start to finish for a given ticker. We have implemented the backend with various AWS solutions, and despite some spike processing time of up to 2,000ms to 4,000ms, the average data processing time is now 100-200ms. Processing latency, on the other hand, measures the time it takes for the system to process a specific input or request. In this scenario, it measures the steps of backend data processing: storing a ticker data in the database and notifying the client in real-time. The average processing time for storing a ticker data is 30ms to 100ms, while notifying the client in real-time is 70ms to 120ms. We will also be able to evaluate the \"real-time\" performance of our system using these two different backend implementations once the second implementation is completed.\r\n\r\nTo ensure the accuracy and reliability of our system, we need to consistently provide correct and current data in an optimized way, especially in the face of client changes or malicious attacks. Our backend system should be able to handle and optimize for these scenarios without being affected.",
-  "image": "https://pretalx.com/media/juliacon2023/submissions/8DFWR3/diag_9ESgTJu.png",
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T13:55:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T14:05:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Lightning Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Streaming real-time financial market data with AWS cloud",
-  "abstract": "Historical data is useful in the financial industry, particularly for back-testing trading strategies. However, a single machine can't store real-time data for even a single ticker symbol. Thus, constructing a distributed scalable computer system to persist real-time financial data requires time and a significant financial commitment. Using cloud computing services reduces this barrier. This talk describes a real-time cloud-based financial data streaming and storage system implemented in Julia."
  },
  {
   "content_locale": "en",
@@ -1863,6 +1787,37 @@
  },
  {
   "content_locale": "en",
+  "is_featured": false,
+  "track_id": 3752,
+  "submission_type_id": 2430,
+  "code": "AXHNYJ",
+  "track": {
+   "en": "Quantum"
+  },
+  "state": "confirmed",
+  "duration": 15,
+  "speakers": [],
+  "description": "Abstract of the quantum minisymposium talk evolution of tensor network states with ITensorNetworks.jl",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "room_id": 2033,
+   "start": "2023-07-26T17:45:00-04:00",
+   "room": {
+    "en": "32-G449 (Kiva)"
+   },
+   "end": "2023-07-26T18:00:00-04:00"
+  },
+  "submission_type": {
+   "en": "Lightning talk"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Evolution of tensor network states with ITensorNetworks.jl",
+  "abstract": "-"
+ },
+ {
+  "content_locale": "en",
   "is_featured": true,
   "track_id": 3754,
   "submission_type_id": 2430,
@@ -2023,44 +1978,6 @@
   "content_locale": "en",
   "is_featured": true,
   "track_id": 3245,
-  "submission_type_id": 2475,
-  "code": "B3GMAE",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/cropped_1800x1800_300dpi_XOb5zbZ.png",
-    "name": "Jonathan Doucette",
-    "code": "MJ9ECN",
-    "biography": "A PhD Candidate at the University of British Columbia, Jonathan Doucette studies MRI Physics and focuses on researching brain tissue microstructure through numerical simulation and Bayesian machine learning."
-   }
-  ],
-  "description": "We introduce Ignite.jl (https://github.com/jondeuce/Ignite.jl), a package for simplifying neural network training and validation loops in Julia. Based on the popular Python library ignite, Ignite.jl provides a high-level, flexible event-based approach for training and evaluating neural networks in Julia with flexibility.\r\n\r\nThe traditional way of training a neural network typically involves using for/while loops and callback functions. However, this approach can become complex and difficult to maintain as the number of events increases and the training pipeline becomes more intricate. Ignite.jl addresses this issue by providing a simple yet flexible engine and event system that allows for the easy composition of training pipelines with various events such as artifact saving, metric logging, and model validation.\r\n\r\nEvent-based training abstracts away the traditional training loop, replacing it with:\r\n1. a training engine which executes a single training step,\r\n2. a data loader iterator which provides data batches, and\r\n3. events and corresponding handlers which are attached to the engine and are configured to fire at specific points during training.\r\n\r\nEvent handlers are much more flexible compared to other approaches like callbacks: they can be any callable, multiple handlers can be attached to a single event, multiple events can trigger the same handler, and custom events can be defined to fire at user-specified points during training. This makes adding functionality to your training pipeline easy, minimizing the need to modify existing code.\r\n\r\nTo illustrate the benefits of using Ignite.jl, we provide a minimal working example in the README.md file that demonstrates how to train a simple neural network while periodically logging evaluation metrics. In particular, we highlight that periodic model and optimizer saving can be added with no changes to the rest of the training pipeline – simply add another event. This example illustrates the benefits of separating the training step from the training loop, and how to simple it is to customize the training pipeline.\r\n\r\nIn summary, Ignite.jl is a simple and flexible package that improves the process of training neural networks by using events and handlers. It allows for easy modifications to training pipelines without needing to change existing code, it is well-documented, and thoroughly tested. We believe Ignite.jl will be a valuable addition to the Julia machine learning ecosystem.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T11:50:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T12:20:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Ignite.jl: A brighter way to train neural networks",
-  "abstract": "We introduce Ignite.jl, a package that streamlines neural network training and validation by replacing traditional for/while loops and callback functions with a powerful and flexible event-based pipeline. The key feature of Ignite.jl is the separation of the training step from the training loop, which gives users the flexibility to easily incorporate events such as artifact saving, metric logging, and model validation into their training pipelines without having to modify existing code."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3245,
   "submission_type_id": 2429,
   "code": "B3LFUE",
   "track": {
@@ -2144,44 +2061,6 @@
   "do_not_record": false,
   "title": "NEOs.jl: a jet transport-based package for Near-Earth asteroids",
   "abstract": "NEOs.jl is an open source Near Earth Object orbit determination software package in the Julia programming language. NEOs.jl features exploitation of high-order automatic differentiation techniques, known as jet transport, in order to quantify orbital uncertainties in a versatile, semi-analytical manner. Using NEOs.jl we have estimated the Yarkovsky acceleration acting on the potentially hazardous asteroid Apophis and have ruled out potential impacts on 2036 and 2068."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3754,
-  "submission_type_id": 2475,
-  "code": "B9DG8U",
-  "track": {
-   "en": "HPC"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/fuerst_dHw3VDE.png",
-    "name": "Steffen Fürst",
-    "code": "EVXMSK",
-    "biography": "Steffen Fürst, having studied mathematics with a focus on economics and social science, has spent the past 15 years working on various agent-based models. In the most recent 5 years, his focus has been particularly on high-performance computing environments."
-   }
-  ],
-  "description": "This talk will introduce Vahana.jl, a new open-source software framework tailored to the development of large-scale agent-based models (ABMs), with a focus on complex social networks.\r\n\r\nThe foundation of Vahana.jl lies in an approach to ABM known as a synchronous graph dynamical system (SyGDS). This method advances the principles of cellular automata by transitioning from cells to vertices of a graph representing agents, and using directed edges to establish neighborhood interactions.\r\n\r\nVahana.jl elevates the concept of SyGDS by introducing several by adding a multi-layer approach that enabling a more nuanced and detailed representation of complex systems by treating different interactions as distinct layers in the graph.\r\n\r\nIn addition to the theoretical discussion of SyGDS, the talk will of course also provide practical insights by implementing an (incomplete) toy model. Furthermore, we also demonstrate how spatial information can be embedded in the graph structure and how Vahana integrates with the Julia Ecosystem, such as DataFrames and Graphs.\r\n\r\nThe development of Vahana.jl has been driven by a strong focus on performance. The presentation discusses how this emphasis influenced the design and implementation choices, highlighting the effective use of Julia's meta-programming features to enhance the execution speed of simulations. This performance aspect is substantiated with results from two distinct models, including a simulation of Covid-19 spread across Germany, demonstrating Vahana's applicability to real-world scenarios and its capacity for large-scale simulations.\r\n\r\nLinks:\r\nRepository: https://github.com/s-fuerst/Vahana.jl\r\nDocumentation: https://s-fuerst.github.io/Vahana.jl/dev/\r\nEpisim example: https://git.zib.de/sfuerst/vahana-episim/",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T10:20:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T10:50:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Vahana.jl - A framework for large-scale agent-based models",
-  "abstract": "Vahana.jl is a new open-source high-performance software framework for development of large-scale agent-based models (ABM) of complex social systems.\r\n\r\nVahana models are expressed as synchronous graphic dynamical systems (SyGDS). This allows Vahana to run a simulation in parallel and to distribute the simulation across multiple nodes of a cluster. New extensions to the traditional SyGDS approach allow the implementation of complex ABMs."
  },
  {
   "content_locale": "en",
@@ -2953,44 +2832,6 @@
  {
   "content_locale": "en",
   "is_featured": true,
-  "track_id": 3588,
-  "submission_type_id": 2475,
-  "code": "D8RHE7",
-  "track": {
-   "en": "SciML"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/%E8%AF%81%E4%BB%B6%E7%85%A7_XVxnUAG.jpg",
-    "name": "Songchen Tan",
-    "code": "UTR3JJ",
-    "biography": "Songchen is currently a second-year master student at MIT Center for Computational Science and Engineering (CCSE), and working as a research assistant at the Julia lab within MIT Computer Science and Artificial Intelligence Laboratory (CSAIL). They use mathematical and computational theory to build machine learning and high-performance computing infrastructure, and collaborate in the ubiquitously interdisciplinary environment of CCSE."
-   }
-  ],
-  "description": "The author will be presenting efficient higher-order automatic differentiation (AD) algorithms and its potential application in scientific models where higher-order derivatives are required to calculated efficiently, such as solving ODEs and PDEs with neural functions. Existing methods to achieve higher-order AD often suffer from one or more of the following problems: (1) nesting first-order AD would result in exponential scaling w.r.t. order; (2) ad-hoc hand-written higher-order rules which is hard to maintain and not utilizing existing first-order AD infrastructures; (3) inefficient data representation and manipulation that causes \"penalty of abstraction\" problem at first- or second-order when compared to highly-optimized first-order AD libraries. By combining advanced techniques in computational science, i.e. aggressive type specializing, metaprogramming and symbolic computing, TaylorDiff.jl will address all three problems.\r\n\r\nTaylorDiff.jl is currently capable for the followings: (1) Taylor-mode AD algorithms which can compute the n-th order derivative of scalar functions in O(n) time; (2) automatic generation of higher-order rules from first-order rules in ChainRules.jl; (3) achieved comparable performance with ForwardDiff.jl at lower order.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T09:40:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T10:10:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Fast Higher-order Automatic Differentiation for Physical Models",
-  "abstract": "Taking higher-order derivatives is crucial for physical models like ODEs and PDEs, and it would be great to get it done by automatic differentiation. Yet, existing packages in Julia either has exponential scaling w.r.t. order (nesting first-order AD) or has exponential scaling w.r.t. dimension (nested Taylor polynomial in TaylorSeries.jl). The author presents TaylorDiff.jl (https://github.com/JuliaDiff/TaylorDiff.jl) which is specifically optimized for fast higher-order directional derivatives."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
   "track_id": 3759,
   "submission_type_id": 2430,
   "code": "DBSAMT",
@@ -3056,44 +2897,6 @@
   "do_not_record": false,
   "title": "Morning Break Day 2 Room 1",
   "abstract": "Morning break for coffee and snacks, and transit time from the keynote to the rest of the day's talks."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3245,
-  "submission_type_id": 2475,
-  "code": "DESQVZ",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/p_cEINRHw.JPG",
-    "name": "Anton Smirnov",
-    "code": "XLFEY9",
-    "biography": "Research Engineer living in Ukraine.\r\nInterested in differentiable graphics, 3D scene resonstruction and GPU programming."
-   }
-  ],
-  "description": "Representing scenes as Neural Radiance Fields for novel view synthesis has become\r\none of the most popular approaches in deep-learning in contrast to more classical approaches, like triangle-model-based scene reconstruction.\r\nHowever, training and evaluation of Neural Radiance Fields can be costly and slow,\r\nwhich limits their real-time applicability.\r\n\r\nOur package implements many state-of-the-art NeRF algorithms, including Instant Neural Graphics Primitives with Multiresolution Hash Encoding.\r\nWhile a similar open-source C++ and CUDA system exists, we implemented this version from scratch in pure Julia, using heterogeneous kernel programming to support many backends.\r\n\r\nWe implement efficient kernels for ray marching, including acceleration structures,\r\nmultiresolution hash encoding and alpha compositing and provide gradient kernels for them.\r\nAdditionally, we integrate those kernels with Julia's AD ecosystem using ChainRules.jl.\r\nThis allows them to be used independently and with the AD system of your choice.\r\n\r\nFor visualization and interaction, we bundle all this into an interactive OpenGL application\r\nthat enables real-time tweaking of training parameters.\r\n\r\nAdditional features include the ability to record videos from custom camera paths,\r\nconvert a trained NeRF to a triangle mesh using Marching Cubes and\r\nMarching Tetrahedra algorithms.\r\n\r\nDuring the development of this package, we also improved the Julia GPU stack.\r\nWe now support ROCm artifacts for AMDGPU.jl and improved the support and stability for RDNA2 GPUs.\r\n\r\nIn conclusion, we provide a more user-friendly experience, running both on AMDGPU.jl and CUDA.jl. We believe this code is much simpler than its C++/CUDA counterpart, and still delivers competitive performance. We hope this can serve as a good example of how to integrate high-performance 3D graphics and Machine Learning in a GPU-agnostic manner, and contribute to the expansion of the Julia ecosystem.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T13:00:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T13:30:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Nerf.jl a real-time Neural 3D Scene Reconstruction in pure Julia",
-  "abstract": "We demonstrate a set of pure Julia packages to interactively reconstruct and render Neural Radiance Fields (NeRFs), a 3D neural representation of a scene from pictures, using heterogeneous kernel programming. This system was developed at AMD and supports other GPU backends as well."
  },
  {
   "content_locale": "en",
@@ -3213,44 +3016,6 @@
   "do_not_record": false,
   "title": "Formalism-agnostic Quantum Hardware Simulation",
   "abstract": "The design of quantum hardware and the study of quantum algorithms require classical simulations of quantum dynamics. A rich ecosystem of simulation methods and algorithms has been developed over the last 20 years, each applicable to different sub-problems and efficient in different settings. We present a family of symbolic and numeric Julia packages that abstract away many of the methodology decisions, providing a way to focus on the hardware under study instead of the minutia of the methods."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3754,
-  "submission_type_id": 2768,
-  "code": "DT3B7Z",
-  "track": {
-   "en": "HPC"
-  },
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Yue Sun",
-    "code": "8DJACU",
-    "biography": "Staff Scientist at NCI. PhD of Physics at ANU."
-   }
-  ],
-  "description": "NCI Overview\r\n\r\nThe National Computational Infrastructure (NCI) is Australia's leading organization for high-performance data, storage, and computing. \r\n\r\nAs the home of the high-performance computational science for Australia research, our highly integrated scientific computing facility provides world-class services to thousands of Australian researchers and their collaborators every year. They consume 1.2 billion CPU hours annually and access our curated dataset from more than 100 countries worldwide.\r\n\r\nJulia Support at NCI \r\n\r\nOur user community has a very broad range of research interests, ranging from astronomy to bioinformatics, material science to particle physics, and climate simulations to geostorage. To accommodate this diverse demand, NCI maintains a wide selection of software applications, with the number of accumulated software versions exceeding 1000 just three years after the initial launch. \r\n\r\nWe started supporting Julia at NCI in 2018 on Raijin, which was the predecessor to Gadi. Now, more singularity modules containing Julia are available for users. These modules ship with over 500 popular packages to help users to quickly start their computations and try different workflows on many cores/nodes without worrying about the installation. \r\n\r\nUsers can run their Julia code in Jupyter notebooks using the prepared module through the Australian Research Environment (ARE). The ARE environment provides an interface to all types of compute architectures available on our HPC system, Gadi. For example, users can run their Julia code on GPUs with CUDA support across multiple nodes using either native SSHManager or MPIManager, while monitoring the GPU performance. \r\n\r\nWe are going to show three examples in this talk. First, Oceananigans ShallowWaterModel using two GPUs in a JupyterLab instance while monitoring the GPU usage. Second, the training of game connect-four using AlphaZero.jl across two GPU nodes and profiling the code using NVIDIA Nsight systems. Third, AEM inversion using HiQGA.jl on 7104 CPU cores and profiling the code using PPerf.jl and Intel-VTune.",
-  "image": "https://pretalx.com/media/juliacon2023/submissions/DT3B7Z/NCI_Australia_logo_black_square_mjiAcyY.png",
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T16:20:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T16:30:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Lightning Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Julia at NCI",
-  "abstract": "We demonstrate how to use NCI services to run and profile Julia code at scale."
  },
  {
   "content_locale": "en",
@@ -4709,11 +4474,11 @@
   "slot_count": 1,
   "slot": {
    "room_id": 2033,
-   "start": "2023-07-26T15:30:00-04:00",
+   "start": "2023-07-26T17:30:00-04:00",
    "room": {
     "en": "32-G449 (Kiva)"
    },
-   "end": "2023-07-26T16:00:00-04:00"
+   "end": "2023-07-26T17:45:00-04:00"
   },
   "submission_type": {
    "en": "Lightning talk"
@@ -5172,50 +4937,6 @@
  {
   "content_locale": "en",
   "is_featured": true,
-  "track_id": 3588,
-  "submission_type_id": 2475,
-  "code": "HZV83P",
-  "track": {
-   "en": "SciML"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Flemming Holtorf",
-    "code": "39MLZ3",
-    "biography": "I am a PhD student working with the JuliaLab at MIT. I am interested in anything related to decision-making under uncertainty where I work primarily on methods and software for uncertainty quantification and optimization and control of uncertain systems."
-   },
-   {
-    "avatar": null,
-    "name": "Bowen S. Zhu",
-    "code": "NZ3ACK",
-    "biography": "Bowen is a graduate student in Computational Science and Engineering at Harvard University."
-   }
-  ],
-  "description": "The computational analysis of complex physicochemical phenomena or networked systems relies commonly on the simulation of detailed large-scale models. The computational burden imposed by simulating such large-scale models, however, is frequently found to render a range of scientific and engineering tasks like design, control or uncertainty quantification prohibitively expensive. To recover the tractability of such tasks in this setting, it is customary to build a compact, cheap-to-evaluate proxy for the original large-scale model which captures its dominant behaviors accurately, i.e, a reduced order model. And while there exists a wide range of systematic techniques to build such reduced order models, it typically remains a tedious, error-prone and often ad hoc process that frequently requires substantial intrusion into the original model. With ModelOrderReduction.jl we set out to streamline and largely automate this process, keeping active intrusion into the model by the user to a minimum. To that end, we rely on a symbolic representation of the original model specified via ModelingToolkit.jl. The reduction task is then performed on the symbolic representation using the tools provided by Symbolics.jl.  \r\n\r\nFor those who are non-technical, we will discuss how this approach fits into the paradigm of symbolic-numeric computing and as such  applies automatic code transformations beyond automatic differentiation that benefit greatly from the features of the Julia programming language.\r\n    \r\nFor modelers, we will show with scientific PDE and ODE models from the realms of chemical engineering and neuroscience how ModelOrderReduction.jl can help you reduce your models and speed up your computations.\r\n\r\nFor those who are technical, we will dive into greater mathematical detail about the model order reduction techniques that are supported in ModelOrderReduction.jl and why they lend themselves to being automated by way of symbolic computation. We will specifically focus on the automatic generation of efficient discrete empirical interpolators and polynomial chaos expansions as well as the associated reduced order models obtained from Petrov-Galerkin projection.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T09:00:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T09:30:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "ModelOrderReduction.jl -- Symbolic-Enhanced Model Simplification",
-  "abstract": "We present ModelOrderReduction.jl -- a Julia package for the automatic simplification of scientific models by way of symbolic computation. As such, ModelOrderReduction.jl enables modelers without detailed knowledge of the domain of model order reduction to automatically generate simplified models that approximate the dominant behavior of otherwise too complex ones."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
   "track_id": 3245,
   "submission_type_id": 2430,
   "code": "J7VRPB",
@@ -5546,50 +5267,6 @@
   "do_not_record": false,
   "title": "Running Julia code baremetal on an Arduino",
   "abstract": "Through the use of GPUCompiler.jl and LLVM.jl, it is possible to cross-compile julia code to backends not officially supported by julia itself. One of these is the AVR backend, the architecture used by the arduino family of microcontrollers. This talk explores some experiments in compiling julia code to AVR, running it baremetal on an arduino as well as looking into challenges with making julia more suited to cross compilation."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3244,
-  "submission_type_id": 2768,
-  "code": "KB8HS7",
-  "track": {
-   "en": "JuMP"
-  },
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Alireza Shefaei",
-    "code": "TYMAXM",
-    "biography": "He received the B.Sc. degree in electrical engineering from Azarbaijan Shahid Madani University (ASMU), Tabriz, Iran, in 2014. He spent five semesters of his B.Sc. degree at University of Tabriz, Tabriz, Iran, where he received the M.Sc. degree in electrical engineering, in 2018. He is currently pursing his PhD degree in water management at Delft University of Technology, Delft, Netherlands. His main research interest includes application of optimization algorithms in networked infrastructures."
-   },
-   {
-    "avatar": null,
-    "name": "Edo Abraham",
-    "code": "FNNU8L",
-    "biography": null
-   }
-  ],
-  "description": "The efficient operation of a series of critical infrastructures such as water networks is essential to sustainable futures. However, to sustain good infrastructure services in many places, they need continuous expansion, mainly in response to population growth and rapid industrialization. As a specific example, consider a water supply network that supplies the required demand of different consumers using the available resources. However, for the smooth operation of the network, it is necessary to find new resources and connect them to the growing demand points in an economical manner. If this expansion planning is to be done for a long-term horizon, it requires considering uncertainties on various system parameters like demands, price of electricity, and availability of resources. These conditions also are similar to a great extent for the other infrastructure networks like electric power, gas, and district heating networks with their related equations, variables, and parameters. As a result, long-term infrastructure planning problems that confront high levels of uncertainty need an appropriate approach to modeling this process. For this purpose, multi-stage stochastic programming (MSSP) can be used as a well-established approach for dynamic decision-making under uncertainty. However, due to the nonlinear equation governing the operation of physical infrastructure networks, besides the mixed-integer nature of planning decision variables, this becomes a complicated non-convex problem. In this regard, an iterative procedure based on primal-dual decomposition and convex relaxation for solving this MSSP problem is put forward. This technique is motivated by explained planning problem that requires the satisfaction of constraints that describe operational processes for water supply infrastructure at multiple timescales. Since the aim is just finding a dual for the operation problem (pump scheduling or optimal power flow), each approach, like copositive programming, that can do this task can be used for this purpose. Here, applying a dual decomposition technique, e.g., optimality condition decomposition or Lagrangian relaxation, breaks the time dependency of intra-operation intervals. It also makes amenable the operation of the system in a decentralized mode by relaxing the coupling constraints like mass conservation and nodal power balance equations. If the operation problems are considered the subproblems (second-stage), their solving generates relative cuts for the master planning problem (first-stage problem). This procedure will terminate with the convergence of outer primal decomposition to an acceptable gap. Figure 2 represents the primal\\dual decomposition of the scenario tree Figure 1 in two steps. Flowchart 3 also shows the proposed solution technique graphically. The packages for solving the SP in the Julia programming language have been reviewed in Table 1. It is clear from this table that there is not any package to tackle the non-convex nonlinear mixed-integer MSSP problem. This work aims to develop a solver for this complicated MSSP problem. It also must be mentioned that although the proposed approach is applied to water supply networks, it is general enough to be used for any infrastructure network.",
-  "image": "https://pretalx.com/media/juliacon2023/submissions/KB8HS7/Figures_and_Table_VOH7lVz.jpg",
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T15:25:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T15:35:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Lightning Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Nested approaches for multi-stage stochastic planning problems",
-  "abstract": "We present a JuMP-based solver that combines a nested primal-dual decomposition technique and convex relaxation approaches for tackling non-convex multi-stage stochastic programming problems. The approach addresses optimal long-term water supply infrastructure planning with feasibility constraints at operational timescales. We combine an outer primal decomposition of planning stages and inner dual ones of operating scenarios, with convexified non-anticipative constraints relaxed for scenarios."
  },
  {
   "content_locale": "en",
@@ -5942,44 +5619,6 @@
   "do_not_record": false,
   "title": "Qualitative study on challenges faced in multithreading in Julia",
   "abstract": "Developers have been using multithreading to obtain increased performance. However, developers find it difficult to write multithreaded code. To help them, it is important to understand the difficulties they face. The goal of the study is to evaluate the challenges faced by developers with multithreading in Julia using Julia Discourse and Stack Overflow. Conversation between developers on these online discussion forums were analyzed using inductive qualitative content analysis."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3245,
-  "submission_type_id": 2475,
-  "code": "LCVKZS",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/20191202_095616_2_IoRQj4Q.jpg",
-    "name": "Felipe Coelho Argolo",
-    "code": "GLXP7Q",
-    "biography": "I'm a scientist that studies human behavior, with a keen on mathematics and philosophy.\r\n\r\nM.D., Ph.D. (Psychiatry)\r\nDeveloper: https://github.com/fargolo\r\nResearch (https://scholar.google.com/citations?user=XR4ot-cAAAAJ), Book (https://leanpub.com/cienciadados) and Blog (https://medium.com/d-van)."
-   }
-  ],
-  "description": "This talk covers NLP analysis with Julia, with a focus com graph analysis.\r\n\r\nA basic pipeline with TextGraphs.jl is shown, including stemming, lemmatization, grammatical tagging, graph embeddings and semantic embeddings .\r\n\r\nWe briefly study software writing in Julia and the insides of this package, proceeding to an use case. For this, the heteronyms of Portuguese poet Fernando Pessoa are contrasted with each other. We see how speech structural properties reflect different writing styles. \r\n\r\nGraph embeddings transform text into networks, considering recurrence of symbols. Their properties (e.g. density, centrality, size of largest connected component) contain information about text structure and are useful in psychometrics. \r\n\r\nTextGraphs.jl makes use of RCall.jl and R::udpipe for some functionalities, which give us a glimpse of R and Julia effortless interoperability. \r\n\r\nSemantic embeddings provide measures of speech coherence. These are also useful to characterize ideas in text.",
-  "image": "https://pretalx.com/media/juliacon2023/submissions/LCVKZS/drummond_J3uzsuj.png",
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T12:25:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T12:55:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "NLP and human behavior with Julia (and a bit of R)",
-  "abstract": "This talk covers NLP analysis with Julia, with a focus com graph analysis.\r\n\r\nA basic pipeline is shown, including pre-proccessing graph and semantic embeddings with TextGraphs.jl.\r\n\r\nWe briefly study the insides of this package along with an use case. For this, the heteronyms of Portuguese poet Fernando Pessoa are contrasted with each other. We see how speech structural properties reflect different writing styles."
  },
  {
   "content_locale": "en",
@@ -7891,7 +7530,7 @@
   "slot_count": 1,
   "slot": {
    "room_id": 2033,
-   "start": "2023-07-26T16:20:00-04:00",
+   "start": "2023-07-26T16:15:00-04:00",
    "room": {
     "en": "32-G449 (Kiva)"
    },
@@ -8756,44 +8395,6 @@
  },
  {
   "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3245,
-  "submission_type_id": 2768,
-  "code": "RRL3KQ",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Ruize Ren",
-    "code": "NBA3LP",
-    "biography": null
-   }
-  ],
-  "description": "An [order book](https://www.investopedia.com/terms/o/order-book.asp) is an electronic list of buy and sell orders for a specific security. Order books, which are maintained for each security traded on an exchange, catalog orders based upon the time and price the entry was received and use different matching algorithms to match buyers and sellers for a particular security. , which can also be used to help illustrate the dynamics for that security. Thus, order books, and their associated matching algorithms, play an essential role in determining the price at which a trade is executed. Order books can also be used as a measure of the supply and demand dynamics for a security. \r\n\r\nThe following section will briefly discuss this package's origins and how we modified and extended its features. Finally, we will provide a system evaluation and validation.\r\n\r\n**Where does this package come from?**\r\nThis package is based on [LimitOrderBook.jl](https://github.com/p-casgrain/LimitOrderBook.jl), which previously implemented the submission and cancellation of market orders and limit orders. It also provided information regarding the order book, such as the depth of the book, total bid/ask volume, and best bid/ask prices. However, several things could have been improved with the original package. Toward these issues, we fixed several order matching and account tracking issues present in the original package. Further, we extended the package to include additional order types, such as stop-loss orders and buy-stop orders. We also implemented functionality to load or persist the state of the entire order book as a comma-separated value (CSV) file. Finally, we are working on functionality to integrate the book with the order submission process. A notification feature is being added to notify the client/broker regarding order status; for example, when a limit order is submitted, it may only get matched after some time. If matched, the matching engine will notify listeners that the limited order has been executed. \r\n\r\n**How do we maintain this package?**\r\nVLLimitOrderBook.jl is maintained on the Varnerlab GitHub site at Cornell University. The code is available under an MIT software license. \r\n\r\n**Evaluation and Validation**\r\nWe are implementing a set of performance benchmarks. We measure throughput by submitting or canceling orders concurrently or sequentially. We also measure the time required to process an order from submission to completion of the matching process. Finally, to validate the accuracy and correctness of the order book simulation, we are working with [Polygon](https://polygon.io/), a leading market data provider, to compare simulated historical book data for a variety of assets, including equity, options, and cryptocurrency.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T13:35:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T13:45:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Lightning Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "VLLimitOrderBook.jl, simulation of electronic order book dynamic",
-  "abstract": "VLLimitOrderBook.jl is a package written in Julia that simulates order book dynamics and matching for equities, options, and cryptocurrency orders. The orders in the book are stored in an AVL Tree data structure and prioritized based on price and time."
- },
- {
-  "content_locale": "en",
   "is_featured": false,
   "track_id": 3245,
   "submission_type_id": 2436,
@@ -8872,44 +8473,6 @@
   "do_not_record": false,
   "title": "Morning Break Day 3 Room 4",
   "abstract": "Morning break for coffee and snacks, and transit time from the keynote to the rest of the day's talks."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3752,
-  "submission_type_id": 2475,
-  "code": "S339TU",
-  "track": {
-   "en": "Quantum"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/foto_bnxs9ip.jpg",
-    "name": "Rafał Pracht",
-    "code": "S7FQAG",
-    "biography": "Rafał Pracht is an experienced Software Architect in the financial industry. During his career, he participated in many projects in the finance area in Poland, the UK, France, Mideast, and eastern Europe. Since 2018 he is passionate about quantum computing, and he participated in courses at MIT, ETH Zurich, and the University of Toronto on that topic. He is one of the 360 Qiskit advocates (https://qiskit.org/advocates/), the group of the finest minds in quantum computing, worldwide. Currently, he is doing quantum research for the financial industry at BNP Paribas Bank Polska SA."
-   }
-  ],
-  "description": "I will start with an introduction to quantum computing with a focus on why this will be a breakthrough technology. Next, I will introduce the base of financial mathematics for derivative pricing. In fallow part, I will show the QuantumCircuits.jl library and how we can use it to perform quantum computation in Julia.\r\n\r\nThen I introduce the Monte Carlo method in finance, and how we can harness the power of quantum computing to speed up the calculation. Next, a detailed description of the Quantum algorithm for pricing options on gates-base quantum computers will be presented.\r\n\r\nThe last part will cover the implementation of the algorithm in Julia.",
-  "image": "https://pretalx.com/media/juliacon2023/submissions/S339TU/QC_p9UwVX1.svg",
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-26T13:05:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-26T13:35:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Quantum Monte Carlo in Julia.",
-  "abstract": "Quantum computing may be the technology that will change the financial industry. One of the potential use cases for quantum computers is derivative instrument pricing, this is a computationally demanding task with proven quadratic speed-up on the quantum machine. \r\n\r\nThe goal of the talk is to show how to do this using Julia's library  QuantumCircuits.jl."
  },
  {
   "content_locale": "en",
@@ -9257,7 +8820,7 @@
     "biography": "PhD student @ Ghent University studying tensor network methods and algorithms for classical and quantum physics simulations."
    }
   ],
-  "description": "Tensor networks offer a versatile and efficient framework for analyzing 1+1 dimensional quantum systems. They provide a compact representation of quantum states, enable efficient calculations of observables, and facilitate the exploration of entanglement properties and quantum dynamics. Additionally, the exploitation of patterns and redundancies caused by symmetries can result in substantial reductions in computational complexity and memory requirements, improved numerical accuracy and stability, as well as enhanced interpretability. \r\n\r\nWe show how generic symmetries manifest themselves in tensors, not only in the case of (non-)Abelian symmetry groups, but also when dealing with more exotic categorical symmetries. Through the use of a framework that is independent of the underlying symmetry, symmetry-agnostic code can be developed, which is able to leverage this in a black-box kind of way. This is then showcased via several applications in quantum systems and statistical mechanics models, highlighting the aforementioned benefits.",
+  "description": "We begin with [TensorOperations.jl](https://github.com/Jutho/TensorOperations.jl), a tool that streamlines the specification of tensor networks using the popular Einstein summation notation. By optimizing critical aspects of this process during compile-time, this tool can significantly enhance performance-a pivotal factor for many tensor network algorithms.\r\nIn the latest release (v4.0.0) we have added numerous quality of life updates alongside support for different backends, as well as support for automatic differentiation via the ChainRules.jl ecosystem. \r\n\r\nNext, we delve into the realm of symmetries within tensors, by exploring the implications of (non-)Abelian symmetry groups, as well as the more exotic categorical symmetries. We show how [TensorKit.jl](https://github.com/Jutho/TensorKit.jl) provides a way to develop symmetry-independent algorithms, which are still able to leverage the advantages given by the additional structure.\r\n\r\nTo illustrate the practicality of these advancements, we briefly showcase the capabilities of [MPSKit.jl](https://github.com/maartenvd/MPSKit.jl), a matrix product state library that incorporates these symmetries. We give examples that underline the computational benefits and fundamental insights into the underlying physics.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -9273,8 +8836,8 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "TensorKit.jl and MPSKit.jl - Symmetries in Tensor Networks",
-  "abstract": "[MPSKit.jl](https://github.com/maartenvd/MPSKit.jl) is a versatile tensor network toolbox that enables numerical simulations of quantum Hamiltonians in 1+1 dimensions and statistical mechanics models in 2+0 dimensions. Built upon [TensorKit.jl](https://github.com/Jutho/TensorKit.jl), it harnesses generic symmetries, not only providing valuable insights into the nature of these systems but also significantly enhancing computational efficiency and reducing memory requirements."
+  "title": "Symmetries in Tensor Networks—TensorOperations.jl + TensorKit.jl",
+  "abstract": "Tensor networks have emerged as a versatile and efficient framework for analyzing a wide range of quantum systems. A key advantage lies in their ability to leverage the underlying structure of the problems they address. We present [TensorOperations.jl](https://github.com/Jutho/TensorOperations.jl) and [TensorKit.jl](https://github.com/Jutho/TensorKit.jl), which are designed to facilitate the seamless and efficient implementation of tensor network algorithms and incorporate arbitrary symmetries."
  },
  {
   "content_locale": "en",
@@ -9894,11 +9457,11 @@
   "slot_count": 1,
   "slot": {
    "room_id": 2033,
-   "start": "2023-07-26T17:30:00-04:00",
+   "start": "2023-07-26T15:30:00-04:00",
    "room": {
     "en": "32-G449 (Kiva)"
    },
-   "end": "2023-07-26T18:00:00-04:00"
+   "end": "2023-07-26T16:00:00-04:00"
   },
   "submission_type": {
    "en": "Minisymposium"
@@ -10186,44 +9749,6 @@
  },
  {
   "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3245,
-  "submission_type_id": 2768,
-  "code": "UTJDAF",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 3,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Branwen Snelling",
-    "code": "8PP87U",
-    "biography": null
-   }
-  ],
-  "description": "Before becoming a research software engineer writing Julia, I was a PhD student writing Python, and most of the code I wrote was just for me.  This meant I learned Julia and good software engineering practices simultaneously.  Thankfully Julia and its community made it easier.  In this talk I will share some of the ways in which using Julia helped me to adopt good software engineering practices, including monitoring performance, engaging with SemVer, and writing performant type stable code.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T16:10:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T16:13:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Lightning Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Becoming a research software engineer with Julia",
-  "abstract": "This talk will present some Julia tools and features that helped an apprentice research software engineer (and newcomer to Julia) adopt good software engineering practices."
- },
- {
-  "content_locale": "en",
   "is_featured": false,
   "track_id": 3245,
   "submission_type_id": 2723,
@@ -10331,44 +9856,6 @@
  },
  {
   "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3245,
-  "submission_type_id": 2768,
-  "code": "UXE8SJ",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/ppp_gzilMNs.jpeg",
-    "name": "Paulito Palmes",
-    "code": "3EKCYY",
-    "biography": "I am a research scientist at the IBM Research Europe (Dublin Research Lab) working in the areas of analytics, datamining, machine learning, reinforcement learning, automated decisions, and AI.\r\n\r\nI created and maintain the following Julia packages:\r\n- AutoMLPipeline (Automated Machine Learning Pipeline): https://github.com/IBM/AutoMLPipeline.jl\r\n- TSML (Time Series Machine Learning): https://github.com/IBM/TSML.jl\r\n- Julia wrapper for Lale in Python: https://github.com/IBM/Lale.jl\r\n- Github repos: https://github.com/ppalmes"
-   }
-  ],
-  "description": "As part of AutoMLPipeline workflow, it becomes trivial to search which preprocessing elements and their combinations  provide the best policy Q by cross-validation where the dataset is split into training and testing several times to get the average accumulated discounted rewards (return) of a given policy Q. This talk will demonstrate how to setup the Offline RL pipeline to preprocess the dataset and learn the optimal  policy Q and incorporate some parallel search strategy to get the optimal workflow.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T10:55:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T11:05:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Lightning Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Wrapping Up Offline RL as part of AutoMLPipeline Workflow",
-  "abstract": "Unlike in Online RL where agents need to interact with real environment, Offline RL works similar to a typical machine learning workflow. Given a dataset, Offline RL processes data extracting state, action, reward, and terminal columns to optimize the policy Q.  By wrapping up offline RL into the AutoMLPipeline workflow, it becomes trivial to search for the optimal preprocessing elements and their combinations to improve Offline RL optimal policy using symbolic workflow manipulation."
- },
- {
-  "content_locale": "en",
   "is_featured": false,
   "track_id": 3752,
   "submission_type_id": 2430,
@@ -10404,6 +9891,37 @@
   "do_not_record": false,
   "title": "Convenient time dependence in QuantumOptics.jl",
   "abstract": "In recent years the Julia language has seen increasing adoption in the quantum community, broadly defined. We propose to organize two back-to-back minisymposia on the theme of \"Julia and quantum,\" including quantum computing, condensed matter physics, quantum chemistry. The talks would be addressed to both current and future experts."
+ },
+ {
+  "content_locale": "en",
+  "is_featured": false,
+  "track_id": 3925,
+  "submission_type_id": 3258,
+  "code": "V3BP98",
+  "track": {
+   "en": "Pre-recorded Talks"
+  },
+  "state": "confirmed",
+  "duration": 360,
+  "speakers": [],
+  "description": "List of talks that will be played, in no particular order: \r\n1. ctrl-VQE: Julianic simulations of a pulse-level VQE - https://pretalx.com/juliacon2023/talk/WUTK8E/\r\n2. VLLimitOrderBook.jl, simulation of electronic order book dynamic - https://pretalx.com/juliacon2023/talk/RRL3KQ/\r\n3. Streaming real-time financial market data with AWS cloud\r\n - https://pretalx.com/juliacon2023/talk/8DFWR3/\r\n4. Nested approaches for multi-stage stochastic planning problems\r\n- https://pretalx.com/juliacon2023/talk/KB8HS7/\r\n5. ModelOrderReduction.jl -- Symbolic-Enhanced Model Simplification - https://pretalx.com/juliacon2023/talk/HZV83P/\r\n6. Nerf.jl a real-time Neural 3D Scene Reconstruction in pure Julia - https://pretalx.com/juliacon2023/talk/DESQVZ/\r\n7. Becoming a research software engineer with Julia - https://pretalx.com/juliacon2023/talk/UTJDAF/\r\n8. Ignite.jl: A brighter way to train neural networks - https://pretalx.com/juliacon2023/talk/B3GMAE/\r\n9. Fast Higher-order Automatic Differentiation for Physical Models - https://pretalx.com/juliacon2023/talk/D8RHE7/\r\n10. Julia usecases in actuarial science related fields - https://pretalx.com/juliacon2023/talk/Z3WWTN/\r\n11. Vahana.jl - A framework for large-scale agent-based models - https://pretalx.com/juliacon2023/talk/B9DG8U/\r\n12. Julia at NCI - https://pretalx.com/juliacon2023/talk/DT3B7Z/\r\n13. Quantum Monte Carlo in Julia - https://pretalx.com/juliacon2023/talk/S339TU/\r\n14. Lessons learned while working as a technical writer at FluxML - https://pretalx.com/juliacon2023/talk/7AYUSN/\r\n15. RxInfer.jl: a package for real-time Bayesian Inference - https://pretalx.com/juliacon2023/talk/WQNE9L/\r\n16. Wrapping Up Offline RL as part of AutoMLPipeline Workflow - https://pretalx.com/juliacon2023/talk/UXE8SJ/\r\n17. Sorting gene trees by their path within a species network - https://pretalx.com/juliacon2023/talk/ZVLMVZ/\r\n18. Pipelines & JobSchedulers for computational workflow development - https://pretalx.com/juliacon2023/talk/ZCNXEB/\r\n19. NLP and human behavior with Julia (and a bit of R) - https://pretalx.com/juliacon2023/talk/LCVKZS/",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "room_id": 2028,
+   "start": "2023-07-26T10:00:00-04:00",
+   "room": {
+    "en": "32-082"
+   },
+   "end": "2023-07-26T16:00:00-04:00"
+  },
+  "submission_type": {
+   "en": "Pre-recorded Talks"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Pre-Recorded Talks",
+  "abstract": "Pre-recorded talks will be played in a playlist at 32-082 on Wednesday from 10 AM - 4 PM."
  },
  {
   "content_locale": "en",
@@ -11055,44 +10573,6 @@
  {
   "content_locale": "en",
   "is_featured": true,
-  "track_id": 3756,
-  "submission_type_id": 2475,
-  "code": "WQNE9L",
-  "track": {
-   "en": "Statistics and Data Science"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/bvdmitri_mjUF7Hu.jpeg",
-    "name": "Dmitry Bagaev",
-    "code": "F87RD7",
-    "biography": "My research interests lie in the fields of computers science, machine learning and probabilistic programming. Currently I am a PhD candidate in the SPS group of Electrical Engineering department in Eindhoven University of Technology. I’m working on a high-performant implementation of message passing-based Bayesian inference package in the Julia programming language. My research project focuses on Signal Processing and Active inference applications, but is also aimed to expand the scope of possible applications for message passing in general."
-   }
-  ],
-  "description": "**Background**: Bayesian inference realizes optimal information processing through a full commitment to reasoning by probability theory. The Bayesian framework is positioned at the core of modern AI technology for applications such as speech and image recognition and generation, medical analysis, robot navigation, etc., as it describes how a rational agent ought to update beliefs when new information is revealed by the agent's environment. Unfortunately, perfect Bayesian reasoning is generally intractable, since it requires the calculation of (often) very high-dimensional integrals. As a result, a number of numerical algorithms for approximating Bayesian inference have been developed and implemented in probabilistic programming packages. Successful methods include variants of Monte Carlo (MC) sampling, Variational Inference (VI), and Laplace approximation.   \r\n\r\n**Problem statement**: Many important AI applications, such as self-driving vehicles and extended reality video processing, require real-time Bayesian inference. However, sampling-based inference methods do not scale well to realistic probabilistic models with a significant number of latent states. As a result, Monte Carlo sampling-based methods are not suitable for real-time applications. Variational Inference promises to scale better than sampling-based inference, but VI requires derivation of gradients of a \"variational Free Energy\" cost function. For large models, manual derivation of these gradients is not feasible, and automated \"black-box\" gradient methods are too inefficient to be applicable to real-time inference applications. Therefore, while Bayesian inference is known as the optimal data processing framework, in practice, real-time AI applications rely on much simpler, often ad hoc, data processing algorithms. \r\n\r\n**Solution proposal**: We present RxInfer.jl, a package for processing infinite data streams by real-time Bayesian inference in large probabilistic models. RxInfer is open source, available at http://rxinfer.ml, and enjoys the following features:\r\n- A flexible probabilistic model specification. Through Julia macros, RxInfer is capable of automatically transforming a textual description of a probabilistic model to a factor graph representation of that model.\r\n- A flexible inference engine. The inference engine supports a variety of well-known message passing-based inference methods such as belief propagation, structured and mean-field variational message passing, expectation propagation, etc.\r\n- A customized trade-off between accuracy and speed. For each (node and edge) location in the graph, RxInfer enables a custom specification of inference constraints on the variational family of distributions. This enables the use of different Bayesian inference methods at different locations of the graph, leading to an optimized trade-off between accuracy and computational complexity.\r\n- Support for real-time processing of infinite data streams. Since RxInfer is based on a reactive programming framework, implemented by the package Rocket.jl, an ongoing inference process is always interruptible and an inference result is always available.  \r\n- Support for large static data sets. The package is not limited to real-time processing of data streams and also scales well to batch processing of large data sets.\r\n- RxInfer is extensible. A large and extendable collection of precomputed analytical inference solutions for standard problems increases the efficiency of the inference process. Current methods include solutions for linear Gaussian dynamical systems, auto-regressive Models, Gaussian and Gamma mixture models, convolution of distributions, and conjugate pair primitives. \r\n\r\n**Evaluation**: Over the past few years, the ecosystem has been tested on many advanced probabilistic models that have led to several publications in high-ranked journals such as Entropy [1], Frontiers [2], and conferences like MLSP[3], ISIT[4], PGM[5] and others.  A fast and user-friendly automatic Bayesian inference framework is a key factor to expand the applicability of Bayesian inference methods to real-time AI applications. More generally, access to fast Bayesian inference will benefit the wider statistical research community. We are excited to present our work on RxInfer and discuss its strengths and limitations.\r\n\r\n**References**: More at biaslab.github.io/publication/.\r\n\r\n[1] Message Passing and Local Constraint Manipulation in Factor Graphs, Entropy. Special Issue on Approximate Bayesian Inference. \r\n\r\n[2] AIDA: An Active Inference-Based Design Agent for Audio Processing Algorithms, Frontiers in Signal Processing.\r\n\r\n[3] Message Passing-Based Inference in the Gamma Mixture Model, IEEE 31st International Workshop on Machine Learning for Signal Processing.\r\n\r\n[4] The Switching Hierarchical Gaussian Filter, IEEE International Symposium on Information Theory.\r\n\r\n[5] Online Single-Microphone Source Separation using Non-Linear Autoregressive Models, PGM",
-  "image": "https://pretalx.com/media/juliacon2023/submissions/WQNE9L/biglogo-blacktheme_HUIPMYq.svg",
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2027,
-   "start": "2023-07-27T15:00:00-04:00",
-   "room": {
-    "en": "26-100"
-   },
-   "end": "2023-07-27T15:30:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "RxInfer.jl: a package for real-time Bayesian Inference",
-  "abstract": "We present RxInfer.jl, which is a Julia package for automated and fast Bayesian inference in a probabilistic model through reactive message passing on a factor graph representation of that model. RxInfer.jl unites different Julia packages and forms a user-friendly ecosystem for efficient real-time Bayesian processing of infinite data streams."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
   "track_id": 3588,
   "submission_type_id": 2430,
   "code": "WQVFEE",
@@ -11241,44 +10721,6 @@
   "do_not_record": false,
   "title": "Finite Element Modeling of Assets in Future Distribution Grids",
   "abstract": "We describe a project-based assignment in the EE4375 master course held at the TU Delft. The assignment asks to perform finite element simulations of the magnetic and thermal field of power transformer in distribution grids. Students can choose to employ both codes developed earlier in the course or to resort to existing finite element packages. See github.com/ziolai/finite_element_electrical_engineering .  The assignment is developed in collaboration with the local system administrator."
- },
- {
-  "content_locale": "en",
-  "is_featured": false,
-  "track_id": 3752,
-  "submission_type_id": 2475,
-  "code": "WUTK8E",
-  "track": {
-   "en": "Quantum"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Kyle Sherbert",
-    "code": "MQP3N9",
-    "biography": null
-   }
-  ],
-  "description": "This research was performed by a joint collaboration between the Virginia Tech Chemistry and Physics departments.\r\n\r\nThis research was supported by the US. Department of Energy (DoE) Award No. DE-SC0019199 and by the DoE Office of Science, National Quantum Information Science Research Centers, Co-design Center for Quantum Advantage (C2QA) under contract number DE-SC0012704.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-26T12:25:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-26T12:55:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "ctrl-VQE: Julianic simulations of a pulse-level VQE",
-  "abstract": "We discuss the ctrl-VQE algorithm, a variant of the popular Variational Quantum Eigensolver for solving molecular electronic states which has the potential to reduce runtimes on a quantum computer by orders of magnitude. Our most recent implementation of ctrl-VQE using Julia allows us to simulate our algorithm much faster than our previous Python code, enabling a more thorough analysis which has revealed strategies to improve the runtime of the algorithm even more."
  },
  {
   "content_locale": "en",
@@ -12383,44 +11825,6 @@
  },
  {
   "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3245,
-  "submission_type_id": 2768,
-  "code": "Z3WWTN",
-  "track": {
-   "en": "JuliaCon"
-  },
-  "state": "confirmed",
-  "duration": 10,
-  "speakers": [
-   {
-    "avatar": "https://pretalx.com/media/avatars/Yun-Tien_Lee_300dpi_uoxGRBA.jpg",
-    "name": "Yun-Tien Lee",
-    "code": "XBHLGM",
-    "biography": "Yun-Tien has over 15 years of experience in the insurance and consulting industry. He has always been working as a data analyst after he gained his fellowship status at the Society of Actuaries."
-   }
-  ],
-  "description": "We have identified various fields to apply Julia for, including\r\n- performance improvement. Fairly straightforward to convert existing codes to Julia to get immediate performance gains.\r\n- package and library development. The self-contained package management system helps to standardize and module-ize core functions and add-on functions. This would make all components better structured and largely increase the productivity of the team.\r\n- data visualization. When data volume increases the visualization of summary of data would correspondingly need increased computing power.\r\n- simulation. Julia comes with a huge variety of libraries to do simulation depending on different purposes. To name a few, time series analysis and interest rate models are heavily required components.\r\n- other applications applicable to life or health specific usecases.\r\nIn the meantime we would also be interested in finding out how Julia differs and compares among several trending languages, in terms of both productivity and efficiency.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T15:50:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T16:00:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Lightning Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Julia usecases in actuarial science related fields",
-  "abstract": "We are interested in exploring different aspects how Julia programming language can be applied to certain interesting usecases in the actuarial and financial space. In addition we may also provide commentary on when to use certain languages in terms of productivity and performance."
- },
- {
-  "content_locale": "en",
   "is_featured": false,
   "track_id": 3909,
   "submission_type_id": 2429,
@@ -12480,50 +11884,6 @@
   "do_not_record": false,
   "title": "Lunch Day 1 (Room 6)",
   "abstract": "We hope you're enjoying JuliaCon 2023 so far! Take a break and grab some lunch to recharge for the afternoon sessions. We have a delicious spread waiting for you in the dining hall. Bon appétit!"
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3754,
-  "submission_type_id": 2475,
-  "code": "ZCNXEB",
-  "track": {
-   "en": "HPC"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Jiacheng Chuan",
-    "code": "FA8WAT",
-    "biography": "PhD student in Bioinformatics and Microbiology.\r\nBioinformatician at Canadian Food Inspection Agency."
-   },
-   {
-    "avatar": null,
-    "name": "Li Sean",
-    "code": "EAC9WR",
-    "biography": "Senior Research Scientist at Canadian Food Inspection Agency."
-   }
-  ],
-  "description": "Computational workflows and pipelines are essential in large-scale data analysis and bioinformatics. Julia is a fast and easy-to-learn language, powered with parallel implementation and suited to glue together multiple languages and data types. Those features support Julia to be a potential workflow language. \r\nHere, we present two packages, Pipelines.jl and JobSchedulers.jl, as the Julia-based pipeline builder and workload manager. Pipelines.jl is a lightweight and powerful package for building reusable pipelines. JobSchedulers.jl was inspired by Slurm and PBS, and supports allocating CPU and memory to a specific job and deferring a job until other jobs are finished. Julia or external code can wrap in a Program type, and Pipelines.jl provides the code with multiple features, including inputs and outputs validation, dependency check, resuming interrupted tasks, re-trying failed tasks, and skipping finished tasks.\r\nPipelines.jl and JobSchedulers.jl have been used in Clasnip (www.clasnip.com), a web-based microorganism classification service with Julia back-end. In addition, BioPipelines.jl is an implementation of Pipelines.jl. It integrates a collection of bioinformatics programs and is fully compatible with PackageCompiler.jl. It solves the relocation of Julia applications and the configuration of external dependencies used in workflows.\r\nTherefore, by combining JobSchedulers.jl and Pipelines.jl, developers and researchers can conveniently build reproducible and scalable workflows in Julia.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-25T14:55:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-25T15:25:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Pipelines & JobSchedulers for computational workflow development",
-  "abstract": "Computational workflows and pipelines are essential in large-scale data analysis and bioinformatics. Here, we present Pipelines.jl and JobSchedulers.jl, as the reproducible and scalable pipeline builder and workload manager. Pipelines.jl provides simple but powerful methods to wrap Julia function or external command, and provide data and dependency validation, and job re-try or skipping. JobSchedulers.jl can allocate CPU and memory to jobs and defer a job until other jobs are finished."
  },
  {
   "content_locale": "en",
@@ -12631,44 +11991,6 @@
   "do_not_record": false,
   "title": "Simulation of fracture and damage with Peridynamics.jl",
   "abstract": "We introduce the new package Peridynamics.jl, which allows users to perform simulations of fracture and damage with the fast performance of Julia. Peridynamics is a non-local formulation of continuum mechanics based on a material point approach that has been of increasing interest in recent years. The purpose of the talk is to give a short introduction to the package and to showcase its capabilities."
- },
- {
-  "content_locale": "en",
-  "is_featured": true,
-  "track_id": 3760,
-  "submission_type_id": 2475,
-  "code": "ZVLMVZ",
-  "track": {
-   "en": "Biology and Medicine"
-  },
-  "state": "confirmed",
-  "duration": 30,
-  "speakers": [
-   {
-    "avatar": null,
-    "name": "Nathan Kolbow",
-    "code": "FYTZE7",
-    "biography": null
-   }
-  ],
-  "description": "Phylogenetics is the study of evolutionary relationships between organisms or groups. These relationships are often depicted in a tree structure, where internal nodes represent hypothetical ancestral species and external nodes (leaves) represent extant organisms or species. Over the past few decades, though, the importance of biological processes which cannot be represented in a tree structure (such as hybridization, introgression, and more) has become more well-known, which has led to a drastic increase in depicting these relationships with directed networks.\r\n\r\nMany common procedures for estimating such species trees and networks begin by estimating a collection of many gene trees from sequence data. These gene trees can be discordant even if a tree model is sufficient for modeling the species relationship, due to a process called incomplete lineage sorting (ILS). Thus, one of the main difficulties with model-based approaches is that it is difficult to disentangle what proportion of gene trees are adequately explained by a tree structure and ILS, and what proportion requires a network structure to be explained.\r\n\r\nOur package RANSANEC.jl (RAndom SAmple NEtwork Consensus) implements the classical statistical method of RANSAC (RAndom SAmple Consensus) in phylogenetic tree-space in order to separate the set of estimated gene trees which are adequately explained by ILS and a tree structure and those which require a network structure. This software builds on the rapidly growing suite of phylogenetic analysis software available in Julia.",
-  "image": null,
-  "slot_count": 1,
-  "slot": {
-   "room_id": 2231,
-   "start": "2023-07-26T15:00:00-04:00",
-   "room": {
-    "en": "Pre-Recorded Talks"
-   },
-   "end": "2023-07-26T15:30:00-04:00"
-  },
-  "submission_type": {
-   "en": "Online Only Talk"
-  },
-  "resources": [],
-  "do_not_record": false,
-  "title": "Sorting gene trees by their path within a species network",
-  "abstract": "Evolutionary relationships are often depicted in tree structures where internal nodes represent ancestral species and external nodes represent extant species, but directed networks are often necessary. Many species tree and network estimation procedures first estimate a set of gene trees from sequence data. The proportion of these gene trees that do not necessitate a network model is biologically interesting. In RANSANEC.jl, we expand random sample consensus to tree-space to tackle this problem."
  },
  {
   "content_locale": "en",
