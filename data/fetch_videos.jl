@@ -65,8 +65,8 @@ function download_videos_2023(talks)
       if day_id == 0 || day_id > 3
           continue
       end
-      is_talk = talk["submission_type"]["en"] in ("Ceremony", "Keynote", "Minisymposium", "Talk", "Lightning talk")
-      if is_talk && talk["track"]["en"] != "ASE60"
+      rx = r"(Ceremony|Keynote|Minisymposium|[Tt]alk\b)"
+      if !isnothing(match(rx, talk["submission_type"]["en"])) && talk["track"]["en"] != "ASE60"
         id = talk["code"]
         room = slot["room"]["en"]
         youtubeCode = YOUTUBE_CODES_2023[day_id][room]
