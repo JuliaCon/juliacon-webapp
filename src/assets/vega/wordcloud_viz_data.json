@@ -320,18 +320,17 @@
  },
  {
   "text": "matter physics quantum",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
   "text": "support",
-  "count": 58,
+  "count": 66,
   "talks": [
    9,
    14,
@@ -368,7 +367,6 @@
    189,
    190,
    192,
-   194,
    207,
    209,
    216,
@@ -455,15 +453,6 @@
    103,
    110,
    199
-  ]
- },
- {
-  "text": "talks follow ingesting",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
   ]
  },
  {
@@ -581,15 +570,6 @@
    23,
    117,
    140
-  ]
- },
- {
-  "text": "support jacob quinn",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
   ]
  },
  {
@@ -1165,7 +1145,7 @@
  },
  {
   "text": "simulation",
-  "count": 64,
+  "count": 66,
   "talks": [
    14,
    19,
@@ -1212,6 +1192,7 @@
    254,
    256,
    260,
+   264,
    265,
    266,
    268,
@@ -1745,13 +1726,12 @@
  },
  {
   "text": "computing condensed matter",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -2784,6 +2764,15 @@
   ]
  },
  {
+  "text": "allow easy",
+  "count": 16,
+  "talks": [
+   120,
+   264,
+   274
+  ]
+ },
+ {
   "text": "model source repositories",
   "count": 27,
   "talks": [
@@ -3064,13 +3053,12 @@
  },
  {
   "text": "current future expert",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -3487,13 +3475,12 @@
  },
  {
   "text": "talks addressed current",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -3554,7 +3541,7 @@
  },
  {
   "text": "example",
-  "count": 91,
+  "count": 89,
   "talks": [
    6,
    9,
@@ -3771,7 +3758,7 @@
  },
  {
   "text": "set",
-  "count": 36,
+  "count": 38,
   "talks": [
    4,
    11,
@@ -3809,6 +3796,7 @@
    249,
    251,
    252,
+   264,
    266,
    270,
    274,
@@ -4155,13 +4143,12 @@
  },
  {
   "text": "organize minisymposia theme",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -4688,13 +4675,12 @@
  },
  {
   "text": "language seen increasing",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -4702,15 +4688,6 @@
   "count": 27,
   "talks": [
    95
-  ]
- },
- {
-  "text": "follow ingesting larger",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
   ]
  },
  {
@@ -5213,7 +5190,7 @@
  },
  {
   "text": "tool",
-  "count": 27,
+  "count": 29,
   "talks": [
    6,
    14,
@@ -5279,6 +5256,7 @@
    250,
    254,
    262,
+   264,
    267,
    272,
    273,
@@ -5590,7 +5568,7 @@
  },
  {
   "text": "including",
-  "count": 39,
+  "count": 43,
   "talks": [
    6,
    18,
@@ -5637,7 +5615,6 @@
    258,
    259,
    260,
-   264,
    274,
    279,
    286,
@@ -6403,13 +6380,12 @@
  },
  {
   "text": "propose organize minisymposia",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -6703,6 +6679,16 @@
   ]
  },
  {
+  "text": "list talks",
+  "count": 16,
+  "talks": [
+   112,
+   126,
+   194,
+   265
+  ]
+ },
+ {
   "text": "differentiability optimization learning",
   "count": 27,
   "talks": [
@@ -6986,13 +6972,12 @@
  },
  {
   "text": "physics quantum chemistry",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -7229,13 +7214,12 @@
  },
  {
   "text": "minisymposia theme quantum",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -7292,13 +7276,12 @@
  },
  {
   "text": "broadly defined propose",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -7598,15 +7581,6 @@
    66,
    127,
    192
-  ]
- },
- {
-  "text": "list talks follow",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
   ]
  },
  {
@@ -8191,15 +8165,6 @@
   ]
  },
  {
-  "text": "quinn tidierjl bringing",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
-  ]
- },
- {
   "text": "surveyjl package studying",
   "count": 27,
   "talks": [
@@ -8313,15 +8278,6 @@
    220,
    236,
    245
-  ]
- },
- {
-  "text": "singh dataframesjl highlight",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
   ]
  },
  {
@@ -9166,13 +9122,12 @@
  },
  {
   "text": "community broadly defined",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -9297,15 +9252,6 @@
   "talks": [
    27,
    34
-  ]
- },
- {
-  "text": "ecosystem proposed list",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
   ]
  },
  {
@@ -10309,13 +10255,12 @@
  },
  {
   "text": "quantum computing condensed",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -10419,6 +10364,15 @@
   ]
  },
  {
+  "text": "briefly introduce",
+  "count": 16,
+  "talks": [
+   48,
+   171,
+   264
+  ]
+ },
+ {
   "text": "target viewer produced",
   "count": 27,
   "talks": [
@@ -10483,13 +10437,12 @@
  },
  {
   "text": "quantum including quantum",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -11018,13 +10971,12 @@
  },
  {
   "text": "seen increasing adoption",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -11222,13 +11174,12 @@
  },
  {
   "text": "including quantum computing",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -11543,13 +11494,12 @@
  },
  {
   "text": "addressed current future",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -11911,7 +11861,7 @@
  },
  {
   "text": "simulating",
-  "count": 24,
+  "count": 21,
   "talks": [
    23,
    77,
@@ -11930,6 +11880,7 @@
    224,
    254,
    256,
+   264,
    272,
    318
   ]
@@ -11986,15 +11937,6 @@
    103,
    110,
    199
-  ]
- },
- {
-  "text": "json arrow csv",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
   ]
  },
  {
@@ -12823,7 +12765,7 @@
  },
  {
   "text": "graph",
-  "count": 44,
+  "count": 50,
   "talks": [
    11,
    35,
@@ -12856,7 +12798,7 @@
  },
  {
   "text": "condensed matter physics",
-  "count": 144,
+  "count": 126,
   "talks": [
    31,
    38,
@@ -12867,8 +12809,7 @@
    211,
    233,
    247,
-   260,
-   264
+   260
   ]
  },
  {
@@ -13459,7 +13400,7 @@
  },
  {
   "text": "easy",
-  "count": 44,
+  "count": 42,
   "talks": [
    6,
    14,
@@ -13485,6 +13426,7 @@
    221,
    249,
    258,
+   264,
    267,
    274,
    279,
@@ -13580,13 +13522,12 @@
  },
  {
   "text": "quantum chemistry talks",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -13782,12 +13723,10 @@
   ]
  },
  {
-  "text": "evolution json arrow",
+  "text": "inertial confinement fusion",
   "count": 27,
   "talks": [
-   112,
-   126,
-   194
+   182
   ]
  },
  {
@@ -13798,13 +13737,6 @@
    33,
    219,
    310
-  ]
- },
- {
-  "text": "inertial confinement fusion",
-  "count": 27,
-  "talks": [
-   182
   ]
  },
  {
@@ -14026,15 +13958,6 @@
   ]
  },
  {
-  "text": "arraes chagas geographical",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
-  ]
- },
- {
   "text": "facilities summit frontier",
   "count": 27,
   "talks": [
@@ -14057,6 +13980,15 @@
   "count": 36,
   "talks": [
    164
+  ]
+ },
+ {
+  "text": "discussing level progression",
+  "count": 27,
+  "talks": [
+   23,
+   117,
+   140
   ]
  },
  {
@@ -14085,15 +14017,6 @@
    38,
    211,
    260
-  ]
- },
- {
-  "text": "discussing level progression",
-  "count": 27,
-  "talks": [
-   23,
-   117,
-   140
   ]
  },
  {
@@ -14842,13 +14765,12 @@
  },
  {
   "text": "theme quantum including",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -14865,15 +14787,6 @@
   "count": 27,
   "talks": [
    77
-  ]
- },
- {
-  "text": "chagas geographical data",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
   ]
  },
  {
@@ -15226,6 +15139,14 @@
   ]
  },
  {
+  "text": "recently added",
+  "count": 16,
+  "talks": [
+   264,
+   297
+  ]
+ },
+ {
   "text": "discuss share current",
   "count": 27,
   "talks": [
@@ -15235,17 +15156,8 @@
   ]
  },
  {
-  "text": "multiple background sharing",
-  "count": 27,
-  "talks": [
-   66,
-   127,
-   192
-  ]
- },
- {
   "text": "file",
-  "count": 30,
+  "count": 29,
   "talks": [
    19,
    29,
@@ -15259,6 +15171,15 @@
    300,
    308,
    310
+  ]
+ },
+ {
+  "text": "multiple background sharing",
+  "count": 27,
+  "talks": [
+   66,
+   127,
+   192
   ]
  },
  {
@@ -15523,7 +15444,7 @@
  },
  {
   "text": "provide",
-  "count": 82,
+  "count": 84,
   "talks": [
    2,
    11,
@@ -15595,6 +15516,7 @@
    250,
    257,
    258,
+   264,
    266,
    272,
    274,
@@ -15648,13 +15570,12 @@
  },
  {
   "text": "quantum community broadly",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -16382,6 +16303,27 @@
   ]
  },
  {
+  "text": "creation",
+  "count": 19,
+  "talks": [
+   12,
+   30,
+   33,
+   58,
+   67,
+   70,
+   76,
+   125,
+   171,
+   179,
+   184,
+   249,
+   253,
+   264,
+   311
+  ]
+ },
+ {
   "text": "gpu modularity easily",
   "count": 27,
   "talks": [
@@ -16422,15 +16364,6 @@
    66,
    127,
    192
-  ]
- },
- {
-  "text": "szufel parallelizing data",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
   ]
  },
  {
@@ -17347,15 +17280,6 @@
   ]
  },
  {
-  "text": "csv support jacob",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
-  ]
- },
- {
   "text": "collection hundred scientific",
   "count": 27,
   "talks": [
@@ -18118,14 +18042,15 @@
  },
  {
   "text": "quantum system",
-  "count": 56,
+  "count": 64,
   "talks": [
    50,
    87,
    108,
    173,
    187,
-   237
+   237,
+   264
   ]
  },
  {
@@ -18581,7 +18506,7 @@
  },
  {
   "text": "introduce",
-  "count": 42,
+  "count": 40,
   "talks": [
    4,
    14,
@@ -18625,6 +18550,7 @@
    244,
    254,
    258,
+   264,
    266,
    268,
    282,
@@ -18841,15 +18767,6 @@
   ]
  },
  {
-  "text": "przemysaw szufel parallelizing",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
-  ]
- },
- {
   "text": "practitioner various disciplines",
   "count": 27,
   "talks": [
@@ -19032,7 +18949,7 @@
  },
  {
   "text": "feature",
-  "count": 83,
+  "count": 85,
   "talks": [
    11,
    20,
@@ -19085,6 +19002,7 @@
    245,
    248,
    256,
+   264,
    268,
    270,
    272,
@@ -19172,15 +19090,6 @@
   ]
  },
  {
-  "text": "aspect ecosystem proposed",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
-  ]
- },
- {
   "text": "dataframesjl przemysaw szufel",
   "count": 27,
   "talks": [
@@ -19242,15 +19151,6 @@
   ]
  },
  {
-  "text": "arrow csv support",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
-  ]
- },
- {
   "text": "language dsl ability",
   "count": 27,
   "talks": [
@@ -19305,7 +19205,7 @@
  },
  {
   "text": "numerical",
-  "count": 29,
+  "count": 31,
   "talks": [
    9,
    19,
@@ -19338,6 +19238,7 @@
    232,
    258,
    259,
+   264,
    274,
    287,
    300,
@@ -19432,7 +19333,7 @@
  },
  {
   "text": "data",
-  "count": 56,
+  "count": 68,
   "talks": [
    2,
    6,
@@ -19658,15 +19559,6 @@
    266,
    308,
    314
-  ]
- },
- {
-  "text": "karandeep singh dataframesjl",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
   ]
  },
  {
@@ -19906,13 +19798,12 @@
  },
  {
   "text": "recent language seen",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -20548,7 +20439,7 @@
  },
  {
   "text": "framework",
-  "count": 71,
+  "count": 73,
   "talks": [
    14,
    23,
@@ -20589,6 +20480,7 @@
    237,
    245,
    249,
+   264,
    265,
    267,
    280,
@@ -20993,6 +20885,15 @@
    38,
    211,
    260
+  ]
+ },
+ {
+  "text": "simulating quantum",
+  "count": 20,
+  "talks": [
+   121,
+   202,
+   264
   ]
  },
  {
@@ -21863,13 +21764,12 @@
  },
  {
   "text": "defined propose organize",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -21883,13 +21783,12 @@
  },
  {
   "text": "chemistry talks addressed",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -22179,12 +22078,12 @@
   ]
  },
  {
-  "text": "jacob quinn tidierjl",
+  "text": "distributedjl hpc fin",
   "count": 27,
   "talks": [
-   112,
-   126,
-   194
+   66,
+   127,
+   192
   ]
  },
  {
@@ -22199,15 +22098,6 @@
    280,
    282,
    321
-  ]
- },
- {
-  "text": "distributedjl hpc fin",
-  "count": 27,
-  "talks": [
-   66,
-   127,
-   192
   ]
  },
  {
@@ -23097,7 +22987,7 @@
  },
  {
   "text": "operator",
-  "count": 20,
+  "count": 22,
   "talks": [
    39,
    43,
@@ -23107,18 +22997,18 @@
    181,
    187,
    213,
+   264,
    298
   ]
  },
  {
   "text": "increasing adoption quantum",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
+   260
   ]
  },
  {
@@ -23254,7 +23144,7 @@
  },
  {
   "text": "ecosystem",
-  "count": 27,
+  "count": 33,
   "talks": [
    4,
    21,
@@ -23504,22 +23394,12 @@
  },
  {
   "text": "adoption quantum community",
-  "count": 63,
+  "count": 45,
   "talks": [
    38,
    211,
    233,
-   260,
-   264
-  ]
- },
- {
-  "text": "proposed list talks",
-  "count": 27,
-  "talks": [
-   112,
-   126,
-   194
+   260
   ]
  },
  {
