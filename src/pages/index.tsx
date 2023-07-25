@@ -59,7 +59,7 @@ const LivePage: NextPage<LivePageProps> = ({ talks }) => {
 
   if (__DEV__) {
     return (
-      <NowOverrideProvider initialValue="2022-07-28T17:25:49.834Z">
+      <NowOverrideProvider initialValue="2023-07-25T10:25:49.834Z">
         {page}
       </NowOverrideProvider>
     );
