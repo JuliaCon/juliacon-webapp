@@ -8,9 +8,9 @@
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/juliahub-logo.svg",
     "tier": "Platinum",
     "discord": {
-      "channel": "#julia-computing",
-      "url": "https://discord.com/channels/995757799076282478/999380968106373200"
-    }
+      "channel":"",
+      "url":""
+    }  
   },
   {
     "sponsorName": "ASML",
@@ -18,11 +18,7 @@
     "moreInfoURL": "https://www.asml.com/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/asml-logo.png",
-    "tier": "Gold",
-    "discord": {
-      "channel": "#asml",
-      "url": "https://discord.com/channels/995757799076282478/999382218210279504"
-    }
+    "tier": "Gold"
   },
   {
     "sponsorName": "Pumas AI",
@@ -31,11 +27,7 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/pumas-ai-logo.png",
-    "tier": "Silver",
-    "discord": {
-      "channel": "#pumas-ai",
-      "url": "https://discord.com/channels/995757799076282478/999381032937734195"
-    }
+    "tier": "Silver"
   },
   {
     "sponsorName": "QuEra Computing Inc.",
@@ -44,11 +36,7 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/quera-logo.png",
-    "tier": "Silver",
-    "discord": {
-      "channel": "#quera-computing",
-      "url": "https://discord.com/channels/995757799076282478/999382127999188992"
-    }
+    "tier": "Silver"
   },
   {
     "sponsorName": "Relational AI",
@@ -57,11 +45,7 @@
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2022/img/sponsors/rai-logo.svg",
-    "tier": "Silver",
-    "discord": {
-      "channel": "#relational-ai",
-      "url": "https://discord.com/channels/995757799076282478/999381711462862929"
-    }
+    "tier": "Silver"
   },
   {
     "sponsorName": "Jeffrey Sarnoff",
@@ -87,11 +71,7 @@
     "moreInfoURL": "https://beacon.bio/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/beacon-logo.svg",
-    "tier": "Bronze",
-    "discord": {
-      "channel": "#beacon-biosignals",
-      "url": "https://discord.com/channels/995757799076282478/999382059820798002"
-    }
+    "tier": "Bronze"
   },
   {
     "sponsorName": "NAWA",
