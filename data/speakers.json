@@ -11,6 +11,15 @@
  },
  {
   "avatar": "",
+  "name": "Joseph Tindall",
+  "submissions": [
+   "AXHNYJ"
+  ],
+  "code": "37SZKY",
+  "biography": null
+ },
+ {
+  "avatar": "",
   "name": "Flemming Holtorf",
   "submissions": [
    "MX7J3F",
@@ -199,7 +208,7 @@
    "TXKXKP"
   ],
   "code": "8Q8AYS",
-  "biography": null
+  "biography": "Research Scientist and Software Engineer at the [Flatiron Institute](https://www.simonsfoundation.org/people/matthew-fishman)."
  },
  {
   "avatar": "",

@@ -1,11 +1,10 @@
 [
  {
   "text": "quantum computing industry",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -39,11 +38,10 @@
  },
  {
   "text": "field study covered",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -54,6 +52,25 @@
    25,
    47,
    206
+  ]
+ },
+ {
+  "text": "backend",
+  "count": 20,
+  "talks": [
+   41,
+   61,
+   81,
+   99,
+   121,
+   130,
+   135,
+   142,
+   167,
+   237,
+   252,
+   307,
+   313
   ]
  },
  {
@@ -212,15 +229,6 @@
   ]
  },
  {
-  "text": "institute amazon center",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
-  ]
- },
- {
   "text": "web application",
   "count": 16,
   "talks": [
@@ -232,21 +240,19 @@
  },
  {
   "text": "undergraduate graduate student",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
  {
   "text": "job searches propose",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -297,11 +303,10 @@
  },
  {
   "text": "circuit simulation allowing",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -316,19 +321,18 @@
  },
  {
   "text": "matter physics quantum",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
  },
  {
   "text": "support",
-  "count": 56,
+  "count": 58,
   "talks": [
    9,
    14,
@@ -375,6 +379,7 @@
    242,
    249,
    251,
+   252,
    259,
    263,
    266,
@@ -464,11 +469,10 @@
  },
  {
   "text": "developer understand current",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -507,11 +511,10 @@
  },
  {
   "text": "talks junior graduate",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -522,6 +525,27 @@
    25,
    47,
    206
+  ]
+ },
+ {
+  "text": "simulate",
+  "count": 19,
+  "talks": [
+   39,
+   50,
+   68,
+   77,
+   83,
+   180,
+   182,
+   189,
+   209,
+   214,
+   254,
+   266,
+   300,
+   308,
+   321
   ]
  },
  {
@@ -662,11 +686,10 @@
  },
  {
   "text": "future expert community",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -681,7 +704,7 @@
  },
  {
   "text": "package",
-  "count": 235,
+  "count": 241,
   "talks": [
    4,
    9,
@@ -707,6 +730,7 @@
    47,
    48,
    49,
+   50,
    52,
    56,
    58,
@@ -866,11 +890,10 @@
  },
  {
   "text": "scientist industry researcher",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -1028,11 +1051,10 @@
  },
  {
   "text": "industry continue grow",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -1083,11 +1105,10 @@
  },
  {
   "text": "allowing community common",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -1145,7 +1166,7 @@
  },
  {
   "text": "simulation",
-  "count": 59,
+  "count": 64,
   "talks": [
    14,
    19,
@@ -1155,6 +1176,7 @@
    38,
    44,
    49,
+   50,
    51,
    52,
    66,
@@ -1188,7 +1210,6 @@
    214,
    224,
    243,
-   252,
    254,
    256,
    260,
@@ -1220,11 +1241,10 @@
  },
  {
   "text": "juliacon audience junior",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -1285,11 +1305,10 @@
  },
  {
   "text": "conjoined minisymposia community",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -1320,7 +1339,7 @@
  },
  {
   "text": "available",
-  "count": 48,
+  "count": 51,
   "talks": [
    19,
    20,
@@ -1329,6 +1348,7 @@
    45,
    48,
    49,
+   50,
    53,
    69,
    70,
@@ -1374,11 +1394,10 @@
  },
  {
   "text": "simulation allowing developer",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -1490,11 +1509,10 @@
  },
  {
   "text": "double conjoined minisymposium",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -1599,7 +1617,7 @@
  },
  {
   "text": "user",
-  "count": 53,
+  "count": 57,
   "talks": [
    3,
    11,
@@ -1661,7 +1679,6 @@
    244,
    245,
    249,
-   252,
    260,
    266,
    267,
@@ -1730,12 +1747,11 @@
  },
  {
   "text": "computing condensed matter",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -1834,12 +1850,13 @@
  },
  {
   "text": "structure",
-  "count": 32,
+  "count": 34,
   "talks": [
    18,
    19,
    20,
    40,
+   50,
    52,
    53,
    67,
@@ -2044,7 +2061,7 @@
  },
  {
   "text": "method",
-  "count": 111,
+  "count": 112,
   "talks": [
    2,
    6,
@@ -2059,6 +2076,7 @@
    36,
    38,
    42,
+   50,
    60,
    62,
    67,
@@ -2103,7 +2121,6 @@
    247,
    249,
    250,
-   252,
    258,
    260,
    267,
@@ -2171,11 +2188,10 @@
  },
  {
   "text": "implementation lacking contributor",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -2195,15 +2211,6 @@
    66,
    127,
    192
-  ]
- },
- {
-  "text": "andrew keller zapata",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
   ]
  },
  {
@@ -2771,11 +2778,10 @@
  },
  {
   "text": "stoudenmire itensorjl katharine",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -2833,6 +2839,7 @@
    203,
    212,
    214,
+   252,
    258,
    267,
    268,
@@ -2997,11 +3004,10 @@
  },
  {
   "text": "topic quantum sufficient",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -3051,22 +3057,20 @@
  },
  {
   "text": "treat topic quantum",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
  {
   "text": "current future expert",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -3091,11 +3095,10 @@
  },
  {
   "text": "ecosystem quantumrelated package",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -3137,21 +3140,19 @@
  },
  {
   "text": "background common length",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
  {
   "text": "quantum phenomena quantum",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -3313,11 +3314,10 @@
  },
  {
   "text": "mentors allowing community",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -3359,11 +3359,10 @@
  },
  {
   "text": "amazon braket quera",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -3490,12 +3489,11 @@
  },
  {
   "text": "talks addressed current",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -3558,7 +3556,7 @@
  },
  {
   "text": "example",
-  "count": 89,
+  "count": 91,
   "talks": [
    6,
    9,
@@ -3624,7 +3622,6 @@
    243,
    244,
    249,
-   252,
    254,
    256,
    257,
@@ -3767,17 +3764,16 @@
  },
  {
   "text": "contributor dedicated stream",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
  {
   "text": "set",
-  "count": 34,
+  "count": 36,
   "talks": [
    4,
    11,
@@ -3814,6 +3810,7 @@
    228,
    249,
    251,
+   252,
    266,
    270,
    274,
@@ -4060,12 +4057,11 @@
  },
  {
   "text": "tensor network method",
-  "count": 54,
+  "count": 45,
   "talks": [
    38,
    211,
    247,
-   252,
    260
   ]
  },
@@ -4116,11 +4112,10 @@
  },
  {
   "text": "quantum curious student",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -4162,19 +4157,18 @@
  },
  {
   "text": "organize minisymposia theme",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
  },
  {
   "text": "extension",
-  "count": 25,
+  "count": 22,
   "talks": [
    19,
    20,
@@ -4188,6 +4182,7 @@
    205,
    235,
    249,
+   252,
    267,
    270,
    272,
@@ -4325,7 +4320,7 @@
  },
  {
   "text": "model",
-  "count": 69,
+  "count": 71,
   "talks": [
    2,
    18,
@@ -4343,6 +4338,7 @@
    40,
    44,
    47,
+   50,
    51,
    52,
    56,
@@ -4541,11 +4537,10 @@
  },
  {
   "text": "undergraduate student confirmed",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -4685,15 +4680,6 @@
   ]
  },
  {
-  "text": "michael goerz quantumcontroljl",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
-  ]
- },
- {
   "text": "gpu hour minisymposium",
   "count": 27,
   "talks": [
@@ -4704,12 +4690,11 @@
  },
  {
   "text": "language seen increasing",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -4741,11 +4726,10 @@
  },
  {
   "text": "minisymposia community able",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -4850,11 +4834,10 @@
  },
  {
   "text": "speaker matt fishman",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -5040,11 +5023,10 @@
  },
  {
   "text": "allowing developer understand",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -5130,15 +5112,6 @@
   ]
  },
  {
-  "text": "quantum computing ash",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
-  ]
- },
- {
   "text": "performance practice achieve",
   "count": 27,
   "talks": [
@@ -5149,11 +5122,10 @@
  },
  {
   "text": "relevant field lay",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -5184,7 +5156,7 @@
  },
  {
   "text": "operation",
-  "count": 26,
+  "count": 30,
   "talks": [
    22,
    33,
@@ -5201,6 +5173,7 @@
    228,
    247,
    249,
+   252,
    270,
    277,
    279,
@@ -5494,15 +5467,6 @@
   ]
  },
  {
-  "text": "brehmer rwth aachen",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
-  ]
- },
- {
   "text": "affairs hpc series",
   "count": 27,
   "talks": [
@@ -5551,11 +5515,10 @@
  },
  {
   "text": "hyatt amazon braket",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -5630,7 +5593,7 @@
  },
  {
   "text": "including",
-  "count": 37,
+  "count": 39,
   "talks": [
    6,
    18,
@@ -5673,7 +5636,6 @@
    244,
    249,
    251,
-   252,
    254,
    258,
    259,
@@ -5735,11 +5697,10 @@
  },
  {
   "text": "relevant expert audience",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -6106,11 +6067,10 @@
  },
  {
   "text": "user developer variety",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -6161,21 +6121,19 @@
  },
  {
   "text": "itensorjl katharine hyatt",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
  {
   "text": "community wide variety",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -6248,11 +6206,10 @@
  },
  {
   "text": "interaction addition quantumfocused",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -6449,12 +6406,11 @@
  },
  {
   "text": "propose organize minisymposia",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -6855,11 +6811,10 @@
  },
  {
   "text": "junior graduate undergraduate",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -6944,11 +6899,10 @@
  },
  {
   "text": "vibrant ecosystem quantumrelated",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -7035,12 +6989,11 @@
  },
  {
   "text": "physics quantum chemistry",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -7065,11 +7018,10 @@
  },
  {
   "text": "staff scientist industry",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -7094,11 +7046,10 @@
  },
  {
   "text": "lay land opportunities",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -7170,11 +7121,10 @@
  },
  {
   "text": "student confirmed speaker",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -7203,11 +7153,10 @@
  },
  {
   "text": "quantumrelated package user",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -7274,22 +7223,20 @@
  },
  {
   "text": "understand current implementation",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
  {
   "text": "minisymposia theme quantum",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -7348,23 +7295,21 @@
  },
  {
   "text": "broadly defined propose",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
  },
  {
   "text": "continue grow vibrant",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -7422,7 +7367,7 @@
  },
  {
   "text": "interface",
-  "count": 49,
+  "count": 50,
   "talks": [
    9,
    14,
@@ -7464,6 +7409,7 @@
    241,
    243,
    245,
+   252,
    256,
    258,
    262,
@@ -7476,11 +7422,10 @@
  },
  {
   "text": "expert audience appropriate",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -7511,11 +7456,10 @@
  },
  {
   "text": "fairly background common",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -7775,15 +7719,6 @@
   ]
  },
  {
-  "text": "reach roger melko",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
-  ]
- },
- {
   "text": "system biology developed",
   "count": 27,
   "talks": [
@@ -7803,11 +7738,10 @@
  },
  {
   "text": "community user academic",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -7961,11 +7895,10 @@
  },
  {
   "text": "student postdoctoral scholar",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -8032,21 +7965,11 @@
   ]
  },
  {
-  "text": "center quantum computing",
+  "text": "method condensed matter",
   "count": 27,
   "talks": [
    38,
    211,
-   252
-  ]
- },
- {
-  "text": "method condensed matter",
-  "count": 36,
-  "talks": [
-   38,
-   211,
-   252,
    260
   ]
  },
@@ -8079,7 +8002,7 @@
  },
  {
   "text": "based",
-  "count": 26,
+  "count": 27,
   "talks": [
    4,
    11,
@@ -8117,6 +8040,7 @@
    249,
    250,
    251,
+   252,
    258,
    269,
    272,
@@ -8222,6 +8146,15 @@
   ]
  },
  {
+  "text": "demonstrate application",
+  "count": 16,
+  "talks": [
+   50,
+   212,
+   307
+  ]
+ },
+ {
   "text": "avoiding discretization issue",
   "count": 27,
   "talks": [
@@ -8285,6 +8218,14 @@
    66,
    127,
    192
+  ]
+ },
+ {
+  "text": "package extension",
+  "count": 16,
+  "talks": [
+   252,
+   310
   ]
  },
  {
@@ -8432,11 +8373,10 @@
  },
  {
   "text": "graduate undergraduate student",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -8741,11 +8681,10 @@
  },
  {
   "text": "land opportunities contribute",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -8776,11 +8715,10 @@
  },
  {
   "text": "material relevant expert",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -8839,11 +8777,10 @@
  },
  {
   "text": "miles stoudenmire itensorjl",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -9164,11 +9101,10 @@
  },
  {
   "text": "allow quantum curious",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -9224,11 +9160,10 @@
  },
  {
   "text": "background relevant field",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -9243,12 +9178,11 @@
  },
  {
   "text": "community broadly defined",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -9397,11 +9331,10 @@
  },
  {
   "text": "matter physics method",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -9461,11 +9394,10 @@
  },
  {
   "text": "researcher developer conjoined",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -9538,11 +9470,10 @@
  },
  {
   "text": "audience appropriate wider",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -9615,15 +9546,6 @@
   ]
  },
  {
-  "text": "aachen university michael",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
-  ]
- },
- {
   "text": "raw data coming",
   "count": 27,
   "talks": [
@@ -9666,11 +9588,10 @@
  },
  {
   "text": "research job searches",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -9720,11 +9641,10 @@
  },
  {
   "text": "wide variety field",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -9764,11 +9684,10 @@
  },
  {
   "text": "morning afternoon breadth",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -9865,11 +9784,10 @@
  },
  {
   "text": "include length talks",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -9983,11 +9901,10 @@
  },
  {
   "text": "common length treat",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -10036,11 +9953,10 @@
  },
  {
   "text": "field lay land",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -10062,11 +9978,10 @@
  },
  {
   "text": "involving quantum phenomena",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -10122,7 +10037,7 @@
  },
  {
   "text": "library",
-  "count": 58,
+  "count": 64,
   "talks": [
    22,
    23,
@@ -10155,6 +10070,7 @@
    221,
    237,
    243,
+   252,
    258,
    262,
    266,
@@ -10237,11 +10153,10 @@
  },
  {
   "text": "solicit lightning talks",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -10338,11 +10253,10 @@
  },
  {
   "text": "minisymposia allow quantum",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -10422,12 +10336,11 @@
  },
  {
   "text": "quantum computing condensed",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -10563,11 +10476,10 @@
  },
  {
   "text": "fishman miles stoudenmire",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -10598,12 +10510,11 @@
  },
  {
   "text": "quantum including quantum",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -10740,6 +10651,7 @@
    237,
    244,
    250,
+   252,
    253,
    254,
    258,
@@ -10808,7 +10720,7 @@
  },
  {
   "text": "application",
-  "count": 73,
+  "count": 71,
   "talks": [
    4,
    6,
@@ -10827,6 +10739,7 @@
    45,
    47,
    48,
+   50,
    51,
    55,
    58,
@@ -11046,11 +10959,10 @@
  },
  {
   "text": "community able quantumfocused",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -11079,11 +10991,10 @@
  },
  {
   "text": "depth hope solicit",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -11134,12 +11045,11 @@
  },
  {
   "text": "seen increasing adoption",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -11257,21 +11167,19 @@
  },
  {
   "text": "covered session allow",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
  {
   "text": "variety field study",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -11325,11 +11233,10 @@
  },
  {
   "text": "quantumfocused series minisymposia",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -11351,12 +11258,11 @@
  },
  {
   "text": "including quantum computing",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -11673,33 +11579,30 @@
  },
  {
   "text": "addressed current future",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
  },
  {
   "text": "session morning afternoon",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
  {
   "text": "breadth community wide",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -11784,11 +11687,10 @@
  },
  {
   "text": "current implementation lacking",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -12044,15 +11946,6 @@
   ]
  },
  {
-  "text": "paul brehmer rwth",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
-  ]
- },
- {
   "text": "simulating",
   "count": 24,
   "talks": [
@@ -12219,11 +12112,10 @@
  },
  {
   "text": "curious student industry",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -12279,11 +12171,10 @@
  },
  {
   "text": "lightning talks junior",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -12430,6 +12321,13 @@
   ]
  },
  {
+  "text": "update itensor ecosystem",
+  "count": 27,
+  "talks": [
+   252
+  ]
+ },
+ {
   "text": "package ecosystem",
   "count": 16,
   "talks": [
@@ -12492,11 +12390,10 @@
  },
  {
   "text": "facilitate interaction addition",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -12636,9 +12533,10 @@
  },
  {
   "text": "wide range",
-  "count": 40,
+  "count": 48,
   "talks": [
    23,
+   50,
    69,
    83,
    105,
@@ -12748,11 +12646,10 @@
  },
  {
   "text": "stream minisymposia facilitate",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -12944,15 +12841,6 @@
   ]
  },
  {
-  "text": "ash milsted andrew",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
-  ]
- },
- {
   "text": "image radio interferometry",
   "count": 27,
   "talks": [
@@ -12971,7 +12859,7 @@
  },
  {
   "text": "graph",
-  "count": 40,
+  "count": 44,
   "talks": [
    11,
    35,
@@ -12987,6 +12875,7 @@
    209,
    234,
    244,
+   252,
    259,
    276,
    280,
@@ -13003,7 +12892,7 @@
  },
  {
   "text": "condensed matter physics",
-  "count": 162,
+  "count": 144,
   "talks": [
    31,
    38,
@@ -13014,7 +12903,6 @@
    211,
    233,
    247,
-   252,
    260,
    264
   ]
@@ -13147,11 +13035,10 @@
  },
  {
   "text": "study covered session",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -13517,11 +13404,10 @@
  },
  {
   "text": "sufficient depth hope",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -13584,11 +13470,10 @@
  },
  {
   "text": "scholar faculty staff",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -13649,11 +13534,10 @@
  },
  {
   "text": "propose double conjoined",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -13668,11 +13552,10 @@
  },
  {
   "text": "hope solicit lightning",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -13733,12 +13616,11 @@
  },
  {
   "text": "quantum chemistry talks",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -13897,7 +13779,7 @@
  },
  {
   "text": "understand",
-  "count": 20,
+  "count": 22,
   "talks": [
    6,
    20,
@@ -13922,7 +13804,6 @@
    229,
    241,
    247,
-   252,
    257,
    260,
    266,
@@ -14042,11 +13923,10 @@
  },
  {
   "text": "developer conjoined minisymposia",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -14236,11 +14116,10 @@
  },
  {
   "text": "variety career stage",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -14488,21 +14367,11 @@
   ]
  },
  {
-  "text": "roger melko university",
+  "text": "package user developer",
   "count": 27,
   "talks": [
    38,
    211,
-   252
-  ]
- },
- {
-  "text": "package user developer",
-  "count": 36,
-  "talks": [
-   38,
-   211,
-   252,
    260
   ]
  },
@@ -14728,11 +14597,10 @@
  },
  {
   "text": "postdoctoral scholar faculty",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -14875,31 +14743,28 @@
  },
  {
   "text": "minisymposium contain tensor",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
  {
   "text": "length talks treat",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
  {
   "text": "network method condensed",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -14914,11 +14779,10 @@
  },
  {
   "text": "wider juliacon audience",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -15015,12 +14879,11 @@
  },
  {
   "text": "theme quantum including",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -15159,11 +15022,10 @@
  },
  {
   "text": "phenomena quantum computing",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -15548,11 +15410,10 @@
  },
  {
   "text": "session allow include",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -15809,7 +15670,7 @@
  },
  {
   "text": "tensor network",
-  "count": 40,
+  "count": 48,
   "talks": [
    38,
    50,
@@ -15825,12 +15686,11 @@
  },
  {
   "text": "quantum community broadly",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -16212,11 +16072,10 @@
  },
  {
   "text": "allowing package developer",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -16330,11 +16189,10 @@
  },
  {
   "text": "faculty staff scientist",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -16562,15 +16420,6 @@
   ]
  },
  {
-  "text": "waterlooperimeter institute amazon",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
-  ]
- },
- {
   "text": "gpu modularity easily",
   "count": 27,
   "talks": [
@@ -16580,12 +16429,20 @@
   ]
  },
  {
+  "text": "usable sysbio community",
+  "count": 27,
+  "talks": [
+   23,
+   117,
+   140
+  ]
+ },
+ {
   "text": "opportunities contribute research",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -16603,15 +16460,6 @@
    66,
    127,
    192
-  ]
- },
- {
-  "text": "usable sysbio community",
-  "count": 27,
-  "talks": [
-   23,
-   117,
-   140
   ]
  },
  {
@@ -16659,11 +16507,10 @@
  },
  {
   "text": "afternoon breadth community",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -16705,11 +16552,10 @@
  },
  {
   "text": "length treat topic",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -16781,11 +16627,10 @@
  },
  {
   "text": "computing industry continue",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -17019,15 +16864,6 @@
   "count": 24,
   "talks": [
    139
-  ]
- },
- {
-  "text": "available package",
-  "count": 16,
-  "talks": [
-   69,
-   88,
-   232
   ]
  },
  {
@@ -17309,15 +17145,6 @@
   ]
  },
  {
-  "text": "university waterlooperimeter institute",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
-  ]
- },
- {
   "text": "interface interoperability model",
   "count": 27,
   "talks": [
@@ -17337,11 +17164,10 @@
  },
  {
   "text": "confirmed speaker matt",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -17705,11 +17531,10 @@
  },
  {
   "text": "addition quantumfocused series",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -17733,11 +17558,10 @@
  },
  {
   "text": "braket quera computing",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -17746,15 +17570,6 @@
   "count": 27,
   "talks": [
    129
-  ]
- },
- {
-  "text": "computing paul brehmer",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
   ]
  },
  {
@@ -17817,12 +17632,12 @@
   ]
  },
  {
-  "text": "zapata computing paul",
+  "text": "lunch lunch break",
   "count": 27,
   "talks": [
-   38,
-   211,
-   252
+   66,
+   127,
+   192
   ]
  },
  {
@@ -17877,15 +17692,6 @@
    307,
    314,
    321
-  ]
- },
- {
-  "text": "lunch lunch break",
-  "count": 27,
-  "talks": [
-   66,
-   127,
-   192
   ]
  },
  {
@@ -17956,11 +17762,10 @@
  },
  {
   "text": "quantumfocused audience allowing",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -17975,11 +17780,10 @@
  },
  {
   "text": "common example minisymposium",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -18033,30 +17837,19 @@
  },
  {
   "text": "allow include length",
-  "count": 36,
-  "talks": [
-   38,
-   211,
-   252,
-   260
-  ]
- },
- {
-  "text": "keller zapata computing",
   "count": 27,
   "talks": [
    38,
    211,
-   252
+   260
   ]
  },
  {
   "text": "field involving quantum",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -18182,11 +17975,10 @@
  },
  {
   "text": "community mentors allowing",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -18228,11 +18020,10 @@
  },
  {
   "text": "series minisymposia allow",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -18302,11 +18093,10 @@
  },
  {
   "text": "applied quantum circuit",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -18348,8 +18138,9 @@
  },
  {
   "text": "quantum system",
-  "count": 48,
+  "count": 56,
   "talks": [
+   50,
    87,
    108,
    173,
@@ -18587,7 +18378,7 @@
  },
  {
   "text": "implementation",
-  "count": 81,
+  "count": 83,
   "talks": [
    14,
    19,
@@ -18643,7 +18434,6 @@
    225,
    237,
    249,
-   252,
    254,
    260,
    270,
@@ -18705,7 +18495,7 @@
  },
  {
   "text": "network",
-  "count": 43,
+  "count": 42,
   "talks": [
    2,
    6,
@@ -18751,11 +18541,10 @@
  },
  {
   "text": "student industry background",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -18813,7 +18602,7 @@
  },
  {
   "text": "introduce",
-  "count": 40,
+  "count": 42,
   "talks": [
    4,
    14,
@@ -18824,6 +18613,7 @@
    34,
    35,
    48,
+   50,
    52,
    58,
    66,
@@ -18901,6 +18691,14 @@
    220,
    236,
    245
+  ]
+ },
+ {
+  "text": "tensor network algorithm",
+  "count": 54,
+  "talks": [
+   237,
+   252
   ]
  },
  {
@@ -19191,11 +18989,10 @@
  },
  {
   "text": "able quantumfocused audience",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -19370,11 +19167,10 @@
  },
  {
   "text": "treat fairly background",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -19389,11 +19185,10 @@
  },
  {
   "text": "physics method applied",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -19582,11 +19377,10 @@
  },
  {
   "text": "community common example",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -19798,11 +19592,10 @@
  },
  {
   "text": "method applied quantum",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -19899,11 +19692,10 @@
  },
  {
   "text": "conjoined minisymposium session",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -19963,11 +19755,10 @@
  },
  {
   "text": "audience junior community",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -19999,12 +19790,17 @@
   ]
  },
  {
-  "text": "melko university waterlooperimeter",
-  "count": 27,
+  "text": "network method",
+  "count": 16,
   "talks": [
+   32,
    38,
+   68,
    211,
-   252
+   232,
+   247,
+   260,
+   282
   ]
  },
  {
@@ -20018,11 +19814,10 @@
  },
  {
   "text": "audience allowing package",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -20060,11 +19855,10 @@
  },
  {
   "text": "talks treat fairly",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -20115,11 +19909,10 @@
  },
  {
   "text": "katharine hyatt amazon",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -20134,12 +19927,11 @@
  },
  {
   "text": "recent language seen",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -20431,11 +20223,10 @@
  },
  {
   "text": "user academic field",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -20473,11 +20264,10 @@
  },
  {
   "text": "minisymposium session morning",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -20515,15 +20305,6 @@
    66,
    127,
    192
-  ]
- },
- {
-  "text": "quera computing reach",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
   ]
  },
  {
@@ -20624,15 +20405,6 @@
    66,
    127,
    192
-  ]
- },
- {
-  "text": "amazon center quantum",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
   ]
  },
  {
@@ -20748,7 +20520,7 @@
  },
  {
   "text": "implement",
-  "count": 20,
+  "count": 23,
   "talks": [
    4,
    6,
@@ -20795,11 +20567,10 @@
  },
  {
   "text": "industry researcher developer",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -20899,11 +20670,10 @@
  },
  {
   "text": "contribute research job",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -21074,11 +20844,10 @@
  },
  {
   "text": "appropriate wider juliacon",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -21089,15 +20858,6 @@
    103,
    110,
    199
-  ]
- },
- {
-  "text": "computing reach roger",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
   ]
  },
  {
@@ -21125,15 +20885,6 @@
    23,
    117,
    140
-  ]
- },
- {
-  "text": "computing ash milsted",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
   ]
  },
  {
@@ -21274,11 +21025,10 @@
  },
  {
   "text": "developer material relevant",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -21333,11 +21083,10 @@
  },
  {
   "text": "lacking contributor dedicated",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -21353,11 +21102,10 @@
  },
  {
   "text": "package developer material",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -21456,6 +21204,14 @@
   ]
  },
  {
+  "text": "method available package",
+  "count": 27,
+  "talks": [
+   50,
+   69
+  ]
+ },
+ {
   "text": "knowledgebased mechanistic model",
   "count": 27,
   "talks": [
@@ -21513,7 +21269,7 @@
  },
  {
   "text": "demonstrate",
-  "count": 52,
+  "count": 50,
   "talks": [
    14,
    20,
@@ -21521,6 +21277,7 @@
    35,
    42,
    43,
+   50,
    52,
    55,
    68,
@@ -21709,21 +21466,19 @@
  },
  {
   "text": "junior community mentors",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
  {
   "text": "minisymposia facilitate interaction",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -21756,11 +21511,10 @@
  },
  {
   "text": "school undergraduate graduate",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -21801,11 +21555,10 @@
  },
  {
   "text": "graduate student postdoctoral",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -21849,11 +21602,10 @@
  },
  {
   "text": "searches propose double",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -21882,6 +21634,63 @@
    23,
    117,
    140
+  ]
+ },
+ {
+  "text": "research",
+  "count": 19,
+  "talks": [
+   2,
+   9,
+   14,
+   19,
+   25,
+   27,
+   29,
+   35,
+   38,
+   49,
+   51,
+   52,
+   53,
+   60,
+   66,
+   67,
+   69,
+   94,
+   99,
+   103,
+   108,
+   110,
+   111,
+   118,
+   119,
+   127,
+   142,
+   152,
+   182,
+   192,
+   199,
+   209,
+   211,
+   212,
+   213,
+   220,
+   224,
+   225,
+   236,
+   244,
+   245,
+   260,
+   265,
+   269,
+   277,
+   280,
+   283,
+   286,
+   306,
+   307,
+   311
   ]
  },
  {
@@ -21921,11 +21730,10 @@
  },
  {
   "text": "expert community user",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -21970,11 +21778,10 @@
  },
  {
   "text": "quantum sufficient depth",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -22094,12 +21901,11 @@
  },
  {
   "text": "defined propose organize",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -22115,12 +21921,11 @@
  },
  {
   "text": "chemistry talks addressed",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -22273,6 +22078,15 @@
   ]
  },
  {
+  "text": "discuss effort",
+  "count": 16,
+  "talks": [
+   242,
+   252,
+   263
+  ]
+ },
+ {
   "text": "statistics symposium report",
   "count": 27,
   "talks": [
@@ -22341,11 +22155,10 @@
  },
  {
   "text": "developer variety career",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -22614,7 +22427,7 @@
  },
  {
   "text": "include",
-  "count": 32,
+  "count": 34,
   "talks": [
    6,
    11,
@@ -22648,7 +22461,6 @@
    240,
    244,
    249,
-   252,
    256,
    260,
    270,
@@ -22673,22 +22485,22 @@
  },
  {
   "text": "built top",
-  "count": 24,
+  "count": 28,
   "talks": [
    52,
    73,
    161,
    185,
+   252,
    303
   ]
  },
  {
   "text": "career stage school",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -22768,11 +22580,10 @@
  },
  {
   "text": "industry background relevant",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -22940,11 +22751,10 @@
  },
  {
   "text": "grow vibrant ecosystem",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -22993,11 +22803,10 @@
  },
  {
   "text": "quantum circuit simulation",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -23061,15 +22870,6 @@
   ]
  },
  {
-  "text": "rwth aachen university",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
-  ]
- },
- {
   "text": "base aiming towards",
   "count": 27,
   "talks": [
@@ -23089,11 +22889,10 @@
  },
  {
   "text": "contain tensor network",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -23272,15 +23071,6 @@
   ]
  },
  {
-  "text": "university michael goerz",
-  "count": 27,
-  "talks": [
-   38,
-   211,
-   252
-  ]
- },
- {
   "text": "application academic national",
   "count": 27,
   "talks": [
@@ -23291,11 +23081,10 @@
  },
  {
   "text": "academic field involving",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -23336,21 +23125,11 @@
   ]
  },
  {
-  "text": "milsted andrew keller",
+  "text": "stage school undergraduate",
   "count": 27,
   "talks": [
    38,
    211,
-   252
-  ]
- },
- {
-  "text": "stage school undergraduate",
-  "count": 36,
-  "talks": [
-   38,
-   211,
-   252,
    260
   ]
  },
@@ -23371,12 +23150,11 @@
  },
  {
   "text": "increasing adoption quantum",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -23458,11 +23236,10 @@
  },
  {
   "text": "matt fishman miles",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -23484,7 +23261,7 @@
  },
  {
   "text": "control",
-  "count": 49,
+  "count": 52,
   "talks": [
    14,
    34,
@@ -23515,7 +23292,7 @@
  },
  {
   "text": "ecosystem",
-  "count": 26,
+  "count": 27,
   "talks": [
    4,
    21,
@@ -23617,11 +23394,10 @@
  },
  {
   "text": "dedicated stream minisymposia",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },
@@ -23766,12 +23542,11 @@
  },
  {
   "text": "adoption quantum community",
-  "count": 72,
+  "count": 63,
   "talks": [
    38,
    211,
    233,
-   252,
    260,
    264
   ]
@@ -23826,7 +23601,7 @@
  },
  {
   "text": "effort",
-  "count": 28,
+  "count": 26,
   "talks": [
    9,
    14,
@@ -23845,6 +23620,7 @@
    153,
    197,
    242,
+   252,
    256,
    258,
    262,
@@ -23868,11 +23644,10 @@
  },
  {
   "text": "example minisymposium contain",
-  "count": 36,
+  "count": 27,
   "talks": [
    38,
    211,
-   252,
    260
   ]
  },

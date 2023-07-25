@@ -1796,8 +1796,15 @@
   },
   "state": "confirmed",
   "duration": 15,
-  "speakers": [],
-  "description": "Abstract of the quantum minisymposium talk evolution of tensor network states with ITensorNetworks.jl",
+  "speakers": [
+   {
+    "avatar": null,
+    "name": "Joseph Tindall",
+    "code": "37SZKY",
+    "biography": null
+   }
+  ],
+  "description": "ITensorNetworks.jl is a new Julia package for manipulating and optimising tensor networks of arbitrary structure. I will introduce methods available in the package for evolving these tensor networks in time, allowing the simulation of a wide range of problems in many-body quantum systems.\r\nI will then demonstrate the application of these methods to simulate the kicked Ising model on the heavy-hex lattice. A quantum simulation of this problem was recently performed on the IBM Eagle processor as an indicator of quantum utility. I will show how ITensorNetworks.jl can be leveraged to solve this problem accurately and with very modest computational resources.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -1814,7 +1821,7 @@
   "resources": [],
   "do_not_record": false,
   "title": "Evolution of tensor network states with ITensorNetworks.jl",
-  "abstract": "-"
+  "abstract": "ITensorNetworks.jl is a new Julia package for manipulating and optimising tensor networks of arbitrary structure. I will introduce methods available in the package for evolving these tensor networks in time, allowing the simulation of a wide range of problems in many-body quantum systems.\r\nI will then demonstrate the application of these methods to simulate the kicked Ising model on the heavy-hex lattice."
  },
  {
   "content_locale": "en",
@@ -9437,7 +9444,7 @@
   "content_locale": "en",
   "is_featured": false,
   "track_id": 3752,
-  "submission_type_id": 2431,
+  "submission_type_id": 2429,
   "code": "TXKXKP",
   "track": {
    "en": "Quantum"
@@ -9449,10 +9456,10 @@
     "avatar": "https://pretalx.com/media/avatars/Profile_picture_0fGGJLc.jpeg",
     "name": "Matthew Fishman",
     "code": "8Q8AYS",
-    "biography": null
+    "biography": "Research Scientist and Software Engineer at the [Flatiron Institute](https://www.simonsfoundation.org/people/matthew-fishman)."
    }
   ],
-  "description": "The community of Julia users in academic fields involving quantum phenomena and in the quantum computing industry continues to grow. There is already a vibrant ecosystem of quantum-related Julia packages and users and developers at a variety of career stages: high school, undergraduate, and graduate students; postdoctoral scholars; faculty; staff scientists; and industry researchers and developers. In these conjoined minisymposia, the community would be able to present their work to a quantum-focused audience, allowing package developers to present material more relevant to an expert audience (which is often not really appropriate for the wider JuliaCon audience), more junior community members to find mentors in their area, and allowing community members working in different areas to find areas of common interest or need.\r\n\r\nFor example, the minisymposium might contain a talk about tensor network methods in condensed matter physics, and another talk about these methods as applied to quantum circuit simulation, allowing developers in both areas to understand where current Julia implementations are lacking and find new contributors. Having a dedicated stream (minisymposia) for this kind of talk would facilitate this kind of interaction.\r\n\r\nIn addition, a quantum-focused series of minisymposia would allow the \"quantum curious\" -- students, those in industry but without a background in the relevant fields -- to see the \"lay of the land\" and find opportunities to contribute, for research, or for job searches.\r\n\r\nWe propose a double or conjoined minisymposium -- one session in the morning, one in the afternoon -- because of the breadth of the community and the wide variety of use cases and fields of study covered. Two sessions will allow us to include enough full length talks to treat each area fairly, as even with much background in common, a full length talk is often needed to treat a topic in the \"quantum\" area in sufficient depth. We also hope to solicit lightning talks from more junior members (e.g. graduate or undergraduate students).\r\n\r\nConfirmed speakers:\r\n\r\n    Matt Fishman & Miles Stoudenmire (ITensor.jl)\r\n    Katharine Hyatt (Amazon Braket)\r\n    QuEra computing\r\n\r\nOthers to reach out to:\r\n\r\n    Roger Melko (University of Waterloo/Perimeter Institute)\r\n    Amazon Center for Quantum Computing (Ash Milsted, Andrew Keller)\r\n    Zapata Computing\r\n    Paul Brehmer, RWTH Aachen University\r\n    Michael Goerz (QuantumControl.jl)",
+  "description": "ITensor is a library for running and developing tensor network algorithms, a set of algorithms where high order tensors are represented as a network of lower order, and low rank, tensors. I will give an update on the ITensor Julia ecosystem. In particular, I will discuss updates to our tensor operation backend library, NDTensors.jl, and efforts to make it more extensible and support dense and block sparse operations on a variety of GPU backends through package extensions. In addition, I will discuss the new ITensorNetworks.jl library, a library built on top of ITensors.jl for tensor network algorithms on general graphs, which has a graph-like interface and graph operations based on Graphs.jl.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -9464,12 +9471,12 @@
    "end": "2023-07-26T16:00:00-04:00"
   },
   "submission_type": {
-   "en": "Minisymposium"
+   "en": "Talk"
   },
   "resources": [],
   "do_not_record": false,
   "title": "An update on the ITensor ecosystem",
-  "abstract": "In recent years the Julia language has seen increasing adoption in the quantum community, broadly defined. We propose to organize two back-to-back minisymposia on the theme of \"Julia and quantum,\" including quantum computing, condensed matter physics, quantum chemistry. The talks would be addressed to both current and future experts."
+  "abstract": "ITensor is a library for running and developing tensor network algorithms, a set of algorithms where high order tensors are represented as a network of lower order, and low rank, tensors. I will give an update on the ITensor Julia ecosystem. In particular, I will discuss efforts to support more GPU backends and block sparse operations on GPU, as well as ITensorNetworks.jl, a new library for tensor network algorithms on general graphs."
  },
  {
   "content_locale": "en",
