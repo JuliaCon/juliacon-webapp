@@ -57,20 +57,17 @@ const YOUTUBE_CODES_2023 = [
   ),
 ]
 
-function download_videos_2023()
-    talks = open("talks.json", "r") do io
-        JSON.parse(io)
-    end
+function download_videos_2023(talks)
     results = []
-    for x in talks
-      slot = x["slot"]
+    for talk in talks
+      slot = talk["slot"]
       day_id = parse(Int, slot["end"][9:10]) - 25
       if day_id == 0 || day_id > 3
           continue
       end
-      is_talk = x["submission_type"]["en"] in ("Keynote", "Talk", "Lightning Talk")
-      if is_talk && x["track"]["en"] != "ASE60"
-        id = x["code"]
+      is_talk = talk["submission_type"]["en"] in ("Keynote", "Talk", "Lightning Talk")
+      if is_talk && talk["track"]["en"] != "ASE60"
+        id = talk["code"]
         room = slot["room"]["en"]
         youtubeCode = YOUTUBE_CODES_2023[day_id][room]
         push!(results, Dict("id"=>id, "youtubeCode"=>youtubeCode, "live"=>true))
@@ -85,6 +82,5 @@ function download_videos_2023()
 end
 
 # download_videos()
-download_videos_2023()
 
-@info "Success downloading Video data!"
+# @info "Success downloading Video data!"

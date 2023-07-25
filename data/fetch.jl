@@ -3,6 +3,7 @@ Pkg.activate(@__DIR__)
 
 using HTTP, JSON
 
+include("fetch_videos.jl")
 include("viz_data_preprocess.jl")
 
 function order!(d)
@@ -57,6 +58,7 @@ talks = fetch_pretalx("talks"; token=token) do talk
   talk_type = normalize_string(talk["submission_type"])
   return talk_type !== "Poster"
 end
+download_videos_2023(talks)
 viz_data_preprocess(talks)
 
 # For now, posters aren't officially published, so we're we can't access them
