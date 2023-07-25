@@ -3442,7 +3442,12 @@
   "submission_type": {
    "en": "Workshop"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Workshop Slides",
+    "resource": "https://pretalx.com/media/juliacon2023/submissions/EWL3LC/resources/UsingNeuralODEsInRealLifeApplications_qJ8Sa8C.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "Using NeuralODEs in real life applications",
   "abstract": "NeuralODEs lead to amazing results in academic examples. But the expectations are often being disappointed as soon as one tries to adapt this concept for real life use cases. Bad convergence behavior, handling of discontinuities and/or instabilities are just some of the stumbling blocks that might pop up during the first steps. During the workshop, we want to show how to integrate real life industrial models in NeuralODEs using FMI and present sophisticated training strategies."
