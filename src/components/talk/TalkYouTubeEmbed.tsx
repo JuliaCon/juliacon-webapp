@@ -1,5 +1,5 @@
 import { isPast } from "date-fns";
-import { css } from "emotion";
+// import { css } from "emotion";
 import React from "react";
 import YouTube from "react-youtube";
 
@@ -51,19 +51,20 @@ export const TalkYouTubeEmbed = ({ autoplay, talk }: TalkYouTubeEmbedProps) => {
   );
 
   if (!talk.videoCode) {
-    return (
-      <p
-        className={css`
-          max-width: 25rem;
-          margin: 0 auto;
-          line-height: 1.15em;
-          color: #666;
-        `}
-      >
-        This talk doesn't have a YouTube video associated with it yet. Try
-        refreshing the page to fetch the latest version of the schedule.
-      </p>
-    );
+    return <div></div>; // [2023] Do not show missing video message
+    // return (
+    //   <p
+    //     className={css`
+    //       max-width: 25rem;
+    //       margin: 0 auto;
+    //       line-height: 1.15em;
+    //       color: #666;
+    //     `}
+    //   >
+    //     This talk doesn't have a YouTube video associated with it yet. Try
+    //     refreshing the page to fetch the latest version of the schedule.
+    //   </p>
+    // );
   }
   return (
     <YouTube

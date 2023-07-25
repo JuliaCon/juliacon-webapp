@@ -2,7 +2,7 @@
   {
     "sponsorName": "JuliaHub",
     "blurb": "JuliaHub's mission is to bring the power of Julia to the world of scientific and technical computing. To equip the brightest minds working on the world’s most challenging problems with massive computational power, unparalleled speed and efficiency in a seamless and secure environment.",
-    "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon", 
+    "moreInfoURL": "https://juliacomputing.com/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/juliahub-logo.svg",
@@ -10,7 +10,7 @@
     "discord": {
       "channel":"",
       "url":""
-    }  
+    }
   },
   {
     "sponsorName": "ASML",
@@ -22,7 +22,7 @@
   },
   {
     "sponsorName": "Pumas AI",
-    "blurb": "With deep expertise in allied fields of clinical pharmacology, pharmacometrics, drug development, regulations and advanced data analytics including machine learning, Pumas-AI works with companies, laboratories and universities as their healthcare intelligence partner. Our proprietary solutions tap the potential of data with the power of advanced scientific analytics. We help scientists, healthcare providers, biotechnology and pharmaceutical businesses as well as regulatory bodies plan, develop, test and deliver better. Check out their [talk](https://youtu.be/c2ZEFa2DiZc) at JuliaCon! ",
+    "blurb": "With deep expertise in allied fields of clinical pharmacology, pharmacometrics, drug development, regulations and advanced data analytics including machine learning, Pumas-AI works with companies, laboratories and universities as their healthcare intelligence partner. Our proprietary solutions tap the potential of data with the power of advanced scientific analytics. We help scientists, healthcare providers, biotechnology and pharmaceutical businesses as well as regulatory bodies plan, develop, test and deliver better.",
     "moreInfoURL": "https://pumas.ai/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
@@ -31,7 +31,7 @@
   },
   {
     "sponsorName": "QuEra Computing Inc.",
-    "blurb": "QuEra is a neutral-atom based quantum computing startup located in the heart of Boston near Harvard University. The company is founded on pioneering research by world-renowned scientists Mikhail Lukin, Vladan Vuletic, and Markus Greiner at Harvard and MIT. At QuEra, our mission is to build the most scalable quantum computers to date to tackle useful but classically intractable problems for commercially relevant applications in optimization, simulation, materials-science, pharmaceuticals, and more. To do so, we are assembling a world-class team of scientists and engineers to bring quantum computing from promise to reality. Check out their [talk](https://youtu.be/YWwGTNW-Qco) at JuliaCon!",
+    "blurb": "QuEra is a neutral-atom based quantum computing startup located in the heart of Boston near Harvard University. The company is founded on pioneering research by world-renowned scientists Mikhail Lukin, Vladan Vuletic, and Markus Greiner at Harvard and MIT. At QuEra, our mission is to build the most scalable quantum computers to date to tackle useful but classically intractable problems for commercially relevant applications in optimization, simulation, materials-science, pharmaceuticals, and more. To do so, we are assembling a world-class team of scientists and engineers to bring quantum computing from promise to reality.",
     "moreInfoURL": "https://www.quera-computing.com/?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
@@ -40,7 +40,7 @@
   },
   {
     "sponsorName": "Relational AI",
-    "blurb": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason. Check out their case studies and demos: [introduction](https://www.relational.ai/blog/introduction) to and [overview](https://www.relational.ai/blog/relationalai-overview) of Relational AI's breakthrough Relational Knowledge Graph Management System, a [demo](https://www.relational.ai/blog/demo-highlights) of it in action, and a [tax analysis case study](https://www.relational.ai/learn#tax). Catch their [live demo](https://youtu.be/6V6jk_OdH-w) at JuliaCon!",
+    "blurb": "At RelationalAI, we are building the world’s fastest, most scalable, most expressive, most open knowledge graph management system, built on top of the world’s only complete relational reasoning engine that uses the knowledge and data captured in enterprise databases to learn and reason. Check out their case studies and demos: [introduction](https://www.relational.ai/blog/introduction) to and [overview](https://www.relational.ai/blog/relationalai-overview) of Relational AI's breakthrough Relational Knowledge Graph Management System, a [demo](https://www.relational.ai/blog/demo-highlights) of it in action, and a [tax analysis case study](https://www.relational.ai/learn#tax).",
     "moreInfoURL": "https://www.relational.ai?utm_source=juliacon",
     "videoURL": "",
     "chatChannelName": "",
@@ -49,7 +49,7 @@
   },
   {
     "sponsorName": "Jeffrey Sarnoff",
-    "blurb": "Jeffrey Sarnoff is avid contributor and supporter of the Julia language and community for many years.", 
+    "blurb": "Jeffrey Sarnoff is avid contributor and supporter of the Julia language and community for many years.",
     "moreInfoURL": "https://github.com/JeffreySarnoff",
     "videoURL": "",
     "chatChannelName": "",
@@ -71,6 +71,22 @@
     "moreInfoURL": "https://beacon.bio/?utm_source=juliacon",
     "chatChannelName": "",
     "logoURL": "https://juliacon.org/assets/2023/img/sponsors/beacon-logo.svg",
+    "tier": "Bronze"
+  },
+  {
+    "sponsorName": "MIT CSAIL",
+    "blurb": "MIT's Computer Science and Artificial Intelligence Laboratory pioneers research in computing that improves the way people work, play, and learn.\n\n CSAIL focuses on developing fundamental new technologies, conducting basic research that furthers the field of computing, and inspiring and educating future generations of scientists and technologists.",
+    "moreInfoURL": "https://www.csail.mit.edu/?utm_source=juliacon",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2023/img/sponsors/mit-csail-logo.svg",
+    "tier": "Bronze"
+  },
+  {
+    "sponsorName": "Boeing",
+    "blurb": "As a leading global aerospace company, Boeing develops, manufactures and services commercial airplanes, defense products and space systems for customers in more than 150 countries. As a top U.S. exporter, the company leverages the talents of a global supplier base to advance economic opportunity, sustainability and community impact.",
+    "moreInfoURL": "https://www.boeing.com/?utm_source=juliacon",
+    "chatChannelName": "",
+    "logoURL": "https://juliacon.org/assets/2023/img/sponsors/boeing-logo.svg",
     "tier": "Bronze"
   },
   {
