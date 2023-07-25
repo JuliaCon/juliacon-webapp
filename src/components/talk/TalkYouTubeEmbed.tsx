@@ -51,7 +51,7 @@ export const TalkYouTubeEmbed = ({ autoplay, talk }: TalkYouTubeEmbedProps) => {
   );
 
   if (!talk.videoCode) {
-    return ""; // [2023] Do not show missing video message
+    return <div></div>; // [2023] Do not show missing video message
     // return (
     //   <p
     //     className={css`
