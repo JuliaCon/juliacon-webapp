@@ -53,4 +53,4 @@ const twitterHandle = "JuliaConOrg";
 const metaDescription =
   `JuliaCon 2023 (with JuMP-dev, SciMLCon and ASE60)` +
   `Join us to learn about the cool and exciting things happening within the Julia, JuMP and SciML ecosystems. Also, celebrate ASE60 with us!`;
-const previewImage = "https://juliacon.org/assets/2021/img/world_2800.png";
+const previewImage = "https://juliacon.org/assets/2023/img/boston_2800.png";
