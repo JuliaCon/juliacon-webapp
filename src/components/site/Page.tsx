@@ -37,7 +37,7 @@ export const Page: React.FC<PageProps> = ({
         <meta property="og:image" content={previewImage} key="ogimage" />
         <meta
           property="og:site_name"
-          content="JuliaCon 2022: Online and Everywhere"
+          content="JuliaCon 2023"
           key="ogsitename"
         />
       </Head>
@@ -51,6 +51,6 @@ export const Page: React.FC<PageProps> = ({
 
 const twitterHandle = "JuliaConOrg";
 const metaDescription =
-  `JuliaCon 2022 (with JuMP-dev) is online and everywhere! ` +
+  `JuliaCon 2023` +
   `Join us to learn about the cool and exciting things happening within the Julia & JuMP ecosystems!`;
-const previewImage = "https://juliacon.org/assets/2021/img/world_2800.png";
+const previewImage = "https://juliacon.org/assets/2023/img/boston_2800.png";
