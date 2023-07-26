@@ -14,7 +14,7 @@ export const Page: React.FC<PageProps> = ({
   title,
   hideSponsorSidebar,
 }) => {
-  const fullTitle = `${title ? `${title} | ` : ""}JuliaCon 2022`;
+  const fullTitle = `${title ? `${title} | ` : ""}JuliaCon 2023`;
   return (
     <div
       className={css`
