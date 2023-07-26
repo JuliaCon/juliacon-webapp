@@ -37,7 +37,7 @@ export const Page: React.FC<PageProps> = ({
         <meta property="og:image" content={previewImage} key="ogimage" />
         <meta
           property="og:site_name"
-          content="JuliaCon 2022: Online and Everywhere"
+          content="JuliaCon 2023"
           key="ogsitename"
         />
       </Head>
