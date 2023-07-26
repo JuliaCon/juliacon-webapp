@@ -8966,14 +8966,14 @@
  },
  {
   "content_locale": "en",
-  "is_featured": true,
+  "is_featured": false,
   "track_id": 3761,
   "submission_type_id": 2430,
   "code": "SXKKZE",
   "track": {
    "en": "General Machine Learning"
   },
-  "state": "confirmed",
+  "state": "canceled",
   "duration": 10,
   "speakers": [
    {
