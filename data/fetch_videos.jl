@@ -44,7 +44,7 @@ const YOUTUBE_CODES_2023 = [
     "32-124" => "Hkta_AEv5sA",
     "32-123" => "CrIAsPmG2a0",
     "32-G449 (Kiva)" => "CoY5XwmFkF4",
-    "26-100" => "vG6ZLhe9Hns",
+    "26-100" => "3AFiBLHlG1A",
   ),
   Dict(  # Day 3
     "32-144" => "x9d6WtePul0",
