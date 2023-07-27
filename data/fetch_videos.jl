@@ -38,12 +38,12 @@ const YOUTUBE_CODES_2023 = [
     "26-100" => "vG6ZLhe9Hns",
   ),
   Dict(  # Day 2
-    "32-144" => "x9d6WtePul0",
-    "32-082" => "rMrHCM1Etng",
-    "32-D463 (Star)" => "gpo1FUXCcJE",
-    "32-124" => "Hkta_AEv5sA",
-    "32-123" => "CrIAsPmG2a0",
-    "32-G449 (Kiva)" => "CoY5XwmFkF4",
+    "32-144" => "imZE2k7gJ0Q",
+    "32-082" => "jIlRpohTr4U",
+    "32-D463 (Star)" => "V8wiKuApmKU",
+    "32-124" => "-rtaL3qavBA",
+    "32-123" => "5i48gvpqJYY",
+    "32-G449 (Kiva)" => "6JBCCLVREwk",
     "26-100" => "3AFiBLHlG1A",
   ),
   Dict(  # Day 3
