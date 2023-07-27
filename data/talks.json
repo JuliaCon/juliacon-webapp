@@ -7090,6 +7090,37 @@
  },
  {
   "content_locale": "en",
+  "is_featured": false,
+  "track_id": 3752,
+  "submission_type_id": 2437,
+  "code": "NAGCKG",
+  "track": {
+   "en": "Quantum"
+  },
+  "state": "confirmed",
+  "duration": 90,
+  "speakers": [],
+  "description": "If you are interested in applications in quantum chemistry, electronic structure theory, first-principle materials simulations, interatomic potentials, molecular dynamics please come along.",
+  "image": null,
+  "slot_count": 1,
+  "slot": {
+   "room_id": 2031,
+   "start": "2023-07-27T17:00:00-04:00",
+   "room": {
+    "en": "32-D463 (Star)"
+   },
+   "end": "2023-07-27T18:30:00-04:00"
+  },
+  "submission_type": {
+   "en": "BoF (45 mins)"
+  },
+  "resources": [],
+  "do_not_record": false,
+  "title": "Atomistic modelling ecosystem brainstorming at JuliaCon",
+  "abstract": "We will organise a discussion and brainstorming session centred around the current ecosystem of first-principle atomistic modelling in Julia. In particular we want to discuss the development of interface packages like AtomsBase and what can be done to improve package integration across the existing ecosystem."
+ },
+ {
+  "content_locale": "en",
   "is_featured": true,
   "track_id": 3245,
   "submission_type_id": 2430,
