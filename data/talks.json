@@ -7104,10 +7104,10 @@
   "image": null,
   "slot_count": 1,
   "slot": {
-   "room_id": 2031,
+   "room_id": 2030,
    "start": "2023-07-27T17:00:00-04:00",
    "room": {
-    "en": "32-D463 (Star)"
+    "en": "32-124"
    },
    "end": "2023-07-27T18:30:00-04:00"
   },
@@ -8515,12 +8515,12 @@
   "speakers": [
    {
     "avatar": null,
-    "name": "Chris Coey",
-    "code": "M77DBG",
+    "name": "Joaquim Dias Garcia",
+    "code": "LRPWKX",
     "biography": null
    }
   ],
-  "description": "I'll discuss constraint programming in MiniZinc.jl using MathOptInterface's new ScalarNonlinearFunction.",
+  "description": "We present QUBO.jl, an end-to-end Julia package for working with QUBO (Quadratic Unconstrained Binary Optimization) instances. This tool aims to convert a broad range of JuMP problems for straightforward application in many physics and physics-inspired solution methods whose standard optimization form is equivalent to the QUBO. These methods include quantum annealing, quantum gate-circuit optimization algorithms (Quantum Optimization Alternating Ansatz, Variational Quantum Eigensolver), other hardware-accelerated platforms, such as Coherent Ising Machines and Simulated Bifurcation Machines, and more traditional methods such as simulated annealing. Besides working with reformulations, QUBO.jl allows its users to interface with the aforementioned hardware, sending QUBO models in various file formats and retrieving results for subsequent analysis. QUBO.jl was written as a JuMP / MathOptInterface (MOI) layer that automatically maps between the input and output frames, thus providing a smooth modeling experience.",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -8536,8 +8536,8 @@
   },
   "resources": [],
   "do_not_record": false,
-  "title": "Constraint programming using MOI's next-gen nonlinear interface",
-  "abstract": "ScalarNonlinearFunction is coming to MathOptInterface/JuMP. Among other benefits, this makes it easier to model constraint programming type problems, which tend to be expressed in terms of many different primitives/atoms. As a proof of concept, Oscar and I have been prototyping MiniZinc.jl on top of the MathOptInterface ScalarNonlinearFunction PR. I'll describe some challenges and decisions along the way. I'll also demonstrate some constraint programming examples."
+  "title": "QUBO.jl: Quadratic Unconstrained Binary Optimization",
+  "abstract": "We present QUBO.jl, an end-to-end Julia package for working with QUBO (Quadratic Unconstrained Binary Optimization) instances."
  },
  {
   "content_locale": "en",

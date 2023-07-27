@@ -2093,7 +2093,7 @@
   "start_datetime": "2023-07-27T17:00:00-04:00",
   "end_datetime": "2023-07-27T18:30:00-04:00",
   "duration": 90,
-  "location": "32-D463 (Star)",
+  "location": "32-124",
   "id": "NAGCKG",
   "title": "Atomistic modelling ecosystem brainstorming at JuliaCon",
   "url": "/talk/NAGCKG",
@@ -2502,10 +2502,10 @@
   "duration": 10,
   "location": "32-155",
   "id": "QZPLLS",
-  "title": "Constraint programming using MOI's next-gen nonlinear interface",
+  "title": "QUBO.jl: Quadratic Unconstrained Binary Optimization",
   "url": "/talk/QZPLLS",
   "index": 228,
-  "speaker": "Chris Coey"
+  "speaker": "Joaquim Dias Garcia"
  },
  {
   "start_datetime": "2023-07-28T10:00:00-04:00",

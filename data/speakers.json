@@ -1428,6 +1428,15 @@
   "biography": "I am a senior research engineer at JuliaHub, where I design next-generation tools for the Julia programming language. I received my Ph.D. from the University of Washington in Electrical Engineering, specializing in Digital Signal Processing. I also have experience in a number of related fields including low-level microcontroller programming, electromagnetics and wireless communications, high performance computing, and machine learning."
  },
  {
+  "avatar": "",
+  "name": "Joaquim Dias Garcia",
+  "submissions": [
+   "QZPLLS"
+  ],
+  "code": "LRPWKX",
+  "biography": null
+ },
+ {
   "avatar": "https://pretalx.com/media/avatars/me_VCAJnxO.jpg",
   "name": "Jun Tian",
   "submissions": [
@@ -1445,15 +1454,6 @@
   ],
   "code": "LZTBFS",
   "biography": "Researcher at *Internet Initiative Japan* (IIJ) research lab, specialized in Optimization, Networks, Data Structures, and Algorithms."
- },
- {
-  "avatar": "",
-  "name": "Chris Coey",
-  "submissions": [
-   "QZPLLS"
-  ],
-  "code": "M77DBG",
-  "biography": null
  },
  {
   "avatar": "https://pretalx.com/media/avatars/roundSmilingSuit_lgYhqEZ.png",
