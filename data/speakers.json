@@ -316,13 +316,13 @@
   "biography": "Cédric Belmant is an applied mathematician and programmer, with a strong interest in 3D graphics, geometry processing and application development. He believes the expressive power of the Julia programming language is key to building applications and tools with minimal complexity, and has been exploring ways to integrate computer graphics in the Julia ecosystem."
  },
  {
-  "avatar": "",
+  "avatar": "https://pretalx.com/media/avatars/2BAB7B0C-A39B-4387-8B67-0BE87D7AC1E2_2_22U4GpS.jpg",
   "name": "Sergio Sánchez Ramírez",
   "submissions": [
    "TC7TVY"
   ],
   "code": "9QBUME",
-  "biography": null
+  "biography": "Currently, a PhD student at Barcelona Supercomputing Center on large-scale quantum computing simulation using Tensor Networks."
  },
  {
   "avatar": "https://pretalx.com/media/avatars/91CA378E-FD6B-41F4-90F4-C538DDD0A80F_BHsZNGK.jpeg",
@@ -1392,13 +1392,22 @@
   "biography": "Torsten Schenkel is a theoretical engineer. He is Associate Professor for Continuum Mechanics at Sheffield Hallam University. \r\n\r\nWith a background in aerospace engineering, Torsten's research is focused on biomedical problems, mostly concerning numerical modelling of the cardio-vascular system. Models range from 3-dimensional heart models to time-resolved 3d-flows in atherosclerotic vessels to 0D-lumped models of the whole circulatory system. Having started scientific programming with Fortran77, he now feels like he has come home with Julia."
  },
  {
-  "avatar": "",
+  "avatar": "https://pretalx.com/media/avatars/b0cf54b8431443687735cb486599ea9c_rsPMumK.jpg",
+  "name": "Miles Lubin",
+  "submissions": [
+   "XZP9U8"
+  ],
+  "code": "LHAQVA",
+  "biography": "Miles is the BDFL of JuMP"
+ },
+ {
+  "avatar": "https://pretalx.com/media/avatars/portrait-2_z3Ii02x.jpg",
   "name": "Pierre martinon",
   "submissions": [
    "HDC8F7"
   ],
   "code": "LLMJSB",
-  "biography": null
+  "biography": "Junior Researcher at Inria (sabbatical) \r\n\r\nScientific interests: optimisation and optimal control"
  },
  {
   "avatar": "https://pretalx.com/media/avatars/23FAA3CB-1EE2-4731-A34D-4F09E47FA316_hmTqUdM.JPG",
@@ -1679,7 +1688,7 @@
    "GPRCYA"
   ],
   "code": "PMKEJN",
-  "biography": "GitHub: [@mortenpi](https://github.com/mortenpi)"
+  "biography": "Morten has been one of the maintainers Documenter.jl and the JuliaDocs package ecosystem. He works as a software engineer at JuliaHub.\r\n\r\nGitHub: [@mortenpi](https://github.com/mortenpi)"
  },
  {
   "avatar": "",
@@ -1759,8 +1768,7 @@
   "avatar": "https://pretalx.com/media/avatars/8177701_jKilj4H.jpg",
   "name": "Oscar Dowson",
   "submissions": [
-   "UWKJU9",
-   "XZP9U8"
+   "UWKJU9"
   ],
   "code": "QREN8R",
   "biography": "Oscar Dowson is a core contributor to JuMP and a member of the JuMP steering committee."
@@ -2017,15 +2025,6 @@
   "biography": "I am a postdoctoral researcher in the Cavity-QED group of Helmut Ritsch at the University of Innsbruck where I also obtained my PhD in 2023. \r\nMy main research is on simulating large open quantum systems and quantum-enhanced metrology, but I am also interested in quantum computing and simulation."
  },
  {
-  "avatar": "https://pretalx.com/media/avatars/New_Headshot_500x500_hAFxGkT.jpg",
-  "name": "Logan Kilpatrick",
-  "submissions": [
-   "SXKKZE"
-  ],
-  "code": "UNR7XZ",
-  "biography": "Logan is the Developer Community Advocate for the Julia programming language and is on the Board of Directors at NumFOCUS."
- },
- {
   "avatar": "https://pretalx.com/media/avatars/20180813_141024_cropped_2BWNFJe.jpg",
   "name": "Mark Kittisopikul, Ph.D.",
   "submissions": [
@@ -2103,13 +2102,13 @@
   "biography": "Chris Doran spent the early part of his career researching applications of geometric algebra in quantum theory and gravitation, before switching to graphics. In 2005 he founded Geomerics, which provided real-time global illumination technology to the games industry. Geomerics' Enlighten was used in 100s of games including Dragon Age, Overwatch and Final Fantasy. Chris spent 4 years as a Director of Research at Arm, and now focuses on helping start-ups and university spin-outs. He is currently a Director of Monumo, who are actively using Julia in their research pipeline."
  },
  {
-  "avatar": "",
+  "avatar": "https://pretalx.com/media/avatars/GERGAUD_Joseph_mPQ5Prt.jpg",
   "name": "Gergaud",
   "submissions": [
    "HDC8F7"
   ],
   "code": "VLTHU9",
-  "biography": null
+  "biography": "Joseph Gergaud\r\nProfessor of Applied mathematics\r\n\r\nUniversité de Toulouse, INP-ENSEEEIHT-IRIT- France\r\n\r\nScientific interests: optimisation and optimal control"
  },
  {
   "avatar": "https://pretalx.com/media/avatars/16aeca0a435d95b33fbca08d6cfc2787_xyX3H0Z.jpg",
@@ -2230,7 +2229,7 @@
    "C7DFSF"
   ],
   "code": "WZS7RV",
-  "biography": null
+  "biography": "Research Engineer @ Austrian Institute of Technology\r\nPhD Student @ TU Delft\r\n\r\ncontact: stefan.stroemer@ait.ac.at"
  },
  {
   "avatar": "https://pretalx.com/media/avatars/Yun-Tien_Lee_300dpi_uoxGRBA.jpg",
