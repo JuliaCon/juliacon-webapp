@@ -69,6 +69,7 @@ function download_videos_2023(talks)
       if !isnothing(match(rx, talk["submission_type"]["en"])) && talk["track"]["en"] != "ASE60"
         id = talk["code"]
         room = slot["room"]["en"]
+        room == "Online talks and posters" && continue
         youtubeCode = YOUTUBE_CODES_2023[day_id][room]
         push!(results, Dict("id"=>id, "youtubeCode"=>youtubeCode, "live"=>true))
       end

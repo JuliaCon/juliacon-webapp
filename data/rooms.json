@@ -90,13 +90,13 @@
  },
  {
   "name": {
-   "en": "Pre-Recorded Talks"
+   "en": "Online talks and posters"
   },
   "id": 2231,
   "position": 9,
   "guid": null,
   "description": {
-   "en": "Online Talks"
+   "en": "(ignore this column, the times are arbitrary)"
   },
   "url": "/orga/event/juliacon2023/schedule/rooms/2231/",
   "capacity": null
