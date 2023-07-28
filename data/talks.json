@@ -8325,7 +8325,7 @@
   "duration": 30,
   "speakers": [
    {
-    "avatar": null,
+    "avatar": "https://pretalx.com/media/avatars/image002_A4U22Vj.png",
     "name": "Nicholas Barbara",
     "code": "GQTK8K",
     "biography": "Nicholas Barbara is a PhD candidate at the Australian Centre for Robotics, within the University of Sydney. He is interested in robust machine learning, control theory, spacecraft GNC, and all things Julia."

@@ -1161,7 +1161,7 @@
   "biography": "My educational background is in both experimental and theoretical high energy physics.  My initial programming experience mostly centered around scientific/numerical computing in C++ and fortran.  Since receiving my PhD I have been working as a data scientist, and have been using Julia primarily both in and outside my job for almost 7 years.  My recent programming experiences have involved both convex and non-convex optimization, including large-scale mixed integer conic programming, as well as machine learning and statistics.  My interest in Julia and other new languages such as `zig`, as well as my enthusiasm for the broader Linux ecosystem has also caused me to spend a lot of time with serialization, IPC and network protocols.  I also enjoy video games which has led me to watch projects around gaming on Linux, and as a guitar player I'm also interested in audio."
  },
  {
-  "avatar": "",
+  "avatar": "https://pretalx.com/media/avatars/image002_A4U22Vj.png",
   "name": "Nicholas Barbara",
   "submissions": [
    "QN3XGU"
