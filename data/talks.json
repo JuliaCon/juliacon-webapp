@@ -138,7 +138,12 @@
   "submission_type": {
    "en": "Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Slides",
+    "resource": "https://gitlab.com/plantingspace/awsexample/-/blob/main/.assets/slides.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "Towards developing a production app with Julia",
   "abstract": "When starting a company built on mathematical concepts Julia seems like an obvious choice because of its capabilities for enabling rapid prototypes, rewrites, and pushing for performance early. This talk presents our journey to build a Julia production app. In particular, we present how we use a monorepo within a distributed team and how we set up our continuous-integration infrastructure. Finally, we introduce an open source project which aims to make it easier to write Julia serverless apps."
