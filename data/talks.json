@@ -312,7 +312,12 @@
   "submission_type": {
    "en": "Online Only Lightning Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Slides for the talk",
+    "resource": "https://slides.com/saranshchopra/palette"
+   }
+  ],
   "do_not_record": false,
   "title": "Lessons learned while working as a technical writer at FluxML",
   "abstract": "Working as a technical writer at FluxML for the past six months has taught me some tips and tricks for writing and maintaining user-centric documentation. Documentation not only requires writing clear and concise content but also building infrastructures, testing, and a lot of discussions. This talk takes all the lessons I learned (myself and through FluxML maintainers) in the past six months and condenses it into 3 minutes!"
