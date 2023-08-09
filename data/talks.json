@@ -12324,7 +12324,12 @@
   "submission_type": {
    "en": "Lightning talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "slides",
+    "resource": "https://pretalx.com/media/juliacon2023/submissions/YQVCML/resources/MCIntegration_7FnDA27.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "High-dimensional Monte Carlo Integration with Native Julia",
   "abstract": "This talk presents a  new Julia package for efficient and generic Monte Carlo integration in high-dimensional and complex domains, featuring the Vegas algorithm for self-adaptive important sampling and an improved algorithm for increased robustness. The package demonstrates Julia's superiority over C/C++/Fortran and Python for high-dimensional Monte Carlo integration by enabling the easy creation of user-defined integrand evaluation functions with the speed of C and the flexibility of Python."
