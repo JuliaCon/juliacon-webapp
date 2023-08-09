@@ -7419,7 +7419,7 @@
     "biography": "I received my MSc and PhD 2019 from the Dept. Automatic Control in Lund, Sweden, working within the fields of control, machine learning and robotics. I have since spent a year with the Acoustic Research Laboratory at NUS and subsequently made the transition to industry, working with dynamic modeling, control and programming-language design in a robotics context. I am now working with JuliaHub on software tools for acausal modeling, simulation, optimization and control in the Julia programming language."
    }
   ],
-  "description": "ModelingToolkit is a powerful language for acausal modeling, capable of modeling everything from a single pendulum to the structural mechanics of an industrial robot or the HVAC system in a skyscraper. While detailed models enable high fidelity simulations, they pose challenges for analysis. Engineers often resort to linear analysis to perform tasks such as mode analysis to determine vibration patterns and closed-loop analysis of control systems to determine stability and performance properties.\r\n\r\nThis talk details the work that has been done over the last year enabling linear analysis of ModelingToolkit models. We start by talking about the linearization itself, and the subsequent simplification of models with algebraic equations into standard linear statespace models. We then talk about causal elements introduced in the otherwise acausal modeling language, enabling a more convenient workflow for analyzing models.\r\n\r\nWe end with some examples of linear analysis, illustrating mode shapes of a series of masses and springs, compute the gain and phase margins of an electrical circuit, and determine the stability and robustness properties of a feedback-control system.",
+  "description": "ModelingToolkit is a powerful language for acausal modeling, capable of modeling everything from a single pendulum to the structural mechanics of an industrial robot or the HVAC system in a skyscraper. While detailed models enable high fidelity simulations, they pose challenges for analysis. Engineers often resort to linear analysis to perform tasks such as mode analysis to determine vibration patterns and closed-loop analysis of control systems to determine stability and performance properties.\r\n\r\nThis talk details the work that has been done over the last year enabling linear analysis of ModelingToolkit models. We start by talking about the linearization itself, and the subsequent simplification of models with algebraic equations into standard linear statespace models. We then talk about causal elements introduced in the otherwise acausal modeling language, enabling a more convenient workflow for analyzing models.\r\n\r\nWe end with some examples of linear analysis, illustrating mode shapes of a series of masses and springs, compute the gain and phase margins of an electrical circuit, and determine the stability and robustness properties of a feedback-control system.\r\n\r\nSlides: https://docs.google.com/presentation/d/1UcCiMxVgwWKV38tKq1lMY0Glnt4ZWDGCuR3nJ2xISjM/edit?usp=sharing",
   "image": null,
   "slot_count": 1,
   "slot": {
@@ -7433,7 +7433,12 @@
   "submission_type": {
    "en": "Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Slides",
+    "resource": "https://docs.google.com/presentation/d/1UcCiMxVgwWKV38tKq1lMY0Glnt4ZWDGCuR3nJ2xISjM/edit?usp=sharing"
+   }
+  ],
   "do_not_record": false,
   "title": "Linear analysis of ModelingToolkit models",
   "abstract": "We detail recent work on linear analysis of ModelingToolkit models. We talk about the linearization itself, the subsequent simplification of models with algebraic equations into standard linear statespace models and about causal elements introduced to enable a more convenient workflow for analysis.\r\nWe end with examples, illustrating mode shapes of a series of masses and springs, compute gain and phase margins of an electrical circuit, and determine the stability properties of a control system."
