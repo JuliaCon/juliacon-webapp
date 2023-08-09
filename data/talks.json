@@ -5595,7 +5595,16 @@
   "submission_type": {
    "en": "Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Slides",
+    "resource": "https://pretalx.com/media/juliacon2023/submissions/K3DPHH/resources/Running_Julia_code_baremetal_on_an_Arduino_Kq0htzk.pdf"
+   },
+   {
+    "description": "Slides+Notes",
+    "resource": "https://pretalx.com/media/juliacon2023/submissions/K3DPHH/resources/Running_Julia_code_baremetal_on_an_Arduino_not_N5pHzdz.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "Running Julia code baremetal on an Arduino",
   "abstract": "Through the use of GPUCompiler.jl and LLVM.jl, it is possible to cross-compile julia code to backends not officially supported by julia itself. One of these is the AVR backend, the architecture used by the arduino family of microcontrollers. This talk explores some experiments in compiling julia code to AVR, running it baremetal on an arduino as well as looking into challenges with making julia more suited to cross compilation."
