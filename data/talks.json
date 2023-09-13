@@ -6782,6 +6782,10 @@
     "resource": "https://juliagraphs.org/MultilayerGraphs.jl"
    },
    {
+    "description": "YouTube Video",
+    "resource": "https://youtu.be/Q2PwKQCkZJ4"
+   },
+   {
     "description": "Slides (10min Talk)",
     "resource": "https://inphyt.github.io/Talks/2023/JuliaCon/short/index.html"
    },
