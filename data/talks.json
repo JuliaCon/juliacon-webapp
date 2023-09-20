@@ -1109,7 +1109,12 @@
   "submission_type": {
    "en": "Talk"
   },
-  "resources": [],
+  "resources": [
+   {
+    "description": "Presentation slides",
+    "resource": "https://pretalx.com/media/juliacon2023/submissions/9BTTRL/resources/presentation_0F8lVWc.pdf"
+   }
+  ],
   "do_not_record": false,
   "title": "Robust data management made simple: Introducing DataToolkit",
   "abstract": "An ad-hoc approach to acquiring and using data can seem simple at first, but leaves one ill-prepared to deal with questions like: \"where did the data come from?\", \"how was the data processed?\", or \"am I looking at the same data?\". Generic tools for managing data (including some in Julia) exist, but suffer from limitations that reduce their broad utility. DataToolkit.jl provides a highly extensible and integrated approach, making robust and reproducible treatment of data and results convenient."
