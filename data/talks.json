@@ -9277,8 +9277,8 @@
     "biography": "Joris is driven by a need for automation and to make things easier for himself, typically while first making them harder. He has been creating CI processes for Julia (and other languages) for as long as he has been programming in Julia (which has been a while), primarily for GitLab, but also for other platforms such as GitHub and Buildkite. He has also been building web-based Julia applications for the same amount of time, trying to find more efficient ways of building those at every step.\r\n\r\nJoris is the technical team lead for the JuliaSim product and applications team."
    },
    {
-    "avatar": null,
-    "name": "Venkateshprasad Bhat",
+    "avatar": "https://pretalx.com/media/avatars/gitavatar_4YsL6Sc.jpg",
+    "name": "Venkatesh Prasad",
     "code": "FZNX7W",
     "biography": null
    }
@@ -10802,8 +10802,8 @@
     "biography": "I received my MSc and PhD 2019 from the Dept. Automatic Control in Lund, Sweden, working within the fields of control, machine learning and robotics. I have since spent a year with the Acoustic Research Laboratory at NUS and subsequently made the transition to industry, working with dynamic modeling, control and programming-language design in a robotics context. I am now working with JuliaHub on software tools for acausal modeling, simulation, optimization and control in the Julia programming language."
    },
    {
-    "avatar": null,
-    "name": "Venkateshprasad Bhat",
+    "avatar": "https://pretalx.com/media/avatars/gitavatar_4YsL6Sc.jpg",
+    "name": "Venkatesh Prasad",
     "code": "FZNX7W",
     "biography": null
    }
