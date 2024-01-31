@@ -2024,7 +2024,7 @@
     "biography": "Torsten Schenkel is a theoretical engineer. He is Associate Professor for Continuum Mechanics at Sheffield Hallam University. \r\n\r\nWith a background in aerospace engineering, Torsten's research is focused on biomedical problems, mostly concerning numerical modelling of the cardio-vascular system. Models range from 3-dimensional heart models to time-resolved 3d-flows in atherosclerotic vessels to 0D-lumped models of the whole circulatory system. Having started scientific programming with Fortran77, he now feels like he has come home with Julia."
    },
    {
-    "avatar": "https://pretalx.com/media/avatars/shu.pdf_I4Q20XK.jpg",
+    "avatar": "https://pretalx.com/media/avatars/b031d47292ade71479f9408639412cec_JQCklDk.jpg",
     "name": "Harry Saxton",
     "code": "WMTZVU",
     "biography": "Harry Saxton is a 2nd Year PhD student at Sheffield Hallam University. With a background in mathematics, Harry is interested in Lumped parameter modelling and inverse problems. Harry's main interests lie in the areas of Sensitivity, Identifiability and Bayesian analysis. However, any biological problem in which mathematics is applied is of interest. Harry has been a part of developing the Julia package CirculatorySystemModels.jl which is a package which allows simple, modular lumped parameter modelling. Harry has been using Julia a year and feels like it is the best programming community that is out there."
@@ -4722,7 +4722,7 @@
     "biography": "Torsten Schenkel is a theoretical engineer. He is Associate Professor for Continuum Mechanics at Sheffield Hallam University. \r\n\r\nWith a background in aerospace engineering, Torsten's research is focused on biomedical problems, mostly concerning numerical modelling of the cardio-vascular system. Models range from 3-dimensional heart models to time-resolved 3d-flows in atherosclerotic vessels to 0D-lumped models of the whole circulatory system. Having started scientific programming with Fortran77, he now feels like he has come home with Julia."
    },
    {
-    "avatar": "https://pretalx.com/media/avatars/shu.pdf_I4Q20XK.jpg",
+    "avatar": "https://pretalx.com/media/avatars/b031d47292ade71479f9408639412cec_JQCklDk.jpg",
     "name": "Harry Saxton",
     "code": "WMTZVU",
     "biography": "Harry Saxton is a 2nd Year PhD student at Sheffield Hallam University. With a background in mathematics, Harry is interested in Lumped parameter modelling and inverse problems. Harry's main interests lie in the areas of Sensitivity, Identifiability and Bayesian analysis. However, any biological problem in which mathematics is applied is of interest. Harry has been a part of developing the Julia package CirculatorySystemModels.jl which is a package which allows simple, modular lumped parameter modelling. Harry has been using Julia a year and feels like it is the best programming community that is out there."
@@ -9161,7 +9161,7 @@
     "biography": "I work for JuliaHub on julia compiler and language development"
    },
    {
-    "avatar": "https://pretalx.com/media/avatars/2989a078f4caff6fb86fa30e59bd9aa9_MJ1BZ3P.jpg",
+    "avatar": "https://pretalx.com/media/avatars/holy_headshot_NqmqA6c.jpg",
     "name": "Tim Holy",
     "code": "J9BSUH",
     "biography": "I am the Alan A. and Edith L. Wolff Professor of Neuroscience at Washington University in St. Louis. In addition to my scientific research, I contribute to Julia, its tooling, and portions of the package ecosystem."
@@ -10121,7 +10121,7 @@
   "duration": 180,
   "speakers": [
    {
-    "avatar": "https://pretalx.com/media/avatars/2989a078f4caff6fb86fa30e59bd9aa9_MJ1BZ3P.jpg",
+    "avatar": "https://pretalx.com/media/avatars/holy_headshot_NqmqA6c.jpg",
     "name": "Tim Holy",
     "code": "J9BSUH",
     "biography": "I am the Alan A. and Edith L. Wolff Professor of Neuroscience at Washington University in St. Louis. In addition to my scientific research, I contribute to Julia, its tooling, and portions of the package ecosystem."
