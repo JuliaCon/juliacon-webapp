@@ -4381,7 +4381,7 @@
   "duration": 10,
   "speakers": [
    {
-    "avatar": "https://pretalx.com/media/avatars/20190901_103834_6GP17X3.jpg",
+    "avatar": "https://pretalx.com/media/avatars/532a03ae3ce6e08643642663d49a1868_MTKNkAV.jpg",
     "name": "Volker Karle",
     "code": "XJDRDX",
     "biography": "I'm a PhD student at the Institute of Science and Technology Austria (in Vienna in Austria) and I work as a Quantum theorist in the field of periodically driven non-equilibrium systems that are realizable in table-top experiments such as laser-driven molecules. In my research, I try to evaluate new kind of non-Abelian topological invariants that could give rise of exotic non-equilibrium behavior. In my work, I make use of the Julia language after many years of C++/python and I'm still fascinated by certain mechanics such as multiple dispatch. I'm happy to talk about Quantum physics, high-performance programming or math-heavy computations. In my free-time I enjoy playing Chess, climbing and making music."
