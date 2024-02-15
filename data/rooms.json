@@ -5,7 +5,7 @@
   },
   "id": 2027,
   "position": 0,
-  "guid": null,
+  "guid": "0804ec76-3762-5b40-b0f0-b479c8366c66",
   "description": {
    "en": "500+ in tiered lecture hall in adjacent building"
   },
@@ -18,7 +18,7 @@
   },
   "id": 2028,
   "position": 1,
-  "guid": null,
+  "guid": "8a04d647-bdad-5540-ba3c-6fe9ca1fda13",
   "description": {
    "en": "117 at round tables in basement"
   },
@@ -31,7 +31,7 @@
   },
   "id": 2029,
   "position": 2,
-  "guid": null,
+  "guid": "51789f12-7d26-5173-9a1b-a5a5915d349d",
   "description": {
    "en": "318 in tiered lecture hall"
   },
@@ -44,7 +44,7 @@
   },
   "id": 2030,
   "position": 3,
-  "guid": null,
+  "guid": "634b3323-8a46-5237-ba3a-06353fc8338a",
   "description": {
    "en": "60 in flat classroom"
   },
@@ -57,7 +57,7 @@
   },
   "id": 2031,
   "position": 6,
-  "guid": null,
+  "guid": "8bceab61-5c9e-577d-b88f-1ee5bfe236ca",
   "description": {
    "en": "60 in flat seminar room"
   },
@@ -70,7 +70,7 @@
   },
   "id": 2032,
   "position": 4,
-  "guid": null,
+  "guid": "6b9b136e-e213-50a4-81d3-bfc83d51d379",
   "description": {
    "en": "60 in flat classroom"
   },
@@ -83,7 +83,7 @@
   },
   "id": 2033,
   "position": 5,
-  "guid": null,
+  "guid": "126dd257-cd83-5d43-951f-e9801d1bc1d9",
   "description": {},
   "url": "/orga/event/juliacon2023/schedule/rooms/2033/",
   "capacity": 90
@@ -94,7 +94,7 @@
   },
   "id": 2231,
   "position": 9,
-  "guid": null,
+  "guid": "a0094b84-5869-5b46-bb78-a187f8203575",
   "description": {
    "en": "(ignore this column, the times are arbitrary)"
   },
@@ -107,7 +107,7 @@
   },
   "id": 2342,
   "position": 7,
-  "guid": null,
+  "guid": "bb4ebd1e-c1aa-5247-bd7e-963cca2a8617",
   "description": {
    "en": "90 in tiered classroom"
   },
@@ -120,7 +120,7 @@
   },
   "id": 2343,
   "position": 8,
-  "guid": null,
+  "guid": "e09cdfec-ef88-5e37-89b8-039fdf749d13",
   "description": {
    "en": "90 in tiered classroom"
   },
