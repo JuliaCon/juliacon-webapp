@@ -27,7 +27,7 @@
     "@widgetbot/react-embed": "1.4.0",
     "apollo-datasource-rest": "0.14.0",
     "apollo-server-micro": "2.25.2",
-    "aws-amplify": "4.3.46",
+    "aws-amplify": "5.3.12",
     "cookie": "0.4.1",
     "date-fns": "2.22.1",
     "date-fns-tz": "^1.1.4",
